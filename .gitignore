@@ -1,0 +1,18 @@
+# nix
+result
+result-*
+.direnv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# SCF workbooks are fetched, never committed (CC BY-ND source stays upstream)
+*.xlsx
+
+# scratch
+/tmp/
