@@ -1,0 +1,47 @@
+# Tag + GitHub release whenever main's .scf-version changes (autopilot step 2).
+
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths: [".scf-version"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tag and release
+        run: |
+          VERSION="$(cat .scf-version)"
+          if gh release view "$VERSION" > /dev/null 2>&1; then
+            echo "Release $VERSION already exists — no-op."
+            exit 0
+          fi
+          if ! git rev-parse "$VERSION" > /dev/null 2>&1; then
+            git tag "$VERSION"
+            git push origin "$VERSION"
+          fi
+          {
+            echo "Canonical SCF $VERSION dataset."
+            echo
+            jq -r '"- \(.total_controls) controls across \(.total_families) families",
+                   "- \(.crosswalk_frameworks | length) framework crosswalks",
+                   "- \(.total_assessment_objectives) assessment objectives, \(.total_evidence_requests) evidence requests",
+                   "- \(.total_risks) risks, \(.total_threats) threats",
+                   "- \(.total_compensating_controls) compensating controls, \(.total_privacy_principles) privacy principles"' \
+              docs/api/summary.json
+            echo
+            echo "Validation report attached (workbook sha256, findings, overrides, reconciliation manifest)."
+          } > /tmp/notes.md
+          gh release create "$VERSION" \
+            --title "SCF $VERSION" \
+            --notes-file /tmp/notes.md \
+            validation/validation-report.json

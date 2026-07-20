@@ -1,0 +1,161 @@
+# Autopilot: a clean upstream SCF release lands on main with zero human touch.
+# A human is summoned (GitHub issue) ONLY when the validation gate finds a
+# workbook inconsistency it cannot resolve; their job is an override-map entry
+# (or an upstream bug report), then a re-dispatch.
+#
+# Direct-push is deliberate: GITHUB_TOKEN-created PRs don't trigger required-
+# check workflows (the classic unattended-flow trap). The full hermetic gate
+# (nix flake check) runs IN this workflow before anything is pushed.
+
+name: Update SCF
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # weekly, Monday 06:17 UTC
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Upstream release tag (default: latest)"
+        required: false
+      force:
+        description: "Run the pipeline even if the tag matches .scf-version"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: update-scf
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve upstream release
+        id: resolve
+        run: |
+          TAG='${{ inputs.tag }}'
+          if [ -z "$TAG" ]; then
+            TAG="$(gh release view --repo securecontrolsframework/securecontrolsframework \
+                   --json tagName --jq .tagName)"
+          fi
+          VERSION="${TAG#v}"
+          CURRENT="$(cat .scf-version 2>/dev/null || echo none)"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          if [ "$VERSION" = "$CURRENT" ] && [ '${{ inputs.force }}' != 'true' ]; then
+            echo "Already at SCF $CURRENT — nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: DeterminateSystems/nix-installer-action@v16
+        if: steps.resolve.outputs.skip == 'false'
+      - uses: DeterminateSystems/magic-nix-cache-action@v9
+        if: steps.resolve.outputs.skip == 'false'
+
+      - name: Fetch workbook
+        if: steps.resolve.outputs.skip == 'false'
+        run: |
+          gh release download '${{ steps.resolve.outputs.tag }}' \
+            --repo securecontrolsframework/securecontrolsframework \
+            --pattern '*.xlsx' --dir workbooks
+          ls -la workbooks
+
+      - name: Parse + validate (the hard gate) + build
+        id: pipeline
+        if: steps.resolve.outputs.skip == 'false'
+        run: |
+          cp -r data /tmp/old-data
+          WORKBOOK="$(ls workbooks/*.xlsx | head -1)"
+          set +e
+          nix develop --command python3 -m scf_api.cli parse \
+            --workbook "$WORKBOOK" \
+            --scf-version '${{ steps.resolve.outputs.version }}' \
+            --out data \
+            --overrides overrides/overrides.json \
+            --report validation/validation-report.json
+          RC=$?
+          set -e
+          echo "gate_rc=$RC" >> "$GITHUB_OUTPUT"
+          if [ "$RC" -ne 0 ]; then
+            exit 0  # handled by the summon-a-human step
+          fi
+          nix develop --command python3 -m scf_api.cli build --data data --out docs
+          echo '${{ steps.resolve.outputs.version }}' > .scf-version
+          nix develop --command python3 -m scf_api.cli changelog /tmp/old-data data \
+            > /tmp/changelog-section.md || true
+
+      - name: Upload validation report
+        if: steps.resolve.outputs.skip == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report-${{ steps.resolve.outputs.version }}
+          path: validation/validation-report.json
+          if-no-files-found: ignore
+
+      - name: Summon a human (validation gate failed)
+        if: steps.resolve.outputs.skip == 'false' && steps.pipeline.outputs.gate_rc != '0'
+        run: |
+          git checkout -- data docs .scf-version 2>/dev/null || true
+          {
+            echo "The validation gate blocked SCF ${{ steps.resolve.outputs.version }}."
+            echo
+            nix develop --command python3 - << 'EOF'
+          import json
+          r = json.load(open("validation/validation-report.json"))
+          print(f"- workbook sha256: `{r['workbook_sha256']}`")
+          print(f"- summary: `{r['summary']}`")
+          print()
+          print("## Unresolved findings (sheet/cell provenance)")
+          print()
+          for f in r["findings"]:
+              if f["severity"] == "fail" and not f["resolution"]:
+                  where = f"{f.get('sheet') or '?'}!{f.get('cell') or '?'}"
+                  print(f"- **{f['check']}** at {where}: {f['message']}")
+          EOF
+            echo
+            echo "Full report: workflow-run artifact \`validation-report-${{ steps.resolve.outputs.version }}\`."
+            echo
+            echo "Your job: add an override entry (with a reason) to overrides/overrides.json,"
+            echo "or report the workbook bug upstream — then re-dispatch this workflow."
+          } > /tmp/issue-body.md
+          gh issue create \
+            --title "SCF ${{ steps.resolve.outputs.version }}: validation gate failed" \
+            --body-file /tmp/issue-body.md
+          exit 1
+
+      - name: Full hermetic gate
+        if: steps.resolve.outputs.skip == 'false' && steps.pipeline.outputs.gate_rc == '0'
+        run: nix flake check -L
+
+      - name: Commit and push (or no-op)
+        if: steps.resolve.outputs.skip == 'false' && steps.pipeline.outputs.gate_rc == '0'
+        run: |
+          # Idempotence: only the validation report carries a timestamp. If the
+          # dataset itself didn't change (forced re-run at the same tag), drop
+          # the report churn and push nothing.
+          if git diff --quiet -- data docs .scf-version CHANGELOG.md 2>/dev/null \
+             && [ -z "$(git status --porcelain data docs .scf-version)" ]; then
+            git checkout -- validation 2>/dev/null || true
+            echo "Dataset unchanged — no-op."
+            exit 0
+          fi
+          if [ -s /tmp/changelog-section.md ]; then
+            { cat /tmp/changelog-section.md; echo; cat CHANGELOG.md 2>/dev/null; } \
+              > /tmp/changelog-full.md
+            mv /tmp/changelog-full.md CHANGELOG.md
+          fi
+          git config user.name "scf-api autopilot"
+          git config user.email "noreply@github.com"
+          git add data docs validation .scf-version CHANGELOG.md
+          git commit -m "SCF ${{ steps.resolve.outputs.version }}: automated dataset update"
+          git push origin main
