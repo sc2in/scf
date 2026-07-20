@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "scf-threats.json",
+  "type": "object",
+  "required": ["total", "threats"],
+  "properties": {
+    "total": {"type": "integer"},
+    "threats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["threat_id", "grouping", "name", "description"],
+        "properties": {
+          "threat_id": {"type": "string", "minLength": 1},
+          "grouping": {"type": "string"},
+          "name": {"type": "string"},
+          "description": {"type": "string"}
+        }
+      }
+    }
+  }
+}

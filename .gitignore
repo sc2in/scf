@@ -16,3 +16,6 @@ __pycache__/
 
 # scratch
 /tmp/
+
+# fetched workbooks
+workbooks/

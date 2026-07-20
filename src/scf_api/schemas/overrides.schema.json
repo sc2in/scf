@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "overrides/overrides.json",
+  "type": "object",
+  "required": ["overrides"],
+  "properties": {
+    "overrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "check", "control", "match", "action", "reason"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "check": {"type": "string"},
+          "sheet": {"type": "string"},
+          "control": {"type": "string"},
+          "match": {"type": "string"},
+          "action": {"enum": ["drop", "replace", "accept"]},
+          "replacement": {"type": "string"},
+          "reason": {"type": "string", "minLength": 1},
+          "reported_upstream": {"type": ["string", "null"]},
+          "applies_to": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

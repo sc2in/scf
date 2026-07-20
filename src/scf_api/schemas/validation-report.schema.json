@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "validation/validation-report.json",
+  "type": "object",
+  "required": ["scf_version", "workbook_sha256", "generated_at", "summary", "findings", "overrides", "reconciliation"],
+  "properties": {
+    "scf_version": {"type": "string"},
+    "workbook_sha256": {"type": "string"},
+    "workbook": {"type": ["string", "null"]},
+    "generated_at": {"type": "string"},
+    "summary": {
+      "type": "object",
+      "required": ["fail", "warn", "resolved", "ok"],
+      "properties": {
+        "fail": {"type": "integer"},
+        "warn": {"type": "integer"},
+        "resolved": {"type": "integer"},
+        "ok": {"type": "boolean"}
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["check", "severity", "message", "owner", "value"],
+        "properties": {
+          "check": {"type": "string"},
+          "severity": {"enum": ["fail", "warn"]},
+          "message": {"type": "string"},
+          "owner": {"type": "string"},
+          "value": {"type": "string"},
+          "sheet": {"type": ["string", "null"]},
+          "cell": {"type": ["string", "null"]},
+          "resolution": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "overrides": {
+      "type": "object",
+      "required": ["used", "unused"],
+      "properties": {
+        "used": {"type": "array", "items": {"type": "string"}},
+        "unused": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "reconciliation": {"type": "object"}
+  }
+}

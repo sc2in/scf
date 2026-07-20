@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SCF catalog (scf-<version>.json)",
+  "type": "object",
+  "required": ["framework", "families", "controls"],
+  "properties": {
+    "framework": {
+      "type": "object",
+      "required": ["id", "name", "version"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^scf-[0-9-]+$"},
+        "name": {"const": "SCF"},
+        "version": {"type": "string", "pattern": "^[0-9]+(\\.[0-9]+)+$"}
+      }
+    },
+    "families": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "controls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "control_id", "title", "family", "description", "scf_question",
+          "relative_weight", "conformity_cadence", "evidence_requests",
+          "pptdf", "nist_csf_function", "scrm_focus", "maturity",
+          "profiles", "possible_solutions", "risks", "threats"
+        ],
+        "properties": {
+          "control_id": {"type": "string", "minLength": 1},
+          "title": {"type": "string"},
+          "family": {"type": "string", "minLength": 1},
+          "description": {"type": "string"},
+          "scf_question": {"type": "string"},
+          "relative_weight": {"type": "integer"},
+          "conformity_cadence": {"type": "string"},
+          "evidence_requests": {"type": "array", "items": {"type": "string"}},
+          "pptdf": {"type": "string"},
+          "nist_csf_function": {"type": "string"},
+          "scrm_focus": {
+            "type": "object",
+            "required": ["strategic", "operational", "tactical"],
+            "additionalProperties": {"type": "boolean"}
+          },
+          "maturity": {
+            "type": "object",
+            "required": ["0", "1", "2", "3", "4", "5"],
+            "additionalProperties": {"type": "string"}
+          },
+          "profiles": {"type": "array", "items": {"type": "string"}},
+          "possible_solutions": {
+            "type": "object",
+            "required": ["micro_small", "small", "medium", "large", "enterprise"],
+            "additionalProperties": {"type": "string"}
+          },
+          "risks": {"type": "array", "items": {"type": "string"}},
+          "threats": {"type": "array", "items": {"type": "string"}},
+          "errata": {"type": "string"}
+        }
+      }
+    }
+  }
+}

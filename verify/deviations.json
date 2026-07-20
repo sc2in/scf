@@ -1,0 +1,19 @@
+{
+  "deviations": [
+    {
+      "control_id": "TDA-11.2",
+      "field": "risks",
+      "reason": "Upstream exceljs parser bug: the archived dataset emits [\"[object Object]\"] for TDA-11.2's empty TEXTJOIN summary cell; we emit the real (empty) value."
+    },
+    {
+      "control_id": "TDA-11.2",
+      "field": "threats",
+      "reason": "Upstream exceljs parser bug: the archived dataset emits [\"[object Object]\"] for TDA-11.2's empty TEXTJOIN summary cell; we emit the real (empty) value."
+    },
+    {
+      "control_id": "MON-03.3",
+      "field": "evidence_requests",
+      "reason": "Workbook typo (control id MON-03.2 in the ERL column) dropped by override mon-03.3-erl-typo-2026.1.1; the archived dataset shipped the raw typo."
+    }
+  ]
+}

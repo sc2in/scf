@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "scf-risks.json",
+  "type": "object",
+  "required": ["total", "risks"],
+  "properties": {
+    "total": {"type": "integer"},
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["risk_id", "grouping", "name", "description", "nist_csf_function"],
+        "properties": {
+          "risk_id": {"type": "string", "minLength": 1},
+          "grouping": {"type": "string"},
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "nist_csf_function": {"type": "string"}
+        }
+      }
+    }
+  }
+}

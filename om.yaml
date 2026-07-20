@@ -1,0 +1,19 @@
+# Omnix CI configuration — local `om ci` mirrors the CI path.
+ci:
+  default:
+    root:
+      dir: .
+      steps:
+        flake-check:
+          enable: true
+        build:
+          enable: true
+
+health:
+  default:
+    nix-version:
+      supported: ">=2.16.0"
+    direnv:
+      required: false
+    homebrew:
+      enable: false

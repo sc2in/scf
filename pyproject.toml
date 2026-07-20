@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scf-api"
+version = "0.1.0"
+description = "Canonical Secure Controls Framework dataset pipeline: SCF workbook -> validated JSON -> static API"
+readme = "README.md"
+license = "AGPL-3.0-only"
+requires-python = ">=3.11"
+dependencies = [
+  "openpyxl>=3.1",
+  "rapidfuzz>=3.0",
+  "jsonschema>=4.0",
+]
+
+[project.scripts]
+scf-api = "scf_api.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/scf_api"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 99
+target-version = "py311"

@@ -1,0 +1,15 @@
+{
+  "overrides": [
+    {
+      "id": "mon-03.3-erl-typo-2026.1.1",
+      "check": "control-erl",
+      "sheet": "SCF 2026.1",
+      "control": "MON-03.3",
+      "match": "MON-03.2",
+      "action": "drop",
+      "reason": "Workbook typo: the Evidence Request List column of MON-03.3 lists the control id MON-03.2 instead of an E-* artifact id. No plausible intended ERL id exists, so the reference is dropped. praxis independently filters non-E-* values; the archived hackIDLE dataset shipped the raw typo (tree-proof allowlist entry).",
+      "reported_upstream": null,
+      "applies_to": ["2026.1.1"]
+    }
+  ]
+}

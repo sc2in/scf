@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "scf-crosswalks.json",
+  "type": "object",
+  "required": ["metadata", "scf_to_framework", "framework_to_scf"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["source", "source_url", "license", "total_frameworks", "framework_display_names"],
+      "properties": {
+        "source": {"type": "string"},
+        "source_url": {"type": "string"},
+        "license": {"type": "string"},
+        "total_frameworks": {"type": "integer"},
+        "framework_display_names": {
+          "type": "object",
+          "additionalProperties": {"type": "string"}
+        }
+      }
+    },
+    "scf_to_framework": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "framework_to_scf": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

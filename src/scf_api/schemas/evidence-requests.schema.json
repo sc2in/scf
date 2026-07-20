@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "scf-evidence-requests.json",
+  "type": "object",
+  "required": ["total", "evidence_requests"],
+  "properties": {
+    "total": {"type": "integer"},
+    "evidence_requests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["erl_id", "area", "artifact_name", "artifact_description", "scf_controls", "cmmc_mapping"],
+        "properties": {
+          "erl_id": {"type": "string", "minLength": 1},
+          "area": {"type": "string"},
+          "artifact_name": {"type": "string"},
+          "artifact_description": {"type": "string"},
+          "scf_controls": {"type": "array", "items": {"type": "string"}},
+          "cmmc_mapping": {"type": "string"}
+        }
+      }
+    }
+  }
+}
