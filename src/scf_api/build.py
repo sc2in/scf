@@ -117,13 +117,15 @@ def build_docs(data_dir: Path, out_dir: Path) -> dict:
         {"total_frameworks": len(framework_index), "frameworks": framework_index},
     )
     for fw_id in sorted(crosswalks["scf_to_framework"]):
+        forward = crosswalks["scf_to_framework"][fw_id]
+        reverse = crosswalks["framework_to_scf"][fw_id]
         jsonio.write(
             api / "crosswalks" / f"{fw_id}.json",
             {
                 "framework_id": fw_id,
                 "display_name": display_names.get(fw_id, fw_id),
-                "scf_to_framework": crosswalks["scf_to_framework"][fw_id],
-                "framework_to_scf": crosswalks["framework_to_scf"][fw_id],
+                "scf_to_framework": {"total_mappings": len(forward), "mappings": forward},
+                "framework_to_scf": {"total_mappings": len(reverse), "mappings": reverse},
             },
         )
 

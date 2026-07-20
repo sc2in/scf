@@ -251,9 +251,17 @@ def _parse_controls(wb: SCFWorkbook, result: ParseResult) -> tuple[list[dict], d
             "pptdf": _text(row[pptdf_col]),
             "nist_csf_function": _text(row[nist_col]),
             "scrm_focus": {key: marked(row[col]) for key, col in scrm_cols.items()},
-            "maturity": {level: _text(row[col]) for level, col in maturity_cols.items()},
+            # Levels without criteria are omitted, not emitted empty.
+            "maturity": {
+                level: _text(row[col])
+                for level, col in maturity_cols.items()
+                if cell_text(row[col])
+            },
             "profiles": [name for col, name in profile_cols if marked(row[col])],
-            "possible_solutions": {key: _text(row[col]) for key, col in solution_cols.items()},
+            # Size tiers without guidance are omitted, not emitted empty.
+            "possible_solutions": {
+                key: _text(row[col]) for key, col in solution_cols.items() if cell_text(row[col])
+            },
             "risks": risks,
             "threats": threats,
         }
@@ -263,6 +271,24 @@ def _parse_controls(wb: SCFWorkbook, result: ParseResult) -> tuple[list[dict], d
 
     xwalk = _parse_crosswalks(wb, result, sheet, rows, id_col, xwalk_cols)
     return controls, xwalk
+
+
+def _js_object_order(d: dict[str, list[str]]) -> dict[str, list[str]]:
+    """Reorder keys the way a JavaScript object iterates them.
+
+    The published dataset was serialized from JS objects: canonical
+    array-index keys (no leading zeros, < 2^32-1) come first in ascending
+    numeric order, all other keys follow in insertion order. Framework refs
+    are often bare numbers ("13", "7001"), so reverse crosswalk maps carry
+    this ordering — consumers diff these files, so we reproduce it.
+    """
+
+    def is_index(k: str) -> bool:
+        return k.isdigit() and str(int(k)) == k and int(k) < 2**32 - 1
+
+    ordered = sorted((k for k in d if is_index(k)), key=int)
+    ordered += [k for k in d if not is_index(k)]
+    return {k: d[k] for k in ordered}
 
 
 def _parse_crosswalks(
@@ -321,7 +347,7 @@ def _parse_crosswalks(
             for ref in refs:
                 reverse.setdefault(ref, []).append(cid)
         scf_to_framework[api_id] = forward
-        framework_to_scf[api_id] = reverse
+        framework_to_scf[api_id] = _js_object_order(reverse)
 
     return {
         "metadata": {

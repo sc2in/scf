@@ -46,7 +46,11 @@ def norm_key(text: str) -> str:
 
 
 def split_multivalue(cell: object) -> list[str]:
-    """Split a newline-separated cell into raw, stripped, non-empty items."""
+    """Split a newline-separated cell into raw, stripped, non-empty items.
+
+    Duplicate lines (the workbook repeats refs inside some cells) collapse
+    to their first occurrence — the published dataset's convention.
+    """
     if cell is None:
         return []
-    return [part.strip() for part in str(cell).split("\n") if part.strip()]
+    return list(dict.fromkeys(part.strip() for part in str(cell).split("\n") if part.strip()))
