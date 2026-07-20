@@ -1,7 +1,7 @@
 # SCF API Reference
 
 Static JSON API for the [Secure Controls Framework](https://securecontrolsframework.com) (SCF) v2026.1.1,
-maintained by SC2 (sc2in/scf-api).
+maintained by SC2 (sc2in/scf).
 
 - **1468** controls across **33** families
 - **249** framework crosswalks

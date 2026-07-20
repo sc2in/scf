@@ -4,45 +4,106 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SCF API — SC2</title>
-  <meta name="description" content="Static JSON API for the Secure Controls Framework. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests." />
+  <meta name="description" content="Validated static JSON API for the Secure Controls Framework. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests." />
   <style>
-    body { font-family: system-ui, sans-serif; background: #1e1e2e; color: #cdd6f4; max-width: 640px; margin: 0 auto; padding: 2rem 1rem; line-height: 1.6; }
-    h1 { font-size: 1.3rem; margin-bottom: 0.5rem; }
-    h2 { color: #a6adc8; font-size: 0.9rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
-    p { color: #a6adc8; margin-bottom: 0.75rem; font-size: 0.9rem; }
-    a { color: #89b4fa; }
-    code { color: #a6e3a1; font-size: 0.85em; }
-    ul { padding-left: 1.2rem; margin: 0; }
-    li { margin-bottom: 0.25rem; font-size: 0.9rem; }
-    .sub { color: #6c7086; font-size: 0.8rem; margin-top: 2rem; }
-    .sub a { color: #6c7086; }
+    :root {
+      --bg: #1e1e2e; --surface: #27273a; --border: #3b3b54;
+      --fg: #cdd6f4; --muted: #a6adc8; --faint: #6c7086;
+      --accent: #89b4fa; --accent-2: #b4befe; --ok: #a6e3a1;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7f7fb; --surface: #ffffff; --border: #dcdce6;
+        --fg: #24243a; --muted: #55556e; --faint: #8a8aa0;
+        --accent: #2455c3; --accent-2: #1a3f94; --ok: #256d3b;
+      }
+    }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg);
+           max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 2rem; line-height: 1.6; }
+    h1 { font-size: 1.6rem; margin: 0 0 0.25rem; letter-spacing: -0.01em; }
+    h1 .v { font-size: 0.8rem; font-weight: 600; color: var(--ok); border: 1px solid var(--border);
+             border-radius: 999px; padding: 0.1rem 0.6rem; vertical-align: 0.25em; margin-left: 0.5rem; }
+    h2 { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em;
+          margin: 2rem 0 0.6rem; }
+    p { color: var(--muted); margin: 0.5rem 0 0.75rem; font-size: 0.95rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-2); text-decoration: underline; }
+    code { color: var(--ok); font-size: 0.85em; }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+              gap: 0.6rem; margin-top: 1.25rem; }
+    .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+             padding: 0.7rem 0.9rem; display: flex; flex-direction: column; }
+    .tile .n { font-size: 1.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .tile .l { font-size: 0.75rem; color: var(--faint); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    td { padding: 0.35rem 0.5rem 0.35rem 0; vertical-align: top; border-bottom: 1px solid var(--border); }
+    td:last-child { color: var(--muted); }
+    pre { background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+           padding: 0.8rem 1rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.5; }
+    pre code { color: var(--fg); }
+    pre .c { color: var(--faint); }
+    .sub { color: var(--faint); font-size: 0.8rem; margin-top: 2.5rem; border-top: 1px solid var(--border);
+            padding-top: 1rem; }
+    .sub a { color: var(--faint); text-decoration: underline; }
   </style>
 </head>
 <body>
-  <h1>SCF API</h1>
-  <p>1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests. Static JSON from the <a href="https://securecontrolsframework.com">Secure Controls Framework</a>, maintained by SC2.</p>
+  <h1>SCF API<span class="v">v2026.1.1</span></h1>
+  <p>The <a href="https://securecontrolsframework.com">Secure Controls Framework</a> as a validated,
+  versioned, static JSON API — parsed from the official SCF workbook, gated on cross-sheet
+  referential integrity, and rebuilt automatically on every upstream release.
+  No auth, no rate limits, plain files.</p>
 
-  <h2>Agents</h2>
-  <ul>
-    <li><a href="llms.txt">llms.txt</a></li>
-    <li><a href="llms-full.txt">llms-full.txt</a></li>
-    <li><a href="api/docs.md">api/docs.md</a></li>
-  </ul>
+  <div class="tiles">
+      <div class="tile"><span class="n">1,468</span><span class="l">controls</span></div>
+      <div class="tile"><span class="n">33</span><span class="l">families</span></div>
+      <div class="tile"><span class="n">249</span><span class="l">crosswalks</span></div>
+      <div class="tile"><span class="n">5,776</span><span class="l">assessment objectives</span></div>
+      <div class="tile"><span class="n">303</span><span class="l">evidence requests</span></div>
+      <div class="tile"><span class="n">1,305</span><span class="l">compensating controls</span></div>
+  </div>
+
+  <h2>Try it</h2>
+  <pre><code><span class="c"># one control, with its framework crosswalks</span>
+curl -s https://sc2in.github.io/scf/api/controls/GOV-01.json | jq .title
+
+<span class="c"># everything SCF maps to NIST SP 800-53 R5</span>
+curl -s https://sc2in.github.io/scf/api/crosswalks/general-nist-800-53-r5-2.json | jq .scf_to_framework</code></pre>
 
   <h2>Endpoints</h2>
-  <ul>
-    <li><a href="api/summary.json"><code>summary</code></a></li>
-    <li><a href="api/controls.json"><code>controls</code></a></li>
-    <li><a href="api/families.json"><code>families</code></a></li>
-    <li><a href="api/crosswalks.json"><code>crosswalks</code></a></li>
-    <li><a href="api/threats.json"><code>threats</code></a></li>
-    <li><a href="api/risks.json"><code>risks</code></a></li>
-    <li><a href="api/assessment-objectives.json"><code>assessment-objectives</code></a></li>
-    <li><a href="api/evidence-requests.json"><code>evidence-requests</code></a></li>
-    <li><a href="api/compensating-controls.json"><code>compensating-controls</code></a></li>
-    <li><a href="api/privacy-principles.json"><code>privacy-principles</code></a></li>
-  </ul>
+  <table>
+      <tr><td><a href="api/summary.json"><code>api/summary.json</code></a></td><td>Version, all counts, weight distribution.</td></tr>
+      <tr><td><a href="api/controls.json"><code>api/controls.json</code></a></td><td>All controls with full metadata and crosswalks.</td></tr>
+      <tr><td><a href="api/families.json"><code>api/families.json</code></a></td><td>Family index.</td></tr>
+      <tr><td><a href="api/crosswalks.json"><code>api/crosswalks.json</code></a></td><td>Framework index.</td></tr>
+      <tr><td><a href="api/threats.json"><code>api/threats.json</code></a></td><td>Threat catalog.</td></tr>
+      <tr><td><a href="api/risks.json"><code>api/risks.json</code></a></td><td>Risk catalog.</td></tr>
+      <tr><td><a href="api/assessment-objectives.json"><code>api/assessment-objectives.json</code></a></td><td>All assessment objectives.</td></tr>
+      <tr><td><a href="api/evidence-requests.json"><code>api/evidence-requests.json</code></a></td><td>Evidence request list.</td></tr>
+      <tr><td><a href="api/compensating-controls.json"><code>api/compensating-controls.json</code></a></td><td>Compensating control guidance.</td></tr>
+      <tr><td><a href="api/privacy-principles.json"><code>api/privacy-principles.json</code></a></td><td>Data privacy management principles.</td></tr>
+  </table>
 
-  <p class="sub">SCF v2026.1.1 &middot; CC BY-ND &middot; <a href="https://github.com/sc2in/scf-api">sc2in/scf-api</a></p>
+  <h2>Detail endpoints</h2>
+  <table>
+      <tr><td><code>api/controls/{ID}.json</code></td><td>single control (e.g., GOV-01)</td></tr>
+      <tr><td><code>api/families/{CODE}.json</code></td><td>family detail (e.g., GOV)</td></tr>
+      <tr><td><code>api/crosswalks/{FW_ID}.json</code></td><td>bidirectional crosswalk</td></tr>
+      <tr><td><code>api/threats/{ID}.json</code></td><td>single threat (e.g., NT-1)</td></tr>
+      <tr><td><code>api/risks/{ID}.json</code></td><td>single risk (e.g., R-AC-1)</td></tr>
+      <tr><td><code>api/assessment-objectives/{SCF_ID}.json</code></td><td>AOs for a control</td></tr>
+      <tr><td><code>api/evidence-requests/{ERL_ID}.json</code></td><td>evidence request (e.g., E-GOV-01)</td></tr>
+      <tr><td><code>api/compensating-controls/{SCF_ID}.json</code></td><td>compensating controls</td></tr>
+  </table>
+
+  <h2>Agents</h2>
+  <p><a href="llms.txt">llms.txt</a> &middot; <a href="llms-full.txt">llms-full.txt</a> &middot;
+  <a href="api/docs.md">api/docs.md</a></p>
+
+  <p class="sub">SCF v2026.1.1, format-shifted verbatim from the official workbook —
+  content &copy; <a href="https://securecontrolsframework.com">Secure Controls Framework Council</a>,
+  CC BY-ND 4.0. Pipeline: <a href="https://github.com/sc2in/scf">sc2in/scf</a> (AGPL-3.0),
+  maintained by SC2. Every release ships its validation report.</p>
 </body>
 </html>

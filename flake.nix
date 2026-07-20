@@ -1,5 +1,5 @@
 {
-  description = "sc2in/scf-api — canonical Secure Controls Framework dataset: workbook -> validated JSON -> static API";
+  description = "sc2in/scf — canonical Secure Controls Framework dataset: workbook -> validated JSON -> static API";
 
   inputs = {
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0";

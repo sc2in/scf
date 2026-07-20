@@ -229,7 +229,7 @@ def _write_static_pages(out_dir: Path, s: dict) -> None:
     ]
 
     llms = [
-        "# SCF API (sc2in/scf-api)",
+        "# SCF API (sc2in/scf)",
         "",
         f"> Source-faithful static JSON API for the Secure Controls Framework (SCF) "
         f"v{version}. {stats}. All static JSON, no auth required.",
@@ -256,7 +256,7 @@ def _write_static_pages(out_dir: Path, s: dict) -> None:
         "",
         f"Static JSON API for the [Secure Controls Framework]"
         f"(https://securecontrolsframework.com) (SCF) v{version},",
-        "maintained by SC2 (sc2in/scf-api).",
+        "maintained by SC2 (sc2in/scf).",
         "",
         f"- **{s['total_controls']}** controls across **{s['total_families']}** families",
         f"- **{len(s['crosswalk_frameworks'])}** framework crosswalks",
@@ -300,8 +300,24 @@ def _write_static_pages(out_dir: Path, s: dict) -> None:
     ]
     (out_dir / "llms-full.txt").write_text("\n".join(full) + "\n", encoding="utf-8")
 
-    endpoint_lis = "\n".join(
-        f'    <li><a href="api/{fn}"><code>{name}</code></a></li>' for name, fn, desc in endpoints
+    tiles = [
+        (f"{s['total_controls']:,}", "controls"),
+        (str(s["total_families"]), "families"),
+        (str(len(s["crosswalk_frameworks"])), "crosswalks"),
+        (f"{s['total_assessment_objectives']:,}", "assessment objectives"),
+        (str(s["total_evidence_requests"]), "evidence requests"),
+        (str(f"{s['total_compensating_controls']:,}"), "compensating controls"),
+    ]
+    tile_divs = "\n".join(
+        f'      <div class="tile"><span class="n">{n}</span><span class="l">{label}</span></div>'
+        for n, label in tiles
+    )
+    endpoint_rows = "\n".join(
+        f'      <tr><td><a href="api/{fn}"><code>api/{fn}</code></a></td><td>{desc}</td></tr>'
+        for name, fn, desc in endpoints
+    )
+    detail_rows = "\n".join(
+        f"      <tr><td><code>{path}</code></td><td>{desc}</td></tr>" for path, desc in details
     )
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -309,37 +325,86 @@ def _write_static_pages(out_dir: Path, s: dict) -> None:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SCF API — SC2</title>
-  <meta name="description" content="Static JSON API for the Secure Controls Framework. {stats}." />
+  <meta name="description" content="Validated static JSON API for the Secure Controls Framework. {stats}." />
   <style>
-    body {{ font-family: system-ui, sans-serif; background: #1e1e2e; color: #cdd6f4; max-width: 640px; margin: 0 auto; padding: 2rem 1rem; line-height: 1.6; }}
-    h1 {{ font-size: 1.3rem; margin-bottom: 0.5rem; }}
-    h2 {{ color: #a6adc8; font-size: 0.9rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }}
-    p {{ color: #a6adc8; margin-bottom: 0.75rem; font-size: 0.9rem; }}
-    a {{ color: #89b4fa; }}
-    code {{ color: #a6e3a1; font-size: 0.85em; }}
-    ul {{ padding-left: 1.2rem; margin: 0; }}
-    li {{ margin-bottom: 0.25rem; font-size: 0.9rem; }}
-    .sub {{ color: #6c7086; font-size: 0.8rem; margin-top: 2rem; }}
-    .sub a {{ color: #6c7086; }}
+    :root {{
+      --bg: #1e1e2e; --surface: #27273a; --border: #3b3b54;
+      --fg: #cdd6f4; --muted: #a6adc8; --faint: #6c7086;
+      --accent: #89b4fa; --accent-2: #b4befe; --ok: #a6e3a1;
+    }}
+    @media (prefers-color-scheme: light) {{
+      :root {{
+        --bg: #f7f7fb; --surface: #ffffff; --border: #dcdce6;
+        --fg: #24243a; --muted: #55556e; --faint: #8a8aa0;
+        --accent: #2455c3; --accent-2: #1a3f94; --ok: #256d3b;
+      }}
+    }}
+    * {{ box-sizing: border-box; }}
+    body {{ font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg);
+           max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 2rem; line-height: 1.6; }}
+    h1 {{ font-size: 1.6rem; margin: 0 0 0.25rem; letter-spacing: -0.01em; }}
+    h1 .v {{ font-size: 0.8rem; font-weight: 600; color: var(--ok); border: 1px solid var(--border);
+             border-radius: 999px; padding: 0.1rem 0.6rem; vertical-align: 0.25em; margin-left: 0.5rem; }}
+    h2 {{ color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em;
+          margin: 2rem 0 0.6rem; }}
+    p {{ color: var(--muted); margin: 0.5rem 0 0.75rem; font-size: 0.95rem; }}
+    a {{ color: var(--accent); text-decoration: none; }}
+    a:hover {{ color: var(--accent-2); text-decoration: underline; }}
+    code {{ color: var(--ok); font-size: 0.85em; }}
+    .tiles {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+              gap: 0.6rem; margin-top: 1.25rem; }}
+    .tile {{ background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+             padding: 0.7rem 0.9rem; display: flex; flex-direction: column; }}
+    .tile .n {{ font-size: 1.25rem; font-weight: 700; font-variant-numeric: tabular-nums; }}
+    .tile .l {{ font-size: 0.75rem; color: var(--faint); }}
+    table {{ width: 100%; border-collapse: collapse; font-size: 0.9rem; }}
+    td {{ padding: 0.35rem 0.5rem 0.35rem 0; vertical-align: top; border-bottom: 1px solid var(--border); }}
+    td:last-child {{ color: var(--muted); }}
+    pre {{ background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+           padding: 0.8rem 1rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.5; }}
+    pre code {{ color: var(--fg); }}
+    pre .c {{ color: var(--faint); }}
+    .sub {{ color: var(--faint); font-size: 0.8rem; margin-top: 2.5rem; border-top: 1px solid var(--border);
+            padding-top: 1rem; }}
+    .sub a {{ color: var(--faint); text-decoration: underline; }}
   </style>
 </head>
 <body>
-  <h1>SCF API</h1>
-  <p>{stats}. Static JSON from the <a href="https://securecontrolsframework.com">Secure Controls Framework</a>, maintained by SC2.</p>
+  <h1>SCF API<span class="v">v{version}</span></h1>
+  <p>The <a href="https://securecontrolsframework.com">Secure Controls Framework</a> as a validated,
+  versioned, static JSON API — parsed from the official SCF workbook, gated on cross-sheet
+  referential integrity, and rebuilt automatically on every upstream release.
+  No auth, no rate limits, plain files.</p>
 
-  <h2>Agents</h2>
-  <ul>
-    <li><a href="llms.txt">llms.txt</a></li>
-    <li><a href="llms-full.txt">llms-full.txt</a></li>
-    <li><a href="api/docs.md">api/docs.md</a></li>
-  </ul>
+  <div class="tiles">
+{tile_divs}
+  </div>
+
+  <h2>Try it</h2>
+  <pre><code><span class="c"># one control, with its framework crosswalks</span>
+curl -s https://sc2in.github.io/scf/api/controls/GOV-01.json | jq .title
+
+<span class="c"># everything SCF maps to NIST SP 800-53 R5</span>
+curl -s https://sc2in.github.io/scf/api/crosswalks/general-nist-800-53-r5-2.json | jq .scf_to_framework</code></pre>
 
   <h2>Endpoints</h2>
-  <ul>
-{endpoint_lis}
-  </ul>
+  <table>
+{endpoint_rows}
+  </table>
 
-  <p class="sub">SCF v{version} &middot; CC BY-ND &middot; <a href="https://github.com/sc2in/scf-api">sc2in/scf-api</a></p>
+  <h2>Detail endpoints</h2>
+  <table>
+{detail_rows}
+  </table>
+
+  <h2>Agents</h2>
+  <p><a href="llms.txt">llms.txt</a> &middot; <a href="llms-full.txt">llms-full.txt</a> &middot;
+  <a href="api/docs.md">api/docs.md</a></p>
+
+  <p class="sub">SCF v{version}, format-shifted verbatim from the official workbook —
+  content &copy; <a href="https://securecontrolsframework.com">Secure Controls Framework Council</a>,
+  CC BY-ND 4.0. Pipeline: <a href="https://github.com/sc2in/scf">sc2in/scf</a> (AGPL-3.0),
+  maintained by SC2. Every release ships its validation report.</p>
 </body>
 </html>
 """

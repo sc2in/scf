@@ -1,4 +1,4 @@
-# CLAUDE.md — sc2in/scf-api (canonical SCF dataset pipeline)
+# CLAUDE.md — sc2in/scf (canonical SCF dataset pipeline)
 
 SC2's owned, maintained, **public** canonical source for Secure Controls Framework data:
 official SCF Excel workbook → validated `data/*.json` → static `docs/api/**`. Replaces the
