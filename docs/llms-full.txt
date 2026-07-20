@@ -1,0 +1,395 @@
+# SCF API (sc2in/scf-api)
+
+> Source-faithful static JSON API for the Secure Controls Framework (SCF) v2026.1.1. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests. All static JSON, no auth required.
+
+All data is static JSON. Append paths to the base URL.
+
+- `api/controls/{ID}.json` — single control (e.g., GOV-01)
+- `api/families/{CODE}.json` — family detail (e.g., GOV)
+- `api/crosswalks/{FW_ID}.json` — bidirectional crosswalk
+- `api/threats/{ID}.json` — single threat (e.g., NT-1)
+- `api/risks/{ID}.json` — single risk (e.g., R-AC-1)
+- `api/assessment-objectives/{SCF_ID}.json` — AOs for a control
+- `api/evidence-requests/{ERL_ID}.json` — evidence request (e.g., E-GOV-01)
+- `api/compensating-controls/{SCF_ID}.json` — compensating controls
+
+## Endpoints
+
+- [summary](api/summary.json): Version, all counts, weight distribution.
+- [controls](api/controls.json): All controls with full metadata and crosswalks.
+- [families](api/families.json): Family index.
+- [crosswalks](api/crosswalks.json): Framework index.
+- [threats](api/threats.json): Threat catalog.
+- [risks](api/risks.json): Risk catalog.
+- [assessment-objectives](api/assessment-objectives.json): All assessment objectives.
+- [evidence-requests](api/evidence-requests.json): Evidence request list.
+- [compensating-controls](api/compensating-controls.json): Compensating control guidance.
+- [privacy-principles](api/privacy-principles.json): Data privacy management principles.
+
+## Documentation
+
+- [API Reference](api/docs.md): Endpoint reference.
+- [Complete Documentation](llms-full.txt): Everything in one file.
+
+Data: Control identifiers, titles, and crosswalk references from the Secure Controls Framework (SCF), https://securecontrolsframework.com, licensed CC BY-ND 4.0.
+
+---
+
+# SCF API Reference
+
+Static JSON API for the [Secure Controls Framework](https://securecontrolsframework.com) (SCF) v2026.1.1,
+maintained by SC2 (sc2in/scf-api).
+
+- **1468** controls across **33** families
+- **249** framework crosswalks
+- **41** threats, **39** risks
+- **5776** assessment objectives, **303** evidence requests
+- **1305** compensating controls, **258** privacy principles
+- All static JSON, no auth, CC BY-ND.
+
+## Endpoints
+
+### summary
+
+`GET api/summary.json` — Version, all counts, weight distribution.
+
+### controls
+
+`GET api/controls.json` — All controls with full metadata and crosswalks.
+
+### families
+
+`GET api/families.json` — Family index.
+
+### crosswalks
+
+`GET api/crosswalks.json` — Framework index.
+
+### threats
+
+`GET api/threats.json` — Threat catalog.
+
+### risks
+
+`GET api/risks.json` — Risk catalog.
+
+### assessment-objectives
+
+`GET api/assessment-objectives.json` — All assessment objectives.
+
+### evidence-requests
+
+`GET api/evidence-requests.json` — Evidence request list.
+
+### compensating-controls
+
+`GET api/compensating-controls.json` — Compensating control guidance.
+
+### privacy-principles
+
+`GET api/privacy-principles.json` — Data privacy management principles.
+
+## Detail endpoints
+
+- `GET api/controls/{ID}.json` — single control (e.g., GOV-01)
+- `GET api/families/{CODE}.json` — family detail (e.g., GOV)
+- `GET api/crosswalks/{FW_ID}.json` — bidirectional crosswalk
+- `GET api/threats/{ID}.json` — single threat (e.g., NT-1)
+- `GET api/risks/{ID}.json` — single risk (e.g., R-AC-1)
+- `GET api/assessment-objectives/{SCF_ID}.json` — AOs for a control
+- `GET api/evidence-requests/{ERL_ID}.json` — evidence request (e.g., E-GOV-01)
+- `GET api/compensating-controls/{SCF_ID}.json` — compensating controls
+
+## Families
+
+| code | family | controls |
+|---|---|---|
+| AAT | Artificial Intelligence & Autonomous Technologies | 156 |
+| AST | Asset Management | 63 |
+| BCD | Business Continuity & Disaster Recovery | 59 |
+| CAP | Capacity & Performance Planning | 6 |
+| CFG | Configuration Management | 28 |
+| CHG | Change Management | 20 |
+| CLD | Cloud Security | 24 |
+| CPL | Compliance | 40 |
+| CRY | Cryptographic Protections | 29 |
+| DCH | Data Classification & Handling | 85 |
+| EMB | Embedded Technology | 19 |
+| END | Endpoint Security | 47 |
+| GOV | Cybersecurity & Data Protection Governance | 38 |
+| HRS | Human Resources Security | 46 |
+| IAC | Identification & Authentication | 114 |
+| IAO | Information Assurance | 15 |
+| IRO | Incident Response | 44 |
+| MDM | Mobile Device Management | 11 |
+| MNT | Maintenance | 28 |
+| MON | Continuous Monitoring | 71 |
+| NET | Network Security | 98 |
+| OPS | Security Operations | 8 |
+| PES | Physical & Environmental Security | 51 |
+| PRI | Data Privacy | 102 |
+| PRM | Project & Resource Management | 11 |
+| RSK | Risk Management | 32 |
+| SAT | Security Awareness & Training | 17 |
+| SEA | Secure Engineering & Architecture | 44 |
+| TDA | Technology Development & Acquisition | 70 |
+| THR | Threat Management | 13 |
+| TPM | Third-Party Management | 31 |
+| VPM | Vulnerability & Patch Management | 33 |
+| WEB | Web Security | 15 |
+
+Data: Control identifiers, titles, and crosswalk references from the Secure Controls Framework (SCF), https://securecontrolsframework.com, licensed CC BY-ND 4.0.
+
+---
+
+## Frameworks
+
+- `amaericas-can-osfi-self-assessment` — Canada - OSFI Cyber Security Self-Assessment Guidance (141 SCF controls, 88 framework controls)
+- `americas-arg-ppd-2018` — Argentina - Protection of Personal Data (2018) (25 SCF controls, 50 framework controls)
+- `americas-bhs-dpa-2003` — Bahamas - DPA (2003) (18 SCF controls, 5 framework controls)
+- `americas-bmu-mba-coc-2020` — Bermuda - Bermuda Monetary Authority Code of Conduct (2020) (61 SCF controls, 37 framework controls)
+- `americas-bra-lgpd-2018` — Brazil - General Data Protection Law (LGPD) (2018) (33 SCF controls, 55 framework controls)
+- `americas-can-itsp-10-171-2025` — Canada - ITSP.10.171 (2025) (407 SCF controls, 275 framework controls)
+- `americas-can-osfi-b13-2022` — Canada - OSFI B-13 (2022) (150 SCF controls, 77 framework controls)
+- `americas-can-pipeda-2000` — Canada - Personal Information Protection and Electronic Documents Act (PIPEDA) (2000) (28 SCF controls, 17 framework controls)
+- `americas-chl-act-19628-1999` — Chile - Act 19628 (1999) (22 SCF controls, 10 framework controls)
+- `americas-col-law-1581-2012` — Colombia - Law 1581 (2012) (29 SCF controls, 12 framework controls)
+- `americas-mex-fdpa-2010` — Mexico - Federal Law on Protection of Personal Data held by Private Parties (2010) (23 SCF controls, 25 framework controls)
+- `apac-aus-cop-sitc-2020` — Australia - Code of Practice - Securing the Internet of Things for Consumers (2020) (15 SCF controls, 13 framework controls)
+- `apac-aus-essential-8-2024` — Australia - Essential Eight (2024) (37 SCF controls, 24 framework controls)
+- `apac-aus-ism-2024-june` — Australia - Information Security Manual (ISM) (June 2024) (336 SCF controls, 802 framework controls)
+- `apac-aus-privacy-act-1998` — Australia - Privacy Act of 1998 (23 SCF controls, 12 framework controls)
+- `apac-aus-privacy-principles-2026` — Australia - Privacy Principles (2026) (26 SCF controls, 13 framework controls)
+- `apac-aus-ps-cps-230-2023` — Australia - Prudential Standard CPS 230 (2023) (41 SCF controls, 98 framework controls)
+- `apac-aus-ps-cps-234-2019` — Australia - Prudential Standard CPS 234 (2019) (52 SCF controls, 38 framework controls)
+- `apac-chn-csnip-2012` — China - Decision on Strengthening Network Information Protection (2012) (10 SCF controls, 4 framework controls)
+- `apac-chn-cybersecurity-law-2017` — China - Cybersecurity Law (2017) (27 SCF controls, 34 framework controls)
+- `apac-chn-data-security-law-2021` — China - Data Security Law (2021) (15 SCF controls, 24 framework controls)
+- `apac-chn-pipl-2021` — China - Personal Information Protection Law (2021) (79 SCF controls, 100 framework controls)
+- `apac-hkg-pdo-2022` — Hong Kong - Personal Data Ordinance (2022) (14 SCF controls, 14 framework controls)
+- `apac-ind-dpdpa-2023` — India - DPDPA (2023) (41 SCF controls, 96 framework controls)
+- `apac-ind-privacy-rules-2011` — India - Privacy Rules (2011) (12 SCF controls, 5 framework controls)
+- `apac-ind-sebi-2024` — India - SEBI CSCRF (2024) (170 SCF controls, 129 framework controls)
+- `apac-jpn-ismap` — Japan - Information System Security Management and Assessment Program (ISMAP) (249 SCF controls, 1312 framework controls)
+- `apac-jpn-ppi-2020` — Japan - Act on the Protection of Personal Information (2020) (58 SCF controls, 134 framework controls)
+- `apac-kor-pipa-2011` — South Korea - Personal Information Protection Act (PIPA) (2011) (37 SCF controls, 22 framework controls)
+- `apac-mys-pdpa-2010` — Malaysia - Personal Data Protection Act (PDPA) (2010) (25 SCF controls, 12 framework controls)
+- `apac-nzl-hisf-microsmall-2023` — New Zealand - HISF MicroSmall (2023) (32 SCF controls, 21 framework controls)
+- `apac-nzl-hisf-mlhsp-2023` — New Zealand - HISF MLHSP (2023) (102 SCF controls, 150 framework controls)
+- `apac-nzl-hisf-suppliers-2023` — New Zealand - HISF Guidance for Suppliers (2023) (101 SCF controls, 68 framework controls)
+- `apac-nzl-ism-3-9` — New Zealand - Information Security Manual (ISM) (v3.9) (291 SCF controls, 1392 framework controls)
+- `apac-nzl-privacy-act-2020` — New Zealand - Privacy Act (2020) (20 SCF controls, 121 framework controls)
+- `apac-phl-dpa-2012` — Philippines - Data Privacy Act (DPA) (2012) (30 SCF controls, 16 framework controls)
+- `apac-sgp-cyber-hygiene-practice-2019` — Singapore - Cyber Hygiene Practice (2019) (21 SCF controls, 13 framework controls)
+- `apac-sgp-mas-trm-2021` — Singapore - Monitory Authority of Singapore (MAS) Technology Risk Management (TRM) Guidelines (2021) (214 SCF controls, 280 framework controls)
+- `apac-sgp-pdpa-2012` — Singapore - Personal Data Protection Ac (PDPA) (2012) (30 SCF controls, 14 framework controls)
+- `apac-twn-pdpa-2025` — Taiwan - Personal Data Protection Act (PDPA) (2025) (23 SCF controls, 8 framework controls)
+- `emea-aut-fappd-2000` — Austria - Federal Act concerning the Protection of Personal Data (2000) (63 SCF controls, 12 framework controls)
+- `emea-bel-act-8-1992` — Belgium - Act of 8 December 1992 (59 SCF controls, 10 framework controls)
+- `emea-che-fadp-2025` — Switzerland - FADP (16 SCF controls, 9 framework controls)
+- `emea-deu-bsrit-2017` — Germany - Banking Supervisory Requirements for IT (2017) (91 SCF controls, 93 framework controls)
+- `emea-deu-c5-2020` — Germany - Cloud Computing Compliance Controls Catalogue (C5) (2020) (239 SCF controls, 121 framework controls)
+- `emea-deu-fdpa-2017` — Germany - Federal Data Protection Act (2017) (18 SCF controls, 20 framework controls)
+- `emea-esp-boe-a-2022-7191` — Spain - BOE-A-2022-7191 (72 SCF controls, 132 framework controls)
+- `emea-esp-ccn-stic-825-2023` — Spain - ICT Security Guide CCN-STIC 825 (2023) (99 SCF controls, 75 framework controls)
+- `emea-esp-decree-1720-2007` — Spain - Royal Decree 1720/2007 (17 SCF controls, 16 framework controls)
+- `emea-esp-decree-311-2022` — Spain - Royal Decree 311/2022 (73 SCF controls, 128 framework controls)
+- `emea-eu-ai-act-2024` — EU Artificial Intelligence Act (AI Act) (2024) (119 SCF controls, 279 framework controls)
+- `emea-eu-cyber-resilience-act-2022` — EU Cyber Resilience Act (CRA) (2022) (18 SCF controls, 52 framework controls)
+- `emea-eu-cyber-resilience-act-annexes-2022` — EU Cyber Resilience Act Annexes (CRA Annexes) (2022) (23 SCF controls, 117 framework controls)
+- `emea-eu-dora-2023` — EU Digital Operational Resilience Act (DORA) (2023) (102 SCF controls, 241 framework controls)
+- `emea-eu-eba-ict-srm-2025` — EU EBA Guidelines on ICT and Security Risk Management (2025) (148 SCF controls, 150 framework controls)
+- `emea-eu-gdpr-2016` — EU General Data Protection Regulation (GDPR) (2016) (42 SCF controls, 227 framework controls)
+- `emea-eu-nis2-2022` — EU NIS2 Directive (2022) (68 SCF controls, 30 framework controls)
+- `emea-eu-nis2-annex-2024` — EU NIS2 Annex (2024) (223 SCF controls, 351 framework controls)
+- `emea-gbr-caf-4-0` — UK - Cyber Assessment Framework (CAF) (v4.0) (66 SCF controls, 66 framework controls)
+- `emea-gbr-cap-1850-2020` — UK - Cyber Assessment Framework for Aviation Guidance (CAP1850) (2020) (43 SCF controls, 14 framework controls)
+- `emea-gbr-cyber-essentials-requirements-3-3` — UK - Cyber Essentials (v3.3) (26 SCF controls, 5 framework controls)
+- `emea-gbr-def-stan-05-138-2024` — UK - Defstan 05-138 (2024) (213 SCF controls, 147 framework controls)
+- `emea-gbr-def-stan-05-138-l0-2024` — UK - Defstan 05-138 (2024) - L0 (2 SCF controls, 3 framework controls)
+- `emea-gbr-def-stan-05-138-l1-2024` — UK - Defstan 05-138 (2024) - L1 (159 SCF controls, 100 framework controls)
+- `emea-gbr-def-stan-05-138-l2-2024` — UK - Defstan 05-138 (2024) - L2 (206 SCF controls, 138 framework controls)
+- `emea-gbr-def-stan-05-138-l3-2024` — UK - Defstan 05-138 (2024) - L3 (212 SCF controls, 143 framework controls)
+- `emea-gbr-dpa-1998` — UK - Data Protection Act (DPA) (1998) (10 SCF controls, 8 framework controls)
+- `emea-grc-pirppd-1997` — Greece - Protection of Individuals with Regard to the Processing of Personal Data (1997) (17 SCF controls, 11 framework controls)
+- `emea-hun-isdfi-2011` — Hungary - Informational Self-Determination and Freedom of Information (2011) (27 SCF controls, 15 framework controls)
+- `emea-irl-dpa-2003` — Ireland - Data Protection Act (DPA) (2003) (25 SCF controls, 4 framework controls)
+- `emea-isr-cmo-1-0` — Israel - Cybersecurity Methodology for an Organization v1.0 (393 SCF controls, 323 framework controls)
+- `emea-isr-ppl-5741-1981` — Israel - Protection of Privacy Law, 5741 (1981) (22 SCF controls, 8 framework controls)
+- `emea-ita-pdpc-2003` — Italy - Personal Data Protection Code (2003) (28 SCF controls, 18 framework controls)
+- `emea-ken-pda-2019` — Kenya - Data Protection Act (DPA) (2019) (41 SCF controls, 237 framework controls)
+- `emea-nga-dpr-2019` — Nigeria - Data Protection Regulation (DPR) (2019) (25 SCF controls, 107 framework controls)
+- `emea-nor-pda-2018` — Norway - Personal Data Act (PDA) (2018) (23 SCF controls, 15 framework controls)
+- `emea-pol-act-29-1997` — Poland - Act of 29 August 1997 on the Protection of Personal Data (29 SCF controls, 12 framework controls)
+- `emea-qat-pdppl-2020` — Qatar - Personal Data Privacy Protection Law (PDPPL) (2020) (56 SCF controls, 46 framework controls)
+- `emea-rus-federal-law-27-2006` — Russia - Federal Law of 27 (2006) (28 SCF controls, 15 framework controls)
+- `emea-sau-cgiot-2024` — Saudi Arabia - Cybersecurity Guidelines for Internet of Things (CGIoT-1:2024) (118 SCF controls, 81 framework controls)
+- `emea-sau-cscc-1-2019` — Saudi Arabia - Critical Systems Cybersecurity Controls (CSCC – 1: 2019) (152 SCF controls, 107 framework controls)
+- `emea-sau-ecc-1-2018` — Saudi Arabia - Essential Cybersecurity Controls (ECC – 1 : 2018) (190 SCF controls, 215 framework controls)
+- `emea-sau-otcc-1-2022` — Saudi Arabia - Operational Technology Cybersecurity Controls (OTCC -1: 2022) (198 SCF controls, 189 framework controls)
+- `emea-sau-pdpl-2023` — Saudi Arabia - Personal Data Protection Law (PDPL) (2023) (36 SCF controls, 70 framework controls)
+- `emea-sau-sacs-002-2022` — Saudi Arabia - SACS-002 Third Party Cybersecurity Standard (2022) (185 SCF controls, 92 framework controls)
+- `emea-sau-sama-csf-1-2017` — Saudi Arabia - SAMA CSF Version 1.0 (2017) (50 SCF controls, 36 framework controls)
+- `emea-srb-act-9-2018` — Serbia - Act of 9 November 2018 on Personal Data Protection (56 SCF controls, 205 framework controls)
+- `emea-tur-lppd-2016` — Turkey - Law on the Protection of Personal Data (LPPD) (2016) (17 SCF controls, 10 framework controls)
+- `emea-uae-niaf-2023` — UAE - National Information Assurance Framework (NIAF) (2023) (20 SCF controls, 15 framework controls)
+- `emea-us-psd2-2015` — EU Second Payment Services Directive (PSD2) (2015) (30 SCF controls, 10 framework controls)
+- `emea-zaf-popia-2013` — South Africa - Protection of Personal Information Act (POPIA) (2013) (101 SCF controls, 41 framework controls)
+- `general-aicpa-pmf-2020` — AICPA Privacy Management Framework (PMF) (2020) (109 SCF controls, 123 framework controls)
+- `general-aicpa-tsc-2017` — Trust Services Criteria (TSC) (2017) (412 SCF controls, 399 framework controls)
+- `general-apec-privacy-framework-2015` — APEC Privacy Framework (2015) (14 SCF controls, 25 framework controls)
+- `general-bsi-200-1-1-0` — Standard 200-1 (v1.0) (35 SCF controls, 22 framework controls)
+- `general-cis-csc-8-1` — Critical Security Controls (CSC) (v8.1) (234 SCF controls, 166 framework controls)
+- `general-cis-csc-8-1-ig1` — Critical Security Controls (CSC) (v8.1) - IG1 (104 SCF controls, 56 framework controls)
+- `general-cis-csc-8-1-ig2` — Critical Security Controls (CSC) (v8.1) - IG2 (208 SCF controls, 126 framework controls)
+- `general-cis-csc-8-1-ig3` — Critical Security Controls (CSC) (v8.1) - IG3 (230 SCF controls, 148 framework controls)
+- `general-cobit-2019` — Control Objectives for Information and Related Technologies (COBIT) (2019) (190 SCF controls, 230 framework controls)
+- `general-coso-2013` — Committee of Sponsoring Organizations (COSO) (2013) (104 SCF controls, 17 framework controls)
+- `general-cr-cmm-2026` — Cyber Resilience Capability Maturity Model (CR-CMM) (2026) (46 SCF controls, 40 framework controls)
+- `general-csa-cmm-4-1-0` — Cloud Controls Matrix (CCM) (v4.1.0) (291 SCF controls, 207 framework controls)
+- `general-csa-iot-2` — IoT Security Controls Framework (v2) (253 SCF controls, 155 framework controls)
+- `general-govramp` — GovRAMP (441 SCF controls, 383 framework controls)
+- `general-govramp-core` — GovRAMP Core (86 SCF controls, 60 framework controls)
+- `general-govramp-high` — GovRAMP High (441 SCF controls, 383 framework controls)
+- `general-govramp-low` — GovRAMP Low (166 SCF controls, 114 framework controls)
+- `general-govramp-low-plus` — GovRAMP Low+ (230 SCF controls, 173 framework controls)
+- `general-govramp-mod` — GovRAMP Moderate (347 SCF controls, 290 framework controls)
+- `general-iec-62443-2-1-2024` — IEC 62443-2-1 (2024) (112 SCF controls, 119 framework controls)
+- `general-iec-62443-3-3-2013` — IEC 62443-3-3 (2013) (80 SCF controls, 111 framework controls)
+- `general-iec-62443-4-1-2018` — IEC 62443-4-1 (2018) (25 SCF controls, 186 framework controls)
+- `general-iec-62443-4-2-2019` — IEC 62443-4-2 (2019) (89 SCF controls, 169 framework controls)
+- `general-iec-tr-60601-4-5-2021` — IEC TR 60601-4-5 (2021) (26 SCF controls, 37 framework controls)
+- `general-imo-maritime-cyber-risk-management-2025` — International Maritime Organization (IMO) Guidelines on Maritime Cyber Risk Management (2025) (75 SCF controls, 35 framework controls)
+- `general-iso-21434-2021` — ISO 21434 (2021) (51 SCF controls, 232 framework controls)
+- `general-iso-22301-2019` — ISO 22301 (2019) (36 SCF controls, 259 framework controls)
+- `general-iso-27001-2022` — ISO 27001 (2022) (51 SCF controls, 148 framework controls)
+- `general-iso-27002-2022` — ISO 27002 (2022) (316 SCF controls, 96 framework controls)
+- `general-iso-27017-2015` — ISO 27017 (2015) (224 SCF controls, 118 framework controls)
+- `general-iso-27018-2025` — ISO 27018 (2025) (322 SCF controls, 108 framework controls)
+- `general-iso-27701-2025` — ISO 27701 (2025) (59 SCF controls, 90 framework controls)
+- `general-iso-29100-2024` — ISO 29100 (2024) (43 SCF controls, 11 framework controls)
+- `general-iso-31000-2018` — ISO 31000 (2018) (53 SCF controls, 27 framework controls)
+- `general-iso-31010-2009` — ISO 31010 (2009) (31 SCF controls, 32 framework controls)
+- `general-iso-42001-2023` — ISO 42001 (2023) (149 SCF controls, 140 framework controls)
+- `general-mitre-att&ck-16-1` — MITRE ATT&CK (v16.1) (108 SCF controls, 511 framework controls)
+- `general-mpa-csbp-5-3-1` — Content Security Best Practices Common Guidelines (v5.3.1) (232 SCF controls, 81 framework controls)
+- `general-naic-insurance-data-security-model-law-668-2017` — Insurance Data Security Model Law 668 (2017) (58 SCF controls, 85 framework controls)
+- `general-nist-100-1-ai-rmf` — NIST AI 100-1 (AI RMF 1.0) (158 SCF controls, 91 framework controls)
+- `general-nist-600-1-gen-ai-profile` — NIST AI 600-1 (139 SCF controls, 250 framework controls)
+- `general-nist-800-160-vol-2-r1` — NIST SP 800-160 (Vol 2, Rev 1) (204 SCF controls, 196 framework controls)
+- `general-nist-800-161-r1` — NIST SP 800-161 R1 UDP1 (341 SCF controls, 308 framework controls)
+- `general-nist-800-161-r1-cscrm` — NIST SP 800-161 R1 UDP1 - C-SCRM Baseline (132 SCF controls, 95 framework controls)
+- `general-nist-800-161-r1-flowdown` — NIST SP 800-161 R1 UDP1 - Flow Down Baseline (107 SCF controls, 69 framework controls)
+- `general-nist-800-161-r1-level-1` — NIST SP 800-161 R1 UDP1 - Level 1 Baseline (95 SCF controls, 76 framework controls)
+- `general-nist-800-161-r1-level-2` — NIST SP 800-161 R1 UDP1 - Level 2 Baseline (273 SCF controls, 236 framework controls)
+- `general-nist-800-161-r1-level-3` — NIST SP 800-161 R1 UDP1 - Level 3 Baseline (284 SCF controls, 251 framework controls)
+- `general-nist-800-171-r2` — NIST SP 800-171 R2 (251 SCF controls, 172 framework controls)
+- `general-nist-800-171-r3` — NIST SP 800-171 R3 (407 SCF controls, 275 framework controls)
+- `general-nist-800-171a` — NIST SP 800-171A (134 SCF controls, 320 framework controls)
+- `general-nist-800-171a-r3` — NIST SP 800-171A R3 (215 SCF controls, 508 framework controls)
+- `general-nist-800-172` — NIST SP 800-172 (74 SCF controls, 35 framework controls)
+- `general-nist-800-207` — NIST SP 800-207 (93 SCF controls, 7 framework controls)
+- `general-nist-800-218` — NIST SP 800-218 (59 SCF controls, 60 framework controls)
+- `general-nist-800-37-r2` — NIST SP 800-37 R2 (45 SCF controls, 47 framework controls)
+- `general-nist-800-39` — NIST SP 800-39 (17 SCF controls, 16 framework controls)
+- `general-nist-800-53-r4` — NIST SP 800-53 R4 (653 SCF controls, 682 framework controls)
+- `general-nist-800-53-r5-2` — NIST SP 800-53 R5 (777 SCF controls, 810 framework controls)
+- `general-nist-800-53-r5-2-high` — NIST SP 800-53 R5 - High Baseline (89 SCF controls, 83 framework controls)
+- `general-nist-800-53-r5-2-low` — NIST SP 800-53 R5 - Low Baseline (202 SCF controls, 149 framework controls)
+- `general-nist-800-53-r5-2-mod` — NIST SP 800-53 R5 - Moderate Baseline (157 SCF controls, 138 framework controls)
+- `general-nist-800-53-r5-2-privacy` — NIST SP 800-53 R5 - Privacy Baseline (346 SCF controls, 236 framework controls)
+- `general-nist-800-66-r2` — NIST SP 800-66 R2 (112 SCF controls, 22 framework controls)
+- `general-nist-800-82-r3` — NIST SP 800-82 R3 (777 SCF controls, 810 framework controls)
+- `general-nist-800-82-r3-high` — NIST SP 800-82 R3 - High OT Overlay (467 SCF controls, 418 framework controls)
+- `general-nist-800-82-r3-low` — NIST SP 800-82 R3 - Low OT Overlay (251 SCF controls, 194 framework controls)
+- `general-nist-800-82-r3-mod` — NIST SP 800-82 R3 - Moderate OT Overlay (390 SCF controls, 337 framework controls)
+- `general-nist-csf-2-0` — NIST Cybersecurity Framework (v2.0) (250 SCF controls, 134 framework controls)
+- `general-nist-privacy-framework-1-0` — NIST Privacy Framework (v1.0) (152 SCF controls, 122 framework controls)
+- `general-oecd-privacy-principles-2010` — OECD Privacy Principles (2010) (14 SCF controls, 17 framework controls)
+- `general-owasp-top-10-2025` — OWASP Top 10 (2025) (139 SCF controls, 10 framework controls)
+- `general-pci-dss-4-0-1` — Payment Card Industry Data Security Standard (PCI DSS) (v4.01) (371 SCF controls, 351 framework controls)
+- `general-pci-dss-4-0-1-saq-a` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ A (v4.0.1) (71 SCF controls, 29 framework controls)
+- `general-pci-dss-4-0-1-saq-a-ep` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ A-EP (v4.0.1) (239 SCF controls, 139 framework controls)
+- `general-pci-dss-4-0-1-saq-b` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ B (v4.0.1) (58 SCF controls, 27 framework controls)
+- `general-pci-dss-4-0-1-saq-b-ip` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ B-IP (v4.0.1) (121 SCF controls, 50 framework controls)
+- `general-pci-dss-4-0-1-saq-c` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ C (v4.0.1) (227 SCF controls, 124 framework controls)
+- `general-pci-dss-4-0-1-saq-c-vt` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ C-VT (v4.0.1) (115 SCF controls, 54 framework controls)
+- `general-pci-dss-4-0-1-saq-d-merchant` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ D Merchant (v4.0.1) (322 SCF controls, 233 framework controls)
+- `general-pci-dss-4-0-1-saq-d-service-provider` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ D Service Provider (v4.0.1) (339 SCF controls, 257 framework controls)
+- `general-pci-dss-4-0-1-saq-p2pe` — Payment Card Industry Data Security Standard (PCI DSS) - SAQ P2PE (v4.0.1) (47 SCF controls, 21 framework controls)
+- `general-scf-dpmp-2025` — Data Privacy Management Principle (DPMP) (2025) (218 SCF controls, 83 framework controls)
+- `general-shared-assessments-sig-2025` — SIG (2025) (128 SCF controls, 65 framework controls)
+- `general-sparta` — SPARTA Countermeasures (79 SCF controls, 53 framework controls)
+- `general-swift-cscf-2025` — SWIFT Customer Security Controls Framework (2025) (164 SCF controls, 32 framework controls)
+- `general-tisax-6-0-3` — TISAX ISA (6.0.3) (154 SCF controls, 73 framework controls)
+- `general-ul-2900-1-2017` — UL 2900-1 (2017) (23 SCF controls, 143 framework controls)
+- `general-ul-2900-2-2-2016` — UL 2900-2-2 (2016) (20 SCF controls, 57 framework controls)
+- `general-un-155-2021` — UN Regulation No. 155 (2021) (57 SCF controls, 55 framework controls)
+- `general-un-ece-wp-29-2020` — UNECE WP.29 (2020) (57 SCF controls, 54 framework controls)
+- `usa-federal-cms-marse-2-0` — MARS-E Document Suite (2.0) (391 SCF controls, 1286 framework controls)
+- `usa-federal-dhs-cisa-cpg-2-0` — CISA Cross-Sector Cybersecurity Performance Goals (CPG) (2.0) (126 SCF controls, 38 framework controls)
+- `usa-federal-dhs-cisa-ssdaf-2024` — CISA Secure Software Development Attestation Form (SSDAF) (2024) (41 SCF controls, 15 framework controls)
+- `usa-federal-dhs-cisa-tic-3-0` — CISA Trusted Internet Connections 3.0 Security Capabilities Catalog (TIC 3.0) (148 SCF controls, 117 framework controls)
+- `usa-federal-doc-data-privacy-framework-2023` — Data Privacy Framework (2023) (31 SCF controls, 74 framework controls)
+- `usa-federal-doe-c2m2-2-1` — Cybersecurity Capability Maturity Model (C2M2) (v2.1) (224 SCF controls, 356 framework controls)
+- `usa-federal-dow-cert-rmm-1-2` — CERT-RMM (v1.2) (85 SCF controls, 753 framework controls)
+- `usa-federal-dow-cmmc-2-level-1` — Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 1 (52 SCF controls, 15 framework controls)
+- `usa-federal-dow-cmmc-2-level-1-aos` — Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 1 Assessment Objectives (16 SCF controls, 59 framework controls)
+- `usa-federal-dow-cmmc-2-level-2` — Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 2 (198 SCF controls, 110 framework controls)
+- `usa-federal-dow-cmmc-2-level-3` — Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 3 (55 SCF controls, 24 framework controls)
+- `usa-federal-dow-dfars-252-204-7012` — DFARS 252.204-7012 (19 SCF controls, 20 framework controls)
+- `usa-federal-dow-safeguarding-nnpi-2010` — Safeguarding of NNPI (2010) (32 SCF controls, 68 framework controls)
+- `usa-federal-dow-zt-roadmap-1-1` — Department of War (DoW) - Zero Trust Execution Roadmap (v1.1) (117 SCF controls, 190 framework controls)
+- `usa-federal-dow-zta-reference-architecture-2-0` — Department of War (DoW) - Zero Trust Reference Architecture (v2) (39 SCF controls, 28 framework controls)
+- `usa-federal-eo-14028` — Executive Order 14028 - Improving the Nation's Cybersecurity (43 SCF controls, 16 framework controls)
+- `usa-federal-far-52-204-21` — FAR 52.204-21 (59 SCF controls, 17 framework controls)
+- `usa-federal-far-52-204-25` — FAR 52.204-25 (NDAA Section 889) (2 SCF controls, 5 framework controls)
+- `usa-federal-far-52-204-27` — FAR 52.204-27 (3 SCF controls, 2 framework controls)
+- `usa-federal-fbi-cjis-6-0` — Criminal Justice Information Services (CJIS) Security Policy (v6.0) (365 SCF controls, 319 framework controls)
+- `usa-federal-fda-21-cfr-part-11-2025` — Food & Drug Administration (FDA) 21 CFR Part 11 (2025) (62 SCF controls, 28 framework controls)
+- `usa-federal-gsa-fedramp-5-high` — FedRAMP R5 - High Baseline (561 SCF controls, 490 framework controls)
+- `usa-federal-gsa-fedramp-5-li-saas` — FedRAMP R5 - Li-SAAS Baseline (383 SCF controls, 269 framework controls)
+- `usa-federal-gsa-fedramp-5-low` — FedRAMP R5 - Low Baseline (383 SCF controls, 269 framework controls)
+- `usa-federal-gsa-fedramp-5-mod` — FedRAMP R5 - Moderate Baseline (491 SCF controls, 410 framework controls)
+- `usa-federal-hhs-45-cfr-155-260-2016` — HHS § 155.260 (2016) (36 SCF controls, 44 framework controls)
+- `usa-federal-irs-1075-2021` — IRS 1075 (2021) (442 SCF controls, 743 framework controls)
+- `usa-federal-law-coppa-2024` — Children's Online Privacy Protection Act (COPPA) (2024) (10 SCF controls, 8 framework controls)
+- `usa-federal-law-facta-fcra-2023` — Fair & Accurate Credit Transactions Act (FACTA) & Fair Credit Reporting Act (FCRA) (2023) (3 SCF controls, 6 framework controls)
+- `usa-federal-law-ferpa-2010` — Family Educational Rights and Privacy Act (FERPA) (2010) (5 SCF controls, 27 framework controls)
+- `usa-federal-law-ftc-act` — Federal Trade Commission (FTC) Act (16 SCF controls, 1 framework controls)
+- `usa-federal-law-glba-cfr-314-2023` — Gramm Leach Bliley Act (GLBA) (2023) (70 SCF controls, 52 framework controls)
+- `usa-federal-law-hipaa-security-rule-2013` — HIPAA Security Rule (2013) (136 SCF controls, 87 framework controls)
+- `usa-federal-law-hipaa-simplification-2013` — HIPAA Administrative Simplification (2013) (170 SCF controls, 576 framework controls)
+- `usa-federal-law-sox-2002` — SOX (2002) (4 SCF controls, 17 framework controls)
+- `usa-federal-nerc-cip-2024` — NERC Critical Infrastructure Protection (CIP) (2024) (122 SCF controls, 204 framework controls)
+- `usa-federal-nispom-2020` — National Industrial Security Program Operating Manual (NISPOM) (2020) (35 SCF controls, 226 framework controls)
+- `usa-federal-omb-fipps-1973` — US Fair Information Practice Principles (FIPPs) (1973) (30 SCF controls, 8 framework controls)
+- `usa-federal-sec-cybersecurity-rule-2023` — SEC Cybersecurity Rule (2023) (40 SCF controls, 15 framework controls)
+- `usa-federal-sro-fca-crm-2023` — Farm Credit Administration (FCA) Cyber Risk Management (2023) (81 SCF controls, 34 framework controls)
+- `usa-federal-sro-finra` — FINRA Cybersecurity Rules (17 SCF controls, 39 framework controls)
+- `usa-federal-tsa-security-directive-1580-82-2022-01` — TSA Security Directive 1580/82-2022-01 (60 SCF controls, 68 framework controls)
+- `usa-state-ak-pipa-2009` — Alaska Personal Information Protection Act (PIPA) (2009) (5 SCF controls, 25 framework controls)
+- `usa-state-ca-ccpa-cpra-2026` — California Consumer Privacy Act (CCPA) (2026) (258 SCF controls, 623 framework controls)
+- `usa-state-ca-sb1386-2002` — California SB1386 (2002) (4 SCF controls, 6 framework controls)
+- `usa-state-ca-sb327-2018` — California SB327 (2018) (3 SCF controls, 7 framework controls)
+- `usa-state-co-privacy-act-2021` — Colorado Privacy Act (2021) (23 SCF controls, 52 framework controls)
+- `usa-state-il-bipa-2008` — Illinois Biometric Information Privacy Act (BIPA) (2008) (6 SCF controls, 12 framework controls)
+- `usa-state-il-ipa-2009` — Illinois Identity Protection Act (IPA) (2009) (12 SCF controls, 33 framework controls)
+- `usa-state-il-pipa-2006` — Illinois Personal Information Protection Act (PIPA) (2006) (10 SCF controls, 53 framework controls)
+- `usa-state-ma-201-cmr-17-2008` — Massachusetts 201 CMR 17.00 (2008) (53 SCF controls, 37 framework controls)
+- `usa-state-nv-regulation-5-2024` — Nevada Operation of Gaming Establishment (NOGE) Regulation 5.260 (2024) (20 SCF controls, 11 framework controls)
+- `usa-state-nv-sb220-2019` — Nevada SB220 (2019) (3 SCF controls, 4 framework controls)
+- `usa-state-ny-dfs-23-nycrr500-2023-amd2` — New York Department of Financial Services 23NYCRR Part 500 (2023 Amendment 2) (156 SCF controls, 145 framework controls)
+- `usa-state-ny-shield-act-2019` — New York SHIELD Act (SB S5575B) (2019) (28 SCF controls, 45 framework controls)
+- `usa-state-or-cpa-2023` — Oregon Consumer Privacy Act (SB 619) (2023) (34 SCF controls, 75 framework controls)
+- `usa-state-or-ors-646a-2025` — Oregon Consumer Information Protection Act (ORS 646A) (2025) (24 SCF controls, 97 framework controls)
+- `usa-state-tn-tipa-2025` — Tennessee Information Protection Act (TIPA) (2025) (29 SCF controls, 76 framework controls)
+- `usa-state-tx-bc521-2009` — Texas Identity Theft Enforcement and Protection Act (BC521) (2009) (5 SCF controls, 27 framework controls)
+- `usa-state-tx-cdpa-2025` — Texas Consumer Data Protection Act (2025) (28 SCF controls, 89 framework controls)
+- `usa-state-tx-dir-security-control-standards-catalog-2-2` — Texas DIR Security Control Standards Catalog (v2.2) (238 SCF controls, 228 framework controls)
+- `usa-state-tx-sb2610-2025` — Texas Safe Harbor Law (SB2610) (2025) (6 SCF controls, 33 framework controls)
+- `usa-state-tx-sb820-2019` — Texas SB820 (2019) (4 SCF controls, 7 framework controls)
+- `usa-state-tx-txramp-2-0-level-1` — TX-RAMP 2.0 - Level 1 (173 SCF controls, 117 framework controls)
+- `usa-state-tx-txramp-2-0-level-2` — TX-RAMP 2.0 - Level 2 (285 SCF controls, 223 framework controls)
+- `usa-state-va-cdpa-2023` — Virginia Consumer Data Protection Act (2023) (44 SCF controls, 64 framework controls)
+- `usa-state-vt-act-171-2018` — Vermont Data Broker Registration Act (Act 171 of 2018) (35 SCF controls, 61 framework controls)

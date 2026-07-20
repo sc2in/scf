@@ -1,0 +1,34 @@
+# SCF API (sc2in/scf-api)
+
+> Source-faithful static JSON API for the Secure Controls Framework (SCF) v2026.1.1. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests. All static JSON, no auth required.
+
+All data is static JSON. Append paths to the base URL.
+
+- `api/controls/{ID}.json` — single control (e.g., GOV-01)
+- `api/families/{CODE}.json` — family detail (e.g., GOV)
+- `api/crosswalks/{FW_ID}.json` — bidirectional crosswalk
+- `api/threats/{ID}.json` — single threat (e.g., NT-1)
+- `api/risks/{ID}.json` — single risk (e.g., R-AC-1)
+- `api/assessment-objectives/{SCF_ID}.json` — AOs for a control
+- `api/evidence-requests/{ERL_ID}.json` — evidence request (e.g., E-GOV-01)
+- `api/compensating-controls/{SCF_ID}.json` — compensating controls
+
+## Endpoints
+
+- [summary](api/summary.json): Version, all counts, weight distribution.
+- [controls](api/controls.json): All controls with full metadata and crosswalks.
+- [families](api/families.json): Family index.
+- [crosswalks](api/crosswalks.json): Framework index.
+- [threats](api/threats.json): Threat catalog.
+- [risks](api/risks.json): Risk catalog.
+- [assessment-objectives](api/assessment-objectives.json): All assessment objectives.
+- [evidence-requests](api/evidence-requests.json): Evidence request list.
+- [compensating-controls](api/compensating-controls.json): Compensating control guidance.
+- [privacy-principles](api/privacy-principles.json): Data privacy management principles.
+
+## Documentation
+
+- [API Reference](api/docs.md): Endpoint reference.
+- [Complete Documentation](llms-full.txt): Everything in one file.
+
+Data: Control identifiers, titles, and crosswalk references from the Secure Controls Framework (SCF), https://securecontrolsframework.com, licensed CC BY-ND 4.0.
