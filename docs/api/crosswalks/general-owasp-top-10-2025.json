@@ -1,6 +1,6 @@
 {
   "framework_id": "general-owasp-top-10-2025",
-  "display_name": "OWASP Top 10 (2025)",
+  "display_name": "Open Worldwide Application Security Project (OWASP) Top 10 (2025)",
   "scf_to_framework": {
     "total_mappings": 139,
     "mappings": {

@@ -92,7 +92,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Change Management",
   "crosswalks": {
@@ -194,7 +195,18 @@
       "03.04.11.b"
     ],
     "general-nist-800-171a-r3": [
-      "A.03.04.03.c[02]"
+      "A.03.04.03.b[02]",
+      "A.03.04.03.c[02]",
+      "A.03.04.04.a",
+      "A.03.04.11.b[01]",
+      "A.03.04.11.b[02]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.04.07E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.04.07E[01]",
+      "DS-A.03.04.07E[03]"
     ],
     "general-nist-csf-2-0": [
       "ID.RA-07"
@@ -268,39 +280,25 @@
       "CM-03 (02)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.4.4(37)",
-      "3.6.3(75)",
-      "3.6.3(76)"
+      "3.4.4.37"
     ],
     "emea-deu-c5-2020": [
-      "DEV-06",
-      "DEV-08",
-      "DEV-09"
-    ],
-    "emea-isr-cmo-1-0": [
-      "10.6",
-      "12.21",
-      "12.30",
-      "14.6",
-      "14.8",
-      "14.9",
-      "14.10"
-    ],
-    "emea-sau-cscc-1-2019": [
-      "1-3-1-2"
+      "BEI-03-BP3",
+      "BEI-03-BP4",
+      "BEI-07",
+      "BEI-09"
     ],
     "emea-sau-cgiot-2024": [
       "1-5-3"
     ],
-    "emea-sau-ecc-1-2018": [
-      "1-6-2-1",
-      "1-6-3-5"
-    ],
     "emea-sau-otcc-1-2022": [
       "1-5-3-2"
     ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-73"
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.7.4.b"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "op.exp.5"
     ],
     "apac-ind-sebi-2024": [
       "PR.MA.S1"
@@ -314,19 +312,24 @@
       "14.2.3.2",
       "14.2.3.3"
     ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.18"
+    ],
     "apac-nzl-ism-3-9": [
       "6.3.8.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
-      "7.4.2",
       "7.5.3",
       "7.5.5",
       "7.5.7"
     ],
-    "amaericas-can-osfi-self-assessment": [
-      "6.11"
+    "americas-arg-ppd-2018": [
+      "C.1.1-3"
     ],
     "americas-can-osfi-b13-2022": [
+      "2.5.1"
+    ],
+    "americas-can-osfi-self-assessment-2": [
       "2.5.1"
     ],
     "americas-can-itsp-10-171-2025": [

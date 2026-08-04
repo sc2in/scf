@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iec-62443-4-2-2019",
-  "display_name": "IEC 62443-4-2 (2019)",
+  "display_name": "International Electrotechnical Commission 62443 - 4 - 2 Ed. 1.0 b:2019 - Security for industrial automation and control systems - Part 4 - 2: Technical security requirements for IACS components",
   "scf_to_framework": {
     "total_mappings": 89,
     "mappings": {

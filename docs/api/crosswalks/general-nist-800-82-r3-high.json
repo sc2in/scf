@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-82-r3-high",
-  "display_name": "NIST SP 800-82 R3 - High OT Overlay",
+  "display_name": "NIST SP 800 - 82 R3 - Guide to Operational Technology (OT) Security - High OT Overlay",
   "scf_to_framework": {
     "total_mappings": 467,
     "mappings": {

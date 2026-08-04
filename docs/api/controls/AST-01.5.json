@@ -49,9 +49,13 @@
     "MT-5",
     "MT-8",
     "MT-9",
-    "MT-10"
+    "MT-10",
+    "MT-28"
   ],
-  "errata": "- new control (SCF)",
   "family_name": "Asset Management",
-  "crosswalks": {}
+  "crosswalks": {
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(i)(2)"
+    ]
+  }
 }

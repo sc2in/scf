@@ -119,7 +119,8 @@
     "MT-24",
     "MT-25",
     "MT-26",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Risk Management",
   "crosswalks": {
@@ -280,15 +281,10 @@
       "A.03.17.01.a[10]",
       "A.03.17.01.b[01]",
       "A.03.17.01.b[02]",
-      "A.03.17.01.c",
       "A.03.17.03.ODP[01]",
       "A.03.17.03.a[01]",
       "A.03.17.03.a[02]",
       "A.03.17.03.b"
-    ],
-    "general-nist-800-172": [
-      "3.11.6e",
-      "3.11.7e"
     ],
     "general-nist-csf-2-0": [
       "GV.SC",
@@ -304,9 +300,6 @@
     ],
     "general-owasp-top-10-2025": [
       "A03:2025"
-    ],
-    "general-scf-dpmp-2025": [
-      "9.2"
     ],
     "general-sparta": [
       "CM0026"
@@ -407,22 +400,15 @@
       "5.1.6"
     ],
     "emea-deu-c5-2020": [
-      "OIS-07"
+      "OIS-07",
+      "PS-04-DOAR"
     ],
-    "emea-isr-cmo-1-0": [
-      "16.3",
-      "17.3",
-      "17.11"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "1-5-3-3"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.ext.3"
     ],
     "emea-gbr-caf-4-0": [
       "A4",
       "A4.a"
-    ],
-    "emea-gbr-cap-1850-2020": [
-      "A4"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "1400"
@@ -436,10 +422,13 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "1400"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0731",
       "ISM-1567",
       "ISM-1785"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.15"
     ],
     "apac-nzl-ism-3-9": [
       "2.2.7.C.01",
@@ -462,13 +451,6 @@
       "12.7.20.C.04",
       "12.7.20.C.05",
       "12.7.21.C.01"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "5.3.1"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "2.3",
-      "4.25"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.11.01.A",

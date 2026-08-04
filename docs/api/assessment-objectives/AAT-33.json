@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AAT-33",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-33",
+      "ao_id": "AAT-33_A01",
+      "objective": "a Release Owner Gate (ROG), or similar function, prohibits the external release of AI-augmented content without formal Subject Matter Expert (SME) review and Line of Business (LOB) approval.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33",
+      "ao_id": "AAT-33_A02",
+      "objective": "the review and approval process validates material facts.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33",
+      "ao_id": "AAT-33_A03",
+      "objective": "the review and approval process validates citations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33",
+      "ao_id": "AAT-33_A04",
+      "objective": "the review and approval process validates other relevant content that could discredit the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

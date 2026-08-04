@@ -49,7 +49,7 @@
       "pptdf": "Data",
       "origin": "171A_R3_A.03.16.03.a",
       "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "SDP values: \n(1) For cloud service providers:\n  (i) FedRAMP Authorized at the FedRAMP Moderate (or higher) baseline in accordance with the FedRAMP Marketplace; or\n  (ii) meets security requirements established by the government equivalent to the FedRAMP Moderate (or higher) baseline.\n(2) All other external service providers must meet NIST SP 800-171 R2.",
+      "scf_defined_parameters": "SDP values: \n(1) For cloud service providers:\n (i) FedRAMP Authorized at the FedRAMP Moderate (or higher) baseline in accordance with the FedRAMP Marketplace; or\n (ii) meets security requirements established by the government equivalent to the FedRAMP Moderate (or higher) baseline.\n(2) All other external service providers must meet NIST SP 800-171 R2.",
       "org_defined_parameters": ""
     }
   ]

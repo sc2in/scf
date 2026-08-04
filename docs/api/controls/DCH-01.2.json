@@ -2,8 +2,8 @@
   "control_id": "DCH-01.2",
   "title": "Sensitive / Regulated Data Protection",
   "family": "DCH",
-  "description": "Mechanisms exist to protect sensitive/regulated data wherever it is processed and/or stored.",
-  "scf_question": "Does the organization protect sensitive/regulated data wherever it is processed and/or stored?",
+  "description": "Mechanisms exist to protect sensitive and/or regulated data wherever it is processed and/or stored.",
+  "scf_question": "Does the organization protect sensitive and/or regulated data wherever it is processed and/or stored?",
   "relative_weight": 9,
   "conformity_cadence": "Annual",
   "evidence_requests": [
@@ -20,7 +20,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Data Classification & Handling (DCH) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data classification and handling-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Data classification and handling management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ A formalized data classification scheme exists to identify categories of data, based on protection requirements from applicable laws, regulations and/or contractual obligations.\n▪ TAASD are categorized according to data classification and business criticality.\n▪ Data classification and handling criteria govern requirements protect sensitive/regulated regardless of where it is stored, processed and/or transmitted.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to document where sensitive/regulated data is stored, transmitted and/or processed.",
     "3": "Data Classification & Handling (DCH) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are well-documented and kept current by process owners.\n▪ A Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain DCH domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data classification and handling operations (e.g., GRC platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to protect sensitive/regulated data wherever it is processed and/or stored.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -61,7 +61,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
@@ -129,8 +130,27 @@
       "03.08.05.a",
       "03.17.01.c"
     ],
-    "general-nist-800-172": [
-      "3.14.5e"
+    "general-nist-800-171a-r3": [
+      "A.03.01.01.d.01",
+      "A.03.01.01.d.02",
+      "A.03.01.02[01]",
+      "A.03.01.02[02]",
+      "A.03.01.20.a",
+      "A.03.01.20.b",
+      "A.03.01.20.c.01",
+      "A.03.01.20.d",
+      "A.03.06.05.d",
+      "A.03.08.01[01]",
+      "A.03.08.01[02]",
+      "A.03.08.02",
+      "A.03.08.05.a[02]",
+      "A.03.17.01.c"
+    ],
+    "general-nist-800-172-r3": [
+      "03.01.17E"
+    ],
+    "general-nist-800-172a-r3": [
+      "A.03.01.17E.ODP[02]"
     ],
     "general-nist-800-207": [
       "NIST Tenet 4"
@@ -182,12 +202,12 @@
       "52.204-21(b)(1)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.312(c)(1)",
-      "164.514(d)(3)(i)",
-      "164.530(c)(2)(i)"
+      "§ 164.312(c)(1)",
+      "§ 164.514(d)(3)(i)",
+      "§ 164.530(c)(2)(i)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.312(c)(1)"
+      "§ 164.312(c)(1)"
     ],
     "usa-federal-irs-1075-2021": [
       "2.C.5",
@@ -241,6 +261,9 @@
     "usa-state-ma-201-cmr-17-2008": [
       "17.03(2)(g)"
     ],
+    "usa-state-nv-privacy-law-2023": [
+      "603A.215.2(b)"
+    ],
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
       "500.18"
     ],
@@ -255,27 +278,29 @@
     "usa-state-vt-act-171-2018": [
       "2447(b)(3)"
     ],
-    "emea-eu-cyber-resilience-act-annexes-2022": [
-      "Annex 1.1(3)(e)"
+    "emea-deu-c5-2020": [
+      "AM-07",
+      "RB-11"
+    ],
+    "emea-isr-cmo-2-0": [
+      "Appendix A, 5.2"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-6-1-1",
+      "2-6-1-3"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-7-1"
     ],
     "emea-sau-otcc-1-2022": [
-      "2-6-1-1"
+      "2-1-1-3"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-24",
-      "TPC-39",
-      "TPC-58"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 22.1",
-      "Article 22.3"
+      "VII.B.TPC-39",
+      "VII.B.TPC-58"
     ],
     "emea-esp-decree-311-2022": [
-      "22.1",
-      "22.3"
-    ],
-    "emea-gbr-cap-1850-2020": [
-      "B3"
+      "Article 22(3)"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2308"
@@ -286,10 +311,13 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2308"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1802"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "10.44"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP14",
       "HHSP74",
       "HML14",
@@ -300,7 +328,24 @@
       "HSUP66"
     ],
     "apac-nzl-ism-3-9": [
+      "16.2.7.C.01",
+      "16.2.7.C.02",
       "18.6.8.C.01"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "11.1.1(a)",
+      "11.1.1(b)",
+      "11.1.1(c)",
+      "11.1.6"
+    ],
+    "americas-bhs-dpa-2003": [
+      "V.46(1)",
+      "V.46(2)",
+      "V.46(2)(a)",
+      "V.46(2)(b)"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.13"
     ],
     "americas-can-osfi-b13-2022": [
       "2.9.2",

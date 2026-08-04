@@ -83,7 +83,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -155,6 +156,9 @@
     ],
     "usa-state-tx-txramp-2-0-level-2": [
       "PE-10"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.if.4"
     ],
     "apac-jpn-ismap": [
       "11.2.2.7"

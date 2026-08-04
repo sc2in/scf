@@ -1,6 +1,6 @@
 {
   "framework_id": "general-tisax-6-0-3",
-  "display_name": "TISAX ISA (6.0.3)",
+  "display_name": "Trusted Information Security Assessment Exchange (TISAX) 6.0.3",
   "scf_to_framework": {
     "total_mappings": 154,
     "mappings": {

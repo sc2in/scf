@@ -1,5 +1,5 @@
 {
-  "total": 5776,
+  "total": 5956,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-01",
@@ -145,6 +145,76 @@
       "scf_control_id": "AAT-01.4",
       "ao_id": "AAT-01.4_A04",
       "objective": "the organization tracks decommissioned AI models and AI agents that captures:\n(1) ownership;\n(2) intended purpose; and\n(3) date of decommissioning.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.5",
+      "ao_id": "AAT-01.5_A01",
+      "objective": "mechanisms exist to assign defined classes to Artificial Intelligence and Autonomous Technologies (AAT) and AI agents based on their characteristics (e.g., intended use, autonomy, access, potential impact and risk).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.5",
+      "ao_id": "AAT-01.5_A02",
+      "objective": "the assigned class determines applicable approval requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.5",
+      "ao_id": "AAT-01.5_A03",
+      "objective": "the assigned class determines applicable security, compliance and/or resilience controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.5",
+      "ao_id": "AAT-01.5_A04",
+      "objective": "the assigned class determines applicable testing rigor.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.5",
+      "ao_id": "AAT-01.5_A05",
+      "objective": "the assigned class determines applicable monitoring requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.5",
+      "ao_id": "AAT-01.5_A06",
+      "objective": "the assigned class determines applicable supporting documentation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.5",
+      "ao_id": "AAT-01.5_A07",
+      "objective": "the assigned class determines applicable oversight requirements.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -1305,6 +1375,26 @@
       "scf_control_id": "AAT-12.4",
       "ao_id": "AAT-12.4_A02",
       "objective": "Artificial Intelligence and Autonomous Technologies (AAT) are configured to generate event logs for content-related changes.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-12.5",
+      "ao_id": "AAT-12.5_A01",
+      "objective": "the reliability, accuracy and integrity of training data used by Artificial Intelligence and Autonomous Technologies (AAT) is validated.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-12.6",
+      "ao_id": "AAT-12.6_A01",
+      "objective": "Artificial Intelligence and Autonomous Technologies (AAT) is prohibited from training, fine-tuning and/or improving capabilities using organizational data without prior, explicit consent from applicable data owner(s).",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -3372,6 +3462,46 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "AAT-29.24",
+      "ao_id": "AAT-29.24_A01",
+      "objective": "automated mechanisms enforce resource limits for Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.24",
+      "ao_id": "AAT-29.24_A02",
+      "objective": "enforced resource limits address energy consumption.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.24",
+      "ao_id": "AAT-29.24_A03",
+      "objective": "enforced resource limits address processing capacity.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.24",
+      "ao_id": "AAT-29.24_A04",
+      "objective": "enforced resource limits address financial consumption (e.g., allocated budget).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "AAT-30",
       "ao_id": "AAT-30_A01",
       "objective": "AI agent actions include non-repudiation to determine accountability.",
@@ -3465,6 +3595,46 @@
       "scf_control_id": "AAT-32.1",
       "ao_id": "AAT-32.1_A02",
       "objective": "business process task activities that can be executed both manually and in an automated fashion are categorized.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33",
+      "ao_id": "AAT-33_A01",
+      "objective": "a Release Owner Gate (ROG), or similar function, prohibits the external release of AI-augmented content without formal Subject Matter Expert (SME) review and Line of Business (LOB) approval.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33",
+      "ao_id": "AAT-33_A02",
+      "objective": "the review and approval process validates material facts.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33",
+      "ao_id": "AAT-33_A03",
+      "objective": "the review and approval process validates citations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33",
+      "ao_id": "AAT-33_A04",
+      "objective": "the review and approval process validates other relevant content that could discredit the organization.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -4455,6 +4625,36 @@
       "scf_control_id": "AST-05.1",
       "ao_id": "AST-05.1_A01",
       "objective": "written management approval is obtained prior to the transfer of any sensitive / regulated media outside of the organization's facilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.2",
+      "ao_id": "AST-05.2_A01",
+      "objective": "reasonable physical security protections for storage are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.2",
+      "ao_id": "AST-05.2_A02",
+      "objective": "processes exist to define criteria for Technology Assets, Applications, Services and/or Data (TAASD) storage",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.2",
+      "ao_id": "AST-05.2_A03",
+      "objective": "Technology Assets, Applications, Services and/or Data (TAASD) are stored in rooms and/or facilities with reasonable physical security protections.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -9132,6 +9332,76 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "CFG-09",
+      "ao_id": "CFG-09_A01",
+      "objective": "an authoritative repository for production software is established.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-09.1",
+      "ao_id": "CFG-09.1_A01",
+      "objective": "the use and import of third-party libraries and/or software components to trustworthy sources is restricted.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-09.2",
+      "ao_id": "CFG-09.2_A01",
+      "objective": "software repositories are protected from importing untrusted and/or malicious software artifacts.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-09.2",
+      "ao_id": "CFG-09.2_A02",
+      "objective": "software artifacts are scanned for malicious content.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-09.2",
+      "ao_id": "CFG-09.2_A03",
+      "objective": "a digital signature or secure hash provided over a secure channel is verified.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-09.2",
+      "ao_id": "CFG-09.2_A04",
+      "objective": "software artifacts are scanned to identify plain text or encoded secrets and keys.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-09.3",
+      "ao_id": "CFG-09.3_A01",
+      "objective": "an authoritative repository for software development activities is maintained that is separate from production software.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "CHG-01",
       "ao_id": "CHG-01_A01",
       "objective": "configuration change control activities are coordinated and overseen by organization-defined configuration change control element.",
@@ -11455,6 +11725,26 @@
       "scf_control_id": "CPL-03.7",
       "ao_id": "CPL-03.7_A01",
       "objective": "evidence sampling criteria for cybersecurity and/or data protection assessments are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-03.8",
+      "ao_id": "CPL-03.8_A01",
+      "objective": "Continuous Control Monitoring (CCM) scoping is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-03.8",
+      "ao_id": "CPL-03.8_A02",
+      "objective": "automated mechanisms exist to perform Continuous Control Monitoring (CCM) to assess and report the conformity status of the organization's Technology Assets, Applications, Services and Data (TAASD) against applicable security, compliance and resilience controls.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -18972,6 +19262,26 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "GOV-01.4",
+      "ao_id": "GOV-01.4_A01",
+      "objective": "the organization's Security, Compliance & Resilience Program (SCRP) is aligned with one or more industry-recognized frameworks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-01.4",
+      "ao_id": "GOV-01.4_A02",
+      "objective": "the framework alignment provides defensible justification for secure practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "GOV-02",
       "ao_id": "GOV-02_A01",
       "objective": "cybersecurity / data privacy policies are developed and documented.",
@@ -19522,6 +19832,26 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "GOV-10.1",
+      "ao_id": "GOV-10.1_A01",
+      "objective": "a data catalog exists.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-10.1",
+      "ao_id": "GOV-10.1_A02",
+      "objective": "data is cataloged in a structured format to document each significant data asset.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "GOV-11",
       "ao_id": "GOV-11_A01",
       "objective": "systems or system components supporting mission-essential services or functions are defined.",
@@ -19912,6 +20242,46 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "GOV-19.3",
+      "ao_id": "GOV-19.3_A01",
+      "objective": "organizations involved in developing, implementing and/or maintaining Technology Assets, Applications and/or Services (TAAS) provide assurance of internal oversight capabilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-19.3",
+      "ao_id": "GOV-19.3_A02",
+      "objective": "the internal oversight capabilities demonstrate governance of internal controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-19.3",
+      "ao_id": "GOV-19.3_A03",
+      "objective": "the internal oversight capabilities demonstrate risk management, including analysis and mitigation activities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-19.3",
+      "ao_id": "GOV-19.3_A04",
+      "objective": "the internal oversight capabilities demonstrate compliance with applicable laws, regulations and contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "GOV-20",
       "ao_id": "GOV-20_A01",
       "objective": "standardized practices to conduct Mergers, Acquisitions and Divestiture (MA&D) activities are defined.",
@@ -19925,6 +20295,76 @@
       "scf_control_id": "GOV-20.1",
       "ao_id": "GOV-20.1_A01",
       "objective": "a Virtual Data Room (VDR), or similar technology, is securely provisioned to share documentation among stakeholders to conduct MA&D activities.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-21",
+      "ao_id": "GOV-21_A01",
+      "objective": "A High Value Assets (HVAs) catalog is created.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-21",
+      "ao_id": "GOV-21_A02",
+      "objective": "criteria are defined for high-value Intellectual Property (IP) to be categorized as a \"crown jewel.\"",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-21",
+      "ao_id": "GOV-21_A03",
+      "objective": "criteria are defined for Technology Assets, Applications and Services (TAAS) to be categorized as a \"crown jewel,\" based on business process criticality or dependency relationships.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-21",
+      "ao_id": "GOV-21_A04",
+      "objective": "the physical and/or logical location of HVAs are documented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-21",
+      "ao_id": "GOV-21_A05",
+      "objective": "assigned owners are defined for HVAs",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-21",
+      "ao_id": "GOV-21_A06",
+      "objective": "minimum protection mechanisms for HVAs are defined.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-21",
+      "ao_id": "GOV-21_A07",
+      "objective": "assurance requirements for HVAs are defined.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -22296,6 +22736,36 @@
       "ao_id": "IAC-01.3_A01",
       "objective": "a current list of authorized users and services is maintained.",
       "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.4",
+      "ao_id": "IAC-01.4_A01",
+      "objective": "identity providers and authorization servers are employed to manage user, device and Non-Person Entity (NPE) identities, attributes and access rights that support authentication and authorization decisions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.4",
+      "ao_id": "IAC-01.4_A02",
+      "objective": "authentication and authorization decisions are made in accordance with organization-defined identification and authentication policy.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.4",
+      "ao_id": "IAC-01.4_A03",
+      "objective": "authentication and authorization decisions use organization-defined mechanisms.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -25645,6 +26115,16 @@
       "scf_control_id": "IAC-15.9",
       "ao_id": "IAC-15.9_A02",
       "objective": "\"emergency access only\" accounts are controlled.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.10",
+      "ao_id": "IAC-15.10_A01",
+      "objective": "non-privileged accounts are separated between infrastructure environments to reduce the risk that a compromise in one infrastructure environment laterally affects another infrastructure environment.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -34118,7 +34598,7 @@
       "pptdf": "Process",
       "origin": "171A_R3_A.03.03.01.a",
       "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "SDP values:\nat a minimum and where applicable:\n(1) Authentication events:\n  (a) Logons (Success/Failure)\n  (b) Logoffs (Success)\n(2) Security Relevant File and Objects events:\n  (a) Create (Success/Failure)\n  (b) Access (Success/Failure)\n  (c) Delete (Success/Failure)\n  (d) Modify (Success/Failure)\n  (e) Permission Modification (Success/Failure)\n  (f) Ownership Modification (Success/Failure)\n(3) Export/Writes/downloads to devices/digital media (e.g., CD/DVD, USB, SD) (Success/Failure)\n(4) Import/Uploads from devices/digital media (e.g., CD/DVD, USB, SD) (Success/Failure)\n(5) User and Group Management events:\n  (a) User add, delete, modify, disable, lock (Success/Failure)\n  (b) Group/Role add, delete, modify (Success/Failure)\n6) Use of Privileged/Special Rights events:\n  (a) Security or audit policy changes (Success/Failure)\n  (b) Configuration changes (Success/Failure)\n(7) Admin or root-level access (Success/Failure)\n(8) Privilege/Role escalation (Success/Failure)\n(9) Audit and security relevant log data accesses (Success/Failure)\n(10) System reboot, restart, and shutdown (Success/Failure)\n(11) Print to a device (Success/Failure)\n(12) Print to a file (e.g., pdf format) (Success/Failure)\n(13) Application (e.g., Adobe, Firefox, MS Office Suite) initialization (Success/Failure)\n\nFor additional guidance, see: OMB21-31 ML 1",
+      "scf_defined_parameters": "SDP values:\nat a minimum and where applicable:\n(1) Authentication events:\n (a) Logons (Success/Failure)\n (b) Logoffs (Success)\n(2) Security Relevant File and Objects events:\n (a) Create (Success/Failure)\n (b) Access (Success/Failure)\n (c) Delete (Success/Failure)\n (d) Modify (Success/Failure)\n (e) Permission Modification (Success/Failure)\n (f) Ownership Modification (Success/Failure)\n(3) Export/Writes/downloads to devices/digital media (e.g., CD/DVD, USB, SD) (Success/Failure)\n(4) Import/Uploads from devices/digital media (e.g., CD/DVD, USB, SD) (Success/Failure)\n(5) User and Group Management events:\n (a) User add, delete, modify, disable, lock (Success/Failure)\n (b) Group/Role add, delete, modify (Success/Failure)\n6) Use of Privileged/Special Rights events:\n (a) Security or audit policy changes (Success/Failure)\n (b) Configuration changes (Success/Failure)\n(7) Admin or root-level access (Success/Failure)\n(8) Privilege/Role escalation (Success/Failure)\n(9) Audit and security relevant log data accesses (Success/Failure)\n(10) System reboot, restart, and shutdown (Success/Failure)\n(11) Print to a device (Success/Failure)\n(12) Print to a file (e.g., pdf format) (Success/Failure)\n(13) Application (e.g., Adobe, Firefox, MS Office Suite) initialization (Success/Failure)\n\nFor additional guidance, see: OMB21-31 ML 1",
       "org_defined_parameters": ""
     },
     {
@@ -38215,6 +38695,46 @@
       "scf_control_id": "NET-06.7",
       "ao_id": "NET-06.7_A03",
       "objective": "automated mechanisms implement dynamic, policy-driven network traffic management.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.8",
+      "ao_id": "NET-06.8_A01",
+      "objective": "automated mechanisms separate network appliance functions (e.g., management, control and data planes).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.8",
+      "ao_id": "NET-06.8_A02",
+      "objective": "separation prevents ordinary traffic from accessing functions that manage network appliances.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.8",
+      "ao_id": "NET-06.8_A03",
+      "objective": "separation prevents ordinary traffic from accessing functions that affect network operations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.9",
+      "ao_id": "NET-06.9_A01",
+      "objective": "subnetworks are physically or logically separate to isolate organization-defined Technology Assets, Applications, Services and/or Data (TAASD).",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -42555,6 +43075,26 @@
       "scf_control_id": "PRI-01.11",
       "ao_id": "PRI-01.11_A03",
       "objective": "the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD) is limited to reasonable consumer expectations for what is necessary and proportionate.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.12",
+      "ao_id": "PRI-01.12_A01",
+      "objective": "the organization's data privacy principles are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.12",
+      "ao_id": "PRI-01.12_A02",
+      "objective": "the organization's data privacy principles are formally incorporated into engineering, product and model design requirements to ensure data privacy is built in by default and by design.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -46962,6 +47502,1056 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "QTS-01",
+      "ao_id": "QTS-01_A01",
+      "objective": "an executive-sponsored quantum risk governance structure is established that institutionalizes quantum risk in the same manner as other enterprise risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01",
+      "ao_id": "QTS-01_A02",
+      "objective": "a named migration lead with defined authority is assigned.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01",
+      "ao_id": "QTS-01_A03",
+      "objective": "quantum risk is treated as a standing agenda item in Board of Directors and/or executive leadership meetings.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.1",
+      "ao_id": "QTS-01.1_A01",
+      "objective": "a formal, documented quantum security policy is established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.1",
+      "ao_id": "QTS-01.1_A02",
+      "objective": "the quantum security policy conveys executive management's intent.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.1",
+      "ao_id": "QTS-01.1_A03",
+      "objective": "the quantum security policy provides organizational direction and expected behaviors.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.1",
+      "ao_id": "QTS-01.1_A04",
+      "objective": "the quantum security policy is reviewed at least annually.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.1",
+      "ao_id": "QTS-01.1_A05",
+      "objective": "the quantum security policy is updated, as necessary, to adapt to evolving risks, threats and other changes that affect the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.2",
+      "ao_id": "QTS-01.2_A01",
+      "objective": "a classification scheme exists to determine confidentiality shelf-life.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.2",
+      "ao_id": "QTS-01.2_A02",
+      "objective": "the shelf-life classification is used as a direct input to Post-Quantum Cryptography (PQC) migration prioritization, including prioritizing data with a shelf-life exceeding the expected PQC arrival horizon.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.3",
+      "ao_id": "QTS-01.3_A01",
+      "objective": "Technology Assets, Applications, Services and Data (TAASD) are classified according to confidentiality shelf-life.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A01",
+      "objective": "Harvest Now, Decrypt Later (HNDL) risk is mitigated through Zero Trust Network Access (ZTNA).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A02",
+      "objective": "ZTNA enforces continuous authentication.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A03",
+      "objective": "ZTNA enforces data microsegmentation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A04",
+      "objective": "ZTNA enforces least privilege.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A05",
+      "objective": "ZTNA enforces identity-based access control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02",
+      "ao_id": "QTS-02_A01",
+      "objective": "a Cryptographic Agility Risk Assessment (CARA) methodology is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02",
+      "ao_id": "QTS-02_A02",
+      "objective": "a CARA is performed to map Technology Assets, Applications, Services and Data (TAASD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02",
+      "ao_id": "QTS-02_A03",
+      "objective": "the CARA identifies TAASD most vulnerable to quantum-enabled cryptanalytic threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02",
+      "ao_id": "QTS-02_A04",
+      "objective": "the CARA prioritizes TAASD based on potential business impact.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A01",
+      "objective": "each Post-Quantum Cryptography (PQC) deviation is governed through a formal cryptographic exception register.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A02",
+      "objective": "the exception register contains the asset and/or process owner(s).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A03",
+      "objective": "the exception register contains compensating control(s).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A04",
+      "objective": "the exception register contains the planned remediation date.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A05",
+      "objective": "the exception register contains the re-evaluation date.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.2",
+      "ao_id": "QTS-02.2_A01",
+      "objective": "short-term compensating measures are implemented for Technology Assets, Applications and Services (TAAS) that cannot be migrated to Post-Quantum Cryptography (PQC) on the planned schedule (e.g., network segmentation, additional pre-shared-key layers, reduced key lifetimes, out-of-band key transport and data minimization).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.3",
+      "ao_id": "QTS-02.3_A01",
+      "objective": "progress is measured in adopting cryptographic agility using defined maturity criteria to support resilience against evolving Post-Quantum Cryptography (PQC) requirements and threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03",
+      "ao_id": "QTS-03_A01",
+      "objective": "a risk-prioritized Post-Quantum Cryptography Agility Plan (PQCAP) is developed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03",
+      "ao_id": "QTS-03_A02",
+      "objective": "the PQCAP enables cryptographic agility.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03",
+      "ao_id": "QTS-03_A03",
+      "objective": "the PQCAP aligns with evolving security standards.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03",
+      "ao_id": "QTS-03_A04",
+      "objective": "the PQCAP defines the approach for selecting and implementing PQC algorithms.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.1",
+      "ao_id": "QTS-03.1_A01",
+      "objective": "sufficient resources are allocated to transition legacy Technology Assets, Applications and/or Services (TAAS) to Post-Quantum Cryptography (PQC) algorithms.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.1",
+      "ao_id": "QTS-03.1_A02",
+      "objective": "hybrid cryptography is supported during a defined transition period, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.2",
+      "ao_id": "QTS-03.2_A01",
+      "objective": "reportable metrics for Post-Quantum Cryptography (PQC) migration are established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.2",
+      "ao_id": "QTS-03.2_A02",
+      "objective": "the metrics measure migration progress against the Post-Quantum Cryptography Agility Plan (PQCAP).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.2",
+      "ao_id": "QTS-03.2_A03",
+      "objective": "the metrics report progress periodically to executive leadership.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.3",
+      "ao_id": "QTS-03.3_A01",
+      "objective": "vendors are required to disclose Post-Quantum Cryptography (PQC) support roadmaps.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.3",
+      "ao_id": "QTS-03.3_A02",
+      "objective": "the roadmaps include identification of PQC-related limitations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.3",
+      "ao_id": "QTS-03.3_A03",
+      "objective": "the roadmaps include supported upgrade paths to ensure long-lived devices (e.g., OT, IoT and embedded systems) can support PQC capabilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-03.4",
+      "ao_id": "QTS-03.4_A01",
+      "objective": "vendors are contractually obligated to support Post-Quantum Cryptography (PQC) migration, including flow-down requirements to subcontractors, suppliers and third-party components.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04",
+      "ao_id": "QTS-04_A01",
+      "objective": "means to gain situational awareness into the organization's current cryptographic landscape through a formal discovery process are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04",
+      "ao_id": "QTS-04_A02",
+      "objective": "the discovery process uses available tools to generate situational awareness.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.1",
+      "ao_id": "QTS-04.1_A01",
+      "objective": "a current inventory of cryptographic assets is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.1",
+      "ao_id": "QTS-04.1_A02",
+      "objective": "the inventory includes algorithms (asymmetric and symmetric).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.1",
+      "ao_id": "QTS-04.1_A03",
+      "objective": "the inventory includes key lengths.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.1",
+      "ao_id": "QTS-04.1_A04",
+      "objective": "the inventory includes libraries.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.1",
+      "ao_id": "QTS-04.1_A05",
+      "objective": "the inventory includes protocols.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.1",
+      "ao_id": "QTS-04.1_A06",
+      "objective": "the inventory includes associated Technology Assets, Applications and/or Services (TAAS) utilizing the cryptography.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.1",
+      "ao_id": "QTS-04.1_A07",
+      "objective": "the inventory includes Federal Information Processing Standards (FIPS) validation status from the Cryptographic Module Validation Program (CMVP), including certificate number, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A01",
+      "objective": "a Cryptographic Bill of Materials (CBOM) is maintained to analyze the organization's cryptographic architecture.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A02",
+      "objective": "the CBOM includes hardware.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A03",
+      "objective": "the CBOM includes firmware.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A04",
+      "objective": "the CBOM includes software modules.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A05",
+      "objective": "the CBOM includes communication protocols.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.3",
+      "ao_id": "QTS-04.3_A01",
+      "objective": "a current inventory of Technology Assets, Applications and/or Services (TAAS) with Post-Quantum Cryptography (PQC) exposure is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.3",
+      "ao_id": "QTS-04.3_A02",
+      "objective": "the inventory includes public key algorithms vulnerable to Cryptographically Relevant Quantum Computers (CRQCs).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.3",
+      "ao_id": "QTS-04.3_A03",
+      "objective": "the inventory includes long-lived keys and certificates (e.g., CA roots, firmware signing keys, etc.).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.3",
+      "ao_id": "QTS-04.3_A04",
+      "objective": "the inventory includes TAAS that cannot easily adopt PQC upgrades (e.g., embedded, RTOS, etc.).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05",
+      "ao_id": "QTS-05_A01",
+      "objective": "differentiated quantum security training content is developed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05",
+      "ao_id": "QTS-05_A02",
+      "objective": "differentiated quantum security awareness training to the general workforce.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05",
+      "ao_id": "QTS-05_A03",
+      "objective": "differentiated quantum security awareness training to technical roles.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05",
+      "ao_id": "QTS-05_A04",
+      "objective": "differentiated quantum security awareness training to leadership roles.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05.1",
+      "ao_id": "QTS-05.1_A01",
+      "objective": "a quantum threat intelligence function is established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05.1",
+      "ao_id": "QTS-05.1_A02",
+      "objective": "the function monitors cryptanalytic threat developments.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05.1",
+      "ao_id": "QTS-05.1_A03",
+      "objective": "the function monitors quantum computing capability advances.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05.1",
+      "ao_id": "QTS-05.1_A04",
+      "objective": "the function monitors NIST and/or regulatory updates to approved algorithm lists.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05.2",
+      "ao_id": "QTS-05.2_A01",
+      "objective": "stakeholders participation in sector-appropriate quantum security forums.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06",
+      "ao_id": "QTS-06_A01",
+      "objective": "design-level cryptographic agility across protocols, libraries, kernels and hardware to ensure Technology Assets, Applications and/or Services (TAAS) is validated to support larger Post-Quantum Cryptography (PQC) key, signature and ciphertext sizes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.1",
+      "ao_id": "QTS-06.1_A01",
+      "objective": "validated entropy sources and random bit generators comply with NIST SP 800-90B.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.1",
+      "ao_id": "QTS-06.1_A02",
+      "objective": "the entropy sources support Post-Quantum Cryptography (PQC) key generation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.1",
+      "ao_id": "QTS-06.1_A03",
+      "objective": "the entropy sources support nonce generation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.1",
+      "ao_id": "QTS-06.1_A04",
+      "objective": "the entropy sources support probabilistic algorithm inputs.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.1",
+      "ao_id": "QTS-06.1_A05",
+      "objective": "the entropy sources support key validation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A01",
+      "objective": "stateful hash-based signature schemes conform with NIST SP 800-208.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A02",
+      "objective": "state-management controls necessary to prevent one-time key reuse are required.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A03",
+      "objective": "stateful hash-based signatures are enforced for firmware signing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A04",
+      "objective": "stateful hash-based signatures are enforced for secure boot signing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A05",
+      "objective": "stateful hash-based signatures are enforced for other long-lifetime code-signing use cases.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.3",
+      "ao_id": "QTS-06.3_A01",
+      "objective": "Post-Quantum Cryptography (PQC) algorithms are approved.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.3",
+      "ao_id": "QTS-06.3_A02",
+      "objective": "required validation levels for approved algorithms (e.g., FIPS 140-3 validated) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.4",
+      "ao_id": "QTS-06.4_A01",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are configured to use FIPS 140-3 validated cryptographic modules, where applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.5",
+      "ao_id": "QTS-06.5_A01",
+      "objective": "quantum-vulnerable and otherwise deprecated cryptographic algorithms are prohibited from being used.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.6",
+      "ao_id": "QTS-06.6_A01",
+      "objective": "cryptographic keys and certificates are managed in a manner that supports Post-Quantum Cryptography (PQC) transition.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.6",
+      "ao_id": "QTS-06.6_A02",
+      "objective": "validity periods for quantum-vulnerable certificates are shortened to reduce exposure.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.6",
+      "ao_id": "QTS-06.6_A03",
+      "objective": "Public Key Infrastructure (PKI) is prepared for PQC roots of trust or dual-root hybrid trust models.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.6",
+      "ao_id": "QTS-06.6_A04",
+      "objective": "key generation uses quantum-safe entropy sources.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.7",
+      "ao_id": "QTS-06.7_A01",
+      "objective": "Public Key Infrastructure (PKI) trust anchors are transitioned to quantum-safe algorithms.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.8",
+      "ao_id": "QTS-06.8_A01",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are configured to prevent attackers from forcing quantum-vulnerable algorithms.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.8",
+      "ao_id": "QTS-06.8_A02",
+      "objective": "integrity-protected algorithm negotiation is used (e.g., TLS 1.3 handshake transcript).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.8",
+      "ao_id": "QTS-06.8_A03",
+      "objective": "negotiation of classical-only cipher suites is disallowed once Post-Quantum Cryptography (PQC) is deployed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.8",
+      "ao_id": "QTS-06.8_A04",
+      "objective": "downgrade attempts are monitored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.9",
+      "ao_id": "QTS-06.9_A01",
+      "objective": "hybrid/composite algorithms are leveraged as a transition path to Post-Quantum Cryptography (PQC) solutions, where applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.9",
+      "ao_id": "QTS-06.9_A02",
+      "objective": "solutions support hybrid signatures (e.g., ECDSA + ML-DSA) and hybrid Key Encapsulation Mechanisms (KEMs) (e.g., ECDH + ML-KEM).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.9",
+      "ao_id": "QTS-06.9_A03",
+      "objective": "certificate formats, Public Key Infrastructure (PKI) and trust anchors can support dual-key or dual-certificate models.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.9",
+      "ao_id": "QTS-06.9_A04",
+      "objective": "plans exist for eventual removal of classical algorithms once PQC confidence is sufficient.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.10",
+      "ao_id": "QTS-06.10_A01",
+      "objective": "universal interface is used to bridge established cryptographic Application Programming Interface (API) frameworks by abstracting complex cryptographic operations to support cryptographic agility.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07",
+      "ao_id": "QTS-07_A01",
+      "objective": "capability exists to respond to the compromise or disallowance of a Post-Quantum Cryptography (PQC) or classical algorithm on a compressed timeline.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07",
+      "ao_id": "QTS-07_A02",
+      "objective": "pre-identified algorithm alternates are established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07",
+      "ao_id": "QTS-07_A03",
+      "objective": "tested rollback and roll-forward procedures are established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07",
+      "ao_id": "QTS-07_A04",
+      "objective": "customer and/or counterparty communication templates are established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07",
+      "ao_id": "QTS-07_A05",
+      "objective": "incident response rehearsals against defined scenarios are conducted.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-08",
+      "ao_id": "QTS-08_A01",
+      "objective": "Post-Quantum Cryptography (PQC) implementations are validated for functional and cryptographic requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-08",
+      "ao_id": "QTS-08_A02",
+      "objective": "each PQC implementation is interoperable with counterparties and successors.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-08",
+      "ao_id": "QTS-08_A03",
+      "objective": "each PQC implementation meets performance criteria for its use case.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-08",
+      "ao_id": "QTS-08_A04",
+      "objective": "test results and exceptions are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "RSK-01",
       "ao_id": "RSK-01_A01",
       "objective": "a comprehensive strategy is developed to manage cybersecurity / data privacy risk to organizational operations and assets, individuals and other organizations associated with the operation and use of organizational systems.",
@@ -47078,7 +48668,7 @@
       "pptdf": "Process",
       "origin": "171A_R3_A.03.17.03.b",
       "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "at a minimum, integrate Supply Chain Risk Management (SCRM) into  acquisition/procurement policies, provide adequate SCRM resources, define the SCRM control baseline, establish processes to ensure suppliers disclose significant vulnerabilities and significant incidents",
+      "scf_defined_parameters": "at a minimum, integrate Supply Chain Risk Management (SCRM) into acquisition/procurement policies, provide adequate SCRM resources, define the SCRM control baseline, establish processes to ensure suppliers disclose significant vulnerabilities and significant incidents",
       "org_defined_parameters": ""
     },
     {
@@ -47438,6 +49028,16 @@
       "pptdf": "Data",
       "origin": "171A_R3_A.03.11.01.a",
       "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-03.2",
+      "ao_id": "RSK-03.2_A01",
+      "objective": "a risk owner is identified for each item in the risk register to ensure clear accountability for unremediated risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
@@ -48208,7 +49808,7 @@
       "pptdf": "Process",
       "origin": "171A_R3_A.03.17.03.b",
       "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "at a minimum, integrate Supply Chain Risk Management (SCRM) into  acquisition/procurement policies, provide adequate SCRM resources, define the SCRM control baseline, establish processes to ensure suppliers disclose significant vulnerabilities and significant incidents",
+      "scf_defined_parameters": "at a minimum, integrate Supply Chain Risk Management (SCRM) into acquisition/procurement policies, provide adequate SCRM resources, define the SCRM control baseline, establish processes to ensure suppliers disclose significant vulnerabilities and significant incidents",
       "org_defined_parameters": ""
     },
     {
@@ -49362,6 +50962,26 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "SAT-04.1",
+      "ao_id": "SAT-04.1_A01",
+      "objective": "individual training results are monitored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-04.1",
+      "ao_id": "SAT-04.1_A02",
+      "objective": "training results are reported to applicable stakeholders.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "SAT-05",
       "ao_id": "SAT-05_A01",
       "objective": "a process to improve cybersecurity and data protection knowledge sharing across security personnel is defined.",
@@ -49635,6 +51255,36 @@
       "scf_control_id": "SEA-01.3",
       "ao_id": "SEA-01.3_A02",
       "objective": "cybersecurity and data protection controls are designed and implemented to provide resistance to intentional attack or circumvention.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-01.4",
+      "ao_id": "SEA-01.4_A01",
+      "objective": "security architecture principles are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-01.4",
+      "ao_id": "SEA-01.4_A02",
+      "objective": "security, compliance and resilience capabilities are designed and maintained in alignment with security architecture principles.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-01.5",
+      "ao_id": "SEA-01.5_A01",
+      "objective": "secure architecture principles are incorporated into engineering, product and model design requirements to ensure security, compliance and resilience are built in by default and by design.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -50428,6 +52078,36 @@
       "pptdf": "Process",
       "origin": "172A_3.14.4e[b]",
       "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.2",
+      "ao_id": "SEA-08.2_A01",
+      "objective": "a frequency is defined for information to be regenerated or refreshed.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.2",
+      "ao_id": "SEA-08.2_A02",
+      "objective": "information is generated or refreshed per an organization-defined frequency.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.2",
+      "ao_id": "SEA-08.2_A03",
+      "objective": "mechanisms exist to delete information when no longer needed.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
@@ -52712,6 +54392,26 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "TDA-06.7",
+      "ao_id": "TDA-06.7_A01",
+      "objective": "organization-approved programming language(s) for software development are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.7",
+      "ao_id": "TDA-06.7_A02",
+      "objective": "the justification for program language alignment selection decisions are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "TDA-07",
       "ao_id": "TDA-07_A01",
       "objective": "system pre-production environments are protected commensurate with risk throughout the system development life cycle for the system, system component or system service.",
@@ -53462,6 +55162,36 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "TDA-13.1",
+      "ao_id": "TDA-13.1_A01",
+      "objective": "a cybersecurity knowledge and skills register for developers is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-13.2",
+      "ao_id": "TDA-13.2_A01",
+      "objective": "requisite skillsets for developers for Secure Software Development Practices (SSDP) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-13.2",
+      "ao_id": "TDA-13.2_A02",
+      "objective": "developers of Technology Assets, Applications and/or Services (TAAS) who lack the requisite skillset receive suitable training on Secure Software Development Practices (SSDP) are trained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "TDA-14",
       "ao_id": "TDA-14_A01",
       "objective": "the developer of system, systems component or system service is required to have appropriate access authorizations as determined by assigned official duties.",
@@ -54082,6 +55812,26 @@
       "org_defined_parameters": ""
     },
     {
+      "scf_control_id": "TDA-19.1",
+      "ao_id": "TDA-19.1_A01",
+      "objective": "personnel and/or role(s) authorized to receive security-relevant error messages are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-19.1",
+      "ao_id": "TDA-19.1_A02",
+      "objective": "access to error messages are restricted to authorized personnel and/or role(s).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
       "scf_control_id": "TDA-20",
       "ao_id": "TDA-20_A01",
       "objective": "organization-defined criteria for security-relevant information pertaining to external system interfaces, high-level design, low-level design, source code or hardware schematics and design and implementation information are documented in a System Security Plan (SSP).",
@@ -54328,6 +56078,26 @@
       "pptdf": "People",
       "origin": "SCF Created",
       "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-01.1",
+      "ao_id": "THR-01.1_A01",
+      "objective": "ongoing awareness of the current cyber threat environment is maintained as part of the Threat Intelligence Program (TIP).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-01.2",
+      "ao_id": "THR-01.2_A01",
+      "objective": "advanced automation and analytics capabilities are implemented to predict and identify risks to Technology Assets, Applications, Services and/or Data (TAASD).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
@@ -55668,7 +57438,7 @@
       "pptdf": "Data",
       "origin": "171A_R3_A.03.16.03.a",
       "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "SDP values: \n(1) For cloud service providers:\n  (i) FedRAMP Authorized at the FedRAMP Moderate (or higher) baseline in accordance with the FedRAMP Marketplace; or\n  (ii) meets security requirements established by the government equivalent to the FedRAMP Moderate (or higher) baseline.\n(2) All other external service providers must meet NIST SP 800-171 R2.",
+      "scf_defined_parameters": "SDP values: \n(1) For cloud service providers:\n (i) FedRAMP Authorized at the FedRAMP Moderate (or higher) baseline in accordance with the FedRAMP Marketplace; or\n (ii) meets security requirements established by the government equivalent to the FedRAMP Moderate (or higher) baseline.\n(2) All other external service providers must meet NIST SP 800-171 R2.",
       "org_defined_parameters": ""
     },
     {
@@ -56337,6 +58107,36 @@
       "objective": "vulnerabilities are remediated in accordance with risk assessments.",
       "pptdf": "Process",
       "origin": "171A_3.11.3[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-02.1",
+      "ao_id": "VPM-02.1_A01",
+      "objective": "remediation and mitigation of Known Exploited Vulnerabilities (KEV) is prioritized.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-02.1",
+      "ao_id": "VPM-02.1_A02",
+      "objective": "KEV remediation efforts reduce or remove public exposure to exploitation, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-02.1",
+      "ao_id": "VPM-02.1_A03",
+      "objective": "KEV remediation efforts expedite patch deployment actions, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

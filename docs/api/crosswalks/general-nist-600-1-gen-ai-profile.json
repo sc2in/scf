@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-600-1-gen-ai-profile",
-  "display_name": "NIST AI 600-1",
+  "display_name": "NIST AI 600 - 1 - Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
   "scf_to_framework": {
     "total_mappings": 139,
     "mappings": {

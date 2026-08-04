@@ -98,7 +98,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -122,6 +123,9 @@
     ],
     "general-nist-800-171-r3": [
       "03.07.05.a"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.07.05.a[01]"
     ],
     "general-nist-800-207": [
       "NIST Tenet 4"

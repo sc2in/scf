@@ -107,18 +107,23 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-nist-csf-2-0": [
       "DE.CM-06"
     ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.2.31(c)",
+      "3.4.2.31(d)"
+    ],
     "emea-eu-nis2-annex-2024": [
       "3.2.3(b)",
       "11.2.2(f)"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1650"
     ]
   }

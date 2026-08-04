@@ -21,7 +21,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Risk Management (RSK) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with RSK domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with RSK domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with RSK  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Risk management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Risk management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Risk management processes (e.g., risk assessments) and technologies focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ IT and/or cybersecurity personnel implement and maintain a form of Risk Management Program (RMP) that provides operational guidance on how risk is identified, assessed, remediated and reported.\n▪ Data/process owners are expected to self-manage risks associated with their systems, applications, services and data, based on the organization's published policies and standards, including the identification, remediation and reporting of risks.\n▪ Business process owners (BPOs) are made aware of cybersecurity and data protection risk(s).",
     "3": "Risk Management (RSK) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with RSK domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with RSK domain capabilities are well-documented and kept current by process owners.\n▪ A risk management team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of risk management operations (e.g., risk management solution, GRC platform, TPRM tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with RSK domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to identify:\n(1) Assumptions affecting risk assessments, risk response and risk monitoring;\n(2) Constraints affecting risk assessments, risk response and risk monitoring;\n(3) The organizational risk tolerance; and\n(4) Priorities, benefits and trade-offs considered by the organization for managing risk.",
     "4": "Risk Management (RSK) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -96,7 +96,8 @@
     "MT-17",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Risk Management",
   "crosswalks": {
@@ -285,10 +286,10 @@
       "609.930(a)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.306(b)(2)(iv)"
+      "§ 164.306(b)(2)(iv)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.306(b)(2)(iv)"
+      "§ 164.306(b)(2)(iv)"
     ],
     "usa-federal-sec-cybersecurity-rule-2023": [
       "17 CFR 229.105(a)",
@@ -302,9 +303,7 @@
       "500.9(b)(1)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.3.1(10)",
-      "3.6.1(66)",
-      "3.7.2(82)"
+      "3.3.1.10"
     ],
     "emea-eu-dora-2023": [
       "Article 8.2"
@@ -312,12 +311,18 @@
     "emea-eu-nis2-annex-2024": [
       "2.1.2(c)"
     ],
-    "emea-isr-cmo-1-0": [
-      "2.2"
+    "emea-isr-cmo-2-0": [
+      "4.2, Stage 2.1"
     ],
-    "emea-sau-otcc-1-2022": [
-      "1-3-1-4",
-      "1-3-1-5"
+    "emea-esp-decree-311-2022": [
+      "Article 14(2)"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "op.pl.3"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "16(b)",
+      "27"
     ],
     "apac-jpn-ismap": [
       "4.4.6.1",
@@ -329,18 +334,14 @@
       "23.2.17.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
-      "4.2.1",
-      "4.3.2"
-    ],
-    "americas-bmu-mba-coc-2020": [
-      "5.5"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "6.15",
-      "6.24"
+      "4.2.1"
     ],
     "americas-can-osfi-b13-2022": [
       "1.3",
+      "3.1.8"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "1.3.2",
       "3.1.8"
     ],
     "americas-can-itsp-10-171-2025": [

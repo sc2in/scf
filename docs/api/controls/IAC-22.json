@@ -88,18 +88,19 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-cis-csc-8-1": [
-      "4.1"
+      "4.10"
     ],
     "general-cis-csc-8-1-ig2": [
-      "4.1"
+      "4.10"
     ],
     "general-cis-csc-8-1-ig3": [
-      "4.1"
+      "4.10"
     ],
     "general-govramp": [
       "AC-07"
@@ -136,7 +137,7 @@
     "general-iso-27018-2025": [
       "8.1"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1021",
       "T1021.001",
       "T1021.004",
@@ -227,6 +228,9 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "AC-07"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(a)(1)"
+    ],
     "usa-federal-irs-1075-2021": [
       "AC-7"
     ],
@@ -259,11 +263,12 @@
     "emea-eu-nis2-annex-2024": [
       "11.6.2(d)"
     ],
-    "emea-isr-cmo-1-0": [
-      "4.14"
-    ],
     "emea-sau-cgiot-2024": [
       "2-2-2"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.eq.3",
+      "mp.eq.4"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2214"
@@ -277,12 +282,8 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2214"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1403"
-    ],
-    "apac-nzl-ism-3-9": [
-      "16.1.46.C.01",
-      "16.1.46.C.02"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.08.A",

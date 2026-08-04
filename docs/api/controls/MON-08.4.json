@@ -86,7 +86,8 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
@@ -101,6 +102,14 @@
     ],
     "general-nist-800-160-vol-2-r1": [
       "AU-09(05)"
+    ],
+    "general-nist-800-172-r3": [
+      "03.03.03E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.03.03E",
+      "A.03.03.03E.ODP[01]",
+      "A.03.03.03E.ODP[02]"
     ]
   }
 }

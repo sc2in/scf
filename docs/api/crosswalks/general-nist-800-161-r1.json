@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-161-r1",
-  "display_name": "NIST SP 800-161 R1 UDP1",
+  "display_name": "NIST SP 800 - 161 R1 UDP1 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations",
   "scf_to_framework": {
     "total_mappings": 341,
     "mappings": {

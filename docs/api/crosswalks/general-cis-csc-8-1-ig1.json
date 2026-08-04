@@ -1,6 +1,6 @@
 {
   "framework_id": "general-cis-csc-8-1-ig1",
-  "display_name": "Critical Security Controls (CSC) (v8.1) - IG1",
+  "display_name": "Center for Internet Security (CIS) Critical Security Controls (CSC) version 8.1 - IG1",
   "scf_to_framework": {
     "total_mappings": 104,
     "mappings": {

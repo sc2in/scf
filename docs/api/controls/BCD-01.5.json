@@ -73,7 +73,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -96,8 +97,15 @@
     "emea-uae-niaf-2023": [
       "3.4.2"
     ],
+    "apac-aus-ps-cps-230-2023": [
+      "34(d)"
+    ],
     "apac-ind-sebi-2024": [
       "RC.RP.S1"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.24",
+      "10.32"
     ],
     "americas-can-osfi-b13-2022": [
       "2.9.1"

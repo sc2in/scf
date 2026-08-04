@@ -85,9 +85,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-cobit-2019": [
@@ -98,9 +98,6 @@
       "PM:SG1.SP1",
       "PM:SG2",
       "PM:SG2.SP1"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "8.2.5 [MP.PER.5]"
     ]
   }
 }

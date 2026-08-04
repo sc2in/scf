@@ -86,7 +86,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {
@@ -97,7 +98,7 @@
     "usa-federal-dhs-cisa-tic-3-0": [
       "3.PEP.NE.RCONT"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1778",
       "ISM-1779"
     ]

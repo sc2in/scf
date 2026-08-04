@@ -119,7 +119,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
@@ -132,9 +133,9 @@
       "CC9.2-POF13"
     ],
     "general-cis-csc-8-1": [
-      "7.0",
+      "7",
       "7.1",
-      "18.0"
+      "18"
     ],
     "general-cis-csc-8-1-ig1": [
       "7.1"
@@ -269,7 +270,9 @@
       "3.14.1[f]"
     ],
     "general-nist-800-171a-r3": [
-      "A.03.11.02.ODP[03]"
+      "A.03.11.02.ODP[03]",
+      "A.03.11.02.a[01]",
+      "A.03.14.01.a[01]"
     ],
     "general-nist-csf-2-0": [
       "ID.RA-01",
@@ -312,9 +315,6 @@
     "general-pci-dss-4-0-1-saq-d-service-provider": [
       "6.3.1",
       "6.3.3"
-    ],
-    "general-scf-dpmp-2025": [
-      "5.15"
     ],
     "general-shared-assessments-sig-2025": [
       "T.2"
@@ -455,8 +455,8 @@
       "SI-03"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.3.3(21)",
-      "3.4.4(36)(a)"
+      "3.3.3.21",
+      "3.4.4.36(a)"
     ],
     "emea-eu-dora-2023": [
       "Article 9.4(f)",
@@ -473,63 +473,45 @@
       "6.10.2(a)",
       "6.10.2(d)"
     ],
-    "emea-aut-fappd-2000": [
-      "Sec 14",
-      "Sec 15"
-    ],
-    "emea-bel-act-8-1992": [
-      "16"
-    ],
-    "emea-deu-bsrit-2017": [
-      "5.6"
-    ],
     "emea-deu-c5-2020": [
-      "OPS-18",
-      "PSS-02"
-    ],
-    "emea-isr-cmo-1-0": [
-      "22.1",
-      "22.2"
+      "RB-17",
+      "RB-17-BP2"
     ],
     "emea-sau-cscc-1-2019": [
       "2-3-1-3",
-      "2-9",
+      "2-9-1",
       "2-9-2"
     ],
     "emea-sau-cgiot-2024": [
       "2-9-1"
     ],
     "emea-sau-ecc-1-2018": [
-      "2-3-4",
       "2-10-1",
       "2-10-2",
-      "2-10-3",
-      "2-10-4",
-      "2-11-1",
-      "2-11-2",
-      "2-11-3",
-      "2-11-4",
       "5-1-3-8"
     ],
     "emea-sau-otcc-1-2022": [
-      "2-9",
       "2-9-1",
-      "2-9-2"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-11"
+      "2-9-2",
+      "2-10-1",
+      "2-10-2"
     ],
     "emea-sau-sama-csf-1-2017": [
-      "3.3.17"
+      "3.3.17",
+      "3.3.17.1",
+      "3.3.17.3",
+      "3.3.17.3.a",
+      "3.3.17.3.b",
+      "3.3.17.3.c",
+      "3.3.17.3.d",
+      "3.3.17.3.e",
+      "3.3.17.3.f"
     ],
-    "emea-zaf-popia-2013": [
-      "19"
+    "emea-esp-decree-311-2022": [
+      "Article 12(6)(i)"
     ],
     "emea-gbr-caf-4-0": [
       "B4.d"
-    ],
-    "emea-gbr-cyber-essentials-requirements-3-3": [
-      "5"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2402",
@@ -547,7 +529,7 @@
       "2402",
       "2405"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1143",
       "ISM-1163",
       "ISM-1460",
@@ -580,7 +562,13 @@
       "12.6.1.17",
       "12.6.1.18.PB"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "10.17",
+      "10.18",
+      "10.19",
+      "10.31"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP19",
       "HHSP26",
       "HML19",
@@ -592,21 +580,19 @@
     "apac-nzl-ism-3-9": [
       "6.2.4.C.01"
     ],
-    "apac-sgp-cyber-hygiene-practice-2019": [
-      "4.2(a)",
-      "4.2(b)"
-    ],
     "apac-sgp-mas-trm-2021": [
-      "4.2.1",
-      "7.4.1",
-      "7.4.2"
+      "6.1.4"
     ],
-    "americas-bmu-mba-coc-2020": [
-      "6.16"
+    "americas-arg-ppd-2018": [
+      "E"
     ],
     "americas-can-osfi-b13-2022": [
       "2.6",
       "3.1"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "2.6.1",
+      "3.2.6"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.11.02.A",

@@ -1,8 +1,8 @@
 {
   "framework_id": "usa-federal-irs-1075-2021",
-  "display_name": "IRS 1075 (2021)",
+  "display_name": "US - Internal Revenue Service (IRS) 1075 (2021)",
   "scf_to_framework": {
-    "total_mappings": 442,
+    "total_mappings": 443,
     "mappings": {
       "GOV-01": [
         "PM-1"
@@ -1382,7 +1382,11 @@
         "PE-8"
       ],
       "PES-04": [
+        "2.B.3",
         "2.B.3.3"
+      ],
+      "PES-04.1": [
+        "2.B.3"
       ],
       "PES-05": [
         "PE-6"
@@ -1834,7 +1838,7 @@
     }
   },
   "framework_to_scf": {
-    "total_mappings": 743,
+    "total_mappings": 744,
     "mappings": {
       "PM-1": [
         "GOV-01",
@@ -3812,6 +3816,10 @@
       ],
       "PE-8": [
         "PES-03.3"
+      ],
+      "2.B.3": [
+        "PES-04",
+        "PES-04.1"
       ],
       "2.B.3.3": [
         "PES-04"

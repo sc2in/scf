@@ -1,0 +1,30 @@
+{
+  "framework_id": "emea-pol-act-10-2018",
+  "display_name": "Poland - Act of 10 May 2018 on the Protection of Personal Data",
+  "scf_to_framework": {
+    "total_mappings": 2,
+    "mappings": {
+      "PRI-01.4": [
+        "Art. 8",
+        "Art. 11a"
+      ],
+      "PRI-02": [
+        "Art. 11"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 3,
+    "mappings": {
+      "Art. 8": [
+        "PRI-01.4"
+      ],
+      "Art. 11a": [
+        "PRI-01.4"
+      ],
+      "Art. 11": [
+        "PRI-02"
+      ]
+    }
+  }
+}

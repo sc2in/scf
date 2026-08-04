@@ -94,9 +94,9 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Artificial Intelligence & Autonomous Technologies",
   "crosswalks": {
     "general-iso-42001-2023": [

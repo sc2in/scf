@@ -63,13 +63,11 @@
     "MT-16",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
-    "general-nist-800-172": [
-      "3.14.1e"
-    ],
     "usa-federal-dow-cmmc-2-level-3": [
       "SI.L3-3.14.1E"
     ]

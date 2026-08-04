@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-22301-2019",
-  "display_name": "ISO 22301 (2019)",
+  "display_name": "ISO/IEC 22301:2019 - Security and resilience - Business continuity management systems - Requirements",
   "scf_to_framework": {
     "total_mappings": 36,
     "mappings": {

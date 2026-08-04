@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-53-r5-2-mod",
-  "display_name": "NIST SP 800-53 R5 - Moderate Baseline",
+  "display_name": "NIST SP 800 - 53 R5 - Security and Privacy Controls for Information Systems and Organizations - Moderate Baseline",
   "scf_to_framework": {
     "total_mappings": 157,
     "mappings": {

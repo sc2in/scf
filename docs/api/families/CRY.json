@@ -89,7 +89,8 @@
         "MT-23",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -107,7 +108,7 @@
         "general-cis-csc-8-1": [
           "3.6",
           "3.9",
-          "3.1",
+          "3.10",
           "3.11"
         ],
         "general-cis-csc-8-1-ig1": [
@@ -116,13 +117,13 @@
         "general-cis-csc-8-1-ig2": [
           "3.6",
           "3.9",
-          "3.1",
+          "3.10",
           "3.11"
         ],
         "general-cis-csc-8-1-ig3": [
           "3.6",
           "3.9",
-          "3.1",
+          "3.10",
           "3.11"
         ],
         "general-csa-cmm-4-1-0": [
@@ -188,7 +189,7 @@
           "8.24",
           "8.26"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1005",
           "T1025",
           "T1041",
@@ -267,6 +268,14 @@
           "A.03.13.11.ODP[01]",
           "A.03.13.11"
         ],
+        "general-nist-800-172-r3": [
+          "03.14.09E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.14.09E[01]",
+          "DS-A.03.14.09E[02]",
+          "DS-A.03.14.09E[03]"
+        ],
         "general-nist-800-207": [
           "NIST Tenet 2"
         ],
@@ -310,9 +319,6 @@
           "3.3.2",
           "8.3.2",
           "12.3.3"
-        ],
-        "general-scf-dpmp-2025": [
-          "7.2"
         ],
         "general-sparta": [
           "CM0050"
@@ -376,16 +382,19 @@
           "SC-08(02)",
           "SC-13"
         ],
+        "usa-federal-law-33-cfr-part-101-subpart-f": [
+          "101.650(c)(2)"
+        ],
         "usa-federal-law-glba-cfr-314-2023": [
           "314.4(c)(3)"
         ],
         "usa-federal-law-hipaa-simplification-2013": [
-          "164.312(a)(2)(iv)",
-          "164.312(e)(2)(ii)"
+          "§ 164.312(a)(2)(iv)",
+          "§ 164.312(e)(2)(ii)"
         ],
         "usa-federal-law-hipaa-security-rule-2013": [
-          "164.312(a)(2)(iv)",
-          "164.312(e)(2)(ii)"
+          "§ 164.312(a)(2)(iv)",
+          "§ 164.312(e)(2)(ii)"
         ],
         "usa-federal-irs-1075-2021": [
           "2.E.2",
@@ -431,7 +440,7 @@
           "SC-13"
         ],
         "emea-eu-eba-ict-srm-2025": [
-          "3.4.4(36)(f)"
+          "3.4.4.36(f)"
         ],
         "emea-eu-gdpr-2016": [
           "Article 32.1(a)"
@@ -444,61 +453,57 @@
           "9.2(a)",
           "9.2(b)"
         ],
-        "emea-us-psd2-2015": [
-          "20",
-          "30"
-        ],
-        "emea-aut-fappd-2000": [
-          "Sec 14",
-          "Sec 15"
-        ],
-        "emea-bel-act-8-1992": [
-          "16"
+        "emea-deu-fdpa-2017": [
+          "3.2.48(2)7"
         ],
         "emea-deu-c5-2020": [
-          "CRY-01"
+          "KRY-01",
+          "KRY-01-BP1",
+          "KRY-01-BP2",
+          "KRY-01-BP3",
+          "KRY-01-BP4",
+          "KRY-02"
         ],
-        "emea-isr-cmo-1-0": [
-          "8.1",
-          "8.8",
-          "15.7",
-          "21.16"
+        "emea-isr-cmo-2-0": [
+          "Appendix A, 3.1"
         ],
         "emea-sau-cscc-1-2019": [
-          "2-7",
+          "2-7-1",
           "2-7-1-3"
         ],
         "emea-sau-ecc-1-2018": [
           "2-8-1",
           "2-8-2",
-          "2-8-3",
-          "2-8-3-1",
-          "2-8-4"
+          "2-8-3-1"
         ],
         "emea-sau-otcc-1-2022": [
-          "2-2-1-4",
-          "2-7",
+          "2-6-1",
           "2-7-1",
           "2-7-2"
         ],
         "emea-sau-sacs-002-2022": [
-          "TPC-52",
-          "TPC-54"
+          "VII.B.TPC-54"
         ],
         "emea-sau-sama-csf-1-2017": [
-          "3.3.9"
+          "3.3.9",
+          "3.3.9.1",
+          "3.3.9.4",
+          "3.3.9.4.a",
+          "3.3.9.4.b",
+          "3.3.9.4.c"
         ],
-        "emea-zaf-popia-2013": [
-          "14.1",
-          "19.1",
-          "19.2"
+        "emea-esp-decree-311-2022": [
+          "Article 12(6)(j)"
         ],
-        "emea-esp-ccn-stic-825-2023": [
-          "8.4.2 [MP.COM.2]",
-          "8.4.3 [MP.COM.3]",
-          "8.5.2 [MP.SI.2]",
-          "8.7.3 [MP.INFO.3]",
-          "8.7.4 [MP.INFO.4]"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.10",
+          "mp.si.2",
+          "mp.info.3",
+          "mp.info.4",
+          "mp.s.2"
+        ],
+        "emea-gbr-cap-1850-2020": [
+          "B3"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2304",
@@ -520,7 +525,7 @@
           "2317",
           "2318"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0142",
           "ISM-0457",
           "ISM-0460",
@@ -539,6 +544,7 @@
           "ISM-1080",
           "ISM-1091",
           "ISM-1146",
+          "ISM-1233",
           "ISM-1446",
           "ISM-1629",
           "ISM-1759",
@@ -582,7 +588,11 @@
           "14.1.3.5",
           "14.1.3.6"
         ],
-        "apac-nzl-hisf-mlhsp-2023": [
+        "apac-mys-bnm-rmit-2025": [
+          "10.20",
+          "10.22"
+        ],
+        "apac-nzl-hisf-microsmall-2023": [
           "HHSP37",
           "HML37"
         ],
@@ -629,7 +639,6 @@
           "17.4.16.C.01",
           "17.4.16.C.02",
           "17.5.6.C.01",
-          "17.6.6.C.01",
           "17.6.7.C.01",
           "17.7.6.C.01",
           "17.8.10.C.01",
@@ -641,35 +650,28 @@
           "17.8.15.C.01",
           "17.8.16.C.01",
           "17.8.17.C.01",
-          "17.9.24.C.01",
-          "17.9.24.C.02",
-          "17.9.24.C.03",
-          "17.9.25.C.01",
-          "17.9.26.C.01",
-          "17.9.26.C.02",
-          "17.9.27.C.01",
-          "17.9.27.C.02",
-          "17.9.27.C.03",
-          "17.9.28.C.01",
-          "17.9.29.C.01",
           "17.9.30.C.01",
           "17.9.30.C.02",
+          "17.9.30.C.03",
           "17.9.31.C.01",
           "17.9.32.C.01",
           "17.9.32.C.02",
-          "17.9.32.C.03"
+          "17.9.38.C.01",
+          "17.9.38.C.02"
         ],
         "apac-sgp-mas-trm-2021": [
+          "6.4.5",
           "10.1.1",
-          "10.1.2",
           "10.1.3",
-          "10.1.4",
-          "10.1.5"
+          "10.1.4"
         ],
         "americas-bmu-mba-coc-2020": [
           "6.22"
         ],
         "americas-can-osfi-b13-2022": [
+          "3.2.2"
+        ],
+        "americas-can-osfi-self-assessment-2": [
           "3.2.2"
         ],
         "americas-can-itsp-10-171-2025": [
@@ -698,9 +700,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to prevent unauthorized disclosure of information as an alternative to physical safeguards.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to prevent unauthorized disclosure of information as an alternative to physical safeguards. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -769,7 +771,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -820,6 +823,9 @@
           "3.13.8[b]",
           "3.13.8[c]"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.13.08[02]"
+        ],
         "general-nist-csf-2-0": [
           "PR.DS-01"
         ],
@@ -854,9 +860,6 @@
         "usa-state-tx-txramp-2-0-level-2": [
           "SC-08 (01)"
         ],
-        "emea-isr-cmo-1-0": [
-          "15.7"
-        ],
         "americas-can-itsp-10-171-2025": [
           "03.13.08"
         ]
@@ -880,7 +883,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to address the exporting of cryptographic technologies in compliance with relevant statutory and regulatory requirements.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -914,7 +917,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -1025,7 +1029,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to ensure the confidentiality and integrity of information during preparation for transmission and during reception.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -1064,7 +1068,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -1095,7 +1100,7 @@
         "usa-federal-cms-marse-2-0": [
           "SC-8(2)"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0548",
           "ISM-0554"
         ]
@@ -1119,7 +1124,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to conceal or randomize communication patterns.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -1155,7 +1160,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -1181,7 +1187,9 @@
       "scf_question": "Does the organization identify, document and review deployed cryptographic cipher suites and protocols to proactively respond to industry trends regarding the continued viability of utilized cryptographic cipher suites and protocols?",
       "relative_weight": 9,
       "conformity_cadence": "Semi-Annual",
-      "evidence_requests": [],
+      "evidence_requests": [
+        "E-QTS-04"
+      ],
       "pptdf": "Process",
       "nist_csf_function": "Protect",
       "scrm_focus": {
@@ -1191,7 +1199,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to identify, document and review deployed cryptographic cipher suites and protocols to proactively respond to industry trends regarding the continued viability of utilized cryptographic cipher suites and protocols.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -1227,12 +1235,19 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-nist-800-171-r3": [
           "03.13.11"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.13.11"
+        ],
+        "general-nist-cswp-39": [
+          "3.1"
         ],
         "general-pci-dss-4-0-1": [
           "12.3.3"
@@ -1245,6 +1260,17 @@
         ],
         "emea-sau-cscc-1-2019": [
           "2-7-1-3"
+        ],
+        "apac-mys-bnm-rmit-2025": [
+          "10.20",
+          "10.22"
+        ],
+        "apac-nzl-ism-3-9": [
+          "17.9.34.C.01"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "10.1.2",
+          "10.1.5"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.13.11"
@@ -1321,9 +1347,9 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
-      "errata": "- renamed",
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-govramp": [
@@ -1420,13 +1446,6 @@
         ],
         "usa-state-tx-txramp-2-0-level-2": [
           "IA-07"
-        ],
-        "emea-isr-cmo-1-0": [
-          "4.37",
-          "12.10"
-        ],
-        "emea-sau-ecc-1-2018": [
-          "2-8-3-1"
         ]
       }
     },
@@ -1452,7 +1471,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Cryptographic Protections (CRY) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CRY domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cryptography management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel provide an encryption solution (software or hardware) for the storage of sensitive/regulated data.\n▪ Sensitive/regulated data is encrypted in transit according to standardized processes.",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.\n▪ External compliance requirements for cryptography are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to implement cryptographic mechanisms that are applicability for statutory, regulatory and/or contractual compliance obligations.\n▪ Sensitive/regulated data is encrypted at rest using cryptographic protections that are commensurate with the sensitivity of the data.\n▪ Sensitive/regulated data is encrypted during transmission using cryptographic protections that are commensurate with the sensitivity of the data.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the confidentiality of data being transmitted.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the confidentiality of data being transmitted. ",
         "4": "Cryptographic Protections (CRY) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -1508,7 +1527,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -1522,13 +1542,13 @@
           "CC6.7-POF2"
         ],
         "general-cis-csc-8-1": [
-          "3.1"
+          "3.10"
         ],
         "general-cis-csc-8-1-ig2": [
-          "3.1"
+          "3.10"
         ],
         "general-cis-csc-8-1-ig3": [
-          "3.1"
+          "3.10"
         ],
         "general-csa-cmm-4-1-0": [
           "CEK-03",
@@ -1580,7 +1600,7 @@
           "8.24",
           "8.26"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1020.001",
           "T1040",
           "T1090",
@@ -1662,7 +1682,8 @@
           "3.13.8"
         ],
         "general-nist-800-171-r3": [
-          "03.13.08"
+          "03.13.08",
+          "03.13.11"
         ],
         "general-nist-800-171a": [
           "3.13.8[a]",
@@ -1720,9 +1741,6 @@
           "A2.1.1",
           "A2.1.2"
         ],
-        "general-scf-dpmp-2025": [
-          "7.2"
-        ],
         "general-swift-cscf-2025": [
           "2.1",
           "2.5A",
@@ -1772,14 +1790,17 @@
           "SC-08",
           "SC-08(01)"
         ],
+        "usa-federal-law-33-cfr-part-101-subpart-f": [
+          "101.650(c)(2)"
+        ],
         "usa-federal-hhs-45-cfr-155-260-2016": [
           "155.260(a)(6)"
         ],
         "usa-federal-law-hipaa-simplification-2013": [
-          "164.312(e)(1)"
+          "§ 164.312(e)(1)"
         ],
         "usa-federal-law-hipaa-security-rule-2013": [
-          "164.312(e)(1)"
+          "§ 164.312(e)(1)"
         ],
         "usa-federal-irs-1075-2021": [
           "3.3.1.d",
@@ -1797,6 +1818,9 @@
         "usa-state-ma-201-cmr-17-2008": [
           "17.04(3)"
         ],
+        "usa-state-nv-privacy-law-2023": [
+          "603A.215.2(a)"
+        ],
         "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
           "500.15(a)"
         ],
@@ -1813,24 +1837,11 @@
           "2447(c)(5)"
         ],
         "emea-eu-eba-ict-srm-2025": [
-          "3.4.4(36)(f)"
-        ],
-        "emea-us-psd2-2015": [
-          "20",
-          "30"
+          "3.4.4.36(f)"
         ],
         "emea-deu-c5-2020": [
-          "CRY-02"
-        ],
-        "emea-isr-cmo-1-0": [
-          "4.22",
-          "8.4",
-          "8.5",
-          "8.6",
-          "9.8",
-          "9.20",
-          "12.10",
-          "13.6"
+          "KRY-02",
+          "KRY-02-DOAR"
         ],
         "emea-sau-cscc-1-2019": [
           "2-3-1-5",
@@ -1846,17 +1857,25 @@
           "2-8-3-3"
         ],
         "emea-sau-otcc-1-2022": [
-          "2-2-1-4"
+          "2-6-1-1"
         ],
         "emea-sau-sacs-002-2022": [
-          "TPC-52",
-          "TPC-53"
+          "VII.B.TPC-52",
+          "VII.B.TPC-53"
         ],
-        "emea-zaf-popia-2013": [
-          "14.1"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.10",
+          "mp.si.2",
+          "mp.info.3",
+          "mp.info.4",
+          "mp.s.1",
+          "mp.s.2"
         ],
         "emea-gbr-caf-4-0": [
           "B3.b"
+        ],
+        "emea-gbr-cap-1850-2020": [
+          "B3"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2302",
@@ -1873,10 +1892,9 @@
           "2302",
           "2306"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0231",
           "ISM-0232",
-          "ISM-0241",
           "ISM-0465",
           "ISM-0467",
           "ISM-0469",
@@ -1896,11 +1914,19 @@
           "ISM-1589",
           "ISM-1781"
         ],
+        "apac-aus-cop-sitc-2020": [
+          "7"
+        ],
         "apac-ind-sebi-2024": [
           "PR.DS.S1"
         ],
+        "americas-arg-ppd-2018": [
+          "A.2.1",
+          "A.2.3-DS"
+        ],
         "americas-can-itsp-10-171-2025": [
-          "03.13.08"
+          "03.13.08",
+          "03.13.11"
         ]
       }
     },
@@ -1926,7 +1952,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Cryptographic Protections (CRY) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CRY domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cryptography management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel provide an encryption solution (software or hardware) for the storage of sensitive/regulated data.",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.\n▪ External compliance requirements for cryptography are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to implement cryptographic mechanisms that are applicability for statutory, regulatory and/or contractual compliance obligations.\n▪ Sensitive/regulated data is encrypted at rest using cryptographic protections that are commensurate with the sensitivity of the data.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the integrity of data being transmitted.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the integrity of data being transmitted. ",
         "4": "Cryptographic Protections (CRY) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -1980,7 +2006,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -2028,7 +2055,7 @@
           "8.24",
           "8.26"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1020.001",
           "T1040",
           "T1090",
@@ -2159,10 +2186,10 @@
           "SC-28(01)"
         ],
         "usa-federal-law-hipaa-simplification-2013": [
-          "164.312(e)(2)(i)"
+          "§ 164.312(e)(2)(i)"
         ],
         "usa-federal-law-hipaa-security-rule-2013": [
-          "164.312(e)(2)(i)"
+          "§ 164.312(e)(2)(i)"
         ],
         "usa-federal-irs-1075-2021": [
           "SC-8",
@@ -2180,32 +2207,23 @@
           "SC-08",
           "SC-28 (01)"
         ],
-        "emea-us-psd2-2015": [
-          "20",
-          "30"
-        ],
-        "emea-deu-c5-2020": [
-          "OPS-09"
-        ],
-        "emea-isr-cmo-1-0": [
-          "4.22",
-          "9.8",
-          "9.20",
-          "12.10",
-          "13.6"
+        "emea-sau-cscc-1-2019": [
+          "2-3-1-5",
+          "2-7-1-1"
         ],
         "emea-sau-cgiot-2024": [
           "2-4-1",
           "2-4-2",
           "2-4-3"
         ],
-        "emea-sau-otcc-1-2022": [
-          "2-2-1-4"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.10",
+          "mp.si.2",
+          "mp.info.3",
+          "mp.info.4",
+          "mp.s.2"
         ],
-        "emea-zaf-popia-2013": [
-          "14.1"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0677"
         ],
         "apac-jpn-ismap": [
@@ -2235,7 +2253,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Cryptographic Protections (CRY) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CRY domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cryptography management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel provide an encryption solution (software or hardware) for the storage of sensitive/regulated data.",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.\n▪ External compliance requirements for cryptography are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to implement cryptographic mechanisms that are applicability for statutory, regulatory and/or contractual compliance obligations.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to prevent unauthorized disclosure of data at rest.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to prevent unauthorized disclosure of data at rest. ",
         "4": "Cryptographic Protections (CRY) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -2291,7 +2309,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -2367,7 +2386,7 @@
         "general-iso-27018-2025": [
           "8.24"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1003",
           "T1003.001",
           "T1003.002",
@@ -2481,7 +2500,8 @@
           "3.13.16"
         ],
         "general-nist-800-171-r3": [
-          "03.13.08"
+          "03.13.08",
+          "03.13.11"
         ],
         "general-nist-800-171a": [
           "3.8.6"
@@ -2522,9 +2542,6 @@
           "3.5.1.2",
           "3.5.1.3",
           "8.3.2"
-        ],
-        "general-scf-dpmp-2025": [
-          "7.2"
         ],
         "general-swift-cscf-2025": [
           "2.5A"
@@ -2580,6 +2597,9 @@
           "SC-28",
           "SC-28(01)"
         ],
+        "usa-federal-law-33-cfr-part-101-subpart-f": [
+          "101.650(c)(2)"
+        ],
         "usa-federal-irs-1075-2021": [
           "2.B.6-1",
           "3.3.1.e",
@@ -2610,14 +2630,11 @@
           "SC-28 (01)"
         ],
         "emea-eu-eba-ict-srm-2025": [
-          "3.4.4(36)(f)"
+          "3.4.4.36(f)"
         ],
         "emea-deu-c5-2020": [
-          "CRY-03"
-        ],
-        "emea-isr-cmo-1-0": [
-          "8.7",
-          "15.7"
+          "KRY-02",
+          "KRY-03"
         ],
         "emea-sau-cscc-1-2019": [
           "2-7-1-2"
@@ -2628,11 +2645,19 @@
         "emea-sau-ecc-1-2018": [
           "2-8-3-3"
         ],
-        "emea-zaf-popia-2013": [
-          "14.1"
+        "emea-sau-otcc-1-2022": [
+          "2-6-1-1"
+        ],
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.10",
+          "mp.si.2",
+          "mp.info.3"
         ],
         "emea-gbr-caf-4-0": [
           "B3.c"
+        ],
+        "emea-gbr-cap-1850-2020": [
+          "B3"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2310",
@@ -2650,7 +2675,7 @@
           "2310",
           "2317"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0459",
           "ISM-1080"
         ],
@@ -2663,8 +2688,12 @@
         "apac-nzl-ism-3-9": [
           "8.4.13.C.01"
         ],
+        "apac-sgp-mas-trm-2021": [
+          "11.1.3"
+        ],
         "americas-can-itsp-10-171-2025": [
-          "03.13.08"
+          "03.13.08",
+          "03.13.11"
         ]
       }
     },
@@ -2672,8 +2701,8 @@
       "control_id": "CRY-05.1",
       "title": "Storage Media",
       "family": "CRY",
-      "description": "Cryptographic mechanisms exist to protect the confidentiality and integrity of sensitive/regulated data residing on storage media.",
-      "scf_question": "Are cryptographic mechanisms utilized to protect the confidentiality and integrity of sensitive/regulated data residing on storage media?",
+      "description": "Cryptographic mechanisms exist to protect the confidentiality and integrity of sensitive and/or regulated data residing on storage media.",
+      "scf_question": "Are cryptographic mechanisms utilized to protect the confidentiality and integrity of sensitive and/or regulated data residing on storage media?",
       "relative_weight": 8,
       "conformity_cadence": "Annual",
       "evidence_requests": [],
@@ -2686,7 +2715,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the confidentiality and integrity of sensitive/regulated data residing on storage media.",
         "4": "Cryptographic Protections (CRY) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -2741,7 +2770,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -2763,21 +2793,14 @@
         "general-nist-800-171-r3": [
           "03.13.08"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.13.08[02]"
+        ],
         "general-pci-dss-4-0-1": [
           "9.4"
         ],
         "general-swift-cscf-2025": [
           "2.5A"
-        ],
-        "emea-deu-c5-2020": [
-          "CRY-03"
-        ],
-        "emea-isr-cmo-1-0": [
-          "15.7"
-        ],
-        "emea-sau-otcc-1-2022": [
-          "2-3-1-8",
-          "2-3-1-9"
         ],
         "apac-nzl-ism-3-9": [
           "8.4.13.C.01"
@@ -2872,7 +2895,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -2920,7 +2944,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "Cryptographic Protections (CRY) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CRY domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cryptography management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel provide an encryption solution (software or hardware) for the storage of sensitive/regulated data.\n▪ Databases containing sensitive/regulated data use a cryptographic mechanism to prevent the unauthorized disclosure of information in the database (e.g., column-level, Transparent Data Encryption (TDE), etc.).",
+        "1": "Cryptographic Protections (CRY) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CRY domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cryptography management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel provide an encryption solution (software or hardware) for the storage of sensitive/regulated data.\n▪ Databases containing sensitive/regulated data use a cryptographic mechanism to prevent the unauthorized disclosure of information in the database (e.g., column-level, Transparent Data Encryption (TDE), etc.). ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure that database servers utilize encryption to protect the confidentiality of the data within the databases.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -2987,11 +3011,12 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1080",
           "ISM-1277"
         ]
@@ -3066,7 +3091,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -3181,7 +3207,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -3258,6 +3285,9 @@
         "general-nist-800-171-r3": [
           "03.01.16.a"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.01.16.a[02]"
+        ],
         "general-nist-800-207": [
           "NIST Tenet 2"
         ],
@@ -3324,21 +3354,16 @@
         "usa-state-tx-txramp-2-0-level-2": [
           "AC-18"
         ],
-        "emea-isr-cmo-1-0": [
-          "4.22"
-        ],
-        "emea-sau-ecc-1-2018": [
-          "2-5-3-4"
-        ],
         "emea-sau-sacs-002-2022": [
-          "TPC-42"
+          "VII.B.TPC-42"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1314",
           "ISM-1332"
         ],
         "apac-nzl-ism-3-9": [
           "18.2.9.C.01",
+          "18.2.9.C.02",
           "18.2.10.C.01",
           "18.2.10.C.02",
           "18.2.11.C.01",
@@ -3388,9 +3413,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.\n▪ External compliance requirements for cryptography are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to implement cryptographic mechanisms that are applicability for statutory, regulatory and/or contractual compliance obligations.\n▪ The IT department implements Public Key Infrastructure (PKI) key management controls to protect the confidentiality, integrity and availability of keys.\n▪ The IT department implements and maintains an internal PKI infrastructure or obtains PKI services from a reputable PKI service provider.\n▪ The PKI infrastructure enables the secure distribution of symmetric and asymmetric cryptographic keys using industry recognized key management technology and processes.\n▪ The PKI infrastructure ensures the availability of information in the event of the loss of cryptographic keys by individual users.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to securely implement an internal Public Key Infrastructure (PKI) infrastructure or obtain PKI services from a reputable PKI service provider.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to securely implement an internal Public Key Infrastructure (PKI) infrastructure or obtain PKI services from a reputable PKI service provider. ",
         "4": "Cryptographic Protections (CRY) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -3449,7 +3474,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -3489,7 +3515,7 @@
         "general-iec-62443-4-2-2019": [
           "CR 1.8"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1072",
           "T1098.004",
           "T1521.003",
@@ -3544,6 +3570,9 @@
           "3.13.10[a]",
           "3.13.10[b]"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.13.10[01]"
+        ],
         "general-nist-800-207": [
           "NIST Tenet 2"
         ],
@@ -3597,20 +3626,18 @@
           "SC-12",
           "SC-17"
         ],
-        "emea-isr-cmo-1-0": [
-          "8.2",
-          "8.9"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0485",
-          "ISM-1449"
+          "ISM-1449",
+          "ISM-2050"
         ],
         "apac-nzl-ism-3-9": [
           "17.1.51.C.01",
-          "17.1.51.C.02",
-          "17.1.51.C.03",
           "23.3.21.C.01",
           "23.3.22.C.01"
+        ],
+        "americas-arg-ppd-2018": [
+          "A.2.3"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.13.10"
@@ -3635,7 +3662,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the availability of data in the event of the loss of cryptographic keys.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -3701,7 +3728,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -3715,9 +3743,7 @@
           "3.6.1"
         ],
         "apac-nzl-ism-3-9": [
-          "17.1.51.C.01",
-          "17.1.51.C.02",
-          "17.1.51.C.03"
+          "17.1.51.C.01"
         ]
       }
     },
@@ -3742,7 +3768,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.\n▪ External compliance requirements for cryptography are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to implement cryptographic mechanisms that are applicability for statutory, regulatory and/or contractual compliance obligations.",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
         "4": "Cryptographic Protections (CRY) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -3830,7 +3856,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -3913,6 +3940,9 @@
           "A.03.13.10[01]",
           "A.03.13.10[02]"
         ],
+        "general-nist-cswp-39": [
+          "3.3"
+        ],
         "general-owasp-top-10-2025": [
           "A04:2025"
         ],
@@ -3992,21 +4022,26 @@
           "9.3"
         ],
         "emea-deu-c5-2020": [
-          "CRY-04"
-        ],
-        "emea-isr-cmo-1-0": [
-          "8.2",
-          "8.9",
-          "8.10"
+          "KRY-03",
+          "KRY-04",
+          "KRY-04-BP1",
+          "KRY-04-BP3",
+          "KRY-04-BP4",
+          "KRY-04-BP5",
+          "KRY-04-BP6",
+          "KRY-04-BP7",
+          "KRY-04-BP8"
         ],
         "emea-sau-ecc-1-2018": [
           "2-8-3-2"
         ],
         "emea-sau-sacs-002-2022": [
-          "TPC-55"
+          "VII.B.TPC-55"
         ],
-        "emea-esp-ccn-stic-825-2023": [
-          "7.3.11 [OP.EXP.11]"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.10",
+          "mp.si.2",
+          "mp.info.3"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2319"
@@ -4020,7 +4055,7 @@
         "emea-gbr-def-stan-05-138-l3-2024": [
           "2319"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0455",
           "ISM-0507"
         ],
@@ -4047,6 +4082,11 @@
           "10.1.2.19",
           "10.1.2.20.PB"
         ],
+        "apac-mys-bnm-rmit-2025": [
+          "10.20",
+          "10.21",
+          "10.23"
+        ],
         "apac-nzl-ism-3-9": [
           "17.1.51.C.01",
           "17.1.58.C.01",
@@ -4058,18 +4098,24 @@
           "23.4.9.C.03"
         ],
         "apac-sgp-mas-trm-2021": [
+          "6.4.5",
           "10.2.1",
           "10.2.2",
           "10.2.3",
           "10.2.4",
           "10.2.5",
           "10.2.6",
-          "10.2.7",
           "10.2.8",
-          "10.2.9",
           "10.2.10"
         ],
+        "americas-arg-ppd-2018": [
+          "A.2.3"
+        ],
         "americas-can-osfi-b13-2022": [
+          "3.2.2"
+        ],
+        "americas-can-osfi-self-assessment-2": [
+          "2.9.2",
           "3.2.2"
         ],
         "americas-can-itsp-10-171-2025": [
@@ -4097,9 +4143,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the production and management of symmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the production and management of symmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -4162,7 +4208,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -4221,9 +4268,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the production and management of asymmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes that protect the user’s private key.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the production and management of asymmetric cryptographic keys using Federal Information Processing Standards (FIPS)-compliant key management technology and processes that protect the user’s private key. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -4286,7 +4333,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -4333,9 +4381,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the availability of information in the event of the loss of cryptographic keys by individual users.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the availability of information in the event of the loss of cryptographic keys by individual users. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -4417,7 +4465,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -4471,6 +4520,9 @@
         "general-nist-800-171-r3": [
           "03.13.10"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.13.10[02]"
+        ],
         "general-pci-dss-4-0-1": [
           "2.3.2",
           "3.6.1",
@@ -4501,17 +4553,21 @@
         "emea-eu-nis2-annex-2024": [
           "9.2(c)(v)"
         ],
-        "emea-isr-cmo-1-0": [
-          "8.3",
-          "8.11"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.10",
+          "mp.si.2",
+          "mp.info.3"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0455",
           "ISM-0462"
         ],
         "apac-nzl-ism-3-9": [
-          "7.2.24.C.01",
-          "7.2.25.C.01"
+          "7.2.24.C.01"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "10.2.7",
+          "10.2.9"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.13.10"
@@ -4536,9 +4592,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the secure distribution of symmetric and asymmetric cryptographic keys using industry recognized key management technology and processes.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the secure distribution of symmetric and asymmetric cryptographic keys using industry recognized key management technology and processes. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -4620,7 +4676,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -4645,6 +4702,9 @@
         "general-nist-800-171-r3": [
           "03.13.10"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.13.10[02]"
+        ],
         "general-pci-dss-4-0-1": [
           "3.6.1"
         ],
@@ -4661,12 +4721,10 @@
           "9.2(c)(iv)",
           "9.2(c)(v)"
         ],
-        "emea-isr-cmo-1-0": [
-          "8.9",
-          "8.11"
-        ],
-        "apac-sgp-mas-trm-2021": [
-          "10.2.5"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.10",
+          "mp.si.2",
+          "mp.info.3"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.13.10"
@@ -4691,9 +4749,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure cryptographic keys are bound to individual identities.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure cryptographic keys are bound to individual identities. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -4755,7 +4813,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {}
@@ -4778,7 +4837,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure customers are provided with appropriate key management guidance whenever cryptographic keys are shared.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -4813,7 +4872,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -4846,7 +4906,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to maintain control of cryptographic keys for encrypted material stored or transmitted through an external system.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -4916,7 +4976,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -4953,9 +5014,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
-        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to associate Technology Assets, Applications and/or Services (TAAS) security attributes with information exchanged between TAAS.",
+        "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to associate Technology Assets, Applications and/or Services (TAAS) security attributes with information exchanged between TAAS. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -5008,11 +5069,12 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1505",
           "T1505.002",
           "T1573",
@@ -5069,7 +5131,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically enable the use of organization-defined Certificate Authorities (CAs) to facilitate the establishment of protected sessions.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -5138,7 +5200,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -5252,7 +5315,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
@@ -5326,13 +5390,11 @@
         "MT-16",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
-        "general-nist-800-172": [
-          "3.14.1e"
-        ],
         "usa-federal-dow-cmmc-2-level-3": [
           "SI.L3-3.14.1E"
         ]

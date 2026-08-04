@@ -21,10 +21,10 @@ from pathlib import Path
 from . import jsonio
 from .build import build_docs, find_catalog
 from .changelog import generate_changelog
-from .overrides import load_overrides
+from .overrides import load_overrides, load_resolution_aliases
 from .parse import parse_workbook
 from .report import build_report, human_summary, write_report
-from .schemas import validate_schemas
+from .schemas import CATALOG_RE, validate_overrides_file, validate_schemas
 from .validate import validate_data_dir, validate_result
 from .verify_tree import compare_trees, load_allowlist
 from .workbook import ColumnResolveError, SheetResolveError
@@ -65,19 +65,23 @@ def _run_parse(
     report_path: Path | None,
 ) -> int:
     overrides = load_overrides(overrides_path)
+    aliases = load_resolution_aliases(overrides_path, version)
     try:
-        result = parse_workbook(workbook, version)
+        result = parse_workbook(workbook, version, aliases=aliases)
     except (SheetResolveError, ColumnResolveError) as exc:
+        # Both subclass KeyError, whose str() is the *repr* of the message —
+        # args[0] keeps the issue body readable.
+        message = exc.args[0] if exc.args else str(exc)
         report = build_report(
             version,
-            "",
-            _structural_failure(str(exc)),
+            _sha256(workbook),
+            _structural_failure(message, exc),
             {},
             str(workbook),
         )
         if report_path:
             write_report(report, report_path)
-        print(f"FATAL structure error: {exc}", file=sys.stderr)
+        print(f"FATAL structure error: {message}", file=sys.stderr)
         return 1
 
     outcome = validate_result(result, overrides)
@@ -95,15 +99,46 @@ def _run_parse(
         out_dir.mkdir(parents=True, exist_ok=True)
         for name, obj in result.files.items():
             jsonio.write(out_dir / name, obj)
+        stale = _prune_stale_catalogs(out_dir, result.catalog_name)
+        for name in stale:
+            print(f"removed stale catalog {name}", file=sys.stderr)
         print(f"wrote {len(result.files)} data files to {out_dir}", file=sys.stderr)
     return 0
 
 
-def _structural_failure(message: str):
+def _prune_stale_catalogs(data_dir: Path, keep: str) -> list[str]:
+    """Delete catalogs from previous versions.
+
+    The catalog filename carries the SCF version, so a version bump leaves the
+    old file behind. `find_catalog` takes the first sorted match, so a stale
+    scf-2026-1-1.json would shadow scf-2026-2.json and the build would publish
+    the previous release's data.
+    """
+    removed = []
+    for path in sorted(data_dir.glob("scf-*.json")):
+        if path.name != keep and CATALOG_RE.match(path.name):
+            path.unlink()
+            removed.append(path.name)
+    return removed
+
+
+def _sha256(path: Path) -> str:
+    import hashlib
+
+    digest = hashlib.sha256()
+    with open(path, "rb") as fh:
+        for chunk in iter(lambda: fh.read(1 << 20), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def _structural_failure(message: str, exc: Exception | None = None):
     from .validate import FAIL, Finding, ValidationOutcome
 
     outcome = ValidationOutcome()
-    check = "sheet-resolve" if "sheet" in message.lower() else "col-resolve"
+    # Branch on the exception type: every ColumnResolveError message also
+    # contains the word "sheet", so substring sniffing mislabels them.
+    check = "col-resolve" if isinstance(exc, ColumnResolveError) else "sheet-resolve"
     outcome.findings.append(
         Finding(check=check, severity=FAIL, message=message, owner="", value="")
     )
@@ -130,10 +165,13 @@ def _cmd_validate(args: argparse.Namespace) -> int:
     if not version:
         _, version = find_catalog(data_dir)
     schema_errors = validate_schemas(data_dir)
+    overrides_path = Path(args.overrides) if args.overrides else None
+    if overrides_path and overrides_path.exists():
+        schema_errors += [f"overrides.json: {e}" for e in validate_overrides_file(overrides_path)]
     for err in schema_errors:
         print(f"schema: {err}", file=sys.stderr)
 
-    overrides = load_overrides(Path(args.overrides) if args.overrides else None)
+    overrides = load_overrides(overrides_path)
     outcome = validate_data_dir(data_dir, overrides, version)
     report = build_report(version, "", outcome, {}, None)
     if args.report:

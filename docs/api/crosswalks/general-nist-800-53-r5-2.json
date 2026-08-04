@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-53-r5-2",
-  "display_name": "NIST SP 800-53 R5",
+  "display_name": "NIST SP 800 - 53 R5 - Security and Privacy Controls for Information Systems and Organizations",
   "scf_to_framework": {
     "total_mappings": 777,
     "mappings": {

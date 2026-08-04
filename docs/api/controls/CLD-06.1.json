@@ -66,9 +66,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Cloud Security",
   "crosswalks": {
     "general-iso-27001-2022": [
@@ -89,13 +89,28 @@
     "general-pci-dss-4-0-1-saq-d-service-provider": [
       "12.4.1"
     ],
+    "emea-deu-c5-2020": [
+      "UP-01-BP5",
+      "UP-01-BP6",
+      "OIS-03"
+    ],
+    "emea-isr-cmo-2-0": [
+      "Appendix A, 5.1"
+    ],
     "apac-jpn-ismap": [
       "6.3.1.1.PB"
     ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.50"
+    ],
     "apac-nzl-ism-3-9": [
+      "20.1.21.C.03",
       "23.1.55.C.01",
       "23.1.55.C.02",
       "23.1.55.C.03"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "5.11"
     ]
   }
 }

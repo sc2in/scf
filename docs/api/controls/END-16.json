@@ -86,7 +86,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
@@ -171,7 +172,7 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "SC-03"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1006"
     ]
   }

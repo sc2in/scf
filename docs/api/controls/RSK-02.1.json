@@ -93,7 +93,8 @@
     "MT-17",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Risk Management",
   "crosswalks": {
@@ -138,6 +139,10 @@
       "03.11.01.a",
       "03.14.03.b"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.11.01.a",
+      "A.03.14.03.a"
+    ],
     "general-nist-csf-2-0": [
       "ID.RA-05",
       "ID.RA-06"
@@ -159,24 +164,12 @@
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
       "500.9(b)(3)"
     ],
-    "emea-sau-otcc-1-2022": [
-      "1-3-1-4",
-      "1-3-1-5"
+    "apac-mys-bnm-rmit-2025": [
+      "9.2"
     ],
     "apac-nzl-ism-3-9": [
       "23.2.16.C.01",
       "23.2.17.C.01"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "4.2.1",
-      "4.3.1",
-      "4.3.2"
-    ],
-    "americas-bmu-mba-coc-2020": [
-      "5.5"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "6.24"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.11.01.A",

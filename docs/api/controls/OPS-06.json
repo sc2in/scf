@@ -67,13 +67,11 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Security Operations",
   "crosswalks": {
-    "general-nist-800-172": [
-      "3.11.3e"
-    ],
     "usa-federal-dhs-cisa-tic-3-0": [
       "3.PEP.EN.SOARE"
     ],
@@ -87,6 +85,9 @@
     ],
     "usa-federal-tsa-security-directive-1580-82-2022-01": [
       "III.D.2.d"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.3.2"
     ]
   }
 }

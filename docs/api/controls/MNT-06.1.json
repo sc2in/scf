@@ -106,7 +106,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Maintenance",
   "crosswalks": {
@@ -159,12 +160,13 @@
       "3.7.6"
     ],
     "general-nist-800-171-r3": [
-      "03.07.06.a",
       "03.07.06.c",
       "03.07.06.d"
     ],
     "general-nist-800-171a-r3": [
-      "A.03.07.06.c"
+      "A.03.07.06.c",
+      "A.03.07.06.d[01]",
+      "A.03.07.06.d[02]"
     ],
     "usa-federal-dow-cmmc-2-level-2": [
       "MAL2.-3.7.6"
@@ -175,11 +177,8 @@
     "usa-federal-gsa-fedramp-5-high": [
       "MA-05(01)"
     ],
-    "emea-isr-cmo-1-0": [
-      "12.7"
-    ],
-    "emea-sau-otcc-1-2022": [
-      "2-13-1-7"
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(d)(3)"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2513"
@@ -193,7 +192,7 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2513"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0306"
     ],
     "apac-nzl-ism-3-9": [
@@ -203,7 +202,6 @@
       "12.5.4.C.04"
     ],
     "americas-can-itsp-10-171-2025": [
-      "03.07.06.A",
       "03.07.06.C",
       "03.07.06.D"
     ]

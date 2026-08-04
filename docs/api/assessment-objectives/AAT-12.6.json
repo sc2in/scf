@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-12.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-12.6",
+      "ao_id": "AAT-12.6_A01",
+      "objective": "Artificial Intelligence and Autonomous Technologies (AAT) is prohibited from training, fine-tuning and/or improving capabilities using organizational data without prior, explicit consent from applicable data owner(s).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

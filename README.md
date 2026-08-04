@@ -4,8 +4,8 @@ SC2's canonical, validated [Secure Controls Framework](https://securecontrolsfra
 dataset: official SCF Excel workbook → validated `data/*.json` → static JSON API under
 `docs/` (GitHub Pages).
 
-- **1,468 controls** across 33 families (SCF 2026.1.1), 249 framework crosswalks,
-  5,776 assessment objectives, 303 evidence requests, risk/threat catalogs,
+- **1,534 controls** across 34 families (SCF 2026.2), 252 framework crosswalks,
+  5,956 assessment objectives, 316 evidence requests, risk/threat catalogs,
   compensating controls, privacy principles.
 - **Validated**: every id-bearing cell is checked for cross-sheet referential
   integrity before a release ships. The SCF master workbook is maintained by hand;

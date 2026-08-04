@@ -90,9 +90,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "general-govramp": [
@@ -180,9 +180,6 @@
     "general-pci-dss-4-0-1-saq-p2pe": [
       "12.6.1"
     ],
-    "general-scf-dpmp-2025": [
-      "1.6"
-    ],
     "general-tisax-6-0-3": [
       "8.2.3"
     ],
@@ -200,6 +197,9 @@
     ],
     "usa-federal-gsa-fedramp-5-li-saas": [
       "AT-04"
+    ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(d)(4)"
     ],
     "usa-federal-irs-1075-2021": [
       "AT-4"

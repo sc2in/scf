@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "QTS-06.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-06.7",
+      "ao_id": "QTS-06.7_A01",
+      "objective": "Public Key Infrastructure (PKI) trust anchors are transitioned to quantum-safe algorithms.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

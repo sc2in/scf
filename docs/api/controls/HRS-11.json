@@ -105,7 +105,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Human Resources Security",
   "crosswalks": {
@@ -142,7 +143,7 @@
       "5.3",
       "5.18"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1003",
       "T1003.001",
       "T1003.002",
@@ -406,6 +407,9 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "AC-05"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(a)(6)"
+    ],
     "usa-federal-irs-1075-2021": [
       "AC-5"
     ],
@@ -429,23 +433,21 @@
     ],
     "emea-deu-c5-2020": [
       "OIS-04",
-      "IDM-01"
-    ],
-    "emea-isr-cmo-1-0": [
-      "4.11",
-      "10.4"
+      "OIS-04-BP1",
+      "OIS-04-BP2",
+      "OIS-04-BP3",
+      "OIS-04-DOAR",
+      "IDM-01-BP2",
+      "IDM-01-BP3",
+      "BEI-12"
     ],
     "emea-sau-cgiot-2024": [
       "2-2-1"
     ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 13.3"
-    ],
-    "emea-esp-decree-311-2022": [
-      "13.3"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "7.2.3 [OP.ACC.3]"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.3",
+      "op.acc.4",
+      "op.acc.5"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2207"
@@ -471,9 +473,17 @@
       "6.1.2.4"
     ],
     "apac-sgp-mas-trm-2021": [
+      "6.3.2",
+      "7.6.1",
       "9.1.1"
     ],
+    "americas-bmu-mba-coc-2020": [
+      "6.6"
+    ],
     "americas-can-osfi-b13-2022": [
+      "2.5.2"
+    ],
+    "americas-can-osfi-self-assessment-2": [
       "2.5.2"
     ],
     "americas-can-itsp-10-171-2025": [

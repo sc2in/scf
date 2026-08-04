@@ -119,7 +119,7 @@
       "pptdf": "Process",
       "origin": "171A_R3_A.03.17.03.b",
       "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "at a minimum, integrate Supply Chain Risk Management (SCRM) into  acquisition/procurement policies, provide adequate SCRM resources, define the SCRM control baseline, establish processes to ensure suppliers disclose significant vulnerabilities and significant incidents",
+      "scf_defined_parameters": "at a minimum, integrate Supply Chain Risk Management (SCRM) into acquisition/procurement policies, provide adequate SCRM resources, define the SCRM control baseline, establish processes to ensure suppliers disclose significant vulnerabilities and significant incidents",
       "org_defined_parameters": ""
     },
     {

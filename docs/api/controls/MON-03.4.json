@@ -52,16 +52,13 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-owasp-top-10-2025": [
       "A09:2025"
-    ],
-    "emea-isr-cmo-1-0": [
-      "21.5",
-      "21.21"
     ]
   }
 }

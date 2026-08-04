@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iec-62443-4-1-2018",
-  "display_name": "IEC 62443-4-1 (2018)",
+  "display_name": "International Electrotechnical Commission (IEC) 62443 - 4 - 1:2018 - Security for industrial automation and control systems - Part 4 - 1: Secure product development lifecycle requirements",
   "scf_to_framework": {
     "total_mappings": 25,
     "mappings": {

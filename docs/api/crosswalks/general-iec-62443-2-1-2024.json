@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iec-62443-2-1-2024",
-  "display_name": "IEC 62443-2-1 (2024)",
+  "display_name": "International Electrotechnical Commission (IEC) 62443 - 2 - 1:2024 - Security for industrial automation and control systems - Part 2 - 1: Security program requirements for IACS asset owners",
   "scf_to_framework": {
     "total_mappings": 112,
     "mappings": {

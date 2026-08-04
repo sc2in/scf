@@ -2,8 +2,8 @@
   "control_id": "PES-03.4",
   "title": "Access To Critical Systems",
   "family": "PES",
-  "description": "Physical access control mechanisms exist to enforce physical access to critical systems or sensitive/regulated data, in addition to the physical access controls for the facility.",
-  "scf_question": "Does the organization enforce physical access to critical systems or sensitive/regulated data, in addition to the physical access controls for the facility?",
+  "description": "Physical access control mechanisms exist to enforce physical access to critical systems or sensitive and/or regulated data, in addition to the physical access controls for the facility.",
+  "scf_question": "Does the organization enforce physical access to critical systems or sensitive and/or regulated data, in addition to the physical access controls for the facility?",
   "relative_weight": 5,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -102,7 +102,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -159,6 +160,10 @@
       "03.10.07.a.01",
       "03.10.07.a.02"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.10.07.a.01",
+      "A.03.10.07.a.02"
+    ],
     "general-tisax-6-0-3": [
       "5.3.4"
     ],
@@ -175,28 +180,21 @@
       "PE-03(01)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.310(b)",
-      "164.310(c)"
+      "§ 164.310(b)",
+      "§ 164.310(c)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.310(b)",
-      "164.310(c)"
+      "§ 164.310(b)",
+      "§ 164.310(c)"
     ],
     "usa-federal-cms-marse-2-0": [
       "PE-3-IS.2"
-    ],
-    "emea-deu-c5-2020": [
-      "PS-04"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-3-3-2"
     ],
     "emea-sau-otcc-1-2022": [
       "2-13-1-5"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-46",
-      "TPC-49"
+      "VII.B.TPC-46"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "1502"
@@ -210,7 +208,7 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "1502"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0813",
       "ISM-1053",
       "ISM-1074",
@@ -219,7 +217,7 @@
     "apac-ind-sebi-2024": [
       "PR.AA.S10"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP10",
       "HML10"
     ],

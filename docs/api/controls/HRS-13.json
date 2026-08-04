@@ -3,7 +3,7 @@
   "title": "Identify Critical Skills & Gaps",
   "family": "HRS",
   "description": "Mechanisms exist to evaluate the critical security, compliance and resilience skills needed to support the organization's mission and identify gaps that exist.",
-  "scf_question": "Does the organization evaluate the critical security, compliance and resilience skills needed to support the organization's mission and identify gaps that exist?",
+  "scf_question": "Does the organization evaluate the critical security, compliance and resilience skills needed to support its mission and identify gaps that exist?",
   "relative_weight": 5,
   "conformity_cadence": "Annual",
   "evidence_requests": [
@@ -87,9 +87,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
@@ -107,6 +107,9 @@
     "usa-federal-doe-c2m2-2-1": [
       "WORKFORCE-4b",
       "WORKFORCE-4c"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.2.1.3"
     ]
   }
 }

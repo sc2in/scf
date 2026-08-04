@@ -73,7 +73,8 @@
     "MT-17",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Risk Management",
   "crosswalks": {
@@ -95,13 +96,11 @@
       "TASK 2-1"
     ],
     "general-nist-800-171-r3": [
+      "03.11.01.a",
       "03.15.02.a.03"
     ],
     "general-nist-800-171a-r3": [
       "A.03.11.01.a"
-    ],
-    "general-nist-800-172": [
-      "3.11.5e"
     ],
     "general-nist-csf-2-0": [
       "ID"
@@ -129,10 +128,10 @@
       "609.930(a)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.306(b)(2)(iv)"
+      "§ 164.306(b)(2)(iv)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.306(b)(2)(iv)"
+      "§ 164.306(b)(2)(iv)"
     ],
     "usa-federal-sec-cybersecurity-rule-2023": [
       "17 CFR 229.105(a)",
@@ -150,17 +149,30 @@
     "emea-deu-bsrit-2017": [
       "3.3"
     ],
+    "emea-deu-c5-2020": [
+      "OIS-03-DOAR"
+    ],
     "emea-sau-cgiot-2024": [
       "1-4-2",
       "1-4-4"
     ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.2.1.1-2.2"
+    ],
     "apac-jpn-ismap": [
       "4.4.7.2"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "9.2"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "4.2.1"
     ],
     "americas-can-osfi-b13-2022": [
       "3.1.1"
     ],
     "americas-can-itsp-10-171-2025": [
+      "03.11.01.A",
       "03.15.02.A.03"
     ]
   }

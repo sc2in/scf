@@ -107,7 +107,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Artificial Intelligence & Autonomous Technologies",
   "crosswalks": {
@@ -182,6 +183,10 @@
     ],
     "emea-eu-ai-act-2024": [
       "Article 17.1(c)"
+    ],
+    "apac-aus-ism-2026-march": [
+      "ISM-2072",
+      "ISM-2074"
     ]
   }
 }

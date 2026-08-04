@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-27018-2025",
-  "display_name": "ISO 27018 (2025)",
+  "display_name": "ISO/IEC 27018:2025 - Information security, cybersecurity and privacy protection - Guidelines for protection of personally identifiable information (PII) in public clouds acting as PII processors",
   "scf_to_framework": {
     "total_mappings": 322,
     "mappings": {

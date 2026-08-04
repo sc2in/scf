@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-27002-2022",
-  "display_name": "ISO 27002 (2022)",
+  "display_name": "ISO/IEC 27002:2022 - Information security, cybersecurity and privacy protection - Information security controls",
   "scf_to_framework": {
     "total_mappings": 316,
     "mappings": {
@@ -825,10 +825,10 @@
         "7.2"
       ],
       "PES-12": [
-        "7.12",
         "7.3",
         "7.5",
-        "7.8"
+        "7.8",
+        "7.12"
       ],
       "PES-12.1": [
         "7.12"
@@ -1053,7 +1053,7 @@
       ],
       "TPM-03.2": [
         "5.19",
-        "5.2"
+        "5.20"
       ],
       "TPM-03.3": [
         "5.19",
@@ -1178,7 +1178,6 @@
         "GOV-04",
         "HRS-03",
         "HRS-04.1",
-        "TPM-03.2",
         "TPM-05.4",
         "TPM-06"
       ],
@@ -1671,6 +1670,7 @@
       "5.20": [
         "IRO-10.4",
         "TPM-01",
+        "TPM-03.2",
         "TPM-05",
         "TPM-08",
         "TPM-10"

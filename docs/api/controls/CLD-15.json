@@ -3,7 +3,7 @@
   "title": "Software Defined Storage (SDS)",
   "family": "CLD",
   "description": "Automated mechanisms exist to utilize Software Defined Storage (SDS) to scale access management permissions to Technology Assets, Applications, Services and/or Data (TAASD).",
-  "scf_question": "Does the organization utilize Software Defined Storage (SDS) to scale access management permissions to Technology Assets, Applications, Services and/or Data (TAASD)?",
+  "scf_question": "Does the organization use automated mechanisms to utilize Software Defined Storage (SDS) to scale access management permissions to Technology Assets, Applications, Services and/or Data (TAASD)?",
   "relative_weight": 3,
   "conformity_cadence": "Quarterly",
   "evidence_requests": [],
@@ -84,7 +84,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Cloud Security",
   "crosswalks": {

@@ -2,8 +2,8 @@
   "control_id": "CFG-08.1",
   "title": "Sensitive / Regulated Data Actions",
   "family": "CFG",
-  "description": "Automated mechanisms exist to generate event logs whenever sensitive/regulated data is collected, created, updated, deleted and/or archived.",
-  "scf_question": "Does the organization use automated mechanisms to generate event logs whenever sensitive/regulated data is collected, created, updated, deleted and/or archived?",
+  "description": "Automated mechanisms exist to generate event logs whenever sensitive and/or regulated data is collected, created, updated, deleted and/or archived.",
+  "scf_question": "Does the organization use automated mechanisms to generate event logs whenever sensitive and/or regulated data is collected, created, updated, deleted and/or archived?",
   "relative_weight": 7,
   "conformity_cadence": "Quarterly",
   "evidence_requests": [],
@@ -99,7 +99,8 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Configuration Management",
   "crosswalks": {
@@ -109,14 +110,11 @@
     "general-nist-800-66-r2": [
       "164.312(c)"
     ],
-    "general-scf-dpmp-2025": [
-      "5.2"
-    ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.312(c)(2)"
+      "§ 164.312(c)(2)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.312(c)(2)"
+      "§ 164.312(c)(2)"
     ]
   }
 }

@@ -18,7 +18,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Technology Development & Acquisition (TDA) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TDA domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with TDA domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TDA  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Technology development and acquisition-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Technology development and acquisition management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Secure development practices mostly conform to industry-recognized standards for secure engineering of Technology Assets, Applications and/or Services (TAAS) (e.g., OWASP, NIST SP 800-218, NIST SP 800-160, etc.).\n▪ An application development team, or similar function, uses a structured process to design, build and maintain secure configurations for test, development, staging and production environments.",
     "3": "Technology Development & Acquisition (TDA) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TDA domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with TDA domain capabilities are well-documented and kept current by process owners.\n▪ A software development team, or similar function, is appropriately staffed and supported to implement and maintain TDA domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of technology development and acquisition management (e.g., project management software, software escrow solution, software testing tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TDA domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to design, develop and produce Technology Assets, Applications and/or Services (TAAS) in such a way that risk-based technical and functional specifications ensure Minimum Viable Product (MVP) criteria establish an appropriate level of security and resiliency based on applicable risks and threats.",
     "4": "Technology Development & Acquisition (TDA) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -109,7 +109,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
@@ -220,6 +221,9 @@
     "general-nist-800-171-r3": [
       "03.16.01"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.16.01"
+    ],
     "general-nist-800-218": [
       "PO.1",
       "PO.1.1",
@@ -296,32 +300,32 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "SA-04"
     ],
-    "emea-eu-cyber-resilience-act-annexes-2022": [
-      "Annex 1.1(1)",
-      "Annex 1.1(3)(b)",
-      "Annex 1.1(3)(c)",
-      "Annex 1.1(3)(d)",
-      "Annex 1.1(3)(f)",
-      "Annex 1.1(3)(g)",
-      "Annex 1.1(3)(i)",
-      "Annex 6 Module A.3"
+    "emea-eu-cyber-resilience-act-2024": [
+      "Article 24(1)"
     ],
-    "emea-eu-eba-ict-srm-2025": [
-      "3.6.2(68)"
+    "emea-eu-cyber-resilience-act-annex-i-2024": [
+      "Annex I, Part I(2)(a)",
+      "Annex I, Part I(2)(e)",
+      "Annex I, Part I(2)(f)"
     ],
     "emea-deu-bsrit-2017": [
       "7.7"
     ],
-    "emea-deu-c5-2020": [
-      "DEV-02"
-    ],
     "emea-sau-cscc-1-2019": [
       "2-13-1",
       "2-13-2",
+      "2-13-3",
       "2-13-3-1",
       "2-13-3-2",
       "2-13-3-3",
       "2-13-3-4"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.sw.1",
+      "mp.sw.2"
+    ],
+    "apac-aus-cop-sitc-2020": [
+      "4"
     ],
     "apac-jpn-ismap": [
       "14.1.1.2",
@@ -337,12 +341,18 @@
       "14.1.1.16",
       "14.2.1.3"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "10.12",
+      "12.1",
+      "12.5"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP31",
       "HML31"
     ],
     "apac-sgp-mas-trm-2021": [
-      "5.3.3"
+      "5.4.3",
+      "5.5.2"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.16.01"

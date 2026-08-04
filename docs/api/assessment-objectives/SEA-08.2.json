@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "SEA-08.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-08.2",
+      "ao_id": "SEA-08.2_A01",
+      "objective": "a frequency is defined for information to be regenerated or refreshed.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.2",
+      "ao_id": "SEA-08.2_A02",
+      "objective": "information is generated or refreshed per an organization-defined frequency.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.2",
+      "ao_id": "SEA-08.2_A03",
+      "objective": "mechanisms exist to delete information when no longer needed.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

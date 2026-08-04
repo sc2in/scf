@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "QTS-03.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-03.4",
+      "ao_id": "QTS-03.4_A01",
+      "objective": "vendors are contractually obligated to support Post-Quantum Cryptography (PQC) migration, including flow-down requirements to subcontractors, suppliers and third-party components.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -92,7 +92,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Incident Response",
   "crosswalks": {
@@ -112,18 +113,13 @@
       "248.30(a)(4)(i)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.7.5(91)"
+      "3.7.5.91"
     ],
     "emea-eu-nis2-2022": [
       "Article 23.2"
     ],
     "apac-ind-sebi-2024": [
       "RC.CO.S1"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "7.7.5",
-      "7.7.6",
-      "7.7.7"
     ]
   }
 }

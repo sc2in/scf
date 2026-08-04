@@ -104,7 +104,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -196,12 +197,6 @@
     ],
     "usa-state-tx-txramp-2-0-level-2": [
       "PE-17"
-    ],
-    "emea-deu-c5-2020": [
-      "PS-02"
-    ],
-    "emea-isr-cmo-1-0": [
-      "18.21"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2312"

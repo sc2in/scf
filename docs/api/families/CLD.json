@@ -23,9 +23,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cloud-based technologies are governed no differently from on-premise network assets (e.g., cloud-based technology is viewed as an extension of the corporate network).",
+        "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cloud-based technologies are governed no differently from on-premise network assets (e.g., cloud-based technology is viewed as an extension of the corporate network). ",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to ensure the architecture for cloud-based technologies supports applicable cybersecurity and data protection requirements.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to identify cybersecurity and data protection requirements for CSP environments, including dedicated and multi-client environments.",
-        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation of cloud management controls to ensure cloud instances are secure and in-line with industry practices.",
+        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation of cloud management controls to ensure cloud instances are secure and in-line with industry practices. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -122,7 +122,8 @@
         "MT-23",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -189,9 +190,6 @@
         "general-pci-dss-4-0-1-saq-p2pe": [
           "12.8.1"
         ],
-        "general-scf-dpmp-2025": [
-          "7.1"
-        ],
         "general-shared-assessments-sig-2025": [
           "J.1"
         ],
@@ -210,22 +208,14 @@
         "usa-state-ca-ccpa-cpra-2026": [
           "7123(c)(5)(B)"
         ],
-        "emea-aut-fappd-2000": [
-          "Sec 14",
-          "Sec 15"
-        ],
-        "emea-bel-act-8-1992": [
-          "16"
-        ],
         "emea-deu-c5-2020": [
-          "COS-01",
-          "COS-02"
-        ],
-        "emea-isr-cmo-1-0": [
-          "11.2"
+          "UP-01",
+          "UP-01-BP1",
+          "UP-01-BP2",
+          "RB-05"
         ],
         "emea-sau-cscc-1-2019": [
-          "4-2"
+          "4-2-1"
         ],
         "emea-sau-cgiot-2024": [
           "4-2-1"
@@ -233,23 +223,38 @@
         "emea-sau-ecc-1-2018": [
           "4-2-1",
           "4-2-2",
-          "4-2-3",
+          "4-2-3-1",
           "4-2-3-2",
-          "4-2-4"
-        ],
-        "emea-sau-sacs-002-2022": [
-          "TPC-43"
+          "4-2-3-3"
         ],
         "emea-sau-sama-csf-1-2017": [
-          "3.3.4",
-          "3.3.8",
-          "3.4.3"
+          "3.4.3",
+          "3.4.3.1",
+          "3.4.3.3",
+          "3.4.3.4",
+          "3.4.3.4.a",
+          "3.4.3.4.a.1",
+          "3.4.3.4.a.2",
+          "3.4.3.4.a.3",
+          "3.4.3.4.b",
+          "3.4.3.4.b.1",
+          "3.4.3.4.c",
+          "3.4.3.4.c.1",
+          "3.4.3.4.d",
+          "3.4.3.4.d.1",
+          "3.4.3.4.e",
+          "3.4.3.4.e.1",
+          "3.4.3.4.f",
+          "3.4.3.4.f.1",
+          "3.4.3.4.g",
+          "3.4.3.4.g.1",
+          "3.4.3.4.g.2",
+          "3.4.3.4.g.3"
         ],
-        "emea-zaf-popia-2013": [
-          "19.1",
-          "19.2"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.nub.1"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1437",
           "ISM-1529",
           "ISM-1579",
@@ -270,29 +275,20 @@
           "5.1.1.29.P",
           "5.1.1.30.P"
         ],
+        "apac-mys-bnm-rmit-2025": [
+          "10.26",
+          "10.50"
+        ],
         "apac-nzl-ism-3-9": [
+          "2.3.28.C.01",
+          "20.1.20.C.01",
+          "20.1.20.C.02",
+          "20.1.20.C.03",
+          "20.1.20.C.04",
           "22.1.20.C.01",
           "22.1.20.C.02",
           "22.1.20.C.03",
-          "22.1.20.C.04",
-          "22.1.20.C.05",
           "22.1.21.C.01",
-          "22.1.21.C.02",
-          "22.1.21.C.03",
-          "22.1.21.C.04",
-          "22.1.21.C.05",
-          "22.1.21.C.06",
-          "22.1.21.C.07",
-          "22.1.24.C.01",
-          "22.1.24.C.02",
-          "22.1.24.C.03",
-          "22.1.24.C.04",
-          "22.1.25.C.01",
-          "22.1.25.C.02",
-          "22.1.26.C.01",
-          "22.1.26.C.02",
-          "22.1.26.C.03",
-          "22.1.27.C.01",
           "23.1.54.C.01",
           "23.1.54.C.02",
           "23.2.19.C.01"
@@ -320,7 +316,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cloud-based technologies are governed no differently from on-premise network assets (e.g., cloud-based technology is viewed as an extension of the corporate network).",
+        "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cloud-based technologies are governed no differently from on-premise network assets (e.g., cloud-based technology is viewed as an extension of the corporate network). ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure cloud services are designed and configured so Technology Assets, Applications and/or Services (TAAS) are secured in accordance with applicable organizational standards, as well as statutory, regulatory and contractual obligations.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -394,12 +390,13 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
-        "emea-sau-sacs-002-2022": [
-          "TPC-43"
+        "emea-sau-ecc-1-2018": [
+          "4-2-3-1"
         ],
         "apac-nzl-ism-3-9": [
           "23.4.9.C.01",
@@ -499,10 +496,24 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
+        "emea-deu-c5-2020": [
+          "PI-02",
+          "PI-05"
+        ],
+        "emea-sau-ecc-1-2018": [
+          "4-2-3-1"
+        ],
+        "emea-sau-sama-csf-1-2017": [
+          "3.4.3.4.h",
+          "3.4.3.4.h.1",
+          "3.4.3.4.h.2",
+          "3.4.3.4.h.3"
+        ],
         "apac-jpn-ismap": [
           "8.1.5.P",
           "8.1.5.1.P",
@@ -511,6 +522,8 @@
           "8.1.5.4.P"
         ],
         "apac-nzl-ism-3-9": [
+          "20.1.26.C.02",
+          "20.1.26.C.03",
           "23.4.13.C.01",
           "23.4.13.C.02",
           "23.4.13.C.03"
@@ -537,9 +550,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cloud-based technologies are governed no differently from on-premise network assets (e.g., cloud-based technology is viewed as an extension of the corporate network).",
+        "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cloud-based technologies are governed no differently from on-premise network assets (e.g., cloud-based technology is viewed as an extension of the corporate network). ",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to ensure the architecture for cloud-based technologies supports applicable cybersecurity and data protection requirements.",
-        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the cloud security architecture supports the organization's technology strategy to securely design, configure and maintain cloud employments.",
+        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the cloud security architecture supports the organization's technology strategy to securely design, configure and maintain cloud employments. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -610,7 +623,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -638,8 +652,8 @@
           "3.1.22",
           "NFO–PL-8"
         ],
-        "general-scf-dpmp-2025": [
-          "7.1"
+        "general-nist-cswp-39": [
+          "6.4"
         ],
         "general-shared-assessments-sig-2025": [
           "N.2"
@@ -663,9 +677,8 @@
           "7123(c)(5)(B)",
           "7123(c)(10)"
         ],
-        "emea-deu-c5-2020": [
-          "COS-01",
-          "COS-02"
+        "emea-isr-cmo-2-0": [
+          "Appendix A, 6.1"
         ],
         "emea-sau-cgiot-2024": [
           "4-2-1",
@@ -674,11 +687,6 @@
         "emea-sau-ecc-1-2018": [
           "4-2-3-2"
         ],
-        "emea-sau-sama-csf-1-2017": [
-          "3.3.4",
-          "3.3.8",
-          "3.4.3"
-        ],
         "apac-ind-sebi-2024": [
           "PR.IP.S13"
         ],
@@ -686,7 +694,10 @@
           "8.1.2.7.PB",
           "9.2.3.11.PB"
         ],
-        "apac-nzl-hisf-mlhsp-2023": [
+        "apac-mys-bnm-rmit-2025": [
+          "10.50"
+        ],
+        "apac-nzl-hisf-microsmall-2023": [
           "HHSP51",
           "HML51"
         ],
@@ -694,9 +705,12 @@
           "HSUP43"
         ],
         "apac-nzl-ism-3-9": [
-          "22.1.23.C.01",
-          "22.1.23.C.02",
-          "22.1.23.C.03",
+          "2.3.28.C.01",
+          "20.1.24.C.02",
+          "20.1.24.C.03",
+          "20.1.24.C.04",
+          "20.2.12.C.01",
+          "20.2.12.C.02",
           "23.1.54.C.01",
           "23.1.54.C.02",
           "23.1.56.C.01",
@@ -722,7 +736,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.\n▪ The cloud infrastructure incorporates a managed security zone to house cybersecurity and data protection tools.",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to host security-specific technologies in a dedicated subnet.",
         "4": "Compliance (CPL) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -762,7 +776,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -810,20 +825,9 @@
           "7123(c)(5)(B)",
           "7123(c)(10)"
         ],
-        "emea-deu-c5-2020": [
-          "COS-01",
-          "COS-02",
-          "COS-05"
-        ],
-        "emea-isr-cmo-1-0": [
-          "9.2"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1385",
           "ISM-1750"
-        ],
-        "apac-nzl-ism-3-9": [
-          "22.1.24.C.02"
         ]
       }
     },
@@ -845,7 +849,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure support for secure interoperability between components with Application Programming Interfaces (APIs).",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -893,7 +897,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -924,20 +929,29 @@
           "155.260(a)(6)"
         ],
         "emea-deu-c5-2020": [
-          "PI-01"
+          "PI-01",
+          "PI-04"
         ],
         "emea-sau-cscc-1-2019": [
           "1-3-2-3"
         ],
+        "emea-esp-ccn-stic-825-2026": [
+          "mp.info.4",
+          "mp.s.2"
+        ],
         "apac-ind-sebi-2024": [
           "PR.AA.S17"
         ],
-        "apac-nzl-hisf-mlhsp-2023": [
+        "apac-nzl-hisf-microsmall-2023": [
           "HHSP52",
           "HML52"
         ],
         "apac-nzl-hisf-suppliers-2023": [
           "HSUP44"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "6.4.1",
+          "6.4.4"
         ]
       }
     },
@@ -1024,11 +1038,13 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
+          "3.4",
           "3.4.1"
         ]
       }
@@ -1053,7 +1069,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.",
-        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the integrity of virtual machine images at all times.",
+        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the integrity of virtual machine images at all times. ",
         "4": "Compliance (CPL) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -1095,12 +1111,13 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
-        "emea-deu-c5-2020": [
-          "PSS-11"
+        "apac-sgp-mas-trm-2021": [
+          "11.4.3"
         ]
       }
     },
@@ -1122,7 +1139,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure multi-tenant owned or managed assets (physical and virtual) are designed and governed such that provider and customer (tenant) user access is appropriately segmented from other tenant users.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -1210,7 +1227,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -1259,13 +1277,9 @@
           "52.204-21(b)(1)(iv)"
         ],
         "emea-deu-c5-2020": [
-          "OPS-24"
+          "RB-23"
         ],
-        "emea-isr-cmo-1-0": [
-          "10.1",
-          "11.3"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1529"
         ],
         "apac-jpn-ismap": [
@@ -1275,7 +1289,10 @@
           "9.5.1.3.P",
           "9.5.1.4.P"
         ],
-        "apac-nzl-hisf-mlhsp-2023": [
+        "apac-mys-bnm-rmit-2025": [
+          "10.50"
+        ],
+        "apac-nzl-hisf-microsmall-2023": [
           "HHSP53",
           "HML53"
         ],
@@ -1358,9 +1375,9 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
-      "errata": "- wordsmithed",
       "family_name": "Cloud Security",
       "crosswalks": {
         "general-iso-27001-2022": [
@@ -1381,13 +1398,28 @@
         "general-pci-dss-4-0-1-saq-d-service-provider": [
           "12.4.1"
         ],
+        "emea-deu-c5-2020": [
+          "UP-01-BP5",
+          "UP-01-BP6",
+          "OIS-03"
+        ],
+        "emea-isr-cmo-2-0": [
+          "Appendix A, 5.1"
+        ],
         "apac-jpn-ismap": [
           "6.3.1.1.PB"
         ],
+        "apac-mys-bnm-rmit-2025": [
+          "10.50"
+        ],
         "apac-nzl-ism-3-9": [
+          "20.1.21.C.03",
           "23.1.55.C.01",
           "23.1.55.C.02",
           "23.1.55.C.03"
+        ],
+        "americas-bmu-mba-coc-2020": [
+          "5.11"
         ]
       }
     },
@@ -1409,7 +1441,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure Multi-Tenant Service Providers (MTSP) facilitate security event logging capabilities for its customers that are consistent with applicable statutory, regulatory and/or contractual obligations.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -1454,7 +1486,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -1464,6 +1497,9 @@
         ],
         "general-pci-dss-4-0-1-saq-d-service-provider": [
           "A1.2.1"
+        ],
+        "emea-deu-c5-2020": [
+          "RB-10"
         ],
         "apac-nzl-ism-3-9": [
           "23.5.11.C.01",
@@ -1490,7 +1526,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure Multi-Tenant Service Providers (MTSP) facilitate prompt forensic investigations in the event of a suspected or confirmed security incident.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -1535,7 +1571,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -1611,7 +1648,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -1648,7 +1686,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.",
-        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure cloud providers use secure protocols for the import, export and management of data in cloud-based Technology Assets, Applications and/or Services (TAAS).",
+        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure cloud providers use secure protocols for the import, export and management of data in cloud-based Technology Assets, Applications and/or Services (TAAS). ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -1681,7 +1719,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -1690,7 +1729,8 @@
         ],
         "emea-deu-c5-2020": [
           "PI-01",
-          "PI-02"
+          "PI-02",
+          "PI-03"
         ]
       }
     },
@@ -1752,14 +1792,11 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
-      "crosswalks": {
-        "emea-deu-c5-2020": [
-          "PSS-11"
-        ]
-      }
+      "crosswalks": {}
     },
     {
       "control_id": "CLD-09",
@@ -1785,9 +1822,9 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Geolocation requirements for sensitive/regulated data types identify restrictions on transfer of data to third-countries or international organizations.",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to govern geolocation requirements for sensitive/regulated data types, including the transfer of data to third-countries or international organizations.",
-        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to control the location of cloud processing/storage based on business requirements that includes statutory, regulatory and contractual obligations.",
+        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to control the location of cloud processing/storage based on business requirements that includes statutory, regulatory and contractual obligations. ",
         "4": "Compliance (CPL) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Cloud Security (CLD) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Cloud Security (CLD) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [
         "SCRMS",
@@ -1835,7 +1872,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -1911,14 +1949,8 @@
           "SA-09 (05)"
         ],
         "emea-deu-c5-2020": [
-          "PI-02",
-          "PSS-12"
-        ],
-        "emea-ken-pda-2019": [
-          "25(h)"
-        ],
-        "emea-qat-pdppl-2020": [
-          "15"
+          "UP-02",
+          "RB-03"
         ],
         "emea-sau-cscc-1-2019": [
           "4-2-1-1"
@@ -1927,43 +1959,26 @@
           "4-1-3-2",
           "4-2-3-3"
         ],
-        "emea-sau-sacs-002-2022": [
-          "TPC-30"
-        ],
-        "apac-aus-privacy-principles-2026": [
-          "APP 8"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1572"
-        ],
-        "apac-chn-pipl-2021": [
-          "38",
-          "39",
-          "40"
         ],
         "apac-ind-sebi-2024": [
           "PR.DS.S2"
         ],
-        "apac-jpn-ppi-2020": [
-          "24(1)"
+        "apac-mys-bnm-rmit-2025": [
+          "10.50"
         ],
         "apac-nzl-ism-3-9": [
+          "20.1.22.C.01",
+          "20.1.22.C.02",
+          "20.1.22.C.03",
+          "20.1.22.C.04",
+          "20.1.22.C.05",
+          "20.1.22.C.06",
           "22.1.22.C.01",
           "22.1.22.C.02",
-          "22.1.22.C.03",
-          "22.1.22.C.04",
-          "22.1.22.C.05",
-          "22.1.22.C.06",
           "23.4.11.C.01",
           "23.4.11.C.02"
-        ],
-        "americas-arg-ppd-2018": [
-          "12.1",
-          "12.2"
-        ],
-        "americas-bra-lgpd-2018": [
-          "33",
-          "34"
         ]
       }
     },
@@ -1971,8 +1986,8 @@
       "control_id": "CLD-10",
       "title": "Sensitive Data In Public Cloud Providers",
       "family": "CLD",
-      "description": "Mechanisms exist to limit and manage the storage of sensitive/regulated data in public cloud providers.",
-      "scf_question": "Does the organization limit and manage the storage of sensitive/regulated data in public cloud providers?",
+      "description": "Mechanisms exist to limit and manage the storage of sensitive and/or regulated data in public cloud providers.",
+      "scf_question": "Does the organization limit and manage the storage of sensitive and/or regulated data in public cloud providers?",
       "relative_weight": 6,
       "conformity_cadence": "Annual",
       "evidence_requests": [
@@ -1989,7 +2004,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.",
-        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to limit and manage the storage of sensitive/regulated data in public cloud providers.",
+        "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to limit and manage the storage of sensitive/regulated data in public cloud providers. ",
         "4": "Compliance (CPL) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -2035,7 +2050,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -2061,13 +2077,11 @@
         "usa-federal-far-52-204-21": [
           "52.204-21(b)(1)(iv)"
         ],
-        "emea-isr-cmo-1-0": [
-          "11.6"
+        "emea-isr-cmo-2-0": [
+          "Appendix A, 6.1"
         ],
-        "apac-nzl-ism-3-9": [
-          "2.3.23.C.01",
-          "22.1.22.C.04",
-          "22.1.22.C.05"
+        "apac-mys-bnm-rmit-2025": [
+          "10.50"
         ]
       }
     },
@@ -2089,7 +2103,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize a Cloud Access Security Broker (CASB), or similar technology, to provide boundary protection and monitoring functions that both provide access to the cloud and protect the organization from misuse of cloud resources.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -2125,7 +2139,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -2137,20 +2152,6 @@
         ],
         "general-shared-assessments-sig-2025": [
           "P.8"
-        ],
-        "emea-deu-c5-2020": [
-          "COS-04"
-        ],
-        "emea-isr-cmo-1-0": [
-          "9.10",
-          "11.8",
-          "16.4"
-        ],
-        "apac-nzl-ism-3-9": [
-          "22.1.24.C.01",
-          "22.1.24.C.02",
-          "22.1.24.C.03",
-          "22.1.24.C.04"
         ]
       }
     },
@@ -2172,7 +2173,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to prevent \"side channel attacks\" when using a Content Delivery Network (CDN) by restricting access to the origin server's IP address to the CDN and an authorized management network.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -2212,7 +2213,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {
@@ -2229,7 +2231,7 @@
         "general-shared-assessments-sig-2025": [
           "N.11"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1438",
           "ISM-1439"
         ]
@@ -2253,7 +2255,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to  specify applicable security, compliance and resilience that must be implemented on external Technology Assets, Applications and/or Services (TAAS), consistent with the contractual obligations established with the External Service Providers (ESP) owning, operating and/or maintaining external TAAS.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -2323,9 +2325,9 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
-      "errata": "- wordsmithed",
       "family_name": "Cloud Security",
       "crosswalks": {
         "general-nist-800-207": [
@@ -2351,7 +2353,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to authorize specified individuals to access External Service Providers (ESP) owned, operated and/or maintained external Technology Assets, Applications and/or Services (TAAS).",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -2421,7 +2423,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {}
@@ -2430,8 +2433,8 @@
       "control_id": "CLD-13.2",
       "title": "Sensitive / Regulated Data On Hosted Assets, Applications & Services",
       "family": "CLD",
-      "description": "Mechanisms exist to define formal processes to store, process and/or transmit sensitive/regulated data using External Service Providers (ESP) owned, operated and/or maintained external Technology Assets, Applications and/or Services (TAAS), in accordance with all applicable statutory, regulatory and/or contractual obligations.",
-      "scf_question": "Does the organization define formal processes to store, process and/or transmit sensitive/regulated data using External Service Providers (ESP) owned, operated and/or maintained external Technology Assets, Applications and/or Services (TAAS), in accordance with all applicable statutory, regulatory and/or contractual obligations?",
+      "description": "Mechanisms exist to define formal processes to store, process and/or transmit sensitive and/or regulated data using External Service Providers (ESP) owned, operated and/or maintained external Technology Assets, Applications and/or Services (TAAS), in accordance with all applicable statutory, regulatory and/or contractual obligations.",
+      "scf_question": "Does the organization define formal processes to store, process and/or transmit sensitive and/or regulated data using External Service Providers (ESP) owned, operated and/or maintained external Technology Assets, Applications and/or Services (TAAS), in accordance with all applicable statutory, regulatory and/or contractual obligations?",
       "relative_weight": 9,
       "conformity_cadence": "Semi-Annual",
       "evidence_requests": [],
@@ -2444,7 +2447,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to define formal processes to store, process and/or transmit sensitive/regulated data using External Service Providers (ESP) owned, operated and/or maintained external Technology Assets, Applications and/or Services (TAAS), in accordance with all applicable statutory, regulatory and/or contractual obligations.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -2514,7 +2517,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {}
@@ -2537,7 +2541,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to  prohibit access to, or usage of, hosted Technology Assets, Applications and/or Services (TAAS) until applicable security, compliance and/or resilience control implementation is verified.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -2607,9 +2611,9 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
-      "errata": "- wordsmithed",
       "family_name": "Cloud Security",
       "crosswalks": {}
     },
@@ -2618,7 +2622,7 @@
       "title": "Software Defined Storage (SDS)",
       "family": "CLD",
       "description": "Automated mechanisms exist to utilize Software Defined Storage (SDS) to scale access management permissions to Technology Assets, Applications, Services and/or Data (TAASD).",
-      "scf_question": "Does the organization utilize Software Defined Storage (SDS) to scale access management permissions to Technology Assets, Applications, Services and/or Data (TAASD)?",
+      "scf_question": "Does the organization use automated mechanisms to utilize Software Defined Storage (SDS) to scale access management permissions to Technology Assets, Applications, Services and/or Data (TAASD)?",
       "relative_weight": 3,
       "conformity_cadence": "Quarterly",
       "evidence_requests": [],
@@ -2699,7 +2703,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Cloud Security",
       "crosswalks": {

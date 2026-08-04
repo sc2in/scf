@@ -75,6 +75,42 @@ def test_parse_gate_blocks_bad_workbook(workbook_factory, tmp_path):
     assert fails and fails[0]["check"] == "ao-control"
 
 
+def test_version_bump_removes_the_previous_catalog(clean_workbook, tmp_path):
+    """A version bump must not leave the old catalog behind.
+
+    find_catalog() takes the first sorted scf-*.json, so a leftover
+    scf-2099-1-1.json would shadow scf-2099-2.json and the build would
+    silently publish the previous release.
+    """
+    from scf_api.build import find_catalog
+
+    data = tmp_path / "data"
+    # --report defaults to the repo's validation/ path; keep the test hermetic.
+    args = [
+        "parse",
+        "--workbook",
+        str(clean_workbook),
+        "--out",
+        str(data),
+        "--overrides",
+        "/none",
+        "--report",
+        str(tmp_path / "report.json"),
+    ]
+
+    assert main([*args, "--scf-version", "2099.1.1"]) == 0
+    assert (data / "scf-2099-1-1.json").exists()
+
+    assert main([*args, "--scf-version", "2099.2"]) == 0
+    assert (data / "scf-2099-2.json").exists()
+    assert not (data / "scf-2099-1-1.json").exists()
+    assert find_catalog(data)[1] == "2099.2"
+
+    # Non-catalog scf-*.json satellites must survive the prune.
+    assert (data / "scf-crosswalks.json").exists()
+    assert (data / "scf-risks.json").exists()
+
+
 def test_changelog_between_versions(clean_workbook, workbook_factory, tmp_path):
     from scf_api import jsonio
     from scf_api.parse import parse_workbook

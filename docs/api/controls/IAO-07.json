@@ -104,7 +104,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Information Assurance",
   "crosswalks": {
@@ -186,9 +187,6 @@
     "general-nist-800-161-r1-level-3": [
       "CA-6"
     ],
-    "general-scf-dpmp-2025": [
-      "7.11"
-    ],
     "usa-federal-dhs-cisa-cpg-2-0": [
       "2.Q"
     ],
@@ -244,21 +242,44 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "CA-06"
     ],
-    "emea-eu-eba-ict-srm-2025": [
-      "3.6.2(70)",
-      "3.6.2(71)"
+    "emea-eu-cyber-resilience-act-2024": [
+      "Article 13(2)"
     ],
-    "emea-isr-cmo-1-0": [
-      "10.6",
-      "16.5"
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.6.42",
+      "3.6.2.69",
+      "3.6.2.70"
+    ],
+    "emea-deu-bsrit-2017": [
+      "7.11"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-13-4"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-4-1-2",
+      "1-5-3-3"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-51"
+      "VII.B.TPC-72",
+      "VII.B.TPC-73"
     ],
-    "apac-aus-ism-2024-june": [
+    "emea-esp-decree-311-2022": [
+      "Article 21(1)"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "A2"
+    ],
+    "apac-aus-ism-2026-march": [
       "ISM-0027",
       "ISM-0293",
-      "ISM-1525"
+      "ISM-1525",
+      "ISM-1968"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.6",
+      "10.8",
+      "10.15"
     ],
     "apac-nzl-ism-3-9": [
       "2.2.5.C.01",
@@ -266,8 +287,15 @@
       "4.5.18.C.01",
       "4.5.18.C.02",
       "4.5.18.C.03",
+      "20.1.21.C.04",
+      "20.1.22.C.01",
+      "20.1.22.C.03",
+      "20.1.22.C.05",
       "23.2.16.C.03",
       "23.2.16.C.04"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "5.7.6"
     ]
   }
 }

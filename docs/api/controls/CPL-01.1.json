@@ -18,7 +18,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Compliance (CPL) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CPL domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CPL domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CPL  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Compliance management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Compliance management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ External compliance requirements for cybersecurity and data privacy are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity perform an informal annual review of existing compliance requirements and research evolving or new requirements.",
     "3": "Compliance (CPL) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CPL domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CPL domain capabilities are well-documented and kept current by process owners.\n▪ A Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain CPL domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CPL domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to document and review instances of non-compliance with statutory, regulatory and/or contractual obligations to develop appropriate risk mitigation actions.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -111,7 +111,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Compliance",
   "crosswalks": {
@@ -205,16 +206,18 @@
       "4.E(2)(b)"
     ],
     "general-nist-800-171-r3": [
-      "03.12.02.a.01"
+      "03.12.02.a.01",
+      "03.12.02.a.02"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.12.02.a.01",
+      "A.03.12.02.a.02"
     ],
     "general-pci-dss-4-0-1": [
       "12.4.2"
     ],
     "general-pci-dss-4-0-1-saq-d-service-provider": [
       "12.4.2"
-    ],
-    "general-scf-dpmp-2025": [
-      "11.6"
     ],
     "general-tisax-6-0-3": [
       "1.5.1"
@@ -247,34 +250,20 @@
       "Article 20.1",
       "Article 41.5"
     ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.3.6.27"
+    ],
     "emea-eu-nis2-2022": [
       "Article 21.4"
+    ],
+    "emea-deu-c5-2020": [
+      "SPN-02"
     ],
     "emea-sau-cgiot-2024": [
       "1-7-3"
     ],
-    "emea-sau-otcc-1-2022": [
-      "1-6",
-      "1-6-1"
-    ],
-    "apac-aus-ps-cps-230-2023": [
-      "30",
-      "31"
-    ],
-    "apac-aus-ps-cps-234-2019": [
-      "29",
-      "35",
-      "35(a)",
-      "35(b)",
-      "36"
-    ],
-    "apac-chn-pipl-2021": [
-      "54"
-    ],
-    "apac-jpn-ppi-2020": [
-      "40(1)",
-      "40(2)",
-      "40(3)"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.mon.2"
     ],
     "apac-jpn-ismap": [
       "4.6.1.1",
@@ -286,23 +275,12 @@
       "1.1.69.C.01",
       "1.1.69.C.02"
     ],
-    "apac-sgp-mas-trm-2021": [
-      "3.2.3",
-      "4.5.2",
-      "4.5.3"
-    ],
-    "americas-bmu-mba-coc-2020": [
-      "5.7"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "6.10",
-      "6.14"
-    ],
     "americas-can-osfi-b13-2022": [
       "1.3.1"
     ],
     "americas-can-itsp-10-171-2025": [
-      "03.12.02.A.01"
+      "03.12.02.A.01",
+      "03.12.02.A.02"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-42001-2023",
-  "display_name": "ISO 42001 (2023)",
+  "display_name": "ISO/IEC 42001:2023 - Information technology - Artificial intelligence - Management system",
   "scf_to_framework": {
     "total_mappings": 149,
     "mappings": {

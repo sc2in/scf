@@ -95,7 +95,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -171,9 +172,12 @@
       "03.10.01.d"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.01.g.03",
       "A.03.01.05.ODP[03]",
       "A.03.01.05.c",
-      "A.03.01.05.d"
+      "A.03.01.05.d",
+      "A.03.10.01.c",
+      "A.03.10.01.d"
     ],
     "general-owasp-top-10-2025": [
       "A01:2025"
@@ -225,10 +229,10 @@
       "AC-06(07)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(3)(ii)(B)"
+      "§ 164.308(a)(3)(ii)(B)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(3)(ii)(B)"
+      "§ 164.308(a)(3)(ii)(B)"
     ],
     "usa-federal-irs-1075-2021": [
       "AC-6(CE-7)",
@@ -247,40 +251,49 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "AC-06 (07)"
     ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.2.31(e)",
+      "3.4.2.31(f)"
+    ],
     "emea-eu-nis2-annex-2024": [
       "11.2.3",
       "11.3.3",
       "11.5.4"
     ],
-    "emea-deu-bsrit-2017": [
-      "6.2"
-    ],
     "emea-deu-c5-2020": [
-      "IDM-05"
+      "IDM-01-BP4",
+      "IDM-05",
+      "IDM-05-DOAR",
+      "IDM-09-DOAR"
     ],
-    "emea-isr-cmo-1-0": [
-      "4.3"
+    "emea-sau-cscc-1-2019": [
+      "2-2-2"
     ],
     "emea-sau-cgiot-2024": [
       "1-8-2",
       "2-2-3"
     ],
     "emea-sau-ecc-1-2018": [
-      "1-9-5",
       "2-2-3-5"
     ],
     "emea-sau-otcc-1-2022": [
       "2-2-1-10"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-33",
-      "TPC-34"
+      "VII.B.TPC-33"
     ],
-    "apac-aus-ism-2024-june": [
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.2",
+      "op.acc.4",
+      "op.acc.5"
+    ],
+    "emea-gbr-cyber-essentials-requirements-3-3": [
+      "2-BP1"
+    ],
+    "apac-aus-ism-2026-march": [
       "ISM-0405",
       "ISM-1647",
-      "ISM-1648",
-      "ISM-1716"
+      "ISM-1648"
     ],
     "apac-ind-sebi-2024": [
       "PR.AA.S5"
@@ -294,14 +307,6 @@
       "9.2.5.4",
       "9.2.5.5",
       "9.2.5.6"
-    ],
-    "apac-nzl-ism-3-9": [
-      "16.4.35.C.01",
-      "16.4.35.C.02",
-      "16.4.35.C.03"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "9.1.6"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.01.G.03",

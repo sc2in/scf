@@ -68,9 +68,9 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed",
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "general-govramp": [
@@ -167,13 +167,6 @@
     ],
     "usa-state-tx-txramp-2-0-level-2": [
       "IA-07"
-    ],
-    "emea-isr-cmo-1-0": [
-      "4.37",
-      "12.10"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-8-3-1"
     ]
   }
 }

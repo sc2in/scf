@@ -110,9 +110,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Information Assurance",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
@@ -200,7 +200,7 @@
     "general-iso-42001-2023": [
       "A.6.2.5"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1190",
       "T1195",
       "T1195.001",
@@ -261,6 +261,9 @@
     "general-nist-800-171-r3": [
       "03.12.01"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.12.01"
+    ],
     "general-nist-csf-2-0": [
       "ID.RA-01",
       "ID.IM-01",
@@ -303,11 +306,16 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "CA-02"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(e)(1)",
+      "101.650(e)(1)(i)",
+      "101.650(e)(1)(ii)"
+    ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(8)"
+      "§ 164.308(a)(8)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(8)"
+      "§ 164.308(a)(8)"
     ],
     "usa-federal-irs-1075-2021": [
       "CA-2"
@@ -347,19 +355,15 @@
     "emea-eu-ai-act-2024": [
       "Article 9.8"
     ],
+    "emea-eu-cyber-resilience-act-2024": [
+      "Article 13(2)",
+      "Article 32(1)"
+    ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.4.6(41)",
-      "3.4.6(42)",
-      "3.4.6(43)",
-      "3.4.6(43)(a)",
-      "3.4.6(43)(b)",
-      "3.4.6(44)",
-      "3.4.6(45)",
-      "3.4.6(46)",
-      "3.4.6(47)",
-      "3.4.6(48)",
-      "3.6.2(70)",
-      "3.6.2(71)"
+      "3.4.6.42",
+      "3.6.2.69",
+      "3.6.2.70",
+      "3.6.2.71"
     ],
     "emea-eu-nis2-annex-2024": [
       "6.5.2(a)",
@@ -368,22 +372,30 @@
     "emea-deu-bsrit-2017": [
       "7.11"
     ],
-    "emea-isr-cmo-1-0": [
-      "10.6",
-      "16.5",
-      "17.2",
-      "17.16",
-      "17.18"
-    ],
-    "emea-qat-pdppl-2020": [
-      "11.1",
-      "11.2"
+    "emea-sau-cscc-1-2019": [
+      "1-3-1-1",
+      "1-3-1-2",
+      "2-13-4"
     ],
     "emea-sau-cgiot-2024": [
       "2-15-2",
       "4-1-5",
       "4-2-3",
       "4-2-4"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-6-2-1",
+      "1-6-2-2"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-4-1-2"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "op.ext.3",
+      "mp.sw.2"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "A2"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "1205"
@@ -394,8 +406,15 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "1205"
     ],
-    "apac-aus-ism-2024-june": [
-      "ISM-0100"
+    "apac-aus-ism-2026-march": [
+      "ISM-0100",
+      "ISM-1967",
+      "ISM-1971",
+      "ISM-1972"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "22",
+      "28"
     ],
     "apac-chn-cybersecurity-law-2017": [
       "Article 35"
@@ -414,7 +433,14 @@
       "14.2.9.3",
       "14.2.9.4"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "10.2",
+      "10.6",
+      "10.8",
+      "10.9",
+      "16.4"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP68",
       "HML67"
     ],
@@ -426,16 +452,28 @@
       "4.3.20.C.01",
       "4.3.20.C.02",
       "4.3.20.C.03",
-      "6.3.8.C.01"
+      "6.3.8.C.01",
+      "11.1.19.C.01",
+      "16.1.30.C.01",
+      "16.7.41.C.01",
+      "20.1.21.C.01",
+      "20.1.21.C.07",
+      "20.1.22.C.03",
+      "20.1.23.C.01",
+      "23.5.10.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
-      "5.7.1",
-      "5.7.2"
+      "4.5.1",
+      "5.6.2",
+      "6.1.6"
     ],
     "americas-bmu-mba-coc-2020": [
-      "5.14"
+      "6.15-BP2"
     ],
     "americas-can-osfi-b13-2022": [
+      "2.4.4"
+    ],
+    "americas-can-osfi-self-assessment-2": [
       "2.4.4"
     ],
     "americas-can-itsp-10-171-2025": [

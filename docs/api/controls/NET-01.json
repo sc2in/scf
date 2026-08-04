@@ -117,7 +117,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {
@@ -134,7 +135,7 @@
       "CC6.6-POF4"
     ],
     "general-cis-csc-8-1": [
-      "12.0",
+      "12",
       "12.1",
       "12.2",
       "12.3",
@@ -271,9 +272,13 @@
     "general-nist-800-171-r3": [
       "03.01.12.a",
       "03.01.16.a",
-      "03.01.16.b",
       "03.01.18.a",
       "03.13.01.a"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.16.a[02]",
+      "A.03.01.18.a[03]",
+      "A.03.13.01.a[02]"
     ],
     "general-nist-800-207": [
       "NIST Tenet 2"
@@ -350,12 +355,12 @@
       "SC-01"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.312(e)(1)",
-      "164.312(e)(2)(i)"
+      "§ 164.312(e)(1)",
+      "§ 164.312(e)(2)(i)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.312(e)(1)",
-      "164.312(e)(2)(i)"
+      "§ 164.312(e)(1)",
+      "§ 164.312(e)(2)(i)"
     ],
     "usa-federal-irs-1075-2021": [
       "3.3.6",
@@ -404,23 +409,9 @@
       "6.8.3",
       "6.9.1"
     ],
-    "emea-aut-fappd-2000": [
-      "Sec 14",
-      "Sec 15"
-    ],
-    "emea-bel-act-8-1992": [
-      "16"
-    ],
-    "emea-deu-c5-2020": [
-      "PSS-10"
-    ],
-    "emea-isr-cmo-1-0": [
-      "9.1"
-    ],
     "emea-sau-cscc-1-2019": [
       "2-3-1-5",
-      "2-4",
-      "2-4-1-5"
+      "2-4-1"
     ],
     "emea-sau-cgiot-2024": [
       "2-3-1",
@@ -429,49 +420,25 @@
       "2-4-5"
     ],
     "emea-sau-ecc-1-2018": [
-      "2-4-4",
       "2-5-1",
-      "2-5-2",
-      "2-5-4"
-    ],
-    "emea-sau-otcc-1-2022": [
-      "2-3",
-      "2-3-1",
-      "2-3-1-1",
-      "2-4",
-      "2-4-1",
-      "2-4-2",
       "2-5-2"
     ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-13",
-      "TPC-14",
-      "TPC-15",
-      "TPC-16",
-      "TPC-17",
-      "TPC-78"
-    ],
-    "emea-sau-sama-csf-1-2017": [
-      "3.3.4",
-      "3.3.8"
-    ],
-    "emea-zaf-popia-2013": [
-      "19"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 23"
+    "emea-sau-otcc-1-2022": [
+      "2-4-1",
+      "2-4-2"
     ],
     "emea-esp-decree-311-2022": [
-      "23"
+      "Article 12(6)(k)",
+      "Article 18"
     ],
-    "emea-esp-ccn-stic-825-2023": [
-      "8.4.1 [MP.COM.1]",
-      "8.4.2 [MP.COM.2]"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.mon.1",
+      "mp.com.1",
+      "mp.com.2",
+      "mp.com.3",
+      "mp.s.1"
     ],
-    "emea-gbr-cyber-essentials-requirements-3-3": [
-      "1"
-    ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0521",
       "ISM-0629",
       "ISM-1186",
@@ -501,7 +468,12 @@
       "13.1.1.9",
       "13.1.2"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "10.37",
+      "12.3",
+      "12.5"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP49",
       "HHSP54",
       "HML49",
@@ -540,28 +512,17 @@
       "4.4"
     ],
     "apac-sgp-mas-trm-2021": [
-      "11.2.1",
-      "11.2.2",
-      "11.2.3",
-      "11.2.4",
-      "11.2.5",
-      "11.2.6",
-      "11.2.7",
-      "11.2.8"
+      "11.2.1"
     ],
-    "americas-bmu-mba-coc-2020": [
-      "6.18"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "4.10",
-      "4.15"
+    "americas-can-osfi-self-assessment-2": [
+      "3.2.4"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.12.A",
       "03.01.16.A",
-      "03.01.16.B",
       "03.01.18.A",
-      "03.13.01.A"
+      "03.13.01.A",
+      "03.14.08.B"
     ]
   }
 }

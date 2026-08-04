@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iec-62443-3-3-2013",
-  "display_name": "IEC 62443-3-3 (2013)",
+  "display_name": "International Electrotechnical Commission (IEC) 62443 - 3 - 3:2013 - Industrial communication networks - Network and system security - Part 3 - 3: System security requirements and security levels",
   "scf_to_framework": {
     "total_mappings": 80,
     "mappings": {

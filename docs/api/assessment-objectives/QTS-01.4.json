@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "QTS-01.4",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A01",
+      "objective": "Harvest Now, Decrypt Later (HNDL) risk is mitigated through Zero Trust Network Access (ZTNA).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A02",
+      "objective": "ZTNA enforces continuous authentication.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A03",
+      "objective": "ZTNA enforces data microsegmentation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A04",
+      "objective": "ZTNA enforces least privilege.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.4",
+      "ao_id": "QTS-01.4_A05",
+      "objective": "ZTNA enforces identity-based access control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -91,7 +91,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {
@@ -101,7 +102,7 @@
     "general-csa-iot-2": [
       "SWS-07"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1557.004"
     ],
     "general-nist-800-53-r4": [

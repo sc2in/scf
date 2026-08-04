@@ -2,8 +2,8 @@
   "control_id": "SAT-03.3",
   "title": "Sensitive / Regulated Data Storage, Handling & Processing",
   "family": "SAT",
-  "description": "Mechanisms exist to ensure that every user accessing a system processing, storing or transmitting sensitive/regulated data is formally trained in data handling requirements.",
-  "scf_question": "Does the organization ensure that every user accessing a system processing, storing or transmitting sensitive/regulated data is formally trained in data handling requirements?",
+  "description": "Mechanisms exist to ensure that every user accessing a system processing, storing or transmitting sensitive and/or regulated data is formally trained in data handling requirements.",
+  "scf_question": "Does the organization ensure that every user accessing a system processing, storing or transmitting sensitive and/or regulated data is formally trained in data handling requirements?",
   "relative_weight": 9,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -104,7 +104,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
@@ -136,7 +137,7 @@
       "6.3(a)"
     ],
     "general-iso-29100-2024": [
-      "6.1"
+      "6.10"
     ],
     "general-mpa-csbp-5-3-1": [
       "OR-3.3"
@@ -157,6 +158,11 @@
       "03.01.22.a",
       "03.02.01.a.01",
       "03.02.02.a.01"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.22.a",
+      "A.03.02.01.a.01[01]",
+      "A.03.02.02.a.01[01]"
     ],
     "general-nist-800-218": [
       "PO.2.2"
@@ -201,9 +207,6 @@
     "general-pci-dss-4-0-1-saq-p2pe": [
       "9.5.1",
       "9.5.1.3"
-    ],
-    "general-scf-dpmp-2025": [
-      "1.6"
     ],
     "general-sparta": [
       "CM0041"
@@ -281,17 +284,17 @@
     "usa-state-vt-act-171-2018": [
       "2447(c)(8)"
     ],
-    "emea-isr-cmo-1-0": [
-      "20.3"
+    "emea-aut-dpa-2018": [
+      "§ 6(3)"
+    ],
+    "emea-deu-c5-2020": [
+      "HR-03-BP2"
     ],
     "emea-qat-pdppl-2020": [
-      "11.3"
+      "3.11.3"
     ],
     "emea-sau-ecc-1-2018": [
-      "1-10-4-2"
-    ],
-    "emea-sau-sama-csf-1-2017": [
-      "3.1.7"
+      "1-10-3-2"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2602"
@@ -302,7 +305,7 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2602"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0831",
       "ISM-1059"
     ],
@@ -310,13 +313,12 @@
       "7.2.2.16",
       "7.2.2.19.PB"
     ],
-    "apac-sgp-mas-trm-2021": [
-      "3.6.2",
-      "3.6.3",
-      "6.1.5"
+    "apac-nzl-ism-3-9": [
+      "21.1.6.C.01",
+      "22.1.11.C.01"
     ],
-    "amaericas-can-osfi-self-assessment": [
-      "1.7"
+    "apac-sgp-mas-trm-2021": [
+      "3.6.1"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.22.A",

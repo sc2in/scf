@@ -52,7 +52,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Privacy",
   "crosswalks": {
@@ -61,6 +62,9 @@
     ],
     "general-iso-29100-2024": [
       "6.7"
+    ],
+    "emea-deu-fdpa-2017": [
+      "3.3.56(2)"
     ],
     "emea-sau-pdpl-2023": [
       "Article 11.2"

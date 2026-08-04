@@ -85,13 +85,30 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
+    "general-nist-800-172-r3": [
+      "03.14.11E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.14.11E"
+    ],
     "usa-federal-dow-zt-roadmap-1-1": [
       "2.7.2",
       "2.7.3"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-4-3-4"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-3-1-1",
+      "2-3-1-12"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.3.2"
     ]
   }
 }

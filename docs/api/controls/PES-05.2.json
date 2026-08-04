@@ -2,8 +2,8 @@
   "control_id": "PES-05.2",
   "title": "Monitoring Physical Access To Critical Systems",
   "family": "PES",
-  "description": "Facility security mechanisms exist to monitor physical access to critical systems or sensitive/regulated data, in addition to the physical access monitoring of the facility.",
-  "scf_question": "Does the organization monitor physical access to critical systems or sensitive/regulated data, in addition to the physical access monitoring of the facility?",
+  "description": "Facility security mechanisms exist to monitor physical access to critical systems or sensitive and/or regulated data, in addition to the physical access monitoring of the facility.",
+  "scf_question": "Does the organization monitor physical access to critical systems or sensitive and/or regulated data, in addition to the physical access monitoring of the facility?",
   "relative_weight": 5,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -87,7 +87,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -141,6 +142,17 @@
       "3.10.2[c]",
       "3.10.2[d]"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.10.02.a[01]",
+      "A.03.10.02.b[01]",
+      "A.03.10.02.b[02]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.10.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.10.01E[01]"
+    ],
     "general-pci-dss-4-0-1": [
       "9.2.1.1"
     ],
@@ -159,8 +171,8 @@
     "usa-federal-gsa-fedramp-5-high": [
       "PE-06(04)"
     ],
-    "apac-sgp-mas-trm-2021": [
-      "8.5.5"
+    "emea-sau-otcc-1-2022": [
+      "2-13-1-7"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.10.02.A",

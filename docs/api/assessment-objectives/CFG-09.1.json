@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CFG-09.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-09.1",
+      "ao_id": "CFG-09.1_A01",
+      "objective": "the use and import of third-party libraries and/or software components to trustworthy sources is restricted.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

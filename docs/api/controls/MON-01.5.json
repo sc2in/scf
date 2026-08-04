@@ -99,9 +99,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
@@ -138,6 +138,14 @@
     "general-nist-800-82-r3-high": [
       "SI-04(14)"
     ],
+    "general-nist-800-172-r3": [
+      "03.14.19E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.14.19E[01]",
+      "DS-A.03.14.19E[02]",
+      "DS-A.03.14.19E[03]"
+    ],
     "general-pci-dss-4-0-1": [
       "11.2"
     ],
@@ -149,9 +157,6 @@
     ],
     "usa-federal-cms-marse-2-0": [
       "SI-4(14)"
-    ],
-    "emea-isr-cmo-1-0": [
-      "7.6"
     ],
     "apac-nzl-ism-3-9": [
       "16.6.10.C.01",

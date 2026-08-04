@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-27701-2025",
-  "display_name": "ISO 27701 (2025)",
+  "display_name": "ISO/IEC 27701:2025 - Information security, cybersecurity and privacy protection - Privacy information management systems - Requirements and guidance",
   "scf_to_framework": {
     "total_mappings": 59,
     "mappings": {

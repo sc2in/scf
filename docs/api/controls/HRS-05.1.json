@@ -106,7 +106,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Human Resources Security",
   "crosswalks": {
@@ -235,6 +236,8 @@
       "03.15.03.d"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.18.a[01]",
+      "A.03.01.22.a",
       "A.03.15.03.ODP[01]",
       "A.03.15.03.a",
       "A.03.15.03.d[01]",
@@ -271,9 +274,6 @@
     ],
     "general-pci-dss-4-0-1-saq-p2pe": [
       "12.1.3"
-    ],
-    "general-scf-dpmp-2025": [
-      "7.7"
     ],
     "general-tisax-6-0-3": [
       "8.2.5",
@@ -317,10 +317,10 @@
       "PL-04"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.310(b)"
+      "§ 164.310(b)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.310(b)"
+      "§ 164.310(b)"
     ],
     "usa-federal-irs-1075-2021": [
       "PL-4"
@@ -348,37 +348,23 @@
     "emea-eu-nis2-annex-2024": [
       "12.2.2(b)"
     ],
-    "emea-deu-c5-2020": [
-      "HR-03"
-    ],
-    "emea-isr-cmo-1-0": [
-      "5.1",
-      "15.6",
-      "19.3",
-      "19.6"
-    ],
-    "emea-sau-cscc-1-2019": [
-      "2-5"
+    "emea-isr-cmo-2-0": [
+      "Appendix A, 9.1"
     ],
     "emea-sau-ecc-1-2018": [
       "1-9-3-1",
-      "1-9-4-2",
       "2-1-3",
       "2-1-4",
       "2-15-3-4"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-1",
-      "TPC-8",
-      "TPC-9"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 11.2",
-      "Article 11.3"
+      "VII.A.TPC-1"
     ],
     "emea-esp-decree-311-2022": [
-      "11.2",
-      "11.3"
+      "Article 15(2)"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.s.1"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2604"
@@ -392,12 +378,11 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2604"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0820",
-      "ISM-0821"
-    ],
-    "apac-jpn-ppi-2020": [
-      "21"
+      "ISM-0821",
+      "ISM-1864",
+      "ISM-2095"
     ],
     "apac-jpn-ismap": [
       "7.2.1.2",
@@ -423,14 +408,14 @@
       "9.3.8.C.03",
       "14.3.5.C.01",
       "15.1.7.C.01",
-      "21.1.22.C.01",
-      "21.1.22.C.02"
+      "16.4.38.C.02"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.12.A",
       "03.01.18.A",
       "03.01.22.A",
-      "03.15.03.A"
+      "03.15.03.A",
+      "03.15.03.D"
     ]
   }
 }

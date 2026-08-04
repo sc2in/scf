@@ -23,7 +23,7 @@
     "2": "Vulnerability & Patch Management (VPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Vulnerability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Vulnerability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel configure technologies to update vulnerability scanning tools.",
     "3": "Vulnerability & Patch Management (VPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are well-documented and kept current by process owners.\n▪ A vulnerability management team, or similar function, is appropriately staffed and supported to implement and maintain VPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of vulnerability management operations (e.g., patch management solution, vulnerability scanning solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to detect vulnerabilities and configuration errors by routine vulnerability scanning of systems and applications.",
     "4": "Vulnerability & Patch Management (VPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-    "5": "Vulnerability & Patch Management (VPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+    "5": "Vulnerability & Patch Management (VPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
   "profiles": [
     "SCRMS",
@@ -89,7 +89,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
@@ -148,7 +149,7 @@
     "general-iso-27018-2025": [
       "8.8"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1011.001",
       "T1021.001",
       "T1021.003",
@@ -306,7 +307,8 @@
       "3.11.2"
     ],
     "general-nist-800-171-r3": [
-      "03.11.02.a"
+      "03.11.02.a",
+      "03.14.01.a"
     ],
     "general-nist-800-171a": [
       "3.11.2[a]",
@@ -323,8 +325,8 @@
       "A.03.11.02.a[02]",
       "A.03.11.02.a[03]",
       "A.03.11.02.a[04]",
-      "A.03.11.02.c[01]",
-      "A.03.11.02.c[02]"
+      "A.03.14.01.a[01]",
+      "A.03.14.01.a[02]"
     ],
     "general-nist-csf-2-0": [
       "ID.RA-01"
@@ -411,6 +413,9 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "RA-05"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(e)(3)(vi)"
+    ],
     "usa-federal-law-glba-cfr-314-2023": [
       "314.4(d)(2)",
       "314.4(d)(2)(ii)"
@@ -464,20 +469,9 @@
     "emea-eu-nis2-annex-2024": [
       "6.10.2(b)"
     ],
-    "emea-deu-bsrit-2017": [
-      "5.6"
-    ],
     "emea-deu-c5-2020": [
-      "OPS-22",
-      "PSS-02",
-      "PSS-03"
-    ],
-    "emea-isr-cmo-1-0": [
-      "3.4",
-      "9.25",
-      "12.30",
-      "22.3",
-      "22.6"
+      "RB-17-BP1",
+      "RB-21"
     ],
     "emea-sau-cscc-1-2019": [
       "2-9-1-1",
@@ -489,8 +483,11 @@
     "emea-sau-ecc-1-2018": [
       "2-10-3-1"
     ],
+    "emea-sau-otcc-1-2022": [
+      "2-9-1-3"
+    ],
     "emea-sau-sacs-002-2022": [
-      "TPC-85"
+      "VII.B.TPC-85"
     ],
     "emea-uae-niaf-2023": [
       "3.1.3"
@@ -515,7 +512,7 @@
       "ML3-P1",
       "ML3-P2"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1163",
       "ISM-1698",
       "ISM-1699",
@@ -523,12 +520,17 @@
       "ISM-1701",
       "ISM-1702",
       "ISM-1703",
-      "ISM-1752"
+      "ISM-1752",
+      "ISM-1875",
+      "ISM-1900"
     ],
     "apac-ind-sebi-2024": [
       "ID.RA.S1"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "11.9"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP26",
       "HHSP59",
       "HML26",
@@ -541,21 +543,18 @@
       "6.2.5.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
-      "13.1.1",
-      "13.1.2"
-    ],
-    "americas-bmu-mba-coc-2020": [
-      "6.15"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "2.5"
+      "13.1.1"
     ],
     "americas-can-osfi-b13-2022": [
       "3.1.2",
       "3.1.3"
     ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.1.3"
+    ],
     "americas-can-itsp-10-171-2025": [
-      "03.11.02.A"
+      "03.11.02.A",
+      "03.14.01.A"
     ]
   }
 }

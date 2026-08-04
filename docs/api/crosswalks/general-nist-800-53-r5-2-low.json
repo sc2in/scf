@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-53-r5-2-low",
-  "display_name": "NIST SP 800-53 R5 - Low Baseline",
+  "display_name": "NIST SP 800 - 53 R5 - Security and Privacy Controls for Information Systems and Organizations - Low Baseline",
   "scf_to_framework": {
     "total_mappings": 202,
     "mappings": {

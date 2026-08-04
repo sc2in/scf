@@ -90,9 +90,9 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Third-Party Management",
   "crosswalks": {
     "general-iso-21434-2021": [
@@ -110,6 +110,10 @@
       "03.16.03.c"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.20.a",
+      "A.03.01.20.b",
+      "A.03.01.20.c.01",
+      "A.03.16.03.a",
       "A.03.16.03.c"
     ],
     "general-tisax-6-0-3": [
@@ -117,6 +121,16 @@
     ],
     "usa-state-nv-regulation-5-2024": [
       "5.260.5(c)"
+    ],
+    "emea-deu-c5-2020": [
+      "UP-04"
+    ],
+    "emea-qat-pdppl-2020": [
+      "3.11.8"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "VII.A.TPC-20",
+      "VII.A.TPC-21"
     ],
     "apac-ind-sebi-2024": [
       "PR.IP.S15",

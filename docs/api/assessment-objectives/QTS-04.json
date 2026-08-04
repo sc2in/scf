@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "QTS-04",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-04",
+      "ao_id": "QTS-04_A01",
+      "objective": "means to gain situational awareness into the organization's current cryptographic landscape through a formal discovery process are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04",
+      "ao_id": "QTS-04_A02",
+      "objective": "the discovery process uses available tools to generate situational awareness.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

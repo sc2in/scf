@@ -92,7 +92,8 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -141,9 +142,6 @@
       "A.03.05.04[01]",
       "A.03.05.04[02]",
       "A.03.07.05.b[02]"
-    ],
-    "general-nist-800-172": [
-      "3.5.1e"
     ],
     "general-nist-csf-2-0": [
       "PR.AA-04"
@@ -196,9 +194,6 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "IA-02 (08)"
     ],
-    "emea-isr-cmo-1-0": [
-      "4.31"
-    ],
     "emea-gbr-def-stan-05-138-2024": [
       "2215"
     ],
@@ -211,7 +206,7 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2215"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1055",
       "ISM-1603"
     ],

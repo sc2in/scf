@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-dhs-cisa-tic-3-0",
-  "display_name": "CISA Trusted Internet Connections 3.0 Security Capabilities Catalog (TIC 3.0)",
+  "display_name": "US - Cybersecurity & Infrastructure Security Agency (CISA) Trusted Internet Connections 3.0 Security Capabilities Catalog",
   "scf_to_framework": {
     "total_mappings": 148,
     "mappings": {

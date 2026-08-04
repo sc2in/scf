@@ -109,7 +109,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
@@ -121,9 +122,6 @@
     ],
     "general-shared-assessments-sig-2025": [
       "J.5"
-    ],
-    "emea-isr-cmo-1-0": [
-      "21.10"
     ]
   }
 }

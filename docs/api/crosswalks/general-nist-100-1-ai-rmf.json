@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-100-1-ai-rmf",
-  "display_name": "NIST AI 100-1 (AI RMF 1.0)",
+  "display_name": "NIST AI 100 - 1 - Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
   "scf_to_framework": {
     "total_mappings": 158,
     "mappings": {

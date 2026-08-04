@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-27017-2015",
-  "display_name": "ISO 27017 (2015)",
+  "display_name": "ISO/IEC 27017:2015 - Information technology - Security techniques - Code of practice for information security controls based on ISO/IEC 27002 for cloud services",
   "scf_to_framework": {
     "total_mappings": 224,
     "mappings": {

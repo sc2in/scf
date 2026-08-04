@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "QTS-06.8",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-06.8",
+      "ao_id": "QTS-06.8_A01",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are configured to prevent attackers from forcing quantum-vulnerable algorithms.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.8",
+      "ao_id": "QTS-06.8_A02",
+      "objective": "integrity-protected algorithm negotiation is used (e.g., TLS 1.3 handshake transcript).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.8",
+      "ao_id": "QTS-06.8_A03",
+      "objective": "negotiation of classical-only cipher suites is disallowed once Post-Quantum Cryptography (PQC) is deployed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.8",
+      "ao_id": "QTS-06.8_A04",
+      "objective": "downgrade attempts are monitored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -86,7 +86,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {
@@ -172,13 +173,7 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "SC-07 (04)"
     ],
-    "emea-deu-c5-2020": [
-      "COS-03"
-    ],
-    "emea-isr-cmo-1-0": [
-      "9.5"
-    ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0546",
       "ISM-1562"
     ]

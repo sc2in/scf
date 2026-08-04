@@ -84,7 +84,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
@@ -99,6 +100,12 @@
     ],
     "emea-eu-nis2-annex-2024": [
       "6.6.1(c)"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-4-1-15"
+    ],
+    "apac-aus-cop-sitc-2020": [
+      "3"
     ]
   }
 }

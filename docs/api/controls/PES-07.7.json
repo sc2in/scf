@@ -70,7 +70,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -85,6 +86,9 @@
     ],
     "general-nist-800-160-vol-2-r1": [
       "PE-09(01)"
+    ],
+    "emea-deu-c5-2020": [
+      "PS-04"
     ]
   }
 }

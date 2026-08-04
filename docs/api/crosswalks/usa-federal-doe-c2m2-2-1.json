@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-doe-c2m2-2-1",
-  "display_name": "Cybersecurity Capability Maturity Model (C2M2) (v2.1)",
+  "display_name": "US - Department of Energy (DOE) - Cybersecurity Capability Maturity Model version 2.1",
   "scf_to_framework": {
     "total_mappings": 224,
     "mappings": {

@@ -109,7 +109,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
@@ -152,6 +153,9 @@
     "general-nist-800-171-r3": [
       "03.14.02.a"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.14.02.a[01]"
+    ],
     "general-pci-dss-4-0-1": [
       "5.3.4"
     ],
@@ -187,13 +191,6 @@
     ],
     "usa-federal-cms-marse-2-0": [
       "SI-3(1)"
-    ],
-    "emea-isr-cmo-1-0": [
-      "7.7",
-      "12.20"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "11.3.5"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.14.02.A"

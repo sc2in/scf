@@ -102,7 +102,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Human Resources Security",
   "crosswalks": {
@@ -120,6 +121,13 @@
     ],
     "general-nist-800-160-vol-2-r1": [
       "AC-03(02)"
+    ],
+    "general-nist-800-172-r3": [
+      "03.01.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.01.01E",
+      "A.03.01.01E.ODP[01]"
     ],
     "general-sparta": [
       "CM0054"

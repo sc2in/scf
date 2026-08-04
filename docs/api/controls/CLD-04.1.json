@@ -81,11 +81,13 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "usa-federal-dow-zt-roadmap-1-1": [
+      "3.4",
       "3.4.1"
     ]
   }

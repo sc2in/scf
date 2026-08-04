@@ -117,7 +117,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Human Resources Security",
   "crosswalks": {
@@ -272,7 +273,18 @@
       "A.03.01.01.ODP[01]",
       "A.03.01.01.ODP[02]",
       "A.03.01.01.ODP[03]",
-      "A.03.01.01.ODP[04]"
+      "A.03.01.01.ODP[04]",
+      "A.03.01.01.g.02",
+      "A.03.15.03.a",
+      "A.03.15.03.d[01]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.09.03E",
+      "03.09.04E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.09.03E.a",
+      "A.03.09.04E.ODP[01]"
     ],
     "general-nist-800-218": [
       "PO.2.1"
@@ -297,9 +309,6 @@
     "general-pci-dss-4-0-1-saq-d-service-provider": [
       "12.2.1",
       "12.7.1"
-    ],
-    "general-scf-dpmp-2025": [
-      "7.9"
     ],
     "general-swift-cscf-2025": [
       "5.1",
@@ -380,13 +389,13 @@
       "314.4(e)(2)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(3)(ii)(A)",
-      "164.312(d)",
-      "164.530(e)(2)"
+      "§ 164.308(a)(3)(ii)(A)",
+      "§ 164.312(d)",
+      "§ 164.530(e)(2)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(3)(ii)(A)",
-      "164.312(d)"
+      "§ 164.308(a)(3)(ii)(A)",
+      "§ 164.312(d)"
     ],
     "usa-federal-irs-1075-2021": [
       "2.C.3-1",
@@ -417,7 +426,7 @@
       "PS-01"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.3.2(15)"
+      "3.2.1.3"
     ],
     "emea-eu-nis2-2022": [
       "Article 21.2(i)"
@@ -427,50 +436,42 @@
       "10.1.3",
       "10.2.3"
     ],
-    "emea-aut-fappd-2000": [
-      "Sec 14",
-      "Sec 15"
+    "emea-deu-c5-2020": [
+      "HR-02",
+      "KOS-08-DOAR"
     ],
-    "emea-bel-act-8-1992": [
-      "16"
-    ],
-    "emea-isr-cmo-1-0": [
-      "19.1"
+    "emea-grc-pirppd-1997": [
+      "B.10.2"
     ],
     "emea-sau-cscc-1-2019": [
-      "1-5",
-      "2-5"
+      "1-5-1"
     ],
     "emea-sau-cgiot-2024": [
       "1-3-2",
       "1-8-1"
     ],
     "emea-sau-ecc-1-2018": [
+      "1-4-2",
       "1-9-1",
-      "1-9-6",
-      "2-6-4"
+      "1-9-2",
+      "1-9-3",
+      "1-9-4",
+      "1-9-6"
     ],
     "emea-sau-otcc-1-2022": [
-      "1-7",
-      "1-7-2",
-      "1-8"
+      "1-7-1",
+      "1-7-2"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-6",
-      "TPC-71"
+      "VII.B.TPC-26"
     ],
     "emea-sau-sama-csf-1-2017": [
-      "3.3.1"
-    ],
-    "emea-zaf-popia-2013": [
-      "19",
-      "20"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 15.1"
+      "3.3.1",
+      "3.3.1.1",
+      "3.3.1.3"
     ],
     "emea-esp-decree-311-2022": [
-      "15.1"
+      "Article 12(6)(c)"
     ],
     "emea-uae-niaf-2023": [
       "3.2.3"
@@ -509,8 +510,9 @@
       "GV.RR.S6",
       "RS.CO.S1"
     ],
-    "apac-jpn-ppi-2020": [
-      "21"
+    "apac-jpn-appi-2020": [
+      "IV.1.21",
+      "IV.1.22"
     ],
     "apac-jpn-ismap": [
       "4.5.2.2",
@@ -519,7 +521,7 @@
       "7.1",
       "7.1.1.13"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HML02"
     ],
     "apac-nzl-hisf-suppliers-2023": [
@@ -533,14 +535,10 @@
       "15.1.7.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
-      "3.5.1",
-      "3.5.2"
+      "3.5.1"
     ],
-    "americas-bmu-mba-coc-2020": [
-      "5.13"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "1.5"
+    "apac-kor-pipa-2011": [
+      "III.2.28(1)"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.01.G.02",

@@ -107,7 +107,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Asset Management",
   "crosswalks": {
@@ -122,11 +123,15 @@
     "general-nist-800-171-r3": [
       "03.01.18.a"
     ],
-    "emea-isr-cmo-1-0": [
-      "12.6"
+    "general-nist-800-171a-r3": [
+      "A.03.01.18.a[01]"
     ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-84"
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.eq.3",
+      "mp.eq.4",
+      "mp.si.3",
+      "mp.si.4",
+      "mp.si.5"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.18.A"

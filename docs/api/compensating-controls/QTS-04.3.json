@@ -1,0 +1,16 @@
+{
+  "control_id": "QTS-04.3",
+  "risk_if_not_implemented": "Without Post-Quantum Cryptography Exposure, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+  "compensating_control_1": {
+    "control_id": "VPM-03",
+    "name": "Vulnerability Ranking",
+    "description": "Mechanisms exist to identify and assign a risk ranking to newly discovered security vulnerabilities using reputable outside sources for security vulnerability information.",
+    "justification": "Vulnerability Ranking (VPM-03) provides vulnerability management that compensates for the absence of Post-Quantum Cryptography Exposure (QTS-04.3) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "RSK-02",
+    "name": "Risk-Based Security Categorization",
+    "description": "Mechanisms exist to categorize Technology Assets, Applications, Services and/or Data (TAASD) in accordance with applicable laws, regulations and contractual obligations that:\n(1) Document the security categorization results (including supporting rationale) in the security plan for systems; and\n(2) Ensure the security categorization decision is reviewed and approved by the asset owner.",
+    "justification": "Risk-Based Security Categorization (RSK-02) provides risk identification and prioritization that compensates for the absence of Post-Quantum Cryptography Exposure (QTS-04.3) by enabling informed decisions about where to focus resources to manage residual exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-13.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-13.1",
+      "ao_id": "TDA-13.1_A01",
+      "objective": "a cybersecurity knowledge and skills register for developers is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

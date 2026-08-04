@@ -11,6 +11,13 @@ the validation gate and each test injects exactly the failure it exercises:
 - erl-control-id      control id in the ERL column (the MON-03.3 workbook typo)
 - dup-control-id      duplicated control id row
 - renamed-source-header  Sources header drifts from the column header (fuzzy match)
+
+Upstream rename defects (the SCF 2026.2 shape, which broke autopilot):
+
+- renamed-tab         "Authoritative Sources" tab renamed to "Focal Documents"
+- renamed-cc-header   compensating "SCF Control #" header shortened to "SCF #"
+- drifted-tab         same tab, NBSP + doubled space + zero-width space
+- unknown-tab         a tab name no built-in pattern knows (operator-alias path)
 """
 
 from __future__ import annotations
@@ -30,6 +37,11 @@ DEFECTS = frozenset(
         "erl-control-id",
         "dup-control-id",
         "renamed-source-header",
+        # Upstream tab/header renames (SCF 2026.2 shape).
+        "renamed-tab",  # "Authoritative Sources" -> "Focal Documents"
+        "renamed-cc-header",  # "SCF Control #" -> "SCF #"
+        "drifted-tab",  # same tab, NBSP + doubled space + zero-width space
+        "unknown-tab",  # a name no built-in pattern knows (operator-alias path)
     }
 )
 
@@ -58,8 +70,18 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
     ws.append([3, "Testing", "TST", "Test things.", "Because.", 1, 0.17])
     ws.append([None, None, None, None, "Total Control Count", 6, None])
 
-    # --- Authoritative Sources ---
-    ws = wb.create_sheet("Authoritative Sources")
+    # --- Authoritative Sources (2026.2 renamed this tab to "Focal Documents") ---
+    if "unknown-tab" in defects:
+        sources_tab = "Reference Register"  # no built-in pattern matches this
+    elif "drifted-tab" in defects:
+        # NBSP + a doubled space + a zero-width space: invisible drift that
+        # norm_key absorbs for column headers and now for tab names too.
+        sources_tab = "Authoritative\xa0 \u200bSources"
+    elif "renamed-tab" in defects:
+        sources_tab = "Focal Documents"
+    else:
+        sources_tab = "Authoritative Sources"
+    ws = wb.create_sheet(sources_tab)
     ws.append(
         [
             "Geography",
@@ -293,7 +315,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
     ws.append(
         [
             "SCF Control Name",
-            "SCF Control #",
+            "SCF #" if "renamed-cc-header" in defects else "SCF Control #",
             "SCF Control Description",
             "PPTDF\nApplicability",
             "Risk if Primary Control\nNot Implemented",

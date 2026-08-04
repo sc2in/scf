@@ -77,7 +77,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -161,6 +162,12 @@
     "general-nist-800-161-r1-level-3": [
       "CP-2(8)"
     ],
+    "general-nist-800-172-r3": [
+      "03.11.10E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.11.10E"
+    ],
     "general-nist-csf-2-0": [
       "GV.OC-04",
       "GV.OC-05",
@@ -168,9 +175,6 @@
       "RC.RP",
       "RC.RP-02",
       "RC.RP-04"
-    ],
-    "general-scf-dpmp-2025": [
-      "11.7"
     ],
     "general-swift-cscf-2025": [
       "2.8"
@@ -200,10 +204,10 @@
       "CP-02(08)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(7)(ii)(E)"
+      "§ 164.308(a)(7)(ii)(E)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(7)(ii)(E)"
+      "§ 164.308(a)(7)(ii)(E)"
     ],
     "usa-federal-irs-1075-2021": [
       "CP-2(CE-8)"
@@ -216,30 +220,23 @@
       "500.16(a)(2)(vi)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.7.1(78)",
-      "3.7.3(83)"
+      "3.3.2.16",
+      "3.7.1.78"
     ],
     "emea-eu-dora-2023": [
       "Article 8.4"
     ],
-    "emea-deu-bsrit-2017": [
-      "12.2"
-    ],
     "emea-deu-c5-2020": [
-      "BCM-02"
+      "RB-12",
+      "BCM-02-BP4"
     ],
     "emea-sau-cscc-1-2019": [
+      "2-1-1-1",
       "2-8-1-1",
       "3-1-1-2"
     ],
-    "emea-sau-ecc-1-2018": [
-      "2-9-3-2"
-    ],
     "emea-sau-otcc-1-2022": [
       "2-1-1-5"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-24"
     ],
     "emea-uae-niaf-2023": [
       "3.4"
@@ -250,27 +247,28 @@
     "emea-gbr-cap-1850-2020": [
       "A4"
     ],
-    "apac-aus-ps-cps-230-2023": [
-      "34(a)",
-      "35",
-      "36(a)",
-      "36(b)",
-      "36(c)",
-      "36(d)",
-      "37"
+    "apac-aus-ism-2026-march": [
+      "ISM-2005"
     ],
-    "apac-aus-ps-cps-234-2019": [
-      "21(b)"
+    "apac-aus-ps-cps-230-2023": [
+      "15",
+      "34(a)",
+      "35"
     ],
     "apac-ind-sebi-2024": [
       "ID.AM.S4"
     ],
-    "apac-sgp-mas-trm-2021": [
-      "8.1.2"
+    "apac-mys-bnm-rmit-2025": [
+      "9.2",
+      "10.26",
+      "11.3"
     ],
     "americas-can-osfi-b13-2022": [
       "2.2.2",
       "2.9.2"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "2.9.1"
     ]
   }
 }

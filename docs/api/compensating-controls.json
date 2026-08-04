@@ -1,5 +1,5 @@
 {
-  "total": 1305,
+  "total": 1371,
   "compensating_controls": [
     {
       "control_id": "GOV-01.1",
@@ -47,6 +47,22 @@
         "name": "Risk Management Program",
         "description": "Mechanisms exist to facilitate the implementation of strategic, operational and tactical risk management controls.",
         "justification": "Risk Management Program (RSK-01) provides policy-level governance that compensates for the absence of Commitment To Continual Improvements (GOV-01.3) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "GOV-01.4",
+      "risk_if_not_implemented": "Without Secure Practices Alignment Justification, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+      "compensating_control_1": {
+        "control_id": "CPL-01",
+        "name": "Statutory, Regulatory & Contractual Compliance",
+        "description": "Mechanisms exist to facilitate the identification and implementation of relevant statutory, regulatory and contractual controls.",
+        "justification": "Statutory, Regulatory & Contractual Compliance (CPL-01) provides third-party oversight and contractual controls that compensates for the absence of Secure Practices Alignment Justification (GOV-01.4) by extending security obligations and monitoring third-party risk in lieu of direct primary control implementation. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "GOV-09",
+        "name": "Define Control Objectives",
+        "description": "Mechanisms exist to establish control objectives as the basis for the selection, implementation and management of the organization's internal security, compliance and resilience control system.",
+        "justification": "Define Control Objectives (GOV-09) provides overlapping security capability that compensates for the absence of Secure Practices Alignment Justification (GOV-01.4) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -239,6 +255,22 @@
         "name": "Data Privacy Program",
         "description": "Mechanisms exist to facilitate the implementation and operation of data protection controls throughout the data lifecycle to ensure all forms of Personal Data (PD) are processed lawfully, fairly and transparently.",
         "justification": "Data Privacy Program (PRI-01) provides policy-level governance that compensates for the absence of Data Governance (GOV-10) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "GOV-10.1",
+      "risk_if_not_implemented": "Without Data Catalog, security events may go undetected, allowing threats to persist and increasing breach dwell time.",
+      "compensating_control_1": {
+        "control_id": "DCH-24",
+        "name": "Information Location",
+        "description": "Mechanisms exist to identify and document the location of information and the specific system components on which the information resides.",
+        "justification": "Information Location (DCH-24) provides overlapping security capability that compensates for the absence of Data Catalog (GOV-10.1) by addressing related risk objectives through an alternative control mechanism. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "DCH-02",
+        "name": "Data & Asset Classification",
+        "description": "Mechanisms exist to ensure data and assets are categorized in accordance with applicable statutory, regulatory and contractual requirements.",
+        "justification": "Data & Asset Classification (DCH-02) provides asset and inventory visibility that compensates for the absence of Data Catalog (GOV-10.1) by providing the foundational asset knowledge needed to manage risks associated with the primary control. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -498,6 +530,22 @@
       }
     },
     {
+      "control_id": "GOV-19.3",
+      "risk_if_not_implemented": "Without Security, Compliance & Resilince Outsourcing Limitations, residual security, compliance, or resilience risk may accumulate without structured oversight, leading to unmanaged exposures.",
+      "compensating_control_1": {
+        "control_id": "TPM-04",
+        "name": "Third-Party Services",
+        "description": "Mechanisms exist to mitigate the risks associated with third-party access to the organization's Technology Assets, Applications, Services and/or Data (TAASD).",
+        "justification": "Third-Party Services (TPM-04) provides third-party oversight and contractual controls that compensates for the absence of Security, Compliance & Resilince Outsourcing Limitations (GOV-19.3) by extending security obligations and monitoring third-party risk in lieu of direct primary control implementation. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CPL-10",
+        "name": "Control Inheritance",
+        "description": "Mechanisms exist to define instances of control inheritance within assessment boundaries.",
+        "justification": "Control Inheritance (CPL-10) provides overlapping security capability that compensates for the absence of Security, Compliance & Resilince Outsourcing Limitations (GOV-19.3) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "GOV-20",
       "risk_if_not_implemented": "Without Mergers, Acquisitions & Divestitures (MA&D), residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
       "compensating_control_1": {
@@ -527,6 +575,22 @@
         "name": "Risk Assessment",
         "description": "Mechanisms exist to conduct recurring assessments of risk that includes the likelihood and magnitude of harm, from unauthorized access, use, disclosure, disruption, modification or destruction of the organization's Technology Assets, Applications, Services and/or Data (TAASD).",
         "justification": "Risk Assessment (RSK-04) provides periodic assessment and assurance that compensates for the absence of Virtual Data Room (VDR) (GOV-20.1) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "GOV-21",
+      "risk_if_not_implemented": "Without HVA / crown jewels protections, residual security, compliance, or resilience risk may accumulate without structured oversight, leading to unmanaged exposures.",
+      "compensating_control_1": {
+        "control_id": "AST-02",
+        "name": "Asset Inventories",
+        "description": "Mechanisms exist to perform inventories of Technology Assets, Applications, Services and/or Data (TAASD) that:\n(1) Accurately reflects the current TAASD in use; \n(2) Identifies authorized software products, including business justification details;\n(3) Is at the level of granularity deemed necessary for tracking and reporting;\n(4) Includes organization-defined information deemed necessary to achieve effective property accountability; and\n(5) Is available for review and audit by designated organizational personnel.",
+        "justification": "Asset Inventories (AST-02) provides asset and inventory visibility that compensates for the absence of Crown Jewels (GOV-21) by providing the foundational asset knowledge needed to manage risks associated with the primary control. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "RSK-05",
+        "name": "Risk Ranking",
+        "description": "Mechanisms exist to identify and assign a risk ranking to newly discovered security vulnerabilities that is based on industry-recognized practices.",
+        "justification": "Risk Ranking (RSK-05) provides risk identification and prioritization that compensates for the absence of Crown Jewels (GOV-21) by enabling informed decisions about where to focus resources to manage residual exposure. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -575,6 +639,22 @@
         "name": "Third-Party Contract Requirements",
         "description": "Mechanisms exist to require contractual requirements for applicable security, compliance and resilience requirements with third-parties, reflecting the organization's needs to protect its Technology Assets, Applications, Services and/or Data (TAASD).",
         "justification": "Third-Party Contract Requirements (TPM-05) provides third-party oversight that compensates for the absence of AI Model & Agent Inventory & Lifecycle Management (AAT-01.4) by extending security obligations contractually and monitoring third-party risk in lieu of direct control. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "AAT-01.5",
+      "risk_if_not_implemented": "Without Artificial Intelligence and Autonomous Technologies (AAT) & AI Agent Categorization, security events may go undetected, allowing threats to persist and increasing breach dwell time.",
+      "compensating_control_1": {
+        "control_id": "AAT-01",
+        "name": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+        "description": "Mechanisms exist to ensure policies, processes, procedures and practices related to the mapping, measuring and managing of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks are in place, transparent and implemented effectively.",
+        "justification": "Artificial Intelligence (AI) & Autonomous Technologies Governance (AAT-01) provides detective monitoring capability that compensates for the absence of Artificial Intelligence and Autonomous Technologies (AAT) & AI Agent Categorization (AAT-01.5) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "RSK-04",
+        "name": "Risk Assessment",
+        "description": "Mechanisms exist to conduct recurring assessments of risk that includes the likelihood and magnitude of harm, from unauthorized access, use, disclosure, disruption, modification or destruction of the organization's Technology Assets, Applications, Services and/or Data (TAASD).",
+        "justification": "Risk Assessment (RSK-04) provides periodic assessment and verification that compensates for the absence of Artificial Intelligence and Autonomous Technologies (AAT) & AI Agent Categorization (AAT-01.5) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -1247,6 +1327,38 @@
         "name": "Third-Party Management",
         "description": "Mechanisms exist to facilitate the implementation of third-party management controls.",
         "justification": "Third-Party Management (TPM-01) provides third-party oversight that compensates for the absence of Digital Content Modification Logging (AAT-12.4) by extending security obligations contractually and monitoring third-party risk in lieu of direct control. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "AAT-12.5",
+      "risk_if_not_implemented": "Without Training Data Source & Integrity, personnel may lack knowledge or skills to recognize and respond to security threats, increasing organizational risk.",
+      "compensating_control_1": {
+        "control_id": "DCH-22",
+        "name": "Data Quality Operations",
+        "description": "Mechanisms exist to check for Redundant, Obsolete/Outdated, Toxic or Trivial (ROTT) data to ensure the accuracy, relevance, timeliness, impact, completeness and de-identification of information throughout the information lifecycle.",
+        "justification": "Data Quality Operations (DCH-22) provides overlapping security capability that compensates for the absence of Training Data Source & Integrity (AAT-12.5) by addressing related risk objectives through an alternative control mechanism. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "AAT-10",
+        "name": "Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV)",
+        "description": "Mechanisms exist to implement Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) practices to enable Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related security, resilience and compliance-related conformity testing throughout the lifecycle of the AAT.",
+        "justification": "Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) (AAT-10) provides periodic assessment and verification that compensates for the absence of Training Data Source & Integrity (AAT-12.5) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "AAT-12.6",
+      "risk_if_not_implemented": "Without Prohibit Training, personnel may lack knowledge or skills to recognize and respond to security threats, increasing organizational risk.",
+      "compensating_control_1": {
+        "control_id": "CPL-01",
+        "name": "Statutory, Regulatory & Contractual Compliance",
+        "description": "Mechanisms exist to facilitate the identification and implementation of relevant statutory, regulatory and contractual controls.",
+        "justification": "Statutory, Regulatory & Contractual Compliance (CPL-01) provides third-party oversight and contractual controls that compensates for the absence of Prohibit Training (AAT-12.6) by extending security obligations and monitoring third-party risk in lieu of direct primary control implementation. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "DCH-14",
+        "name": "Information Sharing",
+        "description": "Mechanisms exist to utilize a process to assist users in making information sharing decisions to ensure data is appropriately protected.",
+        "justification": "Information Sharing (DCH-14) provides threat intelligence and situational awareness that compensates for the absence of Prohibit Training (AAT-12.6) by providing early warning of threats and informing proactive security posture adjustments. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -2610,6 +2722,22 @@
       }
     },
     {
+      "control_id": "AAT-29.24",
+      "risk_if_not_implemented": "Without Resource Limiting, AI and autonomous technology risks may go ungoverned, leading to unintended outcomes, misuse, or data exposure.",
+      "compensating_control_1": {
+        "control_id": "CAP-01",
+        "name": "Capacity & Performance Management",
+        "description": "Mechanisms exist to facilitate the implementation of capacity management controls to ensure optimal system performance to meet expected and anticipated future capacity requirements.",
+        "justification": "Capacity & Performance Management (CAP-01) provides overlapping security capability that compensates for the absence of Resource Limiting (AAT-29.24) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "MON-01",
+        "name": "Continuous Monitoring",
+        "description": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls.",
+        "justification": "Continuous Monitoring (MON-01) provides detective monitoring capability that compensates for the absence of Resource Limiting (AAT-29.24) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "AAT-30",
       "risk_if_not_implemented": "Without Agentic Output Traceability & Repudiation, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
       "compensating_control_1": {
@@ -2703,6 +2831,22 @@
         "name": "Continuous Monitoring",
         "description": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls.",
         "justification": "Continuous Monitoring (MON-01) provides detective monitoring capability that compensates for the absence of Business Process Task Enumeration (AAT-32.1) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "AAT-33",
+      "risk_if_not_implemented": "Without Release Owner Gate (ROG) For AI-Augmented Content, AI and autonomous technology risks may go ungoverned, leading to unintended outcomes, misuse, or data exposure.",
+      "compensating_control_1": {
+        "control_id": "CHG-08",
+        "name": "Dual Approval For High-Impact Environments",
+        "description": "Mechanisms exist to require dual approval for any changes that might result in a serious incident that could adversely impact:\n(1) Business processes; and/or\n(2) Technology Assets, Applications, Services and/or Data (TAASD).",
+        "justification": "Dual Approval For High-Impact Environments (CHG-08) provides overlapping security capability that compensates for the absence of Release Owner Gate (ROG) For AI-Augmented Content (AAT-33) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "GOV-04",
+        "name": "Assigned Security, Compliance & Resilience Responsibilities",
+        "description": "Mechanisms exist to assign one or more qualified individuals with the mission and resources to centrally-manage, coordinate, develop, implement and maintain an enterprise-wide Security, Compliance & Resilience Program (SCRP).",
+        "justification": "Assigned Security, Compliance & Resilience Responsibilities (GOV-04) provides resilience and recovery capability that compensates for the absence of Release Owner Gate (ROG) For AI-Augmented Content (AAT-33) by ensuring the organization can restore operations when the primary control is absent. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -3087,6 +3231,22 @@
         "name": "Media Storage",
         "description": "Mechanisms exist to: \n(1) Physically control and securely store digital and non-digital media within controlled areas using organization-defined security measures; and\n(2) Protect system media until the media are destroyed or sanitized using approved equipment, techniques and procedures.",
         "justification": "Media Storage (DCH-06) provides overlapping security capability that compensates for the absence of Management Approval For External Media Transfer (AST-05.1) by addressing related risk objectives through an alternative control mechanism aligned with Process applicability. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "AST-05.2",
+      "risk_if_not_implemented": "Without Technology Assets, Applications, Services and/or Data (TAASD) Storage, security events may go undetected, allowing threats to persist and increasing breach dwell time.",
+      "compensating_control_1": {
+        "control_id": "PES-03",
+        "name": "Physical Access Control",
+        "description": "Physical access control mechanisms exist to enforce physical access authorizations for all physical access points (including designated entry/exit points) to facilities (excluding those areas within the facility officially designated as publicly accessible).",
+        "justification": "Physical Access Control (PES-03) provides access control enforcement that compensates for the absence of Technology Assets, Applications, Services and/or Data (TAASD) Storage (AST-05.2) by restricting system and data access through alternative identity and access management mechanisms. Given the facility and physical environment focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "PES-06",
+        "name": "Visitor Control",
+        "description": "Physical access control mechanisms exist to identify, authorize and monitor visitors before allowing access to the facility (other than areas designated as publicly accessible).",
+        "justification": "Visitor Control (PES-06) provides physical access control that compensates for the absence of Technology Assets, Applications, Services and/or Data (TAASD) Storage (AST-05.2) by preventing unauthorized physical interaction with systems and infrastructure. Given the facility and physical environment focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -5522,6 +5682,22 @@
       }
     },
     {
+      "control_id": "CPL-03.8",
+      "risk_if_not_implemented": "Without Continuous Control Monitoring (CCM), security events may go undetected, allowing threats to persist and increasing breach dwell time.",
+      "compensating_control_1": {
+        "control_id": "CPL-03",
+        "name": "Control Conformity Monitoring",
+        "description": "Mechanisms exist to validate that Technology Assets, Applications, Services and/or Data (TAASD) conform to the organization's security, compliance and/or resilience policies, standards and other applicable requirements.",
+        "justification": "Control Conformity Monitoring (CPL-03) provides detective monitoring capability that compensates for the absence of Continuous Control Monitoring (CCM) (CPL-03.8) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "MON-01",
+        "name": "Continuous Monitoring",
+        "description": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls.",
+        "justification": "Continuous Monitoring (MON-01) provides detective monitoring capability that compensates for the absence of Continuous Control Monitoring (CCM) (CPL-03.8) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "CPL-04",
       "risk_if_not_implemented": "Without Audit Activities, security events may go undetected, allowing threats to persist unnoticed and increasing breach dwell time.",
       "compensating_control_1": {
@@ -6207,6 +6383,70 @@
         "name": "Access Enforcement",
         "description": "Mechanisms exist to enforce Logical Access Control (LAC) permissions that conform to the principle of \"least privilege.\"",
         "justification": "Access Enforcement (IAC-20) provides access control enforcement that compensates for the absence of Sensitive / Regulated Data Actions (CFG-08.1) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "CFG-09",
+      "risk_if_not_implemented": "Without Production Software Repository, systems or software repositories may operate with insecure settings or untrusted artifacts, expanding the attack surface.",
+      "compensating_control_1": {
+        "control_id": "CHG-02",
+        "name": "Configuration Change Control",
+        "description": "Mechanisms exist to govern the technical configuration change control processes.",
+        "justification": "Configuration Change Control (CHG-02) provides configuration and supply-chain hardening that compensates for the absence of Production Software Repository (CFG-09) by enforcing secure settings and trusted software sources to reduce inherent exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "VPM-05",
+        "name": "Software & Firmware Patching",
+        "description": "Mechanisms exist to conduct software patching for all deployed Technology Assets, Applications and/or Services (TAAS), including firmware.",
+        "justification": "Software & Firmware Patching (VPM-05) provides vulnerability management that compensates for the absence of Production Software Repository (CFG-09) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "CFG-09.1",
+      "risk_if_not_implemented": "Without Third-Party Libraries, third-party risks may go unmanaged, creating supply-chain exposure that compromises organizational systems or data.",
+      "compensating_control_1": {
+        "control_id": "TPM-03",
+        "name": "Supply Chain Risk Management (SCRM)",
+        "description": "Mechanisms exist to:\n(1) Evaluate security risks and threats associated with Technology Assets, Applications and/or Services (TAAS) supply chains; and\n(2) Take appropriate remediation actions to minimize the organization's exposure to those risks and threats, as necessary.",
+        "justification": "Supply Chain Risk Management (SCRM) (TPM-03) provides risk identification and prioritization that compensates for the absence of Third-Party Libraries (CFG-09.1) by enabling informed decisions about where to focus resources to manage residual exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "VPM-06",
+        "name": "Vulnerability Scanning",
+        "description": "Mechanisms exist to detect vulnerabilities and configuration errors by routine vulnerability scanning of systems and applications.",
+        "justification": "Vulnerability Scanning (VPM-06) provides vulnerability management that compensates for the absence of Third-Party Libraries (CFG-09.1) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "CFG-09.2",
+      "risk_if_not_implemented": "Without Software Repository Protections, systems or software repositories may operate with insecure settings or untrusted artifacts, expanding the attack surface.",
+      "compensating_control_1": {
+        "control_id": "CFG-02",
+        "name": "Secure Baseline Configurations",
+        "description": "Mechanisms exist to develop, document and maintain secure baseline configurations for Technology Assets, Applications and/or Services (TAAS) that are consistent with industry-accepted system hardening standards.",
+        "justification": "Secure Baseline Configurations (CFG-02) provides configuration and supply-chain hardening that compensates for the absence of Software Repository Protections (CFG-09.2) by enforcing secure settings and trusted software sources to reduce inherent exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "END-04",
+        "name": "Malicious Code Protection (Anti-Malware)",
+        "description": "Mechanisms exist to utilize antimalware technologies to detect and eradicate malicious code.",
+        "justification": "Malicious Code Protection (Anti-Malware) (END-04) provides overlapping security capability that compensates for the absence of Software Repository Protections (CFG-09.2) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "CFG-09.3",
+      "risk_if_not_implemented": "Without Software Development Repository, systems or software repositories may operate with insecure settings or untrusted artifacts, expanding the attack surface.",
+      "compensating_control_1": {
+        "control_id": "TDA-08",
+        "name": "Separation of Development, Testing and Operational Environments",
+        "description": "Mechanisms exist to manage separate development, testing and operational environments to reduce the risks of unauthorized access or changes to the operational environment and to ensure no impact to production Technology Assets, Applications and/or Services (TAAS).",
+        "justification": "Separation of Development, Testing and Operational Environments (TDA-08) provides periodic assessment and verification that compensates for the absence of Software Development Repository (CFG-09.3) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CHG-04",
+        "name": "Access Restriction For Change",
+        "description": "Mechanisms exist to enforce configuration restrictions in an effort to restrict the ability of users to conduct unauthorized changes.",
+        "justification": "Access Restriction For Change (CHG-04) provides access control enforcement that compensates for the absence of Software Development Repository (CFG-09.3) by restricting system and data access through alternative identity and access management mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -10322,6 +10562,22 @@
       }
     },
     {
+      "control_id": "IAC-01.4",
+      "risk_if_not_implemented": "Without Identity Providers (IdP) & Authorization Servers, unauthorized users may gain access to systems or data, increasing risk of data breaches and privilege escalation.",
+      "compensating_control_1": {
+        "control_id": "IAC-02",
+        "name": "Identification & Authentication for Organizational Users",
+        "description": "Mechanisms exist to uniquely identify and centrally Authenticate, Authorize and Audit (AAA) organizational users and processes acting on behalf of organizational users.",
+        "justification": "Identification & Authentication for Organizational Users (IAC-02) provides access control enforcement that compensates for the absence of Identity Providers (IdP) & Authorization Servers (IAC-01.4) by restricting system and data access through alternative identity and access management mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "IAC-08",
+        "name": "Role-Based Access Control (RBAC)",
+        "description": "Mechanisms exist to enforce Role-Based Access Control (RBAC) for Technology Assets, Applications, Services and/or Data (TAASD) to restrict access to individuals assigned specific roles with legitimate business needs.",
+        "justification": "Role-Based Access Control (RBAC) (IAC-08) provides access control enforcement that compensates for the absence of Identity Providers (IdP) & Authorization Servers (IAC-01.4) by restricting system and data access through alternative identity and access management mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "IAC-02",
       "risk_if_not_implemented": "Without Identification & Authentication for Organizational Users, unauthorized users may gain access to systems or data, increasing risk of data breaches and insider threats.",
       "compensating_control_1": {
@@ -11199,6 +11455,22 @@
         "name": "User Provisioning & De-Provisioning",
         "description": "Mechanisms exist to utilize a formal user registration and de-registration process that governs the assignment of access rights.",
         "justification": "User Provisioning & De-Provisioning (IAC-07) provides access control enforcement that compensates for the absence of Emergency Accounts (IAC-15.9) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "IAC-15.10",
+      "risk_if_not_implemented": "Without Account Separation Between Infrastructure Environments, unauthorized users may gain access to systems or data, increasing risk of data breaches and privilege escalation.",
+      "compensating_control_1": {
+        "control_id": "NET-06",
+        "name": "Network Segmentation (macrosegmentation)",
+        "description": "Mechanisms exist to implement network segmentation within network architectures to isolate Technology Assets, Applications and/or Services (TAAS) from other network resources.",
+        "justification": "Network Segmentation (macrosegmentation) (NET-06) provides network-level access restriction that compensates for the absence of Account Separation Between Infrastructure Environments (IAC-15.10) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "IAC-16",
+        "name": "Privileged Account Management (PAM)",
+        "description": "Mechanisms exist to restrict and control privileged access rights for users and Technology Assets, Applications and/or Services (TAAS).",
+        "justification": "Privileged Account Management (PAM) (IAC-16) provides access control enforcement that compensates for the absence of Account Separation Between Infrastructure Environments (IAC-15.10) by restricting system and data access through alternative identity and access management mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -13714,6 +13986,38 @@
       }
     },
     {
+      "control_id": "NET-06.8",
+      "risk_if_not_implemented": "Without Network Device Plane Segmentation, network defenses may be weakened, enabling lateral movement and exploitation of unprotected communication pathways.",
+      "compensating_control_1": {
+        "control_id": "NET-06",
+        "name": "Network Segmentation (macrosegmentation)",
+        "description": "Mechanisms exist to implement network segmentation within network architectures to isolate Technology Assets, Applications and/or Services (TAAS) from other network resources.",
+        "justification": "Network Segmentation (macrosegmentation) (NET-06) provides network-level access restriction that compensates for the absence of Network Device Plane Segmentation (NET-06.8) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "IAC-21",
+        "name": "Least Privilege",
+        "description": "Mechanisms exist to utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions.",
+        "justification": "Least Privilege (IAC-21) provides access control enforcement that compensates for the absence of Network Device Plane Segmentation (NET-06.8) by restricting system and data access through alternative identity and access management mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "NET-06.9",
+      "risk_if_not_implemented": "Without Separate Subnets To Isolate Functions, network defenses may be weakened, enabling lateral movement and exploitation of unprotected communication pathways.",
+      "compensating_control_1": {
+        "control_id": "NET-06",
+        "name": "Network Segmentation (macrosegmentation)",
+        "description": "Mechanisms exist to implement network segmentation within network architectures to isolate Technology Assets, Applications and/or Services (TAAS) from other network resources.",
+        "justification": "Network Segmentation (macrosegmentation) (NET-06) provides network-level access restriction that compensates for the absence of Separate Subnets To Isolate Functions (NET-06.9) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "NET-04",
+        "name": "Data Flow Enforcement – Access Control Lists (ACLs)",
+        "description": "Mechanisms exist to implement and govern Access Control Lists (ACLs) to provide data flow enforcement that explicitly restrict network traffic to only what is authorized.",
+        "justification": "Data Flow Enforcement – Access Control Lists (ACLs) (NET-04) provides access control enforcement that compensates for the absence of Separate Subnets To Isolate Functions (NET-06.9) by restricting system and data access through alternative identity and access management mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "NET-07",
       "risk_if_not_implemented": "Without Network Connection Termination, network defenses are weakened, enabling lateral movement and exploitation of unprotected pathways.",
       "compensating_control_1": {
@@ -15474,6 +15778,22 @@
       }
     },
     {
+      "control_id": "PRI-01.12",
+      "risk_if_not_implemented": "Without Privacy-Aware Design, personal data may be processed without adequate privacy safeguards, increasing regulatory and reputational risk.",
+      "compensating_control_1": {
+        "control_id": "PRI-01",
+        "name": "Data Privacy Program",
+        "description": "Mechanisms exist to facilitate the implementation and operation of data protection controls throughout the data lifecycle to ensure all forms of Personal Data (PD) are processed lawfully, fairly and transparently.",
+        "justification": "Data Privacy Program (PRI-01) provides policy-level governance that compensates for the absence of Privacy-Aware Design (PRI-01.12) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "SEA-01",
+        "name": "Secure Engineering Principles",
+        "description": "Mechanisms exist to facilitate the implementation of industry-recognized security, compliance and resilience practices in the specification, design, development, implementation and modification of Technology Assets, Applications and/or Services (TAAS).",
+        "justification": "Secure Engineering Principles (SEA-01) provides secure engineering and architectural guidance that compensates for the absence of Privacy-Aware Design (PRI-01.12) by embedding security requirements into design processes as an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "PRI-02",
       "risk_if_not_implemented": "Without Data Privacy Notice, personal data may be processed without appropriate safeguards, increasing regulatory and reputational risk.",
       "compensating_control_1": {
@@ -17026,6 +17346,550 @@
       }
     },
     {
+      "control_id": "QTS-01",
+      "risk_if_not_implemented": "Without Quantum Risk Governance, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "RSK-01",
+        "name": "Risk Management Program",
+        "description": "Mechanisms exist to facilitate the implementation of strategic, operational and tactical risk management controls that are aligned with:\n(1) The organization's Enterprise Risk Management (ERM); and\n(2) Industry-recognized cybersecurity risk management practices.",
+        "justification": "Risk Management Program (RSK-01) provides policy-level governance that compensates for the absence of Quantum Risk Governance (QTS-01) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "GOV-01",
+        "name": "Security, Compliance & Resilience Program (SCRP)",
+        "description": "Mechanisms exist to facilitate the implementation of security, compliance and resilience governance controls.",
+        "justification": "Security, Compliance & Resilience Program (SCRP) (GOV-01) provides resilience and recovery capability that compensates for the absence of Quantum Risk Governance (QTS-01) by ensuring the organization can restore operations when the primary control is absent. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-01.1",
+      "risk_if_not_implemented": "Without Quantum Security Policy, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "GOV-01",
+        "name": "Security, Compliance & Resilience Program (SCRP)",
+        "description": "Mechanisms exist to facilitate the implementation of security, compliance and resilience governance controls.",
+        "justification": "Publishing Security, Compliance & Resilience Documentation (GOV-02) provides resilience and recovery capability that compensates for the absence of Quantum Security Policy (QTS-01.1) by ensuring the organization can restore operations when the primary control is absent. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-01",
+        "name": "Use of Cryptographic Controls",
+        "description": "Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies.",
+        "justification": "Use of Cryptographic Controls (CRY-01) provides cryptographic protection and key governance that compensates for the absence of Quantum Security Policy (QTS-01.1) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-01.2",
+      "risk_if_not_implemented": "Without Data Shelf-Life Classification for Post-Quantum Cryptography (PQC) Prioritization, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "DCH-02",
+        "name": "Data & Asset Classification",
+        "description": "Mechanisms exist to ensure data and assets are categorized in accordance with applicable statutory, regulatory and contractual requirements.",
+        "justification": "Data & Asset Classification (DCH-02) provides asset and inventory visibility that compensates for the absence of Data Shelf-Life Classification for Post-Quantum Cryptography (PQC) Prioritization (QTS-01.2) by providing the foundational asset knowledge needed to manage risks associated with the primary control. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "RSK-05",
+        "name": "Risk Ranking",
+        "description": "Mechanisms exist to identify and assign a risk ranking to newly discovered security vulnerabilities that is based on industry-recognized practices.",
+        "justification": "Risk Ranking (RSK-05) provides risk identification and prioritization that compensates for the absence of Data Shelf-Life Classification for Post-Quantum Cryptography (PQC) Prioritization (QTS-01.2) by enabling informed decisions about where to focus resources to manage residual exposure. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-01.3",
+      "risk_if_not_implemented": "Without Long-Lived Data Identification, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+      "compensating_control_1": {
+        "control_id": "DCH-02",
+        "name": "Data & Asset Classification",
+        "description": "Mechanisms exist to ensure data and assets are categorized in accordance with applicable statutory, regulatory and contractual requirements.",
+        "justification": "Data & Asset Classification (DCH-02) provides asset and inventory visibility that compensates for the absence of Long-Lived Data Identification (QTS-01.3) by providing the foundational asset knowledge needed to manage risks associated with the primary control. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "DCH-18",
+        "name": "Media & Data Retention",
+        "description": "Mechanisms exist to retain media and data in accordance with applicable statutory, regulatory and contractual obligations.",
+        "justification": "Media & Data Retention (DCH-18) provides overlapping security capability that compensates for the absence of Long-Lived Data Identification (QTS-01.3) by addressing related risk objectives through an alternative control mechanism. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-01.4",
+      "risk_if_not_implemented": "Without Harvest Now, Decrypt Later (HNDL) Mitigation, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+      "compensating_control_1": {
+        "control_id": "CRY-03",
+        "name": "Transmission Confidentiality",
+        "description": "Cryptographic mechanisms exist to protect the confidentiality of data being transmitted.",
+        "justification": "Transmission Confidentiality (CRY-03) provides overlapping security capability that compensates for the absence of Harvest Now, Decrypt Later (HNDL) Mitigation (QTS-01.4) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "NET-03",
+        "name": "Boundary Protection",
+        "description": "Mechanisms exist to monitor and control communications at the external network boundary and at key internal boundaries within the network.",
+        "justification": "Boundary Protection (NET-03) provides network-level access restriction that compensates for the absence of Harvest Now, Decrypt Later (HNDL) Mitigation (QTS-01.4) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-02",
+      "risk_if_not_implemented": "Without Cryptographic Agility Risk Assessment (CARA), cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "RSK-04",
+        "name": "Risk Assessment",
+        "description": "Mechanisms exist to conduct recurring assessments of risk that includes the likelihood and magnitude of harm, from unauthorized access, use, disclosure, disruption, modification or destruction of the organization's Technology Assets, Applications, Services and/or Data (TAASD).",
+        "justification": "Risk Assessment (RSK-04) provides periodic assessment and verification that compensates for the absence of Cryptographic Agility Risk Assessment (CARA) (QTS-02) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-01",
+        "name": "Use of Cryptographic Controls",
+        "description": "Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies.",
+        "justification": "Use of Cryptographic Controls (CRY-01) provides cryptographic protection and key governance that compensates for the absence of Cryptographic Agility Risk Assessment (CARA) (QTS-02) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-02.1",
+      "risk_if_not_implemented": "Without Cryptographic Exception Register, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CPL-12",
+        "name": "Statement of Applicability (SOA)",
+        "description": "Mechanisms exist to produce a Statement of Applicability (SOA), or similar document, for compliance-related scoping activities.",
+        "justification": "Statement of Applicability (SOA) (CPL-12) provides overlapping security capability that compensates for the absence of Cryptographic Exception Register (QTS-02.1) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "RSK-06",
+        "name": "Risk Remediation",
+        "description": "Mechanisms exist to remediate risks to an acceptable level.",
+        "justification": "Risk Remediation (RSK-06) provides vulnerability management that compensates for the absence of Cryptographic Exception Register (QTS-02.1) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-02.2",
+      "risk_if_not_implemented": "Without Compensating Controls for Quantum-Vulnerable Systems, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "NET-06",
+        "name": "Network Segmentation (macrosegmentation)",
+        "description": "Mechanisms exist to implement network segmentation within network architectures to isolate Technology Assets, Applications and/or Services (TAAS) from other network resources.",
+        "justification": "Network Segmentation (macrosegmentation) (NET-06) provides network-level access restriction that compensates for the absence of Compensating Controls for Quantum-Vulnerable Systems (QTS-02.2) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "IAC-21",
+        "name": "Least Privilege",
+        "description": "Mechanisms exist to utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions.",
+        "justification": "Least Privilege (IAC-21) provides access control enforcement that compensates for the absence of Compensating Controls for Quantum-Vulnerable Systems (QTS-02.2) by restricting system and data access through alternative identity and access management mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-02.3",
+      "risk_if_not_implemented": "Without Crypto Agility Maturity Assessment, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+      "compensating_control_1": {
+        "control_id": "CPL-03",
+        "name": "Control Conformity Monitoring",
+        "description": "Mechanisms exist to validate that Technology Assets, Applications, Services and/or Data (TAASD) conform to the organization's security, compliance and/or resilience policies, standards and other applicable requirements.",
+        "justification": "Control Conformity Monitoring (CPL-03) provides detective monitoring capability that compensates for the absence of Crypto Agility Maturity Assessment (QTS-02.3) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "IAO-02",
+        "name": "Assessments",
+        "description": "Mechanisms exist to formally assess the security, compliance and resilience controls in Technology Assets, Applications and/or Services (TAAS) through Information Assurance Program (IAP) activities to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting expected requirements.",
+        "justification": "Assessments (IAO-02) provides periodic assessment and verification that compensates for the absence of Crypto Agility Maturity Assessment (QTS-02.3) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-03",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography Agility Plan (PSCAP), cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "RSK-01",
+        "name": "Risk Management Program",
+        "description": "Mechanisms exist to facilitate the implementation of strategic, operational and tactical risk management controls that are aligned with:\n(1) The organization's Enterprise Risk Management (ERM); and\n(2) Industry-recognized cybersecurity risk management practices.",
+        "justification": "Risk Management Program (RSK-01) provides policy-level governance that compensates for the absence of Post-Quantum Cryptography Agility Plan (PSCAP) (QTS-03) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-09",
+        "name": "Cryptographic Key Management",
+        "description": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
+        "justification": "Cryptographic Key Management (CRY-09) provides cryptographic protection and key governance that compensates for the absence of Post-Quantum Cryptography Agility Plan (PSCAP) (QTS-03) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-03.1",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography (PQC) Transition Planning & Hybrid Mode Support, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CRY-08",
+        "name": "Public Key Infrastructure (PKI)",
+        "description": "Mechanisms exist to securely implement an internal Public Key Infrastructure (PKI) infrastructure or obtain PKI services from a reputable PKI service provider.",
+        "justification": "Public Key Infrastructure (PKI) (CRY-08) provides cryptographic protection and key governance that compensates for the absence of Post-Quantum Cryptography (PQC) Transition Planning & Hybrid Mode Support (QTS-03.1) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CHG-01",
+        "name": "Change Management Program",
+        "description": "Mechanisms exist to facilitate the implementation of a change management program.",
+        "justification": "Change Management Program (CHG-01) provides policy-level governance that compensates for the absence of Post-Quantum Cryptography (PQC) Transition Planning & Hybrid Mode Support (QTS-03.1) by establishing documented expectations, accountability structures, and organizational guardrails. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-03.2",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography (PQC) Migration Progress Oversight, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "GOV-05",
+        "name": "Measures of Performance",
+        "description": "Mechanisms exist to develop, report and monitor Security, Compliance & Resilience Program (SCRP) measures of performance.",
+        "justification": "Measures of Performance (GOV-05) provides overlapping security capability that compensates for the absence of Post-Quantum Cryptography (PQC) Migration Progress Oversight (QTS-03.2) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "RSK-11",
+        "name": "Risk Monitoring",
+        "description": "Mechanisms exist to ensure risk monitoring as an integral part of the continuous monitoring strategy that includes monitoring the effectiveness of security, compliance and resilience controls, compliance and change management.",
+        "justification": "Risk Monitoring (RSK-11) provides detective monitoring capability that compensates for the absence of Post-Quantum Cryptography (PQC) Migration Progress Oversight (QTS-03.2) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-03.3",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography (PQC) Supply Chain Visibility, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "TPM-08",
+        "name": "Review of Third-Party Services",
+        "description": "Mechanisms exist to monitor, regularly review and assess External Service Providers (ESPs) for compliance with established contractual requirements for security, compliance and resilience controls.",
+        "justification": "Review of Third-Party Services (TPM-08) provides periodic assessment and verification that compensates for the absence of Post-Quantum Cryptography (PQC) Supply Chain Visibility (QTS-03.3) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "TPM-05",
+        "name": "Third-Party Contract Requirements",
+        "description": "Mechanisms exist to require contractual requirements for applicable security, compliance and resilience requirements with third-parties, reflecting the organization's needs to protect its Technology Assets, Applications, Services and/or Data (TAASD).",
+        "justification": "Third-Party Contract Requirements (TPM-05) provides third-party oversight and contractual controls that compensates for the absence of Post-Quantum Cryptography (PQC) Supply Chain Visibility (QTS-03.3) by extending security obligations and monitoring third-party risk in lieu of direct primary control implementation. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-03.4",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography (PQC) Supply Chain Flow-Down Requirements, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "TPM-03",
+        "name": "Supply Chain Risk Management (SCRM)",
+        "description": "Mechanisms exist to:\n(1) Evaluate security risks and threats associated with Technology Assets, Applications and/or Services (TAAS) supply chains; and\n(2) Take appropriate remediation actions to minimize the organization's exposure to those risks and threats, as necessary.",
+        "justification": "Supply Chain Risk Management (SCRM) (TPM-03) provides risk identification and prioritization that compensates for the absence of Post-Quantum Cryptography (PQC) Supply Chain Flow-Down Requirements (QTS-03.4) by enabling informed decisions about where to focus resources to manage residual exposure. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "TPM-05",
+        "name": "Third-Party Contract Requirements",
+        "description": "Mechanisms exist to require contractual requirements for applicable security, compliance and resilience requirements with third-parties, reflecting the organization's needs to protect its Technology Assets, Applications, Services and/or Data (TAASD).",
+        "justification": "Third-Party Contract Requirements (TPM-05) provides third-party oversight and contractual controls that compensates for the absence of Post-Quantum Cryptography (PQC) Supply Chain Flow-Down Requirements (QTS-03.4) by extending security obligations and monitoring third-party risk in lieu of direct primary control implementation. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-04",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography (PQC) Discovery & Visibility, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "AST-02",
+        "name": "Asset Inventories",
+        "description": "Mechanisms exist to perform inventories of Technology Assets, Applications, Services and/or Data (TAASD) that:\n(1) Accurately reflects the current TAASD in use; \n(2) Identifies authorized software products, including business justification details;\n(3) Is at the level of granularity deemed necessary for tracking and reporting;\n(4) Includes organization-defined information deemed necessary to achieve effective property accountability; and\n(5) Is available for review and audit by designated organizational personnel.",
+        "justification": "Asset Inventories (AST-02) provides asset and inventory visibility that compensates for the absence of Post-Quantum Cryptography (PQC) Discovery & Visibility (QTS-04) by providing the foundational asset knowledge needed to manage risks associated with the primary control. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "VPM-06",
+        "name": "Vulnerability Scanning",
+        "description": "Mechanisms exist to detect vulnerabilities and configuration errors by routine vulnerability scanning of systems and applications.",
+        "justification": "Vulnerability Scanning (VPM-06) provides vulnerability management that compensates for the absence of Post-Quantum Cryptography (PQC) Discovery & Visibility (QTS-04) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-04.1",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography (PQC) Asset Inventory, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "AST-02",
+        "name": "Asset Inventories",
+        "description": "Mechanisms exist to perform inventories of Technology Assets, Applications, Services and/or Data (TAASD) that:\n(1) Accurately reflects the current TAASD in use; \n(2) Identifies authorized software products, including business justification details;\n(3) Is at the level of granularity deemed necessary for tracking and reporting;\n(4) Includes organization-defined information deemed necessary to achieve effective property accountability; and\n(5) Is available for review and audit by designated organizational personnel.",
+        "justification": "Asset Inventories (AST-02) provides asset and inventory visibility that compensates for the absence of Post-Quantum Cryptography (PQC) Asset Inventory (QTS-04.1) by providing the foundational asset knowledge needed to manage risks associated with the primary control. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-09",
+        "name": "Cryptographic Key Management",
+        "description": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
+        "justification": "Cryptographic Key Management (CRY-09) provides cryptographic protection and key governance that compensates for the absence of Post-Quantum Cryptography (PQC) Asset Inventory (QTS-04.1) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-04.2",
+      "risk_if_not_implemented": "Without Cryptographic Bill of Materials (CBOM), cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "AST-02",
+        "name": "Asset Inventories",
+        "description": "Mechanisms exist to perform inventories of Technology Assets, Applications, Services and/or Data (TAASD) that:\n(1) Accurately reflects the current TAASD in use; \n(2) Identifies authorized software products, including business justification details;\n(3) Is at the level of granularity deemed necessary for tracking and reporting;\n(4) Includes organization-defined information deemed necessary to achieve effective property accountability; and\n(5) Is available for review and audit by designated organizational personnel.",
+        "justification": "Asset Inventories (AST-02) provides asset and inventory visibility that compensates for the absence of Cryptographic Bill of Materials (CBOM) (QTS-04.2) by providing the foundational asset knowledge needed to manage risks associated with the primary control. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CFG-01",
+        "name": "Configuration Management Program",
+        "description": "Mechanisms exist to facilitate the implementation of configuration management controls.",
+        "justification": "Configuration Management Program (CFG-01) provides policy-level governance that compensates for the absence of Cryptographic Bill of Materials (CBOM) (QTS-04.2) by establishing documented expectations, accountability structures, and organizational guardrails. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-04.3",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography Exposure, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "VPM-03",
+        "name": "Vulnerability Ranking",
+        "description": "Mechanisms exist to identify and assign a risk ranking to newly discovered security vulnerabilities using reputable outside sources for security vulnerability information.",
+        "justification": "Vulnerability Ranking (VPM-03) provides vulnerability management that compensates for the absence of Post-Quantum Cryptography Exposure (QTS-04.3) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "RSK-02",
+        "name": "Risk-Based Security Categorization",
+        "description": "Mechanisms exist to categorize Technology Assets, Applications, Services and/or Data (TAASD) in accordance with applicable laws, regulations and contractual obligations that:\n(1) Document the security categorization results (including supporting rationale) in the security plan for systems; and\n(2) Ensure the security categorization decision is reviewed and approved by the asset owner.",
+        "justification": "Risk-Based Security Categorization (RSK-02) provides risk identification and prioritization that compensates for the absence of Post-Quantum Cryptography Exposure (QTS-04.3) by enabling informed decisions about where to focus resources to manage residual exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-05",
+      "risk_if_not_implemented": "Without Quantum Security Awareness, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "SAT-02",
+        "name": "Security, Compliance & Resilience Awareness Training",
+        "description": "Mechanisms exist to provide all employees and contractors appropriate security, compliance and resilience awareness education and training that is relevant for their job function.",
+        "justification": "Security, Compliance & Resilience Awareness Training (SAT-02) provides personnel training and awareness that compensates for the absence of Quantum Security Awareness (QTS-05) by equipping personnel with the knowledge and skills needed to recognize and respond to relevant threats. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "SAT-03",
+        "name": "Role-Based Security, Compliance & Resilience Training",
+        "description": "Mechanisms exist to provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter.",
+        "justification": "Role-Based Security, Compliance & Resilience Training (SAT-03) provides personnel training and awareness that compensates for the absence of Quantum Security Awareness (QTS-05) by equipping personnel with the knowledge and skills needed to recognize and respond to relevant threats. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-05.1",
+      "risk_if_not_implemented": "Without Quantum Threat Intelligence Monitoring, security events may go undetected, allowing threats to persist and increasing breach dwell time.",
+      "compensating_control_1": {
+        "control_id": "THR-01",
+        "name": "Threat Intelligence Program",
+        "description": "Mechanisms exist to implement a threat intelligence program that includes a cross-organization information-sharing capability that can influence the development of the system and security architectures, selection of security solutions, monitoring, threat hunting, response and recovery activities.",
+        "justification": "Threat Intelligence Program (THR-01) provides policy-level governance that compensates for the absence of Quantum Threat Intelligence Monitoring (QTS-05.1) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "THR-03",
+        "name": "Threat Intelligence Feeds",
+        "description": "Mechanisms exist to maintain situational awareness of vulnerabilities and evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls.",
+        "justification": "Threat Intelligence Feeds (THR-03) provides threat intelligence and situational awareness that compensates for the absence of Quantum Threat Intelligence Monitoring (QTS-05.1) by providing early warning of threats and informing proactive security posture adjustments. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-05.2",
+      "risk_if_not_implemented": "Without Collaboration & Information Sharing, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+      "compensating_control_1": {
+        "control_id": "GOV-07",
+        "name": "Contacts With Groups & Associations",
+        "description": "Mechanisms exist to establish contact with selected groups and associations within the security, compliance and resilience communities to: \n(1) Facilitate ongoing cybersecurity and data protection education and training for organizational personnel;\n(2) Maintain currency with recommended cybersecurity and data protection practices, techniques and technologies; and\n(3) Share current cybersecurity and/or data protection-related information including threats, vulnerabilities and incidents.",
+        "justification": "Contacts With Groups & Associations (GOV-07) provides overlapping security capability that compensates for the absence of Collaboration & Information Sharing (QTS-05.2) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "THR-01",
+        "name": "Threat Intelligence Program",
+        "description": "Mechanisms exist to implement a threat intelligence program that includes a cross-organization information-sharing capability that can influence the development of the system and security architectures, selection of security solutions, monitoring, threat hunting, response and recovery activities.",
+        "justification": "Threat Intelligence Program (THR-01) provides policy-level governance that compensates for the absence of Collaboration & Information Sharing (QTS-05.2) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06",
+      "risk_if_not_implemented": "Without Crypto-Agility Architecture, security design weaknesses may be built into systems, increasing long-term vulnerability and the cost of remediation.",
+      "compensating_control_1": {
+        "control_id": "SEA-01",
+        "name": "Secure Engineering Principles",
+        "description": "Mechanisms exist to facilitate the implementation of industry-recognized security, compliance and resilience practices in the specification, design, development, implementation and modification of Technology Assets, Applications and/or Services (TAAS).",
+        "justification": "Secure Engineering Principles (SEA-01) provides secure engineering and architectural guidance that compensates for the absence of Crypto-Agility Architecture (QTS-06) by embedding security requirements into design processes as an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-09",
+        "name": "Cryptographic Key Management",
+        "description": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
+        "justification": "Cryptographic Key Management (CRY-09) provides cryptographic protection and key governance that compensates for the absence of Crypto-Agility Architecture (QTS-06) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.1",
+      "risk_if_not_implemented": "Without Entropy Source & Random Bit Generation, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CRY-09",
+        "name": "Cryptographic Key Management",
+        "description": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
+        "justification": "Cryptographic Key Management (CRY-09) provides cryptographic protection and key governance that compensates for the absence of Entropy Source & Random Bit Generation (QTS-06.1) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CFG-02",
+        "name": "Secure Baseline Configurations",
+        "description": "Mechanisms exist to develop, document and maintain secure baseline configurations for Technology Assets, Applications and/or Services (TAAS) that are consistent with industry-accepted system hardening standards.",
+        "justification": "Secure Baseline Configurations (CFG-02) provides configuration and supply-chain hardening that compensates for the absence of Entropy Source & Random Bit Generation (QTS-06.1) by enforcing secure settings and trusted software sources to reduce inherent exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.2",
+      "risk_if_not_implemented": "Without Stateful Hash-Based Signatures for Firmware & Code Signing, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+      "compensating_control_1": {
+        "control_id": "CRY-08",
+        "name": "Public Key Infrastructure (PKI)",
+        "description": "Mechanisms exist to securely implement an internal Public Key Infrastructure (PKI) infrastructure or obtain PKI services from a reputable PKI service provider.",
+        "justification": "Public Key Infrastructure (PKI) (CRY-08) provides cryptographic protection and key governance that compensates for the absence of Stateful Hash-Based Signatures for Firmware & Code Signing (QTS-06.2) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CFG-06",
+        "name": "Configuration Enforcement",
+        "description": "Automated mechanisms exist to monitor, enforce and report on configurations for endpoint devices.",
+        "justification": "Configuration Enforcement (CFG-06) provides configuration and supply-chain hardening that compensates for the absence of Stateful Hash-Based Signatures for Firmware & Code Signing (QTS-06.2) by enforcing secure settings and trusted software sources to reduce inherent exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.3",
+      "risk_if_not_implemented": "Without Approved Post-Quantum Cryptography (PQC) Algorithm Use, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CRY-01",
+        "name": "Use of Cryptographic Controls",
+        "description": "Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies.",
+        "justification": "Use of Cryptographic Controls (CRY-01) provides cryptographic protection and key governance that compensates for the absence of Approved Post-Quantum Cryptography (PQC) Algorithm Use (QTS-06.3) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CFG-02",
+        "name": "Secure Baseline Configurations",
+        "description": "Mechanisms exist to develop, document and maintain secure baseline configurations for Technology Assets, Applications and/or Services (TAAS) that are consistent with industry-accepted system hardening standards.",
+        "justification": "Secure Baseline Configurations (CFG-02) provides configuration and supply-chain hardening that compensates for the absence of Approved Post-Quantum Cryptography (PQC) Algorithm Use (QTS-06.3) by enforcing secure settings and trusted software sources to reduce inherent exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.4",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography (PQC) Validation Requirements, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CRY-01",
+        "name": "Use of Cryptographic Controls",
+        "description": "Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies.",
+        "justification": "Use of Cryptographic Controls (CRY-01) provides cryptographic protection and key governance that compensates for the absence of Post-Quantum Cryptography (PQC) Validation Requirements (QTS-06.4) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "IAO-06",
+        "name": "Technical Verification",
+        "description": "Mechanisms exist to perform Information Assurance Program (IAP) activities to evaluate the design, implementation and effectiveness of technical security, compliance and resilience controls.",
+        "justification": "Technical Verification (IAO-06) provides periodic assessment and verification that compensates for the absence of Post-Quantum Cryptography (PQC) Validation Requirements (QTS-06.4) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.5",
+      "risk_if_not_implemented": "Without Deprecated Cryptographic Algorithms, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CRY-01",
+        "name": "Use of Cryptographic Controls",
+        "description": "Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies.",
+        "justification": "Use of Cryptographic Controls (CRY-01) provides cryptographic protection and key governance that compensates for the absence of Deprecated Cryptographic Algorithms (QTS-06.5) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "VPM-06",
+        "name": "Vulnerability Scanning",
+        "description": "Mechanisms exist to detect vulnerabilities and configuration errors by routine vulnerability scanning of systems and applications.",
+        "justification": "Vulnerability Scanning (VPM-06) provides vulnerability management that compensates for the absence of Deprecated Cryptographic Algorithms (QTS-06.5) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.6",
+      "risk_if_not_implemented": "Without Post-Quantum Cryptography (PQC) Key Management, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CRY-09",
+        "name": "Cryptographic Key Management",
+        "description": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
+        "justification": "Cryptographic Key Management (CRY-09) provides cryptographic protection and key governance that compensates for the absence of Post-Quantum Cryptography (PQC) Key Management (QTS-06.6) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-12",
+        "name": "Certificate Monitoring",
+        "description": "Automated mechanisms exist to discover when new certificates are issued for organization-controlled domains.",
+        "justification": "Certificate Monitoring (CRY-12) provides detective monitoring capability that compensates for the absence of Post-Quantum Cryptography (PQC) Key Management (QTS-06.6) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.7",
+      "risk_if_not_implemented": "Without Quantum-Safe Public Key Infrastructure (PKI) Transition, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CRY-08",
+        "name": "Public Key Infrastructure (PKI)",
+        "description": "Mechanisms exist to securely implement an internal Public Key Infrastructure (PKI) infrastructure or obtain PKI services from a reputable PKI service provider.",
+        "justification": "Public Key Infrastructure (PKI) (CRY-08) provides cryptographic protection and key governance that compensates for the absence of Quantum-Safe Public Key Infrastructure (PKI) Transition (QTS-06.7) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-09",
+        "name": "Cryptographic Key Management",
+        "description": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
+        "justification": "Cryptographic Key Management (CRY-09) provides cryptographic protection and key governance that compensates for the absence of Quantum-Safe Public Key Infrastructure (PKI) Transition (QTS-06.7) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.8",
+      "risk_if_not_implemented": "Without Algorithm Negotiation Integrity, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "NET-09",
+        "name": "Session Integrity",
+        "description": "Mechanisms exist to protect the authenticity and integrity of communications sessions.",
+        "justification": "Session Integrity (NET-09) provides overlapping security capability that compensates for the absence of Algorithm Negotiation Integrity (QTS-06.8) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-03",
+        "name": "Transmission Confidentiality",
+        "description": "Cryptographic mechanisms exist to protect the confidentiality of data being transmitted.",
+        "justification": "Transmission Confidentiality (CRY-03) provides overlapping security capability that compensates for the absence of Algorithm Negotiation Integrity (QTS-06.8) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.9",
+      "risk_if_not_implemented": "Without Hybrid / Composite Cryptography, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "CRY-01",
+        "name": "Use of Cryptographic Controls",
+        "description": "Mechanisms exist to facilitate the implementation of cryptographic protections controls using known public standards and trusted cryptographic technologies.",
+        "justification": "Use of Cryptographic Controls (CRY-01) provides cryptographic protection and key governance that compensates for the absence of Hybrid / Composite Cryptography (QTS-06.9) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CRY-09",
+        "name": "Cryptographic Key Management",
+        "description": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
+        "justification": "Cryptographic Key Management (CRY-09) provides cryptographic protection and key governance that compensates for the absence of Hybrid / Composite Cryptography (QTS-06.9) by ensuring data confidentiality and integrity through alternative or complementary cryptographic mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-06.10",
+      "risk_if_not_implemented": "Without Cryptographic Application Programming Interface (API) Abstraction, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "SEA-01",
+        "name": "Secure Engineering Principles",
+        "description": "Mechanisms exist to facilitate the implementation of industry-recognized security, compliance and resilience practices in the specification, design, development, implementation and modification of Technology Assets, Applications and/or Services (TAAS).",
+        "justification": "Secure Engineering Principles (SEA-01) provides secure engineering and architectural guidance that compensates for the absence of Cryptographic Application Programming Interface (API) Abstraction (QTS-06.10) by embedding security requirements into design processes as an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "TDA-06",
+        "name": "Secure Software Development Practices (SSDP)",
+        "description": "Mechanisms exist to develop applications based on Secure Software Development Practices (SSDP).",
+        "justification": "Secure Software Development Practices (SSDP) (TDA-06) provides overlapping security capability that compensates for the absence of Cryptographic Application Programming Interface (API) Abstraction (QTS-06.10) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-07",
+      "risk_if_not_implemented": "Without Cryptographic Incident Response (Emergency Algorithm Transition), cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "IRO-04",
+        "name": "Incident Response Plan (IRP)",
+        "description": "Mechanisms exist to maintain and make available a current and viable Incident Response Plan (IRP) to all stakeholders.",
+        "justification": "Incident Response Plan (IRP) (IRO-04) provides incident response capability that compensates for the absence of Cryptographic Incident Response (Emergency Algorithm Transition) (QTS-07) by enabling timely detection, containment, and recovery from security events. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "BCD-07",
+        "name": "Alternative Security Measures",
+        "description": "Mechanisms exist to implement alternative or compensating controls to satisfy security functions when the primary means of implementing the security function is unavailable or compromised.",
+        "justification": "Alternative Security Measures (BCD-07) provides overlapping security capability that compensates for the absence of Cryptographic Incident Response (Emergency Algorithm Transition) (QTS-07) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "QTS-08",
+      "risk_if_not_implemented": "Without PQC Implementation Validation & Interoperability Testing, cryptographic protections may be inadequate or quantum-vulnerable, risking future decryption of currently protected data.",
+      "compensating_control_1": {
+        "control_id": "TDA-09",
+        "name": "Security, Compliance & Resilience Testing Throughout Development",
+        "description": "Mechanisms exist to require system developers/integrators consult with security, compliance and/or resilience personnel to: \n(1) Create and implement a Security Testing and Evaluation (ST&E) plan, or similar capability;\n(2) Implement a verifiable flaw remediation process to correct weaknesses and deficiencies identified during the control testing and evaluation process; and\n(3) Document the results.",
+        "justification": "Security, Compliance & Resilience Testing Throughout Development (TDA-09) provides periodic assessment and verification that compensates for the absence of PQC Implementation Validation & Interoperability Testing (QTS-08) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "IAO-06",
+        "name": "Technical Verification",
+        "description": "Mechanisms exist to perform Information Assurance Program (IAP) activities to evaluate the design, implementation and effectiveness of technical security, compliance and resilience controls.",
+        "justification": "Technical Verification (IAO-06) provides periodic assessment and verification that compensates for the absence of PQC Implementation Validation & Interoperability Testing (QTS-08) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "RSK-01.1",
       "risk_if_not_implemented": "Without Risk Framing, security risks may go unmanaged, resulting in uncontrolled exposures and misaligned security investments.",
       "compensating_control_1": {
@@ -17167,6 +18031,22 @@
         "name": "Threat Intelligence Program",
         "description": "Mechanisms exist to implement a threat intelligence program that includes a cross-organization information-sharing capability that can influence the development of the system and security architectures, selection of security solutions, monitoring, threat hunting, response and recovery activities.",
         "justification": "Threat Intelligence Program (THR-01) provides policy-level governance that compensates for the absence of Risk Catalog (RSK-03.1) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "RSK-03.2",
+      "risk_if_not_implemented": "Without Risk Owner, residual security, compliance, or resilience risk may accumulate without structured oversight, leading to unmanaged exposures.",
+      "compensating_control_1": {
+        "control_id": "GOV-04",
+        "name": "Assigned Security, Compliance & Resilience Responsibilities",
+        "description": "Mechanisms exist to assign one or more qualified individuals with the mission and resources to centrally-manage, coordinate, develop, implement and maintain an enterprise-wide Security, Compliance & Resilience Program (SCRP).",
+        "justification": "Assigned Security, Compliance & Resilience Responsibilities (GOV-04) provides resilience and recovery capability that compensates for the absence of Risk Owner (RSK-03.2) by ensuring the organization can restore operations when the primary control is absent. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "RSK-06",
+        "name": "Risk Remediation",
+        "description": "Mechanisms exist to remediate risks to an acceptable level.",
+        "justification": "Risk Remediation (RSK-06) provides vulnerability management that compensates for the absence of Risk Owner (RSK-03.2) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -17506,6 +18386,38 @@
       }
     },
     {
+      "control_id": "SEA-01.4",
+      "risk_if_not_implemented": "Without Secure Architecture Principles, security design weaknesses may be built into systems, increasing long-term vulnerability and the cost of remediation.",
+      "compensating_control_1": {
+        "control_id": "SEA-01",
+        "name": "Secure Engineering Principles",
+        "description": "Mechanisms exist to facilitate the implementation of industry-recognized security, compliance and resilience practices in the specification, design, development, implementation and modification of Technology Assets, Applications and/or Services (TAAS).",
+        "justification": "Secure Engineering Principles (SEA-01) provides secure engineering and architectural guidance that compensates for the absence of Secure Architecture Principles (SEA-01.4) by embedding security requirements into design processes as an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "TDA-05",
+        "name": "Developer Architecture & Design",
+        "description": "Mechanisms exist to require the developers of Technology Assets, Applications and/or Services (TAAS) to produce a design specification and security architecture that: \n(1) Is consistent with and supportive of the organization's security architecture which is established within and is an integrated part of the organization's enterprise architecture;\n(2) Accurately and completely describes the required security functionality and the allocation of security, compliance and resilience controls among physical and logical components; and\n(3) Expresses how individual security functions, mechanisms and services work together to provide required security capabilities and a unified approach to protection.",
+        "justification": "Developer Architecture & Design (TDA-05) provides secure engineering and architectural guidance that compensates for the absence of Secure Architecture Principles (SEA-01.4) by embedding security requirements into design processes as an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "SEA-01.5",
+      "risk_if_not_implemented": "Without Security-Aware Design, security design weaknesses may be built into systems, increasing long-term vulnerability and the cost of remediation.",
+      "compensating_control_1": {
+        "control_id": "SEA-01",
+        "name": "Secure Engineering Principles",
+        "description": "Mechanisms exist to facilitate the implementation of industry-recognized security, compliance and resilience practices in the specification, design, development, implementation and modification of Technology Assets, Applications and/or Services (TAAS).",
+        "justification": "Secure Engineering Principles (SEA-01) provides secure engineering and architectural guidance that compensates for the absence of Security-Aware Design (SEA-01.5) by embedding security requirements into design processes as an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "PRM-04",
+        "name": "Security, Compliance & Resilience In Project Management",
+        "description": "Mechanisms exist to assess security, compliance and resilience controls as part of Technology Assets, Applications and/or Services (TAAS) project development to determine whether controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting requirements.",
+        "justification": "Security, Compliance & Resilience In Project Management (PRM-04) provides resilience and recovery capability that compensates for the absence of Security-Aware Design (SEA-01.5) by ensuring the organization can restore operations when the primary control is absent. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "SEA-02",
       "risk_if_not_implemented": "Without Alignment With Enterprise Architecture, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
       "compensating_control_1": {
@@ -17807,6 +18719,22 @@
         "name": "Least Functionality",
         "description": "Mechanisms exist to configure systems to provide only essential capabilities by specifically prohibiting or restricting the use of ports, protocols, and/or services.",
         "justification": "Least Functionality (CFG-03) provides configuration hardening that compensates for the absence of Refresh from Trusted Sources (SEA-08.1) by eliminating unnecessary services and enforcing secure settings to reduce inherent exposure. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "SEA-08.2",
+      "risk_if_not_implemented": "Without Non-Persistent Information, sensitive information may be inadvertently exposed through error messages, insecure code, or persistent ephemeral data.",
+      "compensating_control_1": {
+        "control_id": "DCH-09",
+        "name": "System Media Sanitization",
+        "description": "Mechanisms exist to sanitize system media with the strength and integrity commensurate with the classification or sensitivity of the information prior to disposal, release out of organizational control or release for reuse.",
+        "justification": "System Media Sanitization (DCH-09) provides overlapping security capability that compensates for the absence of Non-Persistent Information (SEA-08.2) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "IAC-25",
+        "name": "Session Termination",
+        "description": "Automated mechanisms exist to log out users, both locally on the network and for remote sessions, at the end of the session or after an organization-defined period of inactivity.",
+        "justification": "Session Termination (IAC-25) provides overlapping security capability that compensates for the absence of Non-Persistent Information (SEA-08.2) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -18514,6 +19442,22 @@
       }
     },
     {
+      "control_id": "SAT-04.1",
+      "risk_if_not_implemented": "Without Training Feedback, personnel may lack knowledge or skills to recognize and respond to security threats, increasing organizational risk.",
+      "compensating_control_1": {
+        "control_id": "SAT-04",
+        "name": "Security, Compliance & Resilience Training Records",
+        "description": "Mechanisms exist to document, retain and monitor individual training activities, including:\n(1) Initial security, compliance and resilience awareness training;\n(2) Recurring awareness training; and\n(3) Technology Assets, Applications and/or Services (TAAS)-specific training.",
+        "justification": "Security, Compliance & Resilience Training Records (SAT-04) provides personnel training and awareness that compensates for the absence of Training Feedback (SAT-04.1) by equipping personnel with the knowledge and skills needed to recognize and respond to relevant threats. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "GOV-05",
+        "name": "Measures of Performance",
+        "description": "Mechanisms exist to develop, report and monitor Security, Compliance & Resilience Program (SCRP) measures of performance.",
+        "justification": "Measures of Performance (GOV-05) provides overlapping security capability that compensates for the absence of Training Feedback (SAT-04.1) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "SAT-05",
       "risk_if_not_implemented": "Without Security, Compliance & Resilience Knowledge Sharing, the organization may be unable to recover from disruptions, resulting in data loss and extended downtime.",
       "compensating_control_1": {
@@ -19010,6 +19954,22 @@
       }
     },
     {
+      "control_id": "TDA-06.7",
+      "risk_if_not_implemented": "Without Programming Language Selection, residual security, compliance, or resilience risk may accumulate without structured oversight, leading to unmanaged exposures.",
+      "compensating_control_1": {
+        "control_id": "TDA-06",
+        "name": "Secure Software Development Practices (SSDP)",
+        "description": "Mechanisms exist to develop applications based on Secure Software Development Practices (SSDP).",
+        "justification": "Secure Software Development Practices (SSDP) (TDA-06) provides overlapping security capability that compensates for the absence of Programming Language Selection (TDA-06.7) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "CFG-04",
+        "name": "Software Usage Restrictions",
+        "description": "Mechanisms exist to enforce software usage restrictions to comply with applicable contract agreements and copyright laws.",
+        "justification": "Software Usage Restrictions (CFG-04) provides overlapping security capability that compensates for the absence of Programming Language Selection (TDA-06.7) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "TDA-07",
       "risk_if_not_implemented": "Without Secure Development Environments, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
       "compensating_control_1": {
@@ -19282,6 +20242,38 @@
       }
     },
     {
+      "control_id": "TDA-13.1",
+      "risk_if_not_implemented": "Without Developer Knowledge & Skills Register, personnel may lack knowledge or skills to recognize and respond to security threats, increasing organizational risk.",
+      "compensating_control_1": {
+        "control_id": "HRS-13",
+        "name": "Identify Critical Skills & Gaps",
+        "description": "Mechanisms exist to evaluate the critical security, compliance and resilience skills needed to support the organization's mission and identify gaps that exist.",
+        "justification": "Identify Critical Skills & Gaps (HRS-13) provides overlapping security capability that compensates for the absence of Developer Knowledge & Skills Register (TDA-13.1) by addressing related risk objectives through an alternative control mechanism. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "SAT-03",
+        "name": "Role-Based Security, Compliance & Resilience Training",
+        "description": "Mechanisms exist to provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter.",
+        "justification": "Role-Based Security, Compliance & Resilience Training (SAT-03) provides personnel training and awareness that compensates for the absence of Developer Knowledge & Skills Register (TDA-13.1) by equipping personnel with the knowledge and skills needed to recognize and respond to relevant threats. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "TDA-13.2",
+      "risk_if_not_implemented": "Without Developer Training, personnel may lack knowledge or skills to recognize and respond to security threats, increasing organizational risk.",
+      "compensating_control_1": {
+        "control_id": "SAT-03",
+        "name": "Role-Based Security, Compliance & Resilience Training",
+        "description": "Mechanisms exist to provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter.",
+        "justification": "Role-Based Security, Compliance & Resilience Training (SAT-03) provides personnel training and awareness that compensates for the absence of Developer Training (TDA-13.2) by equipping personnel with the knowledge and skills needed to recognize and respond to relevant threats. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "TDA-06",
+        "name": "Secure Software Development Practices (SSDP)",
+        "description": "Mechanisms exist to develop applications based on Secure Software Development Practices (SSDP).",
+        "justification": "Secure Software Development Practices (SSDP) (TDA-06) provides overlapping security capability that compensates for the absence of Developer Training (TDA-13.2) by addressing related risk objectives through an alternative control mechanism. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "TDA-14",
       "risk_if_not_implemented": "Without Developer Configuration Management, systems may operate with insecure settings or unauthorized changes, expanding the attack surface.",
       "compensating_control_1": {
@@ -19407,6 +20399,22 @@
         "name": "Secure Baseline Configurations",
         "description": "Mechanisms exist to develop, document and maintain secure baseline configurations for Technology Assets, Applications and/or Services (TAAS) that are consistent with industry-accepted system hardening standards.",
         "justification": "Secure Baseline Configurations (CFG-02) provides configuration hardening that compensates for the absence of Error Handling (TDA-19) by eliminating unnecessary services and enforcing secure settings to reduce inherent exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "TDA-19.1",
+      "risk_if_not_implemented": "Without Designated Roles To View Error Messages, security design weaknesses may be built into systems, increasing long-term vulnerability and the cost of remediation.",
+      "compensating_control_1": {
+        "control_id": "IAC-21",
+        "name": "Least Privilege",
+        "description": "Mechanisms exist to utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions.",
+        "justification": "Least Privilege (IAC-21) provides access control enforcement that compensates for the absence of Designated Roles To View Error Messages (TDA-19.1) by restricting system and data access through alternative identity and access management mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "SEA-09",
+        "name": "Information Output Filtering",
+        "description": "Mechanisms exist to validate information output from software programs and/or applications to ensure that the information is consistent with the expected content.",
+        "justification": "Information Output Filtering (SEA-09) provides overlapping security capability that compensates for the absence of Designated Roles To View Error Messages (TDA-19.1) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {
@@ -19970,6 +20978,38 @@
       }
     },
     {
+      "control_id": "THR-01.1",
+      "risk_if_not_implemented": "Without Dynamic Threat Awareness, personnel may lack knowledge or skills to recognize and respond to security threats, increasing organizational risk.",
+      "compensating_control_1": {
+        "control_id": "THR-01",
+        "name": "Threat Intelligence Program",
+        "description": "Mechanisms exist to implement a threat intelligence program that includes a cross-organization information-sharing capability that can influence the development of the system and security architectures, selection of security solutions, monitoring, threat hunting, response and recovery activities.",
+        "justification": "Threat Intelligence Program (THR-01) provides policy-level governance that compensates for the absence of Dynamic Threat Awareness (THR-01.1) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "MON-01",
+        "name": "Continuous Monitoring",
+        "description": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls.",
+        "justification": "Continuous Monitoring (MON-01) provides detective monitoring capability that compensates for the absence of Dynamic Threat Awareness (THR-01.1) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "THR-01.2",
+      "risk_if_not_implemented": "Without Predictive Cyber Analytics, the organization's threat model may become stale, leaving security controls misaligned with the actual threat landscape.",
+      "compensating_control_1": {
+        "control_id": "THR-07",
+        "name": "Threat Hunting",
+        "description": "Mechanisms exist to perform cyber threat hunting that uses Indicators of Compromise (IoC) to detect, track and disrupt threats that evade existing security controls.",
+        "justification": "Threat Hunting (THR-07) provides overlapping security capability that compensates for the absence of Predictive Cyber Analytics (THR-01.2) by addressing related risk objectives through an alternative control mechanism. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "MON-16",
+        "name": "Anomalous Behavior",
+        "description": "Mechanisms exist to utilize User & Entity Behavior Analytics (UEBA) and/or User Activity Monitoring (UAM) solutions to detect and respond to anomalous behavior that could indicate account compromise or other malicious activities.",
+        "justification": "Anomalous Behavior (MON-16) provides detective monitoring capability that compensates for the absence of Predictive Cyber Analytics (THR-01.2) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
       "control_id": "THR-02",
       "risk_if_not_implemented": "Without Indicators of Exposure (IOE), residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
       "compensating_control_1": {
@@ -20191,6 +21231,22 @@
         "name": "Vulnerability Remediation Process",
         "description": "Mechanisms exist to ensure that vulnerabilities are properly identified, tracked and remediated.",
         "justification": "Vulnerability Remediation Process (VPM-02) provides vulnerability management that compensates for the absence of Attack Surface Scope (VPM-01.1) by reducing the exploitable attack surface by addressing known weaknesses before they are leveraged. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      }
+    },
+    {
+      "control_id": "VPM-02.1",
+      "risk_if_not_implemented": "Without Known Exploited Vulnerabilities (KEV) Mitigations, unpatched vulnerabilities may remain exploitable, directly increasing the probability of successful attacks against the organization.",
+      "compensating_control_1": {
+        "control_id": "VPM-02",
+        "name": "Vulnerability Remediation Process",
+        "description": "Mechanisms exist to ensure that vulnerabilities are properly identified, tracked and remediated.",
+        "justification": "Vulnerability Remediation Process (VPM-02) provides vulnerability management that compensates for the absence of Known Exploited Vulnerabilities (KEV) Mitigations (VPM-02.1) by reducing the exploitable attack surface by addressing known weaknesses and prioritizing critical remediations. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+      },
+      "compensating_control_2": {
+        "control_id": "NET-03",
+        "name": "Boundary Protection",
+        "description": "Mechanisms exist to monitor and control communications at the external network boundary and at key internal boundaries within the network.",
+        "justification": "Boundary Protection (NET-03) provides network-level access restriction that compensates for the absence of Known Exploited Vulnerabilities (KEV) Mitigations (VPM-02.1) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
       }
     },
     {

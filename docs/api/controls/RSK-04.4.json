@@ -84,16 +84,17 @@
     "MT-15",
     "MT-17",
     "MT-24",
-    "MT-25"
+    "MT-25",
+    "MT-28"
   ],
   "family_name": "Risk Management",
   "crosswalks": {
-    "general-scf-dpmp-2025": [
-      "9.1"
-    ],
     "usa-state-ca-ccpa-cpra-2026": [
       "7151(a)",
       "7151(b)"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.2.1.9"
     ]
   }
 }

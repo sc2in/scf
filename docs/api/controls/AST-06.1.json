@@ -81,12 +81,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Asset Management",
-  "crosswalks": {
-    "emea-deu-c5-2020": [
-      "AM-02"
-    ]
-  }
+  "crosswalks": {}
 }

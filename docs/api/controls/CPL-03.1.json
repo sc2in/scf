@@ -104,9 +104,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Compliance",
   "crosswalks": {
     "general-cobit-2019": [
@@ -186,6 +186,10 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "CA-07(01)"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.630(f)(4)(ii)",
+      "101.630(f)(4)(iii)"
+    ],
     "usa-federal-irs-1075-2021": [
       "CA-7(CE-1)"
     ],
@@ -201,25 +205,12 @@
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
       "500.2(c)"
     ],
-    "emea-eu-cyber-resilience-act-annexes-2022": [
-      "Annex 6 Module H.3.1",
-      "Annex 6 Module H.3.5"
-    ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.3.6(25)",
-      "3.4.6(41)",
-      "3.4.6(42)",
-      "3.4.6(43)(a)",
-      "3.4.6(43)(b)"
+      "3.3.6.25",
+      "3.4.6.41"
     ],
     "emea-eu-nis2-annex-2024": [
       "2.3.1"
-    ],
-    "emea-us-psd2-2015": [
-      "3"
-    ],
-    "emea-deu-c5-2020": [
-      "COM-03"
     ],
     "emea-sau-cscc-1-2019": [
       "1-4-2"
@@ -231,26 +222,9 @@
       "1-8-2"
     ],
     "emea-sau-otcc-1-2022": [
-      "1-6-1",
       "1-6-2"
     ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-20",
-      "TPC-21"
-    ],
-    "emea-zaf-popia-2013": [
-      "60"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 38.1"
-    ],
-    "emea-esp-decree-311-2022": [
-      "38.1"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "9"
-    ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0100"
     ],
     "apac-aus-ps-cps-234-2019": [
@@ -258,11 +232,6 @@
     ],
     "apac-chn-cybersecurity-law-2017": [
       "Article 38"
-    ],
-    "apac-chn-pipl-2021": [
-      "38(1)",
-      "38(2)",
-      "40"
     ],
     "apac-ind-dpdpa-2023": [
       "10(2)(b)"
@@ -283,12 +252,13 @@
       "18.2.1.10.P",
       "18.2.1.13.P"
     ],
+    "apac-mys-bnm-rmit-2025": [
+      "13.4",
+      "14.1",
+      "14.2"
+    ],
     "apac-nzl-ism-3-9": [
       "6.1.8.C.01"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "6.13",
-      "6.25"
     ]
   }
 }

@@ -20,9 +20,9 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Identification & Authentication (IAC) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Identity & Access Management (IAM)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines) to enforce Logical Access Control (LAC).\n▪ IAM may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel to implement Role Based Access Control (RBAC) practices for the management of user, group and system accounts, including privileged accounts.\n▪ A directory services technology is used to centrally manage identities and permissions with RBAC. Due to technical or business limitations, asset/process owners are empowered to operate a decentralized access control program for their specific Technology Assets, Applications and/or Services (TAAS) that cannot be integrated into directory services.\n▪ Configuration management and IAM functions collaborate to ensure Secure Baseline Configurations (SBC) enforce “least privileges” on TAAS.",
-    "3": "Identification & Authentication (IAC) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are well-documented and kept current by process owners.\n▪ An Identity & Access Management (IAM) team, or similar function, is appropriately staffed and supported to implement and maintain IAC domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of IAM operations (e.g., directory services, Authenticate, Authorize and Audit (AAA) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions.",
+    "3": "Identification & Authentication (IAC) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are well-documented and kept current by process owners.\n▪ An Identity & Access Management (IAM) team, or similar function, is appropriately staffed and supported to implement and maintain IAC domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of IAM operations (e.g., directory services, Authenticate, Authorize and Audit (AAA) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions. ",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
@@ -95,7 +95,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -161,7 +162,7 @@
       "8.3",
       "8.12"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1003",
       "T1003.001",
       "T1003.002",
@@ -479,6 +480,7 @@
       "03.01.01.c.03",
       "03.01.01.d.01",
       "03.01.01.d.02",
+      "03.01.02",
       "03.01.04.b",
       "03.01.05.a",
       "03.01.05.b",
@@ -494,8 +496,20 @@
       "3.1.5[d]"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.01.c.03",
+      "A.03.01.01.d.01",
+      "A.03.01.01.d.02",
+      "A.03.01.02[01]",
       "A.03.01.02[02]",
-      "A.03.01.05.a"
+      "A.03.01.04.a",
+      "A.03.01.05.a",
+      "A.03.01.05.b[01]",
+      "A.03.01.05.b[02]",
+      "A.03.01.06.a",
+      "A.03.01.07.a",
+      "A.03.03.08.a[02]",
+      "A.03.03.08.b",
+      "A.03.04.05[04]"
     ],
     "general-nist-800-207": [
       "NIST Tenet 3"
@@ -560,9 +574,6 @@
       "7.3.3",
       "8.6.1"
     ],
-    "general-scf-dpmp-2025": [
-      "7.1"
-    ],
     "general-sparta": [
       "CM0039"
     ],
@@ -609,16 +620,19 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "AC-06"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(a)(5)"
+    ],
     "usa-federal-law-glba-cfr-314-2023": [
       "314.4(c)(1)(i)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(3)(i)",
-      "164.312(a)(1)"
+      "§ 164.308(a)(3)(i)",
+      "§ 164.312(a)(1)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(3)(i)",
-      "164.312(a)(1)"
+      "§ 164.308(a)(3)(i)",
+      "§ 164.312(a)(1)"
     ],
     "usa-federal-irs-1075-2021": [
       "AC-6"
@@ -649,8 +663,8 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "AC-06"
     ],
-    "emea-eu-cyber-resilience-act-annexes-2022": [
-      "Annex 1.1(3)(e)"
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.2.31(a)"
     ],
     "emea-eu-dora-2023": [
       "Article 9.4(c)"
@@ -662,15 +676,13 @@
       "11.3.2(c)",
       "11.3.2(d)"
     ],
-    "emea-deu-bsrit-2017": [
-      "6.2"
-    ],
     "emea-deu-c5-2020": [
-      "IDM-07"
-    ],
-    "emea-isr-cmo-1-0": [
-      "4.10",
-      "12.29"
+      "IDM-03-BP1",
+      "IDM-03-BP2",
+      "IDM-03-BP4",
+      "IDM-10",
+      "IDM-12",
+      "IDM-13"
     ],
     "emea-sau-cgiot-2024": [
       "2-2-1"
@@ -678,13 +690,23 @@
     "emea-sau-otcc-1-2022": [
       "2-3-1-4"
     ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 17",
-      "Article 20"
+    "emea-sau-sacs-002-2022": [
+      "VII.B.TPC-34"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.5"
     ],
     "emea-esp-decree-311-2022": [
-      "17",
-      "20"
+      "Article 12(6)(h)",
+      "Article 20"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.2",
+      "op.acc.4",
+      "op.acc.5"
+    ],
+    "emea-gbr-cyber-essentials-requirements-3-3": [
+      "2-BP1"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2205",
@@ -707,7 +729,7 @@
       "ML2-P4",
       "ML3-P4"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0441",
       "ISM-0611",
       "ISM-1380",
@@ -715,7 +737,11 @@
       "ISM-1705",
       "ISM-1706",
       "ISM-1707",
-      "ISM-1708"
+      "ISM-1708",
+      "ISM-1833"
+    ],
+    "apac-aus-cop-sitc-2020": [
+      "6"
     ],
     "apac-ind-sebi-2024": [
       "PR.AA.S3"
@@ -731,14 +757,15 @@
       "9.1.2.7",
       "9.1.2.8"
     ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.54"
+    ],
     "apac-nzl-ism-3-9": [
       "16.2.4.C.01",
-      "16.4.31.C.01",
-      "16.4.31.C.02",
       "23.4.10.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
-      "9.1.1"
+      "9.1.7"
     ],
     "americas-can-osfi-b13-2022": [
       "3.2.7"
@@ -747,6 +774,7 @@
       "03.01.01.C.03",
       "03.01.01.D.01",
       "03.01.01.D.02",
+      "03.01.02",
       "03.01.04.B",
       "03.01.05.A",
       "03.01.05.B",

@@ -87,7 +87,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -96,6 +97,10 @@
     ],
     "usa-federal-nerc-cip-2024": [
       "CIP-006-6 1.2"
+    ],
+    "emea-deu-c5-2020": [
+      "PS-01-DOAR",
+      "PS-03-BP1"
     ]
   }
 }

@@ -68,7 +68,8 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
@@ -116,6 +117,15 @@
     "general-nist-800-171-r3": [
       "03.03.08.a"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.03.08.a[01]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.03.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.03.01E"
+    ],
     "general-owasp-top-10-2025": [
       "A09:2025"
     ],
@@ -139,11 +149,6 @@
     ],
     "usa-federal-gsa-fedramp-5-high": [
       "AU-09(02)"
-    ],
-    "emea-isr-cmo-1-0": [
-      "21.14",
-      "21.15",
-      "21.17"
     ],
     "emea-sau-cscc-1-2019": [
       "2-11-1-5",

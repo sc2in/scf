@@ -87,7 +87,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
@@ -100,16 +101,8 @@
     "general-nist-800-82-r3": [
       "SC-42(02)"
     ],
-    "general-scf-dpmp-2025": [
-      "7.4"
-    ],
     "general-shared-assessments-sig-2025": [
       "P.2.2.1"
-    ],
-    "emea-zaf-popia-2013": [
-      "8",
-      "9",
-      "13.1"
     ]
   }
 }

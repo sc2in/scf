@@ -18,7 +18,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Third-Party Management (TPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with TPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Third-party management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel proactively control and monitor third-party accounts used to access, support, or maintain system components via remote access.",
     "3": "Third-Party Management (TPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with TPM domain capabilities are well-documented and kept current by process owners.\n▪ A procurement team, or similar function, is appropriately staffed and supported to implement and maintain TPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of third-party management operations (e.g., TPRM risk management solution, vendor management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to mitigate the risks associated with third-party access to the organization's TAASD.",
     "4": "Third-Party Management (TPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -116,7 +116,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Third-Party Management",
   "crosswalks": {
@@ -176,7 +177,7 @@
       "A.10.2",
       "A.10.3"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1041",
       "T1048",
       "T1048.002",
@@ -227,6 +228,16 @@
       "03.17.03.a",
       "03.17.03.b"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.16.03.a",
+      "A.03.16.03.c",
+      "A.03.17.02[02]",
+      "A.03.17.02[03]",
+      "A.03.17.02[05]",
+      "A.03.17.02[06]",
+      "A.03.17.03.a[01]",
+      "A.03.17.03.b"
+    ],
     "general-nist-csf-2-0": [
       "GV.SC-06",
       "GV.SC-07"
@@ -273,11 +284,6 @@
     "general-pci-dss-4-0-1-saq-p2pe": [
       "12.8.2"
     ],
-    "general-scf-dpmp-2025": [
-      "10.0",
-      "10.1",
-      "10.4"
-    ],
     "general-swift-cscf-2025": [
       "2.8"
     ],
@@ -321,10 +327,10 @@
       "314.4(f)(3)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(b)(1)"
+      "§ 164.308(b)(1)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(b)(1)"
+      "§ 164.308(b)(1)"
     ],
     "usa-federal-irs-1075-2021": [
       "2.C.9",
@@ -380,74 +386,24 @@
       "9.2"
     ],
     "emea-deu-c5-2020": [
-      "SSO-05"
-    ],
-    "emea-isr-cmo-1-0": [
-      "11.3",
-      "16.1",
-      "22.4"
+      "PS-04-DOAR"
     ],
     "emea-sau-cscc-1-2019": [
       "4-1-1-1",
       "4-1-1-2"
     ],
-    "emea-sau-otcc-1-2022": [
-      "4-1-1-3"
+    "emea-sau-sacs-002-2022": [
+      "VII.B.TPC-36"
     ],
-    "emea-zaf-popia-2013": [
-      "19"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.ext.1"
     ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 13.5"
-    ],
-    "emea-esp-decree-311-2022": [
-      "13.5"
-    ],
-    "emea-gbr-cap-1850-2020": [
-      "A4"
-    ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1569"
     ],
-    "apac-aus-ps-cps-234-2019": [
-      "16",
-      "22",
-      "28"
-    ],
-    "apac-chn-pipl-2021": [
-      "20",
-      "21",
-      "38(3)"
-    ],
-    "apac-jpn-ppi-2020": [
-      "22",
-      "23(1)(i)",
-      "23(1)(ii)",
-      "23(1)(iii)",
-      "23(1)(iv)",
-      "23(2)",
-      "23(2)(i)",
-      "23(2)(ii)",
-      "23(2)(iii)",
-      "23(2)(iv)",
-      "23(2)(v)",
-      "23(2)(vi)",
-      "23(2)(vii)",
-      "23(2)(viii)",
-      "23(3)",
-      "23(4)",
-      "23(5)(i)",
-      "23(5)(ii)",
-      "23(5)(iii)",
-      "23(6)",
-      "23(1)"
-    ],
-    "americas-arg-ppd-2018": [
-      "25.1"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "2.3",
-      "4.25"
+    "apac-mys-bnm-rmit-2025": [
+      "10.12",
+      "10.50"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.16.03.A",

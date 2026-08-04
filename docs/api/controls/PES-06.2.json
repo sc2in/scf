@@ -3,7 +3,7 @@
   "title": "Identification Requirement",
   "family": "PES",
   "description": "Physical access control mechanisms exist to requires at least one(1) form of government-issued or organization-issued photo identification to authenticate individuals before they can gain access to the facility.",
-  "scf_question": "Does the organization require at least one (1) form of government-issued or organization-issued photo identification to authenticate individuals before they can gain access to the facility?",
+  "scf_question": "Does the organization requires at least one(1) form of government-issued or organization-issued photo identification to authenticate individuals before they can gain access to the facility?",
   "relative_weight": 8,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -90,7 +90,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -109,6 +110,10 @@
     "general-nist-800-171-r3": [
       "03.10.07.c"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.10.07.c[01]",
+      "A.03.10.07.c[02]"
+    ],
     "general-pci-dss-4-0-1": [
       "9.3.2"
     ],
@@ -125,10 +130,7 @@
       "CIP-006-6 2.2"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-47"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "8.1.2 [MP.IF.2]"
+      "VII.B.TPC-47-BP1"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "1503"

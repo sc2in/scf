@@ -2,8 +2,8 @@
   "control_id": "DCH-13.3",
   "title": "Protecting Sensitive / Regulated Data on External Technology Assets, Applications and/or Services (TAAS)",
   "family": "DCH",
-  "description": "Mechanisms exist to ensure that the requirements for the protection of sensitive/regulated data processed, stored or transmitted on external Technology Assets, Applications and/or Services (TAAS), are implemented in accordance with applicable statutory, regulatory and contractual obligations.",
-  "scf_question": "Does the organization ensure that the requirements for the protection of sensitive/regulated data processed, stored or transmitted on external Technology Assets, Applications and/or Services (TAAS), are implemented in accordance with applicable statutory, regulatory and contractual obligations?",
+  "description": "Mechanisms exist to ensure that the requirements for the protection of sensitive and/or regulated data processed, stored or transmitted on external Technology Assets, Applications and/or Services (TAAS), are implemented in accordance with applicable statutory, regulatory and contractual obligations.",
+  "scf_question": "Does the organization ensure that the requirements for the protection of sensitive and/or regulated data processed, stored or transmitted on external Technology Assets, Applications and/or Services (TAAS), are implemented in accordance with applicable statutory, regulatory and contractual obligations?",
   "relative_weight": 10,
   "conformity_cadence": "Semi-Annual",
   "evidence_requests": [],
@@ -101,7 +101,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
@@ -136,12 +137,13 @@
       "03.01.20.b",
       "03.01.20.c.01"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.20.b",
+      "A.03.01.20.c.01"
+    ],
     "general-nist-800-207": [
       "NIST Tenet 3",
       "NIST Tenet 4"
-    ],
-    "emea-isr-cmo-1-0": [
-      "11.6"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.20.B",

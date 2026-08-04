@@ -87,7 +87,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
@@ -149,8 +150,7 @@
     ],
     "general-nist-800-171a-r3": [
       "A.03.01.22.a",
-      "A.03.01.22.b[01]",
-      "A.03.01.22.b[02]"
+      "A.03.01.22.b[01]"
     ],
     "general-pci-dss-4-0-1": [
       "1.4.4"

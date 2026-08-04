@@ -88,7 +88,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -133,7 +134,7 @@
       "CR 2.5(a)",
       "CR 2.5(b)"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1021.001",
       "T1563.002"
     ],
@@ -224,18 +225,6 @@
       "AC-02 (05)",
       "AC-11"
     ],
-    "emea-deu-c5-2020": [
-      "PSS-06"
-    ],
-    "emea-isr-cmo-1-0": [
-      "4.16"
-    ],
-    "emea-sau-otcc-1-2022": [
-      "2-2-1-4"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-2"
-    ],
     "emea-gbr-def-stan-05-138-2024": [
       "2408"
     ],
@@ -248,12 +237,8 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2408"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0428"
-    ],
-    "apac-nzl-ism-3-9": [
-      "16.1.45.C.01",
-      "16.1.45.C.02"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.10.A",

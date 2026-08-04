@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-160-vol-2-r1",
-  "display_name": "NIST SP 800-160 (Vol 2, Rev 1)",
+  "display_name": "NIST SP 800 - 160 Volume 2, Revision 1 - Developing Cyber - Resilient Systems: A Systems Security Engineering Approach",
   "scf_to_framework": {
     "total_mappings": 204,
     "mappings": {

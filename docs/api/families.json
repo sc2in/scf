@@ -1,16 +1,16 @@
 {
-  "total_families": 33,
-  "total_controls": 1468,
+  "total_families": 34,
+  "total_controls": 1534,
   "families": [
     {
       "family_code": "AAT",
       "family_name": "Artificial Intelligence & Autonomous Technologies",
-      "control_count": 156
+      "control_count": 161
     },
     {
       "family_code": "AST",
       "family_name": "Asset Management",
-      "control_count": 63
+      "control_count": 64
     },
     {
       "family_code": "BCD",
@@ -25,7 +25,7 @@
     {
       "family_code": "CFG",
       "family_name": "Configuration Management",
-      "control_count": 28
+      "control_count": 32
     },
     {
       "family_code": "CHG",
@@ -40,7 +40,7 @@
     {
       "family_code": "CPL",
       "family_name": "Compliance",
-      "control_count": 40
+      "control_count": 41
     },
     {
       "family_code": "CRY",
@@ -64,8 +64,8 @@
     },
     {
       "family_code": "GOV",
-      "family_name": "Cybersecurity & Data Protection Governance",
-      "control_count": 38
+      "family_name": "Security, Compliance & Resilience Governance",
+      "control_count": 42
     },
     {
       "family_code": "HRS",
@@ -75,7 +75,7 @@
     {
       "family_code": "IAC",
       "family_name": "Identification & Authentication",
-      "control_count": 114
+      "control_count": 116
     },
     {
       "family_code": "IAO",
@@ -105,7 +105,7 @@
     {
       "family_code": "NET",
       "family_name": "Network Security",
-      "control_count": 98
+      "control_count": 100
     },
     {
       "family_code": "OPS",
@@ -120,7 +120,7 @@
     {
       "family_code": "PRI",
       "family_name": "Data Privacy",
-      "control_count": 102
+      "control_count": 103
     },
     {
       "family_code": "PRM",
@@ -128,29 +128,34 @@
       "control_count": 11
     },
     {
+      "family_code": "QTS",
+      "family_name": "Quantum Security",
+      "control_count": 34
+    },
+    {
       "family_code": "RSK",
       "family_name": "Risk Management",
-      "control_count": 32
+      "control_count": 33
     },
     {
       "family_code": "SAT",
       "family_name": "Security Awareness & Training",
-      "control_count": 17
+      "control_count": 18
     },
     {
       "family_code": "SEA",
       "family_name": "Secure Engineering & Architecture",
-      "control_count": 44
+      "control_count": 47
     },
     {
       "family_code": "TDA",
       "family_name": "Technology Development & Acquisition",
-      "control_count": 70
+      "control_count": 74
     },
     {
       "family_code": "THR",
       "family_name": "Threat Management",
-      "control_count": 13
+      "control_count": 15
     },
     {
       "family_code": "TPM",
@@ -160,7 +165,7 @@
     {
       "family_code": "VPM",
       "family_name": "Vulnerability & Patch Management",
-      "control_count": 33
+      "control_count": 34
     },
     {
       "family_code": "WEB",

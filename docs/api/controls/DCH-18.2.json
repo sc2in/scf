@@ -2,8 +2,8 @@
   "control_id": "DCH-18.2",
   "title": "Limit Sensitive / Regulated Data In Testing, Training & Research",
   "family": "DCH",
-  "description": "Mechanisms exist to minimize the use of sensitive/regulated data for research, testing, or training, in accordance with authorized, legitimate business practices.",
-  "scf_question": "Does the organization minimize the use of Personal Data (PD) for research, testing, or training, in accordance with the Data Protection Impact Assessment (DPIA)?",
+  "description": "Mechanisms exist to minimize the use of sensitive and/or regulated data for research, testing, or training, in accordance with authorized, legitimate business practices.",
+  "scf_question": "Does the organization minimize the use of sensitive and/or regulated data for research, testing, or training, in accordance with authorized, legitimate business practices?",
   "relative_weight": 8,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -84,7 +84,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
@@ -119,9 +120,6 @@
     ],
     "general-nist-800-161-r1-level-2": [
       "PM-25"
-    ],
-    "general-scf-dpmp-2025": [
-      "3.2"
     ],
     "usa-federal-fbi-cjis-6-0": [
       "SI-12(2)"
@@ -161,15 +159,6 @@
     ],
     "emea-eu-nis2-annex-2024": [
       "6.2.2(f)"
-    ],
-    "emea-srb-act-9-2018": [
-      "5.1"
-    ],
-    "emea-zaf-popia-2013": [
-      "19"
-    ],
-    "apac-chn-pipl-2021": [
-      "6"
     ]
   }
 }

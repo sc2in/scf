@@ -92,12 +92,13 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
     "general-cis-csc-8-1": [
-      "9.0",
+      "9",
       "9.6",
       "9.7"
     ],
@@ -120,7 +121,7 @@
     "general-govramp-high": [
       "SI-08"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1137",
       "T1137.001",
       "T1137.002",
@@ -218,7 +219,7 @@
       "2-4-3-1"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-16"
+      "VII.A.TPC-16"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2509"
@@ -233,19 +234,7 @@
       "2509"
     ],
     "apac-nzl-ism-3-9": [
-      "15.2.21.C.01",
-      "15.2.23.C.01",
-      "15.2.23.C.02",
-      "15.2.23.C.03",
-      "15.2.24.C.01",
-      "15.2.24.C.02"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "14.1.6"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "4.3",
-      "4.4"
+      "15.2.37.C.01"
     ]
   }
 }

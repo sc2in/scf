@@ -1,6 +1,6 @@
 {
   "framework_id": "general-pci-dss-4-0-1-saq-p2pe",
-  "display_name": "Payment Card Industry Data Security Standard (PCI DSS) - SAQ P2PE (v4.0.1)",
+  "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 - Self - Assessment Questionnaire (SAQ) P2PE",
   "scf_to_framework": {
     "total_mappings": 47,
     "mappings": {

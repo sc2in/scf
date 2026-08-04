@@ -18,11 +18,11 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Cybersecurity & Data Protection Governance (GOV) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with GOV  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Governance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT and/or cybersecurity personnel.\n▪ Basic metrics are developed to provide operational oversight of a limited scope of cybersecurity and data protection controls.",
-    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  develop, report and monitor Security, Compliance & Resilience Program (SCRP) measures of performance.",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  develop, report and monitor Security, Compliance & Resilience Program (SCRP) measures of performance.",
     "4": "Cybersecurity & Data Protection Governance (GOV) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-    "5": "Cybersecurity & Data Protection Governance (GOV) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+    "5": "Cybersecurity & Data Protection Governance (GOV) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
   "profiles": [
     "SCRMS",
@@ -68,10 +68,10 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
-  "family_name": "Cybersecurity & Data Protection Governance",
+  "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
       "CC1.1-POF3",
@@ -195,6 +195,9 @@
     "general-nist-800-171-r3": [
       "03.12.03"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.12.03[01]"
+    ],
     "general-nist-800-207": [
       "NIST Tenet 7"
     ],
@@ -206,9 +209,6 @@
       "GV.SC",
       "GV.SC-09",
       "ID.IM-03"
-    ],
-    "general-scf-dpmp-2025": [
-      "11.5"
     ],
     "general-tisax-6-0-3": [
       "1.2.1"
@@ -260,6 +260,9 @@
     "usa-state-tx-dir-security-control-standards-catalog-2-2": [
       "PM-06"
     ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.5.51"
+    ],
     "emea-eu-dora-2023": [
       "Article 13.4"
     ],
@@ -269,19 +272,28 @@
     "emea-eu-nis2-annex-2024": [
       "1.1.1(j)"
     ],
-    "emea-us-psd2-2015": [
-      "3"
+    "emea-deu-bsrit-2017": [
+      "2.5",
+      "4.9"
     ],
     "emea-deu-c5-2020": [
-      "COM-04"
+      "OIS-01-BP2"
+    ],
+    "emea-isr-cmo-2-0": [
+      "4.2, Stage 5",
+      "Appendix D"
     ],
     "emea-sau-cgiot-2024": [
       "1-1-4"
     ],
-    "emea-esp-ccn-stic-825-2023": [
-      "7.6.2 [OP.MON.2]"
+    "emea-sau-otcc-1-2022": [
+      "1-4-2",
+      "1-7-2"
     ],
-    "apac-aus-ism-2024-june": [
+    "emea-esp-ccn-stic-825-2026": [
+      "op.mon.2"
+    ],
+    "apac-aus-ism-2026-march": [
       "ISM-0724"
     ],
     "apac-ind-sebi-2024": [
@@ -292,7 +304,10 @@
     "apac-jpn-ismap": [
       "4.6.2.1"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "8.6"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP46",
       "HML46"
     ],
@@ -300,14 +315,7 @@
       "HSUP38"
     ],
     "apac-sgp-mas-trm-2021": [
-      "4.5.3",
-      "7.8.3"
-    ],
-    "americas-bmu-mba-coc-2020": [
-      "5.7"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "6.9"
+      "4.5.3"
     ],
     "americas-can-osfi-b13-2022": [
       "1",

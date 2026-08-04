@@ -91,7 +91,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
@@ -107,6 +108,9 @@
     "general-nist-800-171a": [
       "3.3.1[c]",
       "3.3.2[a]"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.03.01.a"
     ],
     "general-owasp-top-10-2025": [
       "A09:2025"
@@ -178,10 +182,10 @@
       "11.10(e)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.312(b)"
+      "§ 164.312(b)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.312(b)"
+      "§ 164.312(b)"
     ],
     "usa-federal-tsa-security-directive-1580-82-2022-01": [
       "III.D.3.b"
@@ -192,8 +196,9 @@
     "emea-eu-nis2-annex-2024": [
       "11.5.2(b)"
     ],
-    "emea-isr-cmo-1-0": [
-      "12.17"
+    "emea-deu-c5-2020": [
+      "RB-14",
+      "RB-16"
     ],
     "emea-sau-cscc-1-2019": [
       "2-11-1-3"
@@ -210,10 +215,10 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "3107"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0407"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP70",
       "HML70"
     ],
@@ -225,9 +230,6 @@
       "16.6.9.C.01",
       "16.6.10.C.01",
       "16.6.10.C.02"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "9.2.2"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.03.01.A"

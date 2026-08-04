@@ -112,7 +112,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
@@ -125,6 +126,32 @@
     "general-nist-600-1-gen-ai-profile": [
       "MP-3.4-002"
     ],
+    "general-nist-800-171-r3": [
+      "03.02.01.b",
+      "03.02.02.a.02",
+      "03.02.02.b",
+      "03.06.04.b"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.02.01.b[01]",
+      "A.03.02.01.b[02]",
+      "A.03.02.02.b[01]",
+      "A.03.02.02.b[02]",
+      "A.03.06.04.ODP[03]",
+      "A.03.06.04.ODP[04]",
+      "A.03.06.04.b[01]",
+      "A.03.06.04.b[02]",
+      "A.03.06.04.b[03]",
+      "A.03.06.04.b[04]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.02.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.02.01E.b[01]",
+      "DS-A.03.02.01E.b[02]",
+      "A.03.02.01E.ODP[03]"
+    ],
     "general-swift-cscf-2025": [
       "7.2"
     ],
@@ -132,12 +159,35 @@
       "WORKFORCE-2g",
       "WORKFORCE-4e"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.625(d)(8)"
+    ],
     "emea-eu-nis2-annex-2024": [
       "8.1.2(a)"
+    ],
+    "emea-deu-bsrit-2017": [
+      "4.9"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.1.6.6",
+      "3.1.6.6.a",
+      "3.1.6.6.b"
     ],
     "apac-jpn-ismap": [
       "4.5.2.4",
       "4.5.2.5"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "3.6.4"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.1.7"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.02.01.B",
+      "03.02.02.A.02",
+      "03.02.02.B",
+      "03.06.04.B"
     ]
   }
 }

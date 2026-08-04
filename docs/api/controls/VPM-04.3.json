@@ -25,7 +25,13 @@
   "profiles": [
     "CORE Mergers, Acquisitions & Divestitures (MA&D)"
   ],
-  "possible_solutions": {},
+  "possible_solutions": {
+    "micro_small": "∙ Documented deferred patch register (spreadsheet)\n∙ Management sign-off for deferred patches with interim mitigations documented",
+    "small": "∙ Formal deferred patch register\n∙ Risk-based justification and management approval\n∙ Compensating control documentation",
+    "medium": "∙ Deferred patching exception process within vulnerability management program\n∙ Compensating control requirements for deferred patches\n∙ GRC platform for exception tracking",
+    "large": "∙ Enterprise deferred patch management process\n∙ Formal exception approval with compensating controls\n∙ GRC platform for tracking and reporting\n∙ Regular review of aged deferred patches",
+    "enterprise": "∙ Enterprise patch exception management program\n∙ Automated deferred patch tracking and escalation\n∙ Compensating control validation for all exceptions\n∙ Board-level reporting on material deferred patches"
+  },
   "risks": [
     "R-AC-1",
     "R-AC-2",
@@ -80,7 +86,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
@@ -95,6 +102,9 @@
     ],
     "emea-eu-nis2-annex-2024": [
       "6.6.2"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "2.6.1"
     ]
   }
 }

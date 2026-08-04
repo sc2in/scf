@@ -61,9 +61,9 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
   "family_name": "Information Assurance",
   "crosswalks": {
     "general-nist-800-53-r4": [

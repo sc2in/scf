@@ -74,7 +74,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Change Management",
   "crosswalks": {
@@ -138,16 +139,6 @@
     ],
     "usa-state-tx-txramp-2-0-level-2": [
       "CM-05 (05)"
-    ],
-    "emea-deu-c5-2020": [
-      "DEV-09",
-      "PSS-08"
-    ],
-    "emea-isr-cmo-1-0": [
-      "10.4"
-    ],
-    "apac-chn-data-security-law-2021": [
-      "27"
     ],
     "americas-can-osfi-b13-2022": [
       "2.5",

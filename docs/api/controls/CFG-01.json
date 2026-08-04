@@ -23,7 +23,7 @@
     "2": "Configuration Management (CFG) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Configuration management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Configuration management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Secure Baseline Configurations (SBC) are used to configure Technology Assets, Applications and/or Services (TAAS) according to the principles of least functionality and least privilege, mostly conforming to industry-recognized standards for hardening (e.g., DISA STIGs, CIS Benchmarks or OEM security guides).",
     "3": "Configuration Management (CFG) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are well-documented and kept current by process owners.\n▪ A configuration management team, or similar function, is appropriately staffed and supported to implement and maintain CFG domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of configuration management operations (e.g., Configuration Management Database (CMBD) Asset Management solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation of configuration management controls.",
     "4": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-    "5": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+    "5": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
   "profiles": [
     "SCRMS",
@@ -102,7 +102,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Configuration Management",
   "crosswalks": {
@@ -116,8 +117,8 @@
       "CC8.1-POF12"
     ],
     "general-cis-csc-8-1": [
-      "2.0",
-      "4.0",
+      "2",
+      "4",
       "4.1",
       "4.2"
     ],
@@ -247,9 +248,11 @@
       "NFO - CM-9"
     ],
     "general-nist-800-171-r3": [
-      "03.04.01.a"
+      "03.04.01.a",
+      "03.04.03.a"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.04.01.a[02]",
       "A.03.04.03.a"
     ],
     "general-nist-800-207": [
@@ -267,9 +270,6 @@
       "2.1",
       "2.2",
       "8.5"
-    ],
-    "general-scf-dpmp-2025": [
-      "7.12"
     ],
     "general-sparta": [
       "CM0023"
@@ -310,10 +310,10 @@
       "CM-09"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(1)(i)"
+      "§ 164.308(a)(1)(i)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(1)(i)"
+      "§ 164.308(a)(1)(i)"
     ],
     "usa-federal-irs-1075-2021": [
       "CM-1",
@@ -361,56 +361,19 @@
       "6.3.1",
       "6.3.2"
     ],
-    "emea-aut-fappd-2000": [
-      "Sec 14",
-      "Sec 15"
-    ],
-    "emea-bel-act-8-1992": [
-      "16"
-    ],
-    "emea-deu-bsrit-2017": [
-      "6.8"
-    ],
-    "emea-deu-c5-2020": [
-      "AM-03"
-    ],
-    "emea-isr-cmo-1-0": [
-      "3.3",
-      "9.22",
-      "9.23",
-      "14.1"
-    ],
     "emea-sau-cscc-1-2019": [
       "2-3-1-6"
     ],
-    "emea-sau-ecc-1-2018": [
-      "1-6-2-2",
-      "2-4-4",
-      "2-5-4"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-2"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 30.1",
-      "Article 30.2"
-    ],
-    "emea-esp-decree-311-2022": [
-      "30.1",
-      "30.2"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "7.3.3 [OP.EXP.3]"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.exp.2",
+      "op.exp.3"
     ],
     "emea-gbr-caf-4-0": [
       "B4",
       "B4.c"
     ],
-    "emea-gbr-cap-1850-2020": [
-      "B4"
-    ],
-    "emea-gbr-cyber-essentials-requirements-3-3": [
-      "2"
+    "apac-aus-ism-2026-march": [
+      "ISM-0912"
     ],
     "apac-ind-sebi-2024": [
       "PR.IP.S3"
@@ -421,29 +384,28 @@
       "12.2.5.C.02",
       "12.2.6.C.01",
       "12.2.6.C.02",
+      "17.9.38.C.03",
       "18.1.10.C.01",
       "18.1.10.C.02",
       "18.1.10.C.03",
-      "18.1.10.C.04"
-    ],
-    "apac-sgp-cyber-hygiene-practice-2019": [
-      "4.3(a)"
+      "18.1.10.C.04",
+      "20.2.14.C.02"
     ],
     "apac-sgp-mas-trm-2021": [
-      "7.2.1",
-      "7.2.2",
-      "7.3.1",
-      "7.3.2",
-      "7.3.3"
+      "7.2.1"
     ],
     "americas-bmu-mba-coc-2020": [
-      "6.1"
+      "6.1-BP1"
     ],
     "americas-can-osfi-b13-2022": [
       "3.2.8"
     ],
     "americas-can-itsp-10-171-2025": [
-      "03.04.01.A"
+      "03.04.01.A",
+      "03.04.03.A"
+    ],
+    "americas-can-pipeda-2000": [
+      "P7-4.7.3(c)"
     ]
   }
 }

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "THR-01.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-01.1",
+      "ao_id": "THR-01.1_A01",
+      "objective": "ongoing awareness of the current cyber threat environment is maintained as part of the Threat Intelligence Program (TIP).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

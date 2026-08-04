@@ -88,7 +88,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -175,17 +176,14 @@
       "PE-14"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.4.3(35)"
+      "3.4.3.35"
     ],
     "emea-eu-nis2-annex-2024": [
       "13.1.2(f)"
     ],
     "emea-deu-c5-2020": [
-      "PS-06",
-      "PS-07"
-    ],
-    "emea-isr-cmo-1-0": [
-      "18.18"
+      "PS-03-BP3",
+      "PS-03-DOAR"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2704"

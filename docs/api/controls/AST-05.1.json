@@ -2,8 +2,8 @@
   "control_id": "AST-05.1",
   "title": "Management Approval For External Media Transfer",
   "family": "AST",
-  "description": "Mechanisms exist to obtain management approval for any sensitive/regulated media that is transferred outside of the organization's facilities.",
-  "scf_question": "Does the organization obtain management approval for any sensitive/regulated media that is transferred outside of its facilities?",
+  "description": "Mechanisms exist to obtain management approval for any sensitive and/or regulated media that is transferred outside of the organization's facilities.",
+  "scf_question": "Does the organization obtain management approval for any sensitive and/or regulated media that is transferred outside of its facilities?",
   "relative_weight": 8,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -91,7 +91,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Asset Management",
   "crosswalks": {

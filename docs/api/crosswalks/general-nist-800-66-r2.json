@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-66-r2",
-  "display_name": "NIST SP 800-66 R2",
+  "display_name": "NIST SP 800 - 66 R2 - Implementing the Health Insurance Portability and Accountability Act (HIPAA) Security Rule: A Cybersecurity Resource Guide",
   "scf_to_framework": {
     "total_mappings": 112,
     "mappings": {

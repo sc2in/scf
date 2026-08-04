@@ -93,7 +93,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -172,28 +173,18 @@
     "emea-eu-nis2-annex-2024": [
       "4.1.2(h)"
     ],
-    "emea-isr-cmo-1-0": [
-      "21.15",
-      "21.16"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-9-3-2"
-    ],
     "emea-uae-niaf-2023": [
       "3.4.3"
     ],
     "apac-aus-ps-cps-230-2023": [
       "34(e)"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP35",
       "HML35"
     ],
     "apac-nzl-hisf-suppliers-2023": [
       "HSUP31"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "2.9"
     ]
   }
 }

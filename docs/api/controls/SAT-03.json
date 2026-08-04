@@ -3,7 +3,7 @@
   "title": "Role-Based Security, Compliance & Resilience Training",
   "family": "SAT",
   "description": "Mechanisms exist to provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter.",
-  "scf_question": "Does the organization provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafterystem changes; and \n (3) Annually thereafter?",
+  "scf_question": "Does the organization provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter?",
   "relative_weight": 8,
   "conformity_cadence": "Annual",
   "evidence_requests": [
@@ -93,9 +93,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "general-aicpa-pmf-2020": [
@@ -183,7 +183,7 @@
       "7.2"
     ],
     "general-iso-29100-2024": [
-      "6.1"
+      "6.10"
     ],
     "general-mpa-csbp-5-3-1": [
       "OR-3.1",
@@ -256,11 +256,10 @@
       "03.02.02.a",
       "03.02.02.a.01",
       "03.02.02.a.02",
-      "03.02.02.b",
       "03.06.04.a",
       "03.06.04.a.01",
       "03.06.04.a.02",
-      "03.06.04.b"
+      "03.06.04.a.03"
     ],
     "general-nist-800-171a": [
       "3.2.2[a]",
@@ -268,6 +267,10 @@
       "3.2.2[c]"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.22.a",
+      "A.03.02.01.a.01[01]",
+      "A.03.02.01.a.01[02]",
+      "A.03.02.01.a.02",
       "A.03.02.02.ODP[01]",
       "A.03.02.02.ODP[02]",
       "A.03.02.02.ODP[03]",
@@ -276,14 +279,19 @@
       "A.03.02.02.a.01[02]",
       "A.03.02.02.a.01[03]",
       "A.03.02.02.a.02",
-      "A.03.02.02.b[01]",
-      "A.03.02.02.b[02]",
+      "A.03.06.04.ODP[01]",
+      "A.03.06.04.ODP[02]",
       "A.03.06.04.a.01",
       "A.03.06.04.a.02",
       "A.03.06.04.a.03"
     ],
-    "general-nist-800-172": [
-      "3.2.1e"
+    "general-nist-800-172-r3": [
+      "03.02.01E",
+      "03.02.04E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.02.01E.a.02",
+      "A.03.02.04E.ODP[01]"
     ],
     "general-nist-800-218": [
       "PO.2.2"
@@ -359,9 +367,6 @@
       "9.5.1",
       "9.5.1.3",
       "12.6.1"
-    ],
-    "general-scf-dpmp-2025": [
-      "1.6"
     ],
     "general-sparta": [
       "CM0041"
@@ -441,6 +446,14 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "AT-03"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.625(d)(9)",
+      "101.650(d)(1)(v)",
+      "101.650(d)(2)",
+      "101.650(d)(2)(i)",
+      "101.650(d)(2)(ii)",
+      "101.650(d)(4)"
+    ],
     "usa-federal-sro-finra": [
       "248.201(e)(3)"
     ],
@@ -451,13 +464,13 @@
       "314.4(e)(1)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(5)(ii)(C)",
-      "164.308(a)(5)(ii)(D)",
-      "164.530(b)(1)"
+      "§ 164.308(a)(5)(ii)(C)",
+      "§ 164.308(a)(5)(ii)(D)",
+      "§ 164.530(b)(1)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(5)(ii)(C)",
-      "164.308(a)(5)(ii)(D)"
+      "§ 164.308(a)(5)(ii)(C)",
+      "§ 164.308(a)(5)(ii)(D)"
     ],
     "usa-federal-irs-1075-2021": [
       "2.D.2.1",
@@ -500,8 +513,7 @@
       "Article 9.5(c)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.2.1(3)",
-      "3.4.7(49)"
+      "3.4.7.49"
     ],
     "emea-eu-dora-2023": [
       "Article 13.6"
@@ -515,47 +527,52 @@
       "8.2.4"
     ],
     "emea-deu-c5-2020": [
-      "DEV-04"
-    ],
-    "emea-isr-cmo-1-0": [
-      "20.2",
-      "25.3"
+      "HR-03",
+      "HR-03-BP1",
+      "HR-03-BP4",
+      "HR-03-DOAR"
     ],
     "emea-qat-pdppl-2020": [
-      "11.3"
+      "3.11.3"
     ],
     "emea-sau-cgiot-2024": [
       "1-9-1"
     ],
     "emea-sau-ecc-1-2018": [
-      "1-10-3",
-      "1-10-3-1",
-      "1-10-3-2",
-      "1-10-3-3",
-      "1-10-3-4",
-      "1-10-4",
       "1-10-4-1",
       "1-10-4-2",
-      "1-10-4-3"
+      "1-10-4-3",
+      "1-10-5"
     ],
     "emea-sau-otcc-1-2022": [
-      "1-8-1",
-      "1-8-2",
-      "1-8-3"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-7"
+      "1-8-2-1",
+      "2-13-1-8"
     ],
     "emea-sau-sama-csf-1-2017": [
-      "3.1.6",
-      "3.1.7"
+      "3.1.7.1",
+      "3.1.7.1.a",
+      "3.1.7.1.b",
+      "3.1.7.1.c",
+      "3.1.7.1.d",
+      "3.1.7.2"
     ],
-    "emea-esp-ccn-stic-825-2023": [
-      "8.2.3 [MP.PER.3]",
-      "8.2.4 [MP.PER.4]"
+    "emea-esp-decree-311-2022": [
+      "Article 6(2)",
+      "Article 15(1)",
+      "Article 16(3)"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.per.3",
+      "mp.per.4"
+    ],
+    "emea-che-fadp-2025": [
+      "2.1.10.2.a"
     ],
     "emea-gbr-caf-4-0": [
       "B6.b"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "B6"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2321",
@@ -572,13 +589,10 @@
       "2321",
       "2602"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1146",
       "ISM-1565",
       "ISM-1740"
-    ],
-    "apac-chn-data-security-law-2021": [
-      "27"
     ],
     "apac-ind-sebi-2024": [
       "PR.AT.S2"
@@ -590,20 +604,20 @@
       "7.2.2.14",
       "7.2.2.19.PB"
     ],
+    "apac-mys-bnm-rmit-2025": [
+      "15.2",
+      "15.3"
+    ],
     "apac-nzl-ism-3-9": [
+      "2.1.47.C.01",
       "9.1.6.C.01",
       "9.1.6.C.02",
       "9.1.6.C.03"
     ],
     "apac-sgp-mas-trm-2021": [
+      "3.6.1",
       "3.6.2",
-      "3.6.3",
-      "6.1.5"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "1.7",
-      "1.8",
-      "1.9"
+      "3.6.3"
     ],
     "americas-can-osfi-b13-2022": [
       "3.1.7"
@@ -615,11 +629,10 @@
       "03.02.02.A",
       "03.02.02.A.01",
       "03.02.02.A.02",
-      "03.02.02.B",
       "03.06.04.A",
       "03.06.04.A.01",
       "03.06.04.A.02",
-      "03.06.04.B"
+      "03.06.04.A.03"
     ]
   }
 }

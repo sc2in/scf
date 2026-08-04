@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-dhs-cisa-ssdaf-2024",
-  "display_name": "CISA Secure Software Development Attestation Form (SSDAF) (2024)",
+  "display_name": "US - Cybersecurity & Infrastructure Security Agency (CISA) Secure Software Development Attestation Form (SSDAF) (2024)",
   "scf_to_framework": {
     "total_mappings": 41,
     "mappings": {

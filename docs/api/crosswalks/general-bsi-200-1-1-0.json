@@ -1,6 +1,6 @@
 {
   "framework_id": "general-bsi-200-1-1-0",
-  "display_name": "Standard 200-1 (v1.0)",
+  "display_name": "Bundesamt für Sicherheit in der Informationstechnik (BSI) - Standard 200 - 1 (v1.0)",
   "scf_to_framework": {
     "total_mappings": 35,
     "mappings": {

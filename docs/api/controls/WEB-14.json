@@ -2,8 +2,8 @@
   "control_id": "WEB-14",
   "title": "Publicly Accessible Content Reviews",
   "family": "WEB",
-  "description": "Mechanisms exist to routinely review the content on publicly accessible systems for sensitive/regulated data and remove such information, if discovered.",
-  "scf_question": "Does the organization routinely review the content on publicly accessible systems for sensitive/regulated data and remove such information, if discovered?",
+  "description": "Mechanisms exist to routinely review the content on publicly accessible systems for sensitive and/or regulated data and remove such information, if discovered.",
+  "scf_question": "Does the organization routinely review the content on publicly accessible systems for sensitive and/or regulated data and remove such information, if discovered?",
   "relative_weight": 7,
   "conformity_cadence": "Annual",
   "evidence_requests": [
@@ -66,12 +66,16 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Web Security",
   "crosswalks": {
     "general-nist-800-171-r3": [
       "03.01.22.b"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.22.b[02]"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2321"

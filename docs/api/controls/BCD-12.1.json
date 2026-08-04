@@ -88,7 +88,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -137,12 +138,8 @@
     "usa-federal-irs-1075-2021": [
       "CP-10(CE-2)"
     ],
-    "emea-isr-cmo-1-0": [
-      "25.9",
-      "25.21"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-4-3-3"
+    "usa-federal-cms-marse-2-0": [
+      "CP-10(2)"
     ]
   }
 }

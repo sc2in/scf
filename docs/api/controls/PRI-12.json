@@ -62,7 +62,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Privacy",
   "crosswalks": {
@@ -70,14 +71,11 @@
       "P5.2",
       "P5.2-POF2"
     ],
-    "general-scf-dpmp-2025": [
-      "6.2"
-    ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.526(a)(1)",
-      "164.526(b)(1)",
-      "164.526(e)",
-      "164.526(f)"
+      "§ 164.526(a)(1)",
+      "§ 164.526(b)(1)",
+      "§ 164.526(e)",
+      "§ 164.526(f)"
     ],
     "usa-state-ca-ccpa-cpra-2026": [
       "7023(b)",
@@ -89,9 +87,6 @@
     ],
     "emea-sau-pdpl-2023": [
       "Article 17.1"
-    ],
-    "emea-zaf-popia-2013": [
-      "16"
     ]
   }
 }

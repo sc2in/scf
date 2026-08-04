@@ -101,11 +101,12 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1021.001",
       "T1021.003",
       "T1021.006",
@@ -143,9 +144,6 @@
     "general-nist-800-160-vol-2-r1": [
       "SC-46"
     ],
-    "general-nist-800-172": [
-      "3.1.3e"
-    ],
     "general-nist-800-207": [
       "NIST Tenet 4"
     ],
@@ -158,10 +156,13 @@
     "usa-federal-tsa-security-directive-1580-82-2022-01": [
       "III.C.5"
     ],
-    "emea-sau-otcc-1-2022": [
-      "2-4-1-2"
+    "emea-deu-c5-2020": [
+      "KOS-03"
     ],
-    "apac-aus-ism-2024-june": [
+    "emea-sau-cscc-1-2019": [
+      "2-6-1-5"
+    ],
+    "apac-aus-ism-2026-march": [
       "ISM-0597",
       "ISM-0610",
       "ISM-0626",
@@ -181,7 +182,13 @@
       "19.2.18.C.01",
       "19.2.19.C.01",
       "19.2.19.C.02",
-      "19.2.20.C.01"
+      "19.2.20.C.01",
+      "20.2.12.C.01",
+      "20.2.12.C.02",
+      "20.2.14.C.04",
+      "20.3.9.C.02",
+      "20.3.9.C.04",
+      "21.1.8.C.01"
     ]
   }
 }

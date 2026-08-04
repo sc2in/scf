@@ -74,12 +74,13 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "general-cis-csc-8-1": [
-      "9.0",
+      "9",
       "14.2"
     ],
     "general-cis-csc-8-1-ig1": [
@@ -121,8 +122,10 @@
     "general-nist-800-171-r3": [
       "03.02.01.a.03"
     ],
-    "general-nist-800-172": [
-      "3.2.1e"
+    "general-nist-800-171a-r3": [
+      "A.03.02.01.a.03[03]",
+      "A.03.02.01.a.03[05]",
+      "A.03.02.01.a.03[06]"
     ],
     "general-pci-dss-4-0-1": [
       "12.6.3.1"
@@ -160,11 +163,11 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "AT-02 (03)"
     ],
-    "emea-isr-cmo-1-0": [
-      "20.4"
-    ],
     "emea-sau-ecc-1-2018": [
-      "1-10-3"
+      "1-10-3-1"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "VII.A.TPC-7.3"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2602"
@@ -175,12 +178,9 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2602"
     ],
-    "apac-aus-ism-2024-june": [
-      "ISM-0817"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "1.8",
-      "1.9"
+    "apac-aus-ism-2026-march": [
+      "ISM-0817",
+      "ISM-2071"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.02.01.A.03"
