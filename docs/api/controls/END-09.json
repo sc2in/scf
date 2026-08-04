@@ -85,7 +85,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
@@ -113,8 +114,8 @@
     "general-ul-2900-2-2-2016": [
       "8.10(b)"
     ],
-    "emea-isr-cmo-1-0": [
-      "4.37"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.6"
     ]
   }
 }

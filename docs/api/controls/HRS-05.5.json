@@ -18,7 +18,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Human Resources Security (HRS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with HRS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with HRS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with HRS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Personnel management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Personnel management is decentralized at a localized/regionalized function, where there are non-standardized methods to govern personnel matters across the organization.\n▪ Localized HR practices are implemented for hiring, managing, training, investigating and terminating employees, contractors and other personnel that work on behalf of the organization.",
     "3": "Human Resources Security (HRS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with HRS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with HRS domain capabilities are well-documented and kept current by process owners.\n▪ A Human Resources (HR) team, or similar function, is appropriately staffed and supported to implement and maintain HRS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of human resources security operations (e.g., personnel management software solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with HRS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to manage business risks associated with permitting mobile device access to organizational resources.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -104,7 +104,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Human Resources Security",
   "crosswalks": {
@@ -134,6 +135,7 @@
       "03.15.03.a"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.18.a[01]",
       "A.03.15.03.a"
     ],
     "general-shared-assessments-sig-2025": [
@@ -142,19 +144,15 @@
     "usa-federal-doe-c2m2-2-1": [
       "WORKFORCE-1e"
     ],
-    "emea-deu-c5-2020": [
-      "AM-05"
-    ],
-    "emea-isr-cmo-1-0": [
-      "13.2",
-      "13.3",
-      "13.7",
-      "13.10",
-      "15.6",
-      "19.6"
-    ],
     "emea-sau-ecc-1-2018": [
       "1-9-4-2"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-5-1-1",
+      "2-5-1-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "VII.B.TPC-84"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2322"
@@ -168,7 +166,7 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2322"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0229",
       "ISM-0230",
       "ISM-0240",
@@ -186,7 +184,8 @@
       "ISM-1198",
       "ISM-1199",
       "ISM-1200",
-      "ISM-1366"
+      "ISM-1366",
+      "ISM-1866"
     ],
     "apac-nzl-ism-3-9": [
       "8.1.12.C.01",
@@ -205,9 +204,19 @@
       "11.5.16.C.02",
       "11.5.16.C.03",
       "21.1.11.C.01",
-      "21.1.11.C.02",
-      "21.1.22.C.01",
-      "21.1.22.C.02"
+      "22.1.10.C.02",
+      "22.1.13.C.01",
+      "22.1.13.C.02",
+      "22.1.13.C.03",
+      "22.1.13.C.04",
+      "22.1.13.C.05",
+      "22.2.5.C.01",
+      "22.2.6.C.01",
+      "22.2.7.C.01",
+      "22.2.7.C.02",
+      "22.3.5.C.01",
+      "22.3.6.C.01",
+      "22.4.9.C.01"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.18.A",

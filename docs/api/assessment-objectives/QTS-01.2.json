@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "QTS-01.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-01.2",
+      "ao_id": "QTS-01.2_A01",
+      "objective": "a classification scheme exists to determine confidentiality shelf-life.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01.2",
+      "ao_id": "QTS-01.2_A02",
+      "objective": "the shelf-life classification is used as a direct input to Post-Quantum Cryptography (PQC) migration prioritization, including prioritizing data with a shelf-life exceeding the expected PQC arrival horizon.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

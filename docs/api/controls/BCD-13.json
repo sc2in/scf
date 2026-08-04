@@ -94,7 +94,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -138,9 +139,8 @@
       "4.2.2(e)",
       "4.2.3"
     ],
-    "emea-isr-cmo-1-0": [
-      "25.12",
-      "25.18"
+    "americas-arg-ppd-2018": [
+      "D.1.2-DS-4"
     ]
   }
 }

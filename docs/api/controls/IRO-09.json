@@ -18,7 +18,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Incident Response (IRO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Incident response-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Incident response management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ IT and/or cybersecurity personnel facilitate prompt response to suspected or confirmed security incidents, including timely notification to affected stakeholders.",
     "3": "Incident Response (IRO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ An incident response team, or similar function, is appropriately staffed and supported to implement and maintain IRO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of incident response operations (e.g., incident management software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to document, monitor and report the status of cybersecurity and data protection incidents to internal stakeholders all the way through the resolution of the incident.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -108,7 +108,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Incident Response",
   "crosswalks": {
@@ -215,7 +216,8 @@
     ],
     "general-nist-800-171a-r3": [
       "A.03.06.02.a[01]",
-      "A.03.06.02.a[02]"
+      "A.03.06.02.a[02]",
+      "A.03.06.02.b"
     ],
     "general-nist-csf-2-0": [
       "DE.AE-06",
@@ -259,10 +261,10 @@
       "314.4(h)(6)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(1)(ii)(D)"
+      "§ 164.308(a)(1)(ii)(D)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(1)(ii)(D)"
+      "§ 164.308(a)(1)(ii)(D)"
     ],
     "usa-federal-irs-1075-2021": [
       "IR-5"
@@ -282,10 +284,6 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "IR-05"
     ],
-    "emea-eu-eba-ict-srm-2025": [
-      "3.5.1(60)(d)",
-      "3.5.1(60)(d)(ii)"
-    ],
     "emea-eu-gdpr-2016": [
       "Article 33.5"
     ],
@@ -294,32 +292,24 @@
       "3.5.4",
       "6.10.2(a)"
     ],
-    "emea-isr-cmo-1-0": [
-      "24.5"
+    "emea-deu-c5-2020": [
+      "SIM-07"
+    ],
+    "emea-isr-cmo-2-0": [
+      "Appendix A, 13.1"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-89",
-      "TPC-90"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 25.2"
-    ],
-    "emea-esp-decree-311-2022": [
-      "25.2"
+      "VII.B.TPC-90"
     ],
     "emea-uae-niaf-2023": [
       "3.3.1"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0125",
       "ISM-0137",
       "ISM-0733",
       "ISM-1609",
       "ISM-1803"
-    ],
-    "apac-aus-ps-cps-234-2019": [
-      "23",
-      "24"
     ],
     "apac-ind-dpdpa-2023": [
       "8(6)"
@@ -331,9 +321,6 @@
       "3.2.16.C.01",
       "7.3.6.C.01",
       "7.3.6.C.02"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "7.7.5"
     ],
     "americas-can-osfi-b13-2022": [
       "2.7"

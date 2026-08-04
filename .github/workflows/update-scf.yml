@@ -125,17 +125,66 @@ jobs:
             echo
             echo "Full report: workflow-run artifact \`validation-report-${{ steps.resolve.outputs.version }}\`."
             echo
-            echo "Your job: add an override entry (with a reason) to overrides/overrides.json,"
-            echo "or report the workbook bug upstream — then re-dispatch this workflow."
+            echo "Your job: add an override entry (with a reason) to overrides/overrides.json."
+            echo "A renamed tab or column header goes in the \`resolution\` section of that"
+            echo "same file (sheets[] / columns[]) — no code change needed. Then re-dispatch"
+            echo "this workflow. If the workbook itself is wrong, report it upstream."
+            echo
+            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           } > /tmp/issue-body.md
-          gh issue create \
-            --title "SCF ${{ steps.resolve.outputs.version }}: validation gate failed" \
-            --body-file /tmp/issue-body.md
+          # Re-notify on an existing open issue rather than filing a duplicate:
+          # this job is a weekly cron, so the same blockage recurs every Monday.
+          TITLE="SCF ${{ steps.resolve.outputs.version }}: validation gate failed"
+          EXISTING="$(gh issue list --state open --search "$TITLE in:title" \
+                      --json number,title \
+                      --jq "[.[] | select(.title == \"$TITLE\")] | .[0].number // empty")"
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file /tmp/issue-body.md
+            echo "Commented on existing issue #$EXISTING"
+          else
+            gh issue create --title "$TITLE" --body-file /tmp/issue-body.md
+          fi
           exit 1
 
       - name: Full hermetic gate
+        id: hermetic
         if: steps.resolve.outputs.skip == 'false' && steps.pipeline.outputs.gate_rc == '0'
         run: nix flake check -L
+
+      # The validation gate passed but the hermetic check did not, so nothing
+      # is pushed. Without this the run just goes red with no issue filed.
+      - name: Summon a human (hermetic gate failed)
+        if: failure() && steps.hermetic.outcome == 'failure'
+        run: |
+          TITLE="SCF ${{ steps.resolve.outputs.version }}: hermetic gate failed"
+          {
+            echo "\`nix flake check\` failed for SCF ${{ steps.resolve.outputs.version }}"
+            echo "*after* the validation gate passed, so nothing was pushed."
+            echo
+            echo "The dataset parsed and validated cleanly — this is a repo-side"
+            echo "inconsistency (schemas, docs freshness, or version consistency)."
+            echo "Reproduce locally:"
+            echo
+            echo '```'
+            echo "nix develop --command python3 -m scf_api.cli parse \\"
+            echo "  --workbook <2026.x workbook> \\"
+            echo "  --scf-version ${{ steps.resolve.outputs.version }} --out data \\"
+            echo "  --overrides overrides/overrides.json \\"
+            echo "  --report validation/validation-report.json"
+            echo "nix develop --command python3 -m scf_api.cli build --data data --out docs"
+            echo "nix flake check -L"
+            echo '```'
+            echo
+            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } > /tmp/hermetic-body.md
+          EXISTING="$(gh issue list --state open --search "$TITLE in:title" \
+                      --json number,title \
+                      --jq "[.[] | select(.title == \"$TITLE\")] | .[0].number // empty")"
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file /tmp/hermetic-body.md
+          else
+            gh issue create --title "$TITLE" --body-file /tmp/hermetic-body.md
+          fi
 
       - name: Commit and push (or no-op)
         if: steps.resolve.outputs.skip == 'false' && steps.pipeline.outputs.gate_rc == '0'

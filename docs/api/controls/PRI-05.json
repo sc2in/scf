@@ -3,7 +3,7 @@
   "title": "Personal Data (PD) Retention & Disposal",
   "family": "PRI",
   "description": "Mechanisms exist to: \n(1) Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;\n(2) Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and\n(3) Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records).",
-  "scf_question": "Does the organization: \n (1) Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;\n (2) Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and\n (3) Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records)?",
+  "scf_question": "Does the organization: \n(1) Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;\n(2) Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and\n(3) Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records)?",
   "relative_weight": 8,
   "conformity_cadence": "Annual",
   "evidence_requests": [
@@ -19,11 +19,11 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nPrivacy (PRI) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PRI domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Data privacy-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No formal data privacy team exists. Privacy roles are assigned to existing IT / cybersecurity.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Privacy (PRI) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data privacy management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Data privacy management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ The data privacy program is developed to work with IT and cybersecurity staff to ensure that applicable statutory, regulatory and/or contractual data privacy obligations for Personal Data (PD) are properly identified and implemented.",
     "3": "Privacy (PRI) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are well-documented and kept current by process owners.\n▪ A data privacy team, or similar function, is appropriately staffed and supported to implement and maintain PRI domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data privacy operations (e.g., privacy notice management software, customer management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to: \n(1) Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;\n(2) Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and\n(3) Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records).",
     "4": "Privacy (PRI) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-    "5": "Privacy (PRI) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+    "5": "Privacy (PRI) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
   "profiles": [
     "CORE AI Model Deployment",
@@ -106,7 +106,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Privacy",
   "crosswalks": {
@@ -256,9 +257,6 @@
     "general-pci-dss-4-0-1-saq-p2pe": [
       "9.4.6"
     ],
-    "general-scf-dpmp-2025": [
-      "5.0"
-    ],
     "usa-federal-fbi-cjis-6-0": [
       "4.2.2",
       "4.2.3.1",
@@ -334,73 +332,52 @@
     "emea-eu-gdpr-2016": [
       "Article 5.1(e)"
     ],
-    "emea-us-psd2-2015": [
-      "24"
+    "emea-aut-dpa-2018": [
+      "§ 13(3)",
+      "§ 37(2)"
     ],
-    "emea-aut-fappd-2000": [
-      "Sec 7"
-    ],
-    "emea-bel-act-8-1992": [
-      "4-7",
-      "21"
+    "emea-bel-act-30-2018": [
+      "Title 2, Chapter II, Art. 30"
     ],
     "emea-deu-fdpa-2017": [
-      "Sec 3a",
-      "Sec 5",
-      "Sec 13",
-      "Sec 14",
-      "Sec 20"
-    ],
-    "emea-deu-c5-2020": [
-      "OPS-11",
-      "OPS-12",
-      "PI-03"
+      "3.1.47.5",
+      "3.2.48(2)2",
+      "3.3.58(2)",
+      "3.4.62(5)4",
+      "3.4.75(2)",
+      "3.4.75(4)"
     ],
     "emea-grc-pirppd-1997": [
-      "4",
-      "7"
+      "B.4.1.d",
+      "B.4.2"
     ],
-    "emea-hun-isdfi-2011": [
-      "5"
+    "emea-hun-act-cxii-2011": [
+      "II.8.9(1)(b)",
+      "II.13.15(3)",
+      "II.13.17(2)(a)",
+      "II.13.17(2)(b)",
+      "II.13.17(2)(c)",
+      "II.13.17(2)(d)",
+      "II.13.17(2)(e)",
+      "II.14.20(4)(d)",
+      "II.15.21(7)"
     ],
-    "emea-irl-dpa-2003": [
-      "2"
-    ],
-    "emea-isr-cmo-1-0": [
-      "15.4"
-    ],
-    "emea-isr-ppl-5741-1981": [
-      "8"
-    ],
-    "emea-ita-pdpc-2003": [
-      "11"
+    "emea-ita-pdpc-2018": [
+      "Article 99(3)"
     ],
     "emea-ken-pda-2019": [
-      "25(g)",
-      "34(3)",
-      "39(1)",
-      "39(1)(a)",
-      "39(1)(b)",
-      "39(1)(c)",
-      "39(1)(d)",
-      "39(2)"
+      "IV.25(g)",
+      "IV.34(1)(b)",
+      "IV.34(3)",
+      "IV.39(1)",
+      "IV.39(1)(a)",
+      "IV.39(1)(b)",
+      "IV.39(1)(c)",
+      "IV.39(1)(d)",
+      "IV.39(2)"
     ],
     "emea-nga-dpr-2019": [
-      "2.1(1)(c)"
-    ],
-    "emea-nor-pda-2018": [
-      "8",
-      "11",
-      "15",
-      "27",
-      "28"
-    ],
-    "emea-pol-act-29-1997": [
-      "23",
-      "26"
-    ],
-    "emea-rus-federal-law-27-2006": [
-      "5"
+      "3.1(9)(a)"
     ],
     "emea-sau-pdpl-2023": [
       "Article 11.4",
@@ -408,127 +385,103 @@
       "Article 18.2.a",
       "Article 18.2.b"
     ],
-    "emea-sau-sama-csf-1-2017": [
-      "3.3.11"
-    ],
     "emea-srb-act-9-2018": [
-      "5.5",
-      "8"
+      "II.8",
+      "III.3.30-1(1)"
     ],
     "emea-zaf-popia-2013": [
-      "4",
-      "14",
-      "16"
-    ],
-    "emea-esp-decree-1720-2007": [
-      "8",
-      "22"
+      "3.A.3.14(1)",
+      "3.A.3.14(1)(a)",
+      "3.A.3.14(1)(b)",
+      "3.A.3.14(1)(c)",
+      "3.A.3.14(1)(d)",
+      "3.A.3.14(2)",
+      "3.A.3.14(3)",
+      "3.A.3.14(3)(a)",
+      "3.A.3.14(3)(b)",
+      "3.A.3.14(4)",
+      "3.A.3.14(5)",
+      "3.A.3.14(6)",
+      "3.A.3.14(6)(a)",
+      "3.A.3.14(6)(b)",
+      "3.A.3.14(6)(c)",
+      "3.A.3.14(6)(d)",
+      "3.A.3.14(7)"
     ],
     "emea-che-fadp-2025": [
-      "4"
-    ],
-    "emea-tur-lppd-2016": [
-      "5",
-      "7"
-    ],
-    "emea-gbr-dpa-1998": [
-      "Chapter29-Schedule1-Part1-Principle 5"
-    ],
-    "apac-aus-privacy-act-1998": [
-      "APP Part 3",
-      "APP Part 6"
+      "2.1.6.4"
     ],
     "apac-aus-privacy-principles-2026": [
-      "APP 4",
-      "APP 6"
+      "4.11.2",
+      "4.11.2.a",
+      "4.11.2.b",
+      "4.11.2.c",
+      "4.11.2.d"
     ],
     "apac-chn-pipl-2021": [
-      "10",
-      "19",
-      "47",
-      "47(1)",
-      "47(2)",
-      "47(3)",
-      "47(4)",
-      "47(5)"
+      "Article 19",
+      "Article 47"
     ],
     "apac-hkg-pdo-2022": [
-      "Principle 2",
-      "Sec 26",
-      "Principle 3",
-      "Sec 4"
+      "26(1)",
+      "26(1)(a)",
+      "26(1)(b)",
+      "26(2)",
+      "26(2)(a)",
+      "26(2)(b)",
+      "Schedule 1 - 2(2)",
+      "Schedule 1 - 2(3)"
     ],
     "apac-ind-privacy-rules-2011": [
-      "5"
+      "5(4)"
     ],
-    "apac-jpn-ppi-2020": [
-      "19"
+    "apac-jpn-appi-2020": [
+      "IV.2.35-2(5)"
     ],
     "apac-mys-pdpa-2010": [
-      "5",
-      "6",
-      "10"
+      "10(1)",
+      "10(2)"
+    ],
+    "apac-nzl-privacy-act-2020": [
+      "3.1.22.9"
     ],
     "apac-phl-dpa-2012": [
-      "19",
-      "21"
+      "III.11(e)",
+      "III.11(f)"
     ],
     "apac-sgp-pdpa-2012": [
-      "23",
-      "25"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "11.1.7"
+      "5.22A(1)",
+      "5.22A(2)"
     ],
     "apac-kor-pipa-2011": [
-      "3",
-      "4",
-      "15",
-      "19",
-      "21",
-      "37"
-    ],
-    "apac-twn-pdpa-2025": [
-      "5",
-      "19"
-    ],
-    "americas-arg-ppd-2018": [
-      "5.1",
-      "4.3",
-      "9.2"
+      "III.1.21(1)",
+      "III.1.21(2)",
+      "III.1.21(3)",
+      "III.1.21(4)"
     ],
     "americas-bhs-dpa-2003": [
-      "6",
-      "12"
+      "II.5(1)(e)",
+      "II.9(1)",
+      "II.9(1)(a)",
+      "II.9(1)(b)",
+      "II.9(1)(c)"
     ],
     "americas-bra-lgpd-2018": [
-      "6.2",
-      "6.9",
-      "13",
-      "14",
-      "15",
-      "21"
+      "II.IV.16",
+      "II.IV.16.I",
+      "II.IV.16.II",
+      "II.IV.16.III",
+      "II.IV.16.IV"
     ],
     "americas-can-pipeda-2000": [
-      "Sec 7",
-      "Sec 8",
-      "Principle 5",
-      "Principle 6"
+      "P5-4.5.3",
+      "P7-4.7.5"
     ],
     "americas-chl-act-19628-1999": [
-      "9"
-    ],
-    "americas-col-law-1581-2012": [
-      "4"
+      "I.6"
     ],
     "americas-mex-fdpa-2010": [
-      "7",
-      "8",
-      "9",
-      "11",
-      "12",
-      "13",
-      "14"
+      "II.11"
     ]
   }
 }

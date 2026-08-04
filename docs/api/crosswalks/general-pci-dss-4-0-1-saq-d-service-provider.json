@@ -1,6 +1,6 @@
 {
   "framework_id": "general-pci-dss-4-0-1-saq-d-service-provider",
-  "display_name": "Payment Card Industry Data Security Standard (PCI DSS) - SAQ D Service Provider (v4.0.1)",
+  "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 - Self - Assessment Questionnaire (SAQ) D Service Provider",
   "scf_to_framework": {
     "total_mappings": 339,
     "mappings": {

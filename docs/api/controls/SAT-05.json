@@ -23,7 +23,13 @@
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
   "profiles": [],
-  "possible_solutions": {},
+  "possible_solutions": {
+    "micro_small": "∙ Informal security knowledge sharing (e.g., team meetings, email updates)\n∙ Subscribe to CISA and NIST security alerts",
+    "small": "∙ Regular security briefings or newsletter\n∙ CISA and NIST alert subscriptions for the security team",
+    "medium": "∙ Internal security knowledge sharing program\n∙ Cross-functional security briefings\n∙ Lessons learned from incidents and assessments",
+    "large": "∙ Formal knowledge sharing program (security communities of practice)\n∙ Internal security portal or wiki\n∙ Cross-functional security training and briefings",
+    "enterprise": "∙ Enterprise security knowledge management platform\n∙ Communities of practice for security specializations\n∙ Cross-organizational knowledge sharing and lessons learned\n∙ Integration with LMS and professional development programs"
+  },
   "risks": [
     "R-AC-1",
     "R-AC-2",
@@ -94,9 +100,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "usa-federal-dhs-cisa-cpg-2-0": [

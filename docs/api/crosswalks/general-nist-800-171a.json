@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-171a",
-  "display_name": "NIST SP 800-171A",
+  "display_name": "NIST SP 800 - 171A - Assessing Security Requirements for Controlled Unclassified Information",
   "scf_to_framework": {
     "total_mappings": 134,
     "mappings": {

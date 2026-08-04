@@ -90,7 +90,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -182,10 +183,10 @@
       "CP-04"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(7)(ii)(D)"
+      "§ 164.308(a)(7)(ii)(D)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(7)(ii)(D)"
+      "§ 164.308(a)(7)(ii)(D)"
     ],
     "usa-federal-irs-1075-2021": [
       "CP-4"
@@ -207,8 +208,9 @@
       "CP-04"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.7.4(88)",
-      "3.7.4(90)"
+      "3.7.3.84(c)",
+      "3.7.4.88",
+      "3.7.4.90"
     ],
     "emea-eu-dora-2023": [
       "Article 13.2",
@@ -221,11 +223,9 @@
     "emea-eu-nis2-annex-2024": [
       "4.1.4"
     ],
-    "emea-deu-c5-2020": [
-      "BCM-04"
-    ],
-    "emea-gbr-cap-1850-2020": [
-      "D2"
+    "apac-aus-ps-cps-230-2023": [
+      "32",
+      "45"
     ],
     "apac-ind-sebi-2024": [
       "RC.IM.S1",
@@ -235,20 +235,12 @@
       "RS.AN.S4b",
       "RS.IM.S1"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP64",
       "HML63"
     ],
     "apac-nzl-hisf-suppliers-2023": [
       "HSUP56"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "7.8.1",
-      "7.8.2",
-      "7.8.3"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "5.9"
     ]
   }
 }

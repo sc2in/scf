@@ -3,7 +3,7 @@
   "title": "Security, Compliance & Resilience Controls Oversight",
   "family": "CPL",
   "description": "Mechanisms exist to provide a security, compliance and resilience controls oversight function that reports to the organization's executive leadership.",
-  "scf_question": "Does the organization provide a security, compliance and resilience controls oversight function that reports to the organization's executive leadership?",
+  "scf_question": "Does the organization provide a security, compliance and resilience controls oversight function that reports to its executive leadership?",
   "relative_weight": 10,
   "conformity_cadence": "Annual",
   "evidence_requests": [
@@ -24,7 +24,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Compliance (CPL) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CPL domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CPL domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CPL  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Compliance management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Compliance management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ External compliance requirements for cybersecurity and data privacy are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity personnel use an entity-defined set of controls to conduct cybersecurity and data protection control assessments.\n▪ A formal report is generated for each security assessment/audit with sufficient details to understand the organization's ability to demonstrate conformity with its requirements.",
     "3": "Compliance (CPL) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CPL domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CPL domain capabilities are well-documented and kept current by process owners.\n▪ A Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain CPL domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CPL domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to provide a security, compliance and resilience controls oversight function that reports to the organization's executive leadership.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -116,9 +116,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
   "family_name": "Compliance",
   "crosswalks": {
     "general-aicpa-pmf-2020": [
@@ -213,7 +213,7 @@
     "general-iso-31000-2018": [
       "6.6"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1001",
       "T1001.001",
       "T1001.002",
@@ -506,9 +506,18 @@
       "3.12.3"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.12.01",
       "A.03.12.03[01]",
       "A.03.12.03[03]",
       "A.03.12.03[04]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.12.03E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.12.03E[02]",
+      "DS-A.03.12.03E[03]",
+      "DS-A.03.12.03E[04]"
     ],
     "general-nist-csf-2-0": [
       "GV.OC-03"
@@ -527,9 +536,6 @@
       "10.7.1",
       "10.7.2",
       "10.7.3"
-    ],
-    "general-scf-dpmp-2025": [
-      "11.4"
     ],
     "general-tisax-6-0-3": [
       "1.5.1",
@@ -611,6 +617,9 @@
       "CA-07(01)",
       "PM-14"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.625(d)(7)"
+    ],
     "usa-federal-law-glba-cfr-314-2023": [
       "314.4(d)(1)"
     ],
@@ -618,12 +627,12 @@
       "155.260(a)(3)(viii)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.306(d)(3)(i)",
-      "164.316(b)(2)(iii)"
+      "§ 164.306(d)(3)(i)",
+      "§ 164.316(b)(2)(iii)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.306(d)(3)(i)",
-      "164.316(b)(2)(iii)"
+      "§ 164.306(d)(3)(i)",
+      "§ 164.316(b)(2)(iii)"
     ],
     "usa-federal-irs-1075-2021": [
       "2.D.3",
@@ -676,122 +685,42 @@
       "2447(b)(8)(A)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.4.6(41)",
-      "3.4.6(42)",
-      "3.4.6(43)",
-      "3.4.6(43)(a)",
-      "3.4.6(43)(b)",
-      "3.4.6(44)",
-      "3.4.6(45)",
-      "3.4.6(46)",
-      "3.4.6(47)",
-      "3.4.6(48)"
+      "3.3.1.11",
+      "3.3.3.19",
+      "3.3.6.25",
+      "3.4.6.41",
+      "3.4.6.46",
+      "3.4.6.48"
     ],
     "emea-eu-gdpr-2016": [
       "Article 32.1(d)"
     ],
-    "emea-us-psd2-2015": [
-      "3"
-    ],
-    "emea-deu-fdpa-2017": [
-      "Sec 9",
-      "Sec 9a",
-      "Annex"
-    ],
-    "emea-deu-bsrit-2017": [
-      "5.6"
-    ],
     "emea-deu-c5-2020": [
-      "SP-03"
+      "RB-05-DOAR",
+      "SPN-02",
+      "COM-02"
     ],
-    "emea-grc-pirppd-1997": [
-      "10"
+    "emea-isr-cmo-2-0": [
+      "4.1, Stage 5"
     ],
-    "emea-hun-isdfi-2011": [
-      "7"
-    ],
-    "emea-irl-dpa-2003": [
-      "2"
-    ],
-    "emea-isr-cmo-1-0": [
-      "1.3",
-      "3.1"
-    ],
-    "emea-isr-ppl-5741-1981": [
-      "16",
-      "17"
-    ],
-    "emea-ita-pdpc-2003": [
-      "31",
-      "33",
-      "34",
-      "35"
-    ],
-    "emea-nga-dpr-2019": [
-      "4.1(5)(a)",
-      "4.1(5)(b)",
-      "4.1(5)(c)",
-      "4.1(5)(d)",
-      "4.1(5)(e)",
-      "4.1(5)(f)",
-      "4.1(5)(g)",
-      "4.1(5)(h)",
-      "4.1(5)(i)",
-      "4.1(5)(j)",
-      "4.1(6)",
-      "4.1(7)"
-    ],
-    "emea-nor-pda-2018": [
-      "13",
-      "14"
-    ],
-    "emea-pol-act-29-1997": [
-      "1",
-      "36"
-    ],
-    "emea-rus-federal-law-27-2006": [
-      "7",
-      "19"
+    "emea-qat-pdppl-2020": [
+      "3.11.7"
     ],
     "emea-sau-cscc-1-2019": [
-      "1-4"
+      "1-4-1"
     ],
     "emea-sau-cgiot-2024": [
       "1-7-3"
     ],
     "emea-sau-ecc-1-2018": [
-      "1-3-2"
-    ],
-    "emea-sau-otcc-1-2022": [
-      "1-6",
-      "1-6-1"
+      "1-8-1",
+      "1-8-3"
     ],
     "emea-sau-sama-csf-1-2017": [
-      "3.2.4"
-    ],
-    "emea-zaf-popia-2013": [
-      "8",
-      "19",
-      "21"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 10.1",
-      "Article 10.2",
-      "Article 10.3"
+      "3.2.5"
     ],
     "emea-esp-decree-311-2022": [
-      "10.1",
-      "10.2",
-      "10.3"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "9"
-    ],
-    "emea-che-fadp-2025": [
-      "7"
-    ],
-    "emea-tur-lppd-2016": [
-      "12"
+      "Article 16(1)"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "1206"
@@ -802,41 +731,18 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "1206"
     ],
-    "apac-aus-privacy-act-1998": [
-      "APP Part 11"
-    ],
     "apac-aus-ps-cps-230-2023": [
-      "29",
-      "30",
+      "58",
+      "58(a)",
       "58(b)",
       "58(c)"
     ],
     "apac-aus-ps-cps-234-2019": [
-      "27",
-      "27(a)",
-      "27(b)",
-      "27(c)",
-      "27(d)",
-      "27(e)",
-      "29"
-    ],
-    "apac-chn-csnip-2012": [
-      "4"
-    ],
-    "apac-chn-pipl-2021": [
-      "54"
-    ],
-    "apac-hkg-pdo-2022": [
-      "Principle 4"
-    ],
-    "apac-ind-privacy-rules-2011": [
-      "8"
+      "29",
+      "31"
     ],
     "apac-ind-sebi-2024": [
       "EV.ST.S4"
-    ],
-    "apac-jpn-ppi-2020": [
-      "21"
     ],
     "apac-jpn-ismap": [
       "4.6.1.1",
@@ -846,10 +752,10 @@
       "12.7.1.8",
       "12.7.1.9"
     ],
-    "apac-mys-pdpa-2010": [
-      "9"
+    "apac-mys-bnm-rmit-2025": [
+      "13.2"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP67",
       "HML66"
     ],
@@ -860,34 +766,18 @@
       "6.1.7.C.01",
       "23.2.18.C.01"
     ],
-    "apac-phl-dpa-2012": [
-      "25",
-      "29"
-    ],
-    "apac-sgp-pdpa-2012": [
-      "24"
-    ],
     "apac-sgp-mas-trm-2021": [
-      "3.2.3"
-    ],
-    "apac-twn-pdpa-2025": [
-      "27"
+      "3.2.3",
+      "15.1.1"
     ],
     "americas-bmu-mba-coc-2020": [
-      "5.7"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "6.10"
+      "5.4",
+      "5.6",
+      "5.7-BP2"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.12.01",
       "03.12.03"
-    ],
-    "americas-can-pipeda-2000": [
-      "Principle 7"
-    ],
-    "americas-chl-act-19628-1999": [
-      "7"
     ]
   }
 }

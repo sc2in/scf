@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AST-05.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-05.2",
+      "ao_id": "AST-05.2_A01",
+      "objective": "reasonable physical security protections for storage are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.2",
+      "ao_id": "AST-05.2_A02",
+      "objective": "processes exist to define criteria for Technology Assets, Applications, Services and/or Data (TAASD) storage",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.2",
+      "ao_id": "AST-05.2_A03",
+      "objective": "Technology Assets, Applications, Services and/or Data (TAASD) are stored in rooms and/or facilities with reasonable physical security protections.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

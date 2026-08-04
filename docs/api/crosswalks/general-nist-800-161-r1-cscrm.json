@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-161-r1-cscrm",
-  "display_name": "NIST SP 800-161 R1 UDP1 - C-SCRM Baseline",
+  "display_name": "NIST SP 800 - 161 R1 UDP1 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations - C - SCRM Baseline",
   "scf_to_framework": {
     "total_mappings": 132,
     "mappings": {

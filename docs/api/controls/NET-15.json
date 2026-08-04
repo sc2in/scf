@@ -102,7 +102,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {
@@ -140,7 +141,7 @@
     "general-iso-27018-2025": [
       "8.21"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1011",
       "T1011.001",
       "T1020.001",
@@ -223,7 +224,8 @@
     "general-nist-800-171a-r3": [
       "A.03.01.16.a[01]",
       "A.03.01.16.a[02]",
-      "A.03.01.16.a[04]"
+      "A.03.01.16.a[04]",
+      "A.03.01.16.b"
     ],
     "general-nist-800-207": [
       "NIST Tenet 2"
@@ -287,22 +289,22 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "AC-18"
     ],
-    "emea-isr-cmo-1-0": [
-      "4.24",
-      "12.12",
-      "12.14"
-    ],
     "emea-sau-cscc-1-2019": [
       "2-3-1-5",
       "2-4-1-4"
     ],
-    "emea-sau-otcc-1-2022": [
-      "2-4-1-4",
-      "2-4-1-5"
+    "emea-sau-ecc-1-2018": [
+      "2-5-3-4"
     ],
-    "apac-aus-ism-2024-june": [
+    "emea-sau-otcc-1-2022": [
+      "2-4-1-4"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.com.2",
+      "mp.com.3"
+    ],
+    "apac-aus-ism-2026-march": [
       "ISM-0225",
-      "ISM-0248",
       "ISM-0536",
       "ISM-1314",
       "ISM-1315",

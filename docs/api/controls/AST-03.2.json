@@ -95,7 +95,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Asset Management",
   "crosswalks": {
@@ -120,7 +121,7 @@
     "general-iso-42001-2023": [
       "A.7.5"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1041",
       "T1048",
       "T1048.002",
@@ -168,6 +169,15 @@
     "general-nist-800-161-r1-level-3": [
       "SR-4"
     ],
+    "general-nist-800-172-r3": [
+      "03.17.04E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.17.04E[01]",
+      "A.03.17.04E.ODP[01]",
+      "DS-A.03.17.04E[02]",
+      "DS-A.03.17.04E[03]"
+    ],
     "general-sparta": [
       "CM0026",
       "CM0049"
@@ -175,10 +185,14 @@
     "usa-federal-dow-zta-reference-architecture-2-0": [
       "4.2"
     ],
-    "apac-aus-ism-2024-june": [
+    "emea-esp-ccn-stic-825-2026": [
+      "op.ext.3"
+    ],
+    "apac-aus-ism-2026-march": [
       "ISM-1790",
       "ISM-1791",
-      "ISM-1792"
+      "ISM-1792",
+      "ISM-1816"
     ]
   }
 }

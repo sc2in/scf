@@ -63,7 +63,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Privacy",
   "crosswalks": {
@@ -85,15 +86,9 @@
     "general-nist-800-82-r3": [
       "PT-05(02)"
     ],
-    "general-scf-dpmp-2025": [
-      "4.0"
-    ],
     "usa-federal-cms-marse-2-0": [
       "TR-2",
       "TR-2.c"
-    ],
-    "emea-gbr-dpa-1998": [
-      "Chapter29-Schedule1-Part1-Principles 8"
     ]
   }
 }

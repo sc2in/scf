@@ -1,8 +1,8 @@
 {
   "framework_id": "usa-federal-cms-marse-2-0",
-  "display_name": "MARS-E Document Suite (2.0)",
+  "display_name": "US - Centers for Medicare & Medicaid Services MARS - E Document Suite, Version 2.0",
   "scf_to_framework": {
-    "total_mappings": 391,
+    "total_mappings": 392,
     "mappings": {
       "GOV-01": [
         "PM-1",
@@ -253,6 +253,9 @@
         "CP-10-IS.1.c",
         "CP-10-IS.1.d",
         "CP-10-IS.1.e"
+      ],
+      "BCD-12.1": [
+        "CP-10(2)"
       ],
       "CAP-01": [
         "SC-5"
@@ -2249,7 +2252,7 @@
     }
   },
   "framework_to_scf": {
-    "total_mappings": 1286,
+    "total_mappings": 1287,
     "mappings": {
       "PM-1": [
         "GOV-01",
@@ -2751,6 +2754,9 @@
       ],
       "CP-10-IS.1.e": [
         "BCD-12"
+      ],
+      "CP-10(2)": [
+        "BCD-12.1"
       ],
       "SC-5": [
         "CAP-01",

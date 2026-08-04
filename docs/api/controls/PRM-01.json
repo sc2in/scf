@@ -99,9 +99,9 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
   "family_name": "Project & Resource Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
@@ -227,12 +227,15 @@
     "general-nist-800-171-r3": [
       "03.16.01"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.16.01"
+    ],
     "general-nist-csf-2-0": [
       "GV.RM",
       "GV.RR-03"
     ],
-    "general-scf-dpmp-2025": [
-      "1.4"
+    "general-nist-cswp-39": [
+      "6.1"
     ],
     "usa-federal-dow-cert-rmm-1-2": [
       "EF:SG1.SP3",
@@ -303,12 +306,10 @@
       "PL-01"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.2.1(6)",
-      "3.6.1(61)",
-      "3.6.1(62)",
-      "3.6.1(64)",
-      "3.6.1(65)",
-      "3.6.1(66)"
+      "3.6.1.61",
+      "3.6.1.62",
+      "3.6.1.66",
+      "3.6.2.74"
     ],
     "emea-eu-dora-2023": [
       "Article 7(a)",
@@ -316,45 +317,39 @@
       "Article 7(c)",
       "Article 7(d)"
     ],
-    "emea-aut-fappd-2000": [
-      "Sec 14",
-      "Sec 15"
-    ],
-    "emea-bel-act-8-1992": [
-      "16"
-    ],
     "emea-deu-bsrit-2017": [
       "2.3",
       "7.4",
       "7.5",
       "8.3"
     ],
-    "emea-isr-cmo-1-0": [
-      "17.5"
+    "emea-isr-cmo-2-0": [
+      "4.1, Stage 4"
     ],
     "emea-sau-cscc-1-2019": [
-      "1-1"
+      "1-3-1",
+      "2-13-1"
     ],
     "emea-sau-ecc-1-2018": [
       "1-1-3",
       "1-2-3"
     ],
-    "emea-zaf-popia-2013": [
-      "19"
+    "emea-sau-otcc-1-2022": [
+      "1-4-2"
     ],
-    "emea-esp-ccn-stic-825-2023": [
-      "9"
+    "emea-sau-sama-csf-1-2017": [
+      "3.1.5.1"
     ],
-    "apac-aus-ism-2024-june": [
+    "emea-esp-ccn-stic-825-2026": [
+      "op.pl.3"
+    ],
+    "apac-aus-ism-2026-march": [
       "ISM-0720",
       "ISM-0732"
     ],
     "apac-aus-ps-cps-230-2023": [
-      "25"
-    ],
-    "apac-aus-ps-cps-234-2019": [
-      "13",
-      "15"
+      "25",
+      "27(b)"
     ],
     "apac-ind-sebi-2024": [
       "GV.RR.S4"
@@ -362,21 +357,23 @@
     "apac-jpn-ismap": [
       "4.5.1.1"
     ],
+    "apac-mys-bnm-rmit-2025": [
+      "8.1",
+      "8.2",
+      "8.4"
+    ],
     "apac-nzl-ism-3-9": [
       "3.2.15.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
-      "5.1.1",
-      "5.1.2",
-      "5.1.3",
-      "5.1.4"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "1.1",
-      "6.22"
+      "5.2.1",
+      "5.2.2"
     ],
     "americas-can-osfi-b13-2022": [
       "1.2.1"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "2.3.1"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.16.01"

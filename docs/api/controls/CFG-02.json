@@ -29,9 +29,9 @@
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
     "1": "Configuration Management (CFG) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CFG domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Configuration management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Configurations mostly conform to industry-recognized standards for hardening (e.g., DISA STIGs, CIS Benchmarks or OEM security guides).",
     "2": "Configuration Management (CFG) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Configuration management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Configuration management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Secure Baseline Configurations (SBC) are used to configure Technology Assets, Applications and/or Services (TAAS) according to the principles of least functionality and least privilege, mostly conforming to industry-recognized standards for hardening (e.g., DISA STIGs, CIS Benchmarks or OEM security guides).\n▪ The restrictiveness of the SBCs are commensurate with the criticality of the TAAS and/or sensitivity of the data being protected, in accordance with applicable laws, regulations and frameworks.\n▪ Tailored SBC are created for higher-risk operating environments and/or for TAAS that store, process or transmit sensitive/regulated data.",
-    "3": "Configuration Management (CFG) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are well-documented and kept current by process owners.\n▪ A configuration management team, or similar function, is appropriately staffed and supported to implement and maintain CFG domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of configuration management operations (e.g., Configuration Management Database (CMBD) Asset Management solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to develop, document and maintain secure baseline configurations for Technology Assets, Applications and/or Services (TAAS) that are consistent with industry-accepted system hardening standards.",
+    "3": "Configuration Management (CFG) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are well-documented and kept current by process owners.\n▪ A configuration management team, or similar function, is appropriately staffed and supported to implement and maintain CFG domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of configuration management operations (e.g., Configuration Management Database (CMBD) Asset Management solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to develop, document and maintain secure baseline configurations for Technology Assets, Applications and/or Services (TAAS) that are consistent with industry-accepted system hardening standards. ",
     "4": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-    "5": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+    "5": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
   "profiles": [
     "SCRMS",
@@ -104,7 +104,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Configuration Management",
   "crosswalks": {
@@ -126,6 +127,7 @@
       "4.6",
       "4.7",
       "4.8",
+      "4.10",
       "10.3",
       "10.4",
       "10.5",
@@ -150,6 +152,7 @@
       "4.6",
       "4.7",
       "4.8",
+      "4.10",
       "10.3",
       "10.4",
       "10.5",
@@ -164,6 +167,7 @@
       "4.6",
       "4.7",
       "4.8",
+      "4.10",
       "10.3",
       "10.4",
       "10.5",
@@ -262,7 +266,7 @@
       "8.25",
       "8.26"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1001",
       "T1001.001",
       "T1001.002",
@@ -745,6 +749,7 @@
     ],
     "general-nist-800-171-r3": [
       "03.01.01.h",
+      "03.01.03",
       "03.01.08.a",
       "03.01.08.b",
       "03.01.09",
@@ -754,16 +759,22 @@
       "03.01.11",
       "03.01.12.a",
       "03.01.16.a",
+      "03.01.16.c",
       "03.01.18.a",
+      "03.03.08.a",
       "03.04.01.a",
       "03.04.02.a",
+      "03.04.02.b",
       "03.04.06.a",
       "03.04.06.b",
       "03.04.06.d",
+      "03.05.04",
+      "03.05.07.c",
       "03.05.07.d",
       "03.05.07.e",
       "03.05.07.f",
       "03.05.12.d",
+      "03.07.05.b",
       "03.08.07.a",
       "03.13.12.b"
     ],
@@ -775,7 +786,17 @@
       "3.4.2[b]"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.01.h",
       "A.03.01.03[01]",
+      "A.03.01.03[02]",
+      "A.03.01.08.a",
+      "A.03.01.08.b",
+      "A.03.01.09",
+      "A.03.01.10.a",
+      "A.03.01.10.b",
+      "A.03.01.10.c",
+      "A.03.01.11",
+      "A.03.01.12.a[03]",
       "A.03.01.16.a[03]",
       "A.03.01.16.c",
       "A.03.01.18.a[02]",
@@ -789,18 +810,48 @@
       "A.03.04.06.ODP[03]",
       "A.03.04.06.ODP[04]",
       "A.03.04.06.ODP[05]",
+      "A.03.04.06.a",
       "A.03.04.06.b[01]",
       "A.03.04.06.b[02]",
       "A.03.04.06.b[03]",
       "A.03.04.06.b[04]",
       "A.03.04.06.b[05]",
+      "A.03.04.06.d",
       "A.03.05.04[01]",
       "A.03.05.04[02]",
       "A.03.05.07.c",
       "A.03.05.07.d",
       "A.03.05.07.e",
       "A.03.05.07.f",
-      "A.03.07.05.b[02]"
+      "A.03.05.12.d",
+      "A.03.07.05.b[01]",
+      "A.03.08.07.a",
+      "A.03.13.12.b"
+    ],
+    "general-nist-800-172-r3": [
+      "03.01.04E",
+      "03.01.14E",
+      "03.01.16E",
+      "03.05.01E",
+      "03.05.05E",
+      "03.12.04E",
+      "03.13.06E",
+      "03.13.11E",
+      "03.13.13E",
+      "03.14.11E"
+    ],
+    "general-nist-800-172a-r3": [
+      "A.03.01.04E.ODP[01]",
+      "A.03.01.14E.ODP[03]",
+      "A.03.01.14E.ODP[04]",
+      "DS-A.03.01.16E",
+      "A.03.05.01E.ODP[01]",
+      "DS-A.03.05.05E",
+      "DS-A.03.12.04E.c",
+      "A.03.13.06E.ODP[01]",
+      "DS-A.03.13.11E[02]",
+      "A.03.13.13E.ODP[01]",
+      "A.03.14.11E.ODP[01]"
     ],
     "general-nist-800-207": [
       "NIST Tenet 5"
@@ -915,9 +966,6 @@
       "10.6.2",
       "10.6.3"
     ],
-    "general-scf-dpmp-2025": [
-      "7.12"
-    ],
     "general-shared-assessments-sig-2025": [
       "N.11"
     ],
@@ -1020,20 +1068,24 @@
       "SA-08",
       "SA-15(05)"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(b)(2)",
+      "101.650(c)(2)"
+    ],
     "usa-federal-hhs-45-cfr-155-260-2016": [
       "155.260(a)(6)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.312(a)(2)(iii)",
-      "164.312(e)(1)",
-      "164.312(e)(2)(i)",
-      "164.312(e)(2)(ii)"
+      "§ 164.312(a)(2)(iii)",
+      "§ 164.312(e)(1)",
+      "§ 164.312(e)(2)(i)",
+      "§ 164.312(e)(2)(ii)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.312(a)(2)(iii)",
-      "164.312(e)(1)",
-      "164.312(e)(2)(i)",
-      "164.312(e)(2)(ii)"
+      "§ 164.312(a)(2)(iii)",
+      "§ 164.312(e)(1)",
+      "§ 164.312(e)(2)(i)",
+      "§ 164.312(e)(2)(ii)"
     ],
     "usa-federal-irs-1075-2021": [
       "3.3.8.b",
@@ -1169,7 +1221,7 @@
       "Article 17.1(e)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.4.4(36)(b)"
+      "3.4.4.36(b)"
     ],
     "emea-eu-dora-2023": [
       "Article 9.3(a)",
@@ -1190,28 +1242,37 @@
       "6.8"
     ],
     "emea-deu-c5-2020": [
-      "AM-02",
-      "AM-03",
-      "OPS-23"
+      "RB-05",
+      "RB-22",
+      "RB-22-DOAR",
+      "IDM-11",
+      "IDM-11-BP1",
+      "IDM-11-BP2",
+      "IDM-11-BP3",
+      "IDM-11-BP4",
+      "IDM-11-BP5",
+      "IDM-11-DOAR",
+      "IDM-11-DOAR-BP1",
+      "IDM-11-DOAR-BP2",
+      "IDM-11-DOAR-BP3",
+      "IDM-11-DOAR-BP4",
+      "IDM-11-DOAR-BP5",
+      "IDM-11-DOAR-BP6",
+      "IDM-11-DOAR-BP7"
     ],
-    "emea-isr-cmo-1-0": [
-      "3.3",
-      "4.9",
-      "4.12",
-      "4.15",
-      "6.1",
-      "9.21",
-      "12.13",
-      "12.24",
-      "12.29",
-      "13.5",
-      "13.6",
-      "14.2",
-      "15.6"
+    "emea-isr-cmo-2-0": [
+      "Appendix A, 3.1",
+      "Appendix A, 4.1",
+      "Appendix A, 4.2"
     ],
     "emea-sau-cscc-1-2019": [
       "1-3-2-3",
-      "2-3-1-7"
+      "2-2-1-5",
+      "2-2-1-6",
+      "2-3-1-6",
+      "2-3-1-7",
+      "2-4-1-3",
+      "2-12-1"
     ],
     "emea-sau-cgiot-2024": [
       "1-2-2",
@@ -1222,36 +1283,47 @@
     ],
     "emea-sau-ecc-1-2018": [
       "1-3-3",
-      "2-4-1",
-      "2-4-2",
-      "5-1-3-7"
+      "2-4-1"
     ],
     "emea-sau-otcc-1-2022": [
-      "2-2-1-5",
-      "2-3-1-1",
-      "2-3-1-7"
+      "2-2-1-8",
+      "2-4-1-4"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-10",
-      "TPC-13",
-      "TPC-14",
-      "TPC-15",
-      "TPC-16",
-      "TPC-17",
-      "TPC-22",
-      "TPC-38",
-      "TPC-56",
-      "TPC-63",
-      "TPC-87"
+      "VII.A.TPC-2",
+      "VII.A.TPC-2-BP1",
+      "VII.A.TPC-2-BP2",
+      "VII.A.TPC-2-BP3",
+      "VII.A.TPC-2-BP4",
+      "VII.A.TPC-2-BP5",
+      "VII.A.TPC-10",
+      "VII.B.TPC-56",
+      "VII.B.TPC-62",
+      "VII.B.TPC-63",
+      "VII.B.TPC-63-BP1",
+      "VII.B.TPC-63-BP2",
+      "VII.B.TPC-63-BP3",
+      "VII.B.TPC-63-BP4"
     ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 20(d)"
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.6",
+      "3.3.6.1",
+      "3.3.13.4.c.2"
     ],
     "emea-esp-decree-311-2022": [
-      "20(d)"
+      "Article 12(7)",
+      "Article 20(a)",
+      "Article 20(c)",
+      "Article 20(d)",
+      "Single Transitional Provision(3)"
     ],
-    "emea-esp-ccn-stic-825-2023": [
-      "7.3.2 [OP.EXP.2]"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.6",
+      "op.exp.2",
+      "op.exp.3",
+      "mp.sw.1",
+      "mp.info.4",
+      "mp.s.2"
     ],
     "emea-uae-niaf-2023": [
       "3.2.1"
@@ -1260,11 +1332,9 @@
       "B4",
       "B4.b"
     ],
-    "emea-gbr-cap-1850-2020": [
-      "B4"
-    ],
     "emea-gbr-cyber-essentials-requirements-3-3": [
-      "2"
+      "2-BP3",
+      "2-BP4"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2204",
@@ -1305,7 +1375,7 @@
       "ML3-P6",
       "ML3-P7"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0341",
       "ISM-0343",
       "ISM-0345",
@@ -1334,7 +1404,79 @@
       "ISM-1654",
       "ISM-1655",
       "ISM-1710",
-      "ISM-1745"
+      "ISM-1745",
+      "ISM-1823",
+      "ISM-1824",
+      "ISM-1825",
+      "ISM-1828",
+      "ISM-1829",
+      "ISM-1830",
+      "ISM-1836",
+      "ISM-1838",
+      "ISM-1839",
+      "ISM-1840",
+      "ISM-1841",
+      "ISM-1844",
+      "ISM-1846",
+      "ISM-1858",
+      "ISM-1859",
+      "ISM-1860",
+      "ISM-1861",
+      "ISM-1870",
+      "ISM-1871",
+      "ISM-1886",
+      "ISM-1887",
+      "ISM-1888",
+      "ISM-1890",
+      "ISM-1891",
+      "ISM-1896",
+      "ISM-1897",
+      "ISM-1913",
+      "ISM-1914",
+      "ISM-1915",
+      "ISM-1916",
+      "ISM-1928",
+      "ISM-1929",
+      "ISM-1930",
+      "ISM-1931",
+      "ISM-1932",
+      "ISM-1933",
+      "ISM-1934",
+      "ISM-1935",
+      "ISM-1936",
+      "ISM-1938",
+      "ISM-1943",
+      "ISM-1944",
+      "ISM-1945",
+      "ISM-1946",
+      "ISM-1947",
+      "ISM-1948",
+      "ISM-1949",
+      "ISM-1950",
+      "ISM-1951",
+      "ISM-1952",
+      "ISM-1953",
+      "ISM-1954",
+      "ISM-1955",
+      "ISM-1956",
+      "ISM-1957",
+      "ISM-1958",
+      "ISM-1962",
+      "ISM-1980",
+      "ISM-1984",
+      "ISM-2010",
+      "ISM-2012",
+      "ISM-2047",
+      "ISM-2049",
+      "ISM-2079",
+      "ISM-2080",
+      "ISM-2081",
+      "ISM-2096",
+      "ISM-2097",
+      "ISM-2098"
+    ],
+    "apac-aus-cop-sitc-2020": [
+      "6"
     ],
     "apac-ind-sebi-2024": [
       "PR.IP.S1"
@@ -1342,7 +1484,7 @@
     "apac-jpn-ismap": [
       "8.3.1.9"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP54",
       "HHSP60",
       "HHSP65",
@@ -1351,40 +1493,84 @@
       "HML60",
       "HML64"
     ],
-    "apac-nzl-hisf-microsmall-2023": [
-      "HMS09"
-    ],
     "apac-nzl-hisf-suppliers-2023": [
       "HSUP14",
       "HSUP46",
       "HSUP52"
     ],
     "apac-nzl-ism-3-9": [
+      "11.1.16.C.01",
+      "11.1.16.C.02",
+      "11.1.17.C.01",
+      "11.1.17.C.03",
+      "11.8.6.C.01",
+      "11.8.6.C.02",
       "14.1.8.C.01",
       "14.1.9.C.01",
       "14.1.9.C.02",
       "14.1.10.C.01",
       "14.1.10.C.02",
       "14.3.7.C.01",
+      "15.2.41.C.01",
+      "15.2.41.C.02",
+      "15.2.42.C.01",
+      "15.2.43.C.01",
+      "15.2.44.C.01",
+      "15.2.46.C.01",
+      "15.2.46.C.03",
+      "15.2.47.C.01",
+      "15.2.47.C.02",
+      "15.2.48.C.01",
+      "15.2.48.C.02",
+      "15.2.48.C.03",
+      "15.2.49.C.01",
+      "15.2.49.C.02",
+      "15.2.49.C.03",
+      "15.2.50.C.01",
+      "15.2.50.C.02",
+      "15.2.50.C.03",
+      "15.2.50.C.04",
+      "16.1.31.C.03",
+      "16.1.31.C.04",
+      "16.1.31.C.05",
+      "16.7.42.C.01",
+      "20.2.14.C.05",
+      "20.2.14.C.07",
+      "22.1.16.C.01",
+      "22.1.16.C.02",
+      "22.1.17.C.01",
+      "22.1.17.C.02",
+      "22.1.17.C.03",
+      "22.1.19.C.01",
+      "22.1.19.C.02",
       "23.2.21.C.01"
     ],
     "apac-sgp-cyber-hygiene-practice-2019": [
-      "4.3(a)"
+      "4.3(a)",
+      "4.3(b)"
     ],
     "apac-sgp-mas-trm-2021": [
-      "11.2.5",
-      "11.3.1",
-      "11.3.2"
+      "6.4.4",
+      "7.2.2",
+      "11.1.5",
+      "11.3.1"
     ],
-    "amaericas-can-osfi-self-assessment": [
-      "4.16",
-      "4.20"
+    "americas-arg-ppd-2018": [
+      "B.2.4-4",
+      "E.1.2-5"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.15-BP5"
     ],
     "americas-can-osfi-b13-2022": [
       "3.2.8"
     ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.2.8"
+    ],
     "americas-can-itsp-10-171-2025": [
       "03.01.01.H",
+      "03.01.03",
       "03.01.08.A",
       "03.01.08.B",
       "03.01.09",
@@ -1394,16 +1580,22 @@
       "03.01.11",
       "03.01.12.A",
       "03.01.16.A",
+      "03.01.16.C",
       "03.01.18.A",
+      "03.03.08.A",
       "03.04.01.A",
       "03.04.02.A",
+      "03.04.02.B",
       "03.04.06.A",
       "03.04.06.B",
       "03.04.06.D",
+      "03.05.04",
+      "03.05.07.C",
       "03.05.07.D",
       "03.05.07.E",
       "03.05.07.F",
       "03.05.12.D",
+      "03.07.05.B",
       "03.08.07.A",
       "03.13.12.B"
     ]

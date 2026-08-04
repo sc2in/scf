@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "QTS-05.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-05.1",
+      "ao_id": "QTS-05.1_A01",
+      "objective": "a quantum threat intelligence function is established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05.1",
+      "ao_id": "QTS-05.1_A02",
+      "objective": "the function monitors cryptanalytic threat developments.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05.1",
+      "ao_id": "QTS-05.1_A03",
+      "objective": "the function monitors quantum computing capability advances.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05.1",
+      "ao_id": "QTS-05.1_A04",
+      "objective": "the function monitors NIST and/or regulatory updates to approved algorithm lists.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

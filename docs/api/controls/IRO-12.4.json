@@ -2,8 +2,8 @@
   "control_id": "IRO-12.4",
   "title": "Sensitive / Regulated Data Exposure to Unauthorized Personnel",
   "family": "IRO",
-  "description": "Mechanisms exist to address security safeguards for personnel exposed to sensitive/regulated data that is not within their assigned access authorizations.",
-  "scf_question": "Does the organization address security safeguards for personnel exposed to sensitive/regulated data that is not within their assigned access authorizations?",
+  "description": "Mechanisms exist to address security safeguards for personnel exposed to sensitive and/or regulated data that is not within their assigned access authorizations.",
+  "scf_question": "Does the organization address security safeguards for personnel exposed to sensitive and/or regulated data that is not within their assigned access authorizations?",
   "relative_weight": 8,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -16,9 +16,9 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Incident Response (IRO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Incident response-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Incident response management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.",
-    "3": "Incident Response (IRO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ An incident response team, or similar function, is appropriately staffed and supported to implement and maintain IRO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of incident response operations (e.g., incident management software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to address security safeguards for personnel exposed to sensitive/regulated data that is not within their assigned access authorizations.",
+    "3": "Incident Response (IRO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ An incident response team, or similar function, is appropriately staffed and supported to implement and maintain IRO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of incident response operations (e.g., incident management software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to address security safeguards for personnel exposed to sensitive/regulated data that is not within their assigned access authorizations. ",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
@@ -101,7 +101,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Incident Response",
   "crosswalks": {
@@ -129,7 +130,7 @@
     "usa-federal-gsa-fedramp-5-high": [
       "IR-09(04)"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0133"
     ],
     "apac-nzl-ism-3-9": [

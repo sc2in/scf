@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-01.12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.12",
+      "ao_id": "PRI-01.12_A01",
+      "objective": "the organization's data privacy principles are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.12",
+      "ao_id": "PRI-01.12_A02",
+      "objective": "the organization's data privacy principles are formally incorporated into engineering, product and model design requirements to ensure data privacy is built in by default and by design.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

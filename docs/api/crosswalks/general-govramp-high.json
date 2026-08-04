@@ -1,6 +1,6 @@
 {
   "framework_id": "general-govramp-high",
-  "display_name": "GovRAMP High",
+  "display_name": "Government Risk and Authorization Management Program (GovRAMP) - High",
   "scf_to_framework": {
     "total_mappings": 441,
     "mappings": {

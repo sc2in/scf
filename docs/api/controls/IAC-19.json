@@ -85,7 +85,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -128,6 +129,15 @@
       "III.C.4",
       "III.C.4.a",
       "III.C.4.b"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.4",
+      "op.acc.5"
+    ],
+    "apac-nzl-ism-3-9": [
+      "16.1.27.C.01",
+      "16.1.27.C.02",
+      "16.1.27.C.03"
     ]
   }
 }

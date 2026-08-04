@@ -62,7 +62,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -72,12 +73,8 @@
     "general-cr-cmm-2026": [
       "CR10.2.6"
     ],
-    "emea-deu-c5-2020": [
-      "OPS-09"
-    ],
-    "emea-isr-cmo-1-0": [
-      "25.12",
-      "25.22"
+    "apac-sgp-mas-trm-2021": [
+      "11.4.3"
     ]
   }
 }

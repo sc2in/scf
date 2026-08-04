@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-dow-cert-rmm-1-2",
-  "display_name": "CERT-RMM (v1.2)",
+  "display_name": "US - Department of War (DoW) - Computer Emergency Response Team (CERT) Resilience Management Model (RMM) Version 1.2",
   "scf_to_framework": {
     "total_mappings": 85,
     "mappings": {

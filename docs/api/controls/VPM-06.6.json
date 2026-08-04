@@ -98,7 +98,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
@@ -142,11 +143,8 @@
       "11.3.2",
       "11.3.2.1"
     ],
-    "emea-deu-c5-2020": [
-      "PSS-02"
-    ],
-    "emea-isr-cmo-1-0": [
-      "22.3"
+    "emea-sau-cscc-1-2019": [
+      "2-9-1-1"
     ]
   }
 }

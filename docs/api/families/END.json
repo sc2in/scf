@@ -123,7 +123,8 @@
         "MT-23",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -134,7 +135,7 @@
           "CC6.7-POF4"
         ],
         "general-cis-csc-8-1": [
-          "10.0"
+          "10"
         ],
         "general-cobit-2019": [
           "DSS05.03",
@@ -215,6 +216,7 @@
           "3.14.2"
         ],
         "general-nist-800-171-r3": [
+          "03.01.03",
           "03.14.02.a"
         ],
         "general-nist-800-171a": [
@@ -225,7 +227,9 @@
           "3.4.2[b]"
         ],
         "general-nist-800-171a-r3": [
-          "A.03.01.03[01]"
+          "A.03.01.03[01]",
+          "A.03.01.03[02]",
+          "A.03.14.02.a[01]"
         ],
         "general-nist-800-207": [
           "NIST Tenet 4"
@@ -292,10 +296,10 @@
           "MP-02"
         ],
         "usa-federal-law-hipaa-simplification-2013": [
-          "164.310(b)"
+          "§ 164.310(b)"
         ],
         "usa-federal-law-hipaa-security-rule-2013": [
-          "164.310(b)"
+          "§ 164.310(b)"
         ],
         "usa-federal-irs-1075-2021": [
           "MP-2"
@@ -316,56 +320,23 @@
           "MP-02"
         ],
         "emea-eu-eba-ict-srm-2025": [
-          "3.4.4(36)(d)"
+          "3.4.4.36(d)"
         ],
         "emea-eu-nis2-annex-2024": [
           "6.9.1"
         ],
-        "emea-aut-fappd-2000": [
-          "Sec 14",
-          "Sec 15"
-        ],
-        "emea-bel-act-8-1992": [
-          "16"
-        ],
-        "emea-isr-cmo-1-0": [
-          "7.1",
-          "7.3",
-          "15.5"
-        ],
         "emea-sau-cscc-1-2019": [
-          "2-3-1-2",
-          "2-5"
+          "2-3-1-2"
         ],
-        "emea-sau-ecc-1-2018": [
-          "2-3-4",
-          "2-4-4"
-        ],
-        "emea-sau-otcc-1-2022": [
-          "2-5",
-          "2-5-1",
-          "2-5-1-1",
-          "2-5-1-2",
-          "2-5-1-3",
-          "2-5-1-4",
-          "2-5-1-5",
-          "2-5-2"
-        ],
-        "emea-sau-sacs-002-2022": [
-          "TPC-12",
-          "TPC-22"
-        ],
-        "emea-zaf-popia-2013": [
-          "19"
-        ],
-        "emea-esp-ccn-stic-825-2023": [
-          "8.3.1 [MP.EQ.1]"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.acc.6",
+          "mp.eq.1",
+          "mp.eq.2",
+          "mp.eq.3",
+          "mp.eq.4"
         ],
         "emea-gbr-caf-4-0": [
           "B3.d"
-        ],
-        "emea-gbr-cyber-essentials-requirements-3-3": [
-          "4"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2317",
@@ -387,33 +358,14 @@
           "5.1.1.15",
           "12.2.1.2"
         ],
-        "apac-nzl-hisf-mlhsp-2023": [
+        "apac-nzl-hisf-microsmall-2023": [
           "HHSP34"
         ],
         "apac-nzl-hisf-suppliers-2023": [
           "HSUP30"
         ],
-        "apac-sgp-cyber-hygiene-practice-2019": [
-          "4.5"
-        ],
-        "apac-sgp-mas-trm-2021": [
-          "11.3.1",
-          "11.3.2",
-          "11.3.3",
-          "11.3.4",
-          "11.3.5",
-          "11.4.1",
-          "11.4.2",
-          "11.4.3"
-        ],
-        "americas-bmu-mba-coc-2020": [
-          "5.12"
-        ],
-        "amaericas-can-osfi-self-assessment": [
-          "4.3",
-          "4.4"
-        ],
         "americas-can-itsp-10-171-2025": [
+          "03.01.03",
           "03.14.02.A"
         ]
       }
@@ -529,7 +481,8 @@
         "MT-23",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -576,7 +529,7 @@
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to protect the confidentiality, integrity, availability and safety of endpoint devices.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [
         "SCRMS",
@@ -660,16 +613,17 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
-          "10.0",
+          "10",
           "10.3",
           "10.4",
           "10.5",
-          "11.0"
+          "11"
         ],
         "general-cis-csc-8-1-ig1": [
           "10.3"
@@ -802,10 +756,10 @@
           "SC-28"
         ],
         "usa-federal-law-hipaa-simplification-2013": [
-          "164.310(c)"
+          "§ 164.310(c)"
         ],
         "usa-federal-law-hipaa-security-rule-2013": [
-          "164.310(c)"
+          "§ 164.310(c)"
         ],
         "usa-federal-irs-1075-2021": [
           "SC-28"
@@ -826,19 +780,16 @@
         "usa-state-vt-act-171-2018": [
           "2447(c)(6)"
         ],
-        "emea-isr-cmo-1-0": [
-          "7.1",
-          "7.3",
-          "15.5"
-        ],
         "emea-sau-cscc-1-2019": [
           "2-3-1-2"
         ],
-        "emea-sau-sacs-002-2022": [
-          "TPC-22"
+        "emea-esp-decree-311-2022": [
+          "Article 23"
         ],
-        "emea-gbr-cyber-essentials-requirements-3-3": [
-          "4"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.acc.6",
+          "mp.eq.3",
+          "mp.eq.4"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2411"
@@ -874,15 +825,13 @@
           "6.2.1.21",
           "6.2.1.22"
         ],
-        "apac-nzl-hisf-microsmall-2023": [
-          "HMS09"
+        "apac-sgp-mas-trm-2021": [
+          "11.1.3",
+          "11.1.4",
+          "11.1.5"
         ],
-        "apac-sgp-cyber-hygiene-practice-2019": [
-          "4.5"
-        ],
-        "amaericas-can-osfi-self-assessment": [
-          "4.3",
-          "4.4"
+        "americas-arg-ppd-2018": [
+          "E.1.2-5"
         ]
       }
     },
@@ -908,7 +857,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically prohibit software installations without explicitly assigned privileged status.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically prohibit software installations without explicitly assigned privileged status. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -980,7 +929,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -1088,12 +1038,6 @@
         ],
         "usa-state-tx-txramp-2-0-level-2": [
           "CM-11"
-        ],
-        "emea-isr-cmo-1-0": [
-          "6.3"
-        ],
-        "emea-gbr-cyber-essentials-requirements-3-3": [
-          "3"
         ]
       }
     },
@@ -1117,7 +1061,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to generate an alert when new software is detected.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to generate an alert when new software is detected. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -1186,7 +1130,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -1241,6 +1186,9 @@
         "general-nist-800-160-vol-2-r1": [
           "CM-08(03)"
         ],
+        "general-nist-800-172-r3": [
+          "03.04.02E"
+        ],
         "usa-federal-fbi-cjis-6-0": [
           "CM-8(3)"
         ],
@@ -1262,9 +1210,6 @@
         ],
         "usa-federal-cms-marse-2-0": [
           "CM-8(3)"
-        ],
-        "emea-isr-cmo-1-0": [
-          "6.3"
         ]
       }
     },
@@ -1360,7 +1305,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -1484,7 +1430,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Anti-malware technologies are decentralized but are deployed on all technology assets that can run anti-malware software.",
+        "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Anti-malware technologies are decentralized but are deployed on all technology assets that can run anti-malware software. ",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Anti-malware technologies are centralized, deployed on all technology assets that can run anti-malware software.\n▪ Anti-malware technologies are configured to generate event logs that can be centrally-reviewed (e.g., forwarded to a SIEM).\n▪ Anti-malware detection tools are configured to provide real-time protection (e.g., always on).\n▪ Anti-malware detection tools are configured to automatically update.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize antimalware technologies to detect and eradicate malicious code.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -1560,7 +1506,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -1572,7 +1519,7 @@
           "CC6.8-POF4"
         ],
         "general-cis-csc-8-1": [
-          "10.0",
+          "10",
           "10.1",
           "10.4"
         ],
@@ -1635,7 +1582,7 @@
         "general-iso-27018-2025": [
           "8.7"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1001",
           "T1001.001",
           "T1001.002",
@@ -1926,6 +1873,7 @@
           "A.03.14.02.ODP[01]",
           "A.03.14.02.a[01]",
           "A.03.14.02.a[02]",
+          "A.03.14.02.c.01[01]",
           "A.03.14.02.c.02"
         ],
         "general-nist-csf-2-0": [
@@ -2076,31 +2024,31 @@
           "6.9.2"
         ],
         "emea-deu-c5-2020": [
-          "OPS-04",
-          "OPS-05"
+          "RB-05"
         ],
-        "emea-isr-cmo-1-0": [
-          "7.1",
-          "7.3",
-          "12.20",
-          "15.5"
+        "emea-isr-cmo-2-0": [
+          "Appendix A, 2.1"
         ],
         "emea-sau-ecc-1-2018": [
           "2-3-3-1",
-          "2-4-3-4",
           "5-1-3-10"
         ],
         "emea-sau-otcc-1-2022": [
+          "2-3-1-1",
           "2-3-1-8"
         ],
         "emea-sau-sacs-002-2022": [
-          "TPC-12"
+          "VII.A.TPC-12"
         ],
-        "emea-esp-ccn-stic-825-2023": [
-          "7.3.6 [OP.EXP.6]"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.6"
+        ],
+        "emea-gbr-cap-1850-2020": [
+          "C2"
         ],
         "emea-gbr-cyber-essentials-requirements-3-3": [
-          "4"
+          "5",
+          "5-BP1"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2411",
@@ -2118,7 +2066,7 @@
           "2411",
           "2426"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1284",
           "ISM-1286",
           "ISM-1288",
@@ -2126,7 +2074,8 @@
           "ISM-1290",
           "ISM-1293",
           "ISM-1417",
-          "ISM-1608"
+          "ISM-1608",
+          "ISM-1969"
         ],
         "apac-ind-sebi-2024": [
           "PR.IP.S4"
@@ -2144,18 +2093,16 @@
           "12.2.1.9",
           "12.2.1.15"
         ],
-        "apac-nzl-hisf-mlhsp-2023": [
+        "apac-nzl-hisf-microsmall-2023": [
           "HHSP62",
           "HML62"
-        ],
-        "apac-nzl-hisf-microsmall-2023": [
-          "HMS10"
         ],
         "apac-nzl-hisf-suppliers-2023": [
           "HSUP54"
         ],
         "apac-nzl-ism-3-9": [
-          "14.1.9.C.02"
+          "14.1.9.C.02",
+          "21.3.10.C.01"
         ],
         "apac-sgp-cyber-hygiene-practice-2019": [
           "4.5"
@@ -2163,12 +2110,11 @@
         "apac-sgp-mas-trm-2021": [
           "11.3.3"
         ],
+        "americas-arg-ppd-2018": [
+          "E.1.2-6"
+        ],
         "americas-bmu-mba-coc-2020": [
           "6.12"
-        ],
-        "amaericas-can-osfi-self-assessment": [
-          "4.3",
-          "4.4"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.14.02.C",
@@ -2182,7 +2128,7 @@
       "title": "Automatic Antimalware Signature Updates",
       "family": "END",
       "description": "Automated mechanisms exist to update antimalware technologies, including signature definitions.",
-      "scf_question": "Does the organization automatically update antimalware technologies, including signature definitions?",
+      "scf_question": "Does the organization use automated mechanisms to update antimalware technologies, including signature definitions?",
       "relative_weight": 9,
       "conformity_cadence": "Quarterly",
       "evidence_requests": [
@@ -2199,7 +2145,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Anti-malware detection tools are configured to automatically update.",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically update antimalware technologies, including signature definitions.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically update antimalware technologies, including signature definitions. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -2271,7 +2217,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -2476,11 +2423,14 @@
         "emea-eu-nis2-annex-2024": [
           "6.9.2"
         ],
-        "emea-isr-cmo-1-0": [
-          "7.9"
+        "emea-isr-cmo-2-0": [
+          "Appendix A, 2.2"
+        ],
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.6"
         ],
         "emea-gbr-cyber-essentials-requirements-3-3": [
-          "4"
+          "5-BP1-1"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2426"
@@ -2568,7 +2518,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -2697,7 +2648,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -2740,6 +2692,9 @@
         "general-nist-800-171-r3": [
           "03.14.02.a"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.14.02.a[01]"
+        ],
         "general-pci-dss-4-0-1": [
           "5.3.4"
         ],
@@ -2775,13 +2730,6 @@
         ],
         "usa-federal-cms-marse-2-0": [
           "SI-3(1)"
-        ],
-        "emea-isr-cmo-1-0": [
-          "7.7",
-          "12.20"
-        ],
-        "apac-sgp-mas-trm-2021": [
-          "11.3.5"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.14.02.A"
@@ -2880,7 +2828,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -2986,13 +2935,7 @@
         "usa-state-tx-txramp-2-0-level-2": [
           "SI-03"
         ],
-        "emea-isr-cmo-1-0": [
-          "7.8"
-        ],
-        "emea-sau-ecc-1-2018": [
-          "2-4-3-4"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1284",
           "ISM-1286",
           "ISM-1288",
@@ -3024,7 +2967,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to test antimalware technologies by introducing a known benign, non-spreading test case into the system and subsequently verifying that both detection of the test case and associated incident reporting occurs.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to test antimalware technologies by introducing a known benign, non-spreading test case into the system and subsequently verifying that both detection of the test case and associated incident reporting occurs. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -3091,7 +3034,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -3129,7 +3073,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Anti-malware technologies are centralized, deployed on all technology assets that can run anti-malware software.\n▪ Anti-malware technologies are configured to generate event logs that can be centrally-reviewed (e.g., forwarded to a SIEM).\n▪ Anti-malware detection tools are configured to provide real-time protection (e.g., always on).",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to perform periodic evaluations evolving malware threats to assess systems that are generally not considered to be commonly affected by malicious software.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to perform periodic evaluations evolving malware threats to assess systems that are generally not considered to be commonly affected by malicious software. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -3196,7 +3140,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -3222,9 +3167,6 @@
         ],
         "general-shared-assessments-sig-2025": [
           "J.5.1"
-        ],
-        "emea-isr-cmo-1-0": [
-          "12.20"
         ]
       }
     },
@@ -3248,7 +3190,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Anti-malware technologies are centralized, deployed on all technology assets that can run anti-malware software.\n▪ Anti-malware technologies are configured to generate event logs that can be centrally-reviewed (e.g., forwarded to a SIEM).\n▪ Anti-malware detection tools are configured to provide real-time protection (e.g., always on).",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure that anti-malware technologies are continuously running in real-time and cannot be disabled or altered by non-privileged users, unless specifically authorized by management on a case-by-case basis for a limited time period.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure that anti-malware technologies are continuously running in real-time and cannot be disabled or altered by non-privileged users, unless specifically authorized by management on a case-by-case basis for a limited time period. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -3320,7 +3262,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -3361,6 +3304,7 @@
           "3.14.5[c]"
         ],
         "general-nist-800-171a-r3": [
+          "A.03.14.02.a[01]",
           "A.03.14.02.c.01[01]",
           "A.03.14.02.c.01[02]"
         ],
@@ -3416,12 +3360,12 @@
           "SI-3(IRS-Defined)-1",
           "SI-3(IRS-Defined)-2"
         ],
-        "emea-isr-cmo-1-0": [
-          "7.5",
-          "12.25"
+        "emea-isr-cmo-2-0": [
+          "Appendix A, 2.1"
         ],
-        "emea-sau-otcc-1-2022": [
-          "2-3-1-8"
+        "emea-gbr-cyber-essentials-requirements-3-3": [
+          "5-BP1-2",
+          "5-BP1-3"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2426"
@@ -3532,7 +3476,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -3570,15 +3515,14 @@
         "general-pci-dss-4-0-1-saq-d-service-provider": [
           "1.5.1"
         ],
+        "emea-sau-sacs-002-2022": [
+          "VII.A.TPC-22"
+        ],
         "emea-gbr-cyber-essentials-requirements-3-3": [
           "1"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1416"
-        ],
-        "amaericas-can-osfi-self-assessment": [
-          "4.3",
-          "4.4"
         ]
       }
     },
@@ -3606,7 +3550,7 @@
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize File Integrity Monitor (FIM), or similar technologies, to detect and report on unauthorized changes to selected files and configuration settings.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [
         "CORE ESP Level 1 Foundational",
@@ -3676,7 +3620,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -3710,7 +3655,7 @@
         "general-iec-62443-4-2-2019": [
           "CR 3.4"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1003",
           "T1003.003",
           "T1020.001",
@@ -3963,6 +3908,15 @@
         "general-nist-800-161-r1-level-3": [
           "SI-7"
         ],
+        "general-nist-800-172-r3": [
+          "03.14.01E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.14.01E.a[01]",
+          "A.03.14.01E.ODP[01]",
+          "DS-A.03.14.01E.a[02]",
+          "A.03.14.01E.ODP[02]"
+        ],
         "general-nist-csf-2-0": [
           "DE.CM-09"
         ],
@@ -4022,14 +3976,7 @@
           "SI-07"
         ],
         "emea-eu-eba-ict-srm-2025": [
-          "3.4.4(36)(e)"
-        ],
-        "emea-isr-cmo-1-0": [
-          "6.4",
-          "12.19"
-        ],
-        "emea-sau-otcc-1-2022": [
-          "1-5-4"
+          "3.4.4.36(e)"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2425"
@@ -4069,7 +4016,7 @@
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to validate configurations through integrity checking of software and firmware.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [],
       "possible_solutions": {
@@ -4134,7 +4081,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -4180,6 +4128,18 @@
         ],
         "general-nist-800-160-vol-2-r1": [
           "SI-07(01)"
+        ],
+        "general-nist-800-172-r3": [
+          "03.14.08E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.14.08E[01]",
+          "A.03.14.08E.ODP[02]",
+          "A.03.14.08E.ODP[04]",
+          "DS-A.03.14.08E[02]",
+          "A.03.14.08E.ODP[06]",
+          "DS-A.03.14.08E[03]",
+          "A.03.14.08E.ODP[10]"
         ],
         "general-swift-cscf-2025": [
           "6.2"
@@ -4231,7 +4191,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to detect and respond to unauthorized configuration changes as cybersecurity incidents.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -4302,7 +4262,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -4359,6 +4320,12 @@
         "general-nist-800-160-vol-2-r1": [
           "SI-07(07)"
         ],
+        "general-nist-800-172-r3": [
+          "03.14.11E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.14.11E"
+        ],
         "general-pci-dss-4-0-1": [
           "10.7",
           "10.7.1",
@@ -4405,9 +4372,6 @@
         ],
         "usa-state-tx-txramp-2-0-level-2": [
           "SI-07 (07)"
-        ],
-        "emea-isr-cmo-1-0": [
-          "7.2"
         ]
       }
     },
@@ -4429,11 +4393,11 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically alert incident response personnel upon discovering discrepancies during integrity verification.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically alert incident response personnel upon discovering discrepancies during integrity verification. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [],
       "possible_solutions": {
@@ -4497,7 +4461,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -4548,11 +4513,11 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically implement remediation actions when integrity violations are discovered.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically implement remediation actions when integrity violations are discovered. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [],
       "possible_solutions": {
@@ -4616,7 +4581,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -4667,11 +4633,11 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically verify the integrity of the boot process of systems.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [],
       "possible_solutions": {
@@ -4735,7 +4701,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -4759,9 +4726,6 @@
         ],
         "general-sparta": [
           "CM0014"
-        ],
-        "apac-aus-cop-sitc-2020": [
-          "Principle 8"
         ]
       }
     },
@@ -4787,7 +4751,7 @@
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically protect the integrity of boot firmware in systems.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [
         "CORE Mergers, Acquisitions & Divestitures (MA&D)"
@@ -4853,7 +4817,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -4874,6 +4839,13 @@
         "general-nist-800-160-vol-2-r1": [
           "SI-07(10)"
         ],
+        "general-nist-800-172-r3": [
+          "03.14.10E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.14.10E",
+          "A.03.14.10E.ODP[01]"
+        ],
         "general-sparta": [
           "CM0014"
         ],
@@ -4881,7 +4853,7 @@
           "SI-7(CE-10)"
         ],
         "apac-aus-cop-sitc-2020": [
-          "Principle 8"
+          "8"
         ]
       }
     },
@@ -4903,7 +4875,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to prohibit the use of binary or machine-executable code from sources with limited or no warranty and without access to source code.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -4972,7 +4944,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -5086,13 +5059,30 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
+        "general-nist-800-172-r3": [
+          "03.14.11E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.14.11E"
+        ],
         "usa-federal-dow-zt-roadmap-1-1": [
           "2.7.2",
           "2.7.3"
+        ],
+        "emea-sau-ecc-1-2018": [
+          "2-4-3-4"
+        ],
+        "emea-sau-otcc-1-2022": [
+          "2-3-1-1",
+          "2-3-1-12"
+        ],
+        "americas-can-osfi-self-assessment-2": [
+          "3.3.2"
         ]
       }
     },
@@ -5187,7 +5177,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -5218,6 +5209,11 @@
           "03.14.06.b",
           "03.14.06.c"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.14.06.a.01[01]",
+          "A.03.14.06.a.01[02]",
+          "A.03.14.06.b"
+        ],
         "general-shared-assessments-sig-2025": [
           "N.7"
         ],
@@ -5232,27 +5228,13 @@
         "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
           "500.14(b)(1)"
         ],
-        "emea-isr-cmo-1-0": [
-          "7.4",
-          "7.5",
-          "12.18",
-          "12.24",
-          "23.6"
-        ],
-        "emea-esp-ccn-stic-825-2023": [
-          "7.6.1 [OP.MON.1]"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1034",
           "ISM-1341",
           "ISM-1418"
         ],
         "apac-nzl-ism-3-9": [
           "18.4.13.C.01"
-        ],
-        "amaericas-can-osfi-self-assessment": [
-          "4.3",
-          "4.4"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.14.06.A.01",
@@ -5356,12 +5338,13 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
-          "9.0",
+          "9",
           "9.6",
           "9.7"
         ],
@@ -5384,7 +5367,7 @@
         "general-govramp-high": [
           "SI-08"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1137",
           "T1137.001",
           "T1137.002",
@@ -5482,7 +5465,7 @@
           "2-4-3-1"
         ],
         "emea-sau-sacs-002-2022": [
-          "TPC-16"
+          "VII.A.TPC-16"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2509"
@@ -5497,28 +5480,16 @@
           "2509"
         ],
         "apac-nzl-ism-3-9": [
-          "15.2.21.C.01",
-          "15.2.23.C.01",
-          "15.2.23.C.02",
-          "15.2.23.C.03",
-          "15.2.24.C.01",
-          "15.2.24.C.02"
-        ],
-        "apac-sgp-mas-trm-2021": [
-          "14.1.6"
-        ],
-        "amaericas-can-osfi-self-assessment": [
-          "4.3",
-          "4.4"
+          "15.2.37.C.01"
         ]
       }
     },
     {
       "control_id": "END-08.1",
-      "title": "Central Management",
+      "title": "Phishing & Spam Protection Centralized Management",
       "family": "END",
-      "description": "Mechanisms exist to centrally-manage anti-phishing and spam protection technologies.",
-      "scf_question": "Does the organization centrally-manage anti-phishing and spam protection technologies?",
+      "description": "Mechanisms exist to centrally manage anti-phishing and spam protection technologies.",
+      "scf_question": "Does the organization centrally manage anti-phishing and spam protection technologies?",
       "relative_weight": 5,
       "conformity_cadence": "Annual",
       "evidence_requests": [],
@@ -5533,7 +5504,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Anti-spam/phishing technologies are centralized and built into existing email capabilities.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Anti-spam/phishing technologies are centralized and built into existing email capabilities.",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to centrally-manage anti-phishing and spam protection technologies.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to centrally manage anti-phishing and spam protection technologies.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -5618,8 +5589,10 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
+      "errata": "- renamed control\n- wordsmithed",
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -5657,10 +5630,6 @@
         ],
         "usa-federal-gsa-fedramp-5-li-saas": [
           "PL-09"
-        ],
-        "amaericas-can-osfi-self-assessment": [
-          "4.3",
-          "4.4"
         ]
       }
     },
@@ -5751,7 +5720,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -5880,7 +5850,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -5908,8 +5879,8 @@
         "general-ul-2900-2-2-2016": [
           "8.10(b)"
         ],
-        "emea-isr-cmo-1-0": [
-          "4.37"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.acc.6"
         ]
       }
     },
@@ -5935,7 +5906,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to address mobile code / operating system-independent applications.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to address mobile code / operating system-independent applications. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -6006,7 +5977,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -6046,7 +6018,7 @@
           "NDR 2.4(c)",
           "NDR 2.4(1)"
         ],
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1021.003",
           "T1055",
           "T1055.001",
@@ -6156,8 +6128,13 @@
           "A.03.13.13.a[01]",
           "A.03.13.13.a[02]",
           "A.03.13.13.b[01]",
-          "A.03.13.13.b[02]",
           "A.03.13.13.b[03]"
+        ],
+        "general-nist-800-172-r3": [
+          "03.13.06E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.13.06E"
         ],
         "usa-federal-dhs-cisa-tic-3-0": [
           "3.PEP.SE.ACMIT",
@@ -6253,7 +6230,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to configure thin nodes to have minimal functionality and information storage.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to configure thin nodes to have minimal functionality and information storage. ",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -6320,7 +6297,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -6335,6 +6313,12 @@
         ],
         "general-nist-800-160-vol-2-r1": [
           "SC-25"
+        ],
+        "general-nist-800-172-r3": [
+          "03.13.11E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.13.11E[01]"
         ]
       }
     },
@@ -6425,11 +6409,12 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
-        "general-mitre-att&ck-16-1": [
+        "general-mitre-att_ck-16-1": [
           "T1025",
           "T1052",
           "T1052.001",
@@ -6453,6 +6438,14 @@
         ],
         "general-nist-800-82-r3-high": [
           "SC-41"
+        ],
+        "general-nist-800-172-r3": [
+          "03.13.13E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.13.13E",
+          "A.03.13.13E.ODP[02]",
+          "A.03.13.13E.ODP[03]"
         ],
         "usa-federal-nerc-cip-2024": [
           "CIP-007-6 1.2"
@@ -6548,7 +6541,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -6652,7 +6646,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -6665,16 +6660,8 @@
         "general-nist-800-82-r3": [
           "SC-42(02)"
         ],
-        "general-scf-dpmp-2025": [
-          "7.4"
-        ],
         "general-shared-assessments-sig-2025": [
           "P.2.2.1"
-        ],
-        "emea-zaf-popia-2013": [
-          "8",
-          "9",
-          "13.1"
         ]
       }
     },
@@ -6751,7 +6738,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -6761,14 +6749,11 @@
         "general-nist-800-82-r3": [
           "SC-42(04)"
         ],
-        "general-scf-dpmp-2025": [
-          "7.4"
-        ],
         "general-tisax-6-0-3": [
           "8.2.6"
         ],
-        "emea-zaf-popia-2013": [
-          "18"
+        "emea-aut-dpa-2018": [
+          "§ 12(2)"
         ]
       }
     },
@@ -6790,7 +6775,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize sensors that are configured to minimize the collection of information about individuals.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -6845,7 +6830,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -6881,9 +6867,6 @@
         "general-nist-800-161-r1-level-2": [
           "PM-25"
         ],
-        "general-scf-dpmp-2025": [
-          "7.4"
-        ],
         "usa-federal-gsa-fedramp-5-low": [
           "PM-25",
           "SA-08(33)"
@@ -6903,8 +6886,8 @@
         "emea-sau-cgiot-2024": [
           "2-6-3"
         ],
-        "emea-zaf-popia-2013": [
-          "10"
+        "emea-che-fadp-2025": [
+          "2.1.7.3"
         ]
       }
     },
@@ -6995,7 +6978,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7098,7 +7082,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7182,14 +7167,8 @@
         "usa-state-tx-txramp-2-0-level-2": [
           "SC-15"
         ],
-        "emea-isr-cmo-1-0": [
-          "5.6"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0231"
-        ],
-        "apac-chn-pipl-2021": [
-          "26"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.13.12.A"
@@ -7214,11 +7193,11 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to disable or remove collaborative computing devices from critical systems and secure work areas.",
         "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [
         "CORE Mergers, Acquisitions & Divestitures (MA&D)"
@@ -7286,7 +7265,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7392,7 +7372,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7481,7 +7462,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7508,7 +7490,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
         "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the meeting host can positively control an individual's participation in virtual meetings.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -7557,7 +7539,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7620,7 +7603,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7701,7 +7685,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7810,10 +7795,15 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
-      "crosswalks": {}
+      "crosswalks": {
+        "apac-sgp-mas-trm-2021": [
+          "11.4.2"
+        ]
+      }
     },
     {
       "control_id": "END-16",
@@ -7903,7 +7893,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {
@@ -7988,7 +7979,7 @@
         "usa-federal-gsa-fedramp-5-li-saas": [
           "SC-03"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1006"
         ]
       }
@@ -8013,7 +8004,7 @@
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
         "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
         "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
-        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to implement underlying software separation mechanisms to facilitate security function isolation.",
+        "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to implement underlying software separation mechanisms to facilitate security function isolation. ",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -8079,7 +8070,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Endpoint Security",
       "crosswalks": {

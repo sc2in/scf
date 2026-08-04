@@ -2,8 +2,8 @@
   "control_id": "HRS-07.3",
   "title": "Preventative Access Restriction",
   "family": "HRS",
-  "description": "Mechanisms exist to proactively restrict logical and physical access when an individual with access to sensitive/regulated data is under investigation for personnel sanctions that may lead to employment termination.",
-  "scf_question": "Does the organization proactively restrict logical and physical access when an individual with access to sensitive/regulated data is under investigation for personnel sanctions that may lead to employment termination?",
+  "description": "Mechanisms exist to proactively restrict logical and physical access when an individual with access to sensitive and/or regulated data is under investigation for personnel sanctions that may lead to employment termination.",
+  "scf_question": "Does the organization proactively restrict logical and physical access when an individual with access to sensitive and/or regulated data is under investigation for personnel sanctions that may lead to employment termination?",
   "relative_weight": 5,
   "conformity_cadence": "Quarterly",
   "evidence_requests": [],
@@ -99,13 +99,11 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Human Resources Security",
   "crosswalks": {
-    "general-nist-800-172": [
-      "3.9.2e"
-    ],
     "usa-federal-dow-cmmc-2-level-3": [
       "PS.L3-3.9.2E"
     ]

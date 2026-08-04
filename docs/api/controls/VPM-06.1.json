@@ -83,7 +83,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
@@ -234,11 +235,8 @@
     "emea-eu-nis2-annex-2024": [
       "6.10.4"
     ],
-    "emea-deu-c5-2020": [
-      "PSS-03"
-    ],
-    "emea-isr-cmo-1-0": [
-      "22.7"
+    "emea-sau-sacs-002-2022": [
+      "VII.B.TPC-78"
     ],
     "apac-aus-essential-8-2024": [
       "ML1-P1",
@@ -248,7 +246,7 @@
       "ML3-P1",
       "ML3-P2"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1808"
     ],
     "americas-can-itsp-10-171-2025": [

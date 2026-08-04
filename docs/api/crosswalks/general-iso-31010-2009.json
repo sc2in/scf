@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-31010-2009",
-  "display_name": "ISO 31010 (2009)",
+  "display_name": "ISO/IEC 31010:2019 - Risk management - Risk assessment techniques",
   "scf_to_framework": {
     "total_mappings": 31,
     "mappings": {

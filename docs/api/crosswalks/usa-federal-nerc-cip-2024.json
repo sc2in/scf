@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-nerc-cip-2024",
-  "display_name": "NERC Critical Infrastructure Protection (CIP) (2024)",
+  "display_name": "US - North American Electric Reliability Corporation (NERC) Critical Infrastructure Protection (CIP) (2024)",
   "scf_to_framework": {
     "total_mappings": 122,
     "mappings": {

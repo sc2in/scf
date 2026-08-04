@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-06.8",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-06.8",
+      "ao_id": "NET-06.8_A01",
+      "objective": "automated mechanisms separate network appliance functions (e.g., management, control and data planes).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.8",
+      "ao_id": "NET-06.8_A02",
+      "objective": "separation prevents ordinary traffic from accessing functions that manage network appliances.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.8",
+      "ao_id": "NET-06.8_A03",
+      "objective": "separation prevents ordinary traffic from accessing functions that affect network operations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-31000-2018",
-  "display_name": "ISO 31000 (2018)",
+  "display_name": "ISO/IEC 31000:2018 - Risk management - Guidelines",
   "scf_to_framework": {
     "total_mappings": 53,
     "mappings": {

@@ -83,7 +83,8 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -101,6 +102,12 @@
     ],
     "general-nist-800-82-r3": [
       "IA-05(13)"
+    ],
+    "general-nist-800-172-r3": [
+      "03.05.05E"
+    ],
+    "general-nist-800-172a-r3": [
+      "A.03.05.05E.ODP[01]"
     ],
     "usa-federal-gsa-fedramp-5-high": [
       "IA-05(13)"

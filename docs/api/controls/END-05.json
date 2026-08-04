@@ -85,7 +85,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
@@ -123,15 +124,14 @@
     "general-pci-dss-4-0-1-saq-d-service-provider": [
       "1.5.1"
     ],
+    "emea-sau-sacs-002-2022": [
+      "VII.A.TPC-22"
+    ],
     "emea-gbr-cyber-essentials-requirements-3-3": [
       "1"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1416"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "4.3",
-      "4.4"
     ]
   }
 }

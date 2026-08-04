@@ -81,7 +81,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -174,23 +175,22 @@
       "CP-09(3)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.5(58)"
+      "3.5.58"
     ],
     "emea-eu-dora-2023": [
       "Article 12.3"
     ],
     "emea-deu-c5-2020": [
-      "OPS-06",
-      "PSS-12"
-    ],
-    "emea-isr-cmo-1-0": [
-      "25.20"
+      "RB-09"
     ],
     "emea-sau-otcc-1-2022": [
-      "2-8-1-4"
+      "2-8-1-2"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-38"
+      "VII.B.TPC-65"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.info.6"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2505"
@@ -206,7 +206,7 @@
       "ML2-P8",
       "ML3-P8"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1811"
     ],
     "apac-jpn-ismap": [
@@ -214,6 +214,15 @@
       "12.3.1.6",
       "12.3.1.7",
       "12.3.1.23.P"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.44"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "8.4.4"
+    ],
+    "americas-arg-ppd-2018": [
+      "D.1.2-DS-2"
     ]
   }
 }

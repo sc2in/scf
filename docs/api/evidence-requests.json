@@ -1,5 +1,5 @@
 {
-  "total": 303,
+  "total": 316,
   "evidence_requests": [
     {
       "erl_id": "E-GOV-01",
@@ -1019,7 +1019,8 @@
       "artifact_description": "Documented evidence of applicable statutory, regulatory and/or contractual obligations for cybersecurity & data privacy controls.",
       "scf_controls": [
         "CPL-01",
-        "MON-03"
+        "MON-03",
+        "QTS-03.4"
       ],
       "cmmc_mapping": ""
     },
@@ -1394,6 +1395,7 @@
       "artifact_description": "Documented evidence of specialized user training for privileged users, executives, individuals who handle sensitive/regulated data, etc.",
       "scf_controls": [
         "DCH-14",
+        "QTS-05",
         "SAT-01",
         "SAT-03",
         "SAT-03.4",
@@ -3194,6 +3196,7 @@
       "artifact_name": "Threat Intelligence Feeds (TIF)",
       "artifact_description": "Documented evidence of threat intelligence feeds.",
       "scf_controls": [
+        "QTS-05.1",
         "THR-03"
       ],
       "cmmc_mapping": "SI.L2-3.14.3"
@@ -3501,6 +3504,143 @@
         "MON-01.4"
       ],
       "cmmc_mapping": "SI.L1-3.14.4\nSI.L1-3.14.5"
+    },
+    {
+      "erl_id": "E-QTS-01",
+      "area": "Quantum Security",
+      "artifact_name": "Quantum Risk Governance Charter",
+      "artifact_description": "Documented evidence of a quantum risk governance charter with named lead and steering committee.",
+      "scf_controls": [
+        "QTS-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-02",
+      "area": "Quantum Security",
+      "artifact_name": "Post-Quantum Cryptography (PQC)-Specific Status Reporting",
+      "artifact_description": "Documented evidence of a Post-Quantum Cryptography (PQC)-specific board / risk committee reporting pack (e.g., status, metrics/analytics, exceptions, etc.).",
+      "scf_controls": [
+        "QTS-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-03",
+      "area": "Quantum Security",
+      "artifact_name": "Long-Lived Data Identification",
+      "artifact_description": "Documented evidence of a data classifications by the usable lifespan of the data that can be used to prioritize Post-Quantum Cryptography (PQC) remediation efforts.",
+      "scf_controls": [
+        "QTS-01.3"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-04",
+      "area": "Quantum Security",
+      "artifact_name": "Cryptographic Asset Inventory",
+      "artifact_description": "Documented evidence of a cryptographic asset inventory.",
+      "scf_controls": [
+        "CRY-01.5",
+        "QTS-03.3",
+        "QTS-04",
+        "QTS-04.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-05",
+      "area": "Quantum Security",
+      "artifact_name": "Cryptographic Bill of Materials (CBOM)",
+      "artifact_description": "Documented evidence of a Cryptographic Bill of Materials (CBOM).",
+      "scf_controls": [
+        "QTS-04.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-06",
+      "area": "Quantum Security",
+      "artifact_name": "Cryptographic Agility Risk Assessment (CARA) Methodology",
+      "artifact_description": "Documented evidence of a Cryptographic Agility Risk Assessment (CARA) methodology.",
+      "scf_controls": [
+        "QTS-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-07",
+      "area": "Quantum Security",
+      "artifact_name": "Cryptographic Exception Register",
+      "artifact_description": "Documented evidence of a formal cryptographic exception register.",
+      "scf_controls": [
+        "QTS-02.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-08",
+      "area": "Quantum Security",
+      "artifact_name": "Approved / Deprecated Algorithm List",
+      "artifact_description": "Documented evidence of an approved / deprecated algorithm list.",
+      "scf_controls": [
+        "QTS-06.3",
+        "QTS-06.5"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-09",
+      "area": "Quantum Security",
+      "artifact_name": "Zero Trust Network Architecture (ZTNA)",
+      "artifact_description": "Documented evidence of Zero Trust Network Architecture (ZTNA) (e.g., architecture diagrams, segmentation matrices,  access policies, etc.).",
+      "scf_controls": [
+        "QTS-01.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-10",
+      "area": "Quantum Security",
+      "artifact_name": "Cryptographic Telemetry",
+      "artifact_description": "Documented evidence of situational awareness dashboards for cryptographic telemetry (e.g., SIEM/XDR dashboards).",
+      "scf_controls": [
+        "QTS-04.3",
+        "QTS-05.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-11",
+      "area": "Quantum Security",
+      "artifact_name": "Interoperability Test Records",
+      "artifact_description": "Documented evidence of cryptographic algorithm interoperability, performance and rollback tests.",
+      "scf_controls": [
+        "QTS-03.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-12",
+      "area": "Quantum Security",
+      "artifact_name": "Cryptographic Incident Playbooks",
+      "artifact_description": "Documented evidence of incident playbooks and exercise records for cryptographic scenarios.",
+      "scf_controls": [
+        "QTS-07"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-QTS-13",
+      "area": "Quantum Security",
+      "artifact_name": "Post-Quantum Cryptography (PQC)-Specific Vendor Roadmaps",
+      "artifact_description": "Documented evidence of a vendor-related Post-Quantum Cryptography (PQC) roadmaps, contract clauses, and attestations.",
+      "scf_controls": [
+        "QTS-02.2",
+        "QTS-03.1",
+        "QTS-03.3"
+      ],
+      "cmmc_mapping": ""
     }
   ]
 }

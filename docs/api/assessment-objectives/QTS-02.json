@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "QTS-02",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-02",
+      "ao_id": "QTS-02_A01",
+      "objective": "a Cryptographic Agility Risk Assessment (CARA) methodology is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02",
+      "ao_id": "QTS-02_A02",
+      "objective": "a CARA is performed to map Technology Assets, Applications, Services and Data (TAASD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02",
+      "ao_id": "QTS-02_A03",
+      "objective": "the CARA identifies TAASD most vulnerable to quantum-enabled cryptanalytic threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02",
+      "ao_id": "QTS-02_A04",
+      "objective": "the CARA prioritizes TAASD based on potential business impact.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

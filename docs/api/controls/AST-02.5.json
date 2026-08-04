@@ -16,7 +16,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
     "3": "Asset Management (AST) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AST domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with AST domain capabilities are well-documented and kept current by process owners.\n▪ An IT Asset Management (ITAM) team, or similar function, is appropriately staffed and supported to implement and maintain AST domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of ITAM operations (e.g., ITAM platform, (e.g., Configuration Management Database (CMBD) Asset Management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AST domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically employ Network Access Control (NAC), or a similar technology, which is capable of detecting unauthorized devices and disable network access to those unauthorized devices.",
     "4": "Asset Management (AST) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -31,7 +31,7 @@
     "small": "∙ VLAN segmentation to isolate unknown devices\n∙ MAC address filtering (basic NAC)\n∙ Wireless access point policies",
     "medium": "∙ Cisco Identity Services Engine (ISE) (https://cisco.com)\n∙ HPE Aruba Central (https://arubanetworks.com)\n∙ Juniper Mist Access Assurance (https://juniper.net)\n∙ Open-source NAC (e.g., PacketFence)",
     "large": "∙ Cisco Identity Services Engine (ISE) (https://cisco.com)\n∙ HPE Aruba Central (https://arubanetworks.com)\n∙ Juniper Mist Access Assurance (https://juniper.net)\n∙ 802.1X certificate-based authentication",
-    "enterprise": "∙ Cisco Identity Services Engine (ISE) (https://cisco.com)\n∙ HPE Aruba Central (https://arubanetworks.com)\n∙ Juniper Mist Access Assurance (https://juniper.net)\n∙ Zero Trust Network Access (ZTNA) integration\n∙ 802.1X with EAP-TLS and certificate infrastructure"
+    "enterprise": "∙ Cisco Identity Services Engine (ISE) (https://cisco.com)\n∙ HPE Aruba Central (https://arubanetworks.com)\n∙ Juniper Mist Access Assurance (https://juniper.net)\n∙ Zero Trust Network Architecture (ZTNA) integration\n∙ 802.1X with EAP-TLS and certificate infrastructure"
   },
   "risks": [
     "R-AC-1",
@@ -83,7 +83,8 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Asset Management",
   "crosswalks": {
@@ -110,9 +111,6 @@
     "general-nist-800-161-r1-level-3": [
       "SC-7(19)"
     ],
-    "general-nist-800-172": [
-      "3.5.3e"
-    ],
     "general-nist-800-207": [
       "NIST Tenet 6"
     ],
@@ -125,19 +123,14 @@
     "usa-federal-dow-cmmc-2-level-3": [
       "IA.L3-3.5.3E"
     ],
-    "emea-isr-cmo-1-0": [
-      "23.6"
-    ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0520",
       "ISM-1182"
     ],
     "apac-sgp-mas-trm-2021": [
-      "11.2.4"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "4.21",
-      "4.24"
+      "11.2.4",
+      "11.2.5",
+      "11.5.4"
     ]
   }
 }

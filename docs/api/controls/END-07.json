@@ -89,7 +89,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
@@ -120,6 +121,11 @@
       "03.14.06.b",
       "03.14.06.c"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.14.06.a.01[01]",
+      "A.03.14.06.a.01[02]",
+      "A.03.14.06.b"
+    ],
     "general-shared-assessments-sig-2025": [
       "N.7"
     ],
@@ -134,27 +140,13 @@
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
       "500.14(b)(1)"
     ],
-    "emea-isr-cmo-1-0": [
-      "7.4",
-      "7.5",
-      "12.18",
-      "12.24",
-      "23.6"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "7.6.1 [OP.MON.1]"
-    ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1034",
       "ISM-1341",
       "ISM-1418"
     ],
     "apac-nzl-ism-3-9": [
       "18.4.13.C.01"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "4.3",
-      "4.4"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.14.06.A.01",

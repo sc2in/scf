@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-sro-finra",
-  "display_name": "FINRA Cybersecurity Rules",
+  "display_name": "US - Financial Industry Regulatory Authority (FINRA) Cybersecurity Rules",
   "scf_to_framework": {
     "total_mappings": 17,
     "mappings": {

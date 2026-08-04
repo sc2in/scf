@@ -107,7 +107,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -203,6 +204,14 @@
       "A.03.10.02.b[01]",
       "A.03.10.02.b[02]"
     ],
+    "general-nist-800-172-r3": [
+      "03.10.01E",
+      "03.10.02E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.10.01E[02]",
+      "DS-A.03.10.02E.b"
+    ],
     "general-nist-csf-2-0": [
       "DE.CM-02"
     ],
@@ -217,9 +226,6 @@
     ],
     "general-pci-dss-4-0-1-saq-d-service-provider": [
       "9.2.1.1"
-    ],
-    "general-scf-dpmp-2025": [
-      "7.3"
     ],
     "general-swift-cscf-2025": [
       "3.1"
@@ -279,16 +285,14 @@
       "13.1.2(f)",
       "13.3.2(d)"
     ],
-    "emea-isr-cmo-1-0": [
-      "18.8",
-      "18.10",
-      "18.11"
-    ],
     "emea-sau-cgiot-2024": [
       "2-13-1"
     ],
     "emea-sau-ecc-1-2018": [
       "2-14-3-2"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-13-1-2"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "1500"
@@ -308,15 +312,12 @@
     "apac-jpn-ismap": [
       "11.1.2.13"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP66",
       "HML65"
     ],
     "apac-nzl-hisf-suppliers-2023": [
       "HSUP57"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "5.5.5"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.10.02.A",

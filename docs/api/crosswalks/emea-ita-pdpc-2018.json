@@ -1,0 +1,222 @@
+{
+  "framework_id": "emea-ita-pdpc-2018",
+  "display_name": "Italy - Personal Data Protection Code (2018)",
+  "scf_to_framework": {
+    "total_mappings": 13,
+    "mappings": {
+      "CPL-01": [
+        "Article 1(1)"
+      ],
+      "HRS-03": [
+        "Article 2-o(1)",
+        "Article 2-o(2)"
+      ],
+      "PRI-01.4": [
+        "Article 2-q(1)"
+      ],
+      "PRI-01.6": [
+        "Article 115(1)",
+        "Article 115(2)"
+      ],
+      "PRI-01.11": [
+        "Article 75(1)",
+        "Article 102(1)",
+        "Article 102(2)(a)",
+        "Article 102(2)(b)",
+        "Article 102(2)(c)",
+        "Article 106(1)",
+        "Article 106(2)(a)",
+        "Article 106(2)(b)",
+        "Article 106(2)(c)",
+        "Article 106(2)(d)",
+        "Article 106(2)(g)",
+        "Article 106(2)(h)",
+        "Article 106(2)(i)",
+        "Article 126(1)",
+        "Article 126(2)",
+        "Article 126(3)",
+        "Article 126(4)"
+      ],
+      "PRI-02": [
+        "Article 2-d(2)",
+        "Article 77(1)(a)",
+        "Article 77(1)(b)",
+        "Article 78(1)",
+        "Article 78(2)",
+        "Article 78(3)",
+        "Article 132-c(1)"
+      ],
+      "PRI-03.3": [
+        "Article 2-d(1)"
+      ],
+      "PRI-03.6": [
+        "Article 82(2)(a)"
+      ],
+      "PRI-03.9": [
+        "Article 99(1)"
+      ],
+      "PRI-05": [
+        "Article 99(3)"
+      ],
+      "PRI-05.1": [
+        "Article 99(3)",
+        "Article 105(1)",
+        "Article 105(2)",
+        "Article 105(3)",
+        "Article 105(4)"
+      ],
+      "PRI-05.4": [
+        "Article 2-f(1)",
+        "Article 2-g(1)",
+        "Article 101(1)",
+        "Article 101(2)",
+        "Article 101(3)",
+        "Article 122(1)"
+      ],
+      "PRI-14": [
+        "Article 110(2)"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 45,
+    "mappings": {
+      "Article 1(1)": [
+        "CPL-01"
+      ],
+      "Article 2-o(1)": [
+        "HRS-03"
+      ],
+      "Article 2-o(2)": [
+        "HRS-03"
+      ],
+      "Article 2-q(1)": [
+        "PRI-01.4"
+      ],
+      "Article 115(1)": [
+        "PRI-01.6"
+      ],
+      "Article 115(2)": [
+        "PRI-01.6"
+      ],
+      "Article 75(1)": [
+        "PRI-01.11"
+      ],
+      "Article 102(1)": [
+        "PRI-01.11"
+      ],
+      "Article 102(2)(a)": [
+        "PRI-01.11"
+      ],
+      "Article 102(2)(b)": [
+        "PRI-01.11"
+      ],
+      "Article 102(2)(c)": [
+        "PRI-01.11"
+      ],
+      "Article 106(1)": [
+        "PRI-01.11"
+      ],
+      "Article 106(2)(a)": [
+        "PRI-01.11"
+      ],
+      "Article 106(2)(b)": [
+        "PRI-01.11"
+      ],
+      "Article 106(2)(c)": [
+        "PRI-01.11"
+      ],
+      "Article 106(2)(d)": [
+        "PRI-01.11"
+      ],
+      "Article 106(2)(g)": [
+        "PRI-01.11"
+      ],
+      "Article 106(2)(h)": [
+        "PRI-01.11"
+      ],
+      "Article 106(2)(i)": [
+        "PRI-01.11"
+      ],
+      "Article 126(1)": [
+        "PRI-01.11"
+      ],
+      "Article 126(2)": [
+        "PRI-01.11"
+      ],
+      "Article 126(3)": [
+        "PRI-01.11"
+      ],
+      "Article 126(4)": [
+        "PRI-01.11"
+      ],
+      "Article 2-d(2)": [
+        "PRI-02"
+      ],
+      "Article 77(1)(a)": [
+        "PRI-02"
+      ],
+      "Article 77(1)(b)": [
+        "PRI-02"
+      ],
+      "Article 78(1)": [
+        "PRI-02"
+      ],
+      "Article 78(2)": [
+        "PRI-02"
+      ],
+      "Article 78(3)": [
+        "PRI-02"
+      ],
+      "Article 132-c(1)": [
+        "PRI-02"
+      ],
+      "Article 2-d(1)": [
+        "PRI-03.3"
+      ],
+      "Article 82(2)(a)": [
+        "PRI-03.6"
+      ],
+      "Article 99(1)": [
+        "PRI-03.9"
+      ],
+      "Article 99(3)": [
+        "PRI-05",
+        "PRI-05.1"
+      ],
+      "Article 105(1)": [
+        "PRI-05.1"
+      ],
+      "Article 105(2)": [
+        "PRI-05.1"
+      ],
+      "Article 105(3)": [
+        "PRI-05.1"
+      ],
+      "Article 105(4)": [
+        "PRI-05.1"
+      ],
+      "Article 2-f(1)": [
+        "PRI-05.4"
+      ],
+      "Article 2-g(1)": [
+        "PRI-05.4"
+      ],
+      "Article 101(1)": [
+        "PRI-05.4"
+      ],
+      "Article 101(2)": [
+        "PRI-05.4"
+      ],
+      "Article 101(3)": [
+        "PRI-05.4"
+      ],
+      "Article 122(1)": [
+        "PRI-05.4"
+      ],
+      "Article 110(2)": [
+        "PRI-14"
+      ]
+    }
+  }
+}

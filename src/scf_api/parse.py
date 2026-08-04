@@ -22,7 +22,13 @@ from .sources import (
     assign_api_ids,
     reconcile,
 )
-from .workbook import ColumnResolveError, SCFWorkbook, Sheet, cell_text
+from .workbook import (
+    ColumnResolveError,
+    ResolutionAliases,
+    SCFWorkbook,
+    Sheet,
+    cell_text,
+)
 
 SOURCE_URL = "https://securecontrolsframework.com"
 LICENSE_TEXT = "CC BY-ND (Attribution, No Derivatives)"
@@ -78,12 +84,16 @@ def _text(value: object) -> str:
     return cell_text(value) or ""
 
 
-def parse_workbook(path: str | Path, version: str) -> ParseResult:
+def parse_workbook(
+    path: str | Path,
+    version: str,
+    aliases: ResolutionAliases | None = None,
+) -> ParseResult:
     path = Path(path)
     result = ParseResult(version=version, files={})
     result.workbook_sha256 = hashlib.sha256(path.read_bytes()).hexdigest()
 
-    with SCFWorkbook(str(path)) as wb:
+    with SCFWorkbook(str(path), aliases=aliases) as wb:
         families = _parse_domains(wb, result)
         controls, xwalk = _parse_controls(wb, result)
         result.files[result.catalog_name] = {
@@ -102,6 +112,8 @@ def parse_workbook(path: str | Path, version: str) -> ParseResult:
         result.files["scf-privacy-principles.json"] = _parse_privacy(wb, result)
         result.files["scf-risks.json"] = _parse_risks(wb, result)
         result.files["scf-threats.json"] = _parse_threats(wb, result)
+        # Operator aliases that had to be used — surfaced as WARN findings.
+        result.findings.extend(wb.resolution_notes)
 
     return result
 
@@ -411,7 +423,9 @@ def _parse_aos(wb: SCFWorkbook, result: ParseResult) -> dict:
 
 def _parse_compensating(wb: SCFWorkbook, result: ParseResult) -> dict:
     sheet = wb.sheet("compensating")
-    id_col = sheet.col("scf control #")
+    # 2026.2 shortened "SCF Control #" to "SCF #". Neither pattern is a
+    # substring of the other's header, so both releases resolve unambiguously.
+    id_col = sheet.col("scf #", alts=("scf control #",))
     risk_col = sheet.col("risk if")
     cc1_col = sheet.col("possible compensating control #1")
     cc2_col = sheet.col("possible compensating control #2")

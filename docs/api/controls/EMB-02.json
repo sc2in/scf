@@ -103,30 +103,13 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Embedded Technology",
   "crosswalks": {
     "emea-sau-cgiot-2024": [
       "2-5-1"
-    ],
-    "emea-zaf-popia-2013": [
-      "19"
-    ],
-    "apac-aus-cop-sitc-2020": [
-      "Principle 11",
-      "Principle 13"
-    ],
-    "apac-chn-pipl-2021": [
-      "26"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "11.5.1",
-      "11.5.2",
-      "11.5.3",
-      "11.5.4",
-      "11.5.5"
     ]
   }
 }

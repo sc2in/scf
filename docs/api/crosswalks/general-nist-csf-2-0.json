@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-csf-2-0",
-  "display_name": "NIST Cybersecurity Framework (v2.0)",
+  "display_name": "NIST Cybersecurity Framework v2.0",
   "scf_to_framework": {
     "total_mappings": 250,
     "mappings": {

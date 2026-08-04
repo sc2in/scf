@@ -1,6 +1,6 @@
 {
   "framework_id": "general-govramp-mod",
-  "display_name": "GovRAMP Moderate",
+  "display_name": "Government Risk and Authorization Management Program (GovRAMP) - Moderate",
   "scf_to_framework": {
     "total_mappings": 347,
     "mappings": {

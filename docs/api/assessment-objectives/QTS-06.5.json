@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "QTS-06.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-06.5",
+      "ao_id": "QTS-06.5_A01",
+      "objective": "quantum-vulnerable and otherwise deprecated cryptographic algorithms are prohibited from being used.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

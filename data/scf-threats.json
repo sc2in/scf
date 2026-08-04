@@ -1,5 +1,5 @@
 {
-  "total": 41,
+  "total": 42,
   "threats": [
     {
       "threat_id": "NT-1",
@@ -155,7 +155,7 @@
       "threat_id": "MT-12",
       "grouping": "Man-Made Threat",
       "name": "Redundant, Obsolete/Outdated, Toxic or Trivial (ROTT) Data",
-      "description": "Redundant, Obsolete/Outdated, Toxic or Trivial (ROTT) data is information an organization utilizes for business processes even though the data is untrustworthy, due to the data's currency, accuracy, integrity and/or applicability."
+      "description": "Redundant, Obsolete/Outdated, Toxic or Trivial (ROTT) data is information an organization utilizes for business processes even though the data is untrustworthy, due to the data's currency, accuracy, integrity and/or applicability. This includes \"poisoned\", or otherwise compromised, Artificial Intelligence (AI) training data."
     },
     {
       "threat_id": "MT-13",
@@ -246,6 +246,12 @@
       "grouping": "Man-Made Threat",
       "name": "Infrastructure",
       "description": "Infrastructure is a threat category that pertains to the availability and functioning of fundamental facilities and systems necessary to support an industry and its supply chains within a country. This includes buildings, transportation networks, utilities and equipment. Additionally, this includes how well those facilities and systems are protected from both natural and man-made threats."
+    },
+    {
+      "threat_id": "MT-28",
+      "grouping": "Man-Made Threat",
+      "name": "Harvest Now / Decrypt Later (HNDL)",
+      "description": "Harvest Now / Decrypt Later (HNDL) is a threat category associated with Post-Quantum Cryptography (PQC) that is focused on nation-state threat actors harvesting data streams using legacy encryption protocols, so  when a quantum computer exists it can decrypt harvested data for long-living sensitive / regulated data (e.g., secrets, intellectual property, etc.)."
     }
   ]
 }

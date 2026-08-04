@@ -1,6 +1,6 @@
 {
   "framework_id": "general-govramp-core",
-  "display_name": "GovRAMP Core",
+  "display_name": "Government Risk and Authorization Management Program (GovRAMP) - Core Controls",
   "scf_to_framework": {
     "total_mappings": 86,
     "mappings": {

@@ -40,13 +40,33 @@ ground truth, output contracts, and acceptance proofs. Work milestone by milesto
 - praxis: `/home/tsunami/code/sc2/praxis` — `scripts/generate-facts.py` (hardcodes
   `scf-2026-1-1.json`), `modules/flake/checks.nix` `praxis-facts-fresh`. Acceptance:
   facts.json regenerated from this repo's `data/` is **byte-identical**.
+  **The catalog filename carries the SCF version**, so it is now `scf-2026-2.json` —
+  de-hardcode praxis (glob `scf-*.json` or read `.scf-version`) before bumping its pin.
 - policypress: `/home/tsunami/code/sc2/policypress` — `src/control_report.zig` reads
   `data/scf.json` (bare array of `{domain, control_id, control}`).
 - grc: `/home/tsunami/code/sc2/grc` — `import/import-scf.mjs` consumes
   `scf-api/docs/api/*.json` (submodule); count asserts are its acceptance test.
-- Known 2026.1.1 deviations (documented in PLAN.md): MON-03.3 evidence_requests workbook
-  typo (override: drop), TDA-11.2 `["[object Object]"]` upstream parser bug (we emit real
-  values; allowlisted in the tree proof).
+- Known deviations (documented in PLAN.md): MON-03.3 evidence_requests workbook typo
+  (override: drop — still present at 2026.2, so the entry is deliberately NOT
+  version-scoped), TDA-11.2 `["[object Object]"]` upstream parser bug (we emit real
+  values; allowlisted in the tree proof). The hackIDLE oracle equivalence proof is frozen
+  at 2026.1.1 — the archive has no later release to compare against.
+
+## Upstream renames tabs and headers between releases
+
+SCF 2026.2 renamed the `Authoritative Sources` tab to `Focal Documents` and shortened the
+compensating-controls `SCF Control #` header to `SCF #`, breaking autopilot. So:
+
+- `SHEET_PATTERNS` (workbook.py) maps each logical kind to an **ordered tuple** of accepted
+  patterns, current name first; `Sheet.col(..., alts=(...))` does the same for headers.
+  Add the new name, keep the old — one parser must read every supported release, and
+  `tests/test_integration_real.py` pins ground-truth counts per version.
+- Tab names match via `norm_key`, same as column headers, so invisible whitespace drift
+  does not summon a human.
+- A rename found in production is fixable **without a code change**: the `resolution`
+  section of `overrides/overrides.json` carries `sheets[]`/`columns[]` fallbacks. Those are
+  tried only after the built-in patterns miss and raise a `resolution-alias` WARN, so the
+  alias gets folded back into `SHEET_PATTERNS` later.
 
 ## House style
 

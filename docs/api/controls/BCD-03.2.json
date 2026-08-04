@@ -63,7 +63,8 @@
     "MT-14",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -78,9 +79,6 @@
     ],
     "general-nist-800-82-r3": [
       "CP-03(02)"
-    ],
-    "emea-isr-cmo-1-0": [
-      "25.8"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "framework_id": "general-govramp-low-plus",
-  "display_name": "GovRAMP Low+",
+  "display_name": "Government Risk and Authorization Management Program (GovRAMP) - Low+",
   "scf_to_framework": {
     "total_mappings": 230,
     "mappings": {

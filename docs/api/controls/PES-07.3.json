@@ -83,7 +83,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -177,12 +178,10 @@
       "13.1.2(a)"
     ],
     "emea-deu-c5-2020": [
-      "PS-01",
-      "PS-06"
+      "PS-04"
     ],
-    "emea-isr-cmo-1-0": [
-      "18.14",
-      "18.15"
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.if.4"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2704"
@@ -196,7 +195,7 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2704"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1123"
     ]
   }

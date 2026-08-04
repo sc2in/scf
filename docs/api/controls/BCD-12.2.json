@@ -88,7 +88,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -139,13 +140,6 @@
     ],
     "emea-eu-dora-2023": [
       "Article 12.4"
-    ],
-    "emea-isr-cmo-1-0": [
-      "12.26",
-      "25.12"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-43"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "4202"

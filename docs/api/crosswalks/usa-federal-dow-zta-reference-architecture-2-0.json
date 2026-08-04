@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-dow-zta-reference-architecture-2-0",
-  "display_name": "Department of War (DoW) - Zero Trust Reference Architecture (v2)",
+  "display_name": "US - Department of War (DoW) - Zero Trust Reference Architecture v2",
   "scf_to_framework": {
     "total_mappings": 39,
     "mappings": {

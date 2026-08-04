@@ -2,8 +2,8 @@
   "control_id": "IAC-29.2",
   "title": "Access Profile Rules",
   "family": "IAC",
-  "description": "Mechanisms exist to develop access profile rules for sensitive/regulated Technology Assets, Applications, Services and/or Data (TAASD) access based on User, Data, Network, Environment & Device attributes.",
-  "scf_question": "Does the organization develop access profile rules for sensitive/regulated Technology Assets, Applications, Services and/or Data (TAASD) access based on User, Data, Network, Environment & Device attributes?",
+  "description": "Mechanisms exist to develop access profile rules for sensitive and/or regulated Technology Assets, Applications, Services and/or Data (TAASD) access based on User, Data, Network, Environment & Device attributes.",
+  "scf_question": "Does the organization develop access profile rules for sensitive and/or regulated Technology Assets, Applications, Services and/or Data (TAASD) access based on User, Data, Network, Environment & Device attributes?",
   "relative_weight": 5,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -63,7 +63,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {

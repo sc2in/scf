@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "QTS-02.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A01",
+      "objective": "each Post-Quantum Cryptography (PQC) deviation is governed through a formal cryptographic exception register.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A02",
+      "objective": "the exception register contains the asset and/or process owner(s).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A03",
+      "objective": "the exception register contains compensating control(s).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A04",
+      "objective": "the exception register contains the planned remediation date.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-02.1",
+      "ao_id": "QTS-02.1_A05",
+      "objective": "the exception register contains the re-evaluation date.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

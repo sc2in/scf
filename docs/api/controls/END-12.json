@@ -85,11 +85,12 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1025",
       "T1052",
       "T1052.001",
@@ -113,6 +114,14 @@
     ],
     "general-nist-800-82-r3-high": [
       "SC-41"
+    ],
+    "general-nist-800-172-r3": [
+      "03.13.13E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.13.13E",
+      "A.03.13.13E.ODP[02]",
+      "A.03.13.13E.ODP[03]"
     ],
     "usa-federal-nerc-cip-2024": [
       "CIP-007-6 1.2"

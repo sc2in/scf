@@ -1,6 +1,6 @@
 {
   "framework_id": "general-iso-21434-2021",
-  "display_name": "ISO 21434 (2021)",
+  "display_name": "ISO/SAE 21434:2021 - Road vehicles — Cybersecurity engineering",
   "scf_to_framework": {
     "total_mappings": 51,
     "mappings": {

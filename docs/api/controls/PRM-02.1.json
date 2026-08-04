@@ -3,7 +3,7 @@
   "title": "Prioritization To Address Evolving Risks & Threats",
   "family": "PRM",
   "description": "Mechanisms exist to integrate foundational cybersecurity practices with advanced technologies to maintain situation awareness of and minimize the organization's exposure to evolving risks and threats.",
-  "scf_question": "Does the organization integrate foundational cybersecurity practices with advanced technologies to maintain situation awareness of and minimize the organization's exposure to evolving risks and threats?",
+  "scf_question": "Does the organization integrate foundational cybersecurity practices with advanced technologies to maintain situation awareness of and minimize its exposure to evolving risks and threats?",
   "relative_weight": 5,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -75,7 +75,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Project & Resource Management",
   "crosswalks": {
@@ -98,11 +99,46 @@
       "4.3.2",
       "6.3"
     ],
+    "general-nist-cswp-39": [
+      "6.1"
+    ],
     "usa-federal-dow-zt-roadmap-1-1": [
       "2.3"
     ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.6.1.62",
+      "3.6.1.66"
+    ],
+    "emea-deu-c5-2020": [
+      "SA-02-BP3"
+    ],
+    "emea-isr-cmo-2-0": [
+      "2.D",
+      "4.1, Stage 4"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-6-4"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-4-2"
+    ],
+    "apac-aus-ism-2026-march": [
+      "ISM-2020"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "25",
+      "27(b)"
+    ],
     "apac-jpn-ismap": [
       "4.5.5.3"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "8.1",
+      "8.2",
+      "8.4"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "1.3.2"
     ]
   }
 }

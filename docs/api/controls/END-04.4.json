@@ -90,7 +90,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Endpoint Security",
   "crosswalks": {
@@ -196,13 +197,7 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "SI-03"
     ],
-    "emea-isr-cmo-1-0": [
-      "7.8"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-4-3-4"
-    ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1284",
       "ISM-1286",
       "ISM-1288",

@@ -169,3 +169,41 @@ def test_parse_deterministic(clean_workbook):
     assert {n: jsonio.dumps(o) for n, o in a.files.items()} == {
         n: jsonio.dumps(o) for n, o in b.files.items()
     }
+
+
+def test_renamed_tabs_and_headers_parse_identically(workbook_factory):
+    """The 2026.2 rename shape yields byte-identical data to the old names.
+
+    This is the regression that broke autopilot: a pure rename must change
+    nothing about the emitted dataset.
+    """
+    from scf_api import jsonio
+
+    old = parse_workbook(workbook_factory(), VERSION)
+    renamed = parse_workbook(workbook_factory("renamed-tab", "renamed-cc-header"), VERSION)
+
+    assert {n: jsonio.dumps(o) for n, o in old.files.items()} == {
+        n: jsonio.dumps(o) for n, o in renamed.files.items()
+    }
+    # Built-in patterns handled it, so no operator alias was needed.
+    assert renamed.findings == []
+
+
+def test_operator_alias_surfaces_as_a_warn_finding(workbook_factory):
+    """An overrides.json alias parses the workbook but flags the drift."""
+    from scf_api.overrides import load_overrides
+    from scf_api.validate import validate_result
+    from scf_api.workbook import ResolutionAliases
+
+    aliases = ResolutionAliases(sheets={"sources": [("reference register", "ref-register-2099")]})
+    result = parse_workbook(workbook_factory("unknown-tab"), VERSION, aliases=aliases)
+
+    (note,) = result.findings
+    assert note["check"] == "resolution-alias"
+
+    outcome = validate_result(result, load_overrides(None))
+    alias_findings = [f for f in outcome.findings if f.check == "resolution-alias"]
+    assert len(alias_findings) == 1
+    assert alias_findings[0].severity == "warn"
+    # A WARN must not block the gate.
+    assert outcome.ok

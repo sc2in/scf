@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SAT-04.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-04.1",
+      "ao_id": "SAT-04.1_A01",
+      "objective": "individual training results are monitored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-04.1",
+      "ao_id": "SAT-04.1_A02",
+      "objective": "training results are reported to applicable stakeholders.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

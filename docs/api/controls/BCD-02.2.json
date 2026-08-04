@@ -89,7 +89,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -146,33 +147,31 @@
       "CP-02(05)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(7)(ii)(C)"
+      "§ 164.308(a)(7)(ii)(C)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(7)(ii)(C)"
+      "§ 164.308(a)(7)(ii)(C)"
     ],
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
       "500.16(a)(2)(iv)"
     ],
-    "emea-isr-cmo-1-0": [
-      "18.15",
-      "25.23"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-9-3-2"
+    "emea-sau-otcc-1-2022": [
+      "3-1-1-5"
     ],
     "apac-aus-ps-cps-230-2023": [
-      "34(e)"
+      "34(e)",
+      "38(c)"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "10.25",
+      "10.26"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP35",
       "HML35"
     ],
     "apac-nzl-hisf-suppliers-2023": [
       "HSUP31"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "2.9"
     ]
   }
 }

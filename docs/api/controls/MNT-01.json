@@ -117,7 +117,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Maintenance",
   "crosswalks": {
@@ -206,6 +207,12 @@
       "03.07.04.a",
       "03.07.06.a"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.04.03.c[01]",
+      "A.03.07.04.a[01]",
+      "A.03.07.04.a[02]",
+      "A.03.07.06.a"
+    ],
     "general-nist-csf-2-0": [
       "PR.PS",
       "PR.PS-02",
@@ -236,12 +243,12 @@
       "MA-01"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.310(a)(2)(iv)",
-      "164.310(d)(1)"
+      "§ 164.310(a)(2)(iv)",
+      "§ 164.310(d)(1)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.310(a)(2)(iv)",
-      "164.310(d)(1)"
+      "§ 164.310(a)(2)(iv)",
+      "§ 164.310(d)(1)"
     ],
     "usa-federal-irs-1075-2021": [
       "MA-1"
@@ -264,28 +271,14 @@
     "emea-eu-nis2-annex-2024": [
       "4.3.2(c)"
     ],
-    "emea-aut-fappd-2000": [
-      "Sec 14",
-      "Sec 15"
+    "emea-deu-c5-2020": [
+      "PS-05"
     ],
-    "emea-bel-act-8-1992": [
-      "16"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.exp.4"
     ],
-    "emea-sau-otcc-1-2022": [
-      "2-13-1-7"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-78"
-    ],
-    "emea-zaf-popia-2013": [
-      "19"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "7.3.4 [OP.EXP.4]"
-    ],
-    "apac-aus-ism-2024-june": [
-      "ISM-0305",
-      "ISM-1226"
+    "apac-aus-ism-2026-march": [
+      "ISM-0305"
     ],
     "apac-jpn-ismap": [
       "11.2.4",
@@ -293,7 +286,10 @@
       "11.2.4.3",
       "11.2.4.5"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "10.26"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP15",
       "HML15"
     ],

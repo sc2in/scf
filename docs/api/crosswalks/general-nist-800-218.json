@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-218",
-  "display_name": "NIST SP 800-218",
+  "display_name": "NIST SP 800 - 218 - Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities",
   "scf_to_framework": {
     "total_mappings": 59,
     "mappings": {

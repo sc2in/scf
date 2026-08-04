@@ -80,9 +80,9 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Project & Resource Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
@@ -221,11 +221,14 @@
     "general-nist-800-161-r1-level-3": [
       "PM-11"
     ],
+    "general-nist-800-172-r3": [
+      "03.13.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "A.03.13.01E.ODP[01]"
+    ],
     "general-owasp-top-10-2025": [
       "A06:2025"
-    ],
-    "general-scf-dpmp-2025": [
-      "5.12"
     ],
     "general-swift-cscf-2025": [
       "2.8",
@@ -275,10 +278,10 @@
       "609.935(e)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.306(b)(2)(i)"
+      "§ 164.306(b)(2)(i)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.306(b)(2)(i)"
+      "§ 164.306(b)(2)(i)"
     ],
     "usa-federal-cms-marse-2-0": [
       "PM-11",
@@ -289,10 +292,9 @@
       "PM-11"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.5(51)",
-      "3.6.1(64)",
-      "3.6.1(65)",
-      "3.6.2(68)"
+      "3.3.2.15",
+      "3.6.1.64",
+      "3.6.2.68"
     ],
     "emea-eu-dora-2023": [
       "Article 8.1"
@@ -300,14 +302,15 @@
     "emea-eu-nis2-annex-2024": [
       "6.2.2(a)"
     ],
-    "emea-isr-cmo-1-0": [
-      "17.5",
-      "17.6"
+    "emea-deu-bsrit-2017": [
+      "7.6"
     ],
-    "emea-qat-pdppl-2020": [
-      "11.4",
-      "11.5",
-      "11.6"
+    "emea-sau-ecc-1-2018": [
+      "2-9-1"
+    ],
+    "emea-esp-decree-311-2022": [
+      "Article 13(2)(a)",
+      "Article 13(2)(b)"
     ],
     "apac-jpn-ismap": [
       "4.4.3.1",
@@ -316,6 +319,9 @@
       "6.1.5.5",
       "13.1.2",
       "14.1.1.2"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.2"
     ],
     "apac-nzl-hisf-suppliers-2023": [
       "HSUP27"
@@ -326,8 +332,11 @@
       "12.1.32.C.03"
     ],
     "apac-sgp-mas-trm-2021": [
-      "5.5.1",
-      "5.5.2"
+      "5.1.2",
+      "5.5.1"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.9"
     ],
     "americas-can-osfi-b13-2022": [
       "1.2.1",
@@ -336,6 +345,9 @@
       "2.4.1",
       "2.4.3",
       "2.8"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "1.2.1"
     ]
   }
 }

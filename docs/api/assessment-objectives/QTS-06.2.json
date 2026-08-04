@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "QTS-06.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A01",
+      "objective": "stateful hash-based signature schemes conform with NIST SP 800-208.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A02",
+      "objective": "state-management controls necessary to prevent one-time key reuse are required.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A03",
+      "objective": "stateful hash-based signatures are enforced for firmware signing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A04",
+      "objective": "stateful hash-based signatures are enforced for secure boot signing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.2",
+      "ao_id": "QTS-06.2_A05",
+      "objective": "stateful hash-based signatures are enforced for other long-lifetime code-signing use cases.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

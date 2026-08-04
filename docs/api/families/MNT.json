@@ -122,7 +122,8 @@
         "MT-23",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -211,6 +212,12 @@
           "03.07.04.a",
           "03.07.06.a"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.04.03.c[01]",
+          "A.03.07.04.a[01]",
+          "A.03.07.04.a[02]",
+          "A.03.07.06.a"
+        ],
         "general-nist-csf-2-0": [
           "PR.PS",
           "PR.PS-02",
@@ -241,12 +248,12 @@
           "MA-01"
         ],
         "usa-federal-law-hipaa-simplification-2013": [
-          "164.310(a)(2)(iv)",
-          "164.310(d)(1)"
+          "§ 164.310(a)(2)(iv)",
+          "§ 164.310(d)(1)"
         ],
         "usa-federal-law-hipaa-security-rule-2013": [
-          "164.310(a)(2)(iv)",
-          "164.310(d)(1)"
+          "§ 164.310(a)(2)(iv)",
+          "§ 164.310(d)(1)"
         ],
         "usa-federal-irs-1075-2021": [
           "MA-1"
@@ -269,28 +276,14 @@
         "emea-eu-nis2-annex-2024": [
           "4.3.2(c)"
         ],
-        "emea-aut-fappd-2000": [
-          "Sec 14",
-          "Sec 15"
+        "emea-deu-c5-2020": [
+          "PS-05"
         ],
-        "emea-bel-act-8-1992": [
-          "16"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.4"
         ],
-        "emea-sau-otcc-1-2022": [
-          "2-13-1-7"
-        ],
-        "emea-sau-sacs-002-2022": [
-          "TPC-78"
-        ],
-        "emea-zaf-popia-2013": [
-          "19"
-        ],
-        "emea-esp-ccn-stic-825-2023": [
-          "7.3.4 [OP.EXP.4]"
-        ],
-        "apac-aus-ism-2024-june": [
-          "ISM-0305",
-          "ISM-1226"
+        "apac-aus-ism-2026-march": [
+          "ISM-0305"
         ],
         "apac-jpn-ismap": [
           "11.2.4",
@@ -298,7 +291,10 @@
           "11.2.4.3",
           "11.2.4.5"
         ],
-        "apac-nzl-hisf-mlhsp-2023": [
+        "apac-mys-bnm-rmit-2025": [
+          "10.26"
+        ],
+        "apac-nzl-hisf-microsmall-2023": [
           "HHSP15",
           "HML15"
         ],
@@ -323,7 +319,7 @@
       "title": "Controlled Maintenance",
       "family": "MNT",
       "description": "Mechanisms exist to conduct controlled maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).",
-      "scf_question": "Does the organization conduct controlled maintenance activities throughout the lifecycle of theTechnology Asset, Application and/or Service (TAAS)?",
+      "scf_question": "Does the organization conduct controlled maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS)?",
       "relative_weight": 10,
       "conformity_cadence": "Annual",
       "evidence_requests": [
@@ -338,7 +334,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ Asset custodians track maintenance activities and component failure rates.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to conduct controlled maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -429,7 +425,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -499,7 +496,9 @@
           "3.7.1"
         ],
         "general-nist-800-171a-r3": [
-          "A.03.04.03.c[01]"
+          "A.03.04.03.c[01]",
+          "A.03.07.04.a[02]",
+          "A.03.07.05.a[01]"
         ],
         "general-nist-csf-2-0": [
           "PR.PS",
@@ -525,10 +524,10 @@
           "MA-02"
         ],
         "usa-federal-law-hipaa-simplification-2013": [
-          "164.310(a)(2)(iv)"
+          "§ 164.310(a)(2)(iv)"
         ],
         "usa-federal-law-hipaa-security-rule-2013": [
-          "164.310(a)(2)(iv)"
+          "§ 164.310(a)(2)(iv)"
         ],
         "usa-federal-irs-1075-2021": [
           "MA-2"
@@ -552,8 +551,8 @@
         "usa-state-tx-txramp-2-0-level-2": [
           "MA-02"
         ],
-        "emea-sau-sacs-002-2022": [
-          "TPC-78"
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.4"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2511"
@@ -567,7 +566,7 @@
         "emea-gbr-def-stan-05-138-l3-2024": [
           "2511"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1079"
         ],
         "apac-ind-sebi-2024": [
@@ -576,7 +575,12 @@
         "apac-jpn-ismap": [
           "11.2.4.4"
         ],
+        "apac-mys-bnm-rmit-2025": [
+          "10.26"
+        ],
         "apac-nzl-ism-3-9": [
+          "11.8.10.C.01",
+          "11.8.10.C.04",
           "12.5.3.C.01",
           "12.5.3.C.02",
           "12.5.6.C.01",
@@ -691,7 +695,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -747,7 +752,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to obtain maintenance support and/or spare parts for Technology Assets, Applications and/or Services (TAAS) within a defined Recovery Time Objective (RTO).",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -836,7 +841,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -891,6 +897,9 @@
         "general-nist-800-171-r3": [
           "03.07.04.a"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.07.04.a[02]"
+        ],
         "general-nist-csf-2-0": [
           "PR.PS-02",
           "PR.PS-03"
@@ -916,6 +925,9 @@
         ],
         "usa-state-tx-txramp-2-0-level-2": [
           "MA-06"
+        ],
+        "emea-esp-ccn-stic-825-2026": [
+          "op.exp.4"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2511"
@@ -954,11 +966,11 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ Asset custodians track maintenance activities and component failure rates.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to perform preventive maintenance on critical Technology Assets, Applications and/or Services (TAAS).",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [
         "CORE ESP Level 1 Foundational",
@@ -1042,7 +1054,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -1060,6 +1073,9 @@
         ],
         "general-nist-800-171-r3": [
           "03.07.04.a"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.07.04.a[02]"
         ],
         "general-nist-csf-2-0": [
           "PR.PS-02",
@@ -1088,11 +1104,11 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to perform predictive maintenance on critical Technology Assets, Applications and/or Services (TAAS).",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [],
       "possible_solutions": {
@@ -1162,7 +1178,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -1195,7 +1212,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically transfer predictive maintenance data to a computerized maintenance management system.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -1268,7 +1285,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -1304,9 +1322,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ IT and/or cybersecurity personnel control and monitor the use of system maintenance tools.",
-        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to control and monitor the use of system maintenance tools.",
+        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to control and monitor the use of system maintenance tools. ",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -1390,7 +1408,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -1466,6 +1485,12 @@
           "A.03.07.04.a[02]",
           "A.03.07.04.a[03]"
         ],
+        "general-nist-800-172-r3": [
+          "03.07.01E"
+        ],
+        "general-nist-800-172a-r3": [
+          "DS-A.03.07.01E"
+        ],
         "usa-federal-fbi-cjis-6-0": [
           "MA-3"
         ],
@@ -1511,9 +1536,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ IT and/or cybersecurity personnel control and monitor the use of system maintenance tools.\n▪ IT and/or cybersecurity personnel inspect maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications.",
-        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to inspect maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications.",
+        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to inspect maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications. ",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -1596,7 +1621,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -1638,6 +1664,9 @@
         ],
         "general-nist-800-171-r3": [
           "03.07.04.b"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.07.04.b"
         ],
         "usa-federal-fbi-cjis-6-0": [
           "MA-3(1)"
@@ -1682,9 +1711,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ IT and/or cybersecurity personnel control and monitor the use of system maintenance tools.\n▪ IT and/or cybersecurity personnel inspect maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications.",
-        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to check media containing diagnostic and test programs for malicious code before the media are used.",
+        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to check media containing diagnostic and test programs for malicious code before the media are used. ",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -1764,7 +1793,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -1863,7 +1893,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ Asset / process owners prevent or control the removal of equipment undergoing maintenance that contains organizational information.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to prevent or control the removal of equipment undergoing maintenance that contains organizational information.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -1942,7 +1972,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -2001,10 +2032,10 @@
           "MA-03(03)"
         ],
         "usa-federal-law-hipaa-simplification-2013": [
-          "164.310(d)(1)"
+          "§ 164.310(d)(1)"
         ],
         "usa-federal-law-hipaa-security-rule-2013": [
-          "164.310(d)(1)"
+          "§ 164.310(d)(1)"
         ],
         "usa-federal-irs-1075-2021": [
           "MA-3(CE-3)",
@@ -2029,6 +2060,9 @@
           "11.2.5.2",
           "11.2.5.3",
           "11.2.5.4"
+        ],
+        "apac-nzl-ism-3-9": [
+          "11.8.10.C.02"
         ],
         "americas-can-itsp-10-171-2025": [
           "03.07.04.C"
@@ -2057,7 +2091,7 @@
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ IT and/or cybersecurity personnel control and monitor the use of system maintenance tools.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically restrict the use of maintenance tools to authorized maintenance personnel and/or roles.",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [],
       "possible_solutions": {
@@ -2133,7 +2167,8 @@
         "MT-14",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -2178,11 +2213,11 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ Instances of non-console administrative access use cryptographic mechanisms to protect the confidentiality and integrity of the data being transmitted.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to authorize, monitor and control remote, non-local maintenance and diagnostic activities.",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-        "5": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+        "5": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
       },
       "profiles": [
         "SCRMS",
@@ -2266,7 +2301,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -2353,8 +2389,11 @@
           "3.7.5[b]"
         ],
         "general-nist-800-171a-r3": [
+          "A.03.01.12.d[1]",
           "A.03.07.05.a[01]",
-          "A.03.07.05.a[02]"
+          "A.03.07.05.a[02]",
+          "A.03.07.05.b[01]",
+          "A.03.07.05.c[01]"
         ],
         "general-pci-dss-4-0-1": [
           "8.2.7"
@@ -2415,16 +2454,6 @@
         "emea-eu-nis2-annex-2024": [
           "6.7.2(h)"
         ],
-        "emea-isr-cmo-1-0": [
-          "4.18",
-          "12.7"
-        ],
-        "emea-sau-otcc-1-2022": [
-          "2-2-1-7"
-        ],
-        "emea-sau-sacs-002-2022": [
-          "TPC-35"
-        ],
         "emea-gbr-def-stan-05-138-2024": [
           "2512"
         ],
@@ -2471,9 +2500,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
-        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to audit remote, non-local maintenance and diagnostic sessions, as well as review the maintenance action performed during remote maintenance sessions.",
+        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to audit remote, non-local maintenance and diagnostic sessions, as well as review the maintenance action performed during remote maintenance sessions. ",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -2543,7 +2572,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -2628,6 +2658,9 @@
         "general-nist-800-171-r3": [
           "03.07.05.a"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.07.05.a[02]"
+        ],
         "general-pci-dss-4-0-1": [
           "8.2.7"
         ],
@@ -2692,9 +2725,6 @@
           "MA-01",
           "MA-04"
         ],
-        "emea-isr-cmo-1-0": [
-          "12.7"
-        ],
         "apac-jpn-ismap": [
           "11.2.4.7"
         ],
@@ -2721,7 +2751,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ Asset / process owners require maintenance personnel to notify entity-defined personnel when non-local maintenance is planned (e.g., date/time).",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to require maintenance personnel to notify affected stakeholders when remote, non-local maintenance is planned (e.g., date/time).",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -2792,7 +2822,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -2912,9 +2943,6 @@
         "usa-state-tx-txramp-2-0-level-2": [
           "MA-01",
           "MA-04"
-        ],
-        "emea-isr-cmo-1-0": [
-          "12.7"
         ]
       }
     },
@@ -2936,9 +2964,9 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
-        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the integrity and confidentiality of remote, non-local maintenance and diagnostic communications.",
+        "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the integrity and confidentiality of remote, non-local maintenance and diagnostic communications. ",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
         "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
       },
@@ -2993,7 +3021,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -3025,7 +3054,7 @@
           "03.07.05.b"
         ],
         "general-nist-800-171a-r3": [
-          "A.03.07.05.b[02]"
+          "A.03.07.05.b[01]"
         ],
         "general-pci-dss-4-0-1": [
           "2.2.7"
@@ -3054,10 +3083,6 @@
         "usa-federal-irs-1075-2021": [
           "MA-4(CE-6)"
         ],
-        "emea-isr-cmo-1-0": [
-          "4.20",
-          "12.7"
-        ],
         "americas-can-itsp-10-171-2025": [
           "03.07.05.B"
         ]
@@ -3081,7 +3106,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ IT and/or cybersecurity personnel provide remote disconnect verification to ensure non-local maintenance and diagnostic sessions are properly terminated.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to provide remote disconnect verification to ensure remote, non-local maintenance and diagnostic sessions are properly terminated.",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -3149,7 +3174,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -3195,11 +3221,6 @@
         "usa-federal-irs-1075-2021": [
           "MA-4(CE-7)"
         ],
-        "emea-isr-cmo-1-0": [
-          "4.18",
-          "4.20",
-          "12.7"
-        ],
         "apac-jpn-ismap": [
           "11.2.4.11"
         ],
@@ -3226,7 +3247,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to require maintenance personnel to obtain pre-approval and scheduling for remote, non-local maintenance sessions.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -3295,7 +3316,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -3311,11 +3333,11 @@
         "general-nist-800-171-r3": [
           "03.07.05.a"
         ],
+        "general-nist-800-171a-r3": [
+          "A.03.07.05.a[01]"
+        ],
         "usa-federal-nerc-cip-2024": [
           "CIP-005-7 3.1"
-        ],
-        "emea-isr-cmo-1-0": [
-          "12.7"
         ],
         "apac-ind-sebi-2024": [
           "PR.MA.S2"
@@ -3346,7 +3368,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to require Technology Assets, Applications and/or Services (TAAS) performing remote, non-local maintenance and/or diagnostic services implement a security capability comparable to the capability implemented on the system being serviced.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -3413,7 +3435,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -3540,7 +3563,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -3583,7 +3607,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ IT personnel, in conjunction with asset custodians, maintain a current list of authorized maintenance organizations or personnel.\n▪ Asset / process owners require maintenance personnel to obtain pre-approval and scheduling for non-local maintenance sessions.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to maintain a current list of authorized maintenance organizations or personnel.",
         "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -3672,7 +3696,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -3740,8 +3765,7 @@
           "A.03.07.06.a",
           "A.03.07.06.b",
           "A.03.07.06.c",
-          "A.03.07.06.d[01]",
-          "A.03.07.06.d[02]"
+          "A.03.07.06.d[01]"
         ],
         "usa-federal-fbi-cjis-6-0": [
           "MA-5"
@@ -3779,13 +3803,7 @@
         "usa-state-tx-txramp-2-0-level-2": [
           "MA-05"
         ],
-        "emea-isr-cmo-1-0": [
-          "12.7"
-        ],
-        "emea-sau-otcc-1-2022": [
-          "2-13-1-7"
-        ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0305",
           "ISM-0307"
         ],
@@ -3908,7 +3926,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -3961,12 +3980,13 @@
           "3.7.6"
         ],
         "general-nist-800-171-r3": [
-          "03.07.06.a",
           "03.07.06.c",
           "03.07.06.d"
         ],
         "general-nist-800-171a-r3": [
-          "A.03.07.06.c"
+          "A.03.07.06.c",
+          "A.03.07.06.d[01]",
+          "A.03.07.06.d[02]"
         ],
         "usa-federal-dow-cmmc-2-level-2": [
           "MAL2.-3.7.6"
@@ -3977,11 +3997,8 @@
         "usa-federal-gsa-fedramp-5-high": [
           "MA-05(01)"
         ],
-        "emea-isr-cmo-1-0": [
-          "12.7"
-        ],
-        "emea-sau-otcc-1-2022": [
-          "2-13-1-7"
+        "usa-federal-law-33-cfr-part-101-subpart-f": [
+          "101.650(d)(3)"
         ],
         "emea-gbr-def-stan-05-138-2024": [
           "2513"
@@ -3995,7 +4012,7 @@
         "emea-gbr-def-stan-05-138-l3-2024": [
           "2513"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0306"
         ],
         "apac-nzl-ism-3-9": [
@@ -4005,7 +4022,6 @@
           "12.5.4.C.04"
         ],
         "americas-can-itsp-10-171-2025": [
-          "03.07.06.A",
           "03.07.06.C",
           "03.07.06.D"
         ]
@@ -4029,7 +4045,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ Asset / process owners require maintenance personnel to obtain pre-approval and scheduling for non-local maintenance sessions.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure that non-escorted personnel performing non-IT maintenance activities in the physical proximity of systems have required access authorizations.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -4102,7 +4118,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -4119,7 +4136,6 @@
           "3.7.6"
         ],
         "general-nist-800-171-r3": [
-          "03.07.06.a",
           "03.07.06.c"
         ],
         "general-nist-800-171a-r3": [
@@ -4128,11 +4144,13 @@
         "usa-federal-dow-cmmc-2-level-2": [
           "MAL2.-3.7.6"
         ],
+        "usa-federal-law-33-cfr-part-101-subpart-f": [
+          "101.650(d)(3)"
+        ],
         "usa-federal-irs-1075-2021": [
           "MA-5(CE-5)"
         ],
         "americas-can-itsp-10-171-2025": [
-          "03.07.06.A",
           "03.07.06.C"
         ]
       }
@@ -4155,7 +4173,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to maintain proper physical security and configuration control over technology assets awaiting service or repair.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -4241,7 +4259,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -4310,7 +4329,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to securely conduct field maintenance on geographically deployed assets.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -4392,7 +4411,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
@@ -4417,7 +4437,7 @@
         "general-nist-800-161-r1-level-3": [
           "MA-7"
         ],
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-0305"
         ],
         "apac-nzl-ism-3-9": [
@@ -4443,7 +4463,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure off-site maintenance activities are conducted securely and the asset(s) undergoing maintenance actions are secured during physical transfer and storage while off-site.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -4529,14 +4549,18 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-171-r3": [
           "03.07.04.a"
         ],
-        "apac-aus-ism-2024-june": [
+        "general-nist-800-171a-r3": [
+          "A.03.07.04.a[02]"
+        ],
+        "apac-aus-ism-2026-march": [
           "ISM-0310"
         ],
         "apac-jpn-ismap": [
@@ -4574,7 +4598,7 @@
       },
       "maturity": {
         "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
         "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
         "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to validate:\n(1) Maintenance activities were appropriately performed according to the work order; and \n(2) Applicable security, compliance and resilience controls are operational.",
         "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -4657,12 +4681,12 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
-      "errata": "- wordsmithed",
       "family_name": "Maintenance",
       "crosswalks": {
-        "apac-aus-ism-2024-june": [
+        "apac-aus-ism-2026-march": [
           "ISM-1598"
         ],
         "apac-jpn-ismap": [
@@ -4753,7 +4777,8 @@
         "MT-15",
         "MT-24",
         "MT-25",
-        "MT-27"
+        "MT-27",
+        "MT-28"
       ],
       "family_name": "Maintenance",
       "crosswalks": {

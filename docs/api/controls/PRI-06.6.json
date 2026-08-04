@@ -16,7 +16,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nPrivacy (PRI) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PRI domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Data privacy-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No formal data privacy team exists. Privacy roles are assigned to existing IT / cybersecurity.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Privacy (PRI) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data privacy management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Data privacy management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ The data privacy program is developed to work with IT and cybersecurity staff to ensure that applicable statutory, regulatory and/or contractual data privacy obligations for Personal Data (PD) are properly identified and implemented.",
     "3": "Privacy (PRI) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are well-documented and kept current by process owners.\n▪ A data privacy team, or similar function, is appropriately staffed and supported to implement and maintain PRI domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data privacy operations (e.g., privacy notice management software, customer management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to format exports of Personal Data (PD) in a structured, machine-readable format that allows data subjects to transfer their PD to another controller without hindrance.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -59,7 +59,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Privacy",
   "crosswalks": {
@@ -70,12 +71,9 @@
       "ID.DE-P4",
       "CT.DM-P6"
     ],
-    "general-scf-dpmp-2025": [
-      "5.7"
-    ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.524(c)(2)(i)",
-      "164.524(c)(2)(ii)"
+      "§ 164.524(c)(2)(i)",
+      "§ 164.524(c)(2)(ii)"
     ],
     "usa-state-ca-ccpa-cpra-2026": [
       "7024(g)"
@@ -99,44 +97,32 @@
       "Article 20.1"
     ],
     "emea-ken-pda-2019": [
-      "38(1)",
-      "38(2)",
-      "38(3)",
-      "38(4)",
-      "38(5)(a)",
-      "38(5)(b)",
-      "38(6)",
-      "38(7)"
+      "IV.38(1)",
+      "IV.38(2)",
+      "IV.38(3)"
     ],
     "emea-nga-dpr-2019": [
-      "3.1(6)",
       "3.1(14)",
-      "3.1(14)(a)",
-      "3.1(14)(b)",
-      "3.1(14)(c)",
       "3.1(15)"
     ],
-    "emea-qat-pdppl-2020": [
-      "6.3"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "4-2-3-1"
-    ],
     "emea-srb-act-9-2018": [
-      "21",
-      "22",
-      "36",
-      "36.1",
-      "36.2"
+      "III.3.36"
     ],
-    "americas-arg-ppd-2018": [
-      "15.1",
-      "15.2",
-      "15.3"
+    "apac-chn-pipl-2021": [
+      "Article 45"
+    ],
+    "apac-phl-dpa-2012": [
+      "IV.18"
     ],
     "americas-bra-lgpd-2018": [
-      "18.5",
-      "40"
+      "III.18.IX.7",
+      "III.19",
+      "III.19.II",
+      "III.19.II.1",
+      "III.19.II.2",
+      "III.19.II.2.I",
+      "III.19.II.2.II",
+      "III.19.II.3"
     ]
   }
 }

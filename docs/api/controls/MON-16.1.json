@@ -109,7 +109,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
@@ -125,14 +126,8 @@
     "general-sparta": [
       "CM0052"
     ],
-    "emea-isr-cmo-1-0": [
-      "21.10"
-    ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1625"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "3.5.2"
     ]
   }
 }

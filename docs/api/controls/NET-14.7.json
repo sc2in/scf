@@ -3,7 +3,7 @@
   "title": "Endpoint Security Validation",
   "family": "NET",
   "description": "Automated mechanisms exist to validate the security posture of the endpoint devices (e.g., software versions, patch levels, etc.) prior to allowing devices to connect to organizational Technology Assets, Applications and/or Services (TAAS).",
-  "scf_question": "Does the organization validate the security posture of the endpoint devices (e.g., software versions, patch levels, etc.) prior to allowing devices to connect to organizational Technology Assets, Applications and/or Services (TAAS)?",
+  "scf_question": "Does the organization use automated mechanisms to validate the security posture of the endpoint devices (e.g., software versions, patch levels, etc.) prior to allowing devices to connect to organizational Technology Assets, Applications and/or Services (TAAS)?",
   "relative_weight": 6,
   "conformity_cadence": "Quarterly",
   "evidence_requests": [],
@@ -87,7 +87,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {

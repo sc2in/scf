@@ -96,9 +96,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Network Security",
   "crosswalks": {
     "general-govramp": [
@@ -119,7 +119,7 @@
     "general-iec-62443-2-1-2024": [
       "NET 1.2"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1020.001",
       "T1041",
       "T1048",
@@ -178,6 +178,7 @@
     ],
     "general-nist-800-171a-r3": [
       "A.03.01.03[02]",
+      "A.03.01.20.c.02",
       "A.03.12.05.ODP[01]",
       "A.03.12.05.ODP[02]",
       "A.03.12.05.a[01]",
@@ -187,6 +188,18 @@
       "A.03.12.05.b[03]",
       "A.03.12.05.c[01]",
       "A.03.12.05.c[02]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.12.04E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.12.04E.a",
+      "A.03.12.04E.ODP[01]",
+      "DS-A.03.12.04E.b[01]",
+      "DS-A.03.12.04E.b[02]",
+      "DS-A.03.12.04E.b[03]",
+      "A.03.12.04E.ODP[02]",
+      "DS-A.03.12.04E.d"
     ],
     "general-swift-cscf-2025": [
       "2.4"
@@ -233,11 +246,8 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "CA-03"
     ],
-    "emea-deu-c5-2020": [
-      "COS-03"
-    ],
-    "emea-isr-cmo-1-0": [
-      "16.4"
+    "emea-esp-decree-311-2022": [
+      "Article 23"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.03",

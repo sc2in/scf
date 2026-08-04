@@ -78,7 +78,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
@@ -96,6 +97,9 @@
     ],
     "emea-eu-nis2-annex-2024": [
       "4.1.2(c)"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "11.15"
     ]
   }
 }

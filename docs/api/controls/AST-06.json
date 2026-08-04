@@ -101,7 +101,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Asset Management",
   "crosswalks": {
@@ -145,10 +146,13 @@
     "general-pci-dss-4-0-1-saq-p2pe": [
       "9.5.1"
     ],
-    "emea-esp-ccn-stic-825-2023": [
-      "8.3.2 [MP.EQ.2]"
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.eq.1",
+      "mp.eq.2",
+      "mp.eq.3",
+      "mp.eq.4"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0161"
     ],
     "apac-jpn-ismap": [

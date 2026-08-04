@@ -25,7 +25,13 @@
   "profiles": [
     "CORE Mergers, Acquisitions & Divestitures (MA&D)"
   ],
-  "possible_solutions": {},
+  "possible_solutions": {
+    "micro_small": "∙ Emergency change log (spreadsheet)\n∙ Post-hoc documentation template for emergency changes",
+    "small": "∙ Emergency change documentation register\n∙ Mandatory post-implementation review requirement",
+    "medium": "∙ ITSM-based post-implementation emergency change documentation\n∙ Mandatory post-implementation review within defined timeframe",
+    "large": "∙ ITSM platform mandatory documentation workflow\n∙ Post-implementation review with management sign-off\n∙ Integration with audit trail",
+    "enterprise": "∙ Automated ITSM documentation requirements for emergency changes\n∙ Mandatory post-implementation review with sign-off\n∙ Integration with GRC and audit reporting"
+  },
   "risks": [
     "R-AC-1",
     "R-AC-2",
@@ -77,12 +83,16 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Change Management",
   "crosswalks": {
     "emea-eu-nis2-annex-2024": [
       "6.4.3"
+    ],
+    "emea-deu-c5-2020": [
+      "BEI-10"
     ]
   }
 }

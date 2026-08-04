@@ -85,7 +85,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Human Resources Security",
   "crosswalks": {
@@ -95,6 +96,9 @@
     ],
     "usa-federal-dow-cert-rmm-1-2": [
       "HRM:SG2"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.2.1.3"
     ]
   }
 }

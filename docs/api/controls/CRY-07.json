@@ -71,7 +71,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
@@ -148,6 +149,9 @@
     "general-nist-800-171-r3": [
       "03.01.16.a"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.16.a[02]"
+    ],
     "general-nist-800-207": [
       "NIST Tenet 2"
     ],
@@ -214,21 +218,16 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "AC-18"
     ],
-    "emea-isr-cmo-1-0": [
-      "4.22"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-5-3-4"
-    ],
     "emea-sau-sacs-002-2022": [
-      "TPC-42"
+      "VII.B.TPC-42"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1314",
       "ISM-1332"
     ],
     "apac-nzl-ism-3-9": [
       "18.2.9.C.01",
+      "18.2.9.C.02",
       "18.2.10.C.01",
       "18.2.10.C.02",
       "18.2.11.C.01",

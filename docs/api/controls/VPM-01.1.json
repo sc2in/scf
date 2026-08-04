@@ -18,7 +18,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nVulnerability & Patch Management (VPM) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with VPM domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Attack Surface Management (ASM)-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+    "1": "Vulnerability & Patch Management (VPM) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with VPM domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Attack Surface Management (ASM)-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
     "2": "Vulnerability & Patch Management (VPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Vulnerability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Vulnerability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel define the breadth and depth of coverage for vulnerability scanning that covers system components scanned and types of vulnerabilities that are checked for.",
     "3": "Vulnerability & Patch Management (VPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are well-documented and kept current by process owners.\n▪ A vulnerability management team, or similar function, is appropriately staffed and supported to implement and maintain VPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of vulnerability management operations (e.g., patch management solution, vulnerability scanning solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to define and manage the scope for its attack surface management activities.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -108,7 +108,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
@@ -158,7 +159,14 @@
       "03.14.01.a"
     ],
     "general-nist-800-171a-r3": [
-      "A.03.11.02.a[01]"
+      "A.03.11.02.a[01]",
+      "A.03.14.01.a[01]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.12.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "A.03.12.01E.ODP[02]"
     ],
     "general-nist-csf-2-0": [
       "PR.PS-02"
@@ -218,9 +226,6 @@
       "11.3.2",
       "11.3.2.1"
     ],
-    "general-scf-dpmp-2025": [
-      "5.15"
-    ],
     "general-swift-cscf-2025": [
       "2.2",
       "2.7"
@@ -254,6 +259,9 @@
       "SA-11(06)",
       "SA-11(07)"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.625(d)(15)"
+    ],
     "usa-federal-irs-1075-2021": [
       "SA-11(CE-6)"
     ],
@@ -263,28 +271,24 @@
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
       "500.5(a)(1)"
     ],
-    "emea-deu-c5-2020": [
-      "PSS-02"
-    ],
     "emea-sau-cscc-1-2019": [
       "2-10-1-1"
     ],
     "emea-sau-ecc-1-2018": [
-      "2-11-3-1",
       "5-1-3-8"
     ],
     "emea-sau-otcc-1-2022": [
-      "2-9-1-1"
+      "2-9-1-1",
+      "2-10-1-1"
     ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-27",
-      "TPC-28",
-      "TPC-29"
+    "apac-mys-bnm-rmit-2025": [
+      "10.18"
     ],
     "apac-nzl-ism-3-9": [
       "6.2.4.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
+      "6.1.4",
       "13.1.2"
     ],
     "americas-can-itsp-10-171-2025": [

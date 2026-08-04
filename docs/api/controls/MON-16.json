@@ -111,7 +111,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
@@ -190,10 +191,20 @@
       "03.14.06.c"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.01.e",
+      "A.03.03.05.a",
+      "A.03.14.06.a.01[01]",
+      "A.03.14.06.a.01[02]",
+      "A.03.14.06.a.02",
       "A.03.14.06.b"
     ],
-    "general-nist-800-172": [
-      "3.14.2e"
+    "general-nist-800-172-r3": [
+      "03.01.08E",
+      "03.06.03E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.01.08E.a",
+      "DS-A.03.06.03E"
     ],
     "general-nist-800-207": [
       "NIST Tenet 4"
@@ -265,12 +276,12 @@
       "IR-04(13)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.312(b)",
-      "164.312(c)(2)"
+      "§ 164.312(b)",
+      "§ 164.312(c)(2)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.312(b)",
-      "164.312(c)(2)"
+      "§ 164.312(b)",
+      "§ 164.312(c)(2)"
     ],
     "usa-federal-irs-1075-2021": [
       "AC-2(CE-12)",
@@ -288,10 +299,7 @@
       "AC-02 (12)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.4.5(38)",
-      "3.4.5(38)(a)",
-      "3.4.5(38)(b)",
-      "3.4.5(38)(c)"
+      "3.4.5.38"
     ],
     "emea-eu-dora-2023": [
       "Article 10.1"
@@ -302,29 +310,14 @@
     "emea-deu-bsrit-2017": [
       "5.5"
     ],
-    "emea-isr-cmo-1-0": [
-      "4.7",
-      "21.10",
-      "21.20"
-    ],
     "emea-sau-otcc-1-2022": [
       "2-3-1-12"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-80"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 10.1"
-    ],
-    "emea-esp-decree-311-2022": [
-      "10.1"
+      "VII.B.TPC-80"
     ],
     "emea-gbr-caf-4-0": [
       "C1.f"
-    ],
-    "emea-gbr-cap-1850-2020": [
-      "C1",
-      "C2"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "3200",
@@ -345,18 +338,26 @@
       "3202",
       "3203"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1660"
     ],
-    "apac-nzl-hisf-microsmall-2023": [
-      "HMS19"
+    "apac-mys-bnm-rmit-2025": [
+      "10.31",
+      "10.57",
+      "11.9"
     ],
     "apac-sgp-mas-trm-2021": [
-      "9.2.2",
       "11.5.5",
+      "12.2.3",
       "12.2.4"
     ],
+    "americas-bmu-mba-coc-2020": [
+      "6.21-BP4"
+    ],
     "americas-can-osfi-b13-2022": [
+      "3.3.2"
+    ],
+    "americas-can-osfi-self-assessment-2": [
       "3.3.2"
     ],
     "americas-can-itsp-10-171-2025": [

@@ -99,7 +99,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Asset Management",
   "crosswalks": {
@@ -120,6 +121,14 @@
     ],
     "general-iso-27018-2025": [
       "7.9"
+    ],
+    "general-nist-800-172-r3": [
+      "03.17.02E",
+      "03.17.05E"
+    ],
+    "general-nist-800-172a-r3": [
+      "A.03.17.02E.ODP[04]",
+      "A.03.17.05E.ODP[02]"
     ],
     "general-pci-dss-4-0-1": [
       "9.5.1.2",

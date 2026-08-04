@@ -4,6 +4,46 @@
   "type": "object",
   "required": ["overrides"],
   "properties": {
+    "resolution": {
+      "type": "object",
+      "description": "Operator fallbacks for tabs/columns the upstream workbook renamed. Tried only after the parser's built-in patterns miss; a hit raises a resolution-alias WARN.",
+      "additionalProperties": false,
+      "properties": {
+        "sheets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "kind", "pattern", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string", "minLength": 1},
+              "kind": {"type": "string", "minLength": 1},
+              "pattern": {"type": "string", "minLength": 1},
+              "reason": {"type": "string", "minLength": 1},
+              "reported_upstream": {"type": ["string", "null"]},
+              "applies_to": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        },
+        "columns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "kind", "pattern", "alias", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "string", "minLength": 1},
+              "kind": {"type": "string", "minLength": 1},
+              "pattern": {"type": "string", "minLength": 1},
+              "alias": {"type": "string", "minLength": 1},
+              "reason": {"type": "string", "minLength": 1},
+              "reported_upstream": {"type": ["string", "null"]},
+              "applies_to": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        }
+      }
+    },
     "overrides": {
       "type": "array",
       "items": {

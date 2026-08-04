@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "QTS-04.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A01",
+      "objective": "a Cryptographic Bill of Materials (CBOM) is maintained to analyze the organization's cryptographic architecture.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A02",
+      "objective": "the CBOM includes hardware.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A03",
+      "objective": "the CBOM includes firmware.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A04",
+      "objective": "the CBOM includes software modules.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-04.2",
+      "ao_id": "QTS-04.2_A05",
+      "objective": "the CBOM includes communication protocols.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

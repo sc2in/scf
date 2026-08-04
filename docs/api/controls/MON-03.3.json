@@ -89,7 +89,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
@@ -185,15 +186,8 @@
     "emea-eu-nis2-annex-2024": [
       "11.5.2(d)"
     ],
-    "emea-deu-c5-2020": [
-      "OPS-16"
-    ],
-    "emea-isr-cmo-1-0": [
-      "21.10",
-      "21.21"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-12-3-2"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.exp.8"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2216"
@@ -209,12 +203,17 @@
       "ML3-P4",
       "ML3-P7"
     ],
-    "apac-aus-ism-2024-june": [
-      "ISM-1537"
+    "apac-aus-ism-2026-march": [
+      "ISM-1537",
+      "ISM-1889"
     ],
     "apac-jpn-ismap": [
       "12.4.3",
       "12.4.3.1"
+    ],
+    "apac-nzl-ism-3-9": [
+      "16.4.41.C.01",
+      "16.4.41.C.02"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.07.B"

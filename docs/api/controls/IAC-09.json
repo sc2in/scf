@@ -89,7 +89,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -138,7 +139,7 @@
     "general-iso-27018-2025": [
       "5.16"
     ],
-    "general-mitre-att&ck-16-1": [
+    "general-mitre-att_ck-16-1": [
       "T1003",
       "T1003.005",
       "T1003.006",
@@ -237,7 +238,8 @@
       "A.03.05.05.ODP[01]",
       "A.03.05.05.b[01]",
       "A.03.05.05.b[02]",
-      "A.03.05.05.c"
+      "A.03.05.05.c",
+      "A.03.05.05.d"
     ],
     "general-nist-800-207": [
       "NIST Tenet 4"
@@ -287,10 +289,10 @@
       "IA-04"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.312(a)(2)(i)"
+      "§ 164.312(a)(2)(i)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.312(a)(2)(i)"
+      "§ 164.312(a)(2)(i)"
     ],
     "usa-federal-irs-1075-2021": [
       "IA-4",
@@ -315,11 +317,8 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "IA-04"
     ],
-    "emea-deu-c5-2020": [
-      "IDM-01"
-    ],
-    "emea-isr-cmo-1-0": [
-      "12.15"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.1"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.05.05.B",

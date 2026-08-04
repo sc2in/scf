@@ -107,7 +107,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -187,6 +188,11 @@
       "03.09.02.a.01",
       "03.09.02.a.02"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.09.02.a.01",
+      "A.03.09.02.a.02[01]",
+      "A.03.09.02.a.02[02]"
+    ],
     "general-owasp-top-10-2025": [
       "A01:2025"
     ],
@@ -236,10 +242,10 @@
       "AC-02"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(3)(ii)(C)"
+      "§ 164.308(a)(3)(ii)(C)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(3)(ii)(C)"
+      "§ 164.308(a)(3)(ii)(C)"
     ],
     "usa-federal-irs-1075-2021": [
       "AC-2"
@@ -264,14 +270,20 @@
       "6.5",
       "6.6"
     ],
+    "emea-isr-cmo-2-0": [
+      "Appendix A, 9.2"
+    ],
     "emea-sau-otcc-1-2022": [
-      "2-2-1-10",
       "2-2-1-11"
     ],
-    "apac-aus-ism-2024-june": [
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.4",
+      "op.acc.5"
+    ],
+    "apac-aus-ism-2026-march": [
       "ISM-0430"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP04",
       "HML04"
     ],

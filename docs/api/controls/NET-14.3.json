@@ -95,7 +95,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {
@@ -144,12 +145,15 @@
       "3.1.14"
     ],
     "general-nist-800-171-r3": [
-      "03.01.12.b",
       "03.01.12.c"
     ],
     "general-nist-800-171a": [
       "3.1.14[a]",
       "3.1.14[b]"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.12.c[01]",
+      "A.03.01.12.c[02]"
     ],
     "usa-federal-dhs-cisa-tic-3-0": [
       "3.PEP.EN.VPNET"
@@ -179,8 +183,8 @@
     "usa-state-tx-txramp-2-0-level-2": [
       "AC-17 (03)"
     ],
-    "emea-isr-cmo-1-0": [
-      "4.19"
+    "emea-sau-otcc-1-2022": [
+      "2-4-1-7"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2307"
@@ -195,7 +199,6 @@
       "2307"
     ],
     "americas-can-itsp-10-171-2025": [
-      "03.01.12.B",
       "03.01.12.C"
     ]
   }

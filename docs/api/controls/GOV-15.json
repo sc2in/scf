@@ -2,8 +2,8 @@
   "control_id": "GOV-15",
   "title": "Operationalizing Security, Compliance & Resilience Capabilities",
   "family": "GOV",
-  "description": "Mechanisms exist to compel data and/or process owners to operationalize security, compliance and resilience practices for each Technology Asset, Application and/or Service (TAAS) under their control.",
-  "scf_question": "Does the organization compel data and/or process owners to operationalize security, compliance and resilience practices for each Technology Asset, Application and/or Service (TAAS) under their control?",
+  "description": "Mechanisms exist to compel data and/or process owners to operationalize security, compliance and resilience practices for Technology Assets, Applications, Services and/or Data (TAASD) under their control.",
+  "scf_question": "Does the organization compel data and/or process owners to operationalize security, compliance and resilience practices for Technology Assets, Applications, Services and/or Data (TAASD) under their control?",
   "relative_weight": 9,
   "conformity_cadence": "Annual",
   "evidence_requests": [
@@ -18,9 +18,9 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
-    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  compel data and/or process owners to operationalize security, compliance and resilience practices for each Technology Asset, Application and/or Service (TAAS) under their control.",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  compel data and/or process owners to operationalize security, compliance and resilience practices for Technology Assets, Applications, Services and/or Data (TAASD) under their control.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
@@ -112,10 +112,11 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
-  "family_name": "Cybersecurity & Data Protection Governance",
+  "errata": "- wordsmithed",
+  "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
       "CC2.1-POF1",
@@ -188,14 +189,13 @@
     ],
     "general-nist-800-171-r3": [
       "03.15.01.a",
+      "03.16.01",
       "03.17.01.a"
     ],
     "general-nist-800-171a-r3": [
-      "A.03.16.01"
-    ],
-    "general-scf-dpmp-2025": [
-      "7.0",
-      "7.1"
+      "A.03.15.01.a[03]",
+      "A.03.16.01",
+      "A.03.17.01.a[01]"
     ],
     "general-swift-cscf-2025": [
       "2.4"
@@ -229,6 +229,11 @@
     "usa-federal-fda-21-cfr-part-11-2025": [
       "11.30"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.625(d)(2)",
+      "101.625(d)(5)",
+      "101.650(c)"
+    ],
     "usa-federal-omb-fipps-1973": [
       "2"
     ],
@@ -243,12 +248,12 @@
       "155.260(c)"
     ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.306(a)(1)",
-      "164.306(b)(1)"
+      "§ 164.306(a)(1)",
+      "§ 164.306(b)(1)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.306(a)(1)",
-      "164.306(b)(1)"
+      "§ 164.306(a)(1)",
+      "§ 164.306(b)(1)"
     ],
     "usa-federal-irs-1075-2021": [
       "3.3.1.l"
@@ -280,6 +285,10 @@
     "usa-state-ma-201-cmr-17-2008": [
       "17.03(2)(b)"
     ],
+    "usa-state-nv-privacy-law-2023": [
+      "603A.210.2",
+      "603A.215.1"
+    ],
     "usa-state-ny-shield-act-2019": [
       "899-bb.2(b)(ii)(B)"
     ],
@@ -287,14 +296,14 @@
       "Article 17.2"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.3.4(22)",
-      "3.4.1(30)(a)",
-      "3.4.1(30)(b)",
-      "3.4.1(30)(c)",
-      "3.4.1(30)(d)",
-      "3.4.1(30)(e)",
-      "3.4.1(30)(f)",
-      "3.4.1(30)(g)"
+      "3.3.4.22",
+      "3.4.1.30(a)",
+      "3.4.1.30(b)",
+      "3.4.1.30(c)",
+      "3.4.1.30(d)",
+      "3.4.1.30(e)",
+      "3.4.1.30(f)",
+      "3.4.1.30(g)"
     ],
     "emea-eu-dora-2023": [
       "Article 7",
@@ -322,70 +331,64 @@
       "6.7.1"
     ],
     "emea-deu-bsrit-2017": [
+      "3.4",
+      "3.6",
       "5.1"
     ],
-    "emea-qat-pdppl-2020": [
-      "8.3"
+    "emea-deu-c5-2020": [
+      "UP-01-BP2"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "1-1-1",
+      "2-1-1"
     ],
     "emea-sau-cgiot-2024": [
       "1-6-1"
     ],
-    "emea-sau-otcc-1-2022": [
-      "2-3",
-      "2-3-2"
-    ],
-    "emea-srb-act-9-2018": [
-      "50",
-      "51"
-    ],
-    "emea-esp-boe-a-2022-7191": [
-      "Article 5",
-      "Article 5(a)",
-      "Article 5(b)",
-      "Article 5(c)",
-      "Article 5(d)",
-      "Article 5(e)",
-      "Article 5(f)",
-      "Article 5(g)",
-      "Article 8.1",
-      "Article 8.2",
-      "Article 8.3",
-      "Article 8.4",
-      "Article 8.5",
-      "Article 28.1",
-      "Article 37"
+    "emea-sau-ecc-1-2018": [
+      "1-3-2",
+      "1-9-2",
+      "1-10-2",
+      "2-1-2",
+      "2-1-4",
+      "2-2-2",
+      "2-3-2",
+      "2-4-2",
+      "2-5-2",
+      "2-6-2",
+      "2-8-2",
+      "2-9-2",
+      "2-10-2",
+      "2-11-2",
+      "2-12-2",
+      "2-13-2",
+      "2-14-2",
+      "2-15-2",
+      "3-1-2",
+      "4-2-2",
+      "5-1-2"
     ],
     "emea-esp-decree-311-2022": [
-      "28.1",
-      "37",
-      "5",
-      "5(a)",
-      "5(b)",
-      "5(c)",
-      "5(d)",
-      "5(e)",
-      "5(f)",
-      "5(g)",
-      "8.1",
-      "8.2",
-      "8.3",
-      "8.4",
-      "8.5"
+      "Article 13(2)(d)",
+      "Article 15(1)"
     ],
     "emea-gbr-caf-4-0": [
       "B4.a"
     ],
     "emea-gbr-cap-1850-2020": [
-      "A5"
+      "B4"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1633",
       "ISM-1634",
       "ISM-1635",
       "ISM-1636"
     ],
     "apac-aus-ps-cps-230-2023": [
-      "29"
+      "16(c)"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "21"
     ],
     "apac-ind-sebi-2024": [
       "GV.RM.S2"
@@ -394,7 +397,10 @@
       "4.4.4.1",
       "4.5.2.1"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "9.5"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP11",
       "HHSP16",
       "HHSP28",
@@ -410,13 +416,24 @@
       "3.2.10.C.04",
       "3.4.11.C.01"
     ],
+    "apac-sgp-mas-trm-2021": [
+      "4.1.2"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "5.3-BP2",
+      "5.11-BP4"
+    ],
     "americas-can-osfi-b13-2022": [
       "1.1.1",
       "2.1.1",
       "3.2.1"
     ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.2.1"
+    ],
     "americas-can-itsp-10-171-2025": [
       "03.15.01.A",
+      "03.16.01",
       "03.17.01.A"
     ]
   }

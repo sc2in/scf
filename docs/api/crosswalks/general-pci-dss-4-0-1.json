@@ -1,6 +1,6 @@
 {
   "framework_id": "general-pci-dss-4-0-1",
-  "display_name": "Payment Card Industry Data Security Standard (PCI DSS) (v4.01)",
+  "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.01",
   "scf_to_framework": {
     "total_mappings": 371,
     "mappings": {

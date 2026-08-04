@@ -107,7 +107,8 @@
     "MT-24",
     "MT-25",
     "MT-26",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
@@ -233,6 +234,16 @@
     "general-nist-800-171-r3": [
       "03.12.03"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.12.03[01]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.16.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.16.01E",
+      "A.03.16.01E.ODP[01]"
+    ],
     "general-nist-800-218": [
       "PO.1",
       "PO.1.1",
@@ -265,9 +276,6 @@
       "A08:2025",
       "A09:2025",
       "A10:2025"
-    ],
-    "general-scf-dpmp-2025": [
-      "7.1"
     ],
     "general-ul-2900-1-2017": [
       "7.1",
@@ -461,61 +469,53 @@
     "emea-eu-ai-act-2024": [
       "Article 14.3(b)"
     ],
-    "emea-eu-cyber-resilience-act-2022": [
-      "Article 5",
-      "Article 5.1",
-      "Article 5.2",
-      "Article 10.1",
-      "Article 10.5",
-      "Article 10.6",
-      "Article 10.9",
-      "Article 10.10",
-      "Article 10.11",
-      "Article 13.1",
-      "Article 13.2",
-      "Article 13.2(a)",
-      "Article 13.2(b)",
-      "Article 13.2(c)",
-      "Article 13.3",
-      "Article 13.4",
-      "Article 13.5",
-      "Article 13.6",
-      "Article 14.1",
-      "Article 14.2",
-      "Article 14.2(a)",
-      "Article 14.2(b)",
-      "Article 14.3",
-      "Article 14.4"
+    "emea-eu-cyber-resilience-act-2024": [
+      "Article 13(1)",
+      "Article 13(5)",
+      "Article 13(8)",
+      "Article 13(10)",
+      "Article 13(11)",
+      "Article 13(13)",
+      "Article 13(14)",
+      "Article 13(15)",
+      "Article 13(16)",
+      "Article 13(17)",
+      "Article 13(18)",
+      "Article 13(19)",
+      "Article 13(20)",
+      "Article 13(21)",
+      "Article 13(22)",
+      "Article 13(23)",
+      "Article 19(1)",
+      "Article 19(2)",
+      "Article 19(2)(c)",
+      "Article 19(2)(d)",
+      "Article 19(3)",
+      "Article 19(4)",
+      "Article 19(5)",
+      "Article 19(6)",
+      "Article 20(1)",
+      "Article 20(2)",
+      "Article 20(2)(a)",
+      "Article 20(2)(b)",
+      "Article 20(3)",
+      "Article 20(4)",
+      "Article 24(1)",
+      "Article 30(1)",
+      "Article 30(2)",
+      "Article 30(3)",
+      "Article 30(4)"
     ],
-    "emea-eu-cyber-resilience-act-annexes-2022": [
-      "Annex 1.1(3)(j)",
-      "Annex 1.2(2)",
-      "Annex 2.1",
-      "Annex 2.2",
-      "Annex 2.3",
-      "Annex 2.4",
-      "Annex 2.5",
-      "Annex 2.6",
-      "Annex 2.7",
-      "Annex 2.8",
-      "Annex 2.9",
-      "Annex 2.9(a)",
-      "Annex 2.9(b)",
-      "Annex 2.9(c)",
-      "Annex 2.9(d)",
-      "Annex 6 Module A.3",
-      "Annex 6 Module A.4.1",
-      "Annex 6 Module C.2.1",
-      "Annex 6 Module C.3.1",
-      "Annex 6 Module H.2",
-      "Annex 6 Module H.3.2",
-      "Annex 6 Module H.3.4",
-      "Annex 6 Module H.5.1",
-      "Annex 6 Module H.5.2",
-      "Annex 6 Module H.6"
-    ],
-    "emea-eu-eba-ict-srm-2025": [
-      "3.6.2(68)"
+    "emea-eu-cyber-resilience-act-annex-i-2024": [
+      "Annex I, Part I(1)",
+      "Annex I, Part I(2)(g)",
+      "Annex I, Part I(2)(h)",
+      "Annex I, Part I(2)(i)",
+      "Annex I, Part I(2)(j)",
+      "Annex I, Part I(2)(k)",
+      "Annex I, Part I(2)(m)",
+      "Annex I, Part II(1)",
+      "Annex I, Part II(2)"
     ],
     "emea-eu-dora-2023": [
       "Article 13.7"
@@ -525,35 +525,24 @@
       "7.8",
       "7.9",
       "7.10",
-      "7.11",
       "7.12",
       "7.13",
       "7.14"
     ],
-    "emea-isr-cmo-1-0": [
-      "17.9"
-    ],
-    "emea-qat-pdppl-2020": [
-      "11.4",
-      "11.5",
-      "11.6"
-    ],
     "emea-sau-cscc-1-2019": [
       "2-13-1",
-      "2-13-2",
-      "2-13-3-1",
-      "2-13-3-2",
-      "2-13-3-3",
-      "2-13-3-4"
+      "2-13-2"
     ],
-    "emea-sau-otcc-1-2022": [
-      "1-1-2",
-      "4-1-1-1"
+    "emea-sau-ecc-1-2018": [
+      "1-6-3-4"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-1796",
       "ISM-1797",
       "ISM-1798"
+    ],
+    "apac-aus-cop-sitc-2020": [
+      "11"
     ],
     "apac-chn-cybersecurity-law-2017": [
       "Article 22",
@@ -564,7 +553,13 @@
       "14.1.1",
       "14.2.7.11"
     ],
-    "apac-nzl-hisf-mlhsp-2023": [
+    "apac-mys-bnm-rmit-2025": [
+      "10.2",
+      "10.12",
+      "12.1",
+      "12.5"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
       "HHSP50",
       "HML50"
     ],
@@ -594,15 +589,14 @@
       "12.4.7.C.01"
     ],
     "apac-sgp-mas-trm-2021": [
-      "5.8.1",
-      "5.8.2",
-      "7.6.1",
-      "7.6.2",
-      "14.4.1",
-      "14.4.2",
-      "14.4.3"
+      "5.5.2",
+      "14.1.5",
+      "14.1.7"
     ],
     "americas-can-osfi-b13-2022": [
+      "2.4.3"
+    ],
+    "americas-can-osfi-self-assessment-2": [
       "2.4.3"
     ],
     "americas-can-itsp-10-171-2025": [

@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-gsa-fedramp-5-high",
-  "display_name": "FedRAMP R5 - High Baseline",
+  "display_name": "US - Federal Risk and Authorization Management Program (FedRAMP) R5 - High Baseline",
   "scf_to_framework": {
     "total_mappings": 561,
     "mappings": {

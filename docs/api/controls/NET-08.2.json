@@ -16,7 +16,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Network Security (NET) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Network security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Network security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel define secure networking practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ IT and/or cybersecurity personnel receive feeds from Wireless Intrusion Detection / Protection Systems (WIDS / WIPS) to identify rogue wireless devices and to detect attack attempts via wireless networks.",
     "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution, log aggregator, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to utilize Wireless Intrusion Detection / Protection Systems (WIDS / WIPS) on wireless network segments.",
     "4": "Network Security (NET) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -87,9 +87,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- wordsmithed",
   "family_name": "Network Security",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
@@ -126,26 +126,6 @@
     ],
     "general-shared-assessments-sig-2025": [
       "N.7"
-    ],
-    "emea-isr-cmo-1-0": [
-      "4.24",
-      "12.18",
-      "23.6"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-77"
-    ],
-    "emea-esp-ccn-stic-825-2023": [
-      "7.6.1 [OP.MON.1]"
-    ],
-    "apac-nzl-ism-3-9": [
-      "21.4.12.C.01",
-      "21.4.12.C.02",
-      "21.4.12.C.03"
-    ],
-    "amaericas-can-osfi-self-assessment": [
-      "4.3",
-      "4.4"
     ]
   }
 }

@@ -91,7 +91,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -101,6 +102,10 @@
     "general-nist-800-171-r3": [
       "03.10.07.c"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.10.07.c[01]",
+      "A.03.10.07.c[02]"
+    ],
     "general-pci-dss-4-0-1": [
       "9.3.3"
     ],
@@ -109,9 +114,6 @@
     ],
     "general-pci-dss-4-0-1-saq-d-service-provider": [
       "9.3.3"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-47"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "1503"

@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-dow-cmmc-2-level-3",
-  "display_name": "Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 3",
+  "display_name": "US Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 3",
   "scf_to_framework": {
     "total_mappings": 55,
     "mappings": {

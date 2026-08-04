@@ -82,7 +82,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -130,9 +131,6 @@
     ],
     "usa-federal-cms-marse-2-0": [
       "PE-13(2)"
-    ],
-    "emea-deu-c5-2020": [
-      "PS-05"
     ]
   }
 }

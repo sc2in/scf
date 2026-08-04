@@ -1,6 +1,6 @@
 {
   "framework_id": "general-csa-iot-2",
-  "display_name": "IoT Security Controls Framework (v2)",
+  "display_name": "Cloud Security Alliance (CSA) Internet of Things Security Controls Framework v2",
   "scf_to_framework": {
     "total_mappings": 253,
     "mappings": {

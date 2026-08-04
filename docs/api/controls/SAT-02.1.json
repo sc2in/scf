@@ -105,7 +105,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
@@ -132,8 +133,11 @@
     "general-nist-800-161-r1-level-2": [
       "AT-2(1)"
     ],
-    "general-scf-dpmp-2025": [
-      "1.6"
+    "general-nist-800-172-r3": [
+      "03.02.02E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.02.02E"
     ],
     "usa-federal-irs-1075-2021": [
       "AT-2(CE-1)",
@@ -147,6 +151,9 @@
     ],
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2605"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.1.7"
     ]
   }
 }

@@ -3,7 +3,7 @@
   "title": "Continuous Incident Response Improvements",
   "family": "IRO",
   "description": "Mechanisms exist to use qualitative and quantitative data from incident response testing to: \n(1) Determine the effectiveness of incident response processes;\n(2) Continuously improve incident response processes; and\n(3) Provide incident response measures and metrics that are accurate, consistent and in a reproducible format.",
-  "scf_question": "Does the organization use qualitative and quantitative data from incident response testing to: \n (1) Determine the effectiveness of incident response processes;\n (2) Continuously improve incident response processes; and\n (3) Provide incident response measures and metrics that are accurate, consistent, and in a reproducible format?",
+  "scf_question": "Does the organization use qualitative and quantitative data from incident response testing to: \n(1) Determine the effectiveness of incident response processes;\n(2) Continuously improve incident response processes; and\n(3) Provide incident response measures and metrics that are accurate, consistent and in a reproducible format?",
   "relative_weight": 3,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -87,7 +87,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Incident Response",
   "crosswalks": {
@@ -104,6 +105,9 @@
     "general-nist-800-171-r3": [
       "03.06.04.b"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.06.04.b[03]"
+    ],
     "usa-federal-dhs-cisa-cpg-2-0": [
       "2.S"
     ],
@@ -113,8 +117,15 @@
       "IR-3(CE-3).b",
       "IR-3(CE-3).c"
     ],
+    "emea-gbr-cap-1850-2020": [
+      "D2"
+    ],
     "apac-jpn-ismap": [
       "16.1.1.14"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "7.8.3",
+      "12.3.3"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.06.04.B"

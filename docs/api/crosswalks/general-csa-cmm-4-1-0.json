@@ -1,6 +1,6 @@
 {
   "framework_id": "general-csa-cmm-4-1-0",
-  "display_name": "Cloud Controls Matrix (CCM) (v4.1.0)",
+  "display_name": "Cloud Security Alliance (CSA) Cloud Controls Matrix (CCM) v4.1.0",
   "scf_to_framework": {
     "total_mappings": 291,
     "mappings": {

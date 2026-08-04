@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-gsa-fedramp-5-li-saas",
-  "display_name": "FedRAMP R5 - Li-SAAS Baseline",
+  "display_name": "US - Federal Risk and Authorization Management Program (FedRAMP) R5 - Li - SAAS Baseline",
   "scf_to_framework": {
     "total_mappings": 383,
     "mappings": {

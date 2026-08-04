@@ -2,62 +2,58 @@
   "framework_id": "apac-chn-csnip-2012",
   "display_name": "China - Decision on Strengthening Network Information Protection (2012)",
   "scf_to_framework": {
-    "total_mappings": 10,
+    "total_mappings": 7,
     "mappings": {
-      "GOV-01": [
-        "4"
+      "HRS-06.1": [
+        "III"
       ],
-      "CPL-01": [
-        "4"
+      "PRI-01.6": [
+        "IV"
       ],
-      "CPL-02": [
-        "4"
+      "PRI-01.11": [
+        "I",
+        "II",
+        "VI"
       ],
-      "DCH-01": [
-        "4"
+      "PRI-05.4": [
+        "V"
       ],
-      "DCH-22.1": [
-        "8"
+      "PRI-06": [
+        "VIII"
       ],
-      "PRI-01": [
-        "Inferred",
-        "Expectation"
+      "PRI-06.5": [
+        "VIII"
       ],
-      "PRI-06.1": [
-        "8"
-      ],
-      "SEA-01": [
-        "4"
-      ],
-      "SEA-02": [
-        "4"
-      ],
-      "SEA-03": [
-        "4"
+      "PRI-16": [
+        "VI"
       ]
     }
   },
   "framework_to_scf": {
-    "total_mappings": 4,
+    "total_mappings": 7,
     "mappings": {
-      "4": [
-        "GOV-01",
-        "CPL-01",
-        "CPL-02",
-        "DCH-01",
-        "SEA-01",
-        "SEA-02",
-        "SEA-03"
+      "III": [
+        "HRS-06.1"
       ],
-      "8": [
-        "DCH-22.1",
-        "PRI-06.1"
+      "IV": [
+        "PRI-01.6"
       ],
-      "Inferred": [
-        "PRI-01"
+      "I": [
+        "PRI-01.11"
       ],
-      "Expectation": [
-        "PRI-01"
+      "II": [
+        "PRI-01.11"
+      ],
+      "VI": [
+        "PRI-01.11",
+        "PRI-16"
+      ],
+      "V": [
+        "PRI-05.4"
+      ],
+      "VIII": [
+        "PRI-06",
+        "PRI-06.5"
       ]
     }
   }

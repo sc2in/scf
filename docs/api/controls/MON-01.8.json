@@ -92,7 +92,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
@@ -209,7 +210,6 @@
       "3.14.3"
     ],
     "general-nist-800-171-r3": [
-      "03.03.01.b",
       "03.03.05.a"
     ],
     "general-nist-800-171a": [
@@ -222,9 +222,23 @@
     ],
     "general-nist-800-171a-r3": [
       "A.03.03.01.ODP[02]",
-      "A.03.03.01.b[01]",
       "A.03.03.05.ODP[01]",
       "A.03.03.05.a"
+    ],
+    "general-nist-800-172-r3": [
+      "03.01.08E",
+      "03.11.09E",
+      "03.14.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.01.08E.b",
+      "DS-A.03.11.09E[03]",
+      "DS-A.03.14.01E.b[01]",
+      "A.03.14.01E.ODP[04]",
+      "DS-A.03.14.01E.b[02]",
+      "A.03.14.01E.ODP[05]",
+      "DS-A.03.14.01E.b[03]",
+      "A.03.14.01E.ODP[06]"
     ],
     "general-nist-csf-2-0": [
       "DE.CM-01",
@@ -304,13 +318,16 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "AU-02"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(c)(1)"
+    ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.308(a)(1)(ii)(D)",
-      "164.312(b)"
+      "§ 164.308(a)(1)(ii)(D)",
+      "§ 164.312(b)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.308(a)(1)(ii)(D)",
-      "164.312(b)"
+      "§ 164.308(a)(1)(ii)(D)",
+      "§ 164.312(b)"
     ],
     "usa-federal-irs-1075-2021": [
       "AU-2"
@@ -365,21 +382,12 @@
       "2447(b)(2)(C)",
       "2447(c)(4)"
     ],
-    "emea-eu-eba-ict-srm-2025": [
-      "3.4.5(39)",
-      "3.4.5(40)"
-    ],
     "emea-eu-nis2-annex-2024": [
       "3.2.3",
       "3.2.4"
     ],
     "emea-deu-bsrit-2017": [
-      "5.5"
-    ],
-    "emea-isr-cmo-1-0": [
-      "12.31",
-      "21.3",
-      "21.11"
+      "6.7"
     ],
     "emea-sau-cscc-1-2019": [
       "2-11-1-2"
@@ -387,18 +395,11 @@
     "emea-sau-cgiot-2024": [
       "2-11-1"
     ],
-    "emea-sau-ecc-1-2018": [
-      "2-12-3-4"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-40"
+    "emea-sau-otcc-1-2022": [
+      "2-11-1-4"
     ],
     "emea-gbr-caf-4-0": [
       "C1.a"
-    ],
-    "emea-gbr-cap-1850-2020": [
-      "C1",
-      "C2"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "3101",
@@ -413,7 +414,7 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "3102"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0109"
     ],
     "apac-ind-sebi-2024": [
@@ -429,16 +430,21 @@
       "12.4.5.5.P"
     ],
     "apac-sgp-mas-trm-2021": [
-      "12.2.2"
+      "12.2.6"
     ],
-    "amaericas-can-osfi-self-assessment": [
-      "3.5"
+    "americas-arg-ppd-2018": [
+      "B.2.5-DS-3"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.21-BP5"
     ],
     "americas-can-osfi-b13-2022": [
       "3.3.1"
     ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.3.3"
+    ],
     "americas-can-itsp-10-171-2025": [
-      "03.03.01.B",
       "03.03.05.A"
     ]
   }

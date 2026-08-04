@@ -18,7 +18,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nRisk Management (RSK) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with RSK domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Risk management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel use an informal process to identify, assess, remediate and report on risk.\n▪ Risk management processes (e.g., risk assessments) focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ Data/process owners are expected to self-manage risks associated with their Technology Assets, Applications, Services and/or Data (TAASD), based on the organization's published policies and standards, including the identification, remediation and reporting of risks.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Risk Management (RSK) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with RSK domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with RSK domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with RSK  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Risk management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Risk management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Risk management processes (e.g., risk assessments) and technologies focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ IT and/or cybersecurity personnel implement and maintain a form of Risk Management Program (RMP) that provides operational guidance on how risk is identified, assessed, remediated and reported.\n▪ Data/process owners are expected to self-manage risks associated with their systems, applications, services and data, based on the organization's published policies and standards, including the identification, remediation and reporting of risks.\n▪ Business process owners (BPOs) are made aware of cybersecurity and data protection risk(s).",
     "3": "Risk Management (RSK) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with RSK domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with RSK domain capabilities are well-documented and kept current by process owners.\n▪ A risk management team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of risk management operations (e.g., risk management solution, GRC platform, TPRM tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with RSK domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to conduct a Data Protection Impact Assessment (DPIA) on Technology Assets, Applications and/or Services (TAAS) that store, process and/or transmit Personal Data (PD) to identify and remediate reasonably-expected risks.",
     "4": "Risk Management (RSK) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -72,7 +72,8 @@
     "MT-17",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Risk Management",
   "crosswalks": {
@@ -167,9 +168,6 @@
     ],
     "general-pci-dss-4-0-1": [
       "A3.2.2"
-    ],
-    "general-scf-dpmp-2025": [
-      "9.5"
     ],
     "general-shared-assessments-sig-2025": [
       "P.5"
@@ -315,64 +313,126 @@
       "Article 35.11",
       "Article 36.1"
     ],
-    "emea-deu-c5-2020": [
-      "BCM-02"
+    "emea-deu-fdpa-2017": [
+      "3.4.67(1)",
+      "3.4.67(2)",
+      "3.4.67(3)",
+      "3.4.67(4)",
+      "3.4.67(4)1",
+      "3.4.67(4)2",
+      "3.4.67(4)3",
+      "3.4.67(4)4",
+      "3.4.67(5)"
     ],
-    "emea-isr-cmo-1-0": [
-      "16.6",
-      "17.3"
+    "emea-irl-dpa-2018": [
+      "s.84"
     ],
     "emea-ken-pda-2019": [
-      "31(1)",
-      "31(2)(a)",
-      "31(2)(b)",
-      "31(2)(c)",
-      "31(2)(d)",
-      "31(3)",
-      "31(4)",
-      "31(5)",
-      "31(6)"
+      "IV.31(1)",
+      "IV.31(2)",
+      "IV.31(2)(a)",
+      "IV.31(2)(b)",
+      "IV.31(2)(c)",
+      "IV.31(2)(d)",
+      "IV.31(3)"
     ],
     "emea-qat-pdppl-2020": [
-      "8.2"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "1-5-3-4"
+      "3.11.1"
     ],
     "emea-sau-pdpl-2023": [
       "Article 22"
     ],
     "emea-srb-act-9-2018": [
-      "54",
-      "54.x"
+      "IV.3.54-1",
+      "IV.3.54-1(1)",
+      "IV.3.54-1(2)",
+      "IV.3.54-1(3)",
+      "IV.3.54-2",
+      "IV.3.54-2(1)",
+      "IV.3.54-2(2)",
+      "IV.3.54-2(3)",
+      "IV.3.54-2(4)",
+      "IV.3.55-1",
+      "IV.3.55-1(1)",
+      "IV.3.55-1(2)",
+      "IV.3.55-2",
+      "IV.3.55-2(1)",
+      "IV.3.55-2(2)",
+      "IV.3.55-2(3)",
+      "IV.3.55-2(4)",
+      "IV.3.55-2(5)",
+      "IV.3.55-2(6)"
     ],
-    "emea-zaf-popia-2013": [
-      "19"
+    "emea-esp-decree-311-2022": [
+      "Article 3(2)",
+      "Article 12(1)(f)"
     ],
-    "apac-aus-ps-cps-234-2019": [
-      "21(d)"
+    "emea-che-fadp-2025": [
+      "3.22.1",
+      "3.22.2",
+      "3.22.2.a",
+      "3.22.2.b",
+      "3.22.3",
+      "3.22.4",
+      "3.22.5",
+      "3.22.5.a",
+      "3.22.5.b",
+      "3.22.5.c"
+    ],
+    "emea-gbr-dpa-2018": [
+      "Section 64(1)",
+      "Section 64(2)",
+      "Section 64(3)",
+      "Section 64(3)(a)",
+      "Section 64(3)(b)",
+      "Section 64(3)(c)",
+      "Section 64(3)(d)",
+      "Section 64(4)"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "26"
     ],
     "apac-chn-pipl-2021": [
-      "55",
-      "55(1)",
-      "55(2)",
-      "55(3)",
-      "55(4)",
-      "55(5)",
-      "56",
-      "56(1)",
-      "56(2)",
-      "56(3)"
+      "Article 55",
+      "Article 56"
     ],
     "apac-ind-dpdpa-2023": [
       "10(2)(c)(i)"
     ],
-    "apac-sgp-mas-trm-2021": [
-      "5.1.3",
-      "5.3.3"
+    "apac-sgp-pdpa-2012": [
+      "4.1.15A(4)(a)",
+      "4.1.15A(5)(a)"
     ],
-    "apac-kor-pipa-2011": [
-      "33"
+    "americas-bhs-dpa-2003": [
+      "V.50(1)",
+      "V.50(1)(a)",
+      "V.50(1)(b)",
+      "V.50(2)",
+      "V.50(2)(a)",
+      "V.50(2)(b)",
+      "V.50(2)(c)",
+      "V.50(3)",
+      "V.50(3)(a)",
+      "V.50(3)(b)",
+      "V.50(3)(c)",
+      "V.50(3)(d)",
+      "V.50(4)",
+      "V.50(5)",
+      "V.50(6)",
+      "V.50(7)",
+      "V.50(8)",
+      "V.50(8)(a)",
+      "V.50(8)(b)",
+      "V.50(8)(c)",
+      "V.50(8)(d)",
+      "V.50(8)(e)",
+      "V.50(8)(f)"
+    ],
+    "americas-bra-lgpd-2018": [
+      "II.I.10.II.3"
+    ],
+    "americas-can-pipeda-2000": [
+      "P5-4.5.1"
     ]
   }
 }

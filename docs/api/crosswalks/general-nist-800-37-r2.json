@@ -1,6 +1,6 @@
 {
   "framework_id": "general-nist-800-37-r2",
-  "display_name": "NIST SP 800-37 R2",
+  "display_name": "NIST SP 800 - 37 R2 - Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy",
   "scf_to_framework": {
     "total_mappings": 45,
     "mappings": {

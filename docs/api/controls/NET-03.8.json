@@ -88,7 +88,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Network Security",
   "crosswalks": {
@@ -116,6 +117,17 @@
     "general-nist-800-171-r3": [
       "03.13.01.b"
     ],
+    "general-nist-800-171a-r3": [
+      "A.03.13.01.b"
+    ],
+    "general-nist-800-172-r3": [
+      "03.13.10E",
+      "03.13.15E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.13.10E",
+      "DS-A.03.13.15E"
+    ],
     "general-pci-dss-4-0-1": [
       "1.4",
       "1.4.1"
@@ -141,12 +153,8 @@
     "usa-federal-gsa-fedramp-5-li-saas": [
       "SC-07(29)"
     ],
-    "emea-sau-otcc-1-2022": [
-      "2-4-1-2"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "TPC-38",
-      "TPC-40"
+    "emea-deu-c5-2020": [
+      "KOS-02"
     ],
     "apac-nzl-ism-3-9": [
       "14.1.11.C.01"

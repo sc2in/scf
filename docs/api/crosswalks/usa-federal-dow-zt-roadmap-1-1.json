@@ -1,6 +1,6 @@
 {
   "framework_id": "usa-federal-dow-zt-roadmap-1-1",
-  "display_name": "Department of War (DoW) - Zero Trust Execution Roadmap (v1.1)",
+  "display_name": "US - Department of War (DoW) - Zero Trust Execution Roadmap v1.1",
   "scf_to_framework": {
     "total_mappings": 117,
     "mappings": {
@@ -82,6 +82,7 @@
         "6.6.3"
       ],
       "CLD-04.1": [
+        "3.4",
         "3.4.1"
       ],
       "CLD-09": [
@@ -553,7 +554,7 @@
     }
   },
   "framework_to_scf": {
-    "total_mappings": 190,
+    "total_mappings": 191,
     "mappings": {
       "6.1.1": [
         "GOV-02"
@@ -683,6 +684,9 @@
       "6.6.3": [
         "CLD-04",
         "CFG-02"
+      ],
+      "3.4": [
+        "CLD-04.1"
       ],
       "3.4.1": [
         "CLD-04.1"

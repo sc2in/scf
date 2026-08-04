@@ -20,11 +20,11 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nPhysical & Environmental Security (PES) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PES domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Physical security-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Physical security controls are primarily administrative in nature (e.g., policies & standards), focusing on protecting High Value Assets (HVAs).\n▪ IT and/or cybersecurity personnel implement appropriate physical security practices to protect the confidentiality, integrity, availability and safety of the organization's technology assets and data.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Physical & Environmental Security (PES) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PES domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with PES domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PES  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Physical security / facilities management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Physical security / facilities management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Physical security controls and technologies primarily focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ The Human Resources (HR) department maintains a current list of personnel with authorized access to organizational facilities and facilitates the implementation of physical access management controls.",
     "3": "Physical & Environmental Security (PES) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PES domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PES domain capabilities are well-documented and kept current by process owners.\n▪ A facilities management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of physical and environmental security operations (e.g., facility management solution, visitor log management automation, proximity badge access, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PES domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational physical security capability exists to authorize physical access to facilities based on the position or role of the individual.",
     "4": "Physical & Environmental Security (PES) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-    "5": "Physical & Environmental Security (PES) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+    "5": "Physical & Environmental Security (PES) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
   "profiles": [
     "SCRMS",
@@ -93,7 +93,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
@@ -145,6 +146,7 @@
       "3.10.1"
     ],
     "general-nist-800-171-r3": [
+      "03.04.05",
       "03.08.01",
       "03.08.02",
       "03.10.01.b",
@@ -152,8 +154,12 @@
     ],
     "general-nist-800-171a-r3": [
       "A.03.04.05[01]",
+      "A.03.08.01[01]",
+      "A.03.08.01[02]",
+      "A.03.08.02",
       "A.03.10.01.ODP[01]",
-      "A.03.10.01.b"
+      "A.03.10.01.b",
+      "A.03.10.01.d"
     ],
     "general-nist-csf-2-0": [
       "PR.AA-06"
@@ -189,9 +195,6 @@
       "9.3.1",
       "9.3.1.1"
     ],
-    "general-scf-dpmp-2025": [
-      "7.3"
-    ],
     "general-swift-cscf-2025": [
       "3.1"
     ],
@@ -208,11 +211,14 @@
     "usa-federal-far-52-204-21": [
       "52.204-21(b)(1)(viii)"
     ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(i)(1)"
+    ],
     "usa-federal-law-hipaa-simplification-2013": [
-      "164.310(a)(2)(i)"
+      "§ 164.310(a)(2)(i)"
     ],
     "usa-federal-law-hipaa-security-rule-2013": [
-      "164.310(a)(2)(i)"
+      "§ 164.310(a)(2)(i)"
     ],
     "usa-federal-cms-marse-2-0": [
       "PE-2(1)"
@@ -224,17 +230,15 @@
       "7123(c)(3)(D)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.4.3(34)"
-    ],
-    "emea-isr-cmo-1-0": [
-      "12.27",
-      "18.4"
+      "3.4.3.34"
     ],
     "emea-sau-sacs-002-2022": [
-      "TPC-86"
+      "VII.B.TPC-86"
     ],
-    "emea-esp-ccn-stic-825-2023": [
-      "8.1.1 [MP.IF.1]"
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.2",
+      "op.acc.4",
+      "op.acc.5"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "1502",
@@ -252,13 +256,14 @@
       "1502",
       "2422"
     ],
-    "apac-chn-data-security-law-2021": [
-      "27"
-    ],
     "apac-nzl-hisf-suppliers-2023": [
       "HSUP04"
     ],
+    "americas-can-osfi-self-assessment-2": [
+      "3.2.10"
+    ],
     "americas-can-itsp-10-171-2025": [
+      "03.04.05",
       "03.08.01",
       "03.08.02",
       "03.10.01.B",

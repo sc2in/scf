@@ -53,9 +53,9 @@
     "MT-6",
     "MT-8",
     "MT-9",
-    "MT-11"
+    "MT-11",
+    "MT-28"
   ],
-  "errata": "- new control (SCF)",
   "family_name": "Incident Response",
   "crosswalks": {}
 }

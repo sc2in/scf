@@ -2,8 +2,8 @@
   "control_id": "MON-18",
   "title": "File Activity Monitoring (FAM)",
   "family": "MON",
-  "description": "Automated mechanisms exist to monitor sensitive/regulated data in Technology Assets, Applications and/or Services (TAAS) and data repositories.",
-  "scf_question": "Does the organization use automated tools to monitor sensitive/regulated data in Technology Assets, Applications and/or Services (TAAS) and data repositories?",
+  "description": "Automated mechanisms exist to monitor sensitive and/or regulated data in Technology Assets, Applications and/or Services (TAAS) and data repositories.",
+  "scf_question": "Does the organization use automated mechanisms to monitor sensitive and/or regulated data in Technology Assets, Applications and/or Services (TAAS) and data repositories?",
   "relative_weight": 5,
   "conformity_cadence": "Quarterly",
   "evidence_requests": [],
@@ -102,7 +102,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {

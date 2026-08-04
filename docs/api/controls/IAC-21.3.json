@@ -90,7 +90,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
@@ -147,7 +148,8 @@
     ],
     "general-nist-800-171a-r3": [
       "A.03.01.06.ODP[01]",
-      "A.03.01.06.a"
+      "A.03.01.06.a",
+      "A.03.01.07.a"
     ],
     "general-owasp-top-10-2025": [
       "A01:2025"
@@ -199,10 +201,17 @@
     "emea-eu-nis2-annex-2024": [
       "11.3.2(b)"
     ],
+    "emea-esp-ccn-stic-825-2026": [
+      "op.acc.4",
+      "op.acc.5"
+    ],
     "apac-aus-essential-8-2024": [
       "ML1-P4",
       "ML2-P4",
       "ML3-P4"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.6"
     ],
     "americas-can-itsp-10-171-2025": [
       "03.01.06.A",

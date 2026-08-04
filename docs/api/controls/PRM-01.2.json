@@ -79,7 +79,8 @@
     "MT-23",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Project & Resource Management",
   "crosswalks": {
@@ -96,14 +97,20 @@
     "general-iso-31000-2018": [
       "5.4.4"
     ],
-    "apac-aus-ps-cps-234-2019": [
-      "15"
+    "general-nist-cswp-39": [
+      "6.5"
+    ],
+    "emea-isr-cmo-2-0": [
+      "4.1, Stages 2-3"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "27(b)"
     ],
     "apac-jpn-ismap": [
       "4.4.5.2"
     ],
-    "amaericas-can-osfi-self-assessment": [
-      "6.7"
+    "apac-mys-bnm-rmit-2025": [
+      "8.1"
     ],
     "americas-can-osfi-b13-2022": [
       "1.2.1"

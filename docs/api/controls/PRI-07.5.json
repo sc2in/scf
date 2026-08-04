@@ -2,8 +2,8 @@
   "control_id": "PRI-07.5",
   "title": "Justification To Reject Disclosure Requests",
   "family": "PRI",
-  "description": "Mechanisms exist to reject data subject access requests that are categorized as:\n(1) Harassing; \n(2) Repetitive; or\n(3) Fraudulent.",
-  "scf_question": "Does the organization reject data subject access requests that are categorized as:\n (1) Harassing; \n (2) Repetitive; or\n (3) Fraudulent?",
+  "description": "Mechanisms exist to document justifiable reasons for rejecting a data subject's access request for disclosure when the request is:\n(1) Harassing;\n(2) Repetitive;\n(3) Fraudulent;\n(4) Unjustified; and/or\n(5) Unlawful.",
+  "scf_question": "Does the organization document justifiable reasons for rejecting a data subject's access request for disclosure when the request is:\n(1) Harassing;\n(2) Repetitive;\n(3) Fraudulent;\n(4) Unjustified; and/or\n(5) Unlawful?",
   "relative_weight": 5,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
@@ -16,7 +16,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nPrivacy (PRI) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PRI domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Data privacy-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No formal data privacy team exists. Privacy roles are assigned to existing IT / cybersecurity.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
     "3": "Privacy (PRI) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are well-documented and kept current by process owners.\n▪ A data privacy team, or similar function, is appropriately staffed and supported to implement and maintain PRI domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data privacy operations (e.g., privacy notice management software, customer management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to reject data subject access requests that are categorized as:\n(1) Harassing; \n(2) Repetitive; or\n(3) Fraudulent.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
@@ -61,8 +61,10 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
+  "errata": "- wordsmithed control",
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [
@@ -78,14 +80,77 @@
       "7027(f)",
       "7027(j)"
     ],
+    "emea-aut-dpa-2018": [
+      "§ 44(4)"
+    ],
+    "emea-bel-act-30-2018": [
+      "Title 2, Chapter III, Art. 36(5)"
+    ],
+    "emea-deu-fdpa-2017": [
+      "2.2.34(2)",
+      "3.3.59(4)"
+    ],
+    "emea-nga-dpr-2019": [
+      "3.1(4)"
+    ],
+    "emea-nor-pda-2018": [
+      "16"
+    ],
     "emea-srb-act-9-2018": [
-      "21.2",
-      "22.2"
+      "III.1.21(2)",
+      "III.1.22(2)"
     ],
     "apac-chn-pipl-2021": [
-      "45",
-      "46",
-      "49"
+      "Article 50"
+    ],
+    "apac-hkg-pdo-2022": [
+      "20(1)",
+      "20(1)(a)",
+      "20(1)(a)(i)",
+      "20(1)(a)(ii)",
+      "20(1)(a)(ii)(A)",
+      "20(1)(a)(ii)(B)",
+      "20(1)(b)",
+      "20(1)(c)",
+      "20(2)(a)",
+      "20(2)(b)",
+      "20(3)",
+      "20(3)(a)",
+      "20(3)(b)",
+      "20(3)(c)",
+      "20(3)(c)(i)",
+      "20(3)(c)(ii)",
+      "20(3)(c)(iii)",
+      "20(3)(d)",
+      "20(3)(e)",
+      "20(3)(f)",
+      "25(1)(a)"
+    ],
+    "apac-jpn-appi-2020": [
+      "IV.1.28(2)(i)",
+      "IV.1.28(2)(ii)",
+      "IV.1.28(2)(iii)"
+    ],
+    "apac-mys-pdpa-2010": [
+      "32(1)(d)",
+      "32(1)(d)(i)",
+      "32(1)(d)(ii)",
+      "32(1)(e)",
+      "32(1)(f)",
+      "32(1)(g)",
+      "32(1)(h)"
+    ],
+    "apac-nzl-privacy-act-2020": [
+      "4.1.46(2)",
+      "4.1.46(3)"
+    ],
+    "americas-mex-fdpa-2010": [
+      "IV.34",
+      "IV.34.I",
+      "IV.34.II",
+      "IV.34.III",
+      "IV.34.IV",
+      "IV.34.V"
     ]
   }
 }

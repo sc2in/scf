@@ -108,7 +108,8 @@
     "MT-17",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Risk Management",
   "crosswalks": {
@@ -157,17 +158,23 @@
       "500.9(b)(1)"
     ],
     "emea-eu-eba-ict-srm-2025": [
-      "3.3.1(10)",
-      "3.3.1(13)(a)"
+      "3.3.1.10",
+      "3.3.1.13(a)"
     ],
     "emea-eu-nis2-annex-2024": [
       "2.1.2(b)"
     ],
+    "emea-deu-c5-2020": [
+      "OIS-07-DOAR"
+    ],
     "emea-sau-cgiot-2024": [
       "1-4-5"
     ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.2.1.11"
+    ],
     "apac-aus-ps-cps-230-2023": [
-      "26"
+      "16(b)"
     ],
     "apac-ind-sebi-2024": [
       "GV.RM.S4"
@@ -175,8 +182,19 @@
     "apac-jpn-ismap": [
       "4.4.7.1"
     ],
+    "apac-mys-bnm-rmit-2025": [
+      "8.1"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "3.1.5",
+      "3.1.7(d)"
+    ],
     "americas-can-osfi-b13-2022": [
       "1.3",
+      "3.1.8"
+    ],
+    "americas-can-osfi-self-assessment-2": [
+      "1.3.2",
       "3.1.8"
     ]
   }

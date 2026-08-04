@@ -87,7 +87,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Human Resources Security",
   "crosswalks": {
@@ -118,6 +119,9 @@
     ],
     "usa-federal-fda-21-cfr-part-11-2025": [
       "11.10(j)"
+    ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(a)(7)"
     ],
     "usa-federal-omb-fipps-1973": [
       "2"
@@ -150,6 +154,14 @@
     "emea-sau-cgiot-2024": [
       "1-8-1",
       "1-8-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "VII.A.TPC-18",
+      "VII.B.TPC-71"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.1.3.e.1",
+      "3.3.1.3.e.2"
     ],
     "emea-uae-niaf-2023": [
       "3.2.3"

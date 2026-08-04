@@ -2,8 +2,8 @@
   "control_id": "DCH-14.3",
   "title": "Data Access Mapping",
   "family": "DCH",
-  "description": "Mechanisms exist to leverage data-specific Access Control Lists (ACL) or Interconnection Security Agreements (ISAs) to generate a logical map of the parties with whom sensitive/regulated data is shared.",
-  "scf_question": "Does the organization leverage data-specific Access Control Lists (ACL) or Interconnection Security Agreements (ISAs) to generate a logical map of the parties with whom sensitive/regulated data is shared?",
+  "description": "Mechanisms exist to leverage data-specific Access Control Lists (ACL) or Interconnection Security Agreements (ISAs) to generate a logical map of the parties with whom sensitive and/or regulated data is shared.",
+  "scf_question": "Does the organization leverage data-specific Access Control Lists (ACL) or Interconnection Security Agreements (ISAs) to generate a logical map of the parties with whom sensitive and/or regulated data is shared?",
   "relative_weight": 9,
   "conformity_cadence": "Semi-Annual",
   "evidence_requests": [],
@@ -85,7 +85,8 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
@@ -108,6 +109,11 @@
       "03.01.03",
       "03.01.20.c.02",
       "03.12.05.a"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.03[02]",
+      "A.03.01.20.c.02",
+      "A.03.12.05.a[01]"
     ],
     "usa-federal-dhs-cisa-tic-3-0": [
       "3.PEP.DA.DAUTE"

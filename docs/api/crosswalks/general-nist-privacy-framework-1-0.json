@@ -1,8 +1,8 @@
 {
   "framework_id": "general-nist-privacy-framework-1-0",
-  "display_name": "NIST Privacy Framework (v1.0)",
+  "display_name": "NIST Privacy Framework v1.0",
   "scf_to_framework": {
-    "total_mappings": 152,
+    "total_mappings": 153,
     "mappings": {
       "GOV-01": [
         "ID-P",
@@ -369,6 +369,9 @@
         "CM.AW-P2",
         "CM.AW-P3"
       ],
+      "PRI-01.12": [
+        "CT.DM-P10"
+      ],
       "PRI-02": [
         "CM.PO-P1",
         "CM.AW-P1"
@@ -595,7 +598,7 @@
     }
   },
   "framework_to_scf": {
-    "total_mappings": 122,
+    "total_mappings": 123,
     "mappings": {
       "ID-P": [
         "GOV-01"
@@ -1017,6 +1020,9 @@
         "PRM-04",
         "PRM-07",
         "SEA-01"
+      ],
+      "CT.DM-P10": [
+        "PRI-01.12"
       ],
       "CT.PO-P4": [
         "PRI-06.2",

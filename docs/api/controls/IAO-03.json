@@ -18,7 +18,7 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
     "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to develop and maintain System Security Plans (SSPs) or similar documentation, to identify and maintain key architectural information for each business-critical Technology Assets, Applications and/or Services (TAAS).",
     "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to generate authoritative documentation (e.g., System Security Plan (SSP)) that:\n(1) Identifies key architectural and implementation information on in-scope Technology Assets, Applications and/or Services (TAAS);\n(2) Reflects the current state of applied security, compliance and resilience controls on applicable People, Processes, Technologies, Data and/or Facilities (PPTDF) that are contained within the system boundary; and\n(3) Provides a historical record of applied security controls, including changes.",
     "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
@@ -91,9 +91,9 @@
     "MT-15",
     "MT-24",
     "MT-25",
-    "MT-27"
+    "MT-27",
+    "MT-28"
   ],
-  "errata": "- renamed\n- wordsmithed",
   "family_name": "Information Assurance",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
@@ -201,6 +201,8 @@
       "3.12.4"
     ],
     "general-nist-800-171-r3": [
+      "03.01.16.a",
+      "03.04.11.a",
       "03.04.11.b",
       "03.15.02.a",
       "03.15.02.a.01",
@@ -224,6 +226,7 @@
       "3.12.4[h]"
     ],
     "general-nist-800-171a-r3": [
+      "A.03.01.16.a[01]",
       "A.03.04.11.a[02]",
       "A.03.04.11.a[03]",
       "A.03.04.11.b[01]",
@@ -238,14 +241,50 @@
       "A.03.15.02.a.07",
       "A.03.15.02.a.08",
       "A.03.15.02.b[01]",
-      "A.03.15.02.b[02]",
-      "A.03.15.02.c"
+      "A.03.15.02.b[02]"
     ],
-    "general-nist-800-172": [
-      "3.11.4e"
+    "general-nist-800-172-r3": [
+      "03.01.04E",
+      "03.01.06E",
+      "03.13.11E",
+      "03.13.14E",
+      "03.13.16E",
+      "03.14.08E",
+      "03.14.10E",
+      "03.14.14E",
+      "03.14.15E",
+      "03.14.16E",
+      "03.15.01E",
+      "03.15.02E",
+      "03.15.03E",
+      "03.16.01E",
+      "03.17.02E"
     ],
-    "general-scf-dpmp-2025": [
-      "5.13"
+    "general-nist-800-172a-r3": [
+      "A.03.01.04E.ODP[02]",
+      "DS-A.03.01.06E",
+      "A.03.13.11E.ODP[01]",
+      "A.03.13.14E.ODP[01]",
+      "A.03.13.16E.ODP[03]",
+      "A.03.14.08E.ODP[01]",
+      "A.03.14.08E.ODP[03]",
+      "A.03.14.08E.ODP[05]",
+      "A.03.14.08E.ODP[07]",
+      "A.03.14.08E.ODP[11]",
+      "A.03.14.10E.ODP[02]",
+      "A.03.14.14E.ODP[01]",
+      "A.03.14.15E.ODP[01]",
+      "A.03.14.16E.ODP[01]",
+      "DS-A.03.15.01E.a.01",
+      "DS-A.03.15.01E.a.03",
+      "DS-A.03.15.01E.b",
+      "DS-A.03.15.01E.c",
+      "DS-A.03.15.02E.b",
+      "A.03.15.02E.ODP[01]",
+      "A.03.15.03E.ODP[01]",
+      "A.03.15.03E.ODP[02]",
+      "A.03.16.01E.ODP[02]",
+      "A.03.17.02E.ODP[01]"
     ],
     "usa-federal-fbi-cjis-6-0": [
       "PL-2"
@@ -270,6 +309,27 @@
     ],
     "usa-federal-gsa-fedramp-5-li-saas": [
       "PL-02"
+    ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.625(d)(5)",
+      "101.630(a)",
+      "101.630(c)",
+      "101.630(c)(1)",
+      "101.630(c)(2)",
+      "101.630(c)(3)",
+      "101.630(c)(4)",
+      "101.630(c)(5)",
+      "101.630(c)(6)",
+      "101.630(c)(7)",
+      "101.630(c)(8)",
+      "101.630(c)(9)",
+      "101.630(c)(10)",
+      "101.630(c)(11)",
+      "101.630(c)(12)",
+      "101.630(c)(13)",
+      "101.630(c)(14)",
+      "101.650(c)",
+      "101.650(e)(1)(v)"
     ],
     "usa-federal-irs-1075-2021": [
       "2.E.4.3",
@@ -334,8 +394,40 @@
     "emea-eu-ai-act-2024": [
       "Article 11.1"
     ],
-    "emea-qat-pdppl-2020": [
-      "11.1"
+    "emea-eu-cyber-resilience-act-2024": [
+      "Article 13(2)",
+      "Article 13(3)",
+      "Article 13(7)",
+      "Article 19(2)(b)",
+      "Article 31(1)",
+      "Article 31(2)",
+      "Article 31(3)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.6.42",
+      "3.6.2.69",
+      "3.6.2.70"
+    ],
+    "emea-deu-bsrit-2017": [
+      "3.6"
+    ],
+    "emea-deu-c5-2020": [
+      "UP-01-BP2",
+      "UP-01-BP3",
+      "UP-01-BP5"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-13-4"
+    ],
+    "emea-esp-decree-311-2022": [
+      "Article 12(1)(e)",
+      "Article 15(2)"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "A2",
+      "A3",
+      "B1",
+      "B4"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2301"
@@ -346,9 +438,12 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2301"
     ],
-    "apac-aus-ism-2024-june": [
+    "apac-aus-ism-2026-march": [
       "ISM-0041",
-      "ISM-0432"
+      "ISM-0432",
+      "ISM-0912",
+      "ISM-1912",
+      "ISM-2005"
     ],
     "apac-jpn-ismap": [
       "4.4.4",
@@ -370,7 +465,16 @@
       "5.4.5.C.02",
       "5.4.5.C.03"
     ],
+    "apac-sgp-cyber-hygiene-practice-2019": [
+      "4.3(a)"
+    ],
+    "americas-arg-ppd-2018": [
+      "B.2.1-1",
+      "E.1.1-3"
+    ],
     "americas-can-itsp-10-171-2025": [
+      "03.01.16.A",
+      "03.04.11.A",
       "03.04.11.B",
       "03.15.02.A",
       "03.15.02.A.01",
