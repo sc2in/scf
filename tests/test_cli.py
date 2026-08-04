@@ -85,7 +85,18 @@ def test_version_bump_removes_the_previous_catalog(clean_workbook, tmp_path):
     from scf_api.build import find_catalog
 
     data = tmp_path / "data"
-    args = ["parse", "--workbook", str(clean_workbook), "--out", str(data), "--overrides", "/none"]
+    # --report defaults to the repo's validation/ path; keep the test hermetic.
+    args = [
+        "parse",
+        "--workbook",
+        str(clean_workbook),
+        "--out",
+        str(data),
+        "--overrides",
+        "/none",
+        "--report",
+        str(tmp_path / "report.json"),
+    ]
 
     assert main([*args, "--scf-version", "2099.1.1"]) == 0
     assert (data / "scf-2099-1-1.json").exists()
