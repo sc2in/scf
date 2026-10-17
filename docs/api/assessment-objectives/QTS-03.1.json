@@ -1,25 +1,15 @@
 {
   "scf_control_id": "QTS-03.1",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-03.1",
       "ao_id": "QTS-03.1_A01",
-      "objective": "sufficient resources are allocated to transition legacy Technology Assets, Applications and/or Services (TAAS) to Post-Quantum Cryptography (PQC) algorithms.",
+      "objective": "Technology Assets, Applications, Services and Data (TAASD) are classified according to confidentiality shelf-life.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-03.1",
-      "ao_id": "QTS-03.1_A02",
-      "objective": "hybrid cryptography is supported during a defined transition period, if applicable.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "a confidentiality protection requirement of at least 10 years",
       "org_defined_parameters": ""
     }
   ]

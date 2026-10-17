@@ -1,14 +1,34 @@
 {
   "scf_control_id": "AST-23",
-  "total": 1,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-23",
       "ao_id": "AST-23_A01",
-      "objective": "Multi-Function Devices (MFD) are securely configured according to industry-recognized secure practices for the type of device.",
-      "pptdf": "Technology",
+      "objective": "the organization governs a process by which employees return all organizational assets in their possession within an organization-defined period following termination of employment.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 5 business days following termination",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-23",
+      "ao_id": "AST-23_A02",
+      "objective": "the organization governs a process by which third-party users return all organizational assets in their possession within an organization-defined period following termination of the contract or agreement.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 5 business days following termination of the contract or agreement",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-23",
+      "ao_id": "AST-23_A03",
+      "objective": "upon termination of individual employment, security-related system property is retrieved.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.09.02.a.03",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

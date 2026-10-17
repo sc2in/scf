@@ -1,0 +1,16 @@
+{
+  "control_id": "DCH-36.6",
+  "risk_if_not_implemented": "Without Differential Privacy, Personal Data (PD) may be collected, processed, retained or shared without lawful authority or adequate safeguards, harming individuals and exposing the organization to regulatory action. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to Loss of Confidentiality (R-IP-2), Privacy Harm / Unauthorized Processing (R-IP-6). No threat is rated Likely for this control; threats rated Possible include Malicious Cyber Activity (MT-2), Dysfunctional Management Practices (MT-8), Human Error (MT-9).",
+  "compensating_control_1": {
+    "control_id": "DCH-36",
+    "name": "De-Identification (Anonymization)",
+    "description": "Mechanisms exist to de-identify sensitive and/or regulated data through\n(1) Anonymization;\n(2) De-identification;\n(3) Pseudonymization; and/or\n(4) Redaction.",
+    "justification": "De-Identification (Anonymization) (DCH-36) provides overlapping security capability that compensates for the absence of Differential Data Privacy (DCH-36.6) by addressing related risk objectives through an alternative control mechanism aligned with Data applicability. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "PRI-30",
+    "name": "Personal Data (PD) Retention & Disposal",
+    "description": "Mechanisms exist to: \n(1) Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;\n(2) Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and\n(3) Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records).",
+    "justification": "Personal Data (PD) Retention & Disposal (PRI-30) provides privacy protection that compensates for the absence of Differential Data Privacy (DCH-36.6) by applying alternative privacy safeguards to protect personal data and honor data subject rights. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

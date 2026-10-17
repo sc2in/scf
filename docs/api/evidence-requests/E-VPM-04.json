@@ -1,10 +1,11 @@
 {
   "erl_id": "E-VPM-04",
-  "area": "Vulnerability Management",
+  "area": "Vulnerability & Patch Management",
   "artifact_name": "Red Team Testing",
   "artifact_description": "Documented evidence of \"red team\" testing.",
   "scf_controls": [
-    "VPM-07.1"
+    "VPM-19",
+    "VPM-21"
   ],
   "cmmc_mapping": ""
 }

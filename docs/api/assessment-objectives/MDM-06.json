@@ -5,7 +5,7 @@
     {
       "scf_control_id": "MDM-06",
       "ao_id": "MDM-06_A01",
-      "objective": "the connection of personally-owned, mobile devices to organizational systems and networks is restricted.",
+      "objective": "the connection of personally-owned mobile devices to organizational Technology Assets, Applications and/or Services (TAAS) is restricted.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

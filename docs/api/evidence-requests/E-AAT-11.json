@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-AAT-11",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "AI Model & Agent Inventory",
+  "artifact_description": "Documented evidence of an inventory of Artificial Intelligence (AI) models and AI agents in use, including lifecycle status and categorization.",
+  "scf_controls": [
+    "AAT-07",
+    "AAT-07.1",
+    "AAT-07.2",
+    "AAT-15",
+    "AAT-37"
+  ],
+  "cmmc_mapping": ""
+}

@@ -4,7 +4,7 @@
   "artifact_name": "Non-Disclosure Agreements (NDAs)",
   "artifact_description": "Documented evidence of the use of Non-Disclosure Agreements (NDAs) that restricts unauthorized sharing of sensitive/regulated data.",
   "scf_controls": [
-    "HRS-06.1"
+    "HRS-07.1"
   ],
   "cmmc_mapping": ""
 }

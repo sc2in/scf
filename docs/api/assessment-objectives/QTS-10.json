@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "QTS-10",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-10",
+      "ao_id": "QTS-10_A01",
+      "objective": "Post-Quantum Cryptography (PQC) implementations are validated for functional and cryptographic requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "prior to production deployment",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-10",
+      "ao_id": "QTS-10_A02",
+      "objective": "each PQC implementation is interoperable with counterparties and successors.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-10",
+      "ao_id": "QTS-10_A03",
+      "objective": "each PQC implementation meets performance criteria for its use case.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-10",
+      "ao_id": "QTS-10_A04",
+      "objective": "test results and exceptions are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

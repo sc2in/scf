@@ -4,27 +4,23 @@
   "scf_to_framework": {
     "total_mappings": 27,
     "mappings": {
-      "GOV-12": [
-        "Article 28"
-      ],
       "GOV-13": [
         "Article 28"
       ],
-      "GOV-17": [
-        "Article 38",
-        "Article 54(1)"
+      "GOV-14": [
+        "Article 28"
       ],
-      "BCD-01": [
+      "BCD-02": [
         "Article 33",
         "Article 34(4)"
       ],
-      "BCD-04": [
+      "BCD-10": [
         "Article 34(4)"
       ],
-      "BCD-11": [
+      "BCD-24": [
         "Article 34(3)"
       ],
-      "CPL-01": [
+      "CPL-02": [
         "Article 9",
         "Article 10",
         "Article 21",
@@ -36,70 +32,74 @@
         "Article 41",
         "Article 47"
       ],
-      "CPL-03.1": [
+      "CPL-08": [
         "Article 38"
       ],
-      "CPL-05": [
+      "CPL-19": [
         "Article 72"
       ],
-      "CPL-05.2": [
+      "CPL-19.2": [
         "Article 28",
         "Article 55",
         "Article 56"
       ],
-      "CPL-06": [
+      "CPL-20": [
         "Article 28",
         "Article 29"
       ],
-      "DCH-01": [
+      "CPL-21": [
+        "Article 24"
+      ],
+      "CPL-27": [
+        "Article 38",
+        "Article 54(1)"
+      ],
+      "DCH-02": [
         "Article 40"
       ],
-      "DCH-26": [
+      "DCH-31": [
         "Article 37"
       ],
-      "HRS-01": [
+      "HRS-02": [
         "Article 34(1)"
       ],
-      "IAC-01": [
+      "IAC-02": [
         "Article 40"
       ],
-      "IRO-04": [
+      "IRO-08": [
         "Article 25"
       ],
-      "IAO-02": [
+      "IAO-04": [
         "Article 35"
       ],
-      "PRI-01.6": [
+      "PRI-10": [
         "Article 42"
       ],
-      "PRI-03": [
+      "PRI-24": [
         "Article 22"
       ],
-      "PRI-05.4": [
+      "PRI-29": [
         "Article 41",
         "Article 44"
       ],
-      "PRI-06.1": [
+      "PRI-39": [
         "Article 43"
       ],
-      "PRI-06.4": [
+      "PRI-39.3": [
         "Article 43"
       ],
-      "PRI-06.5": [
+      "PRI-40": [
         "Article 43"
       ],
-      "PRI-16": [
-        "Article 24"
-      ],
-      "SAT-01": [
+      "SAT-02": [
         "Article 34(2)"
       ],
-      "TDA-01.1": [
+      "TDA-06": [
         "Article 22",
         "Article 46",
         "Article 48"
       ],
-      "TPM-05": [
+      "TPM-14": [
         "Article 36"
       ]
     }
@@ -108,116 +108,116 @@
     "total_mappings": 34,
     "mappings": {
       "Article 28": [
-        "GOV-12",
         "GOV-13",
-        "CPL-05.2",
-        "CPL-06"
-      ],
-      "Article 38": [
-        "GOV-17",
-        "CPL-03.1"
-      ],
-      "Article 54(1)": [
-        "GOV-17"
+        "GOV-14",
+        "CPL-19.2",
+        "CPL-20"
       ],
       "Article 33": [
-        "BCD-01"
+        "BCD-02"
       ],
       "Article 34(4)": [
-        "BCD-01",
-        "BCD-04"
+        "BCD-02",
+        "BCD-10"
       ],
       "Article 34(3)": [
-        "BCD-11"
+        "BCD-24"
       ],
       "Article 9": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 10": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 21": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 23": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 26": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 27": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 34": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 34(5)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 41": [
-        "CPL-01",
-        "PRI-05.4"
+        "CPL-02",
+        "PRI-29"
       ],
       "Article 47": [
-        "CPL-01"
+        "CPL-02"
+      ],
+      "Article 38": [
+        "CPL-08",
+        "CPL-27"
       ],
       "Article 72": [
-        "CPL-05"
+        "CPL-19"
       ],
       "Article 55": [
-        "CPL-05.2"
+        "CPL-19.2"
       ],
       "Article 56": [
-        "CPL-05.2"
+        "CPL-19.2"
       ],
       "Article 29": [
-        "CPL-06"
-      ],
-      "Article 40": [
-        "DCH-01",
-        "IAC-01"
-      ],
-      "Article 37": [
-        "DCH-26"
-      ],
-      "Article 34(1)": [
-        "HRS-01"
-      ],
-      "Article 25": [
-        "IRO-04"
-      ],
-      "Article 35": [
-        "IAO-02"
-      ],
-      "Article 42": [
-        "PRI-01.6"
-      ],
-      "Article 22": [
-        "PRI-03",
-        "TDA-01.1"
-      ],
-      "Article 44": [
-        "PRI-05.4"
-      ],
-      "Article 43": [
-        "PRI-06.1",
-        "PRI-06.4",
-        "PRI-06.5"
+        "CPL-20"
       ],
       "Article 24": [
-        "PRI-16"
+        "CPL-21"
+      ],
+      "Article 54(1)": [
+        "CPL-27"
+      ],
+      "Article 40": [
+        "DCH-02",
+        "IAC-02"
+      ],
+      "Article 37": [
+        "DCH-31"
+      ],
+      "Article 34(1)": [
+        "HRS-02"
+      ],
+      "Article 25": [
+        "IRO-08"
+      ],
+      "Article 35": [
+        "IAO-04"
+      ],
+      "Article 42": [
+        "PRI-10"
+      ],
+      "Article 22": [
+        "PRI-24",
+        "TDA-06"
+      ],
+      "Article 44": [
+        "PRI-29"
+      ],
+      "Article 43": [
+        "PRI-39",
+        "PRI-39.3",
+        "PRI-40"
       ],
       "Article 34(2)": [
-        "SAT-01"
+        "SAT-02"
       ],
       "Article 46": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 48": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 36": [
-        "TPM-05"
+        "TPM-14"
       ]
     }
   }

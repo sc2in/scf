@@ -1,12 +1,22 @@
 {
   "scf_control_id": "AST-08",
-  "total": 2,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-08",
       "ao_id": "AST-08_A01",
-      "objective": "mobile devices are inspected for evidence of tampering upon return from geographic regions of concern or other known hostile environments that could lead to device compromise.",
-      "pptdf": "Technology",
+      "objective": "an inventory of Technology Assets, Applications, Services and/or Data (TAASD) is maintained and is dynamically updated as assets are added, changed or removed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-08",
+      "ao_id": "AST-08_A02",
+      "objective": "the contextual attributes to be captured for each inventoried Technology Asset, Application, Service and/or Data (TAASD) entry (e.g., owner, location, criticality, data sensitivity, dependencies, software and configuration details) are defined and populated.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -14,8 +24,38 @@
     },
     {
       "scf_control_id": "AST-08",
-      "ao_id": "AST-08_A02",
-      "objective": "mobile devices that show signs of tampering are confiscated for forensic examination.",
+      "ao_id": "AST-08_A03",
+      "objective": "inventory data is used to detect anomalies, including unknown, unexpected or non-conforming assets.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-08",
+      "ao_id": "AST-08_A04",
+      "objective": "inventory data is used to manage vulnerabilities, including identifying affected assets and prioritizing remediation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-08",
+      "ao_id": "AST-08_A05",
+      "objective": "inventory data is used to maintain compliance, including determining which assets are within the scope of statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-08",
+      "ao_id": "AST-08_A06",
+      "objective": "inventory data is used to maintain resilient capabilities, including identifying the assets that support business-critical functions and their recovery.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

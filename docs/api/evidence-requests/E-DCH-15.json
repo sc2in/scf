@@ -4,7 +4,8 @@
   "artifact_name": "Geolocation Restrictions",
   "artifact_description": "Documented evidence of geolocation restrictions placed on specific types of sensitive and/or regulated data for where that data can be stored and/or processed.",
   "scf_controls": [
-    "CLD-09"
+    "DCH-30.1",
+    "DCH-31"
   ],
   "cmmc_mapping": ""
 }

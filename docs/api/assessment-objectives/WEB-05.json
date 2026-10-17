@@ -5,7 +5,7 @@
     {
       "scf_control_id": "WEB-05",
       "ao_id": "WEB-05_A01",
-      "objective": "data subjects are provided with clear and precise information about cookies, in accordance with applicable legal requirements for cookie management.",
+      "objective": "a capability exists to review secure pages for unauthorized code.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

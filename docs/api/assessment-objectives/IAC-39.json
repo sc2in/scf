@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-39",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-39",
+      "ao_id": "IAC-39_A01",
+      "objective": "Hardware Security Modules (HSMs) protect the authenticators on which the system component relies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "validated under the Federal Information Processing Standard (FIPS) for cryptographic modules at the level called for by the data being protected",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,25 +1,15 @@
 {
-  "scf_version": "2026.2",
-  "workbook_sha256": "9e0a4df4993726c95e636f04b3028d8b5edeba2bda45d16ed6722b13540e6835",
-  "workbook": "workbooks/secure-controls-framework-scf-2026-2.xlsx",
-  "generated_at": "2026-08-04T16:50:03+00:00",
+  "scf_version": "2026.3",
+  "workbook_sha256": "5a89bf2d3c106a9a87d4b6e3d62dd3e147d0e960d4c07473045a10aa8a7df697",
+  "workbook": "workbooks/secure-controls-framework-scf-2026-3.xlsx",
+  "generated_at": "2026-10-17T15:59:59+00:00",
   "summary": {
     "fail": 0,
     "warn": 3,
-    "resolved": 1,
+    "resolved": 0,
     "ok": true
   },
   "findings": [
-    {
-      "check": "control-erl",
-      "severity": "fail",
-      "message": "'MON-03.3' references unknown erl id 'MON-03.2'",
-      "owner": "MON-03.3",
-      "value": "MON-03.2",
-      "sheet": "SCF 2026.2",
-      "cell": "F482",
-      "resolution": "override:mon-03.3-erl-typo"
-    },
     {
       "check": "xwalk-source",
       "severity": "warn",
@@ -52,9 +42,7 @@
     }
   ],
   "overrides": {
-    "used": [
-      "mon-03.3-erl-typo"
-    ],
+    "used": [],
     "unused": []
   },
   "reconciliation": {
@@ -150,9 +138,18 @@
         "score": 100
       },
       {
+        "fdi": "general-cr-cmm-2026",
+        "api_id": "general-cr-cmm-2026",
+        "sheet_row": 12,
+        "header": "CR\nCMM\n2026",
+        "matched_column": "CR\nCMM\n2026",
+        "method": "exact",
+        "score": 100
+      },
+      {
         "fdi": "general-csa-cmm-4-1-0",
         "api_id": "general-csa-cmm-4-1-0",
-        "sheet_row": 12,
+        "sheet_row": 13,
         "header": "CSA\nCCM\n4.1.0",
         "matched_column": "CSA\nCCM\n4.1.0",
         "method": "exact",
@@ -161,18 +158,9 @@
       {
         "fdi": "general-csa-iot-2",
         "api_id": "general-csa-iot-2",
-        "sheet_row": 13,
+        "sheet_row": 14,
         "header": "CSA\nIoT SCF\n2",
         "matched_column": "CSA\nIoT SCF\n2",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "general-cr-cmm-2026",
-        "api_id": "general-cr-cmm-2026",
-        "sheet_row": 14,
-        "header": "CR\nCMM\n2026",
-        "matched_column": "CR\nCMM\n2026",
         "method": "exact",
         "score": 100
       },
@@ -231,18 +219,9 @@
         "score": 100
       },
       {
-        "fdi": "general-iec-tr-60601-4-5-2021",
-        "api_id": "general-iec-tr-60601-4-5-2021",
-        "sheet_row": 21,
-        "header": "IEC TR 60601-4-5\n2021",
-        "matched_column": "IEC TR 60601-4-5\n2021",
-        "method": "exact",
-        "score": 100
-      },
-      {
         "fdi": "general-iec-62443-2-1-2024",
         "api_id": "general-iec-62443-2-1-2024",
-        "sheet_row": 22,
+        "sheet_row": 21,
         "header": "IEC 62443-2-1\n2024",
         "matched_column": "IEC 62443-2-1\n2024",
         "method": "exact",
@@ -251,7 +230,7 @@
       {
         "fdi": "general-iec-62443-3-3-2013",
         "api_id": "general-iec-62443-3-3-2013",
-        "sheet_row": 23,
+        "sheet_row": 22,
         "header": "IEC 62443-3-3\n2013",
         "matched_column": "IEC 62443-3-3\n2013",
         "method": "exact",
@@ -260,7 +239,7 @@
       {
         "fdi": "general-iec-62443-4-1-2018",
         "api_id": "general-iec-62443-4-1-2018",
-        "sheet_row": 24,
+        "sheet_row": 23,
         "header": "IEC 62443-4-1\n2018",
         "matched_column": "IEC 62443-4-1\n2018",
         "method": "exact",
@@ -269,9 +248,18 @@
       {
         "fdi": "general-iec-62443-4-2-2019",
         "api_id": "general-iec-62443-4-2-2019",
-        "sheet_row": 25,
+        "sheet_row": 24,
         "header": "IEC 62443-4-2\n2019",
         "matched_column": "IEC 62443-4-2\n2019",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "general-iec-tr-60601-4-5-2021",
+        "api_id": "general-iec-tr-60601-4-5-2021",
+        "sheet_row": 25,
+        "header": "IEC TR 60601-4-5\n2021",
+        "matched_column": "IEC TR 60601-4-5\n2021",
         "method": "exact",
         "score": 100
       },
@@ -429,18 +417,9 @@
         "score": 100
       },
       {
-        "fdi": "general-nist-privacy-framework-1-0",
-        "api_id": "general-nist-privacy-framework-1-0",
-        "sheet_row": 43,
-        "header": "NIST Privacy Framework\n1.0",
-        "matched_column": "NIST Privacy Framework\n1.0",
-        "method": "exact",
-        "score": 100
-      },
-      {
         "fdi": "general-nist-800-37-r2",
         "api_id": "general-nist-800-37-r2",
-        "sheet_row": 44,
+        "sheet_row": 43,
         "header": "NIST\n800-37 \nR2",
         "matched_column": "NIST\n800-37 \nR2",
         "method": "exact",
@@ -449,7 +428,7 @@
       {
         "fdi": "general-nist-800-39",
         "api_id": "general-nist-800-39",
-        "sheet_row": 45,
+        "sheet_row": 44,
         "header": "NIST\n800-39",
         "matched_column": "NIST\n800-39",
         "method": "exact",
@@ -458,7 +437,7 @@
       {
         "fdi": "general-nist-800-53-r4",
         "api_id": "general-nist-800-53-r4",
-        "sheet_row": 46,
+        "sheet_row": 45,
         "header": "NIST\n800-53\nR4",
         "matched_column": "NIST\n800-53\nR4",
         "method": "exact",
@@ -467,25 +446,16 @@
       {
         "fdi": "general-nist-800-53-r5-2",
         "api_id": "general-nist-800-53-r5-2",
-        "sheet_row": 47,
-        "header": "NIST\n800-53\nR5",
-        "matched_column": "NIST\n800-53\nR5",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "general-nist-800-53-r5-2-privacy",
-        "api_id": "general-nist-800-53-r5-2-privacy",
-        "sheet_row": 48,
-        "header": "NIST\n800-53B R5\n(privacy)",
-        "matched_column": "NIST\n800-53B R5\n(privacy)",
+        "sheet_row": 46,
+        "header": "NIST\n800-53\nR5.2",
+        "matched_column": "NIST\n800-53\nR5.2",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "general-nist-800-53-r5-2-low",
         "api_id": "general-nist-800-53-r5-2-low",
-        "sheet_row": 49,
+        "sheet_row": 47,
         "header": "NIST\n800-53B R5\n(low)",
         "matched_column": "NIST\n800-53B R5\n(low)",
         "method": "exact",
@@ -494,7 +464,7 @@
       {
         "fdi": "general-nist-800-53-r5-2-mod",
         "api_id": "general-nist-800-53-r5-2-mod",
-        "sheet_row": 50,
+        "sheet_row": 48,
         "header": "NIST\n800-53B R5\n(moderate)",
         "matched_column": "NIST\n800-53B R5\n(moderate)",
         "method": "exact",
@@ -503,16 +473,25 @@
       {
         "fdi": "general-nist-800-53-r5-2-high",
         "api_id": "general-nist-800-53-r5-2-high",
-        "sheet_row": 51,
+        "sheet_row": 49,
         "header": "NIST\n800-53B R5\n(high)",
         "matched_column": "NIST\n800-53B R5\n(high)",
         "method": "exact",
         "score": 100
       },
       {
+        "fdi": "general-nist-800-53-r5-2-privacy",
+        "api_id": "general-nist-800-53-r5-2-privacy",
+        "sheet_row": 50,
+        "header": "NIST\n800-53B R5\n(privacy)",
+        "matched_column": "NIST\n800-53B R5\n(privacy)",
+        "method": "exact",
+        "score": 100
+      },
+      {
         "fdi": "general-nist-800-66-r2",
         "api_id": "general-nist-800-66-r2",
-        "sheet_row": 52,
+        "sheet_row": 51,
         "header": "NIST\nSP 800-66 R2",
         "matched_column": "NIST\nSP 800-66 R2",
         "method": "exact",
@@ -521,7 +500,7 @@
       {
         "fdi": "general-nist-800-82-r3",
         "api_id": "general-nist-800-82-r3",
-        "sheet_row": 53,
+        "sheet_row": 52,
         "header": "NIST\n800-82 R3",
         "matched_column": "NIST\n800-82 R3",
         "method": "exact",
@@ -530,7 +509,7 @@
       {
         "fdi": "general-nist-800-82-r3-low",
         "api_id": "general-nist-800-82-r3-low",
-        "sheet_row": 54,
+        "sheet_row": 53,
         "header": "NIST\n800-82 R3\nLOW \nOT Overlay",
         "matched_column": "NIST\n800-82 R3\nLOW \nOT Overlay",
         "method": "exact",
@@ -539,7 +518,7 @@
       {
         "fdi": "general-nist-800-82-r3-mod",
         "api_id": "general-nist-800-82-r3-mod",
-        "sheet_row": 55,
+        "sheet_row": 54,
         "header": "NIST\n800-82 R3\nMODERATE\nOT Overlay",
         "matched_column": "NIST\n800-82 R3\nMODERATE\nOT Overlay",
         "method": "exact",
@@ -548,7 +527,7 @@
       {
         "fdi": "general-nist-800-82-r3-high",
         "api_id": "general-nist-800-82-r3-high",
-        "sheet_row": 56,
+        "sheet_row": 55,
         "header": "NIST\n800-82 R3\nHIGH \nOT Overlay",
         "matched_column": "NIST\n800-82 R3\nHIGH \nOT Overlay",
         "method": "exact",
@@ -557,7 +536,7 @@
       {
         "fdi": "general-nist-800-160-vol-2-r1",
         "api_id": "general-nist-800-160-vol-2-r1",
-        "sheet_row": 57,
+        "sheet_row": 56,
         "header": "NIST\n800-160 Vol2 R1",
         "matched_column": "NIST\n800-160 Vol2 R1",
         "method": "exact",
@@ -566,7 +545,7 @@
       {
         "fdi": "general-nist-800-161-r1",
         "api_id": "general-nist-800-161-r1",
-        "sheet_row": 58,
+        "sheet_row": 57,
         "header": "NIST\n800-161\nR1",
         "matched_column": "NIST\n800-161\nR1",
         "method": "exact",
@@ -575,7 +554,7 @@
       {
         "fdi": "general-nist-800-161-r1-cscrm",
         "api_id": "general-nist-800-161-r1-cscrm",
-        "sheet_row": 59,
+        "sheet_row": 58,
         "header": "NIST\n800-161 R1\nC-SCRM Baseline",
         "matched_column": "NIST\n800-161 R1\nC-SCRM Baseline",
         "method": "exact",
@@ -584,7 +563,7 @@
       {
         "fdi": "general-nist-800-161-r1-flowdown",
         "api_id": "general-nist-800-161-r1-flowdown",
-        "sheet_row": 60,
+        "sheet_row": 59,
         "header": "NIST\n800-161 R1\nFlow Down",
         "matched_column": "NIST\n800-161 R1\nFlow Down",
         "method": "exact",
@@ -593,7 +572,7 @@
       {
         "fdi": "general-nist-800-161-r1-level-1",
         "api_id": "general-nist-800-161-r1-level-1",
-        "sheet_row": 61,
+        "sheet_row": 60,
         "header": "NIST\n800-161 R1\nLevel 1",
         "matched_column": "NIST\n800-161 R1\nLevel 1",
         "method": "exact",
@@ -602,7 +581,7 @@
       {
         "fdi": "general-nist-800-161-r1-level-2",
         "api_id": "general-nist-800-161-r1-level-2",
-        "sheet_row": 62,
+        "sheet_row": 61,
         "header": "NIST\n800-161 R1\nLevel 2",
         "matched_column": "NIST\n800-161 R1\nLevel 2",
         "method": "exact",
@@ -611,7 +590,7 @@
       {
         "fdi": "general-nist-800-161-r1-level-3",
         "api_id": "general-nist-800-161-r1-level-3",
-        "sheet_row": 63,
+        "sheet_row": 62,
         "header": "NIST\n800-161 R1\nLevel 3",
         "matched_column": "NIST\n800-161 R1\nLevel 3",
         "method": "exact",
@@ -620,7 +599,7 @@
       {
         "fdi": "general-nist-800-171-r2",
         "api_id": "general-nist-800-171-r2",
-        "sheet_row": 64,
+        "sheet_row": 63,
         "header": "NIST\n800-171\nR2",
         "matched_column": "NIST\n800-171\nR2",
         "method": "exact",
@@ -629,7 +608,7 @@
       {
         "fdi": "general-nist-800-171-r3",
         "api_id": "general-nist-800-171-r3",
-        "sheet_row": 65,
+        "sheet_row": 64,
         "header": "NIST\n800-171\nR3",
         "matched_column": "NIST\n800-171\nR3",
         "method": "exact",
@@ -638,7 +617,7 @@
       {
         "fdi": "general-nist-800-171a",
         "api_id": "general-nist-800-171a",
-        "sheet_row": 66,
+        "sheet_row": 65,
         "header": "NIST\n800-171A",
         "matched_column": "NIST\n800-171A",
         "method": "exact",
@@ -647,7 +626,7 @@
       {
         "fdi": "general-nist-800-171a-r3",
         "api_id": "general-nist-800-171a-r3",
-        "sheet_row": 67,
+        "sheet_row": 66,
         "header": "NIST\n800-171A\nR3",
         "matched_column": "NIST\n800-171A\nR3",
         "method": "exact",
@@ -656,7 +635,7 @@
       {
         "fdi": "general-nist-800-172-r3",
         "api_id": "general-nist-800-172-r3",
-        "sheet_row": 68,
+        "sheet_row": 67,
         "header": "NIST\n800-172 R3",
         "matched_column": "NIST\n800-172 R3",
         "method": "exact",
@@ -665,7 +644,7 @@
       {
         "fdi": "general-nist-800-172a-r3",
         "api_id": "general-nist-800-172a-r3",
-        "sheet_row": 69,
+        "sheet_row": 68,
         "header": "NIST\n800-172A R3",
         "matched_column": "NIST\n800-172A R3",
         "method": "exact",
@@ -674,7 +653,7 @@
       {
         "fdi": "general-nist-800-207",
         "api_id": "general-nist-800-207",
-        "sheet_row": 70,
+        "sheet_row": 69,
         "header": "NIST\n800-207",
         "matched_column": "NIST\n800-207",
         "method": "exact",
@@ -683,7 +662,7 @@
       {
         "fdi": "general-nist-800-218",
         "api_id": "general-nist-800-218",
-        "sheet_row": 71,
+        "sheet_row": 70,
         "header": "NIST\n800-218",
         "matched_column": "NIST\n800-218",
         "method": "exact",
@@ -692,7 +671,7 @@
       {
         "fdi": "general-nist-csf-2-0",
         "api_id": "general-nist-csf-2-0",
-        "sheet_row": 72,
+        "sheet_row": 71,
         "header": "NIST\nCSF\n2.0",
         "matched_column": "NIST\nCSF\n2.0",
         "method": "exact",
@@ -701,9 +680,18 @@
       {
         "fdi": "general-nist-cswp-39",
         "api_id": "general-nist-cswp-39",
-        "sheet_row": 73,
+        "sheet_row": 72,
         "header": "NIST\nCSWP 39",
         "matched_column": "NIST\nCSWP 39",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "general-nist-privacy-framework-1-0",
+        "api_id": "general-nist-privacy-framework-1-0",
+        "sheet_row": 73,
+        "header": "NIST Privacy Framework\n1.0",
+        "matched_column": "NIST Privacy Framework\n1.0",
         "method": "exact",
         "score": 100
       },
@@ -816,11 +804,11 @@
         "score": 100
       },
       {
-        "fdi": "general-scf-dpmp-2025",
-        "api_id": "general-scf-dpmp-2025",
+        "fdi": "general-scf-dpmp-2026",
+        "api_id": "general-scf-dpmp-2026",
         "sheet_row": 86,
-        "header": "SCF\nDPMP\n2025",
-        "matched_column": "SCF\nDPMP\n2025",
+        "header": "SCF\nDPMP\n2026",
+        "matched_column": "SCF\nDPMP\n2026",
         "method": "exact",
         "score": 100
       },
@@ -834,11 +822,11 @@
         "score": 100
       },
       {
-        "fdi": "general-sparta",
-        "api_id": "general-sparta",
+        "fdi": "general-sparta-4-0",
+        "api_id": "general-sparta-4-0",
         "sheet_row": 88,
-        "header": "SPARTA",
-        "matched_column": "SPARTA",
+        "header": "SPARTA\n4.0",
+        "matched_column": "SPARTA\n4.0",
         "method": "exact",
         "score": 100
       },
@@ -897,20 +885,20 @@
         "score": 100
       },
       {
-        "fdi": "usa-federal-dow-cert-rmm-1-2",
-        "api_id": "usa-federal-dow-cert-rmm-1-2",
+        "fdi": "usa-federal-cms-marse-2-0",
+        "api_id": "usa-federal-cms-marse-2-0",
         "sheet_row": 95,
-        "header": "US\nCERT RMM\n1.2",
-        "matched_column": "US\nCERT RMM\n1.2",
+        "header": "USA\nFederal\nCMS MARS-E\n2.0",
+        "matched_column": "USA\nFederal\nCMS MARS-E\n2.0",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "usa-federal-law-coppa-2024",
-        "api_id": "usa-federal-law-coppa-2024",
+        "fdi": "usa-federal-dhs-cisa-cpg-2-0",
+        "api_id": "usa-federal-dhs-cisa-cpg-2-0",
         "sheet_row": 96,
-        "header": "US\nCOPPA",
-        "matched_column": "US\nCOPPA",
+        "header": "USA\nFederal\nCISA\nCPG 2022",
+        "matched_column": "USA\nFederal\nCISA\nCPG 2022",
         "method": "exact",
         "score": 100
       },
@@ -918,8 +906,8 @@
         "fdi": "usa-federal-dhs-cisa-ssdaf-2024",
         "api_id": "usa-federal-dhs-cisa-ssdaf-2024",
         "sheet_row": 97,
-        "header": "US\nDHS CISA\nSSDAF",
-        "matched_column": "US\nDHS CISA\nSSDAF",
+        "header": "USA\nFederal\nDHS CISA\nSSDAF",
+        "matched_column": "USA\nFederal\nDHS CISA\nSSDAF",
         "method": "exact",
         "score": 100
       },
@@ -927,681 +915,672 @@
         "fdi": "usa-federal-dhs-cisa-tic-3-0",
         "api_id": "usa-federal-dhs-cisa-tic-3-0",
         "sheet_row": 98,
-        "header": "US\nDHS CISA\nTIC 3.0",
-        "matched_column": "US\nDHS CISA\nTIC 3.0",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-dhs-cisa-cpg-2-0",
-        "api_id": "usa-federal-dhs-cisa-cpg-2-0",
-        "sheet_row": 99,
-        "header": "US\nCISA\nCPG\n2022",
-        "matched_column": "US\nCISA\nCPG\n2022",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-fbi-cjis-6-0",
-        "api_id": "usa-federal-fbi-cjis-6-0",
-        "sheet_row": 100,
-        "header": "US\nCJIS Security Policy\n6.0",
-        "matched_column": "US\nCJIS Security Policy\n6.0",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-doe-c2m2-2-1",
-        "api_id": "usa-federal-doe-c2m2-2-1",
-        "sheet_row": 101,
-        "header": "US\nC2M2\n2.1",
-        "matched_column": "US\nC2M2\n2.1",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-dow-cmmc-2-level-1",
-        "api_id": "usa-federal-dow-cmmc-2-level-1",
-        "sheet_row": 102,
-        "header": "US\nCMMC 2.0\nLevel 1",
-        "matched_column": "US\nCMMC 2.0\nLevel 1",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-dow-cmmc-2-level-1-aos",
-        "api_id": "usa-federal-dow-cmmc-2-level-1-aos",
-        "sheet_row": 103,
-        "header": "US\nCMMC 2.0\nLevel 1 AOs",
-        "matched_column": "US\nCMMC 2.0\nLevel 1 AOs",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-dow-cmmc-2-level-2",
-        "api_id": "usa-federal-dow-cmmc-2-level-2",
-        "sheet_row": 104,
-        "header": "US\nCMMC 2.0\nLevel 2",
-        "matched_column": "US\nCMMC 2.0\nLevel 2",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-dow-cmmc-2-level-3",
-        "api_id": "usa-federal-dow-cmmc-2-level-3",
-        "sheet_row": 105,
-        "header": "US\nCMMC 2.0\nLevel 3",
-        "matched_column": "US\nCMMC 2.0\nLevel 3",
+        "header": "USA\nFederal\nDHS CISA\nTIC 3.0",
+        "matched_column": "USA\nFederal\nDHS CISA\nTIC 3.0",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-federal-doc-data-privacy-framework-2023",
         "api_id": "usa-federal-doc-data-privacy-framework-2023",
+        "sheet_row": 99,
+        "header": "USA\nFederal\nData Privacy Framework\n2023",
+        "matched_column": "USA\nFederal\nData Privacy Framework\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-doe-c2m2-2-1",
+        "api_id": "usa-federal-doe-c2m2-2-1",
+        "sheet_row": 100,
+        "header": "USA\nFederal\nC2M2\n2.1",
+        "matched_column": "USA\nFederal\nC2M2\n2.1",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-dow-brilliant-basics-it",
+        "api_id": "usa-federal-dow-brilliant-basics-it",
+        "sheet_row": 101,
+        "header": "USA\nFederal\nDoW BaTB IT\n2026",
+        "matched_column": "USA\nFederal\nDoW BaTB IT\n2026",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-dow-brilliant-basics-ot",
+        "api_id": "usa-federal-dow-brilliant-basics-ot",
+        "sheet_row": 102,
+        "header": "USA\nFederal\nDoW BaTB OT\n2026",
+        "matched_column": "USA\nFederal\nDoW BaTB OT\n2026",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-dow-cert-rmm-1-2",
+        "api_id": "usa-federal-dow-cert-rmm-1-2",
+        "sheet_row": 103,
+        "header": "USA\nFederal\nCERT RMM\n1.2",
+        "matched_column": "USA\nFederal\nCERT RMM\n1.2",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-dow-cmmc-2-level-1",
+        "api_id": "usa-federal-dow-cmmc-2-level-1",
+        "sheet_row": 104,
+        "header": "USA\nFederal\nCMMC 2.0\nLevel 1",
+        "matched_column": "USA\nFederal\nCMMC 2.0\nLevel 1",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-dow-cmmc-2-level-1-aos",
+        "api_id": "usa-federal-dow-cmmc-2-level-1-aos",
+        "sheet_row": 105,
+        "header": "USA\nFederal\nCMMC 2.0\nLevel 1 AOs",
+        "matched_column": "USA\nFederal\nCMMC 2.0\nLevel 1 AOs",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-dow-cmmc-2-level-2",
+        "api_id": "usa-federal-dow-cmmc-2-level-2",
         "sheet_row": 106,
-        "header": "US\nData Privacy Framework (DPF)",
-        "matched_column": "US\nData Privacy Framework (DPF)",
+        "header": "USA\nFederal\nCMMC 2.0\nLevel 2",
+        "matched_column": "USA\nFederal\nCMMC 2.0\nLevel 2",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "usa-federal-dow-zt-roadmap-1-1",
-        "api_id": "usa-federal-dow-zt-roadmap-1-1",
+        "fdi": "usa-federal-dow-cmmc-2-level-3",
+        "api_id": "usa-federal-dow-cmmc-2-level-3",
         "sheet_row": 107,
-        "header": "US\nDoD\nZero Trust Execution Roadmap",
-        "matched_column": "US\nDoD\nZero Trust Execution Roadmap",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-dow-zta-reference-architecture-2-0",
-        "api_id": "usa-federal-dow-zta-reference-architecture-2-0",
-        "sheet_row": 108,
-        "header": "US\nDoD\nZero Trust Reference Architecture 2.0",
-        "matched_column": "US\nDoD\nZero Trust Reference Architecture 2.0",
+        "header": "USA\nFederal\nCMMC 2.0\nLevel 3",
+        "matched_column": "USA\nFederal\nCMMC 2.0\nLevel 3",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-federal-dow-dfars-252-204-7012",
         "api_id": "usa-federal-dow-dfars-252-204-7012",
-        "sheet_row": 109,
-        "header": "US\nDFARS\nCybersecurity\n252.204-7012",
-        "matched_column": "US\nDFARS\nCybersecurity\n252.204-7012",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-eo-14028",
-        "api_id": "usa-federal-eo-14028",
-        "sheet_row": 110,
-        "header": "US\nEO 14028",
-        "matched_column": "US\nEO 14028",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-law-facta-fcra-2023",
-        "api_id": "usa-federal-law-facta-fcra-2023",
-        "sheet_row": 111,
-        "header": "US\nFACTA & FCRA",
-        "matched_column": "US\nFACTA & FCRA",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-far-52-204-21",
-        "api_id": "usa-federal-far-52-204-21",
-        "sheet_row": 112,
-        "header": "US\nFAR\n52.204-21",
-        "matched_column": "US\nFAR\n52.204-21",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-far-52-204-25",
-        "api_id": "usa-federal-far-52-204-25",
-        "sheet_row": 113,
-        "header": "US\nFAR\n52.204-25\n(NDAA Section 889)",
-        "matched_column": "US\nFAR\n52.204-25\n(NDAA Section 889)",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-far-52-204-27",
-        "api_id": "usa-federal-far-52-204-27",
-        "sheet_row": 114,
-        "header": "US\nFAR\n52.204-27",
-        "matched_column": "US\nFAR\n52.204-27",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-sro-fca-crm-2023",
-        "api_id": "usa-federal-sro-fca-crm-2023",
-        "sheet_row": 115,
-        "header": "US\nFCA CRM",
-        "matched_column": "US\nFCA CRM",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-fda-21-cfr-part-11-2025",
-        "api_id": "usa-federal-fda-21-cfr-part-11-2025",
-        "sheet_row": 116,
-        "header": "US\nFDA\n21 CFR Part 11",
-        "matched_column": "US\nFDA\n21 CFR Part 11",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-gsa-fedramp-5-low",
-        "api_id": "usa-federal-gsa-fedramp-5-low",
-        "sheet_row": 117,
-        "header": "US\nFedRAMP R5\n(low)",
-        "matched_column": "US\nFedRAMP R5\n(low)",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-gsa-fedramp-5-mod",
-        "api_id": "usa-federal-gsa-fedramp-5-mod",
-        "sheet_row": 118,
-        "header": "US\nFedRAMP R5\n(moderate)",
-        "matched_column": "US\nFedRAMP R5\n(moderate)",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-gsa-fedramp-5-high",
-        "api_id": "usa-federal-gsa-fedramp-5-high",
-        "sheet_row": 119,
-        "header": "US\nFedRAMP R5\n(high)",
-        "matched_column": "US\nFedRAMP R5\n(high)",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-gsa-fedramp-5-li-saas",
-        "api_id": "usa-federal-gsa-fedramp-5-li-saas",
-        "sheet_row": 120,
-        "header": "US\nFedRAMP R5\n(LI-SaaS)",
-        "matched_column": "US\nFedRAMP R5\n(LI-SaaS)",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-law-33-cfr-part-101-subpart-f",
-        "api_id": "usa-federal-law-33-cfr-part-101-subpart-f",
-        "sheet_row": 121,
-        "header": "US\n33 CFR\nPart 101 Subpart F",
-        "matched_column": "US\n33 CFR\nPart 101 Subpart F",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-law-ferpa-2010",
-        "api_id": "usa-federal-law-ferpa-2010",
-        "sheet_row": 122,
-        "header": "US\nFERPA",
-        "matched_column": "US\nFERPA",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-sro-finra",
-        "api_id": "usa-federal-sro-finra",
-        "sheet_row": 123,
-        "header": "US\nFINRA",
-        "matched_column": "US\nFINRA",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-omb-fipps-1973",
-        "api_id": "usa-federal-omb-fipps-1973",
-        "sheet_row": 124,
-        "header": "US\nFIPPS",
-        "matched_column": "US\nFIPPS",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-law-ftc-act",
-        "api_id": "usa-federal-law-ftc-act",
-        "sheet_row": 125,
-        "header": "US\nFTC Act",
-        "matched_column": "US\nFTC Act",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-law-glba-cfr-314-2023",
-        "api_id": "usa-federal-law-glba-cfr-314-2023",
-        "sheet_row": 126,
-        "header": "US\nGLBA\nCFR 314\n2023",
-        "matched_column": "US\nGLBA\nCFR 314\n2023",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-hhs-45-cfr-155-260-2016",
-        "api_id": "usa-federal-hhs-45-cfr-155-260-2016",
-        "sheet_row": 127,
-        "header": "US\nHHS\n45 CFR 155.260",
-        "matched_column": "US\nHHS\n45 CFR 155.260",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-law-hipaa-simplification-2013",
-        "api_id": "usa-federal-law-hipaa-simplification-2013",
-        "sheet_row": 128,
-        "header": "US\nHIPAA Administrative Simplification\n2013",
-        "matched_column": "US\nHIPAA Administrative Simplification\n2013",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-law-hipaa-security-rule-2013",
-        "api_id": "usa-federal-law-hipaa-security-rule-2013",
-        "sheet_row": 129,
-        "header": "US\nHIPAA\nSecurity Rule / NIST SP 800-66 R2",
-        "matched_column": "US\nHIPAA\nSecurity Rule / NIST SP 800-66 R2",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-irs-1075-2021",
-        "api_id": "usa-federal-irs-1075-2021",
-        "sheet_row": 130,
-        "header": "US\nIRS 1075",
-        "matched_column": "US\nIRS 1075",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-cms-marse-2-0",
-        "api_id": "usa-federal-cms-marse-2-0",
-        "sheet_row": 131,
-        "header": "US\nCMS MARS-E\n2.0",
-        "matched_column": "US\nCMS MARS-E\n2.0",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-nerc-cip-2024",
-        "api_id": "usa-federal-nerc-cip-2024",
-        "sheet_row": 132,
-        "header": "US\nNERC CIP\n2024",
-        "matched_column": "US\nNERC CIP\n2024",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-federal-nispom-2020",
-        "api_id": "usa-federal-nispom-2020",
-        "sheet_row": 133,
-        "header": "US\nNISPOM\n2020",
-        "matched_column": "US\nNISPOM\n2020",
+        "sheet_row": 108,
+        "header": "USA\nFederal\nDFARS\n252.204-7012",
+        "matched_column": "USA\nFederal\nDFARS\n252.204-7012",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-federal-dow-safeguarding-nnpi-2010",
         "api_id": "usa-federal-dow-safeguarding-nnpi-2010",
-        "sheet_row": 134,
-        "header": "US\nNNPI (unclass)",
-        "matched_column": "US\nNNPI (unclass)",
+        "sheet_row": 109,
+        "header": "USA\nFederal\nNNPI (unclass)\n2010",
+        "matched_column": "USA\nFederal\nNNPI (unclass)\n2010",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "usa-federal-sec-cybersecurity-rule-2023",
-        "api_id": "usa-federal-sec-cybersecurity-rule-2023",
-        "sheet_row": 135,
-        "header": "US\nSEC\nCybersecurity Rule",
-        "matched_column": "US\nSEC\nCybersecurity Rule",
+        "fdi": "usa-federal-dow-zta-reference-architecture-2-0",
+        "api_id": "usa-federal-dow-zta-reference-architecture-2-0",
+        "sheet_row": 110,
+        "header": "USA\nFederal\nDoD Zero Trust Reference Architecture 2.0",
+        "matched_column": "USA\nFederal\nDoD Zero Trust Reference Architecture 2.0",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-dow-zt-roadmap-1-1",
+        "api_id": "usa-federal-dow-zt-roadmap-1-1",
+        "sheet_row": 111,
+        "header": "USA\nFederal\nDoD Zero Trust Execution Roadmap v1.1",
+        "matched_column": "USA\nFederal\nDoD Zero Trust Execution Roadmap v1.1",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-eo-14028",
+        "api_id": "usa-federal-eo-14028",
+        "sheet_row": 112,
+        "header": "USA\nFederal\nEO 14028",
+        "matched_column": "USA\nFederal\nEO 14028",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-far-52-204-21",
+        "api_id": "usa-federal-far-52-204-21",
+        "sheet_row": 113,
+        "header": "USA\nFederal\nFAR \n52.204-21",
+        "matched_column": "USA\nFederal\nFAR \n52.204-21",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-far-52-204-25",
+        "api_id": "usa-federal-far-52-204-25",
+        "sheet_row": 114,
+        "header": "USA\nFederal\nFAR\n52.204-25",
+        "matched_column": "USA\nFederal\nFAR\n52.204-25",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-far-52-204-27",
+        "api_id": "usa-federal-far-52-204-27",
+        "sheet_row": 115,
+        "header": "USA\nFederal\nFAR\n52.204-27",
+        "matched_column": "USA\nFederal\nFAR\n52.204-27",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-fbi-cjis-6-0",
+        "api_id": "usa-federal-fbi-cjis-6-0",
+        "sheet_row": 116,
+        "header": "USA\nFederal\nCJIS Security Policy\n6.0",
+        "matched_column": "USA\nFederal\nCJIS Security Policy\n6.0",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-fda-21-cfr-part-11-2025",
+        "api_id": "usa-federal-fda-21-cfr-part-11-2025",
+        "sheet_row": 117,
+        "header": "USA\nFederal\n21 CFR Part 11\n2025",
+        "matched_column": "USA\nFederal\n21 CFR Part 11\n2025",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-ffiec-iteh-2016",
+        "api_id": "usa-federal-ffiec-iteh-2016",
+        "sheet_row": 118,
+        "header": "USA\nFederal\nFFIEC ITEH\n2016",
+        "matched_column": "USA\nFederal\nFFIEC ITEH\n2016",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-gsa-fedramp-5-low",
+        "api_id": "usa-federal-gsa-fedramp-5-low",
+        "sheet_row": 119,
+        "header": "USA\nFederal\nFedRAMP R5\n(low)",
+        "matched_column": "USA\nFederal\nFedRAMP R5\n(low)",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-gsa-fedramp-5-mod",
+        "api_id": "usa-federal-gsa-fedramp-5-mod",
+        "sheet_row": 120,
+        "header": "USA\nFederal\nFedRAMP R5\n(moderate)",
+        "matched_column": "USA\nFederal\nFedRAMP R5\n(moderate)",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-gsa-fedramp-5-high",
+        "api_id": "usa-federal-gsa-fedramp-5-high",
+        "sheet_row": 121,
+        "header": "USA\nFederal\nFedRAMP R5\n(high)",
+        "matched_column": "USA\nFederal\nFedRAMP R5\n(high)",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-gsa-fedramp-5-li-saas",
+        "api_id": "usa-federal-gsa-fedramp-5-li-saas",
+        "sheet_row": 122,
+        "header": "USA\nFederal\nFedRAMP R5\n(LI-SaaS)",
+        "matched_column": "USA\nFederal\nFedRAMP R5\n(LI-SaaS)",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-hhs-45-cfr-155-260-2016",
+        "api_id": "usa-federal-hhs-45-cfr-155-260-2016",
+        "sheet_row": 123,
+        "header": "USA\nFederal\n45 CFR 155.260",
+        "matched_column": "USA\nFederal\n45 CFR 155.260",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-irs-1075-2021",
+        "api_id": "usa-federal-irs-1075-2021",
+        "sheet_row": 124,
+        "header": "USA\nFederal\nIRS 1075\n2021",
+        "matched_column": "USA\nFederal\nIRS 1075\n2021",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-law-33-cfr-part-101-subpart-f",
+        "api_id": "usa-federal-law-33-cfr-part-101-subpart-f",
+        "sheet_row": 125,
+        "header": "USA\nFederal\n33 CFR\nPart 101 Subpart F",
+        "matched_column": "USA\nFederal\n33 CFR\nPart 101 Subpart F",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-law-coppa-2024",
+        "api_id": "usa-federal-law-coppa-2024",
+        "sheet_row": 126,
+        "header": "USA\nFederal\nCOPPA\n2024",
+        "matched_column": "USA\nFederal\nCOPPA\n2024",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-law-facta-fcra-2023",
+        "api_id": "usa-federal-law-facta-fcra-2023",
+        "sheet_row": 127,
+        "header": "USA\nFederal\nFACTA & FCRA\n2023",
+        "matched_column": "USA\nFederal\nFACTA & FCRA\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-law-ferpa-2010",
+        "api_id": "usa-federal-law-ferpa-2010",
+        "sheet_row": 128,
+        "header": "USA\nFederal\nFERPA\n2010",
+        "matched_column": "USA\nFederal\nFERPA\n2010",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-law-ftc-act-1938",
+        "api_id": "usa-federal-law-ftc-act-1938",
+        "sheet_row": 129,
+        "header": "USA\nFederal\nFTC Act\n1938",
+        "matched_column": "USA\nFederal\nFTC Act\n1938",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-law-glba-cfr-314-2023",
+        "api_id": "usa-federal-law-glba-cfr-314-2023",
+        "sheet_row": 130,
+        "header": "USA\nFederal\nGLBA CFR 314\n2023",
+        "matched_column": "USA\nFederal\nGLBA CFR 314\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-law-hipaa-security-rule-2013",
+        "api_id": "usa-federal-law-hipaa-security-rule-2013",
+        "sheet_row": 131,
+        "header": "USA\nFederal\nHIPAA Security Rule\nNIST SP 800-66 R2",
+        "matched_column": "USA\nFederal\nHIPAA Security Rule\nNIST SP 800-66 R2",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-law-hipaa-simplification-2013",
+        "api_id": "usa-federal-law-hipaa-simplification-2013",
+        "sheet_row": 132,
+        "header": "USA\nFederal\nHIPAA Administrative Simplification 2013",
+        "matched_column": "USA\nFederal\nHIPAA Administrative Simplification 2013",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-federal-law-sox-2002",
         "api_id": "usa-federal-law-sox-2002",
+        "sheet_row": 133,
+        "header": "USA\nFederal\nSOX\n2002",
+        "matched_column": "USA\nFederal\nSOX\n2002",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-nerc-cip-2024",
+        "api_id": "usa-federal-nerc-cip-2024",
+        "sheet_row": 134,
+        "header": "USA\nFederal\nNERC CIP\n2024",
+        "matched_column": "USA\nFederal\nNERC CIP\n2024",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-nispom-2020",
+        "api_id": "usa-federal-nispom-2020",
+        "sheet_row": 135,
+        "header": "USA\nFederal\nNISPOM\n2020",
+        "matched_column": "USA\nFederal\nNISPOM\n2020",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-nrc-10-cfr-73-54-2015",
+        "api_id": "usa-federal-nrc-10-cfr-73-54-2015",
         "sheet_row": 136,
-        "header": "US\nSOX",
-        "matched_column": "US\nSOX",
+        "header": "USA\nFederal\nNRC 10 CFR 73.54\n2015",
+        "matched_column": "USA\nFederal\nNRC 10 CFR 73.54\n2015",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-nsf-rig-2025-information-assurance",
+        "api_id": "usa-federal-nsf-rig-2025-information-assurance",
+        "sheet_row": 137,
+        "header": "USA\nFederal\nNSF\nRIG 2025",
+        "matched_column": "USA\nFederal\nNSF\nRIG 2025",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-omb-fipps-1973",
+        "api_id": "usa-federal-omb-fipps-1973",
+        "sheet_row": 138,
+        "header": "USA\nFederal\nFIPPS\n1973",
+        "matched_column": "USA\nFederal\nFIPPS\n1973",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-sec-cybersecurity-rule-2023",
+        "api_id": "usa-federal-sec-cybersecurity-rule-2023",
+        "sheet_row": 139,
+        "header": "USA\nFederal\nSEC Cybersecurity Rule\n2023",
+        "matched_column": "USA\nFederal\nSEC Cybersecurity Rule\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-sro-fca-crm-2023",
+        "api_id": "usa-federal-sro-fca-crm-2023",
+        "sheet_row": 140,
+        "header": "USA\nFederal\nFCA CRM\n2023",
+        "matched_column": "USA\nFederal\nFCA CRM\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-sro-finra-2007",
+        "api_id": "usa-federal-sro-finra-2007",
+        "sheet_row": 141,
+        "header": "USA\nFederal\nFINRA\n2007",
+        "matched_column": "USA\nFederal\nFINRA\n2007",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-federal-tsa-sd-pipeline-2021-02f",
+        "api_id": "usa-federal-tsa-sd-pipeline-2021-02f",
+        "sheet_row": 142,
+        "header": "USA\nFederal\nTSA\nSDP 2021-02F",
+        "matched_column": "USA\nFederal\nTSA\nSDP 2021-02F",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-federal-tsa-security-directive-1580-82-2022-01",
         "api_id": "usa-federal-tsa-security-directive-1580-82-2022-01",
-        "sheet_row": 137,
-        "header": "US\nTSA / DHS\n1580/82-2022-01",
-        "matched_column": "US\nTSA / DHS\n1580/82-2022-01",
+        "sheet_row": 143,
+        "header": "USA\nFederal\nTSA / DHS\n1580/82-2022-01",
+        "matched_column": "USA\nFederal\nTSA / DHS\n1580/82-2022-01",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-ak-pipa-2009",
         "api_id": "usa-state-ak-pipa-2009",
-        "sheet_row": 138,
-        "header": "US - AK\nPIPA",
-        "matched_column": "US - AK\nPIPA",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-state-ca-sb327-2018",
-        "api_id": "usa-state-ca-sb327-2018",
-        "sheet_row": 139,
-        "header": "US - CA\nSB327",
-        "matched_column": "US - CA\nSB327",
+        "sheet_row": 144,
+        "header": "USA\nAlaska\nPIPA\n2029",
+        "matched_column": "USA\nAlaska\nPIPA\n2029",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-ca-ccpa-cpra-2026",
         "api_id": "usa-state-ca-ccpa-cpra-2026",
-        "sheet_row": 140,
-        "header": "US - CA\nCCPA\n2025",
-        "matched_column": "US - CA\nCCPA\n2025",
+        "sheet_row": 145,
+        "header": "USA\nCalifornia\nCCPA\n2025",
+        "matched_column": "USA\nCalifornia\nCCPA\n2025",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-ca-sb1386-2002",
         "api_id": "usa-state-ca-sb1386-2002",
-        "sheet_row": 141,
-        "header": "US - CA\nSB1386",
-        "matched_column": "US - CA\nSB1386",
+        "sheet_row": 146,
+        "header": "USA\nCalifornia\nSB1386\n2002",
+        "matched_column": "USA\nCalifornia\nSB1386\n2002",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-state-ca-sb327-2018",
+        "api_id": "usa-state-ca-sb327-2018",
+        "sheet_row": 147,
+        "header": "USA\nCalifornia\nSB327\n2018",
+        "matched_column": "USA\nCalifornia\nSB327\n2018",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-co-privacy-act-2021",
         "api_id": "usa-state-co-privacy-act-2021",
-        "sheet_row": 142,
-        "header": "US - CO\nColorado Privacy Act",
-        "matched_column": "US - CO\nColorado Privacy Act",
+        "sheet_row": 148,
+        "header": "USA\nColorado\nColorado Privacy Act\n2021",
+        "matched_column": "USA\nColorado\nColorado Privacy Act\n2021",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-il-bipa-2008",
         "api_id": "usa-state-il-bipa-2008",
-        "sheet_row": 143,
-        "header": "US - IL\nBIPA",
-        "matched_column": "US - IL\nBIPA",
+        "sheet_row": 149,
+        "header": "USA\nIllinois\nBIPA\n2008",
+        "matched_column": "USA\nIllinois\nBIPA\n2008",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-il-ipa-2009",
         "api_id": "usa-state-il-ipa-2009",
-        "sheet_row": 144,
-        "header": "US - IL\nIPA",
-        "matched_column": "US - IL\nIPA",
+        "sheet_row": 150,
+        "header": "USA\nIllinois\nIPA\n2009",
+        "matched_column": "USA\nIllinois\nIPA\n2009",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-il-pipa-2006",
         "api_id": "usa-state-il-pipa-2006",
-        "sheet_row": 145,
-        "header": "US - IL\nPIPA",
-        "matched_column": "US - IL\nPIPA",
+        "sheet_row": 151,
+        "header": "USA\nIllinois\nPIPA\n2006",
+        "matched_column": "USA\nIllinois\nPIPA\n2006",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-ma-201-cmr-17-2008",
         "api_id": "usa-state-ma-201-cmr-17-2008",
-        "sheet_row": 146,
-        "header": "US - MA\n201 CMR 17.00",
-        "matched_column": "US - MA\n201 CMR 17.00",
+        "sheet_row": 152,
+        "header": "USA\nMassachusetts\n201 CMR 17.00\n2008",
+        "matched_column": "USA\nMassachusetts\n201 CMR 17.00\n2008",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-state-mt-cdpa-2025",
+        "api_id": "usa-state-mt-cdpa-2025",
+        "sheet_row": 153,
+        "header": "USA\nMontana\nCDPA\n2025",
+        "matched_column": "USA\nMontana\nCDPA\n2025",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-nv-privacy-law-2023",
         "api_id": "usa-state-nv-privacy-law-2023",
-        "sheet_row": 147,
-        "header": "US - NV\nPrivacy Law\n2023",
-        "matched_column": "US - NV\nPrivacy Law\n2023",
+        "sheet_row": 154,
+        "header": "USA\nNevada\nPrivacy Law\n2023",
+        "matched_column": "USA\nNevada\nPrivacy Law\n2023",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-nv-regulation-5-2024",
         "api_id": "usa-state-nv-regulation-5-2024",
-        "sheet_row": 148,
-        "header": "US - NV\nNOGE Reg 5",
-        "matched_column": "US - NV\nNOGE Reg 5",
+        "sheet_row": 155,
+        "header": "USA\nNevada\nNOGE Reg 5\n2024",
+        "matched_column": "USA\nNevada\nNOGE Reg 5\n2024",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-nv-sb220-2019",
         "api_id": "usa-state-nv-sb220-2019",
-        "sheet_row": 149,
-        "header": "US - NV\nSB220",
-        "matched_column": "US - NV\nSB220",
+        "sheet_row": 156,
+        "header": "USA\nNevada\nSB220\n2019",
+        "matched_column": "USA\nNevada\nSB220\n2019",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-ny-dfs-23-nycrr500-2023-amd2",
         "api_id": "usa-state-ny-dfs-23-nycrr500-2023-amd2",
-        "sheet_row": 150,
-        "header": "US - NY\nDFS\n23 NYCRR500\n2023 Amd 2",
-        "matched_column": "US - NY\nDFS\n23 NYCRR500\n2023 Amd 2",
+        "sheet_row": 157,
+        "header": "USA\nNew York\nDFS 23 NYCRR500\n2023 Amd 2",
+        "matched_column": "USA\nNew York\nDFS 23 NYCRR500\n2023 Amd 2",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-ny-shield-act-2019",
         "api_id": "usa-state-ny-shield-act-2019",
-        "sheet_row": 151,
-        "header": "US - NY\nSHIELD Act\nS5575B",
-        "matched_column": "US - NY\nSHIELD Act\nS5575B",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-state-or-ors-646a-2025",
-        "api_id": "usa-state-or-ors-646a-2025",
-        "sheet_row": 152,
-        "header": "US - OR\n646A",
-        "matched_column": "US - OR\n646A",
+        "sheet_row": 158,
+        "header": "USA\nNew York\nSHIELD Act\n2019",
+        "matched_column": "USA\nNew York\nSHIELD Act\n2019",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-or-cpa-2023",
         "api_id": "usa-state-or-cpa-2023",
-        "sheet_row": 153,
-        "header": "US - OR\nCPA",
-        "matched_column": "US - OR\nCPA",
+        "sheet_row": 159,
+        "header": "USA\nOregon\nCPA\n2023",
+        "matched_column": "USA\nOregon\nCPA\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-state-or-ors-646a-2025",
+        "api_id": "usa-state-or-ors-646a-2025",
+        "sheet_row": 160,
+        "header": "USA\nOregon\n646A\n2025",
+        "matched_column": "USA\nOregon\n646A\n2025",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-tn-tipa-2025",
         "api_id": "usa-state-tn-tipa-2025",
-        "sheet_row": 154,
-        "header": "US - TN\nTIPA",
-        "matched_column": "US - TN\nTIPA",
+        "sheet_row": 161,
+        "header": "USA\nTennessee\nTIPA\n2025",
+        "matched_column": "USA\nTennessee\nTIPA\n2025",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-tx-bc521-2009",
         "api_id": "usa-state-tx-bc521-2009",
-        "sheet_row": 155,
-        "header": "US - TX\nBC521",
-        "matched_column": "US - TX\nBC521",
+        "sheet_row": 162,
+        "header": "USA\nTexas\nBC521\n2009",
+        "matched_column": "USA\nTexas\nBC521\n2009",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-tx-cdpa-2025",
         "api_id": "usa-state-tx-cdpa-2025",
-        "sheet_row": 156,
-        "header": "US - TX\nCDPA",
-        "matched_column": "US - TX\nCDPA",
+        "sheet_row": 163,
+        "header": "USA\nTexas\nCDPA\n2025",
+        "matched_column": "USA\nTexas\nCDPA\n2025",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-tx-dir-security-control-standards-catalog-2-2",
         "api_id": "usa-state-tx-dir-security-control-standards-catalog-2-2",
-        "sheet_row": 157,
-        "header": "US - TX\nDIR Control Standards\n2.2",
-        "matched_column": "US - TX\nDIR Control Standards\n2.2",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "usa-state-tx-sb820-2019",
-        "api_id": "usa-state-tx-sb820-2019",
-        "sheet_row": 158,
-        "header": "US - TX\nSB 820",
-        "matched_column": "US - TX\nSB 820",
+        "sheet_row": 164,
+        "header": "USA\nTexas\nDIR SCSC 2.2\n2025",
+        "matched_column": "USA\nTexas\nDIR SCSC 2.2\n2025",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-tx-sb2610-2025",
         "api_id": "usa-state-tx-sb2610-2025",
-        "sheet_row": 159,
-        "header": "US - TX\nSB 2610",
-        "matched_column": "US - TX\nSB 2610",
+        "sheet_row": 165,
+        "header": "USA\nTexas\nSB 2610\n2025",
+        "matched_column": "USA\nTexas\nSB 2610\n2025",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-state-tx-sb820-2019",
+        "api_id": "usa-state-tx-sb820-2019",
+        "sheet_row": 166,
+        "header": "USA\nTexas\nSB 820\n2019",
+        "matched_column": "USA\nTexas\nSB 820\n2019",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "usa-state-tx-traiga-2025",
+        "api_id": "usa-state-tx-traiga-2025",
+        "sheet_row": 167,
+        "header": "USA\nTexas\nTRAIGA\n2025",
+        "matched_column": "USA\nTexas\nTRAIGA\n2025",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-tx-txramp-2-0-level-1",
         "api_id": "usa-state-tx-txramp-2-0-level-1",
-        "sheet_row": 160,
-        "header": "US - TX\nTX-RAMP\nLevel 1",
-        "matched_column": "US - TX\nTX-RAMP\nLevel 1",
+        "sheet_row": 168,
+        "header": "USA\nTexas\nTX-RAMP\nLevel 1",
+        "matched_column": "USA\nTexas\nTX-RAMP\nLevel 1",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-tx-txramp-2-0-level-2",
         "api_id": "usa-state-tx-txramp-2-0-level-2",
-        "sheet_row": 161,
-        "header": "US - TX\nTX-RAMP\nLevel 2",
-        "matched_column": "US - TX\nTX-RAMP\nLevel 2",
+        "sheet_row": 169,
+        "header": "USA\nTexas\nTX-RAMP\nLevel 2",
+        "matched_column": "USA\nTexas\nTX-RAMP\nLevel 2",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-va-cdpa-2023",
         "api_id": "usa-state-va-cdpa-2023",
-        "sheet_row": 162,
-        "header": "US - VA\nCDPA\n2023",
-        "matched_column": "US - VA\nCDPA\n2023",
+        "sheet_row": 170,
+        "header": "USA\nVirginia\nCDPA\n2023",
+        "matched_column": "USA\nVirginia\nCDPA\n2023",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "usa-state-vt-act-171-2018",
         "api_id": "usa-state-vt-act-171-2018",
-        "sheet_row": 163,
-        "header": "US - VT\nAct 171 of 2018",
-        "matched_column": "US - VT\nAct 171 of 2018",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-ai-act-2024",
-        "api_id": "emea-eu-ai-act-2024",
-        "sheet_row": 164,
-        "header": "EMEA\nEU\nAI Act",
-        "matched_column": "EMEA\nEU\nAI Act",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-cyber-resilience-act-2024",
-        "api_id": "emea-eu-cyber-resilience-act-2024",
-        "sheet_row": 165,
-        "header": "EMEA\nEU\nCyber Resiliency Act\n2024",
-        "matched_column": "EMEA\nEU\nCyber Resiliency Act\n2024",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-cyber-resilience-act-annex-i-2024",
-        "api_id": "emea-eu-cyber-resilience-act-annex-i-2024",
-        "sheet_row": 166,
-        "header": "EMEA\nEU\nCyber Resiliency Act Annex I\n2024",
-        "matched_column": "EMEA\nEU\nCyber Resiliency Act Annex I\n2024",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-eba-ict-srm-2025",
-        "api_id": "emea-eu-eba-ict-srm-2025",
-        "sheet_row": 167,
-        "header": "EMEA\nEU\nEBA\nGL/2019/04",
-        "matched_column": "EMEA\nEU\nEBA\nGL/2019/04",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-dora-2023",
-        "api_id": "emea-eu-dora-2023",
-        "sheet_row": 168,
-        "header": "EMEA\nEU\nDORA\n2023",
-        "matched_column": "EMEA\nEU\nDORA\n2023",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-gdpr-2016",
-        "api_id": "emea-eu-gdpr-2016",
-        "sheet_row": 169,
-        "header": "EMEA\nEU\nGDPR\n2016",
-        "matched_column": "EMEA\nEU\nGDPR\n2016",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-nis2-2022",
-        "api_id": "emea-eu-nis2-2022",
-        "sheet_row": 170,
-        "header": "EMEA\nEU\nNIS2\n2022",
-        "matched_column": "EMEA\nEU\nNIS2\n2022",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-nis2-annex-2024",
-        "api_id": "emea-eu-nis2-annex-2024",
         "sheet_row": 171,
-        "header": "EMEA\nEU\nNIS2 Annex\n2024",
-        "matched_column": "EMEA\nEU\nNIS2 Annex\n2024",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-eu-psd2-2015",
-        "api_id": "emea-eu-psd2-2015",
-        "sheet_row": 172,
-        "header": "EMEA\nEU\nPSD2\n2015",
-        "matched_column": "EMEA\nEU\nPSD2\n2015",
+        "header": "USA\nVermont\nAct 171\n2018",
+        "matched_column": "USA\nVermont\nAct 171\n2018",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "emea-aut-dpa-2018",
         "api_id": "emea-aut-dpa-2018",
-        "sheet_row": 173,
+        "sheet_row": 172,
         "header": "EMEA\nAustria\nFAPPD\n2000",
         "matched_column": "EMEA\nAustria\nFAPPD\n2000",
         "method": "exact",
@@ -1610,18 +1589,27 @@
       {
         "fdi": "emea-bel-act-30-2018",
         "api_id": "emea-bel-act-30-2018",
-        "sheet_row": 174,
+        "sheet_row": 173,
         "header": "EMEA\nBelgium\nAct 8\n1992",
         "matched_column": "EMEA\nBelgium\nAct 8\n1992",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "emea-deu-fdpa-2017",
-        "api_id": "emea-deu-fdpa-2017",
+        "fdi": "emea-che-fadp-2025",
+        "api_id": "emea-che-fadp-2025",
+        "sheet_row": 174,
+        "header": "EMEA\nSwitzerland\nFADP\n2025",
+        "matched_column": "EMEA\nSwitzerland\nFADP\n2025",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-che-finma-circ-23-1",
+        "api_id": "emea-che-finma-circ-23-1",
         "sheet_row": 175,
-        "header": "EMEA\nGermany\nFDPA\n2017",
-        "matched_column": "EMEA\nGermany\nFDPA\n2017",
+        "header": "EMEA\nCHE\nFINMA\nCircular 2023/1",
+        "matched_column": "EMEA\nCHE\nFINMA\nCircular 2023/1",
         "method": "exact",
         "score": 100
       },
@@ -1635,252 +1623,135 @@
         "score": 100
       },
       {
-        "fdi": "emea-deu-c5-2020",
-        "api_id": "emea-deu-c5-2020",
+        "fdi": "emea-deu-c5-2026",
+        "api_id": "emea-deu-c5-2026",
         "sheet_row": 177,
-        "header": "EMEA\nGermany\nC5\n2020",
-        "matched_column": "EMEA\nGermany\nC5\n2020",
+        "header": "EMEA\nGermany\nC5\n2026",
+        "matched_column": "EMEA\nGermany\nC5\n2026",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "emea-grc-pirppd-1997",
-        "api_id": "emea-grc-pirppd-1997",
+        "fdi": "emea-deu-fdpa-2017",
+        "api_id": "emea-deu-fdpa-2017",
         "sheet_row": 178,
-        "header": "EMEA\nGreece\nPIRPPD\n1997",
-        "matched_column": "EMEA\nGreece\nPIRPPD\n1997",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-hun-act-cxii-2011",
-        "api_id": "emea-hun-act-cxii-2011",
-        "sheet_row": 179,
-        "header": "EMEA\nHungary\nAct CXII\n2011",
-        "matched_column": "EMEA\nHungary\nAct CXII\n2011",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-irl-dpa-2018",
-        "api_id": "emea-irl-dpa-2018",
-        "sheet_row": 180,
-        "header": "EMEA\nIreland\nDPA\n2018",
-        "matched_column": "EMEA\nIreland\nDPA\n2018",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-isr-cmo-2-0",
-        "api_id": "emea-isr-cmo-2-0",
-        "sheet_row": 181,
-        "header": "EMEA\nIsrael\nCDMO\n2.0",
-        "matched_column": "EMEA\nIsrael\nCDMO\n2.0",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-isr-ppl-5741-2025",
-        "api_id": "emea-isr-ppl-5741-2025",
-        "sheet_row": 182,
-        "header": "EMEA\nIsrael\nPPL\n2025",
-        "matched_column": "EMEA\nIsrael\nPPL\n2025",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-ita-pdpc-2018",
-        "api_id": "emea-ita-pdpc-2018",
-        "sheet_row": 183,
-        "header": "EMEA\nItaly\nPDPC\n2018",
-        "matched_column": "EMEA\nItaly\nPDPC\n2018",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-ken-pda-2019",
-        "api_id": "emea-ken-pda-2019",
-        "sheet_row": 184,
-        "header": "EMEA\nKenya\nDPA\n2019",
-        "matched_column": "EMEA\nKenya\nDPA\n2019",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-nga-dpr-2019",
-        "api_id": "emea-nga-dpr-2019",
-        "sheet_row": 185,
-        "header": "EMEA\nNigeria\nDPR\n2019",
-        "matched_column": "EMEA\nNigeria\nDPR\n2019",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-nor-pda-2018",
-        "api_id": "emea-nor-pda-2018",
-        "sheet_row": 186,
-        "header": "EMEA\nNorway\nDPA\n2018",
-        "matched_column": "EMEA\nNorway\nDPA\n2018",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-pol-act-10-2018",
-        "api_id": "emea-pol-act-10-2018",
-        "sheet_row": 187,
-        "header": "EMEA\nPoland\nAct 10\n2018",
-        "matched_column": "EMEA\nPoland\nAct 10\n2018",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-qat-pdppl-2020",
-        "api_id": "emea-qat-pdppl-2020",
-        "sheet_row": 188,
-        "header": "EMEA\nQatar\nPDPPL\n2020",
-        "matched_column": "EMEA\nQatar\nPDPPL\n2020",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-rus-152-fz-2025",
-        "api_id": "emea-rus-152-fz-2025",
-        "sheet_row": 189,
-        "header": "EMEA\nRussia\n152-FZ\n2025",
-        "matched_column": "EMEA\nRussia\n152-FZ\n2025",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-sau-cscc-1-2019",
-        "api_id": "emea-sau-cscc-1-2019",
-        "sheet_row": 190,
-        "header": "EMEA\nSaudi Arabia\nCSCC-1\n2019",
-        "matched_column": "EMEA\nSaudi Arabia\nCSCC-1\n2019",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-sau-cgiot-2024",
-        "api_id": "emea-sau-cgiot-2024",
-        "sheet_row": 191,
-        "header": "EMEA\nSaudi Arabia\nIoT CGIoT-1\n2024",
-        "matched_column": "EMEA\nSaudi Arabia\nIoT CGIoT-1\n2024",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-sau-ecc-1-2018",
-        "api_id": "emea-sau-ecc-1-2018",
-        "sheet_row": 192,
-        "header": "EMEA\nSaudi Arabia\nECC-1\n2018",
-        "matched_column": "EMEA\nSaudi Arabia\nECC-1\n2018",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-sau-otcc-1-2022",
-        "api_id": "emea-sau-otcc-1-2022",
-        "sheet_row": 193,
-        "header": "EMEA\nSaudi Arabia\nOTCC-1\n2022",
-        "matched_column": "EMEA\nSaudi Arabia\nOTCC-1\n2022",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-sau-pdpl-2023",
-        "api_id": "emea-sau-pdpl-2023",
-        "sheet_row": 194,
-        "header": "EMEA\nSaudi Arabia\nPDPL",
-        "matched_column": "EMEA\nSaudi Arabia\nPDPL",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-sau-sacs-002-2022",
-        "api_id": "emea-sau-sacs-002-2022",
-        "sheet_row": 195,
-        "header": "EMEA\nSaudi Arabia\nSACS-002\n2022",
-        "matched_column": "EMEA\nSaudi Arabia\nSACS-002\n2022",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-sau-sama-csf-1-2017",
-        "api_id": "emea-sau-sama-csf-1-2017",
-        "sheet_row": 196,
-        "header": "EMEA\nSaudi Arabia\nSAMA CSF 1.0\n2017",
-        "matched_column": "EMEA\nSaudi Arabia\nSAMA CSF 1.0\n2017",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-srb-act-9-2018",
-        "api_id": "emea-srb-act-9-2018",
-        "sheet_row": 197,
-        "header": "EMEA\nSerbia\n87/2018",
-        "matched_column": "EMEA\nSerbia\n87/2018",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-zaf-popia-2013",
-        "api_id": "emea-zaf-popia-2013",
-        "sheet_row": 198,
-        "header": "EMEA\nSouth Africa\nPOPIA\n2013",
-        "matched_column": "EMEA\nSouth Africa\nPOPIA\n2013",
-        "method": "exact",
-        "score": 100
-      },
-      {
-        "fdi": "emea-esp-decree-311-2022",
-        "api_id": "emea-esp-decree-311-2022",
-        "sheet_row": 199,
-        "header": "EMEA\nSpain\nRoyal Decree 311\n2022",
-        "matched_column": "EMEA\nSpain\nRoyal Decree 311\n2022",
+        "header": "EMEA\nGermany\nFDPA\n2017",
+        "matched_column": "EMEA\nGermany\nFDPA\n2017",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "emea-esp-ccn-stic-825-2026",
         "api_id": "emea-esp-ccn-stic-825-2026",
-        "sheet_row": 200,
+        "sheet_row": 179,
         "header": "EMEA\nSpain\nCCN-STIC 825",
         "matched_column": "EMEA\nSpain\nCCN-STIC 825",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "emea-che-fadp-2025",
-        "api_id": "emea-che-fadp-2025",
-        "sheet_row": 201,
-        "header": "EMEA\nSwitzerland\nFADP\n2025",
-        "matched_column": "EMEA\nSwitzerland\nFADP\n2025",
+        "fdi": "emea-esp-decree-311-2022",
+        "api_id": "emea-esp-decree-311-2022",
+        "sheet_row": 180,
+        "header": "EMEA\nSpain\nRoyal Decree 311\n2022",
+        "matched_column": "EMEA\nSpain\nRoyal Decree 311\n2022",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "emea-tur-lppd-2016",
-        "api_id": "emea-tur-lppd-2016",
-        "sheet_row": 202,
-        "header": "EMEA\nTurkey\nLDDP\n2016",
-        "matched_column": "EMEA\nTurkey\nLDDP\n2016",
+        "fdi": "emea-eu-ai-act-2024",
+        "api_id": "emea-eu-ai-act-2024",
+        "sheet_row": 181,
+        "header": "EMEA\nEU\nAI Act",
+        "matched_column": "EMEA\nEU\nAI Act",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "emea-uae-niaf-2023",
-        "api_id": "emea-uae-niaf-2023",
-        "sheet_row": 203,
-        "header": "EMEA\nUAE\nNIAF\n2023",
-        "matched_column": "EMEA\nUAE\nNIAF\n2023",
+        "fdi": "emea-eu-cyber-resilience-act-2024",
+        "api_id": "emea-eu-cyber-resilience-act-2024",
+        "sheet_row": 182,
+        "header": "EMEA\nEU\nCyber Resiliency Act\n2024",
+        "matched_column": "EMEA\nEU\nCyber Resiliency Act\n2024",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-eu-cyber-resilience-act-annex-i-2024",
+        "api_id": "emea-eu-cyber-resilience-act-annex-i-2024",
+        "sheet_row": 183,
+        "header": "EMEA\nEU\nCyber Resiliency Act Annex I\n2024",
+        "matched_column": "EMEA\nEU\nCyber Resiliency Act Annex I\n2024",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-eu-dora-2023",
+        "api_id": "emea-eu-dora-2023",
+        "sheet_row": 184,
+        "header": "EMEA\nEU\nDORA\n2023",
+        "matched_column": "EMEA\nEU\nDORA\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-eu-dora-rts-2024",
+        "api_id": "emea-eu-dora-rts-2024",
+        "sheet_row": 185,
+        "header": "EMEA\nEU\nDORA RTS\n2024",
+        "matched_column": "EMEA\nEU\nDORA RTS\n2024",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-eu-eba-ict-srm-2025",
+        "api_id": "emea-eu-eba-ict-srm-2025",
+        "sheet_row": 186,
+        "header": "EMEA\nEU\nEBA\nGL/2019/04",
+        "matched_column": "EMEA\nEU\nEBA\nGL/2019/04",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-eu-gdpr-2016",
+        "api_id": "emea-eu-gdpr-2016",
+        "sheet_row": 187,
+        "header": "EMEA\nEU\nGDPR\n2016",
+        "matched_column": "EMEA\nEU\nGDPR\n2016",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-eu-nis2-2022",
+        "api_id": "emea-eu-nis2-2022",
+        "sheet_row": 188,
+        "header": "EMEA\nEU\nNIS2\n2022",
+        "matched_column": "EMEA\nEU\nNIS2\n2022",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-eu-nis2-annex-2024",
+        "api_id": "emea-eu-nis2-annex-2024",
+        "sheet_row": 189,
+        "header": "EMEA\nEU\nNIS2 Annex\n2024",
+        "matched_column": "EMEA\nEU\nNIS2 Annex\n2024",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-eu-psd2-2015",
+        "api_id": "emea-eu-psd2-2015",
+        "sheet_row": 190,
+        "header": "EMEA\nEU\nPSD2\n2015",
+        "matched_column": "EMEA\nEU\nPSD2\n2015",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "emea-gbr-caf-4-0",
         "api_id": "emea-gbr-caf-4-0",
-        "sheet_row": 204,
+        "sheet_row": 191,
         "header": "EMEA\nUK\nCAF 4.0",
         "matched_column": "EMEA\nUK\nCAF 4.0",
         "method": "exact",
@@ -1889,7 +1760,7 @@
       {
         "fdi": "emea-gbr-cap-1850-2020",
         "api_id": "emea-gbr-cap-1850-2020",
-        "sheet_row": 205,
+        "sheet_row": 192,
         "header": "EMEA\nUK\nCAP 1850\n2020",
         "matched_column": "EMEA\nUK\nCAP 1850\n2020",
         "method": "exact",
@@ -1898,7 +1769,7 @@
       {
         "fdi": "emea-gbr-cyber-essentials-requirements-3-3",
         "api_id": "emea-gbr-cyber-essentials-requirements-3-3",
-        "sheet_row": 206,
+        "sheet_row": 193,
         "header": "EMEA\nUK\nCyber Essentials 3.3",
         "matched_column": "EMEA\nUK\nCyber Essentials 3.3",
         "method": "exact",
@@ -1907,7 +1778,7 @@
       {
         "fdi": "emea-gbr-def-stan-05-138-2024",
         "api_id": "emea-gbr-def-stan-05-138-2024",
-        "sheet_row": 207,
+        "sheet_row": 194,
         "header": "EMEA\nUK\nDEFSTAN 05-138\n2024",
         "matched_column": "EMEA\nUK\nDEFSTAN 05-138\n2024",
         "method": "exact",
@@ -1916,7 +1787,7 @@
       {
         "fdi": "emea-gbr-def-stan-05-138-l0-2024",
         "api_id": "emea-gbr-def-stan-05-138-l0-2024",
-        "sheet_row": 208,
+        "sheet_row": 195,
         "header": "EMEA\nUK\nDEFSTAN 05-138 - L0\n2024",
         "matched_column": "EMEA\nUK\nDEFSTAN 05-138 - L0\n2024",
         "method": "exact",
@@ -1925,7 +1796,7 @@
       {
         "fdi": "emea-gbr-def-stan-05-138-l1-2024",
         "api_id": "emea-gbr-def-stan-05-138-l1-2024",
-        "sheet_row": 209,
+        "sheet_row": 196,
         "header": "EMEA\nUK\nDEFSTAN 05-138 - L1\n2024",
         "matched_column": "EMEA\nUK\nDEFSTAN 05-138 - L1\n2024",
         "method": "exact",
@@ -1934,7 +1805,7 @@
       {
         "fdi": "emea-gbr-def-stan-05-138-l2-2024",
         "api_id": "emea-gbr-def-stan-05-138-l2-2024",
-        "sheet_row": 210,
+        "sheet_row": 197,
         "header": "EMEA\nUK\nDEFSTAN 05-138 - L2\n2024",
         "matched_column": "EMEA\nUK\nDEFSTAN 05-138 - L2\n2024",
         "method": "exact",
@@ -1943,7 +1814,7 @@
       {
         "fdi": "emea-gbr-def-stan-05-138-l3-2024",
         "api_id": "emea-gbr-def-stan-05-138-l3-2024",
-        "sheet_row": 211,
+        "sheet_row": 198,
         "header": "EMEA\nUK\nDEFSTAN 05-138 - L3\n2024",
         "matched_column": "EMEA\nUK\nDEFSTAN 05-138 - L3\n2024",
         "method": "exact",
@@ -1952,52 +1823,286 @@
       {
         "fdi": "emea-gbr-dpa-2018",
         "api_id": "emea-gbr-dpa-2018",
-        "sheet_row": 212,
+        "sheet_row": 199,
         "header": "EMEA\nUK\nDPA\n2018",
         "matched_column": "EMEA\nUK\nDPA\n2018",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "apac-aus-essential-8-2024",
-        "api_id": "apac-aus-essential-8-2024",
+        "fdi": "emea-grc-pirppd-1997",
+        "api_id": "emea-grc-pirppd-1997",
+        "sheet_row": 200,
+        "header": "EMEA\nGreece\nPIRPPD\n1997",
+        "matched_column": "EMEA\nGreece\nPIRPPD\n1997",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-hun-act-cxii-2011",
+        "api_id": "emea-hun-act-cxii-2011",
+        "sheet_row": 201,
+        "header": "EMEA\nHungary\nAct CXII\n2011",
+        "matched_column": "EMEA\nHungary\nAct CXII\n2011",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-irl-dpa-2018",
+        "api_id": "emea-irl-dpa-2018",
+        "sheet_row": 202,
+        "header": "EMEA\nIreland\nDPA\n2018",
+        "matched_column": "EMEA\nIreland\nDPA\n2018",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-isr-cmo-2-0",
+        "api_id": "emea-isr-cmo-2-0",
+        "sheet_row": 203,
+        "header": "EMEA\nIsrael\nCDMO\n2.0",
+        "matched_column": "EMEA\nIsrael\nCDMO\n2.0",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-isr-ppl-5741-2025",
+        "api_id": "emea-isr-ppl-5741-2025",
+        "sheet_row": 204,
+        "header": "EMEA\nIsrael\nPPL\n2025",
+        "matched_column": "EMEA\nIsrael\nPPL\n2025",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-ita-pdpc-2018",
+        "api_id": "emea-ita-pdpc-2018",
+        "sheet_row": 205,
+        "header": "EMEA\nItaly\nPDPC\n2018",
+        "matched_column": "EMEA\nItaly\nPDPC\n2018",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-ken-pda-2019",
+        "api_id": "emea-ken-pda-2019",
+        "sheet_row": 206,
+        "header": "EMEA\nKenya\nDPA\n2019",
+        "matched_column": "EMEA\nKenya\nDPA\n2019",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-lux-cssf-20-750",
+        "api_id": "emea-lux-cssf-20-750",
+        "sheet_row": 207,
+        "header": "EMEA\nLUX\nCCSF 20/750\n2020",
+        "matched_column": "EMEA\nLUX\nCCSF 20/750\n2020",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-lux-cssf-22-806",
+        "api_id": "emea-lux-cssf-22-806",
+        "sheet_row": 208,
+        "header": "EMEA\nLUX\nCCSF 22/806\n2022",
+        "matched_column": "EMEA\nLUX\nCCSF 22/806\n2022",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-nga-dpr-2019",
+        "api_id": "emea-nga-dpr-2019",
+        "sheet_row": 209,
+        "header": "EMEA\nNigeria\nDPR\n2019",
+        "matched_column": "EMEA\nNigeria\nDPR\n2019",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-nor-pda-2018",
+        "api_id": "emea-nor-pda-2018",
+        "sheet_row": 210,
+        "header": "EMEA\nNorway\nDPA\n2018",
+        "matched_column": "EMEA\nNorway\nDPA\n2018",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-pol-act-10-2018",
+        "api_id": "emea-pol-act-10-2018",
+        "sheet_row": 211,
+        "header": "EMEA\nPoland\nAct 10\n2018",
+        "matched_column": "EMEA\nPoland\nAct 10\n2018",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-qat-pdppl-2020",
+        "api_id": "emea-qat-pdppl-2020",
+        "sheet_row": 212,
+        "header": "EMEA\nQatar\nPDPPL\n2020",
+        "matched_column": "EMEA\nQatar\nPDPPL\n2020",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-rus-152-fz-2025",
+        "api_id": "emea-rus-152-fz-2025",
         "sheet_row": 213,
-        "header": "APAC\nAustralia\nEssential 8\n2024",
-        "matched_column": "APAC\nAustralia\nEssential 8\n2024",
+        "header": "EMEA\nRussia\n152-FZ\n2025",
+        "matched_column": "EMEA\nRussia\n152-FZ\n2025",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "apac-aus-privacy-principles-2026",
-        "api_id": "apac-aus-privacy-principles-2026",
+        "fdi": "emea-sau-cgiot-2024",
+        "api_id": "emea-sau-cgiot-2024",
         "sheet_row": 214,
-        "header": "APAC\nAustralian Privacy Principles\n2026",
-        "matched_column": "APAC\nAustralian Privacy Principles\n2026",
+        "header": "EMEA\nSaudi Arabia\nIoT CGIoT-1\n2024",
+        "matched_column": "EMEA\nSaudi Arabia\nIoT CGIoT-1\n2024",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "apac-aus-ism-2026-march",
-        "api_id": "apac-aus-ism-2026-march",
+        "fdi": "emea-sau-cscc-1-2019",
+        "api_id": "emea-sau-cscc-1-2019",
         "sheet_row": 215,
-        "header": "APAC\nAustralia\nISM\nMarch 2026",
-        "matched_column": "APAC\nAustralia\nISM\nMarch 2026",
+        "header": "EMEA\nSaudi Arabia\nCSCC-1\n2019",
+        "matched_column": "EMEA\nSaudi Arabia\nCSCC-1\n2019",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-sau-ecc-1-2018",
+        "api_id": "emea-sau-ecc-1-2018",
+        "sheet_row": 216,
+        "header": "EMEA\nSaudi Arabia\nECC-1\n2018",
+        "matched_column": "EMEA\nSaudi Arabia\nECC-1\n2018",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-sau-otcc-1-2022",
+        "api_id": "emea-sau-otcc-1-2022",
+        "sheet_row": 217,
+        "header": "EMEA\nSaudi Arabia\nOTCC-1\n2022",
+        "matched_column": "EMEA\nSaudi Arabia\nOTCC-1\n2022",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-sau-pdpl-2023",
+        "api_id": "emea-sau-pdpl-2023",
+        "sheet_row": 218,
+        "header": "EMEA\nSaudi Arabia\nPDPL",
+        "matched_column": "EMEA\nSaudi Arabia\nPDPL",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-sau-sacs-002-2022",
+        "api_id": "emea-sau-sacs-002-2022",
+        "sheet_row": 219,
+        "header": "EMEA\nSaudi Arabia\nSACS-002\n2022",
+        "matched_column": "EMEA\nSaudi Arabia\nSACS-002\n2022",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-sau-sama-csf-1-2017",
+        "api_id": "emea-sau-sama-csf-1-2017",
+        "sheet_row": 220,
+        "header": "EMEA\nSaudi Arabia\nSAMA CSF 1.0\n2017",
+        "matched_column": "EMEA\nSaudi Arabia\nSAMA CSF 1.0\n2017",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-srb-act-9-2018",
+        "api_id": "emea-srb-act-9-2018",
+        "sheet_row": 221,
+        "header": "EMEA\nSerbia\n87/2018",
+        "matched_column": "EMEA\nSerbia\n87/2018",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-tur-lppd-2016",
+        "api_id": "emea-tur-lppd-2016",
+        "sheet_row": 222,
+        "header": "EMEA\nTurkey\nLDDP\n2016",
+        "matched_column": "EMEA\nTurkey\nLDDP\n2016",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-uae-niaf-2023",
+        "api_id": "emea-uae-niaf-2023",
+        "sheet_row": 223,
+        "header": "EMEA\nUAE\nNIAF\n2023",
+        "matched_column": "EMEA\nUAE\nNIAF\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "emea-zaf-popia-2013",
+        "api_id": "emea-zaf-popia-2013",
+        "sheet_row": 224,
+        "header": "EMEA\nSouth Africa\nPOPIA\n2013",
+        "matched_column": "EMEA\nSouth Africa\nPOPIA\n2013",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "apac-aus-cloud-controls-matrix-2026",
+        "api_id": "apac-aus-cloud-controls-matrix-2026",
+        "sheet_row": 225,
+        "header": "APAC\nAustralia\nCCM\n2026",
+        "matched_column": "APAC\nAustralia\nCCM\n2026",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "apac-aus-cop-sitc-2020",
         "api_id": "apac-aus-cop-sitc-2020",
-        "sheet_row": 216,
+        "sheet_row": 226,
         "header": "APAC\nAustralia\nIoT Code of Practice\n2024",
         "matched_column": "APAC\nAustralia\nIoT Code of Practice\n2024",
         "method": "exact",
         "score": 100
       },
       {
+        "fdi": "apac-aus-essential-8-2024",
+        "api_id": "apac-aus-essential-8-2024",
+        "sheet_row": 227,
+        "header": "APAC\nAustralia\nEssential 8\n2024",
+        "matched_column": "APAC\nAustralia\nEssential 8\n2024",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "apac-aus-ism-2026-june",
+        "api_id": "apac-aus-ism-2026-june",
+        "sheet_row": 228,
+        "header": "APAC\nAustralia\nISM\nJune 2026",
+        "matched_column": "APAC\nAustralia\nISM\nJune 2026",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "apac-aus-privacy-principles-2026",
+        "api_id": "apac-aus-privacy-principles-2026",
+        "sheet_row": 229,
+        "header": "APAC\nAustralian Privacy Principles\n2026",
+        "matched_column": "APAC\nAustralian Privacy Principles\n2026",
+        "method": "exact",
+        "score": 100
+      },
+      {
         "fdi": "apac-aus-ps-cps-230-2023",
         "api_id": "apac-aus-ps-cps-230-2023",
-        "sheet_row": 217,
+        "sheet_row": 230,
         "header": "APAC\nAustralia\nPrudential Standard CPS230\n2023",
         "matched_column": "APAC\nAustralia\nPrudential Standard CPS230\n2023",
         "method": "exact",
@@ -2006,16 +2111,34 @@
       {
         "fdi": "apac-aus-ps-cps-234-2019",
         "api_id": "apac-aus-ps-cps-234-2019",
-        "sheet_row": 218,
+        "sheet_row": 231,
         "header": "APAC\nAustralia\nPrudential Standard CPS234\n2019",
         "matched_column": "APAC\nAustralia\nPrudential Standard CPS234\n2019",
         "method": "exact",
         "score": 100
       },
       {
+        "fdi": "apac-aus-soci-2018",
+        "api_id": "apac-aus-soci-2018",
+        "sheet_row": 232,
+        "header": "APAC\nAustralia\nSOCI\n2028",
+        "matched_column": "APAC\nAustralia\nSOCI\n2028",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "apac-chn-csnip-2012",
+        "api_id": "apac-chn-csnip-2012",
+        "sheet_row": 233,
+        "header": "APAC\nChina\nDNSIP\n2012",
+        "matched_column": "APAC\nChina\nDNSIP\n2012",
+        "method": "exact",
+        "score": 100
+      },
+      {
         "fdi": "apac-chn-cybersecurity-law-2017",
         "api_id": "apac-chn-cybersecurity-law-2017",
-        "sheet_row": 219,
+        "sheet_row": 234,
         "header": "APAC\nChina\nCybersecurity Law\n2017",
         "matched_column": "APAC\nChina\nCybersecurity Law\n2017",
         "method": "exact",
@@ -2024,25 +2147,16 @@
       {
         "fdi": "apac-chn-data-security-law-2021",
         "api_id": "apac-chn-data-security-law-2021",
-        "sheet_row": 220,
+        "sheet_row": 235,
         "header": "APAC\nChina\nData Security Law\n2021",
         "matched_column": "APAC\nChina\nData Security Law\n2021",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "apac-chn-csnip-2012",
-        "api_id": "apac-chn-csnip-2012",
-        "sheet_row": 221,
-        "header": "APAC\nChina\nDNSIP\n2012",
-        "matched_column": "APAC\nChina\nDNSIP\n2012",
-        "method": "exact",
-        "score": 100
-      },
-      {
         "fdi": "apac-chn-pipl-2021",
         "api_id": "apac-chn-pipl-2021",
-        "sheet_row": 222,
+        "sheet_row": 236,
         "header": "APAC\nChina\nPrivacy Law\n2021",
         "matched_column": "APAC\nChina\nPrivacy Law\n2021",
         "method": "exact",
@@ -2051,7 +2165,7 @@
       {
         "fdi": "apac-hkg-pdo-2022",
         "api_id": "apac-hkg-pdo-2022",
-        "sheet_row": 223,
+        "sheet_row": 237,
         "header": "APAC\nHong Kong\nPDO\n2022",
         "matched_column": "APAC\nHong Kong\nPDO\n2022",
         "method": "exact",
@@ -2060,7 +2174,7 @@
       {
         "fdi": "apac-ind-dpdpa-2023",
         "api_id": "apac-ind-dpdpa-2023",
-        "sheet_row": 224,
+        "sheet_row": 238,
         "header": "APAC\nIndia\nDPDPA\n2023",
         "matched_column": "APAC\nIndia\nDPDPA\n2023",
         "method": "exact",
@@ -2069,16 +2183,52 @@
       {
         "fdi": "apac-ind-privacy-rules-2011",
         "api_id": "apac-ind-privacy-rules-2011",
-        "sheet_row": 225,
+        "sheet_row": 239,
         "header": "APAC\nIndia\nITR\n2011",
         "matched_column": "APAC\nIndia\nITR\n2011",
         "method": "exact",
         "score": 100
       },
       {
+        "fdi": "apac-ind-rbi-data-localization-2018",
+        "api_id": "apac-ind-rbi-data-localization-2018",
+        "sheet_row": 240,
+        "header": "APAC\nIndia\nRBI Data Localization\n2018",
+        "matched_column": "APAC\nIndia\nRBI Data Localization\n2018",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "apac-ind-rbi-dpsc-2021",
+        "api_id": "apac-ind-rbi-dpsc-2021",
+        "sheet_row": 241,
+        "header": "APAC\nIndia\nRBI Digital Payments\n2021",
+        "matched_column": "APAC\nIndia\nRBI Digital Payments\n2021",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "apac-ind-rbi-pa-2025",
+        "api_id": "apac-ind-rbi-pa-2025",
+        "sheet_row": 242,
+        "header": "APAC\nIndia\nRBI PA\n2025",
+        "matched_column": "APAC\nIndia\nRBI PA\n2025",
+        "method": "exact",
+        "score": 100
+      },
+      {
+        "fdi": "apac-ind-rbi-ppi-2021",
+        "api_id": "apac-ind-rbi-ppi-2021",
+        "sheet_row": 243,
+        "header": "APAC\nIndia\nRBI PPI\n2025",
+        "matched_column": "APAC\nIndia\nRBI PPI\n2025",
+        "method": "exact",
+        "score": 100
+      },
+      {
         "fdi": "apac-ind-sebi-2024",
         "api_id": "apac-ind-sebi-2024",
-        "sheet_row": 226,
+        "sheet_row": 244,
         "header": "APAC\nIndia\nSEBI CSCRF\n2024",
         "matched_column": "APAC\nIndia\nSEBI CSCRF\n2024",
         "method": "exact",
@@ -2087,7 +2237,7 @@
       {
         "fdi": "apac-jpn-appi-2020",
         "api_id": "apac-jpn-appi-2020",
-        "sheet_row": 227,
+        "sheet_row": 245,
         "header": "APAC\nJapan\nAPPI\n2020",
         "matched_column": "APAC\nJapan\nAPPI\n2020",
         "method": "exact",
@@ -2096,52 +2246,61 @@
       {
         "fdi": "apac-jpn-ismap",
         "api_id": "apac-jpn-ismap",
-        "sheet_row": 228,
+        "sheet_row": 246,
         "header": "APAC\nJapan\nISMAP",
         "matched_column": "APAC\nJapan\nISMAP",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "apac-mys-pdpa-2010",
-        "api_id": "apac-mys-pdpa-2010",
-        "sheet_row": 229,
-        "header": "APAC\nMalaysia\nPDPA\n2010",
-        "matched_column": "APAC\nMalaysia\nPDPA\n2010",
+        "fdi": "apac-kor-pipa-2011",
+        "api_id": "apac-kor-pipa-2011",
+        "sheet_row": 247,
+        "header": "APAC\nSouth Korea\nPIPA\n2011",
+        "matched_column": "APAC\nSouth Korea\nPIPA\n2011",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "apac-mys-bnm-rmit-2025",
         "api_id": "apac-mys-bnm-rmit-2025",
-        "sheet_row": 230,
+        "sheet_row": 248,
         "header": "APAC\nMalaysia\nRMiT\n2025",
         "matched_column": "APAC\nMalaysia\nRMiT\n2025",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "apac-nzl-hisf-mlhsp-2023",
-        "api_id": "apac-nzl-hisf-mlhsp-2023",
-        "sheet_row": 231,
-        "header": "APAC\nNew Zealand\nHISF MLHSP\n2023",
-        "matched_column": "APAC\nNew Zealand\nHISF MLHSP\n2023",
+        "fdi": "apac-mys-pdpa-2010",
+        "api_id": "apac-mys-pdpa-2010",
+        "sheet_row": 249,
+        "header": "APAC\nMalaysia\nPDPA\n2010",
+        "matched_column": "APAC\nMalaysia\nPDPA\n2010",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "apac-nzl-hisf-microsmall-2023",
         "api_id": "apac-nzl-hisf-microsmall-2023",
-        "sheet_row": 232,
+        "sheet_row": 250,
         "header": "APAC\nNew Zealand\nHISF Microsmall\n2023",
         "matched_column": "APAC\nNew Zealand\nHISF Microsmall\n2023",
         "method": "exact",
         "score": 100
       },
       {
+        "fdi": "apac-nzl-hisf-mlhsp-2023",
+        "api_id": "apac-nzl-hisf-mlhsp-2023",
+        "sheet_row": 251,
+        "header": "APAC\nNew Zealand\nHISF MLHSP\n2023",
+        "matched_column": "APAC\nNew Zealand\nHISF MLHSP\n2023",
+        "method": "exact",
+        "score": 100
+      },
+      {
         "fdi": "apac-nzl-hisf-suppliers-2023",
         "api_id": "apac-nzl-hisf-suppliers-2023",
-        "sheet_row": 233,
+        "sheet_row": 252,
         "header": "APAC\nNew Zealand\nHISF Suppliers\n2023",
         "matched_column": "APAC\nNew Zealand\nHISF Suppliers\n2023",
         "method": "exact",
@@ -2150,7 +2309,7 @@
       {
         "fdi": "apac-nzl-ism-3-9",
         "api_id": "apac-nzl-ism-3-9",
-        "sheet_row": 234,
+        "sheet_row": 253,
         "header": "APAC\nNew Zealand\nNZISM 3.9",
         "matched_column": "APAC\nNew Zealand\nNZISM 3.9",
         "method": "exact",
@@ -2159,7 +2318,7 @@
       {
         "fdi": "apac-nzl-privacy-act-2020",
         "api_id": "apac-nzl-privacy-act-2020",
-        "sheet_row": 235,
+        "sheet_row": 254,
         "header": "APAC\nNew Zealand\nPrivacy Act of 2020",
         "matched_column": "APAC\nNew Zealand\nPrivacy Act of 2020",
         "method": "exact",
@@ -2168,25 +2327,25 @@
       {
         "fdi": "apac-phl-dpa-2012",
         "api_id": "apac-phl-dpa-2012",
-        "sheet_row": 236,
+        "sheet_row": 255,
         "header": "APAC\nPhilippines\nDPA\n2012",
         "matched_column": "APAC\nPhilippines\nDPA\n2012",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "apac-sgp-pdpa-2012",
-        "api_id": "apac-sgp-pdpa-2012",
-        "sheet_row": 237,
-        "header": "APAC\nSingapore\nPDPA\n2012",
-        "matched_column": "APAC\nSingapore\nPDPA\n2012",
+        "fdi": "apac-sgp-ccp-cii-2026",
+        "api_id": "apac-sgp-ccp-cii-2026",
+        "sheet_row": 256,
+        "header": "APAC\nSingapore\nCCOP CII\n2026",
+        "matched_column": "APAC\nSingapore\nCCOP CII\n2026",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "apac-sgp-cyber-hygiene-practice-2019",
         "api_id": "apac-sgp-cyber-hygiene-practice-2019",
-        "sheet_row": 238,
+        "sheet_row": 257,
         "header": "APAC\nSingapore \nCyber Hygiene Practice\n2019",
         "matched_column": "APAC\nSingapore \nCyber Hygiene Practice\n2019",
         "method": "exact",
@@ -2195,25 +2354,25 @@
       {
         "fdi": "apac-sgp-mas-trm-2021",
         "api_id": "apac-sgp-mas-trm-2021",
-        "sheet_row": 239,
+        "sheet_row": 258,
         "header": "APAC\nSingapore\nMAS TRM\n2021",
         "matched_column": "APAC\nSingapore\nMAS TRM\n2021",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "apac-kor-pipa-2011",
-        "api_id": "apac-kor-pipa-2011",
-        "sheet_row": 240,
-        "header": "APAC\nSouth Korea\nPIPA\n2011",
-        "matched_column": "APAC\nSouth Korea\nPIPA\n2011",
+        "fdi": "apac-sgp-pdpa-2012",
+        "api_id": "apac-sgp-pdpa-2012",
+        "sheet_row": 259,
+        "header": "APAC\nSingapore\nPDPA\n2012",
+        "matched_column": "APAC\nSingapore\nPDPA\n2012",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "apac-twn-pdpa-2025",
         "api_id": "apac-twn-pdpa-2025",
-        "sheet_row": 241,
+        "sheet_row": 260,
         "header": "APAC\nTaiwan\nPDPA\n2025",
         "matched_column": "APAC\nTaiwan\nPDPA\n2025",
         "method": "exact",
@@ -2222,7 +2381,7 @@
       {
         "fdi": "americas-arg-ppd-2018",
         "api_id": "americas-arg-ppd-2018",
-        "sheet_row": 242,
+        "sheet_row": 261,
         "header": "Americas\nArgentina\nReg 132\n2018",
         "matched_column": "Americas\nArgentina\nReg 132\n2018",
         "method": "exact",
@@ -2231,7 +2390,7 @@
       {
         "fdi": "americas-bhs-dpa-2003",
         "api_id": "americas-bhs-dpa-2003",
-        "sheet_row": 243,
+        "sheet_row": 262,
         "header": "Americas\nBahamas\nDPA\n2003",
         "matched_column": "Americas\nBahamas\nDPA\n2003",
         "method": "exact",
@@ -2240,7 +2399,7 @@
       {
         "fdi": "americas-bmu-mba-coc-2020",
         "api_id": "americas-bmu-mba-coc-2020",
-        "sheet_row": 244,
+        "sheet_row": 263,
         "header": "Americas\nBermuda\nBMACCC\n2020",
         "matched_column": "Americas\nBermuda\nBMACCC\n2020",
         "method": "exact",
@@ -2249,25 +2408,25 @@
       {
         "fdi": "americas-bra-lgpd-2018",
         "api_id": "americas-bra-lgpd-2018",
-        "sheet_row": 245,
+        "sheet_row": 264,
         "header": "Americas\nBrazil\nLGPD\n2018",
         "matched_column": "Americas\nBrazil\nLGPD\n2018",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "americas-can-osfi-self-assessment",
-        "api_id": "americas-can-osfi-self-assessment",
-        "sheet_row": 246,
-        "header": "Americas\nCanada\nCSAG",
-        "matched_column": "Americas\nCanada\nCSAG",
+        "fdi": "americas-can-itsp-10-171-2025",
+        "api_id": "americas-can-itsp-10-171-2025",
+        "sheet_row": 265,
+        "header": "Americas\nCanada\nITSP-10-171\n2025",
+        "matched_column": "Americas\nCanada\nITSP-10-171\n2025",
         "method": "exact",
         "score": 100
       },
       {
         "fdi": "americas-can-osfi-b13-2022",
         "api_id": "americas-can-osfi-b13-2022",
-        "sheet_row": 247,
+        "sheet_row": 266,
         "header": "Americas\nCanada\nOSFI B-13\n2022",
         "matched_column": "Americas\nCanada\nOSFI B-13\n2022",
         "method": "exact",
@@ -2275,26 +2434,17 @@
       },
       {
         "fdi": "americas-can-osfi-self-assessment",
-        "api_id": "americas-can-osfi-self-assessment-2",
-        "sheet_row": 248,
+        "api_id": "americas-can-osfi-self-assessment",
+        "sheet_row": 267,
         "header": "Americas\nCanada\nOSFI Self-Assessment Guidance",
         "matched_column": "Americas\nCanada\nOSFI Self-Assessment Guidance",
         "method": "exact",
         "score": 100
       },
       {
-        "fdi": "americas-can-itsp-10-171-2025",
-        "api_id": "americas-can-itsp-10-171-2025",
-        "sheet_row": 249,
-        "header": "Americas\nCanada\nITSP-10-171\n2025",
-        "matched_column": "Americas\nCanada\nITSP-10-171\n2025",
-        "method": "exact",
-        "score": 100
-      },
-      {
         "fdi": "americas-can-pipeda-2000",
         "api_id": "americas-can-pipeda-2000",
-        "sheet_row": 250,
+        "sheet_row": 268,
         "header": "Americas\nCanada\nPIPEDA\n2000",
         "matched_column": "Americas\nCanada\nPIPEDA\n2000",
         "method": "exact",
@@ -2303,7 +2453,7 @@
       {
         "fdi": "americas-chl-act-19628-1999",
         "api_id": "americas-chl-act-19628-1999",
-        "sheet_row": 251,
+        "sheet_row": 269,
         "header": "Americas\nChile\nAct 19628\n1999",
         "matched_column": "Americas\nChile\nAct 19628\n1999",
         "method": "exact",
@@ -2312,7 +2462,7 @@
       {
         "fdi": "americas-col-law-1581-2012",
         "api_id": "americas-col-law-1581-2012",
-        "sheet_row": 252,
+        "sheet_row": 270,
         "header": "Americas\nColombia\nLaw 1581\n2012",
         "matched_column": "Americas\nColombia\nLaw 1581\n2012",
         "method": "exact",
@@ -2321,7 +2471,7 @@
       {
         "fdi": "americas-mex-fdpa-2010",
         "api_id": "americas-mex-fdpa-2010",
-        "sheet_row": 253,
+        "sheet_row": 271,
         "header": "Americas\nMexico\nFDPA\n2010",
         "matched_column": "Americas\nMexico\nFDPA\n2010",
         "method": "exact",

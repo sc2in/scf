@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "IAC-48",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-48",
+      "ao_id": "IAC-48_A01",
+      "objective": "Software Defined Storage (SDS), or equivalent technologies, are used to automatically enforce data access controls.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-48",
+      "ao_id": "IAC-48_A02",
+      "objective": "the enforced data access controls prevent access to data by unauthorized entities.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-48",
+      "ao_id": "IAC-48_A03",
+      "objective": "the enforced data access controls prevent access to data by entities operating from unauthorized devices.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-48",
+      "ao_id": "IAC-48_A04",
+      "objective": "the communities of interest between which data access is segregated within the same classification level are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-48",
+      "ao_id": "IAC-48_A05",
+      "objective": "the enforced data access controls segregate access between the defined communities of interest for data residing within the same classification level.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

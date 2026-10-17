@@ -4,7 +4,7 @@
   "artifact_name": "Structured & Unstructured Data Reviews",
   "artifact_description": "Documented evidence of a capability to review and/or scan data repositories (structured or unstructured) for instances of sensitive and/or regulated data.",
   "scf_controls": [
-    "DCH-06.3"
+    "DCH-05.1"
   ],
   "cmmc_mapping": ""
 }

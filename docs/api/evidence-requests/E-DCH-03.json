@@ -4,8 +4,7 @@
   "artifact_name": "Network Diagram - Global System View (GSV)",
   "artifact_description": "Documented evidence of a high-level network diagram that provides a conceptual, logical depiction of the network(s) to describe the interconnections of the systems/applications/services, including internal and external interfaces.",
   "scf_controls": [
-    "AST-04",
-    "NET-02"
+    "AST-17"
   ],
   "cmmc_mapping": ""
 }

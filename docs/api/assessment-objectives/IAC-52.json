@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "IAC-52",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-52",
+      "ao_id": "IAC-52_A01",
+      "objective": "the cycle on which credentials for Control Assurance Automation (CAA) automated identities are rotated is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no less frequently than every 90 days, or more frequently where required by the credential type or risk",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-52",
+      "ao_id": "IAC-52_A02",
+      "objective": "credentials for Control Assurance Automation (CAA) automated identities are rotated on the defined cycle.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-52",
+      "ao_id": "IAC-52_A03",
+      "objective": "credentials for Control Assurance Automation (CAA) automated identities are rotated, expired or revoked upon personnel change (e.g., departure or role change of the accountable owner or of personnel with knowledge of the credential).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-52",
+      "ao_id": "IAC-52_A04",
+      "objective": "credentials for Control Assurance Automation (CAA) automated identities are rotated, expired or revoked upon tooling change (e.g., replacement, decommissioning or re-platforming of CAA tooling or pipelines).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-52",
+      "ao_id": "IAC-52_A05",
+      "objective": "credentials for Control Assurance Automation (CAA) automated identities are rotated, expired or revoked upon change to the scope of Technology Assets, Applications and/or Services (TAAS) the identity is authorized to assess.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-52",
+      "ao_id": "IAC-52_A06",
+      "objective": "credentials for Control Assurance Automation (CAA) automated identities are configured with an expiration date consistent with the defined rotation cycle.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-52",
+      "ao_id": "IAC-52_A07",
+      "objective": "a record of credential rotation, expiration and revocation events for Control Assurance Automation (CAA) automated identities is retained.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

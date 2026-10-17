@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.9",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Configuration Management Policy",
+  "artifact_description": "Documented evidence of a configuration management policy.",
+  "scf_controls": [
+    "CFG-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

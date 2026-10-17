@@ -5,8 +5,8 @@
     {
       "scf_control_id": "TDA-06.5",
       "ao_id": "TDA-06.5_A01",
-      "objective": "an independent review of the software design confirms that all cybersecurity / data privacy requirements are met and that any identified risks are satisfactorily addressed.",
-      "pptdf": "Process",
+      "objective": "integrity verification information is published for software releases.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

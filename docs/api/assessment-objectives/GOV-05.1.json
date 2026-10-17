@@ -1,12 +1,42 @@
 {
   "scf_control_id": "GOV-05.1",
-  "total": 1,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "GOV-05.1",
       "ao_id": "GOV-05.1_A01",
-      "objective": "Key Performance Indicators (KPIs) are developed to assist organizational management in performance monitoring and trend analysis of specific aspects of the organization's cybersecurity / data privacy program.",
+      "objective": "the cybersecurity / data privacy governance program includes the identification and assignment of roles.",
       "pptdf": "Process",
+      "origin": "53A_R5_PM-01a.02[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-05.1",
+      "ao_id": "GOV-05.1_A02",
+      "objective": "the cybersecurity / data privacy governance program includes the identification and assignment of responsibilities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-01a.02[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-05.1",
+      "ao_id": "GOV-05.1_A03",
+      "objective": "an accountability structure identifies the teams and individuals responsible for identifying, mapping, measuring and managing Technology Assets, Applications, Services and/or Data (TAASD)-related risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-05.1",
+      "ao_id": "GOV-05.1_A04",
+      "objective": "teams and individuals responsible for identifying, mapping, measuring and managing Technology Assets, Applications, Services and/or Data (TAASD)-related risks are trained for those responsibilities.",
+      "pptdf": "People",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

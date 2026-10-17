@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.24",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Project & Resource Management Policy",
+  "artifact_description": "Documented evidence of a project and resource management policy.",
+  "scf_controls": [
+    "GOV-04",
+    "PRM-01"
+  ],
+  "cmmc_mapping": ""
+}

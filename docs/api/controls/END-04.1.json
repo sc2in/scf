@@ -1,311 +1,306 @@
 {
   "control_id": "END-04.1",
-  "title": "Automatic Antimalware Signature Updates",
+  "title": "Always On Antimalware Protection",
   "family": "END",
-  "description": "Automated mechanisms exist to update antimalware technologies, including signature definitions.",
-  "scf_question": "Does the organization use automated mechanisms to update antimalware technologies, including signature definitions?",
+  "description": "Mechanisms exist to ensure unless specifically authorized by management on a case-by-case basis for a limited time period that anti-malware technologies:\n(1) Are continuously running in real-time; and \n(2) Cannot be disabled or altered by non-privileged users.",
+  "scf_question": "Does the organization ensure that anti-malware technologies are continuously running in real-time and cannot be disabled or altered by non-privileged users, unless specifically authorized by management on a case-by-case basis for a limited time period?",
   "relative_weight": 9,
   "conformity_cadence": "Quarterly",
-  "evidence_requests": [
-    "E-END-02"
-  ],
+  "evidence_requests": [],
   "pptdf": "Technology",
-  "nist_csf_function": "Protect",
+  "nist_csf_function": "Detect",
   "scrm_focus": {
     "strategic": false,
-    "operational": true,
+    "operational": false,
     "tactical": true
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
     "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
-    "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Anti-malware detection tools are configured to automatically update.",
-    "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically update antimalware technologies, including signature definitions. ",
+    "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Anti-malware technologies are centralized, deployed on all technology assets that can run anti-malware software.\n▪ Anti-malware technologies are configured to generate event logs that can be centrally-reviewed (e.g., forwarded to a SIEM).\n▪ Anti-malware detection tools are configured to provide real-time protection (e.g., always on).",
+    "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure that anti-malware technologies are continuously running in real-time and cannot be disabled or altered by non-privileged users, unless specifically authorized by management on a case-by-case basis for a limited time period.",
     "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
   "profiles": [
-    "CORE ESP Level 1 Foundational",
+    "SCRMS",
     "CORE ESP Level 2 Critical Infrastructure",
     "CORE ESP Level 3 Advanced Threats",
-    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)",
+    "CORE MSO Level 1 Initial Public Draft",
+    "CORE MSO Level 2 Initial Public Draft",
+    "CORE MSO Level 3 Initial Public Draft"
   ],
   "possible_solutions": {
-    "micro_small": "∙ Secure Baseline Configurations (SBC)",
-    "small": "∙ Secure Baseline Configurations (SBC)",
-    "medium": "∙ Secure Baseline Configurations (SBC)",
-    "large": "∙ Secure Baseline Configurations (SBC)",
-    "enterprise": "∙ Secure Baseline Configurations (SBC)"
+    "micro_small": "∙ Antimalware software",
+    "small": "∙ Antimalware software",
+    "medium": "∙ Antimalware software",
+    "large": "∙ Antimalware software",
+    "enterprise": "∙ Antimalware software"
   },
   "risks": [
-    "R-AC-1",
-    "R-AC-2",
     "R-AC-3",
     "R-AC-4",
-    "R-AM-1",
     "R-AM-2",
-    "R-AM-3",
     "R-BC-1",
     "R-BC-2",
     "R-BC-3",
     "R-BC-4",
-    "R-BC-5",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
-    "R-EX-4",
-    "R-EX-5",
-    "R-EX-6",
     "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-3",
     "R-GV-4",
-    "R-GV-5",
-    "R-GV-6",
-    "R-GV-7",
-    "R-GV-8",
     "R-IR-1",
     "R-IR-2",
     "R-IR-3",
     "R-IR-4",
-    "R-SA-2",
-    "R-SC-1",
-    "R-SC-2",
-    "R-SC-3",
-    "R-SC-4",
-    "R-SC-5",
-    "R-SC-6"
+    "R-SA-1",
+    "R-IP-2",
+    "R-IP-3",
+    "R-IP-4"
   ],
   "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
     "NT-7",
-    "MT-1",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
     "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
     "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
-    "MT-11",
     "MT-12",
-    "MT-13",
     "MT-14",
     "MT-15",
+    "MT-20",
+    "MT-23",
     "MT-24",
-    "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-27"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Possible",
+    "R-AC-4": "Possible",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Possible",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Possible",
+    "R-BC-2": "Possible",
+    "R-BC-3": "Possible",
+    "R-BC-4": "Likely",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Unlikely",
+    "R-EX-7": "Likely",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Possible",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Unlikely",
+    "R-GV-10": "Unlikely",
+    "R-IR-1": "Possible",
+    "R-IR-2": "Possible",
+    "R-IR-3": "Possible",
+    "R-IR-4": "Possible",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Likely",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Possible",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Possible",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Likely",
+    "MT-3": "Possible",
+    "MT-4": "Possible",
+    "MT-5": "Possible",
+    "MT-6": "Possible",
+    "MT-7": "Possible",
+    "MT-8": "Likely",
+    "MT-9": "Likely",
+    "MT-10": "Likely",
+    "MT-11": "Unlikely",
+    "MT-12": "Possible",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Possible",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Possible",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Possible",
+    "MT-24": "Possible",
+    "MT-25": "Unlikely",
+    "MT-26": "Unlikely",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- wordsmithed\n- renamed\n- renumbered",
   "family_name": "Endpoint Security",
   "crosswalks": {
-    "general-aicpa-pmf-2020": [
-      "S7.1-POF11"
+    "general-aicpa-tsc-2017": [
+      "CC6.8-POF5"
     ],
     "general-cis-csc-8-1": [
-      "10.2"
-    ],
-    "general-cis-csc-8-1-ig1": [
-      "10.2"
+      "10.4"
     ],
     "general-cis-csc-8-1-ig2": [
-      "10.2"
+      "10.4"
     ],
     "general-cis-csc-8-1-ig3": [
-      "10.2"
+      "10.4"
     ],
     "general-cobit-2019": [
       "DSS05.01"
     ],
-    "general-govramp": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-govramp-core": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-govramp-low": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-govramp-low-plus": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-govramp-mod": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-govramp-high": [
-      "SI-02",
-      "SI-03"
+    "general-csa-cmm-4-1-0": [
+      "UEM-09"
     ],
     "general-iec-62443-2-1-2024": [
-      "COMP 2.3"
-    ],
-    "general-iso-27002-2022": [
-      "8.7"
-    ],
-    "general-iso-27017-2015": [
-      "12.2.1"
-    ],
-    "general-iso-27018-2025": [
-      "8.7"
+      "COMP 2.1"
     ],
     "general-mpa-csbp-5-3-1": [
+      "TS-1.0",
       "TS-1.3"
     ],
-    "general-nist-800-53-r4": [
-      "SI-3(2)"
-    ],
-    "general-nist-800-53-r5-2": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-nist-800-53-r5-2-privacy": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-nist-800-53-r5-2-low": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-nist-800-82-r3": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-nist-800-82-r3-low": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-nist-800-82-r3-mod": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-nist-800-82-r3-high": [
-      "SI-02",
-      "SI-03"
-    ],
-    "general-nist-800-161-r1": [
-      "SI-2",
-      "SI-3"
-    ],
-    "general-nist-800-161-r1-cscrm": [
-      "SI-2",
-      "SI-3"
-    ],
-    "general-nist-800-161-r1-flowdown": [
-      "SI-2",
-      "SI-3"
-    ],
-    "general-nist-800-161-r1-level-2": [
-      "SI-2",
-      "SI-3"
-    ],
-    "general-nist-800-161-r1-level-3": [
-      "SI-2",
-      "SI-3"
-    ],
     "general-nist-800-171-r2": [
-      "3.14.4"
+      "3.14.5"
     ],
     "general-nist-800-171-r3": [
-      "03.14.02.b"
+      "03.14.02.a",
+      "03.14.02.c.01",
+      "03.14.02.c.02"
     ],
     "general-nist-800-171a": [
-      "3.14.4"
+      "3.14.5[c]"
     ],
     "general-nist-800-171a-r3": [
-      "A.03.14.02.b"
+      "A.03.14.02.a[01]",
+      "A.03.14.02.c.01[01]",
+      "A.03.14.02.c.01[02]"
     ],
     "general-pci-dss-4-0-1": [
       "5.3",
-      "5.3.1"
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.5"
     ],
     "general-pci-dss-4-0-1-saq-a-ep": [
-      "5.3.1"
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.5"
     ],
     "general-pci-dss-4-0-1-saq-c": [
-      "5.3.1"
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.5"
     ],
     "general-pci-dss-4-0-1-saq-c-vt": [
-      "5.3.1"
+      "5.3.2",
+      "5.3.3",
+      "5.3.5"
     ],
     "general-pci-dss-4-0-1-saq-d-merchant": [
-      "5.3.1"
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.5"
     ],
     "general-pci-dss-4-0-1-saq-d-service-provider": [
-      "5.3.1"
-    ],
-    "general-swift-cscf-2025": [
-      "6.1"
-    ],
-    "usa-federal-fbi-cjis-6-0": [
-      "SI-2",
-      "SI-3"
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.5"
     ],
     "usa-federal-dow-cmmc-2-level-1": [
-      "SI.L1-B.1.XIV"
+      "SI.L1-B.1.XV"
     ],
     "usa-federal-dow-cmmc-2-level-1-aos": [
-      "SI.L1-B.1.XIV[a]"
+      "SI.L1-B.1.XV[c]"
     ],
     "usa-federal-dow-cmmc-2-level-2": [
-      "SIL2.-3.14.4"
+      "SIL2.-3.14.5"
     ],
     "usa-federal-far-52-204-21": [
-      "52.204-21(b)(1)(xiv)"
-    ],
-    "usa-federal-gsa-fedramp-5-low": [
-      "SI-02",
-      "SI-03"
-    ],
-    "usa-federal-gsa-fedramp-5-mod": [
-      "SI-02",
-      "SI-03"
-    ],
-    "usa-federal-gsa-fedramp-5-high": [
-      "SI-02",
-      "SI-03"
-    ],
-    "usa-federal-gsa-fedramp-5-li-saas": [
-      "SI-02",
-      "SI-03"
+      "52.204-21(b)(1)(xv)"
     ],
     "usa-federal-irs-1075-2021": [
-      "SI-2",
-      "SI-3"
-    ],
-    "usa-federal-cms-marse-2-0": [
-      "SI-2",
-      "SI-3",
-      "SI-3(2)"
-    ],
-    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
-      "SI-02",
-      "SI-03"
-    ],
-    "usa-state-tx-txramp-2-0-level-1": [
-      "SI-02",
-      "SI-03"
-    ],
-    "usa-state-tx-txramp-2-0-level-2": [
-      "SI-02",
-      "SI-03"
-    ],
-    "usa-state-vt-act-171-2018": [
-      "2447(c)(7)"
-    ],
-    "emea-eu-nis2-annex-2024": [
-      "6.9.2"
-    ],
-    "emea-isr-cmo-2-0": [
-      "Appendix A, 2.2"
-    ],
-    "emea-esp-ccn-stic-825-2026": [
-      "op.exp.6"
+      "SI-3(IRS-Defined)-1"
     ],
     "emea-gbr-cyber-essentials-requirements-3-3": [
-      "5-BP1-1"
+      "5-BP1-2",
+      "5-BP1-3"
     ],
     "emea-gbr-def-stan-05-138-2024": [
       "2426"
@@ -319,11 +314,16 @@
     "emea-gbr-def-stan-05-138-l3-2024": [
       "2426"
     ],
-    "apac-sgp-mas-trm-2021": [
-      "11.3.4"
+    "emea-isr-cmo-2-0": [
+      "Appendix A, 2.1"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.IP.S4"
     ],
     "americas-can-itsp-10-171-2025": [
-      "03.14.02.B"
+      "03.14.02.A",
+      "03.14.02.C.01",
+      "03.14.02.C.02"
     ]
   }
 }

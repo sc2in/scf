@@ -5,11 +5,11 @@
     {
       "scf_control_id": "DCH-23.1",
       "ao_id": "DCH-23.1_A01",
-      "objective": "the dataset is de-identified upon collection by not collecting Personal Data (PD).",
+      "objective": "electronic discovery (eDiscovery) capabilities cover current and archived communication transactions.",
       "pptdf": "Technology",
-      "origin": "53A_R5_SI-19(01)",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "the retention period required by applicable legal, regulatory and contractual obligations, including any active legal hold",
       "org_defined_parameters": ""
     }
   ]

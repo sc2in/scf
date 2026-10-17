@@ -4,7 +4,7 @@
   "artifact_name": "Internal Audit (IA)",
   "artifact_description": "Documented evidence of an Internal Audit (IA) capability.",
   "scf_controls": [
-    "CPL-02.1"
+    "CPL-07.1"
   ],
   "cmmc_mapping": ""
 }

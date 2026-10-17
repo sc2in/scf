@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.25",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Quantum Security Policy",
+  "artifact_description": "Documented evidence of a quantum security policy.",
+  "scf_controls": [
+    "GOV-04",
+    "QTS-01"
+  ],
+  "cmmc_mapping": ""
+}

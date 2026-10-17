@@ -5,7 +5,7 @@
     {
       "scf_control_id": "DCH-12",
       "ao_id": "DCH-12_A01",
-      "objective": "removable media restrictions are in accordance with data handling and acceptable usage requirements.",
+      "objective": "automated mechanisms apply data masking to sensitive / regulated data that is displayed or printed.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

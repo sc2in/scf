@@ -1,11 +1,21 @@
 {
   "scf_control_id": "AAT-11.2",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-11.2",
       "ao_id": "AAT-11.2_A01",
-      "objective": "independent assessors and/or internal stakeholders, who did not serve as front-line developers, are utilized for regular assessments and updates of deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are assessed for risk to determine whether the criteria for a \"High Risk\" designation are met.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-11.2",
+      "ao_id": "AAT-11.2_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designated as \"High Risk\" if one (1), or more, of the following criteria are met:\n(1) AAT is used as a safety component of a product or service;\n(2) AAT poses a significant risk of harm to an individual's health, safety or fundamental rights; and/or\n(3) AAT materially influences the outcome of an individual's decision making.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

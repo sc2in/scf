@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-PRI-10",
+  "area": "Privacy",
+  "artifact_name": "Data Subject Consent Records",
+  "artifact_description": "Documented evidence of data subject consent management, including opt-in / opt-out records and parent or guardian consent for minors.",
+  "scf_controls": [
+    "PRI-24",
+    "PRI-26",
+    "PRI-27",
+    "PRI-27.1"
+  ],
+  "cmmc_mapping": ""
+}

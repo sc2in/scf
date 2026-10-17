@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAO-13",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-13",
+      "ao_id": "IAO-13_A01",
+      "objective": "a Security Assessment Report (SAR) is produced at the conclusion of a security assessment to certify the results of the assessment and to support remediation actions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 30 days after the conclusion of the assessment",
+      "org_defined_parameters": ""
+    }
+  ]
+}

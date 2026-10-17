@@ -5,8 +5,8 @@
     {
       "scf_control_id": "PRI-07.1",
       "ao_id": "PRI-07.1_A01",
-      "objective": "includes privacy requirements in contracts and other acquisition-related documents that establish privacy roles and responsibilities for contractors and service providers.",
-      "pptdf": "Process",
+      "objective": "automated mechanisms are implemented to inventory Personal Data (PD) across the organization.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

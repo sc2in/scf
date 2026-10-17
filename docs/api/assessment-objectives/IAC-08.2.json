@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-08.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-08.2",
+      "ao_id": "IAC-08.2_A01",
+      "objective": "the types of accounts allowed on Technology Assets, Applications and/or Services (TAAS) are defined and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-08.2",
+      "ao_id": "IAC-08.2_A02",
+      "objective": "the types of accounts prohibited on Technology Assets, Applications and/or Services (TAAS) are defined and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

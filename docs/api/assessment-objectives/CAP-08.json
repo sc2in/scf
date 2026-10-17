@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CAP-08",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CAP-08",
+      "ao_id": "CAP-08_A01",
+      "objective": "performance and capacity planning includes resiliency planning for alternate storage and/or processing sites.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CAP-08",
+      "ao_id": "CAP-08_A02",
+      "objective": "the capacity required for alternate storage and/or processing sites to run production operations throughout the duration of Business Continuity & Disaster Recovery (BC/DR) operations is determined and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CAP-08",
+      "ao_id": "CAP-08_A03",
+      "objective": "alternate storage and/or processing sites are provisioned with, or contractually guaranteed, capacity that meets the documented requirements.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CAP-08",
+      "ao_id": "CAP-08_A04",
+      "objective": "the frequency at which to review alternate site capacity requirements is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually, and upon significant change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CAP-08",
+      "ao_id": "CAP-08_A05",
+      "objective": "alternate site capacity requirements are reviewed and updated at the defined frequency and when production workloads change significantly.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

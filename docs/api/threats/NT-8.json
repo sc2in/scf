@@ -2,5 +2,5 @@
   "threat_id": "NT-8",
   "grouping": "Natural Threat",
   "name": "Severe Weather",
-  "description": "Severe weather is a broad category of meteorological events that include events that range from damaging winds to hail."
+  "description": "Severe meteorological conditions, including high winds, hail, extreme heat, heavy precipitation or similar events, that can damage facilities or technology, disrupt utilities and transportation, or otherwise degrade control execution."
 }

@@ -1,7 +1,7 @@
 {
   "risk_id": "R-SC-4",
   "grouping": "Supply Chain",
-  "name": "Third-party compliance / legal exposure",
-  "description": "The inability to maintain compliance due to third-party non-compliance, criminal acts, or other relevant legal action(s).",
+  "name": "Third-Party Legal / Compliance Exposure",
+  "description": "Third-party noncompliance, unlawful conduct, sanctions, litigation or other legal conditions cause the organization to:\n(1) Violate obligations;\n(2) Lose contracts;\n(3) Incur legal and/or financial liability; and/or\n(4) Experience operational restrictions.",
   "nist_csf_function": "Protect"
 }

@@ -5,7 +5,7 @@
     {
       "scf_control_id": "TDA-06.4",
       "ao_id": "TDA-06.4_A01",
-      "objective": "a supporting toolchain helps ensure the accuracy, consistency and comprehensiveness of secure practices throughout the asset's lifecycle.",
+      "objective": "integrity validation mechanisms are utilized for security updates.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

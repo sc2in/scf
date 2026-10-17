@@ -4,8 +4,7 @@
   "artifact_name": "Data Classification Scheme",
   "artifact_description": "Documented evidence of an organization-specific data classification scheme.",
   "scf_controls": [
-    "AST-04.1",
-    "DCH-02"
+    "DCH-04"
   ],
   "cmmc_mapping": ""
 }

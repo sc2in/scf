@@ -1,11 +1,11 @@
 {
   "erl_id": "E-GOV-18",
-  "area": "Cybersecurity & Data Protection Management",
-  "artifact_name": "Exception Management",
-  "artifact_description": "Documented evidence of authorized exceptions to standards (e.g., configurations, practices, etc.)",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Cybersecurity & Data Privacy Status Reports",
+  "artifact_description": "Documented evidence of status reports of the organization's security, compliance and/or resilience program that were submitted to applicable statutory and/or regulatory authorities.",
   "scf_controls": [
-    "CRY-01.1",
-    "GOV-02.1"
+    "CPL-27",
+    "GOV-09.1"
   ],
   "cmmc_mapping": ""
 }

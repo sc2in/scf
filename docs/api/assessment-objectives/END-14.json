@@ -39,7 +39,7 @@
       "pptdf": "Process",
       "origin": "53A_R5_SC-15_ODP\n171A_R3_A.03.13.12.ODP[01]",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "no exceptions for computing devices",
       "org_defined_parameters": ""
     },
     {
@@ -90,7 +90,7 @@
       "origin": "171A_R3_A.03.13.12.a",
       "assessment_rigor": "NIST 800-171",
       "scf_defined_parameters": "only as enumerated and justified in the System Security Plan before such remote activation occurs, and only when there are no other options, and the remote activation is operationally critical",
-      "org_defined_parameters": ""
+      "org_defined_parameters": "US DoD ODP Value: only as enumerated and justified in the System Security Plan before such remote activation occurs, and only when there are no other options, and the remote activation is operationally critical"
     }
   ]
 }

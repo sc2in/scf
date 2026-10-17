@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-PE-1",
+  "grouping": "Personnel",
+  "name": "Loss of Critical Knowledge / Capability",
+  "description": "The organization loses essential knowledge, skills, authority or operational capability because critical personnel are unavailable, depart or cannot perform required duties.",
+  "nist_csf_function": "Protect"
+}

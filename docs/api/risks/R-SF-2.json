@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-SF-2",
+  "grouping": "Safety",
+  "name": "Physical / Environmental Damage",
+  "description": "A control deficiency contributes to damage or destruction of:\n(1) Physical assets;\n(2) Facilities;\n(3) Equipment; and/or\n(4) The environment.",
+  "nist_csf_function": "Protect"
+}

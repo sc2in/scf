@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-19",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-19",
+      "ao_id": "CPL-19_A01",
+      "objective": "a formal process exists to receive and document government agency data requests and to determine whether the agency has an applicable and valid legal basis for the request.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-19",
+      "ao_id": "CPL-19_A02",
+      "objective": "based on an applicable and valid legal basis for a data request by a government agency, data request fulfillment actions are formally assigned to an individual or group with explicitly-specified criteria that limit disclosure to the data the legal basis requires.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

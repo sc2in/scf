@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-09.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-09.1",
+      "ao_id": "GOV-09.1_A01",
+      "objective": "governance oversight reporting and recommendations on matters considered material to the organization's Security, Compliance & Resilience Program (SCRP) are provided to executives, per an organization-defined frequency, to enable decisions on those matters.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-09.1",
+      "ao_id": "GOV-09.1_A02",
+      "objective": "the frequency at which governance oversight reporting and recommendations are provided to executives is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

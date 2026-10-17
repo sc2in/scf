@@ -1,12 +1,12 @@
 {
   "scf_control_id": "CLD-02",
-  "total": 2,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "CLD-02",
       "ao_id": "CLD-02_A01",
-      "objective": "a cloud security architecture is defined to address cloud employments that support the organization's mission.",
-      "pptdf": "Process",
+      "objective": "cloud management controls are implemented so that cloud instances are securely configured and maintained.",
+      "pptdf": "Facility",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -15,10 +15,50 @@
     {
       "scf_control_id": "CLD-02",
       "ao_id": "CLD-02_A02",
-      "objective": "the cloud security architecture supports the organization's technology strategy to securely design, configure and maintain cloud employments.",
-      "pptdf": "Technology",
+      "objective": "secure baseline configurations exist for cloud-based systems, applications and services to protect the confidentiality, integrity and availability of data being stored, processed and/or transmitted.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "an industry-recognized secure configuration benchmark, or a documented equivalent",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-02",
+      "ao_id": "CLD-02_A03",
+      "objective": "cloud management operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-02",
+      "ao_id": "CLD-02_A04",
+      "objective": "resources are assigned to support cloud management operations, including at a minimum: people, processes, technologies, data and facilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-02",
+      "ao_id": "CLD-02_A05",
+      "objective": "responsibility and authority for the performance of cloud management-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-02",
+      "ao_id": "CLD-02_A06",
+      "objective": "personnel performing cloud management-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

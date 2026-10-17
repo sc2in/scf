@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-CPL-16",
+  "area": "Compliance",
+  "artifact_name": "Export Control (Dual-Use Technology) Documentation",
+  "artifact_description": "Documented evidence of export control determinations (e.g., USML / CCL identification), export-controlled access restrictions and export activity records.",
+  "scf_controls": [
+    "CPL-24",
+    "CPL-24.1",
+    "CPL-24.2",
+    "CPL-24.3",
+    "CRY-15"
+  ],
+  "cmmc_mapping": ""
+}

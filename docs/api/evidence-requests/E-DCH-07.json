@@ -4,8 +4,8 @@
   "artifact_name": "Media Sanitization Documentation",
   "artifact_description": "Documented evidence of media sanitization actions.",
   "scf_controls": [
-    "DCH-09",
-    "DCH-09.1"
+    "DCH-18",
+    "DCH-18.2"
   ],
   "cmmc_mapping": "MP.L1-3.8.3"
 }

@@ -4,7 +4,7 @@
   "artifact_name": "Maintenance - Authorized Maintenance Personnel",
   "artifact_description": "Documented evidence of personnel who have designated maintenance roles.",
   "scf_controls": [
-    "MNT-06.1"
+    "MNT-14"
   ],
   "cmmc_mapping": ""
 }

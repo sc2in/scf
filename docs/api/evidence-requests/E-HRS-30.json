@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-HRS-30",
+  "area": "Human Resources",
+  "artifact_name": "Suspicious Activity Reporting",
+  "artifact_description": "Documented evidence of the process and channel for personnel to report suspicious activities, including user threat reporting from messaging technologies.",
+  "scf_controls": [
+    "HRS-18",
+    "NET-40.8"
+  ],
+  "cmmc_mapping": ""
+}

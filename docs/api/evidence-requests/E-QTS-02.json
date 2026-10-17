@@ -4,7 +4,8 @@
   "artifact_name": "Post-Quantum Cryptography (PQC)-Specific Status Reporting",
   "artifact_description": "Documented evidence of a Post-Quantum Cryptography (PQC)-specific board / risk committee reporting pack (e.g., status, metrics/analytics, exceptions, etc.).",
   "scf_controls": [
-    "QTS-01"
+    "QTS-02",
+    "QTS-06.2"
   ],
   "cmmc_mapping": ""
 }

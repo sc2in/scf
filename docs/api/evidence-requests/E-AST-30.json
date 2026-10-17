@@ -4,7 +4,7 @@
   "artifact_name": "System Events To Be Logged",
   "artifact_description": "Documented evidence of the justification for certain system events to be logged.",
   "scf_controls": [
-    "MON-01.16"
+    "MON-03.2"
   ],
   "cmmc_mapping": "AU.L2-3.3.1"
 }

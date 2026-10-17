@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CFG-03",
+  "area": "Asset Management",
+  "artifact_name": "Production Software Repository Protections",
+  "artifact_description": "Documented evidence of production software repository protections, including approved third-party libraries and repository access controls.",
+  "scf_controls": [
+    "CFG-17",
+    "CFG-17.1",
+    "CFG-17.2",
+    "CFG-17.3"
+  ],
+  "cmmc_mapping": ""
+}

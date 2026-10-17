@@ -5,21 +5,21 @@
     {
       "scf_control_id": "CRY-13",
       "ao_id": "CRY-13_A01",
-      "objective": "approved hash algorithms are defined.",
+      "objective": "automated mechanisms discover when new certificates are issued for organization-controlled domains.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least daily",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CRY-13",
       "ao_id": "CRY-13_A02",
-      "objective": "hash algorithms are to generate a hash value that can be used to validate the integrity of data and/or software.",
-      "pptdf": "Technology",
+      "objective": "incident response operations are initiated within an organization-defined period after detecting that new certificates were issued without authorization.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "no more than 24 hours after detection",
       "org_defined_parameters": ""
     }
   ]

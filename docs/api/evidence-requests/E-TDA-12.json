@@ -4,7 +4,8 @@
   "artifact_name": "Software Bill of Materials (SBOM)",
   "artifact_description": "Documented evidence of a Software Bill of Materials (SBOM).",
   "scf_controls": [
-    "TDA-04.2"
+    "TDA-21",
+    "TDA-21.4"
   ],
   "cmmc_mapping": ""
 }

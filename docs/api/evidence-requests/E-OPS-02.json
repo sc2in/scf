@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-OPS-02",
+  "area": "Security Operations",
+  "artifact_name": "Security Concept of Operations (CONOPS)",
+  "artifact_description": "Documented evidence of a Security Concept of Operations (CONOPS) describing how security operations are performed.",
+  "scf_controls": [
+    "OPS-02",
+    "OPS-03"
+  ],
+  "cmmc_mapping": ""
+}

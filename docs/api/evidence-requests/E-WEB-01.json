@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-WEB-01",
+  "area": "Website Security",
+  "artifact_name": "Web Security Standard & Application Framework",
+  "artifact_description": "Documented evidence of the organization's web security standard and approved web application framework(s).",
+  "scf_controls": [
+    "WEB-02",
+    "WEB-03",
+    "WEB-04"
+  ],
+  "cmmc_mapping": ""
+}

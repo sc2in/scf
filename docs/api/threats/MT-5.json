@@ -2,5 +2,5 @@
   "threat_id": "MT-5",
   "grouping": "Man-Made Threat",
   "name": "Physical Crime",
-  "description": "Physical crime includes \"traditional\" crimes of opportunity. These incidents can range from theft, to vandalism, riots, looting, arson and other forms of criminal activities."
+  "description": "Physical criminal activity that results in unauthorized entry, theft, vandalism, sabotage or damage to facilities, equipment, records or other assets needed for control execution."
 }

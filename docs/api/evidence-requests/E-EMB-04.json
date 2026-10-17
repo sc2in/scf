@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-EMB-04",
+  "area": "Asset Management",
+  "artifact_name": "Safety Instrumented System (SIS) Documentation",
+  "artifact_description": "Documented evidence of Safety Instrumented Systems (SIS), Safety Instrumented Functions (SIF), assigned Safety Integrity Levels (SIL) and safety assessments for embedded technologies.",
+  "scf_controls": [
+    "EMB-19",
+    "EMB-23",
+    "EMB-25",
+    "EMB-26",
+    "EMB-27"
+  ],
+  "cmmc_mapping": ""
+}

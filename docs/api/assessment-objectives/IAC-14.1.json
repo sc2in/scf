@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-14.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-14.1",
+      "ao_id": "IAC-14.1_A01",
+      "objective": "authentication credentials are changed at predefined intervals.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually for shared, service and privileged account credentials",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-14.1",
+      "ao_id": "IAC-14.1_A02",
+      "objective": "authentication credentials are changed upon suspicion of credential compromise.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 24 hours after the suspicion of compromise is raised",
+      "org_defined_parameters": ""
+    }
+  ]
+}

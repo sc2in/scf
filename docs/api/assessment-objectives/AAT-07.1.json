@@ -1,11 +1,11 @@
 {
   "scf_control_id": "AAT-07.1",
-  "total": 5,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-07.1",
       "ao_id": "AAT-07.1_A01",
-      "objective": "the organization characterizes the impacts of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on individuals.",
+      "objective": "the organization tracks AI models and AI agents deployed in development environments, capturing:\n(1) ownership;\n(2) intended purpose; and\n(3) status.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "AAT-07.1",
       "ao_id": "AAT-07.1_A02",
-      "objective": "the organization characterizes the impact of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on groups.",
+      "objective": "the organization tracks AI models and AI agents deployed in production environments, capturing:\n(1) ownership;\n(2) intended purpose; and\n(3) status.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,7 +25,7 @@
     {
       "scf_control_id": "AAT-07.1",
       "ao_id": "AAT-07.1_A03",
-      "objective": "the organization characterizes the impact of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on communities",
+      "objective": "the organization tracks updates to AI models and AI agents, capturing:\n(1) ownership;\n(2) intended purpose; and\n(3) status.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -35,17 +35,7 @@
     {
       "scf_control_id": "AAT-07.1",
       "ao_id": "AAT-07.1_A04",
-      "objective": "the organization characterizes the impact of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on organizations.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-07.1",
-      "ao_id": "AAT-07.1_A05",
-      "objective": "the organization characterizes the impact of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on society.",
+      "objective": "the organization tracks decommissioned AI models and AI agents, capturing:\n(1) ownership;\n(2) intended purpose; and\n(3) date of decommissioning.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

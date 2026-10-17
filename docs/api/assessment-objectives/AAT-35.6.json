@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-35.6",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-35.6",
+      "ao_id": "AAT-35.6_A01",
+      "objective": "serious incidents and/or irregularities associated with the deployment of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are reported to the AAT provider within an organization-defined period.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 72 hours after the serious incident or irregularity is identified",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-35.6",
+      "ao_id": "AAT-35.6_A02",
+      "objective": "serious incidents and/or irregularities associated with the deployment of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are reported to the AAT importer or distributor within an organization-defined period, where the AAT was obtained through an importer or distributor.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 72 hours after the serious incident or irregularity is identified",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-35.6",
+      "ao_id": "AAT-35.6_A03",
+      "objective": "serious incidents and/or irregularities associated with the deployment of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are reported to local law enforcement authorities and/or governmental agencies within the period required by applicable statutory or regulatory requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no later than the shortest applicable statutory or regulatory reporting deadline",
+      "org_defined_parameters": ""
+    }
+  ]
+}

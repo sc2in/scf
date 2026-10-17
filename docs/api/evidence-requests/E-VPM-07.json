@@ -1,10 +1,11 @@
 {
   "erl_id": "E-VPM-07",
-  "area": "Vulnerability Management",
+  "area": "Vulnerability & Patch Management",
   "artifact_name": "Flaw Remediation Change Control",
   "artifact_description": "Documented evidence of installation/change control records for security-relevant software and firmware updates.",
   "scf_controls": [
-    "VPM-01.1"
+    "CHG-03",
+    "VPM-08"
   ],
   "cmmc_mapping": ""
 }

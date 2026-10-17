@@ -4,7 +4,8 @@
   "artifact_name": "IRP Updates",
   "artifact_description": "Documented evidence of a periodic review process for the organization's Incident Response Plan (IRP) to identify necessary updates.",
   "scf_controls": [
-    "IRO-04.2"
+    "IRO-03",
+    "IRO-08.1"
   ],
   "cmmc_mapping": ""
 }

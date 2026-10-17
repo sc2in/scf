@@ -4,9 +4,8 @@
   "artifact_name": "Material Risk Definition",
   "artifact_description": "Documented evidence of criteria necessary to designate a risk as a material risk.",
   "scf_controls": [
-    "GOV-16.1",
-    "RSK-13",
-    "RSK-13.2"
+    "GOV-07",
+    "RSK-06"
   ],
   "cmmc_mapping": ""
 }

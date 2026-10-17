@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-GOV-24",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Control Objectives & Assessment Objectives",
+  "artifact_description": "Documented evidence of defined control objectives and the Assessment Objectives (AOs) used to evaluate control implementation.",
+  "scf_controls": [
+    "GOV-03.1",
+    "GOV-03.3",
+    "GOV-03.4"
+  ],
+  "cmmc_mapping": ""
+}

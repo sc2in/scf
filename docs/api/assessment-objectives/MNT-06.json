@@ -5,30 +5,30 @@
     {
       "scf_control_id": "MNT-06",
       "ao_id": "MNT-06_A01",
-      "objective": "a process for maintenance personnel authorization is established.",
+      "objective": "system components on which predictive maintenance is to be performed are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_MA-05a.[01]\n171A_R3_A.03.07.06.a",
-      "assessment_rigor": "2",
+      "origin": "53A_R5_MA-06(02)_ODP[01]",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "MNT-06",
       "ao_id": "MNT-06_A02",
-      "objective": "a list of authorized maintenance organizations or personnel is maintained.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_MA-05a.[02]\n171A_R3_A.03.07.06.b",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
+      "objective": "time intervals within which predictive maintenance is to be performed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-06(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "a timeframe to support advertised uptime and availability",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "MNT-06",
       "ao_id": "MNT-06_A03",
-      "objective": "non-escorted personnel who perform maintenance on the system possess the required access authorizations.",
+      "objective": "predictive maintenance is performed on system components at organization-defined time intervals.",
       "pptdf": "Process",
-      "origin": "53A_R5_MA-05b.\n171A_R3_A.03.07.06.c",
-      "assessment_rigor": "2",
+      "origin": "53A_R5_MA-06(02)",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

@@ -1,11 +1,31 @@
 {
   "scf_control_id": "AST-19",
-  "total": 1,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-19",
       "ao_id": "AST-19_A01",
-      "objective": "implementation guidance for telecommunication equipment is established to prevent damage, unauthorized modification and potential eavesdropping.",
+      "objective": "the physical security protections required for rooms and/or facilities used to store Technology Assets, Applications, Services and/or Data (TAASD) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-19",
+      "ao_id": "AST-19_A02",
+      "objective": "processes exist to define criteria for Technology Assets, Applications, Services and/or Data (TAASD) storage.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-19",
+      "ao_id": "AST-19_A03",
+      "objective": "Technology Assets, Applications, Services and/or Data (TAASD) are stored in rooms and/or facilities that implement the organization-defined physical security protections.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MON-22.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-22.1",
+      "ao_id": "MON-22.1_A01",
+      "objective": "all Internet-bound requests are logged in order to identify prohibited activities and assist incident handlers with identifying potentially compromised systems.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

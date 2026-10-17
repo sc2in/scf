@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-32",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-32",
+      "ao_id": "NET-32_A01",
+      "objective": "Wireless Intrusion Detection / Prevention Systems (WIDS/WIPS) are utilized on wireless network segments.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

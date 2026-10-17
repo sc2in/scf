@@ -4,7 +4,7 @@
   "artifact_name": "Source Data Identification for Artificial Intelligence and Autonomous Technologies (AAT)",
   "artifact_description": "Documented evidence of data sources utilized in the training and/or operation of Artificial Intelligence and Autonomous Technologies (AAT).",
   "scf_controls": [
-    "AAT-12.1"
+    "AAT-18.1"
   ],
   "cmmc_mapping": ""
 }

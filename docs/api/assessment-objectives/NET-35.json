@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-35",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-35",
+      "ao_id": "NET-35_A01",
+      "objective": "information and data exchange between components using Application Programming Interfaces (APIs) supports secure data portability.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-35",
+      "ao_id": "NET-35_A02",
+      "objective": "secure interoperability between components is supported through the use of Application Programming Interfaces (APIs).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

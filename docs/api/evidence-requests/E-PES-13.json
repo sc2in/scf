@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-PES-13",
+  "area": "Physical Security",
+  "artifact_name": "Emergency Power & Utility Protections",
+  "artifact_description": "Documented evidence of emergency power, emergency shutoff, emergency lighting, voltage controls and redundant cabling.",
+  "scf_controls": [
+    "PES-20.1",
+    "PES-21",
+    "PES-22",
+    "PES-23",
+    "PES-25"
+  ],
+  "cmmc_mapping": ""
+}

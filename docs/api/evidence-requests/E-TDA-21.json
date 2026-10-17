@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-TDA-21",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Test Data Management",
+  "artifact_description": "Documented evidence of restrictions on the use of live / sensitive data in testing and test data integrity controls.",
+  "scf_controls": [
+    "DCH-28",
+    "DCH-36",
+    "TDA-18",
+    "TDA-18.1"
+  ],
+  "cmmc_mapping": ""
+}

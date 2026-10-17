@@ -4,13 +4,8 @@
   "artifact_name": "Secure Baseline Configurations Reviews",
   "artifact_description": "Documented evidence of a review process to ensure Secure Baseline Configurations (SBC) are current and applicable (e.g., system configuration settings and associated documentation).",
   "scf_controls": [
-    "CFG-02",
-    "CFG-02.1",
-    "CFG-02.5",
-    "CFG-03",
-    "NET-04",
-    "NET-04.1",
-    "NET-04.6"
+    "CFG-04",
+    "CFG-07"
   ],
   "cmmc_mapping": "CM.L2-3.4.8"
 }

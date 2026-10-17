@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "END-03.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-03.3",
+      "ao_id": "END-03.3_A01",
+      "objective": "system components that require diversity are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.1e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.3",
+      "ao_id": "END-03.3_A02",
+      "objective": "diversity in system components is created to reduce the extent of malicious code propagation.",
+      "pptdf": "Technology",
+      "origin": "172A_3.13.1e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.3",
+      "ao_id": "END-03.3_A03",
+      "objective": "endpoints that are generally not considered to be commonly affected by malicious software are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.3",
+      "ao_id": "END-03.3_A04",
+      "objective": "the frequency at which to evaluate evolving threats to endpoints that are generally not considered to be commonly affected by malicious software is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.3",
+      "ao_id": "END-03.3_A05",
+      "objective": "evolving threats to endpoints that are generally not considered to be commonly affected by malicious software are evaluated at the defined frequency to determine whether antimalware protection is required.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

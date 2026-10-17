@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CHG-10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-10",
+      "ao_id": "CHG-10_A01",
+      "objective": "criteria for \"emergency\" changes are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-10",
+      "ao_id": "CHG-10_A02",
+      "objective": "change management procedures govern \"emergency\" changes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

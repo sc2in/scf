@@ -1,11 +1,11 @@
 {
   "scf_control_id": "CPL-13",
-  "total": 2,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "CPL-13",
       "ao_id": "CPL-13_A01",
-      "objective": "work products (e.g., process artifacts) necessary to demonstrate conformity with applicable requirements are defined.",
+      "objective": "Assurance Levels (AL) for assessment activities are defined to standardize assurance attributes.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,17 @@
     {
       "scf_control_id": "CPL-13",
       "ao_id": "CPL-13_A02",
-      "objective": "work products (e.g., process artifacts) necessary to generated and retained to demonstrate conformity with applicable requirements.",
+      "objective": "Assurance Levels (AL) define depth criteria to address the rigor and level of detail of an assessment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-13",
+      "ao_id": "CPL-13_A03",
+      "objective": "Assurance Levels (AL) define coverage criteria to address the scope and breadth of an assessment.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

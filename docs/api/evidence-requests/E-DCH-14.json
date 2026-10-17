@@ -4,7 +4,8 @@
   "artifact_name": "Media Transportation Records",
   "artifact_description": "Documented evidence of media transportation records.",
   "scf_controls": [
-    "DCH-07"
+    "DCH-16",
+    "DCH-16.1"
   ],
   "cmmc_mapping": "MP.L2-3.8.6"
 }

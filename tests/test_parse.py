@@ -207,3 +207,75 @@ def test_operator_alias_surfaces_as_a_warn_finding(workbook_factory):
     assert alias_findings[0].severity == "warn"
     # A WARN must not block the gate.
     assert outcome.ok
+
+
+# ---------------------------------------------------------------------------
+# SCF 2026.3 layout: likelihood matrix, inline compensating controls
+# ---------------------------------------------------------------------------
+
+
+def test_2026_3_matrix_becomes_lists_and_likelihood_maps(workbook_factory):
+    result = parse_workbook(workbook_factory("layout-2026-3"), VERSION)
+    controls = {c["control_id"]: c for c in result.catalog["controls"]}
+
+    gov01 = controls["GOV-01"]
+    # Possible/Likely ids keep the pre-2026.3 meaning of the id lists, in column order.
+    assert gov01["risks"] == ["R-AC-1", "R-GV-1"]
+    assert gov01["threats"] == ["NT-1", "MT-1"]
+    # The maps keep every rating, Unlikely included.
+    assert gov01["risk_likelihood"] == {"R-AC-1": "Likely", "R-GV-1": "Possible"}
+    assert gov01["threat_likelihood"] == {"NT-1": "Likely", "NT-2": "Unlikely", "MT-1": "Possible"}
+
+    gov02 = controls["GOV-02"]
+    assert gov02["risks"] == [] and gov02["threats"] == []
+    assert set(gov02["risk_likelihood"].values()) == {"Unlikely"}
+
+
+def test_2026_3_matches_legacy_layout_everywhere_but_the_likelihood_maps(workbook_factory):
+    """One parser, two layouts: the same synthetic content yields the same data."""
+    old = parse_workbook(workbook_factory(), VERSION)
+    new = parse_workbook(workbook_factory("layout-2026-3"), VERSION)
+
+    for name in old.files:
+        if name == old.catalog_name:
+            continue
+        assert new.files[name] == old.files[name], name
+
+    for o, n in zip(old.catalog["controls"], new.catalog["controls"], strict=True):
+        n = {k: v for k, v in n.items() if k not in ("risk_likelihood", "threat_likelihood")}
+        assert n == o
+
+
+def test_2026_3_reads_compensating_controls_from_the_controls_tab(workbook_factory):
+    result = parse_workbook(workbook_factory("layout-2026-3"), VERSION)
+    cc = result.files["scf-compensating-controls.json"]
+    assert cc["total"] == 1
+    record = cc["compensating_controls"][0]
+    assert record["control_id"] == "GOV-01.1"
+    assert record["compensating_control_1"]["control_id"] == "GOV-02"
+    assert record["compensating_control_2"]["control_id"] == "MON-01"
+
+
+def test_2026_3_risk_name_survives_the_old_risk_id_column(workbook_factory):
+    result = parse_workbook(workbook_factory("layout-2026-3"), VERSION)
+    risks = result.files["scf-risks.json"]["risks"]
+    assert risks[0]["risk_id"] == "R-AC-1"
+    assert risks[0]["name"] == "No accountability"
+
+
+def test_unknown_likelihood_rating_fails_the_gate(workbook_factory, tmp_path):
+    from openpyxl import load_workbook
+
+    from scf_api.overrides import load_overrides
+    from scf_api.validate import validate_result
+
+    path = workbook_factory("layout-2026-3")
+    wb = load_workbook(path)
+    ws = wb["SCF 2099.1"]
+    col = next(c.column for c in ws[1] if c.value == "Risk R-AC-1")
+    ws.cell(row=2, column=col, value="Probable")
+    wb.save(path)
+
+    outcome = validate_result(parse_workbook(path, VERSION), load_overrides(None))
+    assert not outcome.ok
+    assert any(f.check == "likelihood-value" and f.value == "Probable" for f in outcome.findings)

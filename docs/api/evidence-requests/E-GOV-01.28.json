@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.28",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Security Operations Policy",
+  "artifact_description": "Documented evidence of a security operations policy.",
+  "scf_controls": [
+    "GOV-04",
+    "OPS-01"
+  ],
+  "cmmc_mapping": ""
+}

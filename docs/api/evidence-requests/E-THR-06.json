@@ -4,7 +4,7 @@
   "artifact_name": "Threat Catalog",
   "artifact_description": "Documented evidence of a threat catalog.",
   "scf_controls": [
-    "THR-09"
+    "THR-06"
   ],
   "cmmc_mapping": ""
 }

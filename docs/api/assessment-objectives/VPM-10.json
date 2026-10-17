@@ -5,20 +5,20 @@
     {
       "scf_control_id": "VPM-10",
       "ao_id": "VPM-10_A01",
-      "objective": "red team exercises to simulate attempts by adversaries to compromise organizational systems are defined.",
+      "objective": "a process to conduct reasonable testing of software and/or firmware patching in a non-production environment, prior to production release, is defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_CA-08(02)_ODP",
-      "assessment_rigor": "1",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "VPM-10",
       "ao_id": "VPM-10_A02",
-      "objective": "organization-defined red team exercises are employed to simulate attempts by adversaries to compromise organizational systems in accordance with applicable rules of engagement.",
-      "pptdf": "Process",
-      "origin": "53A_R5_CA-08(02)",
-      "assessment_rigor": "1",
+      "objective": "prior to production release, the organization performs reasonable testing of software and/or firmware patching in a non-production environment.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

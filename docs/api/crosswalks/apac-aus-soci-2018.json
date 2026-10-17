@@ -1,0 +1,156 @@
+{
+  "framework_id": "apac-aus-soci-2018",
+  "display_name": "Australia - Security of Critical Infrastructure Act 2018 (Compilation No. 9, 4 June 2026)",
+  "scf_to_framework": {
+    "total_mappings": 17,
+    "mappings": {
+      "GOV-03.2": [
+        "5"
+      ],
+      "CPL-06": [
+        "30DM"
+      ],
+      "CPL-06.1": [
+        "30DM"
+      ],
+      "CPL-08": [
+        "30CR"
+      ],
+      "CPL-27": [
+        "23",
+        "24",
+        "30AG",
+        "30CQ",
+        "30CZ"
+      ],
+      "IRO-03": [
+        "30CF"
+      ],
+      "IRO-08": [
+        "30CD",
+        "30CE",
+        "30CJ"
+      ],
+      "IRO-08.1": [
+        "30CF",
+        "30CG"
+      ],
+      "IRO-09": [
+        "30CM",
+        "30CN",
+        "30CQ"
+      ],
+      "IRO-14": [
+        "30CQ"
+      ],
+      "IRO-16": [
+        "30BC",
+        "30BD"
+      ],
+      "IRO-16.3": [
+        "30BC",
+        "30BD"
+      ],
+      "RSK-02": [
+        "30AE",
+        "30AF",
+        "30AH"
+      ],
+      "RSK-06": [
+        "30AH"
+      ],
+      "RSK-13": [
+        "30AH"
+      ],
+      "RSK-17": [
+        "30AH"
+      ],
+      "VPM-12": [
+        "30CU",
+        "30CY",
+        "30CZ"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 22,
+    "mappings": {
+      "5": [
+        "GOV-03.2"
+      ],
+      "23": [
+        "CPL-27"
+      ],
+      "24": [
+        "CPL-27"
+      ],
+      "30DM": [
+        "CPL-06",
+        "CPL-06.1"
+      ],
+      "30CR": [
+        "CPL-08"
+      ],
+      "30AG": [
+        "CPL-27"
+      ],
+      "30CQ": [
+        "CPL-27",
+        "IRO-09",
+        "IRO-14"
+      ],
+      "30CZ": [
+        "CPL-27",
+        "VPM-12"
+      ],
+      "30CF": [
+        "IRO-03",
+        "IRO-08.1"
+      ],
+      "30CD": [
+        "IRO-08"
+      ],
+      "30CE": [
+        "IRO-08"
+      ],
+      "30CJ": [
+        "IRO-08"
+      ],
+      "30CG": [
+        "IRO-08.1"
+      ],
+      "30CM": [
+        "IRO-09"
+      ],
+      "30CN": [
+        "IRO-09"
+      ],
+      "30BC": [
+        "IRO-16",
+        "IRO-16.3"
+      ],
+      "30BD": [
+        "IRO-16",
+        "IRO-16.3"
+      ],
+      "30AE": [
+        "RSK-02"
+      ],
+      "30AF": [
+        "RSK-02"
+      ],
+      "30AH": [
+        "RSK-02",
+        "RSK-06",
+        "RSK-13",
+        "RSK-17"
+      ],
+      "30CU": [
+        "VPM-12"
+      ],
+      "30CY": [
+        "VPM-12"
+      ]
+    }
+  }
+}

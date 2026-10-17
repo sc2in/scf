@@ -2,143 +2,140 @@
   "framework_id": "emea-esp-ccn-stic-825-2026",
   "display_name": "Spain - ICT Security Guide CCN - STIC 825 (2026)",
   "scf_to_framework": {
-    "total_mappings": 234,
+    "total_mappings": 233,
     "mappings": {
-      "GOV-01": [
-        "org.1",
-        "org.2",
-        "org.3"
-      ],
-      "GOV-01.2": [
-        "op.mon.2"
-      ],
       "GOV-02": [
         "org.1",
         "org.2",
         "org.3"
       ],
-      "GOV-03": [
+      "GOV-04": [
         "org.1",
         "org.2",
         "org.3"
       ],
-      "GOV-04": [
-        "org.4"
+      "GOV-04.1": [
+        "org.1",
+        "org.2",
+        "org.3"
       ],
       "GOV-05": [
+        "org.4"
+      ],
+      "GOV-09.1": [
         "op.mon.2"
       ],
-      "GOV-10": [
-        "mp.info.2"
+      "GOV-12": [
+        "op.mon.2"
       ],
-      "AST-01": [
+      "AST-02": [
         "op.cont.3"
       ],
-      "AST-01.1": [
+      "AST-04": [
+        "op.pl.2",
+        "op.exp.1"
+      ],
+      "AST-06": [
         "op.pl.2",
         "op.exp.1",
         "op.cont.3"
       ],
-      "AST-01.2": [
+      "AST-07": [
         "op.pl.2",
         "op.exp.1"
       ],
-      "AST-02": [
+      "AST-07.1": [
         "op.pl.2",
         "op.exp.1"
       ],
-      "AST-02.8": [
+      "AST-07.2": [
         "op.pl.2",
         "op.exp.1"
       ],
-      "AST-02.9": [
+      "AST-08.1": [
         "op.exp.2",
         "op.exp.3"
       ],
-      "AST-03": [
-        "op.pl.2",
-        "op.exp.1"
-      ],
-      "AST-03.1": [
-        "op.pl.2",
-        "op.exp.1"
-      ],
-      "AST-03.2": [
+      "AST-14": [
         "op.ext.3"
       ],
-      "AST-04": [
+      "AST-16": [
+        "mp.info.2"
+      ],
+      "AST-17": [
         "op.pl.2",
         "op.exp.1",
         "op.mon.1",
         "mp.com.1"
       ],
-      "AST-04.1": [
-        "mp.info.2"
+      "AST-17.2": [
+        "op.pl.2",
+        "op.exp.1"
       ],
-      "AST-06": [
+      "AST-20": [
         "mp.eq.1",
         "mp.eq.2",
         "mp.eq.3",
         "mp.eq.4"
       ],
-      "AST-07": [
+      "AST-21": [
         "mp.eq.3",
         "mp.eq.4"
       ],
-      "AST-11": [
+      "AST-24": [
         "mp.si.3",
         "mp.si.4",
         "mp.si.5"
       ],
-      "AST-12": [
+      "AST-25": [
         "mp.eq.3",
         "mp.eq.4",
         "mp.si.3",
         "mp.si.4",
         "mp.si.5"
       ],
-      "BCD-01": [
+      "BCD-02": [
         "op.cont.1",
         "op.cont.2",
         "op.cont.3"
       ],
-      "BCD-01.1": [
+      "BCD-07.3": [
         "op.cont.1",
         "op.cont.2",
         "op.cont.3"
       ],
-      "BCD-01.2": [
+      "BCD-07.4": [
         "op.cont.1",
         "op.cont.2",
         "op.cont.3"
       ],
-      "BCD-04": [
+      "BCD-10": [
         "op.cont.1",
         "op.cont.2",
         "op.cont.3"
       ],
-      "BCD-08": [
+      "BCD-12": [
         "op.cont.4"
       ],
-      "BCD-09": [
+      "BCD-13": [
         "op.cont.4"
       ],
-      "BCD-11": [
-        "mp.info.6"
-      ],
-      "BCD-11.1": [
-        "mp.info.6"
-      ],
-      "BCD-11.2": [
-        "mp.info.6"
-      ],
-      "BCD-11.4": [
-        "mp.info.6"
-      ],
-      "BCD-11.7": [
+      "BCD-21": [
         "op.cont.4"
       ],
-      "CAP-01": [
+      "BCD-24": [
+        "mp.info.6"
+      ],
+      "BCD-24.2": [
+        "mp.info.6"
+      ],
+      "BCD-24.3": [
+        "mp.info.6"
+      ],
+      "BCD-32": [
+        "mp.info.6"
+      ],
+      "CAP-02": [
         "op.pl.4",
         "mp.s.4"
       ],
@@ -146,43 +143,42 @@
         "op.pl.4",
         "mp.s.4"
       ],
-      "CHG-01": [
-        "op.exp.5"
-      ],
       "CHG-02": [
         "op.exp.5"
       ],
-      "CHG-02.2": [
+      "CHG-03": [
         "op.exp.5"
       ],
-      "CLD-01": [
+      "CHG-07": [
+        "op.exp.5"
+      ],
+      "CLD-02": [
         "op.nub.1"
       ],
-      "CLD-04": [
-        "mp.info.4",
-        "mp.s.2"
-      ],
-      "CPL-01": [
-        "op.mon.2"
-      ],
-      "CPL-01.1": [
-        "op.mon.2"
-      ],
-      "CPL-01.2": [
+      "CPL-02": [
         "op.mon.2"
       ],
       "CPL-03": [
         "op.mon.2"
       ],
-      "CFG-01": [
-        "op.exp.2",
-        "op.exp.3"
+      "CPL-05": [
+        "op.mon.2"
       ],
-      "CFG-01.1": [
-        "op.exp.2",
-        "op.exp.3"
+      "CPL-06": [
+        "op.mon.2"
       ],
       "CFG-02": [
+        "op.exp.2",
+        "op.exp.3"
+      ],
+      "CFG-03": [
+        "op.exp.2",
+        "op.exp.3"
+      ],
+      "CFG-03.2": [
+        "mp.sw.1"
+      ],
+      "CFG-04": [
         "op.acc.6",
         "op.exp.2",
         "op.exp.3",
@@ -190,36 +186,28 @@
         "mp.info.4",
         "mp.s.2"
       ],
-      "CFG-02.1": [
+      "CFG-04.1": [
+        "mp.eq.3",
+        "mp.eq.4"
+      ],
+      "CFG-07": [
         "op.exp.2",
         "op.exp.3"
       ],
-      "CFG-02.4": [
-        "mp.sw.1"
-      ],
-      "CFG-03": [
+      "CFG-12.1": [
         "op.exp.2",
         "op.exp.3"
-      ],
-      "MON-01": [
-        "op.exp.8"
-      ],
-      "MON-01.4": [
-        "op.exp.8"
       ],
       "MON-02": [
         "op.exp.8"
       ],
-      "MON-02.1": [
+      "MON-04": [
         "op.exp.8"
       ],
-      "MON-02.2": [
+      "MON-05": [
         "op.exp.8"
       ],
-      "MON-03": [
-        "op.exp.8"
-      ],
-      "MON-03.3": [
+      "MON-05.1": [
         "op.exp.8"
       ],
       "MON-06": [
@@ -228,28 +216,29 @@
       "MON-08": [
         "op.exp.8"
       ],
+      "MON-09": [
+        "op.exp.8"
+      ],
       "MON-11": [
+        "mp.info.4"
+      ],
+      "MON-12": [
+        "op.exp.8"
+      ],
+      "MON-14": [
+        "op.exp.8"
+      ],
+      "MON-17": [
         "op.mon.3"
       ],
-      "MON-11.3": [
+      "MON-19": [
         "op.mon.3"
       ],
-      "CRY-01": [
-        "op.exp.10",
-        "mp.si.2",
-        "mp.info.3",
-        "mp.info.4",
-        "mp.s.2"
+      "MON-25": [
+        "op.mon.1",
+        "mp.com.1"
       ],
-      "CRY-03": [
-        "op.exp.10",
-        "mp.si.2",
-        "mp.info.3",
-        "mp.info.4",
-        "mp.s.1",
-        "mp.s.2"
-      ],
-      "CRY-04": [
+      "CRY-02": [
         "op.exp.10",
         "mp.si.2",
         "mp.info.3",
@@ -259,59 +248,55 @@
       "CRY-05": [
         "op.exp.10",
         "mp.si.2",
-        "mp.info.3"
+        "mp.info.3",
+        "mp.info.4",
+        "mp.s.1",
+        "mp.s.2"
       ],
-      "CRY-09": [
+      "CRY-06": [
+        "op.exp.10",
+        "mp.si.2",
+        "mp.info.3",
+        "mp.info.4",
+        "mp.s.2"
+      ],
+      "CRY-07": [
         "op.exp.10",
         "mp.si.2",
         "mp.info.3"
       ],
-      "CRY-09.3": [
+      "CRY-10": [
         "op.exp.10",
         "mp.si.2",
         "mp.info.3"
       ],
-      "CRY-09.4": [
+      "CRY-10.3": [
         "op.exp.10",
         "mp.si.2",
         "mp.info.3"
       ],
-      "DCH-01": [
-        "op.pl.2",
-        "op.exp.1",
-        "mp.si.3",
-        "mp.si.4",
-        "mp.si.5",
-        "mp.info.2"
+      "CRY-10.4": [
+        "op.exp.10",
+        "mp.si.2",
+        "mp.info.3"
       ],
       "DCH-02": [
         "op.pl.2",
         "op.exp.1",
-        "mp.info.2"
-      ],
-      "DCH-03": [
-        "mp.si.3",
-        "mp.si.4",
-        "mp.si.5"
-      ],
-      "DCH-04": [
-        "mp.si.1"
-      ],
-      "DCH-06": [
-        "mp.si.3",
-        "mp.si.4",
-        "mp.si.5"
-      ],
-      "DCH-07": [
         "mp.si.3",
         "mp.si.4",
         "mp.si.5",
-        "mp.s.1"
+        "mp.info.2"
+      ],
+      "DCH-03": [
+        "mp.info.2"
+      ],
+      "DCH-04": [
+        "op.pl.2",
+        "op.exp.1",
+        "mp.info.2"
       ],
       "DCH-07.1": [
-        "mp.s.1"
-      ],
-      "DCH-07.2": [
         "mp.si.3",
         "mp.si.4",
         "mp.si.5"
@@ -321,65 +306,73 @@
         "mp.si.4",
         "mp.si.5"
       ],
-      "DCH-10": [
-        "mp.si.3",
-        "mp.si.4",
-        "mp.si.5"
-      ],
-      "DCH-10.1": [
-        "mp.si.3",
-        "mp.si.4",
-        "mp.si.5"
-      ],
-      "DCH-12": [
-        "mp.si.3",
-        "mp.si.4",
-        "mp.si.5"
-      ],
-      "DCH-14": [
+      "DCH-08.1": [
         "mp.s.1"
+      ],
+      "DCH-11": [
+        "mp.si.1"
+      ],
+      "DCH-13": [
+        "mp.si.3",
+        "mp.si.4",
+        "mp.si.5"
+      ],
+      "DCH-16": [
+        "mp.si.3",
+        "mp.si.4",
+        "mp.si.5"
+      ],
+      "DCH-16.2": [
+        "mp.si.3",
+        "mp.si.4",
+        "mp.si.5"
       ],
       "DCH-17": [
+        "mp.si.3",
+        "mp.si.4",
+        "mp.si.5"
+      ],
+      "DCH-19": [
+        "mp.si.3",
+        "mp.si.4",
+        "mp.si.5"
+      ],
+      "DCH-21": [
+        "mp.si.3",
+        "mp.si.4",
+        "mp.si.5"
+      ],
+      "DCH-25": [
         "mp.s.1"
       ],
-      "END-01": [
-        "op.acc.6",
+      "END-02": [
         "mp.eq.1",
         "mp.eq.2",
         "mp.eq.3",
         "mp.eq.4"
       ],
-      "END-02": [
+      "END-03": [
         "op.acc.6",
         "mp.eq.3",
         "mp.eq.4"
       ],
+      "END-03.2": [
+        "op.exp.6"
+      ],
       "END-04": [
         "op.exp.6"
       ],
-      "END-04.1": [
-        "op.exp.6"
-      ],
-      "END-09": [
-        "op.acc.6"
-      ],
-      "HRS-03": [
+      "HRS-04": [
         "org.4"
       ],
-      "HRS-04": [
+      "HRS-05": [
         "op.pl.1",
         "mp.per.1"
       ],
-      "HRS-04.1": [
+      "HRS-05.1": [
         "org.4",
         "op.pl.1",
         "mp.per.1"
-      ],
-      "HRS-05": [
-        "mp.s.1"
-      ],
-      "HRS-05.1": [
-        "mp.s.1"
       ],
       "HRS-06": [
         "mp.s.1"
@@ -387,71 +380,86 @@
       "HRS-06.1": [
         "mp.s.1"
       ],
-      "HRS-11": [
+      "HRS-07": [
+        "mp.s.1"
+      ],
+      "HRS-07.1": [
+        "mp.s.1"
+      ],
+      "HRS-14": [
         "op.acc.3",
         "op.acc.4",
         "op.acc.5"
       ],
-      "HRS-12": [
+      "HRS-15": [
         "op.acc.3"
       ],
-      "IAC-01": [
+      "IAC-02": [
         "op.acc.2",
         "op.acc.4",
         "op.acc.5"
       ],
-      "IAC-02": [
-        "op.acc.2"
-      ],
-      "IAC-03": [
-        "op.acc.1"
-      ],
       "IAC-04": [
-        "op.acc.1"
-      ],
-      "IAC-05": [
-        "op.acc.1"
-      ],
-      "IAC-07": [
         "op.acc.1",
         "op.acc.4",
         "op.acc.5"
       ],
-      "IAC-07.1": [
+      "IAC-04.1": [
         "op.acc.4",
         "op.acc.5"
       ],
-      "IAC-07.2": [
+      "IAC-04.2": [
         "op.acc.4",
         "op.acc.5"
       ],
-      "IAC-08": [
+      "IAC-06": [
         "op.acc.2"
       ],
-      "IAC-09": [
+      "IAC-08": [
+        "op.acc.1",
+        "op.acc.2",
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-08.1": [
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-08.4": [
         "op.acc.1"
       ],
       "IAC-09.1": [
-        "op.acc.1"
-      ],
-      "IAC-09.4": [
-        "op.acc.1"
+        "op.acc.4",
+        "op.acc.5"
       ],
       "IAC-10": [
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-10.11": [
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-15": [
-        "op.acc.1",
         "op.acc.2",
         "op.acc.4",
         "op.acc.5"
       ],
-      "IAC-15.1": [
+      "IAC-10.1": [
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-11.1": [
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-12": [
+        "op.acc.2",
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-13": [
+        "op.acc.1"
+      ],
+      "IAC-13.1": [
+        "op.acc.1"
+      ],
+      "IAC-13.5": [
+        "op.acc.1"
+      ],
+      "IAC-14": [
         "op.acc.4",
         "op.acc.5"
       ],
@@ -459,110 +467,98 @@
         "op.acc.4",
         "op.acc.5"
       ],
-      "IAC-15.3": [
-        "op.acc.1"
-      ],
-      "IAC-15.5": [
-        "op.acc.1"
-      ],
-      "IAC-16": [
-        "op.acc.2",
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-16.1": [
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-17": [
-        "op.acc.2",
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-19": [
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-20": [
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-20.1": [
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-20.2": [
-        "op.acc.4",
-        "op.acc.5"
-      ],
-      "IAC-20.3": [
-        "op.acc.4",
-        "op.acc.5"
-      ],
       "IAC-21": [
+        "op.acc.1"
+      ],
+      "IAC-23": [
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-25": [
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-25.1": [
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-25.2": [
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-26": [
+        "op.acc.4",
+        "op.acc.5"
+      ],
+      "IAC-30": [
         "op.acc.2",
         "op.acc.4",
         "op.acc.5"
       ],
-      "IAC-21.3": [
-        "op.acc.4",
-        "op.acc.5"
+      "IAC-32": [
+        "op.acc.2"
       ],
-      "IAC-22": [
+      "IAC-33": [
+        "op.acc.1"
+      ],
+      "IAC-34": [
+        "op.acc.1"
+      ],
+      "IAC-35": [
         "mp.eq.3",
         "mp.eq.4"
       ],
-      "IRO-01": [
-        "op.exp.7"
+      "IAC-36": [
+        "op.acc.1"
       ],
       "IRO-02": [
-        "op.exp.7",
-        "op.exp.9"
-      ],
-      "IRO-04": [
-        "op.exp.7",
-        "op.exp.9"
-      ],
-      "IRO-05": [
-        "op.cont.1",
-        "op.cont.2"
+        "op.exp.7"
       ],
       "IRO-06": [
-        "op.cont.3"
-      ],
-      "IRO-06.1": [
-        "op.cont.1",
-        "op.cont.2"
-      ],
-      "IRO-07": [
+        "op.exp.7",
         "op.exp.9"
       ],
       "IRO-08": [
+        "op.exp.7",
         "op.exp.9"
       ],
-      "IRO-11.2": [
+      "IRO-09": [
+        "op.cont.3"
+      ],
+      "IRO-09.1": [
         "op.cont.1",
         "op.cont.2"
       ],
+      "IRO-10": [
+        "op.cont.1",
+        "op.cont.2"
+      ],
+      "IRO-11": [
+        "op.exp.9"
+      ],
       "IRO-13": [
+        "op.exp.9"
+      ],
+      "IRO-14": [
         "op.exp.7"
       ],
-      "IAO-01": [
-        "op.ext.3"
+      "IRO-19.1": [
+        "op.cont.1",
+        "op.cont.2"
       ],
       "IAO-02": [
-        "op.ext.3",
-        "mp.sw.2"
-      ],
-      "IAO-02.2": [
-        "op.ext.3",
-        "mp.sw.2"
+        "op.ext.3"
       ],
       "IAO-04": [
-        "mp.sw.1"
+        "op.ext.3",
+        "mp.sw.2"
       ],
-      "MNT-01": [
-        "op.exp.4"
+      "IAO-05": [
+        "op.ext.3",
+        "mp.sw.2"
+      ],
+      "IAO-10": [
+        "mp.sw.1"
       ],
       "MNT-02": [
         "op.exp.4"
@@ -570,28 +566,23 @@
       "MNT-03": [
         "op.exp.4"
       ],
-      "MDM-01": [
-        "mp.eq.3",
-        "mp.eq.4"
+      "MNT-04": [
+        "op.exp.4"
       ],
       "MDM-02": [
         "mp.eq.3",
         "mp.eq.4"
       ],
-      "MDM-05": [
+      "MDM-09": [
         "mp.eq.3",
         "mp.eq.4"
       ],
-      "NET-01": [
+      "NET-02": [
         "op.mon.1",
         "mp.com.1",
         "mp.com.2",
         "mp.com.3",
         "mp.s.1"
-      ],
-      "NET-02": [
-        "op.mon.1",
-        "mp.com.1"
       ],
       "NET-03": [
         "op.mon.1",
@@ -619,26 +610,30 @@
         "op.ext.4",
         "mp.com.4"
       ],
-      "NET-08": [
-        "mp.com.2",
-        "mp.com.3"
-      ],
-      "NET-08.1": [
-        "op.mon.1",
-        "mp.com.1"
-      ],
-      "NET-13": [
-        "mp.s.1"
-      ],
-      "NET-15": [
-        "mp.com.2",
-        "mp.com.3"
-      ],
-      "NET-18": [
+      "NET-17": [
         "mp.s.1",
         "mp.s.3"
       ],
-      "PES-01": [
+      "NET-24": [
+        "mp.com.2",
+        "mp.com.3"
+      ],
+      "NET-31": [
+        "mp.com.2",
+        "mp.com.3"
+      ],
+      "NET-33": [
+        "op.ext.4",
+        "mp.com.4"
+      ],
+      "NET-35": [
+        "mp.info.4",
+        "mp.s.2"
+      ],
+      "NET-40.1": [
+        "mp.s.1"
+      ],
+      "PES-02": [
         "op.acc.2",
         "op.acc.4",
         "op.acc.5",
@@ -648,33 +643,33 @@
         "mp.if.6",
         "mp.s.1"
       ],
-      "PES-02": [
+      "PES-06": [
         "op.acc.2",
         "op.acc.4",
         "op.acc.5",
         "mp.if.1"
       ],
-      "PES-02.1": [
+      "PES-07": [
         "op.acc.2",
         "op.acc.4",
         "op.acc.5"
       ],
-      "PES-03": [
+      "PES-08": [
         "op.acc.2",
         "op.acc.4",
         "op.acc.5",
         "mp.if.1"
       ],
-      "PES-03.1": [
+      "PES-09": [
         "mp.if.1",
         "mp.if.2",
         "mp.if.7"
       ],
-      "PES-03.3": [
+      "PES-09.1": [
         "mp.if.2",
         "mp.if.7"
       ],
-      "PES-04": [
+      "PES-10": [
         "op.acc.2",
         "mp.if.1",
         "mp.if.3",
@@ -683,256 +678,256 @@
         "mp.eq.1",
         "mp.eq.2"
       ],
-      "PES-04.1": [
+      "PES-11": [
         "op.acc.2",
         "mp.if.2",
         "mp.if.7"
       ],
-      "PES-06": [
+      "PES-14": [
         "mp.if.2",
         "mp.if.7"
       ],
-      "PES-07": [
-        "mp.if.4"
-      ],
-      "PES-07.1": [
-        "mp.if.4"
-      ],
-      "PES-07.2": [
-        "mp.if.4"
-      ],
-      "PES-07.3": [
-        "mp.if.4"
-      ],
-      "PES-07.4": [
-        "mp.if.4"
-      ],
-      "PES-10": [
+      "PES-15": [
         "mp.if.2",
         "mp.if.7"
       ],
-      "PES-12": [
+      "PES-16": [
         "mp.if.3",
         "mp.if.5",
         "mp.if.6"
       ],
-      "PRI-01": [
+      "PES-20": [
+        "mp.if.4"
+      ],
+      "PES-20.1": [
+        "mp.if.4"
+      ],
+      "PES-21": [
+        "mp.if.4"
+      ],
+      "PES-22": [
+        "mp.if.4"
+      ],
+      "PES-23": [
+        "mp.if.4"
+      ],
+      "PRI-02": [
         "org.1",
         "org.2",
         "mp.info.1"
       ],
-      "PRI-01.3": [
-        "org.1",
-        "org.2"
-      ],
-      "PRI-01.6": [
-        "mp.info.1"
-      ],
-      "PRI-02": [
-        "mp.info.1"
-      ],
-      "PRI-02.1": [
-        "mp.info.1"
-      ],
-      "PRI-05.5": [
+      "PRI-07": [
         "op.pl.2",
         "op.exp.1"
       ],
-      "PRM-01": [
-        "op.pl.3"
+      "PRI-10": [
+        "mp.info.1"
+      ],
+      "PRI-20": [
+        "org.1",
+        "org.2"
+      ],
+      "PRI-21": [
+        "mp.info.1"
+      ],
+      "PRI-22": [
+        "mp.info.1"
       ],
       "PRM-04": [
         "op.pl.3"
-      ],
-      "PRM-05": [
-        "op.pl.2",
-        "op.pl.3",
-        "op.exp.1",
-        "mp.info.4",
-        "mp.s.2"
       ],
       "PRM-07": [
         "op.pl.3",
         "op.exp.5",
         "mp.sw.1"
       ],
-      "RSK-01": [
-        "mp.if.3",
-        "mp.if.5",
-        "mp.if.6"
-      ],
-      "RSK-01.1": [
+      "PRM-08": [
         "op.pl.3"
       ],
-      "RSK-03": [
-        "op.pl.3"
-      ],
-      "RSK-04": [
+      "PRM-09": [
+        "op.pl.2",
         "op.pl.3",
+        "op.exp.1",
+        "mp.info.4",
+        "mp.s.2"
+      ],
+      "RSK-02": [
         "mp.if.3",
         "mp.if.5",
         "mp.if.6"
       ],
-      "RSK-06": [
-        "op.pl.3"
-      ],
-      "RSK-06.1": [
+      "RSK-05": [
         "op.pl.3"
       ],
       "RSK-08": [
         "op.cont.3"
       ],
       "RSK-09": [
+        "op.pl.3"
+      ],
+      "RSK-13": [
+        "op.pl.3",
+        "mp.if.3",
+        "mp.if.5",
+        "mp.if.6"
+      ],
+      "RSK-16": [
+        "op.pl.3"
+      ],
+      "RSK-17": [
+        "op.pl.3"
+      ],
+      "RSK-20": [
         "op.ext.3"
       ],
-      "SEA-01": [
-        "mp.info.4",
-        "mp.s.2"
-      ],
-      "SEA-02": [
+      "SEA-04": [
         "op.pl.3",
         "mp.info.4",
         "mp.s.2"
       ],
-      "SEA-17": [
+      "SEA-05": [
+        "mp.info.4",
+        "mp.s.2"
+      ],
+      "SEA-06": [
+        "op.mon.1",
+        "mp.com.1"
+      ],
+      "SEA-27": [
         "op.acc.6"
       ],
-      "OPS-01": [
+      "OPS-02": [
         "org.3"
       ],
-      "OPS-01.1": [
+      "OPS-04": [
         "org.3"
       ],
-      "OPS-03": [
+      "OPS-05": [
         "org.3"
-      ],
-      "SAT-01": [
-        "mp.per.3",
-        "mp.per.4"
       ],
       "SAT-02": [
         "mp.per.3",
         "mp.per.4"
       ],
-      "SAT-03": [
+      "SAT-04": [
         "mp.per.3",
         "mp.per.4"
       ],
-      "TDA-01": [
-        "mp.sw.1"
+      "SAT-05": [
+        "mp.per.3",
+        "mp.per.4"
       ],
       "TDA-02": [
+        "mp.sw.1"
+      ],
+      "TDA-03": [
         "mp.sw.1",
         "mp.sw.2"
       ],
-      "TDA-02.3": [
-        "mp.sw.1",
-        "mp.sw.2"
-      ],
-      "TDA-06": [
+      "TDA-05": [
         "mp.sw.1",
         "mp.info.4",
         "mp.s.2"
       ],
-      "TDA-06.1": [
+      "TDA-05.1": [
         "mp.sw.2"
       ],
-      "TDA-07": [
-        "mp.sw.1"
-      ],
-      "TDA-08": [
-        "mp.sw.1"
-      ],
-      "TDA-09": [
+      "TDA-11.1": [
         "mp.sw.1",
         "mp.sw.2"
       ],
-      "TDA-14": [
+      "TDA-15": [
+        "mp.sw.1"
+      ],
+      "TDA-15.1": [
+        "mp.sw.1"
+      ],
+      "TDA-17": [
+        "mp.sw.1",
+        "mp.sw.2"
+      ],
+      "TDA-20": [
         "op.exp.5"
-      ],
-      "TPM-01": [
-        "op.ext.1"
-      ],
-      "TPM-01.1": [
-        "op.ext.1"
       ],
       "TPM-02": [
         "op.ext.1"
       ],
       "TPM-03": [
+        "op.ext.2",
+        "op.ext.3"
+      ],
+      "TPM-04": [
         "op.ext.1",
         "op.ext.2",
         "op.ext.3"
       ],
-      "TPM-03.1": [
-        "op.ext.2",
-        "op.ext.3"
-      ],
-      "TPM-03.2": [
-        "op.ext.1"
-      ],
-      "TPM-03.3": [
+      "TPM-04.1": [
         "op.ext.1",
         "op.ext.2"
       ],
-      "TPM-04": [
-        "op.ext.1"
-      ],
-      "TPM-04.1": [
-        "op.ext.1"
-      ],
-      "TPM-04.3": [
-        "op.ext.1"
-      ],
-      "TPM-04.4": [
-        "op.ext.3"
-      ],
-      "TPM-05": [
-        "op.ext.1",
-        "op.ext.3",
-        "mp.com.2",
-        "mp.com.3"
-      ],
-      "TPM-05.1": [
-        "op.ext.3"
-      ],
-      "TPM-05.4": [
-        "org.4"
-      ],
-      "TPM-06": [
-        "org.4",
+      "TPM-04.2": [
         "op.ext.1"
       ],
       "TPM-08": [
-        "op.ext.1",
-        "op.ext.2",
-        "mp.com.2",
-        "mp.com.3"
+        "op.ext.1"
       ],
       "TPM-09": [
         "op.ext.1"
       ],
       "TPM-10": [
-        "op.ext.2"
-      ],
-      "TPM-11": [
         "op.ext.1"
       ],
-      "THR-01": [
-        "op.mon.3"
+      "TPM-11": [
+        "org.4"
+      ],
+      "TPM-12": [
+        "op.ext.1"
+      ],
+      "TPM-12.1": [
+        "op.ext.1"
+      ],
+      "TPM-12.2": [
+        "op.ext.3"
+      ],
+      "TPM-13": [
+        "org.4",
+        "op.ext.1"
+      ],
+      "TPM-14": [
+        "op.ext.1",
+        "op.ext.3",
+        "mp.com.2",
+        "mp.com.3"
+      ],
+      "TPM-15": [
+        "op.ext.1",
+        "op.ext.2",
+        "mp.com.2",
+        "mp.com.3"
+      ],
+      "TPM-17": [
+        "op.ext.2"
+      ],
+      "TPM-18": [
+        "op.ext.1"
+      ],
+      "TPM-21": [
+        "op.ext.1"
+      ],
+      "TPM-21.1": [
+        "op.ext.3"
       ],
       "THR-02": [
         "op.mon.3"
       ],
-      "THR-03": [
+      "THR-04": [
         "op.mon.3"
       ],
-      "THR-03.1": [
+      "THR-05": [
         "op.mon.3"
       ],
-      "WEB-02": [
-        "op.ext.4",
-        "mp.com.4"
+      "THR-11": [
+        "op.mon.3"
       ]
     }
   },
@@ -940,606 +935,603 @@
     "total_mappings": 70,
     "mappings": {
       "org.1": [
-        "GOV-01",
         "GOV-02",
-        "GOV-03",
-        "PRI-01",
-        "PRI-01.3"
+        "GOV-04",
+        "GOV-04.1",
+        "PRI-02",
+        "PRI-20"
       ],
       "org.2": [
-        "GOV-01",
         "GOV-02",
-        "GOV-03",
-        "PRI-01",
-        "PRI-01.3"
+        "GOV-04",
+        "GOV-04.1",
+        "PRI-02",
+        "PRI-20"
       ],
       "org.3": [
-        "GOV-01",
         "GOV-02",
-        "GOV-03",
-        "OPS-01",
-        "OPS-01.1",
-        "OPS-03"
-      ],
-      "op.mon.2": [
-        "GOV-01.2",
-        "GOV-05",
-        "CPL-01",
-        "CPL-01.1",
-        "CPL-01.2",
-        "CPL-03"
+        "GOV-04",
+        "GOV-04.1",
+        "OPS-02",
+        "OPS-04",
+        "OPS-05"
       ],
       "org.4": [
-        "GOV-04",
-        "HRS-03",
-        "HRS-04.1",
-        "TPM-05.4",
-        "TPM-06"
+        "GOV-05",
+        "HRS-04",
+        "HRS-05.1",
+        "TPM-11",
+        "TPM-13"
       ],
-      "mp.info.2": [
-        "GOV-10",
-        "AST-04.1",
-        "DCH-01",
-        "DCH-02"
+      "op.mon.2": [
+        "GOV-09.1",
+        "GOV-12",
+        "CPL-02",
+        "CPL-03",
+        "CPL-05",
+        "CPL-06"
       ],
       "op.cont.3": [
-        "AST-01",
-        "AST-01.1",
-        "BCD-01",
-        "BCD-01.1",
-        "BCD-01.2",
-        "BCD-04",
-        "IRO-06",
+        "AST-02",
+        "AST-06",
+        "BCD-02",
+        "BCD-07.3",
+        "BCD-07.4",
+        "BCD-10",
+        "IRO-09",
         "RSK-08"
       ],
       "op.pl.2": [
-        "AST-01.1",
-        "AST-01.2",
-        "AST-02",
-        "AST-02.8",
-        "AST-03",
-        "AST-03.1",
         "AST-04",
-        "DCH-01",
+        "AST-06",
+        "AST-07",
+        "AST-07.1",
+        "AST-07.2",
+        "AST-17",
+        "AST-17.2",
         "DCH-02",
-        "PRI-05.5",
-        "PRM-05"
+        "DCH-04",
+        "PRI-07",
+        "PRM-09"
       ],
       "op.exp.1": [
-        "AST-01.1",
-        "AST-01.2",
-        "AST-02",
-        "AST-02.8",
-        "AST-03",
-        "AST-03.1",
         "AST-04",
-        "DCH-01",
+        "AST-06",
+        "AST-07",
+        "AST-07.1",
+        "AST-07.2",
+        "AST-17",
+        "AST-17.2",
         "DCH-02",
-        "PRI-05.5",
-        "PRM-05"
+        "DCH-04",
+        "PRI-07",
+        "PRM-09"
       ],
       "op.exp.2": [
-        "AST-02.9",
-        "CFG-01",
-        "CFG-01.1",
+        "AST-08.1",
         "CFG-02",
-        "CFG-02.1",
-        "CFG-03"
+        "CFG-03",
+        "CFG-04",
+        "CFG-07",
+        "CFG-12.1"
       ],
       "op.exp.3": [
-        "AST-02.9",
-        "CFG-01",
-        "CFG-01.1",
+        "AST-08.1",
         "CFG-02",
-        "CFG-02.1",
-        "CFG-03"
+        "CFG-03",
+        "CFG-04",
+        "CFG-07",
+        "CFG-12.1"
       ],
       "op.ext.3": [
-        "AST-03.2",
-        "IAO-01",
+        "AST-14",
         "IAO-02",
-        "IAO-02.2",
-        "RSK-09",
+        "IAO-04",
+        "IAO-05",
+        "RSK-20",
         "TPM-03",
-        "TPM-03.1",
-        "TPM-04.4",
-        "TPM-05",
-        "TPM-05.1"
+        "TPM-04",
+        "TPM-12.2",
+        "TPM-14",
+        "TPM-21.1"
+      ],
+      "mp.info.2": [
+        "AST-16",
+        "DCH-02",
+        "DCH-03",
+        "DCH-04"
       ],
       "op.mon.1": [
-        "AST-04",
-        "NET-01",
+        "AST-17",
+        "MON-25",
         "NET-02",
         "NET-03",
         "NET-04",
         "NET-04.1",
         "NET-06",
-        "NET-08.1"
+        "SEA-06"
       ],
       "mp.com.1": [
-        "AST-04",
-        "NET-01",
+        "AST-17",
+        "MON-25",
         "NET-02",
         "NET-03",
         "NET-04",
         "NET-04.1",
         "NET-06",
-        "NET-08.1"
+        "SEA-06"
       ],
       "mp.eq.1": [
-        "AST-06",
-        "END-01",
-        "PES-04"
+        "AST-20",
+        "END-02",
+        "PES-10"
       ],
       "mp.eq.2": [
-        "AST-06",
-        "END-01",
-        "PES-04"
+        "AST-20",
+        "END-02",
+        "PES-10"
       ],
       "mp.eq.3": [
-        "AST-06",
-        "AST-07",
-        "AST-12",
-        "END-01",
+        "AST-20",
+        "AST-21",
+        "AST-25",
+        "CFG-04.1",
         "END-02",
-        "IAC-22",
-        "MDM-01",
+        "END-03",
+        "IAC-35",
         "MDM-02",
-        "MDM-05"
+        "MDM-09"
       ],
       "mp.eq.4": [
-        "AST-06",
-        "AST-07",
-        "AST-12",
-        "END-01",
+        "AST-20",
+        "AST-21",
+        "AST-25",
+        "CFG-04.1",
         "END-02",
-        "IAC-22",
-        "MDM-01",
+        "END-03",
+        "IAC-35",
         "MDM-02",
-        "MDM-05"
+        "MDM-09"
       ],
       "mp.si.3": [
-        "AST-11",
-        "AST-12",
-        "DCH-01",
-        "DCH-03",
-        "DCH-06",
-        "DCH-07",
-        "DCH-07.2",
+        "AST-24",
+        "AST-25",
+        "DCH-02",
+        "DCH-07.1",
         "DCH-08",
-        "DCH-10",
-        "DCH-10.1",
-        "DCH-12"
+        "DCH-13",
+        "DCH-16",
+        "DCH-16.2",
+        "DCH-17",
+        "DCH-19",
+        "DCH-21"
       ],
       "mp.si.4": [
-        "AST-11",
-        "AST-12",
-        "DCH-01",
-        "DCH-03",
-        "DCH-06",
-        "DCH-07",
-        "DCH-07.2",
+        "AST-24",
+        "AST-25",
+        "DCH-02",
+        "DCH-07.1",
         "DCH-08",
-        "DCH-10",
-        "DCH-10.1",
-        "DCH-12"
+        "DCH-13",
+        "DCH-16",
+        "DCH-16.2",
+        "DCH-17",
+        "DCH-19",
+        "DCH-21"
       ],
       "mp.si.5": [
-        "AST-11",
-        "AST-12",
-        "DCH-01",
-        "DCH-03",
-        "DCH-06",
-        "DCH-07",
-        "DCH-07.2",
+        "AST-24",
+        "AST-25",
+        "DCH-02",
+        "DCH-07.1",
         "DCH-08",
-        "DCH-10",
-        "DCH-10.1",
-        "DCH-12"
+        "DCH-13",
+        "DCH-16",
+        "DCH-16.2",
+        "DCH-17",
+        "DCH-19",
+        "DCH-21"
       ],
       "op.cont.1": [
-        "BCD-01",
-        "BCD-01.1",
-        "BCD-01.2",
-        "BCD-04",
-        "IRO-05",
-        "IRO-06.1",
-        "IRO-11.2"
+        "BCD-02",
+        "BCD-07.3",
+        "BCD-07.4",
+        "BCD-10",
+        "IRO-09.1",
+        "IRO-10",
+        "IRO-19.1"
       ],
       "op.cont.2": [
-        "BCD-01",
-        "BCD-01.1",
-        "BCD-01.2",
-        "BCD-04",
-        "IRO-05",
-        "IRO-06.1",
-        "IRO-11.2"
+        "BCD-02",
+        "BCD-07.3",
+        "BCD-07.4",
+        "BCD-10",
+        "IRO-09.1",
+        "IRO-10",
+        "IRO-19.1"
       ],
       "op.cont.4": [
-        "BCD-08",
-        "BCD-09",
-        "BCD-11.7"
+        "BCD-12",
+        "BCD-13",
+        "BCD-21"
       ],
       "mp.info.6": [
-        "BCD-11",
-        "BCD-11.1",
-        "BCD-11.2",
-        "BCD-11.4"
+        "BCD-24",
+        "BCD-24.2",
+        "BCD-24.3",
+        "BCD-32"
       ],
       "op.pl.4": [
-        "CAP-01",
+        "CAP-02",
         "CAP-03"
       ],
       "mp.s.4": [
-        "CAP-01",
+        "CAP-02",
         "CAP-03"
       ],
       "op.exp.5": [
-        "CHG-01",
         "CHG-02",
-        "CHG-02.2",
+        "CHG-03",
+        "CHG-07",
         "PRM-07",
-        "TDA-14"
+        "TDA-20"
       ],
       "op.nub.1": [
-        "CLD-01"
-      ],
-      "mp.info.4": [
-        "CLD-04",
-        "CFG-02",
-        "CRY-01",
-        "CRY-03",
-        "CRY-04",
-        "PRM-05",
-        "SEA-01",
-        "SEA-02",
-        "TDA-06"
-      ],
-      "mp.s.2": [
-        "CLD-04",
-        "CFG-02",
-        "CRY-01",
-        "CRY-03",
-        "CRY-04",
-        "PRM-05",
-        "SEA-01",
-        "SEA-02",
-        "TDA-06"
-      ],
-      "op.acc.6": [
-        "CFG-02",
-        "END-01",
-        "END-02",
-        "END-09",
-        "SEA-17"
+        "CLD-02"
       ],
       "mp.sw.1": [
-        "CFG-02",
-        "CFG-02.4",
-        "IAO-04",
+        "CFG-03.2",
+        "CFG-04",
+        "IAO-10",
         "PRM-07",
-        "TDA-01",
         "TDA-02",
-        "TDA-02.3",
-        "TDA-06",
-        "TDA-07",
-        "TDA-08",
-        "TDA-09"
+        "TDA-03",
+        "TDA-05",
+        "TDA-11.1",
+        "TDA-15",
+        "TDA-15.1",
+        "TDA-17"
+      ],
+      "op.acc.6": [
+        "CFG-04",
+        "END-03",
+        "SEA-27"
+      ],
+      "mp.info.4": [
+        "CFG-04",
+        "MON-11",
+        "CRY-02",
+        "CRY-05",
+        "CRY-06",
+        "NET-35",
+        "PRM-09",
+        "SEA-04",
+        "SEA-05",
+        "TDA-05"
+      ],
+      "mp.s.2": [
+        "CFG-04",
+        "CRY-02",
+        "CRY-05",
+        "CRY-06",
+        "NET-35",
+        "PRM-09",
+        "SEA-04",
+        "SEA-05",
+        "TDA-05"
       ],
       "op.exp.8": [
-        "MON-01",
-        "MON-01.4",
         "MON-02",
-        "MON-02.1",
-        "MON-02.2",
-        "MON-03",
-        "MON-03.3",
+        "MON-04",
+        "MON-05",
+        "MON-05.1",
         "MON-06",
-        "MON-08"
+        "MON-08",
+        "MON-09",
+        "MON-12",
+        "MON-14"
       ],
       "op.mon.3": [
-        "MON-11",
-        "MON-11.3",
-        "THR-01",
+        "MON-17",
+        "MON-19",
         "THR-02",
-        "THR-03",
-        "THR-03.1"
+        "THR-04",
+        "THR-05",
+        "THR-11"
       ],
       "op.exp.10": [
-        "CRY-01",
-        "CRY-03",
-        "CRY-04",
+        "CRY-02",
         "CRY-05",
-        "CRY-09",
-        "CRY-09.3",
-        "CRY-09.4"
+        "CRY-06",
+        "CRY-07",
+        "CRY-10",
+        "CRY-10.3",
+        "CRY-10.4"
       ],
       "mp.si.2": [
-        "CRY-01",
-        "CRY-03",
-        "CRY-04",
+        "CRY-02",
         "CRY-05",
-        "CRY-09",
-        "CRY-09.3",
-        "CRY-09.4"
+        "CRY-06",
+        "CRY-07",
+        "CRY-10",
+        "CRY-10.3",
+        "CRY-10.4"
       ],
       "mp.info.3": [
-        "CRY-01",
-        "CRY-03",
-        "CRY-04",
+        "CRY-02",
         "CRY-05",
-        "CRY-09",
-        "CRY-09.3",
-        "CRY-09.4"
+        "CRY-06",
+        "CRY-07",
+        "CRY-10",
+        "CRY-10.3",
+        "CRY-10.4"
       ],
       "mp.s.1": [
-        "CRY-03",
-        "DCH-07",
-        "DCH-07.1",
-        "DCH-14",
-        "DCH-17",
-        "HRS-05",
-        "HRS-05.1",
+        "CRY-05",
+        "DCH-08.1",
+        "DCH-25",
         "HRS-06",
         "HRS-06.1",
-        "NET-01",
+        "HRS-07",
+        "HRS-07.1",
+        "NET-02",
         "NET-04",
         "NET-04.1",
-        "NET-13",
-        "NET-18",
-        "PES-01"
+        "NET-17",
+        "NET-40.1",
+        "PES-02"
       ],
       "mp.si.1": [
-        "DCH-04"
+        "DCH-11"
       ],
       "op.exp.6": [
-        "END-04",
-        "END-04.1"
+        "END-03.2",
+        "END-04"
       ],
       "op.pl.1": [
-        "HRS-04",
-        "HRS-04.1"
+        "HRS-05",
+        "HRS-05.1"
       ],
       "mp.per.1": [
-        "HRS-04",
-        "HRS-04.1"
+        "HRS-05",
+        "HRS-05.1"
       ],
       "op.acc.3": [
-        "HRS-11",
-        "HRS-12"
+        "HRS-14",
+        "HRS-15"
       ],
       "op.acc.4": [
-        "HRS-11",
-        "IAC-01",
-        "IAC-07",
-        "IAC-07.1",
-        "IAC-07.2",
+        "HRS-14",
+        "IAC-02",
+        "IAC-04",
+        "IAC-04.1",
+        "IAC-04.2",
+        "IAC-08",
+        "IAC-08.1",
+        "IAC-09.1",
         "IAC-10",
-        "IAC-10.11",
-        "IAC-15",
-        "IAC-15.1",
+        "IAC-10.1",
+        "IAC-11.1",
+        "IAC-12",
+        "IAC-14",
         "IAC-15.2",
-        "IAC-16",
-        "IAC-16.1",
-        "IAC-17",
-        "IAC-19",
-        "IAC-20",
-        "IAC-20.1",
-        "IAC-20.2",
-        "IAC-20.3",
-        "IAC-21",
-        "IAC-21.3",
-        "PES-01",
+        "IAC-23",
+        "IAC-25",
+        "IAC-25.1",
+        "IAC-25.2",
+        "IAC-26",
+        "IAC-30",
         "PES-02",
-        "PES-02.1",
-        "PES-03"
+        "PES-06",
+        "PES-07",
+        "PES-08"
       ],
       "op.acc.5": [
-        "HRS-11",
-        "IAC-01",
-        "IAC-07",
-        "IAC-07.1",
-        "IAC-07.2",
+        "HRS-14",
+        "IAC-02",
+        "IAC-04",
+        "IAC-04.1",
+        "IAC-04.2",
+        "IAC-08",
+        "IAC-08.1",
+        "IAC-09.1",
         "IAC-10",
-        "IAC-10.11",
-        "IAC-15",
-        "IAC-15.1",
+        "IAC-10.1",
+        "IAC-11.1",
+        "IAC-12",
+        "IAC-14",
         "IAC-15.2",
-        "IAC-16",
-        "IAC-16.1",
-        "IAC-17",
-        "IAC-19",
-        "IAC-20",
-        "IAC-20.1",
-        "IAC-20.2",
-        "IAC-20.3",
-        "IAC-21",
-        "IAC-21.3",
-        "PES-01",
+        "IAC-23",
+        "IAC-25",
+        "IAC-25.1",
+        "IAC-25.2",
+        "IAC-26",
+        "IAC-30",
         "PES-02",
-        "PES-02.1",
-        "PES-03"
+        "PES-06",
+        "PES-07",
+        "PES-08"
       ],
       "op.acc.2": [
-        "IAC-01",
         "IAC-02",
+        "IAC-06",
         "IAC-08",
-        "IAC-15",
-        "IAC-16",
-        "IAC-17",
-        "IAC-21",
-        "PES-01",
+        "IAC-10",
+        "IAC-12",
+        "IAC-30",
+        "IAC-32",
         "PES-02",
-        "PES-02.1",
-        "PES-03",
-        "PES-04",
-        "PES-04.1"
+        "PES-06",
+        "PES-07",
+        "PES-08",
+        "PES-10",
+        "PES-11"
       ],
       "op.acc.1": [
-        "IAC-03",
         "IAC-04",
-        "IAC-05",
-        "IAC-07",
-        "IAC-09",
-        "IAC-09.1",
-        "IAC-09.4",
-        "IAC-15",
-        "IAC-15.3",
-        "IAC-15.5"
+        "IAC-08",
+        "IAC-08.4",
+        "IAC-13",
+        "IAC-13.1",
+        "IAC-13.5",
+        "IAC-21",
+        "IAC-33",
+        "IAC-34",
+        "IAC-36"
       ],
       "op.exp.7": [
-        "IRO-01",
         "IRO-02",
-        "IRO-04",
-        "IRO-13"
+        "IRO-06",
+        "IRO-08",
+        "IRO-14"
       ],
       "op.exp.9": [
-        "IRO-02",
-        "IRO-04",
-        "IRO-07",
-        "IRO-08"
+        "IRO-06",
+        "IRO-08",
+        "IRO-11",
+        "IRO-13"
       ],
       "mp.sw.2": [
-        "IAO-02",
-        "IAO-02.2",
-        "TDA-02",
-        "TDA-02.3",
-        "TDA-06.1",
-        "TDA-09"
+        "IAO-04",
+        "IAO-05",
+        "TDA-03",
+        "TDA-05.1",
+        "TDA-11.1",
+        "TDA-17"
       ],
       "op.exp.4": [
-        "MNT-01",
         "MNT-02",
-        "MNT-03"
+        "MNT-03",
+        "MNT-04"
       ],
       "mp.com.2": [
-        "NET-01",
+        "NET-02",
         "NET-03",
-        "NET-08",
-        "NET-15",
-        "TPM-05",
-        "TPM-08"
+        "NET-24",
+        "NET-31",
+        "TPM-14",
+        "TPM-15"
       ],
       "mp.com.3": [
-        "NET-01",
+        "NET-02",
         "NET-03",
-        "NET-08",
-        "NET-15",
-        "TPM-05",
-        "TPM-08"
+        "NET-24",
+        "NET-31",
+        "TPM-14",
+        "TPM-15"
       ],
       "op.ext.4": [
         "NET-06",
         "NET-06.1",
-        "WEB-02"
+        "NET-33"
       ],
       "mp.com.4": [
         "NET-06",
         "NET-06.1",
-        "WEB-02"
+        "NET-33"
       ],
       "mp.s.3": [
-        "NET-18"
+        "NET-17"
       ],
       "mp.if.1": [
-        "PES-01",
         "PES-02",
-        "PES-03",
-        "PES-03.1",
-        "PES-04"
+        "PES-06",
+        "PES-08",
+        "PES-09",
+        "PES-10"
       ],
       "mp.if.3": [
-        "PES-01",
-        "PES-04",
-        "PES-12",
-        "RSK-01",
-        "RSK-04"
+        "PES-02",
+        "PES-10",
+        "PES-16",
+        "RSK-02",
+        "RSK-13"
       ],
       "mp.if.5": [
-        "PES-01",
-        "PES-04",
-        "PES-12",
-        "RSK-01",
-        "RSK-04"
+        "PES-02",
+        "PES-10",
+        "PES-16",
+        "RSK-02",
+        "RSK-13"
       ],
       "mp.if.6": [
-        "PES-01",
-        "PES-04",
-        "PES-12",
-        "RSK-01",
-        "RSK-04"
+        "PES-02",
+        "PES-10",
+        "PES-16",
+        "RSK-02",
+        "RSK-13"
       ],
       "mp.if.2": [
-        "PES-03.1",
-        "PES-03.3",
-        "PES-04.1",
-        "PES-06",
-        "PES-10"
+        "PES-09",
+        "PES-09.1",
+        "PES-11",
+        "PES-14",
+        "PES-15"
       ],
       "mp.if.7": [
-        "PES-03.1",
-        "PES-03.3",
-        "PES-04.1",
-        "PES-06",
-        "PES-10"
+        "PES-09",
+        "PES-09.1",
+        "PES-11",
+        "PES-14",
+        "PES-15"
       ],
       "mp.if.4": [
-        "PES-07",
-        "PES-07.1",
-        "PES-07.2",
-        "PES-07.3",
-        "PES-07.4"
+        "PES-20",
+        "PES-20.1",
+        "PES-21",
+        "PES-22",
+        "PES-23"
       ],
       "mp.info.1": [
-        "PRI-01",
-        "PRI-01.6",
         "PRI-02",
-        "PRI-02.1"
+        "PRI-10",
+        "PRI-21",
+        "PRI-22"
       ],
       "op.pl.3": [
-        "PRM-01",
         "PRM-04",
-        "PRM-05",
         "PRM-07",
-        "RSK-01.1",
-        "RSK-03",
-        "RSK-04",
-        "RSK-06",
-        "RSK-06.1",
-        "SEA-02"
+        "PRM-08",
+        "PRM-09",
+        "RSK-05",
+        "RSK-09",
+        "RSK-13",
+        "RSK-16",
+        "RSK-17",
+        "SEA-04"
       ],
       "mp.per.3": [
-        "SAT-01",
         "SAT-02",
-        "SAT-03"
+        "SAT-04",
+        "SAT-05"
       ],
       "mp.per.4": [
-        "SAT-01",
         "SAT-02",
-        "SAT-03"
+        "SAT-04",
+        "SAT-05"
       ],
       "op.ext.1": [
-        "TPM-01",
-        "TPM-01.1",
         "TPM-02",
-        "TPM-03",
-        "TPM-03.2",
-        "TPM-03.3",
         "TPM-04",
         "TPM-04.1",
-        "TPM-04.3",
-        "TPM-05",
-        "TPM-06",
+        "TPM-04.2",
         "TPM-08",
         "TPM-09",
-        "TPM-11"
+        "TPM-10",
+        "TPM-12",
+        "TPM-12.1",
+        "TPM-13",
+        "TPM-14",
+        "TPM-15",
+        "TPM-18",
+        "TPM-21"
       ],
       "op.ext.2": [
         "TPM-03",
-        "TPM-03.1",
-        "TPM-03.3",
-        "TPM-08",
-        "TPM-10"
+        "TPM-04",
+        "TPM-04.1",
+        "TPM-15",
+        "TPM-17"
       ]
     }
   }

@@ -1,11 +1,11 @@
 {
   "scf_control_id": "QTS-05",
-  "total": 4,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-05",
       "ao_id": "QTS-05_A01",
-      "objective": "differentiated quantum security training content is developed.",
+      "objective": "Harvest Now, Decrypt Later (HNDL) risk is mitigated through Zero Trust Network Architecture (ZTNA).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "QTS-05",
       "ao_id": "QTS-05_A02",
-      "objective": "differentiated quantum security awareness training to the general workforce.",
+      "objective": "ZTNA enforces continuous authentication.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,7 +25,7 @@
     {
       "scf_control_id": "QTS-05",
       "ao_id": "QTS-05_A03",
-      "objective": "differentiated quantum security awareness training to technical roles.",
+      "objective": "ZTNA enforces data microsegmentation.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -35,7 +35,17 @@
     {
       "scf_control_id": "QTS-05",
       "ao_id": "QTS-05_A04",
-      "objective": "differentiated quantum security awareness training to leadership roles.",
+      "objective": "ZTNA enforces least privilege.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-05",
+      "ao_id": "QTS-05_A05",
+      "objective": "ZTNA enforces identity-based access control.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

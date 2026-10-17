@@ -1,13 +1,23 @@
 {
   "scf_control_id": "CFG-09",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "CFG-09",
       "ao_id": "CFG-09_A01",
-      "objective": "an authoritative repository for production software is established.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
+      "objective": "the number of previous secure baseline configuration versions to be retained is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-02(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-09",
+      "ao_id": "CFG-09_A02",
+      "objective": "the organization-defined number of previous secure baseline configuration versions is retained to support roll back.",
+      "pptdf": "Data",
+      "origin": "53A_R5_CM-02(03)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

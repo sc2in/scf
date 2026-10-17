@@ -4,7 +4,8 @@
   "artifact_name": "Physical Access Control Logs",
   "artifact_description": "Documented evidence of physical access control logs or records.",
   "scf_controls": [
-    "PES-03"
+    "PES-09.1",
+    "PES-13"
   ],
   "cmmc_mapping": "IA.L2-3.5.6\nMP.L2-3.8.1\nPE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
 }

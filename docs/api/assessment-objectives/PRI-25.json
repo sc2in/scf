@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-25",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-25",
+      "ao_id": "PRI-25_A01",
+      "objective": "cookies are configured to be transmitted only over secure, encrypted channels (e.g., the Secure attribute is set).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-25",
+      "ao_id": "PRI-25_A02",
+      "objective": "session cookies are configured to prevent client-side script access (e.g., the HttpOnly attribute is set).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-25",
+      "ao_id": "PRI-25_A03",
+      "objective": "cookies are configured to constrain cross-site transmission (e.g., the SameSite attribute is set).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

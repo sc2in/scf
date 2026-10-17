@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-17.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-17.2",
+      "ao_id": "BCD-17.2_A01",
+      "objective": "services are obtained from alternative providers that are different from the primary service providers to reduce susceptibility to the same threats.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-08(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-17.2",
+      "ao_id": "BCD-17.2_A02",
+      "objective": "the services for which alternative providers are to be obtained are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

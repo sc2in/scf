@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-34",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-34",
+      "ao_id": "AST-34_A01",
+      "objective": "a \"jump box\" or \"jump server\" is established in a secure network zone that is separate from user workstations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-34",
+      "ao_id": "AST-34_A02",
+      "objective": "non-console system administrative functions are performed only through a \"jump box\" or \"jump server\" that is located in a network zone separate from user workstations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "DCH-19",
-  "total": 4,
+  "total": 8,
   "assessment_objectives": [
     {
       "scf_control_id": "DCH-19",
       "ao_id": "DCH-19_A01",
-      "objective": "locations where information processing and data storage is/are to be restricted are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SA-09(05)_ODP[01]\n53A_R5_SA-09(05)_ODP[02]",
+      "objective": "the use of removable media on system components is controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_3.8.7\n53A_R5_MP-07_ODP[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,32 +15,72 @@
     {
       "scf_control_id": "DCH-19",
       "ao_id": "DCH-19_A02",
-      "objective": "requirements or conditions for restricting the location of information processing, information storage or information services are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SA-09(05)_ODP[03]",
+      "objective": "organization-defined types of system media are restricted or prohibited.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at a minimum, writable removable digital media capable of storing sensitive / regulated data",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "DCH-19",
       "ao_id": "DCH-19_A03",
-      "objective": "based on requirements, information processing, information storage or information services is/are restricted to locations.",
+      "objective": "types of system media with usage restrictions or that are prohibited from use are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SA-09(05)",
-      "assessment_rigor": "1",
+      "origin": "53A_R5_MP-07_ODP[01]\n171A_R3_A.03.08.07.ODP[01]",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "DCH-19",
       "ao_id": "DCH-19_A04",
-      "objective": "the geographic location of information processing and data storage is restricted to facilities located within the legal jurisdictional boundary of the United States.",
-      "pptdf": "Data",
-      "origin": "53A_R5_SA-09(08)",
+      "objective": "systems or system components on which the use of specific types of system media to be restricted or prohibited are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-07_ODP[03]",
       "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-19",
+      "ao_id": "DCH-19_A05",
+      "objective": "controls to restrict or prohibit the use of specific types of system media on systems or system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-07_ODP[04]\n53A_R5_MP-07_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-19",
+      "ao_id": "DCH-19_A06",
+      "objective": "the use of types of system media is organization-defined criteria on systems or system components using controls.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-07a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-19",
+      "ao_id": "DCH-19_A07",
+      "objective": "the use of portable storage devices in organizational systems is prohibited when such devices have no identifiable owner.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-07b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-19",
+      "ao_id": "DCH-19_A08",
+      "objective": "the use of the following types of system media is restricted or prohibited: <A.03.08.07.ODP[01]: types of system media>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.08.07.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "any removable media not managed by or on behalf of the organization",
+      "org_defined_parameters": "US DoD ODP Value: any removable media not managed by or on behalf of the organization"
     }
   ]
 }

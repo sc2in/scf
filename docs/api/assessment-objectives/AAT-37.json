@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-37",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-37",
+      "ao_id": "AAT-37_A01",
+      "objective": "the sequence of events involved in creating and deploying Artificial Intelligence (AI) and Autonomous Technologies (AAT) is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-37",
+      "ao_id": "AAT-37_A02",
+      "objective": "the relevant stakeholders involved in creating and deploying Artificial Intelligence (AI) and Autonomous Technologies (AAT) are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

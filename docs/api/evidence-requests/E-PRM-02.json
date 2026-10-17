@@ -4,9 +4,9 @@
   "artifact_name": "Portfolio Roadmap",
   "artifact_description": "Documented evidence of the organization's roadmap for implementing cybersecurity-related initiatives and technologies.",
   "scf_controls": [
-    "PRM-01",
-    "PRM-02",
-    "PRM-03"
+    "PRM-04",
+    "PRM-05",
+    "PRM-06"
   ],
   "cmmc_mapping": ""
 }

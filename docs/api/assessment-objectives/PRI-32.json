@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-32",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-32",
+      "ao_id": "PRI-32_A01",
+      "objective": "Personal Data (PD) is collected directly from the data subject, whenever possible.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-18(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-32",
+      "ao_id": "PRI-32_A02",
+      "objective": "instances where Personal Data (PD) is not collected directly from the data subject are documented with the reason direct collection was not possible.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

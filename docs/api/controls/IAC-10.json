@@ -1,12 +1,14 @@
 {
   "control_id": "IAC-10",
-  "title": "Authenticator Management",
+  "title": "Privileged Account Management (PAM)",
   "family": "IAC",
-  "description": "Mechanisms exist to:\n(1) Securely manage authenticators for users and devices; and\n(2) Ensure the strength of authentication is appropriate to the classification of the data being accessed.",
-  "scf_question": "Does the organization:\n(1) Securely manage authenticators for users and devices; and\n(2) Ensure the strength of authentication is appropriate to the classification of the data being accessed?",
+  "description": "Mechanisms exist to restrict and control privileged access rights for users and Technology Assets, Applications and/or Services (TAAS).",
+  "scf_question": "Does the organization restrict and control privileged access rights for users and Technology Assets, Applications and/or Services (TAAS)?",
   "relative_weight": 10,
-  "conformity_cadence": "Annual",
-  "evidence_requests": [],
+  "conformity_cadence": "Quarterly",
+  "evidence_requests": [
+    "E-IAC-03"
+  ],
   "pptdf": "Technology",
   "nist_csf_function": "Protect",
   "scrm_focus": {
@@ -17,8 +19,8 @@
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
     "1": "Identification & Authentication (IAC) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAC domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Identity & Access Management (IAM)-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IAM controls are primarily administrative in nature (e.g., policies & standards) to manage accounts and permissions.\n▪ IT and/or cybersecurity personnel identify and implement IAM cybersecurity and data protection controls that are appropriate to address applicable statutory, regulatory and contractual requirements.",
-    "2": "Identification & Authentication (IAC) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Identity & Access Management (IAM)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines) to enforce Logical Access Control (LAC).\n▪ IAM may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel to implement Role Based Access Control (RBAC) practices for the management of user, group and system accounts, including privileged accounts.\n▪ A directory services technology is used to centrally manage identities and permissions with RBAC. Due to technical or business limitations, asset/process owners are empowered to operate a decentralized access control program for their specific Technology Assets, Applications and/or Services (TAAS) that cannot be integrated into directory services.\n▪ Configuration management and IAM functions collaborate to ensure Secure Baseline Configurations (SBC) enforce “least privileges” on TAAS.",
-    "3": "Identification & Authentication (IAC) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are well-documented and kept current by process owners.\n▪ An Identity & Access Management (IAM) team, or similar function, is appropriately staffed and supported to implement and maintain IAC domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of IAM operations (e.g., directory services, Authenticate, Authorize and Audit (AAA) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to:\n(1) Securely manage authenticators for users and devices; and\n(2) Ensure the strength of authentication is appropriate to the classification of the data being accessed.",
+    "2": "Identification & Authentication (IAC) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Identity & Access Management (IAM)-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines) to enforce Logical Access Control (LAC).\n▪ IAM may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel to implement Role Based Access Control (RBAC) practices for the management of user, group and system accounts, including privileged accounts.\n▪ A directory services technology is used to centrally manage identities and permissions with RBAC. Due to technical or business limitations, asset/process owners are empowered to operate a decentralized access control program for their specific Technology Assets, Applications and/or Services (TAAS) that cannot be integrated into directory services.\n▪ Configuration management and IAM functions collaborate to ensure Secure Baseline Configurations (SBC) enforce “least privileges” on TAAS.\n▪ IAM restricts the assignment of privileged accounts to entity-defined personnel and/or roles (privilege assignment requires management approval).\n▪ LAC and RBAC enforcements limit the ability of non-administrators from making unauthorized configuration changes to TAAS.",
+    "3": "Identification & Authentication (IAC) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are well-documented and kept current by process owners.\n▪ An Identity & Access Management (IAM) team, or similar function, is appropriately staffed and supported to implement and maintain IAC domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of IAM operations (e.g., directory services, Authenticate, Authorize and Audit (AAA) solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to restrict and control privileged access rights for users and Technology Assets, Applications and/or Services (TAAS).",
     "4": "Identification & Authentication (IAC) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
     "5": "Identification & Authentication (IAC) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
@@ -28,517 +30,439 @@
     "CORE ESP Level 2 Critical Infrastructure",
     "CORE ESP Level 3 Advanced Threats",
     "CORE Fundamentals",
-    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)",
+    "CORE MSO Level 1 Initial Public Draft",
+    "CORE MSO Level 2 Initial Public Draft",
+    "CORE MSO Level 3 Initial Public Draft"
   ],
   "possible_solutions": {
-    "micro_small": "∙ Microsoft Active Directory (https://microsoft.com)\n∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)",
-    "small": "∙ Microsoft Active Directory (https://microsoft.com)\n∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)",
-    "medium": "∙ Microsoft Active Directory (https://microsoft.com)\n∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)",
-    "large": "∙ Microsoft Active Directory (https://microsoft.com)\n∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)",
-    "enterprise": "∙ Microsoft Active Directory (https://microsoft.com)\n∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)"
+    "micro_small": "∙ Strong password policy\n∙ MFA for key accounts",
+    "small": "∙ Password manager\n∙ MFA on all accounts\n∙ Identity policy",
+    "medium": "∙ ManageEngine Enterprise Password Management (https://manageengine.com)\n∙ Securden (https://securden.com)\n∙ CyberArk (https://cyberark.com)",
+    "large": "∙ ManageEngine Enterprise Password Management (https://manageengine.com)\n∙ Securden (https://securden.com)\n∙ CyberArk (https://cyberark.com)",
+    "enterprise": "∙ ManageEngine Enterprise Password Management (https://manageengine.com)\n∙ Securden (https://securden.com)\n∙ CyberArk (https://cyberark.com)"
   },
   "risks": [
     "R-AC-1",
     "R-AC-2",
     "R-AC-3",
     "R-AC-4",
-    "R-AM-1",
+    "R-AC-5",
     "R-AM-2",
-    "R-AM-3",
-    "R-BC-1",
-    "R-BC-2",
-    "R-BC-3",
     "R-BC-4",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
-    "R-EX-4",
-    "R-EX-5",
-    "R-EX-6",
     "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-3",
-    "R-GV-4",
-    "R-GV-5",
-    "R-GV-6",
-    "R-GV-7",
-    "R-GV-8",
+    "R-EX-10",
     "R-IR-1",
-    "R-IR-2",
-    "R-IR-3",
-    "R-IR-4",
     "R-SA-1",
-    "R-SC-1",
-    "R-SC-2",
-    "R-SC-3",
-    "R-SC-4",
-    "R-SC-5",
-    "R-SC-6"
+    "R-IP-2",
+    "R-IP-3",
+    "R-IP-4"
   ],
   "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
     "NT-7",
-    "MT-1",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
     "MT-2",
-    "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
-    "MT-11",
-    "MT-12",
-    "MT-13",
     "MT-14",
-    "MT-15",
-    "MT-24",
-    "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-15"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Possible",
+    "R-AC-2": "Likely",
+    "R-AC-3": "Likely",
+    "R-AC-4": "Likely",
+    "R-AC-5": "Possible",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Possible",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Unlikely",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Possible",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Unlikely",
+    "R-EX-7": "Possible",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Possible",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Unlikely",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Unlikely",
+    "R-GV-10": "Unlikely",
+    "R-IR-1": "Possible",
+    "R-IR-2": "Unlikely",
+    "R-IR-3": "Unlikely",
+    "R-IR-4": "Unlikely",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Possible",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Possible",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Possible",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Likely",
+    "MT-3": "Unlikely",
+    "MT-4": "Unlikely",
+    "MT-5": "Unlikely",
+    "MT-6": "Unlikely",
+    "MT-7": "Unlikely",
+    "MT-8": "Possible",
+    "MT-9": "Likely",
+    "MT-10": "Possible",
+    "MT-11": "Unlikely",
+    "MT-12": "Unlikely",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Possible",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Unlikely",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Unlikely",
+    "MT-24": "Unlikely",
+    "MT-25": "Unlikely",
+    "MT-26": "Unlikely",
+    "MT-27": "Unlikely",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- renumbered",
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
       "CC6.1"
     ],
     "general-cis-csc-8-1": [
-      "5.2"
-    ],
-    "general-cis-csc-8-1-ig1": [
-      "5.2"
-    ],
-    "general-cis-csc-8-1-ig2": [
-      "5.2"
-    ],
-    "general-cis-csc-8-1-ig3": [
-      "5.2"
-    ],
-    "general-csa-cmm-4-1-0": [
-      "IAM-14",
-      "IAM-15"
-    ],
-    "general-csa-iot-2": [
-      "IAM-18",
-      "IAM-21"
-    ],
-    "general-govramp": [
-      "IA-05(01)"
-    ],
-    "general-govramp-core": [
-      "IA-05(01)"
-    ],
-    "general-govramp-low": [
-      "IA-05(01)"
-    ],
-    "general-govramp-low-plus": [
-      "IA-05(01)"
-    ],
-    "general-govramp-mod": [
-      "IA-05(01)"
-    ],
-    "general-govramp-high": [
-      "IA-05(01)"
-    ],
-    "general-iec-62443-2-1-2024": [
-      "USER 1.11"
-    ],
-    "general-iec-62443-4-2-2019": [
-      "CR 1.5",
-      "CR 1.9"
-    ],
-    "general-imo-maritime-cyber-risk-management-2025": [
-      "3.5.3.1",
-      "3.5.3.2"
-    ],
-    "general-iso-27002-2022": [
-      "5.17",
-      "5.18"
-    ],
-    "general-iso-27017-2015": [
-      "9.2.4",
-      "9.4.3"
-    ],
-    "general-iso-27018-2025": [
-      "5.17",
-      "5.18"
-    ],
-    "general-mitre-att_ck-16-1": [
-      "T1003",
-      "T1003.001",
-      "T1003.002",
-      "T1003.003",
-      "T1003.004",
-      "T1003.005",
-      "T1003.006",
-      "T1003.007",
-      "T1003.008",
-      "T1021",
-      "T1021.001",
-      "T1021.004",
-      "T1021.007",
-      "T1021.008",
-      "T1040",
-      "T1072",
-      "T1078",
-      "T1078.002",
-      "T1078.004",
-      "T1098.001",
-      "T1098.002",
-      "T1098.003",
-      "T1098.004",
-      "T1098.006",
-      "T1110",
-      "T1110.001",
-      "T1110.002",
-      "T1110.003",
-      "T1110.004",
-      "T1111",
-      "T1114",
-      "T1114.002",
-      "T1133",
-      "T1136",
-      "T1136.001",
-      "T1136.002",
-      "T1136.003",
-      "T1212",
-      "T1528",
-      "T1530",
-      "T1539",
-      "T1550.003",
-      "T1552",
-      "T1552.001",
-      "T1552.002",
-      "T1552.004",
-      "T1552.006",
-      "T1555",
-      "T1555.001",
-      "T1555.002",
-      "T1555.004",
-      "T1555.005",
-      "T1556",
-      "T1556.001",
-      "T1556.003",
-      "T1556.004",
-      "T1556.005",
-      "T1556.009",
-      "T1558",
-      "T1558.001",
-      "T1558.002",
-      "T1558.003",
-      "T1558.004",
-      "T1558.005",
-      "T1563.001",
-      "T1599",
-      "T1599.001",
-      "T1601",
-      "T1601.001",
-      "T1601.002",
-      "T1621",
-      "T1649"
-    ],
-    "general-mpa-csbp-5-3-1": [
-      "TS-1.6"
-    ],
-    "general-nist-800-53-r4": [
-      "IA-5",
-      "IA-5(4)"
-    ],
-    "general-nist-800-53-r5-2": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "general-nist-800-53-r5-2-privacy": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "general-nist-800-53-r5-2-low": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "general-nist-800-82-r3": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "general-nist-800-82-r3-low": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "general-nist-800-82-r3-mod": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "general-nist-800-82-r3-high": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "general-nist-800-161-r1": [
-      "IA-5"
-    ],
-    "general-nist-800-161-r1-cscrm": [
-      "IA-5"
-    ],
-    "general-nist-800-161-r1-flowdown": [
-      "IA-5"
-    ],
-    "general-nist-800-161-r1-level-2": [
-      "IA-5"
-    ],
-    "general-nist-800-161-r1-level-3": [
-      "IA-5"
-    ],
-    "general-nist-800-171-r2": [
-      "3.5.8",
-      "3.5.9"
-    ],
-    "general-nist-800-171-r3": [
-      "03.05.07.a",
-      "03.05.07.b",
-      "03.05.07.c",
-      "03.05.07.d",
-      "03.05.07.e",
-      "03.05.07.f",
-      "03.05.12.a",
-      "03.05.12.b",
-      "03.05.12.c",
-      "03.05.12.d",
-      "03.05.12.e",
-      "03.05.12.f"
-    ],
-    "general-nist-800-171a": [
-      "3.5.8[a]",
-      "3.5.8[b]",
-      "3.5.9"
-    ],
-    "general-nist-800-171a-r3": [
-      "A.03.05.07.a[01]",
-      "A.03.05.07.b",
-      "A.03.05.07.c",
-      "A.03.05.07.d",
-      "A.03.05.07.e",
-      "A.03.05.07.f",
-      "A.03.05.12.ODP[01]",
-      "A.03.05.12.ODP[02]",
-      "A.03.05.12.a",
-      "A.03.05.12.b",
-      "A.03.05.12.c[01]",
-      "A.03.05.12.c[02]",
-      "A.03.05.12.c[03]",
-      "A.03.05.12.c[04]",
-      "A.03.05.12.c[05]",
-      "A.03.05.12.c[06]",
-      "A.03.05.12.d",
-      "A.03.05.12.e",
-      "A.03.05.12.f[01]",
-      "A.03.05.12.f[02]"
-    ],
-    "general-pci-dss-4-0-1": [
-      "8.2.4",
-      "8.3",
-      "8.3.1",
-      "8.3.3",
-      "8.3.5",
-      "8.3.7",
-      "8.3.9",
-      "8.3.10.1",
-      "8.3.11",
-      "8.6.3"
-    ],
-    "general-pci-dss-4-0-1-saq-a": [
-      "8.3.1",
-      "8.3.5",
-      "8.3.7",
-      "8.3.9"
-    ],
-    "general-pci-dss-4-0-1-saq-a-ep": [
-      "8.2.4",
-      "8.3.1",
-      "8.3.3",
-      "8.3.5",
-      "8.3.7",
-      "8.3.9",
-      "8.3.11",
-      "8.6.3"
-    ],
-    "general-pci-dss-4-0-1-saq-c": [
-      "8.2.4",
-      "8.3.1",
-      "8.3.3",
-      "8.3.5",
-      "8.3.7",
-      "8.3.9",
-      "8.6.3"
-    ],
-    "general-pci-dss-4-0-1-saq-c-vt": [
-      "8.2.4",
-      "8.3.1"
-    ],
-    "general-pci-dss-4-0-1-saq-d-merchant": [
-      "8.2.4",
-      "8.3.1",
-      "8.3.3",
-      "8.3.5",
-      "8.3.7",
-      "8.3.9",
-      "8.3.11",
-      "8.6.3"
-    ],
-    "general-pci-dss-4-0-1-saq-d-service-provider": [
-      "8.2.4",
-      "8.3.1",
-      "8.3.3",
-      "8.3.5",
-      "8.3.7",
-      "8.3.9",
-      "8.3.10.1",
-      "8.3.11",
-      "8.6.3"
-    ],
-    "general-swift-cscf-2025": [
-      "4.1",
+      "2.7",
+      "5.1",
       "5.4"
     ],
-    "general-ul-2900-2-2-2016": [
-      "8.9"
+    "general-cis-csc-8-1-ig1": [
+      "5.1",
+      "5.4"
     ],
-    "usa-federal-dhs-cisa-tic-3-0": [
-      "3.PEP.ID.SMANA"
+    "general-cis-csc-8-1-ig2": [
+      "5.1",
+      "5.4"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "2.7",
+      "5.1",
+      "5.4"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "IAM-09",
+      "IAM-10",
+      "IAM-11"
+    ],
+    "general-csa-iot-2": [
+      "IAM-02",
+      "IAM-04"
+    ],
+    "general-iso-27002-2022": [
+      "5.15",
+      "5.18",
+      "8.2"
+    ],
+    "general-iso-27017-2015": [
+      "9.1.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.15",
+      "5.18"
+    ],
+    "general-nist-800-171-r2": [
+      "3.1.5"
+    ],
+    "general-nist-800-171-r3": [
+      "03.01.06.a",
+      "03.01.07.a",
+      "03.01.07.b"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.06.a",
+      "A.03.01.07.a",
+      "A.03.01.07.b"
+    ],
+    "general-pci-dss-4-0-1": [
+      "7.2.3",
+      "7.2.5"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "7.2.3",
+      "7.2.5"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "7.2.3",
+      "7.2.5"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "7.2.3",
+      "7.2.5"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "7.2.3",
+      "7.2.5"
+    ],
+    "general-scf-dpmp-2026": [
+      "7.1"
+    ],
+    "general-swift-cscf-2025": [
+      "1.2"
     ],
     "usa-federal-dhs-cisa-cpg-2-0": [
-      "2.B",
-      "2.L"
-    ],
-    "usa-federal-fbi-cjis-6-0": [
-      "IA-5",
-      "IA-5(1)"
+      "2.E"
     ],
     "usa-federal-doe-c2m2-2-1": [
-      "ACCESS-1b"
+      "ACCESS-1g",
+      "ACCESS-1h",
+      "ACCESS-2b"
     ],
     "usa-federal-dow-cmmc-2-level-2": [
-      "IAL2.-3.5.8",
-      "IAL2.-3.5.9"
+      "ACL2.-3.1.5"
+    ],
+    "usa-federal-dow-zta-reference-architecture-2-0": [
+      "2.3",
+      "2.4"
     ],
     "usa-federal-dow-zt-roadmap-1-1": [
-      "1.8.2"
+      "1.2.1",
+      "1.2.2",
+      "1.4",
+      "1.4.1",
+      "1.4.2",
+      "1.4.3",
+      "1.4.4"
     ],
-    "usa-federal-gsa-fedramp-5-low": [
-      "IA-05",
-      "IA-05(01)"
+    "usa-federal-ffiec-iteh-2016": [
+      "II.C.15.a"
     ],
-    "usa-federal-gsa-fedramp-5-mod": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "usa-federal-gsa-fedramp-5-high": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "usa-federal-gsa-fedramp-5-li-saas": [
-      "IA-05",
-      "IA-05(01)"
-    ],
-    "usa-federal-irs-1075-2021": [
-      "IA-5",
-      "IA-5(CE-1).c",
-      "IA-5(CE-1).d",
-      "IA-5(CE-1).e",
-      "IA-5(IRS-Defined)-1",
-      "IA-5(IRS-Defined)-2",
-      "IA-5(IRS-Defined)-2.a",
-      "IA-5(IRS-Defined)-2.b",
-      "IA-5(IRS-Defined)-2.c",
-      "IA-5(IRS-Defined)-2.d"
-    ],
-    "usa-federal-cms-marse-2-0": [
-      "IA-5",
-      "IA-5(1)"
-    ],
-    "usa-federal-nerc-cip-2024": [
-      "CIP-007-6 5.6"
-    ],
-    "usa-federal-nispom-2020": [
-      "§117.15(e)(5)"
+    "usa-federal-nsf-rig-2025-information-assurance": [
+      "5.3.6 / NSF1",
+      "5.3.6 / NSF3"
     ],
     "usa-state-ca-ccpa-cpra-2026": [
-      "7123(c)(1)(B)"
-    ],
-    "usa-state-ma-201-cmr-17-2008": [
-      "17.04(1)(b)",
-      "17.04(2)(b)"
+      "7123(c)(3)(B)"
     ],
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
-      "500.7(b)"
+      "500.7(a)(1)",
+      "500.7(a)(3)",
+      "500.7(c)(1)"
     ],
-    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
-      "IA-05",
-      "IA-05(1)"
+    "emea-che-finma-circ-23-1": [
+      "IV.D-80"
     ],
-    "usa-state-tx-txramp-2-0-level-1": [
-      "IA-05",
-      "IA-05 (01)"
-    ],
-    "usa-state-tx-txramp-2-0-level-2": [
-      "IA-05",
-      "IA-05 (01)"
-    ],
-    "usa-state-vt-act-171-2018": [
-      "2447(c)(1)(A)(ii)"
-    ],
-    "emea-eu-nis2-annex-2024": [
-      "11.6.2(a)",
-      "11.7.2"
-    ],
-    "emea-sau-cgiot-2024": [
-      "2-2-2"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "VII.B.TPC-62"
+    "emea-deu-c5-2026": [
+      "OPS-34.02B.5",
+      "IAM-01.02B.7",
+      "IAM-01.02B.13",
+      "IAM-04.05B",
+      "IAM-06.01B",
+      "IAM-06.02B",
+      "IAM-06.04AC",
+      "PSS-01.02B.7",
+      "PSS-05.02B",
+      "PSS-12.02AC.1"
     ],
     "emea-esp-ccn-stic-825-2026": [
+      "op.acc.2",
       "op.acc.4",
       "op.acc.5"
     ],
-    "apac-aus-ism-2026-march": [
-      "ISM-1227",
-      "ISM-1593",
-      "ISM-1594",
-      "ISM-1595"
+    "emea-eu-dora-rts-2024": [
+      "Article 21.1(e)(ii)",
+      "Article 33.1(c)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.2.31(d)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "11.6.2(f)"
+    ],
+    "emea-gbr-caf-4-0": [
+      "B2.c"
+    ],
+    "emea-gbr-cyber-essentials-requirements-3-3": [
+      "4-BP6"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2424"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2424"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2424"
+    ],
+    "emea-lux-cssf-20-750": [
+      "3.4.2-31.c"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-2-1"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-2-1-7"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-2-3-4"
+    ],
+    "apac-aus-essential-8-2024": [
+      "ISM-0445",
+      "ISM-1175",
+      "ISM-1507",
+      "ISM-1508",
+      "ISM-1648",
+      "ISM-1649"
+    ],
+    "apac-aus-ism-2026-june": [
+      "ISM-0445",
+      "ISM-0446",
+      "ISM-0447",
+      "ISM-1175",
+      "ISM-1507",
+      "ISM-1508",
+      "ISM-1620",
+      "ISM-1648",
+      "ISM-1649",
+      "ISM-1835",
+      "ISM-1939"
+    ],
+    "apac-ind-rbi-dpsc-2021": [
+      "70.e"
     ],
     "apac-ind-sebi-2024": [
-      "PR.AA.S6"
+      "PR.AA.S11"
     ],
     "apac-jpn-ismap": [
-      "9.2.4",
-      "9.2.4.1",
-      "9.2.4.3",
-      "9.2.4.4",
-      "9.2.4.5",
-      "9.2.4.6",
-      "9.2.4.7",
-      "9.2.4.8"
+      "9.2.3",
+      "9.2.3.1",
+      "9.2.3.2",
+      "9.2.3.3",
+      "9.2.3.4",
+      "9.2.3.5",
+      "9.2.3.6",
+      "9.2.3.7",
+      "9.2.3.8",
+      "9.2.3.9",
+      "9.2.3.10"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "A10-B9(a)",
+      "A10-B9(a)(ii)",
+      "A10-B9(a)(iii)"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP41",
+      "HML41"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP36"
     ],
     "apac-nzl-ism-3-9": [
-      "14.3.13.C.01",
-      "14.3.13.C.02",
-      "14.3.13.C.03",
-      "16.1.36.C.02",
-      "16.1.36.C.03",
-      "16.1.40.C.01",
-      "16.1.41.C.01",
-      "16.1.41.C.02",
-      "16.1.42.C.01"
+      "16.3.5.C.01",
+      "16.3.6.C.01",
+      "16.3.6.C.02",
+      "16.3.7.C.01",
+      "16.4.36.C.01",
+      "16.4.36.C.02",
+      "16.4.36.C.03",
+      "16.4.37.C.01",
+      "16.4.37.C.03",
+      "16.4.38.C.01"
+    ],
+    "apac-sgp-ccp-cii-2026": [
+      "5.3.1"
+    ],
+    "apac-sgp-cyber-hygiene-practice-2019": [
+      "4.1"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "9.2.1"
+    ],
+    "americas-arg-ppd-2018": [
+      "B.2.1-2",
+      "B.2.1-3",
+      "B.2.3-6",
+      "B.2.5-DS-2"
     ],
     "americas-can-itsp-10-171-2025": [
-      "03.05.07.A",
-      "03.05.07.B",
-      "03.05.07.C",
-      "03.05.07.D",
-      "03.05.07.E",
-      "03.05.07.F",
-      "03.05.12.A",
-      "03.05.12.B",
-      "03.05.12.C",
-      "03.05.12.D",
-      "03.05.12.E",
-      "03.05.12.F"
+      "03.01.06.A",
+      "03.01.07.A",
+      "03.01.07.B"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "3.2.7"
+    ],
+    "americas-can-osfi-self-assessment": [
+      "3.2.7"
     ]
   }
 }

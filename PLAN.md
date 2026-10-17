@@ -21,8 +21,8 @@ implementation happens in a fresh session (Fable) opened in that repo.
 
 ## Phase 0 — bootstrap (this session, immediately after approval)
 
-Create `/home/tsunami/code/sc2/scf-api-sc2in` (the hackIDLE oracle checkout keeps
-`/home/tsunami/code/sc2/scf-api`; rename after M8), `git init -b main`, seed and commit:
+Create `sc2/scf-api-sc2in` (the hackIDLE oracle checkout keeps
+`sc2/scf-api`; rename after M8), `git init -b main`, seed and commit:
 - `PLAN.md` — the implementation plan below (M1–M8), verbatim.
 - `CLAUDE.md` — project conventions + the hard constraints (clean-room rule, oracle paths,
   house style, no commit attribution, `nix fmt` + `nix flake check` green).
@@ -32,10 +32,10 @@ clean-room work with legal constraints).
 
 ## Hard constraints (verbatim into the new repo's CLAUDE.md)
 
-- **Clean-room rule**: NO code from `/home/tsunami/code/sc2/scf-api` (hackIDLE — archived,
+- **Clean-room rule**: NO code from `sc2/scf-api` (hackIDLE — archived,
   unlicensed, third-party). Its committed `data/` + `docs/api/` outputs are the **test
   oracle only**; its scripts define the output *shape contract*, never implementation.
-- Freely portable (user-authored): `/home/tsunami/code/sc2/securecontrols/utils/scf_import.py`
+- Freely portable (user-authored): `sc2/securecontrols/utils/scf_import.py`
   (pattern sheet resolution, landmark crosswalk slicing "AICPA"…"Risk Threat Summary",
   rapidfuzz header↔Sources reconciliation, column manifests), `utils/file_prep.py`
   CONFIG column mappings, `utils/schema/root.json`, `securecontrols/manual_mapping.json`.
@@ -54,17 +54,17 @@ clean-room work with legal constraints).
   control id `MON-03.2` in `evidence_requests` (workbook typo; praxis filters non-`E-*`);
   (2) `TDA-11.2` `risks`/`threats` = `["[object Object]"]` (upstream exceljs parser bug —
   our parser fixes this class by construction).
-- praxis (`/home/tsunami/code/sc2/praxis`): input `scf-api = { url = "github:hackIDLE/scf-api"; flake = false; }`
+- praxis (`sc2/praxis`): input `scf-api = { url = "github:hackIDLE/scf-api"; flake = false; }`
   (flake.nix:11-14); `scripts/generate-facts.py` **hardcodes `scf-2026-1-1.json`** (line 50)
   and reads `scf-{assessment-objectives,crosswalks,evidence-requests}.json`;
   `praxis-facts-fresh` check (modules/flake/checks.nix:153) diffs regenerated facts.json.
   hackIDLE also referenced in `data/scf/LICENSE-SCF.md:11`, `docs/architecture.md:6`.
-- policypress (`/home/tsunami/code/sc2/policypress`): stale hand-committed
+- policypress (`sc2/policypress`): stale hand-committed
   `data/scf.{yml,json}` (1,239 flat `{domain, control_id, control}`); consumed at runtime by
   `src/control_report.zig:142,182`; count floor asserts in `src/test.zig:304,1308`; golden
   fixture `report_scf.typ` (build.zig:276); `config.toml:221` has `scf_controls` override.
   `data/tsc2017.*` is AICPA content — separate provenance, out of scope.
-- grc (`/home/tsunami/code/sc2/grc`): submodule `scf-api` → hackIDLE @ 71ded89;
+- grc (`sc2/grc`): submodule `scf-api` → hackIDLE @ 71ded89;
   `import/import-scf.mjs` consumes `scf-api/docs/api/*.json` with built-in count asserts;
   `import/pb-client.mjs:27` `SCF_API_DIR` env-overridable. **docs/ must be committed.**
 

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-36.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-36.1",
+      "ao_id": "IAC-36.1_A01",
+      "objective": "External Service Providers (ESPs) provide the organization with current and accurate identification and authentication information for any third-party user with access to the organization's data or assets.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 24 hours after any change to a third-party user's access",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,11 +1,21 @@
 {
   "scf_control_id": "IAC-05.1",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-05.1",
       "ao_id": "IAC-05.1_A01",
-      "objective": "third-party service providers provide the organization with current and accurate information for any third-party user with access to the organization's data or assets.",
+      "objective": "the validation and verification of identity evidence is conducted in person before a designated registration authority.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-12(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-05.1",
+      "ao_id": "IAC-05.1_A02",
+      "objective": "in-person or trusted third-party identity verification is completed before user accounts for third-parties are created.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "DCH-41",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-41",
+      "ao_id": "DCH-41_A01",
+      "objective": "aggregated Control Assurance Automation (CAA) telemetry is assessed to determine whether aggregation elevates its sensitivity above that of the individual source data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-41",
+      "ao_id": "DCH-41_A02",
+      "objective": "aggregated Control Assurance Automation (CAA) telemetry is assigned a classification commensurate with its assessed aggregated sensitivity in accordance with the organization's data classification scheme.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-41",
+      "ao_id": "DCH-41_A03",
+      "objective": "aggregated Control Assurance Automation (CAA) telemetry is protected in accordance with the handling requirements for its assigned classification, including access restriction, encryption and logging of access.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-41",
+      "ao_id": "DCH-41_A04",
+      "objective": "the classification of aggregated Control Assurance Automation (CAA) telemetry is reviewed at a defined frequency and when new data sources are added to the aggregation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually, and upon significant change",
+      "org_defined_parameters": ""
+    }
+  ]
+}

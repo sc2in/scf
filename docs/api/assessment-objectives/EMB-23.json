@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-23",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-23",
+      "ao_id": "EMB-23_A01",
+      "objective": "autonomous systems that trigger an automatic state change when safe operation is no longer assured are continuously validated.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

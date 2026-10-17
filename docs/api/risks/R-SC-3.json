@@ -1,7 +1,7 @@
 {
   "risk_id": "R-SC-3",
   "grouping": "Supply Chain",
-  "name": "Third-party supply chain relationships, visibility and controls",
-  "description": "Loss of Confidentiality, Integrity, Availability and/or Safety (CIAS) from \"downstream\" third-party relationships, visibility and controls that affect the supply chain through impacted products and/or services.",
+  "name": "Sub-Tier / Fourth-Party Supply Chain Exposure",
+  "description": "Risks originating from a supplier's or External Service Provider's (ESP)  own suppliers, subcontractors or dependencies propagate through the supply chain and affect organizational Confidentiality, Integrity, Availability and/or Safety (CIAS), compliance and/or operations.",
   "nist_csf_function": "Protect"
 }

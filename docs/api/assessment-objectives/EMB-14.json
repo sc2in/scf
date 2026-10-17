@@ -5,7 +5,7 @@
     {
       "scf_control_id": "EMB-14",
       "ao_id": "EMB-14_A01",
-      "objective": "embedded technologies certifications are verified for use in the proposed operating environment.",
+      "objective": "configurations enforce the security of Message Queuing Telemetry Transport (MQTT) traffic.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

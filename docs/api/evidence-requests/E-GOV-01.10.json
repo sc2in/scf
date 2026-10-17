@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.10",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Continuous Monitoring Policy",
+  "artifact_description": "Documented evidence of a continuous monitoring policy.",
+  "scf_controls": [
+    "MON-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

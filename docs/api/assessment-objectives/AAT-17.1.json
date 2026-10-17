@@ -1,12 +1,12 @@
 {
   "scf_control_id": "AAT-17.1",
-  "total": 2,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-17.1",
       "ao_id": "AAT-17.1_A01",
-      "objective": "an executive steering committee, or advisory board, evaluates business practices that could pose harm to human subjects from Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
-      "pptdf": "Process",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is prohibited as inappropriate by organization-defined content standards.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -15,8 +15,38 @@
     {
       "scf_control_id": "AAT-17.1",
       "ao_id": "AAT-17.1_A02",
-      "objective": "measures exist for the executive steering committee, or advisory board, to implement safeguards to protect human subjects from harm due to Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
-      "pptdf": "Process",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is harmful.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.1",
+      "ao_id": "AAT-17.1_A03",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is false.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.1",
+      "ao_id": "AAT-17.1_A04",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is illegal.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.1",
+      "ao_id": "AAT-17.1_A05",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is violent.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

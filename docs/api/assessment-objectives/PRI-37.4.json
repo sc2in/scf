@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-37.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-37.4",
+      "ao_id": "PRI-37.4_A01",
+      "objective": "applicable statutory and/or regulatory obligations to publicly disclose data subject communications metrics are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-37.4",
+      "ao_id": "PRI-37.4_A02",
+      "objective": "applicable data subject communications metrics are publicly disclosed, as required by statutory and/or regulatory obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually, or more frequently where the applicable statutory or regulatory obligation requires",
+      "org_defined_parameters": ""
+    }
+  ]
+}

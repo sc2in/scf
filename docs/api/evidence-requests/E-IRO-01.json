@@ -4,15 +4,14 @@
   "artifact_name": "Incident Response Plan (IRP)",
   "artifact_description": "Documented evidence of a Incident Response Plan (IRP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
   "scf_controls": [
-    "IRO-01",
-    "IRO-02.4",
-    "IRO-02.5",
+    "IRO-02",
     "IRO-04",
+    "IRO-06",
     "IRO-06.1",
-    "IRO-07",
     "IRO-08",
-    "IRO-10",
-    "IRO-10.2"
+    "IRO-22",
+    "IRO-23",
+    "IRO-25"
   ],
   "cmmc_mapping": "IR.L2-3.6.1\nIR.L2-3.6.2"
 }

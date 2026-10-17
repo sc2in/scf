@@ -1,14 +1,24 @@
 {
   "scf_control_id": "BCD-08.1",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "BCD-08.1",
       "ao_id": "BCD-08.1_A01",
-      "objective": "an alternate storage site that is sufficiently separated from the primary storage site is identified to reduce susceptibility to the same threats.",
+      "objective": "the continuance of organization-defined criteria mission and business functions with minimal or no loss of operational continuity is planned for.",
       "pptdf": "Process",
-      "origin": "53A_R5_CP-06(01)",
+      "origin": "53A_R5_CP-02(05)[01]",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "essential mission and business functions",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-08.1",
+      "ao_id": "BCD-08.1_A02",
+      "objective": "continuity is sustained until full system restoration of primary processing and/or storage sites is performed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(05)[02]",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

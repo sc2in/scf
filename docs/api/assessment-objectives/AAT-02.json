@@ -1,14 +1,64 @@
 {
   "scf_control_id": "AAT-02",
-  "total": 1,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-02",
       "ao_id": "AAT-02_A01",
-      "objective": "an inventory of systems and system components that is at the level of granularity deemed necessary for tracking and reporting is documented.",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT)-specific policies, standards and procedures are developed and documented.",
       "pptdf": "Process",
-      "origin": "53A_R5_CM-08a.04",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02",
+      "ao_id": "AAT-02_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT)-specific policies, standards and procedures are implemented and operating as written.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02",
+      "ao_id": "AAT-02_A03",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02",
+      "ao_id": "AAT-02_A04",
+      "objective": "documented resourcing decisions allocate the people, processes, technologies, data and facilities needed to support Artificial Intelligence (AI) and Autonomous Technologies (AAT) operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02",
+      "ao_id": "AAT-02_A05",
+      "objective": "responsibility and authority for the performance of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02",
+      "ao_id": "AAT-02_A06",
+      "objective": "personnel performing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

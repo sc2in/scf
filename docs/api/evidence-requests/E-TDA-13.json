@@ -4,7 +4,7 @@
   "artifact_name": "Software Escrow",
   "artifact_description": "Documented evidence of a software escrow solution.",
   "scf_controls": [
-    "TDA-20.3"
+    "TDA-16.4"
   ],
   "cmmc_mapping": ""
 }

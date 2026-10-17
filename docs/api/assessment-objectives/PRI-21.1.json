@@ -5,8 +5,8 @@
     {
       "scf_control_id": "PRI-21.1",
       "ao_id": "PRI-21.1_A01",
-      "objective": "conspicuous links are published for data subjects to exercise their rights to limit the collection and/or use of Personal Data (PD).",
-      "pptdf": "Technology",
+      "objective": "reasonable methods to accommodate data privacy notice formatting for consumers requiring alternative formatting due to accessibility needs are defined.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "PRI-21.1",
       "ao_id": "PRI-21.1_A02",
-      "objective": "conspicuous links are published for data subjects to exercise their rights for their Personal Data (PD) to not be sold and/or shared.",
+      "objective": "reasonable methods to accommodate data privacy notice formatting for consumers requiring alternative formatting due to accessibility needs are implemented.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

@@ -4,9 +4,8 @@
   "artifact_name": "Cybersecurity Business Plan (CBP)",
   "artifact_description": "Documented evidence of a cybersecurity-specific business plan that documents a strategic plan and discrete objectives.",
   "scf_controls": [
-    "GOV-08",
-    "PRM-01.1",
-    "PRM-03"
+    "GOV-06",
+    "PRM-02"
   ],
   "cmmc_mapping": ""
 }

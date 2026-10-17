@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.15",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Human Resources Security Policy",
+  "artifact_description": "Documented evidence of a human resources security policy.",
+  "scf_controls": [
+    "GOV-04",
+    "HRS-01"
+  ],
+  "cmmc_mapping": ""
+}

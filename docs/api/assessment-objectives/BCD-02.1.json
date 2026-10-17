@@ -1,25 +1,55 @@
 {
   "scf_control_id": "BCD-02.1",
-  "total": 2,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "BCD-02.1",
       "ao_id": "BCD-02.1_A01",
-      "objective": "the contingency plan activation time period within which to resume all mission and business functions is defined.",
+      "objective": "operational resilience requirements that define controlled and acceptable operation of Technology Assets, Applications, Services and/or Data (TAASD) during routine operations are documented.",
       "pptdf": "Process",
-      "origin": "53A_R5_CP-02(03)_ODP[02]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "Recovery Time Objective (RTO)",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "BCD-02.1",
       "ao_id": "BCD-02.1_A02",
-      "objective": "the resumption of all mission and business functions are planned for within an organization-defined time period of contingency plan activation.",
+      "objective": "operational resilience requirements that define controlled and acceptable operation of Technology Assets, Applications, Services and/or Data (TAASD) during adverse conditions are documented.",
       "pptdf": "Process",
-      "origin": "53A_R5_CP-02(03)",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "time period defined in service provider and organization SLA",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-02.1",
+      "ao_id": "BCD-02.1_A03",
+      "objective": "operational resilience requirements are approved by the business process owners and/or asset owners responsible for the Technology Assets, Applications, Services and/or Data (TAASD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-02.1",
+      "ao_id": "BCD-02.1_A04",
+      "objective": "the frequency at which to review operational resilience requirements is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually, and upon significant change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-02.1",
+      "ao_id": "BCD-02.1_A05",
+      "objective": "operational resilience requirements are reviewed and updated at the defined frequency and when Technology Assets, Applications, Services and/or Data (TAASD) or business needs change.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }
   ]

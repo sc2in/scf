@@ -1,11 +1,11 @@
 {
   "scf_control_id": "QTS-03",
-  "total": 4,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-03",
       "ao_id": "QTS-03_A01",
-      "objective": "a risk-prioritized Post-Quantum Cryptography Agility Plan (PQCAP) is developed.",
+      "objective": "a classification scheme exists to determine confidentiality shelf-life.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,31 +15,11 @@
     {
       "scf_control_id": "QTS-03",
       "ao_id": "QTS-03_A02",
-      "objective": "the PQCAP enables cryptographic agility.",
+      "objective": "the shelf-life classification is used as a direct input to Post-Quantum Cryptography (PQC) migration prioritization, including prioritizing data with a shelf-life exceeding the expected PQC arrival horizon.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-03",
-      "ao_id": "QTS-03_A03",
-      "objective": "the PQCAP aligns with evolving security standards.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-03",
-      "ao_id": "QTS-03_A04",
-      "objective": "the PQCAP defines the approach for selecting and implementing PQC algorithms.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least 10 years, or the transition horizon published by the applicable national cryptographic authority where one exists",
       "org_defined_parameters": ""
     }
   ]

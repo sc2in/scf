@@ -5,31 +5,31 @@
     {
       "scf_control_id": "RSK-07",
       "ao_id": "RSK-07_A01",
-      "objective": "the frequency at which to update the risk assessment is defined.",
+      "objective": "systems, applications, services and the information processed, stored and/or transmitted are categorized.",
       "pptdf": "Process",
-      "origin": "171A_R3_A.03.11.01.ODP[01]",
+      "origin": "53A_R5_RA-02a.",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "RSK-07",
       "ao_id": "RSK-07_A02",
-      "objective": "risk assessments are updated per an organization-defined frequency.",
+      "objective": "the security categorization results, including supporting rationale, are documented in the security plan for the system.",
       "pptdf": "Process",
-      "origin": "SCF Created",
+      "origin": "53A_R5_RA-02b.",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "RSK-07",
       "ao_id": "RSK-07_A03",
-      "objective": "risk assessments are updated <A.03.11.01.ODP[01]: frequency>.",
-      "pptdf": "Process",
-      "origin": "171A_R3_A.03.11.01.b",
-      "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "objective": "the authorizing official or authorizing official designated representative reviews and approves the security categorization decision.",
+      "pptdf": "People",
+      "origin": "53A_R5_RA-02c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }
   ]

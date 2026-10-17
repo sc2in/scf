@@ -1,23 +1,23 @@
 {
   "framework_id": "usa-state-il-bipa-2008",
-  "display_name": "US - Illinois Biometric Information Privacy Act (BIPA) (2008)",
+  "display_name": "USA - Illinois Biometric Information Privacy Act (BIPA) (2008)",
   "scf_to_framework": {
     "total_mappings": 6,
     "mappings": {
-      "PRI-01.6": [
+      "PRI-09": [
         "15(e)(1)",
         "15(e)(2)"
       ],
-      "PRI-01.11": [
+      "PRI-10": [
         "15(e)(1)",
         "15(e)(2)"
       ],
-      "PRI-02": [
+      "PRI-21": [
         "15(a)",
         "15(b)(1)",
         "15(b)(2)"
       ],
-      "PRI-03": [
+      "PRI-24": [
         "15(b)(3)",
         "15(d)",
         "15(d)(1)",
@@ -25,10 +25,10 @@
         "15(d)(3)",
         "15(d)(4)"
       ],
-      "PRI-03.3": [
+      "PRI-24.5": [
         "15(c)"
       ],
-      "PRI-05": [
+      "PRI-30": [
         "15(a)"
       ]
     }
@@ -37,43 +37,43 @@
     "total_mappings": 12,
     "mappings": {
       "15(e)(1)": [
-        "PRI-01.6",
-        "PRI-01.11"
+        "PRI-09",
+        "PRI-10"
       ],
       "15(e)(2)": [
-        "PRI-01.6",
-        "PRI-01.11"
+        "PRI-09",
+        "PRI-10"
       ],
       "15(a)": [
-        "PRI-02",
-        "PRI-05"
+        "PRI-21",
+        "PRI-30"
       ],
       "15(b)(1)": [
-        "PRI-02"
+        "PRI-21"
       ],
       "15(b)(2)": [
-        "PRI-02"
+        "PRI-21"
       ],
       "15(b)(3)": [
-        "PRI-03"
+        "PRI-24"
       ],
       "15(d)": [
-        "PRI-03"
+        "PRI-24"
       ],
       "15(d)(1)": [
-        "PRI-03"
+        "PRI-24"
       ],
       "15(d)(2)": [
-        "PRI-03"
+        "PRI-24"
       ],
       "15(d)(3)": [
-        "PRI-03"
+        "PRI-24"
       ],
       "15(d)(4)": [
-        "PRI-03"
+        "PRI-24"
       ],
       "15(c)": [
-        "PRI-03.3"
+        "PRI-24.5"
       ]
     }
   }

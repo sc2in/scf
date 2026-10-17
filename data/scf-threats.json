@@ -1,257 +1,275 @@
 {
-  "total": 42,
+  "total": 45,
   "threats": [
     {
       "threat_id": "NT-1",
       "grouping": "Natural Threat",
       "name": "Drought & Water Shortage",
-      "description": "Regardless of geographic location, periods of reduced rainfall are expected. For non-agricultural industries, drought may not be impactful to operations until it reaches the extent of water rationing."
+      "description": "Insufficient precipitation or water availability that restricts municipal, industrial or facility water supplies and can impair cooling, fire suppression, sanitation, facility operations or dependent utility services."
     },
     {
       "threat_id": "NT-2",
       "grouping": "Natural Threat",
       "name": "Earthquakes",
-      "description": "Earthquakes are sudden rolling or shaking events caused by movement under the earth’s surface. Although earthquakes usually last less than one minute, the scope of devastation can be widespread and have long-lasting impact."
+      "description": "Sudden ground movement caused by seismic activity that can damage facilities, technology, utilities and transportation infrastructure, disrupt personnel access and impair the operation or recovery of controls."
     },
     {
       "threat_id": "NT-3",
       "grouping": "Natural Threat",
       "name": "Fire & Wildfires",
-      "description": "Regardless of geographic location or even building material, fire is a concern for every business. When thinking of a fire in a building, it envisions a total loss to all technology hardware, including backup tapes and all paper files being consumed in the fire."
+      "description": "Fire affecting a facility or surrounding area that can injure personnel, destroy or damage technology and records, interrupt utilities and facility access and impair primary or recovery control capabilities."
     },
     {
       "threat_id": "NT-4",
       "grouping": "Natural Threat",
       "name": "Floods",
-      "description": "Flooding is the most common of natural hazards and requires an understanding of the local environment, including floodplains and the frequency of flooding events. Location of critical technologies should be considered (e.g., server room is in the basement or first floor of the facility)."
+      "description": "Water intrusion or inundation caused by rainfall, surface water, storm surge, infrastructure failure or other sources that can damage facilities and technology, interrupt utilities and make control-supporting locations inaccessible."
     },
     {
       "threat_id": "NT-5",
       "grouping": "Natural Threat",
       "name": "Hurricanes & Tropical Storms",
-      "description": "Hurricanes and tropical storms are among the most powerful natural disasters because of their size and destructive potential. In addition to high winds, regional flooding and infrastructure damage should be considered when assessing hurricanes and tropical storms."
+      "description": "A hurricane, tropical storm or other tropical cyclone that can produce destructive winds, flooding, storm surge, utility outages, transportation disruption and facility damage that impair control execution or recovery."
     },
     {
       "threat_id": "NT-6",
       "grouping": "Natural Threat",
       "name": "Landslides & Debris Flow",
-      "description": "Landslides occur throughout the world and can be caused by a variety of factors including earthquakes, storms, volcanic eruptions, fire and by human modification of land. Landslides can occur quickly, often with little notice. Location of critical technologies should be considered (e.g., server room is in the basement or first floor of the facility)."
+      "description": "Movement of soil, rock or debris that can damage or isolate facilities, transportation routes, utilities and communications needed to execute or recover controls."
     },
     {
       "threat_id": "NT-7",
       "grouping": "Natural Threat",
       "name": "Pandemic (Disease) Outbreaks",
-      "description": "Due to the wide variety of possible scenarios, consideration should be given both to the magnitude of what can reasonably happen during a pandemic outbreak (e.g., COVID-19, Influenza, SARS, Ebola, etc.) and what actions the business can be taken to help lessen the impact of a pandemic on operations."
+      "description": "A widespread infectious disease event that can reduce workforce availability, disrupt suppliers and essential services, restrict facility access and degrade the organization's ability to operate, monitor or recover controls."
     },
     {
       "threat_id": "NT-8",
       "grouping": "Natural Threat",
       "name": "Severe Weather",
-      "description": "Severe weather is a broad category of meteorological events that include events that range from damaging winds to hail."
+      "description": "Severe meteorological conditions, including high winds, hail, extreme heat, heavy precipitation or similar events, that can damage facilities or technology, disrupt utilities and transportation, or otherwise degrade control execution."
     },
     {
       "threat_id": "NT-9",
       "grouping": "Natural Threat",
       "name": "Space Weather",
-      "description": "Space weather includes natural events in space that can affect the near-earth environment and satellites. Most commonly, this is associated with solar flares from the Sun, so an understanding of how solar flares may impact the business is of critical importance in assessing this threat."
+      "description": "Solar or geomagnetic activity that can disrupt satellites, radio communications, navigation, timing services, electrical grids or other technologies on which control execution depends."
     },
     {
       "threat_id": "NT-10",
       "grouping": "Natural Threat",
       "name": "Thunderstorms & Lightning",
-      "description": "Thunderstorms are most prevalent in the spring and summer months and generally occur during the afternoon and evening hours, but they can occur year-round and at all hours. Many hazardous weather events are associated with thunderstorms. Under the right conditions, rainfall from thunderstorms causes flash flooding and lightning is responsible for equipment damage, fires and fatalities."
+      "description": "Thunderstorms or lightning that can cause electrical surges, fires, utility outages, communications disruption or equipment damage that impairs control execution."
     },
     {
       "threat_id": "NT-11",
       "grouping": "Natural Threat",
       "name": "Tornadoes",
-      "description": "Tornadoes occur in many parts of the world, including the US, Australia, Europe, Africa, Asia and South America. Tornadoes can happen at any time of year and occur at any time of day or night, but most tornadoes occur between 4–9 p.m. Tornadoes (with winds up to about 300 mph) can destroy all but the best-built man-made structures."
+      "description": "A tornado or associated severe wind event that can damage facilities, equipment, utilities and transportation infrastructure, endanger personnel and interrupt the operation or recovery of controls."
     },
     {
       "threat_id": "NT-12",
       "grouping": "Natural Threat",
       "name": "Tsunamis",
-      "description": "All tsunamis are potentially dangerous, even though they may not damage every coastline they strike. A tsunami can strike anywhere along most of the US coastline. The most destructive tsunamis have occurred along the coasts of California, Oregon, Washington, Alaska and Hawaii."
+      "description": "A tsunami or related coastal inundation event that can cause rapid flooding, structural damage, utility disruption, loss of access and widespread damage to control-supporting facilities and infrastructure."
     },
     {
       "threat_id": "NT-13",
       "grouping": "Natural Threat",
       "name": "Volcanoes",
-      "description": "While volcanoes are geographically fixed objects, volcanic fallout can have significant downwind impacts for thousands of miles. Far outside of the blast zone, volcanoes can significantly damage or degrade transportation systems and also cause electrical grids to fail."
+      "description": "Volcanic activity, including eruption, ashfall, lava, gases or related seismic effects, that can damage or contaminate facilities and equipment, disrupt transportation and utilities and impair control execution."
     },
     {
       "threat_id": "NT-14",
       "grouping": "Natural Threat",
       "name": "Winter Storms & Extreme Cold",
-      "description": "Winter storms is a broad category of meteorological events that include events that range from ice storms, to heavy snowfall, to unseasonably (e.g., record breaking) cold temperatures. Winter storms can significantly impact business operations and transportation systems over a wide geographic region."
+      "description": "Snow, ice, freezing temperatures or other severe winter conditions that can interrupt utilities and transportation, damage equipment, restrict personnel access and degrade control execution or recovery."
     },
     {
       "threat_id": "MT-1",
       "grouping": "Man-Made Threat",
       "name": "Civil or Political Unrest",
-      "description": "Civil or political unrest can be singular or wide-spread events that can be unexpected and unpredictable. These events can occur anywhere, at any time."
+      "description": "Civil disturbance, protest activity, political instability or related violence that can restrict personnel or facility access, disrupt transportation and utilities, damage assets, interrupt suppliers or otherwise impair control execution."
     },
     {
       "threat_id": "MT-2",
       "grouping": "Man-Made Threat",
-      "name": "Technology & Cybersecurity",
-      "description": "Unlike physical threats that prompt immediate action (e.g., \"stop, drop and roll\" in the event of a fire), cyber incidents are often difficult to identify as the incident is occurring. Detection generally occurs after the incident has occurred, with the exception of \"denial of service\" attacks. The spectrum of cybersecurity risks is limitless and threats can have wide-ranging effects on the individual, organizational, geographic and national levels. \n\nThis category of risk includes the management of cybersecurity requirements for Information and Communications Technology (ICT), including technical vulnerabilities and weaknesses in computation logic (code) found in software and hardware components that, when exploited, results in a negative impact to Confidentiality, Integrity, Availability and/or Safety (CIAS)."
+      "name": "Malicious Cyber Activity",
+      "description": "Deliberate malicious cyber activity, including exploitation, malware, credential abuse, denial-of-service, social engineering or other attack techniques, that can disable, bypass, manipulate or otherwise impair controls and their supporting technologies."
     },
     {
       "threat_id": "MT-3",
       "grouping": "Man-Made Threat",
       "name": "Hazardous Materials Emergencies",
-      "description": "Hazardous materials emergencies are focused on accidental disasters that occur in industrialized nations. These incidents can range from industrial chemical spills to groundwater contamination."
+      "description": "An accidental release, spill, leak, fire, explosion or other hazardous-materials event that can endanger personnel, require evacuation, damage facilities or interrupt operations and control-supporting infrastructure."
     },
     {
       "threat_id": "MT-4",
       "grouping": "Man-Made Threat",
       "name": "Nuclear, Biological and Chemical (NBC) Weapons",
-      "description": "The use of NBC weapons are in the possible arsenals of international terrorists and it must be a consideration. Terrorist use of a “dirty bomb” — is considered far more likely than use of a traditional nuclear explosive device. This may be a combination of conventional explosive device with radioactive / chemical / biological material and be designed to scatter lethal and sub-lethal amounts of material over a wide area."
+      "description": "Intentional use or release of chemical, biological, radiological or nuclear agents that can cause casualties, contamination, evacuation, infrastructure disruption and prolonged loss of access to facilities or resources needed for control execution."
     },
     {
       "threat_id": "MT-5",
       "grouping": "Man-Made Threat",
       "name": "Physical Crime",
-      "description": "Physical crime includes \"traditional\" crimes of opportunity. These incidents can range from theft, to vandalism, riots, looting, arson and other forms of criminal activities."
+      "description": "Physical criminal activity that results in unauthorized entry, theft, vandalism, sabotage or damage to facilities, equipment, records or other assets needed for control execution."
     },
     {
       "threat_id": "MT-6",
       "grouping": "Man-Made Threat",
       "name": "Terrorism & Armed Attacks",
-      "description": "Armed attacks, regardless of the motivation of the attacker, can impact a business. Scenarios can range from single actors (e.g., \"disgruntled\" employee) all the way to a coordinated terrorist attack by multiple assailants. These incidents can range from the use of blade weapons (e.g., knives), blunt objects (e.g., clubs), to firearms and explosives."
+      "description": "Terrorist activity, active-assailant events or other armed attacks that can cause casualties, facility damage, evacuation, loss of access, infrastructure disruption or interruption of control-supporting operations."
     },
     {
       "threat_id": "MT-7",
       "grouping": "Man-Made Threat",
       "name": "Utility Service Disruption",
-      "description": "Utility service disruptions are focused on the sustained loss of electricity, Internet, natural gas, water and/or sanitation services. These incidents can have a variety of causes but directly impact the fulfillment of utility services that your business needs to operate."
+      "description": "Sustained or material loss or degradation of electricity, water, natural gas, telecommunications, internet connectivity or other utility services required to operate facilities, technologies or controls."
     },
     {
       "threat_id": "MT-8",
       "grouping": "Man-Made Threat",
       "name": "Dysfunctional Management Practices",
-      "description": "Dysfunctional management practices are a manmade threat that expose an organization to significant risk. The threat stems from the inability of weak, ineffective and/or incompetent management to (1) make a risk-based decision and (2) support that decision. The resulting risk manifests due to (1) an absence of a required control or (2) a control deficiency."
+      "description": "Management interference, direction, override or other intentional circumventions that prevents established controls from being performed, enforced, monitored or escalated as designed."
     },
     {
       "threat_id": "MT-9",
       "grouping": "Man-Made Threat",
       "name": "Human Error",
-      "description": "Human error is a broad category that includes non-malicious actions that are unexpected and unpredictable by humans. These incidents can range from misconfigurations, to misunderstandings or other unintentional accidents."
+      "description": "Unintentional action or omission by personnel, contractors or other authorized users that misconfigures, disables, bypasses, damages or otherwise impairs a control or its supporting technology, process or data."
     },
     {
       "threat_id": "MT-10",
       "grouping": "Man-Made Threat",
       "name": "Technical / Mechanical Failure",
-      "description": "Technical /mechanical failure is a broad category that includes non-malicious failure due to a defect in the technology, materials or workmanship. Technical / mechanical failures are unexpected and unpredictable, even when routine and preventative maintenance is performed. These incidents can range from malfunctions, to reliability concerns to catastrophic damage (including loss of life)."
+      "description": "Non-malicious failure, degradation or malfunction of hardware, software, communications, mechanical equipment or supporting infrastructure that causes a control to become unavailable, unreliable or ineffective."
     },
     {
       "threat_id": "MT-11",
       "grouping": "Man-Made Threat",
-      "name": "Statutory / Regulatory / Contractual Obligation",
-      "description": "Laws, regulations and/or contractual obligations that directly or indirectly weaken an organization's security & privacy controls. This includes hostile nation states that leverage statutory and/or regulatory means for economic or political espionage and/or cyberwarfare activities. \n\nChanges in statutes, laws, policies, regulations and/or agreements that materially impact a business or market sector and that can increase business operating costs, reduce the attractiveness of investment, or change the competitive landscape. This extends across the supply chain due to a wide-range of laws and regulations."
+      "name": "Statutory / Regulatory / Contractual Change",
+      "description": "A change in applicable laws, regulations, government directives or contractual obligations that invalidates existing assumptions, requires different safeguards, restricts technologies or suppliers, or otherwise causes established controls to become insufficient or inoperable."
     },
     {
       "threat_id": "MT-12",
       "grouping": "Man-Made Threat",
-      "name": "Redundant, Obsolete/Outdated, Toxic or Trivial (ROTT) Data",
-      "description": "Redundant, Obsolete/Outdated, Toxic or Trivial (ROTT) data is information an organization utilizes for business processes even though the data is untrustworthy, due to the data's currency, accuracy, integrity and/or applicability. This includes \"poisoned\", or otherwise compromised, Artificial Intelligence (AI) training data."
+      "name": "Data Quality Degradation / Data Poisoning",
+      "description": "Use or introduction of inaccurate, stale, corrupted, incomplete, manipulated or otherwise untrustworthy data that causes controls, analytics or automated decisions to operate incorrectly or ineffectively."
     },
     {
       "threat_id": "MT-13",
       "grouping": "Man-Made Threat",
-      "name": "Artificial Intelligence & Autonomous Technologies (AAT)",
-      "description": "Artificial Intelligence & Autonomous Technologies (AAT) is a broad category that ranges from non-malicious failure due to a defect in the algorithm to emergent properties or unintended consequences. AAT failures can be due to hardware failures, inherent biases or other flaws in the underlying algorithm. These incidents can range from malfunctions, to reliability concerns to catastrophic damage (including loss of life)."
+      "name": "Artificial Intelligence & Autonomous Technologies (AAT) System Failure or Unintended Behavior",
+      "description": "Non-malicious failure, malfunction, hallucination, unsafe output, goal misalignment, unintended autonomous action or other erroneous behavior by Artificial Intelligence & Autonomous Technologies that impairs a control or dependent business process."
     },
     {
       "threat_id": "MT-14",
       "grouping": "Man-Made Threat",
-      "name": "Fraud, Corruption and/or Willful Criminal Conduct",
-      "description": "Willful criminal conduct is a broad category that includes consciously-committed criminal acts performed by individuals (e.g., mens rea). These incidents can include a wide-range of activities that includes fraud, corruption, theft and illegal content. Criminal conduct generally involves one of the following kinds of mens rea: (1) intent, (2) knowledge, (3) recklessness and/or (4) negligence."
+      "name": "Fraud, Corruption and/or Intentional Criminal Conduct",
+      "description": "Intentional criminal or corrupt conduct by an insider, third party or other actor that can bypass, manipulate or disable controls (e.g., fraud, bribery, theft, embezzlement, extortion or deliberate policy circumvention)."
     },
     {
       "threat_id": "MT-15",
       "grouping": "Man-Made Threat",
-      "name": "Conflict of Interest (COI)",
-      "description": "Conflict of Interest (COI) is a broad category but pertains to an ethical incompatibility. COI exist when (1) the concerns or goals of different parties are incompatible or (2) a person in a decision-making position is able to derive personal benefit from actions taken or decisions made in their official capacity."
+      "name": "Conflict of Interest (COI) / Undue Influence / Insider Misconduct",
+      "description": "A Conflict of Interest (COI) or improper influence that causes a person with authority or access to make biased decisions, circumvent safeguards, conceal issues or otherwise impair objective control execution."
     },
     {
       "threat_id": "MT-16",
       "grouping": "Man-Made Threat",
-      "name": "Macroeconomics",
-      "description": "Macroeconomic factors that can negatively affect the global supply chain. Macroeconomic factors directly impact unemployment rates, interest rates, exchange rates and commodity prices. Due to how fiscal and monetary policies can negatively affect the global supply chain, this can disrupt or degrade an organization's business operations.\n\nEconomic instability can lead to reduced investment and weakened consumer confidence. Multiple factors may cause instability and may include recession, sanctions, demand shocks, price volatility, inflation and unemployment. An out-of-balance economy can lead to unpredictable fluctuations in growth, inflation, employment and financial health. This instability can be episodic, meaning discrete events such as job loss, or it can be chronic, meaning sustained events such as variations to employee compensation."
+      "name": "Economic Shock / Market Disruption",
+      "description": "Material economic instability, recession, inflation, interest-rate or exchange-rate shocks, commodity volatility or similar macroeconomic conditions that disrupt staffing, suppliers, investment or resources needed to sustain control execution."
     },
     {
       "threat_id": "MT-17",
       "grouping": "Man-Made Threat",
       "name": "Foreign Ownership, Control, or Influence (FOCI)",
-      "description": "Foreign Ownership, Control, or Influence (FOCI) is a Supply Chain Risk Management (SCRM) threat category that pertains to the ownership of, control of, or influence over an organization. Primarily, the concern is if a foreign interest (e.g., foreign government or parties owned or controlled by a foreign government) has the direct or indirect ability to influence decisions that affect the management or operations of the organization.\n\nThe ability exercise the power to influence management or operations may result in unauthorized access to sensitive / regulated data  or may adversely affect the performance of contracts and/or programs. FOCI may have national security implications, in addition to corporate espionage / maleficence."
+      "description": "Foreign Ownership, Control or Influence (FOCI) that is used to shape decisions, compel access, redirect operations or obtain sensitive information in a manner that can bypass or undermine organizational or supply-chain controls."
     },
     {
       "threat_id": "MT-18",
       "grouping": "Man-Made Threat",
-      "name": "Geopolitical",
-      "description": "Geopolitical is a Supply Chain Risk Management (SCRM) threat category that pertains to a specific geographic location, or region of relevance, that affects the supply chain. Primarily, the concern is if a foreign state can affect the supply chain through political intervention within the host nation.\n\nInternal or geopolitical instability can lead to disrupted supply chain operations, increased business operating costs, reduced attractiveness of investment and/or altered competitive landscapes."
+      "name": "Geopolitical Conflict / Government Intervention",
+      "description": "Political conflict, government intervention, war, civil instability, nationalization, export restriction or other geopolitical action that disrupts suppliers, infrastructure, communications, access or resources required for control execution."
     },
     {
       "threat_id": "MT-19",
       "grouping": "Man-Made Threat",
-      "name": "Sanctions",
-      "description": "Sanctions is a Supply Chain Risk Management (SCRM) threat category that pertains to past or present fraudulent activity or corruption. Primarily, the concern is if the third-party is subject to suspension, exclusion or other sanctions that can affect the supply chain."
+      "name": "Sanctions / Trade Restriction Disruption",
+      "description": "Imposition, expansion or enforcement of sanctions, export controls, exclusions or trade restrictions that removes or constrains access to suppliers, technologies, services, personnel or financial channels required for control execution."
     },
     {
       "threat_id": "MT-20",
       "grouping": "Man-Made Threat",
       "name": "Counterfeit / Non-Conforming Products",
-      "description": "Counterfeit / Non-Conforming Products is a Supply Chain Risk Management (SCRM) threat category that pertains to the integrity of components within the supply chain. Counterfeits are products introduced to the supply chain that falsely claim to be produced by the legitimate Original Equipment Manufacturer (OEM), whereas non-conforming are OEM products / materials that fail to meet the customer specifications. Both can have a detrimental effect on the supply chain.\n\nThe items lack industry standard tests during the production phase ( e.g., pressure testing) or are counterfeit items could pose significant risk to the function and safety of the system, increased maintenance costs due to depreciation in quality and added stresses due to an item's inability to function at true capacity."
+      "description": "Counterfeit, substituted, defective or non-conforming components, materials, software or services enter the supply chain and cause control-supporting products to perform unpredictably, fail prematurely or operate outside required specifications."
     },
     {
       "threat_id": "MT-21",
       "grouping": "Man-Made Threat",
-      "name": "Operational Environment",
-      "description": "Operational Environment is a Supply Chain Risk Management (SCRM) threat category that pertains to the user environment (e.g., place of performance). Primarily, the concern is if the operational environment is hazardous that could expose the organization operationally or financially."
+      "name": "Hazardous / Degraded Operational Environment",
+      "description": "Environmental, physical or operating conditions at the place of performance that exceed design assumptions or safe operating limits and degrade personnel, equipment or processes needed for control execution."
     },
     {
       "threat_id": "MT-22",
       "grouping": "Man-Made Threat",
-      "name": "Manufacturing & Supply",
-      "description": "Manufacturing & Supply is a Supply Chain Risk Management (SCRM) threat category pertaining to interdependencies related to data, systems and mission functions. Concerns include the availability of supply, capacity to surge, sole-source and concentration within or over-reliance on a single source.\n\nAt issue is a single supplier or sector/market that is incapable of meeting market demand. This can be due to reduced throughput or production delays caused by capacity constraints, obsolescence, industrial limitations, market conditions, disrupted material delivery and other conditions."
+      "name": "Manufacturing Capacity / Supply Disruption",
+      "description": "Loss, reduction or delay of manufacturing capacity, materials, components or supplier output that prevents timely availability of products or services required for control execution (e.g., sole-source or concentration failures)."
     },
     {
       "threat_id": "MT-23",
       "grouping": "Man-Made Threat",
-      "name": "Product Quality & Design",
-      "description": "Product Quality & Design s a Supply Chain Risk Management (SCRM) threat category that pertains to inherent design and quality problems (e.g., raw materials, ingredients, production, logistics, packaging) that result in the product and/or service failing to meet performance specifications and quality standards. This includes an understanding of the quality assurance practices associated with preventing mistakes or defects in manufactured/ developed products and avoiding problems when delivering solutions or services to customers."
+      "name": "Product Defect / Design Failure",
+      "description": "A design flaw, manufacturing defect, quality failure or specification deviation in a product or service that causes unsafe, unreliable or ineffective operation of a control or its supporting technology."
     },
     {
       "threat_id": "MT-24",
       "grouping": "Man-Made Threat",
-      "name": "Financial",
-      "description": "Financial is a Supply Chain Risk Management (SCRM) threat category that pertains to financial distress that can lead to the inability to meet contractual obligations, hostile takeovers, or bankruptcy. This involves situations where a supplier cannot generate revenue or income resulting in the inability to meet financial obligations."
+      "name": "Supplier Financial Distress / Insolvency",
+      "description": "Financial distress, loss of liquidity, hostile acquisition, bankruptcy or insolvency of a critical supplier that interrupts contractual performance, support, maintenance or delivery of control-dependent products or services."
     },
     {
       "threat_id": "MT-25",
       "grouping": "Man-Made Threat",
-      "name": "Human Capital",
-      "description": "Human Capital is a threat category that pertains to human skills, knowledge and actions that may impact a market's ability to produce goods and/or services to meet demand. This includes industrial disputes, labor availability and unrest, attrition of required skills and consumer behavior that disrupts a given market or industry."
+      "name": "Workforce Shortage / Loss of Critical Skills / Labor Disruption",
+      "description": "Loss, shortage, unavailability or labor disruption of personnel with required knowledge, skills or authorization that prevents controls from being performed, maintained, monitored or recovered as intended."
     },
     {
       "threat_id": "MT-26",
       "grouping": "Man-Made Threat",
-      "name": "Transportation & Distribution",
-      "description": "Transportation & Distribution is a threat category that pertains to dynamic disruptions within the transportation and logistics of moving a product from one point to another. The transportation industry is among the most risk-prone of all industries due to accidents, losses of cargo, driver shortages and deteriorating infrastructure. These risks can cause shipment delays, supply chain disruptions, increased costs and damaged reputations. In addition, the inability to predict and plan for disruptions in the logistics plan presents risk in meeting delivery requirements and maintaining operations."
+      "name": "Transportation / Logistics Disruption",
+      "description": "Accident, cargo loss, carrier failure, route closure, capacity shortage or other transportation or logistics disruption that delays or prevents delivery of products, equipment or services needed for control execution."
     },
     {
       "threat_id": "MT-27",
       "grouping": "Man-Made Threat",
-      "name": "Infrastructure",
-      "description": "Infrastructure is a threat category that pertains to the availability and functioning of fundamental facilities and systems necessary to support an industry and its supply chains within a country. This includes buildings, transportation networks, utilities and equipment. Additionally, this includes how well those facilities and systems are protected from both natural and man-made threats."
+      "name": "Infrastructure Failure / Degradation",
+      "description": "Failure, degradation or unavailability of transportation, communications, energy, facilities or other foundational infrastructure on which the organization or its supply chain depends for control execution."
     },
     {
       "threat_id": "MT-28",
       "grouping": "Man-Made Threat",
       "name": "Harvest Now / Decrypt Later (HNDL)",
-      "description": "Harvest Now / Decrypt Later (HNDL) is a threat category associated with Post-Quantum Cryptography (PQC) that is focused on nation-state threat actors harvesting data streams using legacy encryption protocols, so  when a quantum computer exists it can decrypt harvested data for long-living sensitive / regulated data (e.g., secrets, intellectual property, etc.)."
+      "description": "A threat actor intercepts and retains currently encrypted sensitive information with the intent to decrypt it later when cryptanalytic or quantum capabilities make the deployed cryptography vulnerable."
+    },
+    {
+      "threat_id": "MT-29",
+      "grouping": "Man-Made Threat",
+      "name": "Adversarial Artificial Intelligence (AI) Attack",
+      "description": "Deliberate manipulation or exploitation of an AI system through adversarial inputs, prompt injection, jailbreaking, data or model poisoning, model theft, inference attacks or related techniques that bypass, alter or impair controls or AI-dependent functions."
+    },
+    {
+      "threat_id": "MT-30",
+      "grouping": "Man-Made Threat",
+      "name": "Operational Technology (OT) / Industrial Control System (ICS) Attack",
+      "description": "Deliberate cyberattack against Operational Technology (OT) or Industrial Control System (ICS) environments that manipulates, disrupts or disables industrial processes, safety functions, equipment or control-supporting operations."
+    },
+    {
+      "threat_id": "MT-31",
+      "grouping": "Man-Made Threat",
+      "name": "Cryptographic Compromise / Cryptanalytic Capability Advancement",
+      "description": "Advances in computing, cryptanalysis or attack techniques reduce the effective security of deployed cryptographic algorithms or key sizes, causing cryptographic controls to provide less protection than intended."
     }
   ]
 }

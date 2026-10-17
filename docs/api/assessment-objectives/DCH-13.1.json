@@ -5,20 +5,20 @@
     {
       "scf_control_id": "DCH-13.1",
       "ao_id": "DCH-13.1_A01",
-      "objective": "authorized individuals are permitted to use an external system to access the system or to process, store or transmit organization-controlled information only after verification of the implementation of controls on the external system as specified in the organization's cybersecurity / data privacy policies and cybersecurity / data privacy plans (if applicable).",
-      "pptdf": "Data",
-      "origin": "53A_R5_AC-20(01)(a)",
+      "objective": "security reviews of storage locations that contain sensitive / regulated data are performed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "DCH-13.1",
       "ao_id": "DCH-13.1_A02",
-      "objective": "authorized individuals are permitted to use an external system to access the system or to process, store or transmit organization-controlled information only after retention of approved system connection or processing agreements with the organizational entity hosting the external system (if applicable).",
-      "pptdf": "Data",
-      "origin": "53A_R5_AC-20(01)(b)",
-      "assessment_rigor": "3",
+      "objective": "deficiencies identified during reviews of storage locations are tracked via a Plan of Action and Milestones (POA&M), or risk register, through remediation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

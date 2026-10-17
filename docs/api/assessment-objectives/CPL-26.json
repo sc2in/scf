@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-26",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-26",
+      "ao_id": "CPL-26_A01",
+      "objective": "work products (e.g., process artifacts) necessary to demonstrate conformity with applicable requirements are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-26",
+      "ao_id": "CPL-26_A02",
+      "objective": "work products (e.g., process artifacts) necessary to demonstrate conformity with applicable requirements are generated and retained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "the retention period required by the applicable statutory, regulatory or contractual obligation, and at a minimum through the completion of the next audit or assessment cycle",
+      "org_defined_parameters": ""
+    }
+  ]
+}

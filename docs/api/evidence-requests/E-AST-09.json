@@ -4,9 +4,10 @@
   "artifact_name": "Computer Lifecycle Plan (CLP)",
   "artifact_description": "Documented evidence of a Computer Lifecycle Plan (CLP) that describes how the life of technology assets is managed.",
   "scf_controls": [
-    "SEA-07",
-    "SEA-07.1",
-    "TDA-17"
+    "AST-37",
+    "AST-38",
+    "AST-39",
+    "AST-40"
   ],
   "cmmc_mapping": ""
 }

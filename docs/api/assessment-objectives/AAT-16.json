@@ -5,7 +5,7 @@
     {
       "scf_control_id": "AAT-16",
       "ao_id": "AAT-16_A01",
-      "objective": "responsible party(ies) monitor the functionality and behavior of deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT) for anomalous performance or outcomes inconsistent with intended use.",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) output is marked in a machine-readable format so it is detectable as artificially generated or manipulated.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

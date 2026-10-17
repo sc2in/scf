@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.33",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Vulnerability & Patch Management Policy",
+  "artifact_description": "Documented evidence of a vulnerability and patch management policy.",
+  "scf_controls": [
+    "GOV-04",
+    "VPM-01"
+  ],
+  "cmmc_mapping": ""
+}

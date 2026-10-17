@@ -1,11 +1,11 @@
 {
   "scf_control_id": "QTS-01",
-  "total": 3,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-01",
       "ao_id": "QTS-01_A01",
-      "objective": "an executive-sponsored quantum risk governance structure is established that institutionalizes quantum risk in the same manner as other enterprise risks.",
+      "objective": "a formal, documented quantum security policy is established.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "QTS-01",
       "ao_id": "QTS-01_A02",
-      "objective": "a named migration lead with defined authority is assigned.",
+      "objective": "the quantum security policy conveys executive management's intent.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,11 +25,31 @@
     {
       "scf_control_id": "QTS-01",
       "ao_id": "QTS-01_A03",
-      "objective": "quantum risk is treated as a standing agenda item in Board of Directors and/or executive leadership meetings.",
+      "objective": "the quantum security policy provides organizational direction and expected behaviors.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01",
+      "ao_id": "QTS-01_A04",
+      "objective": "the quantum security policy is reviewed at least annually.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-01",
+      "ao_id": "QTS-01_A05",
+      "objective": "the quantum security policy is updated, as necessary, to adapt to evolving risks, threats and other changes that affect the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 90 days following identification of a material change",
       "org_defined_parameters": ""
     }
   ]

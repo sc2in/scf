@@ -1,0 +1,62 @@
+{
+  "framework_id": "apac-ind-rbi-data-localization-2018",
+  "display_name": "Reserve Bank of India (RBI) - Storage of Payment System Data - Data Localization, 2018",
+  "scf_to_framework": {
+    "total_mappings": 10,
+    "mappings": {
+      "GOV-09.1": [
+        "2.iii"
+      ],
+      "CPL-04": [
+        "2.ii"
+      ],
+      "CPL-04.4": [
+        "2.iii"
+      ],
+      "CPL-08": [
+        "2.iii"
+      ],
+      "CPL-10": [
+        "2.0"
+      ],
+      "DCH-30": [
+        "2.i"
+      ],
+      "DCH-30.1": [
+        "2.i"
+      ],
+      "DCH-31": [
+        "2.i"
+      ],
+      "TPM-12.2": [
+        "2.i"
+      ],
+      "TPM-14": [
+        "2.0"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 4,
+    "mappings": {
+      "2.iii": [
+        "GOV-09.1",
+        "CPL-04.4",
+        "CPL-08"
+      ],
+      "2.ii": [
+        "CPL-04"
+      ],
+      "2.0": [
+        "CPL-10",
+        "TPM-14"
+      ],
+      "2.i": [
+        "DCH-30",
+        "DCH-30.1",
+        "DCH-31",
+        "TPM-12.2"
+      ]
+    }
+  }
+}

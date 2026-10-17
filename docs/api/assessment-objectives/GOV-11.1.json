@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-11.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-11.1",
+      "ao_id": "GOV-11.1_A01",
+      "objective": "roles and responsibilities exist to compel data and/or process owners to select required security, compliance and resilience controls for the Technology Assets, Applications, Services and/or Data (TAASD) under their control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-11.1",
+      "ao_id": "GOV-11.1_A02",
+      "objective": "Individual Contributor (IC) performance reviews cover how data and/or process owners select required security, compliance and resilience controls for the Technology Assets, Applications, Services and/or Data (TAASD) under their control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

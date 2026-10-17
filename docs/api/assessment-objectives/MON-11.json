@@ -5,9 +5,9 @@
     {
       "scf_control_id": "MON-11",
       "ao_id": "MON-11_A01",
-      "objective": "open-source information and/or information sites to be monitored for evidence of unauthorized disclosure of organizational information is/are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_AU-13_ODP[01]",
+      "objective": "timestamps are recorded for audit records that meet organization-defined granularity of time measurement and that use Coordinated Universal Time, have a fixed local time offset from Coordinated Universal Time or include the local time offset as part of the timestamp.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-08b.\n171A_3.3.7[b]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "MON-11",
       "ao_id": "MON-11_A02",
-      "objective": "the frequency with which open-source information and/or information sites are monitored for evidence of unauthorized disclosure of organizational information is defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_AU-13_ODP[02]\n53A_R5_AU-13a.",
+      "objective": "internal system clocks are used to generate time stamps for audit records.",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.7[a]\n171A_R3_A.03.03.07.a",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,39 +25,39 @@
     {
       "scf_control_id": "MON-11",
       "ao_id": "MON-11_A03",
-      "objective": "personnel or roles to be notified if an information disclosure is discovered is/are defined.",
+      "objective": "granularity of time measurement for audit record time stamps is defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_AU-13_ODP[03]",
+      "origin": "171A_R3_A.03.03.07.ODP[01]",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "one (1) second granularity of time measurement",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "MON-11",
       "ao_id": "MON-11_A04",
-      "objective": "additional actions to be taken if an information disclosure is discovered are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_AU-13_ODP[04]",
+      "objective": "time stamps recorded in audit records meet an organization-defined granularity of time measurement.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "no coarser than 1 second",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "MON-11",
       "ao_id": "MON-11_A05",
-      "objective": "personnel or roles are notified if an information disclosure is discovered.",
+      "objective": "time stamps are recorded for audit records that meet <A.03.03.07.ODP[01]: granularity of time measurement>.",
       "pptdf": "Technology",
-      "origin": "53A_R5_AU-13b.01",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
+      "origin": "171A_R3_A.03.03.07.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "a granularity of one (1) second or smaller",
+      "org_defined_parameters": "US DoD ODP Value: a granularity of one (1) second or smaller"
     },
     {
       "scf_control_id": "MON-11",
       "ao_id": "MON-11_A06",
-      "objective": "additional actions are taken if an information disclosure is discovered.",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are configured to use an authoritative time source to generate time stamps for event logs and security-relevant telemetry.",
       "pptdf": "Technology",
-      "origin": "53A_R5_AU-13b.02",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

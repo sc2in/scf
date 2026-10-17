@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CPL-29",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-29",
+      "ao_id": "CPL-29_A01",
+      "objective": "Control Assurance Automation (CAA) engineering pipelines, tooling and automated collection are identified and documented as technology functions within the scope of the organization's governance.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-29",
+      "ao_id": "CPL-29_A02",
+      "objective": "Control Assurance Automation (CAA) engineering pipelines, tooling and automated collection are included in the organization's risk assessment and risk register activities in the same manner as other technology functions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-29",
+      "ao_id": "CPL-29_A03",
+      "objective": "Control Assurance Automation (CAA) engineering pipelines, tooling and automated collection are subject to the same governance requirements applied to other technology functions, including ownership, access management, change management and monitoring.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-29",
+      "ao_id": "CPL-29_A04",
+      "objective": "responsibility and authority for the governance and risk oversight of Control Assurance Automation (CAA) are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-29",
+      "ao_id": "CPL-29_A05",
+      "objective": "governance and risk oversight of Control Assurance Automation (CAA) is reviewed at a defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

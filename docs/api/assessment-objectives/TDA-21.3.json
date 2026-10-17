@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "TDA-21.3",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-21.3",
+      "ao_id": "TDA-21.3_A01",
+      "objective": "the Technology Assets, Applications and/or Services (TAAS) for which an Indentured Bill of Materials (IBOM) is required are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21.3",
+      "ao_id": "TDA-21.3_A02",
+      "objective": "an Indentured Bill of Materials (IBOM) is generated for internally produced Technology Assets, Applications and/or Services (TAAS), or obtained from the supplier for acquired TAAS.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21.3",
+      "ao_id": "TDA-21.3_A03",
+      "objective": "each Indentured Bill of Materials (IBOM) documents the hierarchical relationship between assemblies, sub-assemblies and components, such that each component can be traced to its parent assembly.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21.3",
+      "ao_id": "TDA-21.3_A04",
+      "objective": "Indentured Bills of Materials (IBOMs) are updated when assemblies, sub-assemblies or components are added, replaced or removed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

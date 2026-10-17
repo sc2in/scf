@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-IAC-03",
+  "area": "Identity & Access Management",
+  "artifact_name": "Privileged User Inventory",
+  "artifact_description": "Documented evidence of an inventory of privileged users across Technology Assets, Applications and/or Services (TAAS) (internal and external).",
+  "scf_controls": [
+    "IAC-10",
+    "IAC-10.1",
+    "IAC-10.2",
+    "IAC-27"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.5\nAU.L2-3.3.9\nIA.L2-3.5.4"
+}

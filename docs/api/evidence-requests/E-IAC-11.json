@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAC-11",
+  "area": "Identity & Access Management",
+  "artifact_name": "Recently Disabled Accounts",
+  "artifact_description": "Documented evidence of list of recently disabled system accounts along with the name of the individual associated with each account.",
+  "scf_controls": [
+    "IAC-08.3",
+    "IAC-08.4"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5"
+}

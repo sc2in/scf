@@ -1,10 +1,10 @@
 {
   "framework_id": "usa-federal-tsa-security-directive-1580-82-2022-01",
-  "display_name": "US - Transportation Security Administration (TSA) Security Directive 1580/82 - 2022 - 01 - Rail Cybersecurity Mitigation Actions and Testing",
+  "display_name": "USA - Transportation Security Administration (TSA) Security Directive 1580/82 - 2022 - 01 - Rail Cybersecurity Mitigation Actions and Testing",
   "scf_to_framework": {
-    "total_mappings": 60,
+    "total_mappings": 61,
     "mappings": {
-      "GOV-02": [
+      "GOV-04": [
         "III.B",
         "III.B.1.d",
         "III.C.1",
@@ -13,69 +13,67 @@
         "III.C.3",
         "III.D"
       ],
-      "GOV-02.1": [
+      "GOV-04.2": [
         "III.C.1",
         "III.C.1.b",
         "III.C.3"
       ],
-      "GOV-15": [
+      "GOV-11": [
         "III.B",
         "III.C.1",
         "III.C.3",
         "III.D",
         "III.D.1"
       ],
-      "GOV-15.1": [
+      "GOV-11.1": [
         "III.B",
         "III.C.1",
         "III.C.3",
         "III.D"
       ],
-      "GOV-15.2": [
+      "GOV-11.2": [
         "III.B",
         "III.C.1",
         "III.C.3",
         "III.D"
       ],
-      "GOV-17": [
-        "II.B.1",
-        "III.F.3",
-        "V.A.1",
-        "VI.A",
-        "VI.B",
-        "VI.B.1",
-        "VI.B.2",
-        "VI.C",
-        "VI.D"
-      ],
-      "AST-01.1": [
+      "AST-06": [
         "III.B.1.a"
       ],
-      "AST-01.2": [
+      "AST-07": [
         "III.A"
       ],
-      "AST-03": [
+      "AST-07.1": [
         "III.A"
       ],
-      "AST-04": [
+      "AST-08": [
+        "IV.C.2.a"
+      ],
+      "AST-16": [
+        "III.B.1.c"
+      ],
+      "AST-17": [
         "III.B.1.a",
         "III.B.1.b",
         "III.B.1.c"
       ],
-      "AST-04.1": [
+      "AST-17.1": [
         "III.B.1.c"
       ],
-      "AST-04.2": [
-        "III.B.1.c"
+      "CHG-04.2": [
+        "III.D.1.d"
       ],
-      "CPL-01": [
+      "CHG-12": [
+        "III.D.2.c"
+      ],
+      "CPL-02": [
         "II.B.2",
         "II.B.3"
       ],
-      "CPL-01.3": [
+      "CPL-04": [
         "IV.C.1"
       ],
-      "CPL-03.3": [
+      "CPL-10": [
         "IV.C.2",
         "IV.C.2.a",
         "IV.C.2.b",
@@ -88,31 +86,25 @@
         "IV.C.2.e.iv",
         "IV.C.2.f"
       ],
-      "CFG-01": [
+      "CPL-27": [
+        "II.B.1",
+        "III.F.3",
+        "V.A.1",
+        "VI.A",
+        "VI.B",
+        "VI.B.1",
+        "VI.B.2",
+        "VI.C",
+        "VI.D"
+      ],
+      "CFG-02": [
         "III.C"
       ],
-      "CFG-02.2": [
+      "CFG-07.1": [
         "III.D.2.c"
       ],
-      "CFG-05.1": [
-        "III.D.2.c"
-      ],
-      "MON-01": [
+      "MON-02": [
         "III.D.3",
-        "III.D.3.a",
-        "III.D.3.b"
-      ],
-      "MON-01.3": [
-        "III.D.2.a",
-        "III.D.2.b"
-      ],
-      "MON-01.4": [
-        "III.D.3.a"
-      ],
-      "MON-01.8": [
-        "III.D.3.a"
-      ],
-      "MON-01.16": [
         "III.D.3.a",
         "III.D.3.b"
       ],
@@ -120,74 +112,79 @@
         "III.D.3.a"
       ],
       "MON-03.2": [
+        "III.D.3.a",
         "III.D.3.b"
       ],
-      "MON-10": [
+      "MON-04": [
+        "III.D.3.a"
+      ],
+      "MON-09": [
+        "III.D.3.a"
+      ],
+      "MON-09.1": [
+        "III.D.3.b"
+      ],
+      "MON-13": [
         "III.D.3.b"
       ],
       "MON-16": [
         "III.D.2.b"
       ],
-      "EMB-10": [
+      "MON-22": [
+        "III.D.2.a",
+        "III.D.2.b"
+      ],
+      "EMB-13": [
         "III.C.5"
       ],
-      "END-03": [
+      "END-13": [
         "III.D.1.d"
       ],
-      "END-08": [
-        "III.D.1.a"
-      ],
-      "END-10": [
-        "III.D.1.d"
-      ],
-      "IAC-01": [
+      "IAC-02": [
         "III.C"
       ],
-      "IAC-06": [
+      "IAC-21": [
+        "III.C.4",
+        "III.C.4.a",
+        "III.C.4.b"
+      ],
+      "IAC-23": [
+        "III.C.4",
+        "III.C.4.a",
+        "III.C.4.b"
+      ],
+      "IAC-37": [
         "III.C.2"
-      ],
-      "IAC-15.5": [
-        "III.C.4",
-        "III.C.4.a",
-        "III.C.4.b"
-      ],
-      "IAC-19": [
-        "III.C.4",
-        "III.C.4.a",
-        "III.C.4.b"
-      ],
-      "IRO-01": [
-        "III.D.2.d"
       ],
       "IRO-02": [
         "III.D.2.d"
       ],
-      "IAO-01": [
+      "IRO-06": [
+        "III.D.2.d"
+      ],
+      "IAO-02": [
         "III.F",
         "III.F.1",
         "III.F.2.b"
       ],
-      "IAO-01.1": [
+      "IAO-03": [
         "III.F.2.b"
       ],
-      "IAO-02": [
+      "IAO-04": [
         "III.F.2.a",
         "III.F.2.b",
         "III.F.2.c"
       ],
-      "IAO-03": [
+      "IAO-09": [
         "III.B.2",
         "III.B.2.a",
         "III.B.2.b"
       ],
-      "IAO-05": [
+      "IAO-12": [
         "III.C.2",
         "III.E.3"
       ],
-      "NET-01": [
-        "III.C.5"
-      ],
-      "NET-02.3": [
+      "NET-02": [
         "III.C.5"
       ],
       "NET-03": [
@@ -199,10 +196,10 @@
       "NET-05": [
         "III.B.1.b"
       ],
-      "NET-06.3": [
+      "NET-08.1": [
         "III.B.1.c"
       ],
-      "NET-18": [
+      "NET-17": [
         "III.D.1.b",
         "III.D.1.c",
         "III.D.1.e",
@@ -211,13 +208,19 @@
       "NET-18.1": [
         "III.D.1.b"
       ],
-      "PES-01": [
+      "NET-40.2": [
+        "III.D.1.a"
+      ],
+      "NET-41": [
+        "III.C.5"
+      ],
+      "PES-02": [
         "III.C"
       ],
-      "RSK-06": [
+      "RSK-17": [
         "III.D.4"
       ],
-      "RSK-06.2": [
+      "RSK-18": [
         "III.C.1.b",
         "III.C.2",
         "III.C.3",
@@ -225,30 +228,30 @@
         "III.D.4",
         "III.E.3"
       ],
-      "OPS-01.1": [
+      "OPS-04": [
         "III.D.2"
       ],
-      "OPS-06": [
+      "OPS-08": [
         "III.D.2.d"
       ],
-      "VPM-01": [
+      "VPM-02": [
         "III.E",
         "III.E.1",
         "III.E.2.a",
         "III.E.2.b"
       ],
-      "VPM-02": [
+      "VPM-05": [
+        "III.E.2.b"
+      ],
+      "VPM-06": [
         "III.E.2.a",
         "III.E.2.b"
       ],
-      "VPM-03": [
-        "III.E.2.b"
-      ],
-      "VPM-05": [
-        "III.E.1"
-      ],
-      "VPM-05.3": [
+      "VPM-07": [
         "III.E.2.a"
+      ],
+      "VPM-08": [
+        "III.E.1"
       ]
     }
   },
@@ -256,266 +259,267 @@
     "total_mappings": 68,
     "mappings": {
       "III.B": [
-        "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2"
       ],
       "III.B.1.d": [
-        "GOV-02",
+        "GOV-04",
         "NET-04"
       ],
       "III.C.1": [
-        "GOV-02",
-        "GOV-02.1",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2"
+        "GOV-04",
+        "GOV-04.2",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2"
       ],
       "III.C.1.a": [
-        "GOV-02"
+        "GOV-04"
       ],
       "III.C.1.b": [
-        "GOV-02",
-        "GOV-02.1",
-        "RSK-06.2"
+        "GOV-04",
+        "GOV-04.2",
+        "RSK-18"
       ],
       "III.C.3": [
-        "GOV-02",
-        "GOV-02.1",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "RSK-06.2"
+        "GOV-04",
+        "GOV-04.2",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "RSK-18"
       ],
       "III.D": [
-        "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "RSK-06.2"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "RSK-18"
       ],
       "III.D.1": [
-        "GOV-15"
-      ],
-      "II.B.1": [
-        "GOV-17"
-      ],
-      "III.F.3": [
-        "GOV-17"
-      ],
-      "V.A.1": [
-        "GOV-17"
-      ],
-      "VI.A": [
-        "GOV-17"
-      ],
-      "VI.B": [
-        "GOV-17"
-      ],
-      "VI.B.1": [
-        "GOV-17"
-      ],
-      "VI.B.2": [
-        "GOV-17"
-      ],
-      "VI.C": [
-        "GOV-17"
-      ],
-      "VI.D": [
-        "GOV-17"
+        "GOV-11"
       ],
       "III.B.1.a": [
-        "AST-01.1",
-        "AST-04"
+        "AST-06",
+        "AST-17"
       ],
       "III.A": [
-        "AST-01.2",
-        "AST-03"
-      ],
-      "III.B.1.b": [
-        "AST-04",
-        "NET-05"
-      ],
-      "III.B.1.c": [
-        "AST-04",
-        "AST-04.1",
-        "AST-04.2",
-        "NET-03",
-        "NET-06.3"
-      ],
-      "II.B.2": [
-        "CPL-01"
-      ],
-      "II.B.3": [
-        "CPL-01"
-      ],
-      "IV.C.1": [
-        "CPL-01.3"
-      ],
-      "IV.C.2": [
-        "CPL-03.3"
+        "AST-07",
+        "AST-07.1"
       ],
       "IV.C.2.a": [
-        "CPL-03.3"
+        "AST-08",
+        "CPL-10"
       ],
-      "IV.C.2.b": [
-        "CPL-03.3"
+      "III.B.1.c": [
+        "AST-16",
+        "AST-17",
+        "AST-17.1",
+        "NET-03",
+        "NET-08.1"
       ],
-      "IV.C.2.c": [
-        "CPL-03.3"
-      ],
-      "IV.C.2.d": [
-        "CPL-03.3"
-      ],
-      "IV.C.2.e": [
-        "CPL-03.3"
-      ],
-      "IV.C.2.e.i": [
-        "CPL-03.3"
-      ],
-      "IV.C.2.e.ii": [
-        "CPL-03.3"
-      ],
-      "IV.C.2.e.iii": [
-        "CPL-03.3"
-      ],
-      "IV.C.2.e.iv": [
-        "CPL-03.3"
-      ],
-      "IV.C.2.f": [
-        "CPL-03.3"
-      ],
-      "III.C": [
-        "CFG-01",
-        "IAC-01",
-        "PES-01"
-      ],
-      "III.D.2.c": [
-        "CFG-02.2",
-        "CFG-05.1"
-      ],
-      "III.D.3": [
-        "MON-01"
-      ],
-      "III.D.3.a": [
-        "MON-01",
-        "MON-01.4",
-        "MON-01.8",
-        "MON-01.16",
-        "MON-03"
-      ],
-      "III.D.3.b": [
-        "MON-01",
-        "MON-01.16",
-        "MON-03.2",
-        "MON-10"
-      ],
-      "III.D.2.a": [
-        "MON-01.3",
-        "NET-18"
-      ],
-      "III.D.2.b": [
-        "MON-01.3",
-        "MON-16"
-      ],
-      "III.C.5": [
-        "EMB-10",
-        "NET-01",
-        "NET-02.3"
+      "III.B.1.b": [
+        "AST-17",
+        "NET-05"
       ],
       "III.D.1.d": [
-        "END-03",
-        "END-10"
+        "CHG-04.2",
+        "END-13"
       ],
-      "III.D.1.a": [
-        "END-08"
+      "III.D.2.c": [
+        "CHG-12",
+        "CFG-07.1"
       ],
-      "III.C.2": [
-        "IAC-06",
-        "IAO-05",
-        "RSK-06.2"
+      "II.B.2": [
+        "CPL-02"
+      ],
+      "II.B.3": [
+        "CPL-02"
+      ],
+      "IV.C.1": [
+        "CPL-04"
+      ],
+      "IV.C.2": [
+        "CPL-10"
+      ],
+      "IV.C.2.b": [
+        "CPL-10"
+      ],
+      "IV.C.2.c": [
+        "CPL-10"
+      ],
+      "IV.C.2.d": [
+        "CPL-10"
+      ],
+      "IV.C.2.e": [
+        "CPL-10"
+      ],
+      "IV.C.2.e.i": [
+        "CPL-10"
+      ],
+      "IV.C.2.e.ii": [
+        "CPL-10"
+      ],
+      "IV.C.2.e.iii": [
+        "CPL-10"
+      ],
+      "IV.C.2.e.iv": [
+        "CPL-10"
+      ],
+      "IV.C.2.f": [
+        "CPL-10"
+      ],
+      "II.B.1": [
+        "CPL-27"
+      ],
+      "III.F.3": [
+        "CPL-27"
+      ],
+      "V.A.1": [
+        "CPL-27"
+      ],
+      "VI.A": [
+        "CPL-27"
+      ],
+      "VI.B": [
+        "CPL-27"
+      ],
+      "VI.B.1": [
+        "CPL-27"
+      ],
+      "VI.B.2": [
+        "CPL-27"
+      ],
+      "VI.C": [
+        "CPL-27"
+      ],
+      "VI.D": [
+        "CPL-27"
+      ],
+      "III.C": [
+        "CFG-02",
+        "IAC-02",
+        "PES-02"
+      ],
+      "III.D.3": [
+        "MON-02"
+      ],
+      "III.D.3.a": [
+        "MON-02",
+        "MON-03",
+        "MON-03.2",
+        "MON-04",
+        "MON-09"
+      ],
+      "III.D.3.b": [
+        "MON-02",
+        "MON-03.2",
+        "MON-09.1",
+        "MON-13"
+      ],
+      "III.D.2.b": [
+        "MON-16",
+        "MON-22"
+      ],
+      "III.D.2.a": [
+        "MON-22",
+        "NET-17"
+      ],
+      "III.C.5": [
+        "EMB-13",
+        "NET-02",
+        "NET-41"
       ],
       "III.C.4": [
-        "IAC-15.5",
-        "IAC-19"
+        "IAC-21",
+        "IAC-23"
       ],
       "III.C.4.a": [
-        "IAC-15.5",
-        "IAC-19"
+        "IAC-21",
+        "IAC-23"
       ],
       "III.C.4.b": [
-        "IAC-15.5",
-        "IAC-19"
+        "IAC-21",
+        "IAC-23"
+      ],
+      "III.C.2": [
+        "IAC-37",
+        "IAO-12",
+        "RSK-18"
       ],
       "III.D.2.d": [
-        "IRO-01",
         "IRO-02",
-        "OPS-06"
+        "IRO-06",
+        "OPS-08"
       ],
       "III.F": [
-        "IAO-01"
+        "IAO-02"
       ],
       "III.F.1": [
-        "IAO-01"
+        "IAO-02"
       ],
       "III.F.2.b": [
-        "IAO-01",
-        "IAO-01.1",
-        "IAO-02"
+        "IAO-02",
+        "IAO-03",
+        "IAO-04"
       ],
       "III.F.2.a": [
-        "IAO-02"
+        "IAO-04"
       ],
       "III.F.2.c": [
-        "IAO-02"
+        "IAO-04"
       ],
       "III.B.2": [
-        "IAO-03"
+        "IAO-09"
       ],
       "III.B.2.a": [
-        "IAO-03"
+        "IAO-09"
       ],
       "III.B.2.b": [
-        "IAO-03"
+        "IAO-09"
       ],
       "III.E.3": [
-        "IAO-05",
-        "RSK-06.2"
+        "IAO-12",
+        "RSK-18"
       ],
       "III.D.1.b": [
-        "NET-18",
+        "NET-17",
         "NET-18.1"
       ],
       "III.D.1.c": [
-        "NET-18"
+        "NET-17"
       ],
       "III.D.1.e": [
-        "NET-18"
+        "NET-17"
+      ],
+      "III.D.1.a": [
+        "NET-40.2"
       ],
       "III.D.4": [
-        "RSK-06",
-        "RSK-06.2"
+        "RSK-17",
+        "RSK-18"
       ],
       "III.D.2": [
-        "OPS-01.1"
+        "OPS-04"
       ],
       "III.E": [
-        "VPM-01"
+        "VPM-02"
       ],
       "III.E.1": [
-        "VPM-01",
-        "VPM-05"
+        "VPM-02",
+        "VPM-08"
       ],
       "III.E.2.a": [
-        "VPM-01",
         "VPM-02",
-        "VPM-05.3"
+        "VPM-06",
+        "VPM-07"
       ],
       "III.E.2.b": [
-        "VPM-01",
         "VPM-02",
-        "VPM-03"
+        "VPM-05",
+        "VPM-06"
       ]
     }
   }

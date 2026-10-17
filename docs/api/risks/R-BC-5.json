@@ -1,7 +1,7 @@
 {
   "risk_id": "R-BC-5",
   "grouping": "Business Continuity",
-  "name": "Information loss / corruption or system compromise due to non‐technical attack",
-  "description": "A non-technical attack that compromises data, systems, applications or services (e.g., social engineering, sabotage, etc.).",
+  "name": "System / Data Compromise (Non-Technical Vector)",
+  "description": "Technology Assets, Applications, Services and/or Data (TAASD) experience a non-technical attack vector compromise that results in unauthorized access, disclosure, modification, destruction or disruption (e.g., social engineering, sabotage, etc.).",
   "nist_csf_function": "Protect"
 }

@@ -4,7 +4,7 @@
   "artifact_name": "Cryptographic Exception Register",
   "artifact_description": "Documented evidence of a formal cryptographic exception register.",
   "scf_controls": [
-    "QTS-02.1"
+    "QTS-04.1"
   ],
   "cmmc_mapping": ""
 }

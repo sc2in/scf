@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.11",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Cryptographic Protections Policy",
+  "artifact_description": "Documented evidence of a cryptographic protections policy.",
+  "scf_controls": [
+    "CRY-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,11 +1,11 @@
 {
   "scf_control_id": "WEB-13",
-  "total": 2,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "WEB-13",
       "ao_id": "WEB-13_A01",
-      "objective": "Indicators of Compromise (IoC) include unauthorized alterations, additions, deletions or changes on websites that store, process and/or transmit sensitive / regulated data.",
+      "objective": "the scope of publicly accessible systems is defined.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,11 +15,31 @@
     {
       "scf_control_id": "WEB-13",
       "ao_id": "WEB-13_A02",
-      "objective": "a capability exists to monitor for web-based IoC triggers.",
-      "pptdf": "Technology",
+      "objective": "publicly accessible systems containing sensitive / regulated data are identified.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "WEB-13",
+      "ao_id": "WEB-13_A03",
+      "objective": "a capability exists to routinely review the content on publicly accessible systems for sensitive / regulated data and remove such information, if discovered.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "WEB-13",
+      "ao_id": "WEB-13_A04",
+      "objective": "a capability exists to expeditiously remove sensitive / regulated data from publicly accessible systems, if discovered.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 24 hours after discovery",
       "org_defined_parameters": ""
     }
   ]

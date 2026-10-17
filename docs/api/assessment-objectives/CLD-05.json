@@ -5,8 +5,8 @@
     {
       "scf_control_id": "CLD-05",
       "ao_id": "CLD-05_A01",
-      "objective": "virtual machine images are protected to ensure continued integrity.",
-      "pptdf": "Technology",
+      "objective": "a cloud security architecture is defined to address cloud deployments that support the organization's mission.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -15,8 +15,8 @@
     {
       "scf_control_id": "CLD-05",
       "ao_id": "CLD-05_A02",
-      "objective": "virtual machine images are governed according to the organization's established change control processes.",
-      "pptdf": "Process",
+      "objective": "the cloud security architecture supports the organization's technology strategy to securely design, configure and maintain cloud deployments.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

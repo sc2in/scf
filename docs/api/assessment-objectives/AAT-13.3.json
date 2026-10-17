@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-13.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-13.3",
+      "ao_id": "AAT-13.3_A01",
+      "objective": "an executive steering committee, or advisory board, defines criteria for superseding, disengaging or deactivating Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-13.3",
+      "ao_id": "AAT-13.3_A02",
+      "objective": "an executive steering committee, or advisory board, assigns named party(ies) the responsibility for superseding, disengaging or deactivating Artificial Intelligence (AI) and Autonomous Technologies (AAT) when designated criteria are demonstrated.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

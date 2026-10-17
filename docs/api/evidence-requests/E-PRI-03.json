@@ -4,7 +4,7 @@
   "artifact_name": "Data Authority Registrations",
   "artifact_description": "Documented evidence of registrations made with applicable data authorities for privacy-related data processing.",
   "scf_controls": [
-    "PRI-15"
+    "PRI-45"
   ],
   "cmmc_mapping": ""
 }

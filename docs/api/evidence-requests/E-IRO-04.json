@@ -4,7 +4,8 @@
   "artifact_name": "IRP Testing",
   "artifact_description": "Documented evidence of an Incident Response Plan (IRP)-related testing activity.",
   "scf_controls": [
-    "IRO-06"
+    "IRO-09",
+    "IRO-09.1"
   ],
   "cmmc_mapping": ""
 }

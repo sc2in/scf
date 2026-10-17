@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-VPM-13",
+  "area": "Vulnerability & Patch Management",
+  "artifact_name": "Deferred Patching Decisions",
+  "artifact_description": "Documented evidence of risk-based decisions to defer patches, including approvals and compensating measures.",
+  "scf_controls": [
+    "VPM-09",
+    "VPM-11"
+  ],
+  "cmmc_mapping": ""
+}

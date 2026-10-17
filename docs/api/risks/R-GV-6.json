@@ -2,6 +2,6 @@
   "risk_id": "R-GV-6",
   "grouping": "Governance",
   "name": "Lack of oversight of internal controls",
-  "description": "The inability to demonstrate appropriate evidence of due diligence and due care in overseeing the organization's internal cybersecurity and/or privacy controls.",
+  "description": "Internal control deficiencies, failures or changes remain unidentified or unresolved, allowing risk exposure to persist and reducing the organization's ability to demonstrate due diligence and due care.",
   "nist_csf_function": "Identify"
 }

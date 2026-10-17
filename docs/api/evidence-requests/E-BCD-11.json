@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCD-11",
+  "area": "Business Continuity",
+  "artifact_name": "Data Backups - Local",
+  "artifact_description": "Documented evidence of event logs for the on-site / local data backup solution.",
+  "scf_controls": [
+    "BCD-24"
+  ],
+  "cmmc_mapping": ""
+}

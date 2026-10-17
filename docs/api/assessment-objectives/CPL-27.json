@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CPL-27",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-27",
+      "ao_id": "CPL-27_A01",
+      "objective": "applicable statutory and/or regulatory authorities that require submissions of the organization's cybersecurity and/or data privacy program status are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-27",
+      "ao_id": "CPL-27_A02",
+      "objective": "contact information and report formatting requirements for applicable statutory and/or regulatory authorities are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-27",
+      "ao_id": "CPL-27_A03",
+      "objective": "a documented process exists to submit status reporting of the organization's cybersecurity and/or data privacy program to applicable statutory and/or regulatory authorities, as required.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "the submission deadline set by the applicable statutory or regulatory authority",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-27",
+      "ao_id": "CPL-27_A04",
+      "objective": "evidence of historical submissions of the organization's cybersecurity and/or data privacy program status to applicable statutory and/or regulatory authorities is retained.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "the retention period required by the applicable statutory, regulatory or contractual obligation",
+      "org_defined_parameters": ""
+    }
+  ]
+}

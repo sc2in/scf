@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-24.6",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-24.6",
+      "ao_id": "TPM-24.6_A01",
+      "objective": "the legal and regulatory obligations associated with the cessation and transition of third-party services (e.g., data protection, breach notification, regulatory notification and cross-border transfer requirements) are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.6",
+      "ao_id": "TPM-24.6_A02",
+      "objective": "the contractual obligations associated with the cessation and transition of third-party services (e.g., notice periods, transition assistance, data return and destruction, and confidentiality survival clauses) are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.6",
+      "ao_id": "TPM-24.6_A03",
+      "objective": "the licensing obligations associated with the cessation and transition of third-party services (e.g., license transfers, terminations and continued use rights) are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.6",
+      "ao_id": "TPM-24.6_A04",
+      "objective": "the records retention obligations associated with the cessation and transition of third-party services are identified and documented, including which party retains the records and for how long.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.6",
+      "ao_id": "TPM-24.6_A05",
+      "objective": "each identified compliance obligation is assigned to accountable personnel and its fulfillment is tracked to completion.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-23",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-23",
+      "ao_id": "NET-23_A01",
+      "objective": "trust relationships are established with other organizations owning, operating, and/or maintaining intranet systems.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-23",
+      "ao_id": "NET-23_A02",
+      "objective": "trust relationships with other organizations allow authorized individuals to access the intranet from external Technology Assets, Applications and/or Services (TAAS) and to process, store and/or transmit organization-controlled information using the external TAAS.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

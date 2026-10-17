@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CPL-30",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-30",
+      "ao_id": "CPL-30_A01",
+      "objective": "chain of custody for logs, telemetry and evidence collected by Control Assurance Automation (CAA) is documented from source to repository, including the collecting mechanism, the source and the time of collection.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-30",
+      "ao_id": "CPL-30_A02",
+      "objective": "the integrity of logs, telemetry and evidence collected by Control Assurance Automation (CAA) is verified upon transfer from source to repository (e.g., hash comparison, record counts or digital signatures) and transfer failures or mismatches are recorded and investigated.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-30",
+      "ao_id": "CPL-30_A03",
+      "objective": "logs, telemetry and evidence collected by Control Assurance Automation (CAA) are stored in tamper-evident storage (e.g., cryptographic hashing, append-only or immutable storage) that allows unauthorized modification or deletion to be detected.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-30",
+      "ao_id": "CPL-30_A04",
+      "objective": "access to the Control Assurance Automation (CAA) evidence repository is restricted to authorized personnel and access and modification attempts are logged.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-30",
+      "ao_id": "CPL-30_A05",
+      "objective": "integrity verification records for Control Assurance Automation (CAA) evidence are retained for as long as the evidence itself is retained.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

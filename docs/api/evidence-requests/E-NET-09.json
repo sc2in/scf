@@ -5,8 +5,8 @@
   "artifact_description": "Documented evidence of network access control points.",
   "scf_controls": [
     "NET-03",
-    "NET-05.1",
-    "NET-14.3"
+    "NET-16",
+    "NET-26.1"
   ],
   "cmmc_mapping": "AC.L2-3.1.14"
 }

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "IAC-02",
-  "total": 8,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-02",
       "ao_id": "IAC-02_A01",
-      "objective": "system, application and service users are identified.",
-      "pptdf": "Process",
-      "origin": "171A_3.5.1[a]\n53A_R5_IA-02[01]",
+      "objective": "a capability to govern logical Identification and Access Management (IAM) controls is implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "IAC-02",
       "ao_id": "IAC-02_A02",
-      "objective": "the identity of each user is authenticated or verified as a prerequisite to system access.",
-      "pptdf": "Technology",
-      "origin": "171A_3.5.2[a]\n53A_R5_IA-02[01]",
+      "objective": "the Identification and Access Management (IAM) program is organization-wide.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01_ODP[03]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "IAC-02",
       "ao_id": "IAC-02_A03",
-      "objective": "processes acting on behalf of users are associated with uniquely identified and authenticated system users.",
+      "objective": "Identification and Access Management (IAM) operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
       "pptdf": "Process",
-      "origin": "171A_3.5.1[b]\n171A_R3_A.03.05.01.a[03]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,9 +35,9 @@
     {
       "scf_control_id": "IAC-02",
       "ao_id": "IAC-02_A04",
-      "objective": "the identity of each process acting on behalf of a user is authenticated or verified as a prerequisite to system access.",
+      "objective": "the resources (e.g., people, processes, technologies, data and/or facilities) required to support Identification and Access Management (IAM) operations are allocated.",
       "pptdf": "Process",
-      "origin": "171A_3.5.2[b]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -45,9 +45,9 @@
     {
       "scf_control_id": "IAC-02",
       "ao_id": "IAC-02_A05",
-      "objective": "the identity of each device accessing or connecting to the system is authenticated or verified as a prerequisite to system access.",
-      "pptdf": "Technology",
-      "origin": "171A_3.5.2[c]",
+      "objective": "responsibility and authority for the performance of Identification and Access Management (IAM)-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -55,31 +55,11 @@
     {
       "scf_control_id": "IAC-02",
       "ao_id": "IAC-02_A06",
-      "objective": "the unique identification of authenticated organizational users is associated with processes acting on behalf of those users.",
-      "pptdf": "Process",
-      "origin": "53A_R5_IA-02[02]",
-      "assessment_rigor": "3",
+      "objective": "personnel performing Identification and Access Management (IAM)-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-02",
-      "ao_id": "IAC-02_A07",
-      "objective": "devices accessing the system are identified.",
-      "pptdf": "Process",
-      "origin": "171A_3.5.1[c]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-02",
-      "ao_id": "IAC-02_A08",
-      "objective": "individual identifiers are managed by uniquely identifying each individual as <A.03.05.05.ODP[02]: characteristic>.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.05.05.d",
-      "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "privileged or non-privileged users; contractors, foreign nationals, and/or non-organizational users",
       "org_defined_parameters": ""
     }
   ]

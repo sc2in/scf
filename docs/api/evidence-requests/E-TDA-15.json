@@ -4,9 +4,9 @@
   "artifact_name": "Updateability / Patchability View",
   "artifact_description": "Documented evidence of a description of the end-to-end process permitting software updates and patches to be deployed to the device/service.",
   "scf_controls": [
-    "TDA-01.1",
-    "TDA-01.2",
-    "TDA-04.1"
+    "TDA-06.3",
+    "TDA-06.4",
+    "TDA-08.2"
   ],
   "cmmc_mapping": ""
 }

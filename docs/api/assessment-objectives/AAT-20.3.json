@@ -1,11 +1,11 @@
 {
   "scf_control_id": "AAT-20.3",
-  "total": 5,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-20.3",
       "ao_id": "AAT-20.3_A01",
-      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes reinforcement Learning from Human Feedback (RLHF).",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that evaluate human subjects over a certain period of time based on their social behavior or known, inferred or predicted personal or personality characteristics.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,37 +15,7 @@
     {
       "scf_control_id": "AAT-20.3",
       "ao_id": "AAT-20.3_A02",
-      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes fine-tuning.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-20.3",
-      "ao_id": "AAT-20.3_A03",
-      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes retrieval- augmented generation.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-20.3",
-      "ao_id": "AAT-20.3_A04",
-      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes content moderation.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-20.3",
-      "ao_id": "AAT-20.3_A05",
-      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes business rules.",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that assign a \"social score\" branding or equivalent classification.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

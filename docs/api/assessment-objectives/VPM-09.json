@@ -5,7 +5,7 @@
     {
       "scf_control_id": "VPM-09",
       "ao_id": "VPM-09_A01",
-      "objective": "logs associated with scanning activities are monitored to ensure that those activities are limited to the timeframes of legitimate scans.",
+      "objective": "criteria are defined to justify the deferral of software and/or firmware patches.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,8 +15,8 @@
     {
       "scf_control_id": "VPM-09",
       "ao_id": "VPM-09_A02",
-      "objective": "logs associated with administrator accounts are monitored to ensure that those activities are limited to the timeframes of legitimate scans.",
-      "pptdf": "Technology",
+      "objective": "the deferral of software and/or firmware patches is facilitated when the disadvantages of applying the patch outweigh the benefits, based on organization-defined criteria.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

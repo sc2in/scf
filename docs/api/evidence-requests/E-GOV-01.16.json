@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.16",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Identification & Authentication Policy",
+  "artifact_description": "Documented evidence of a identification and authentication policy.",
+  "scf_controls": [
+    "GOV-04",
+    "IAC-01"
+  ],
+  "cmmc_mapping": ""
+}

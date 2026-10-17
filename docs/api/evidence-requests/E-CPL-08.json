@@ -4,7 +4,7 @@
   "artifact_name": "Functional Review of Cybersecurity Controls",
   "artifact_description": "Documented evidence of control testing to ensure cybersecurity controls function as expected.",
   "scf_controls": [
-    "CPL-03.2"
+    "CPL-05.1"
   ],
   "cmmc_mapping": ""
 }

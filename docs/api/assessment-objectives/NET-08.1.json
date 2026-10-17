@@ -5,7 +5,7 @@
     {
       "scf_control_id": "NET-08.1",
       "ao_id": "NET-08.1_A01",
-      "objective": "De-Militarized Zone (DMZ) network segments exist to separate untrusted networks from trusted networks.",
+      "objective": "segmentation controls restrict inbound and outbound connectivity for sensitive / regulated data enclaves (secure zones).",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

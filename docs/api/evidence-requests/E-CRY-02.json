@@ -4,7 +4,9 @@
   "artifact_name": "Cryptographic Key Management",
   "artifact_description": "Documented evidence of cryptographic key management practices.",
   "scf_controls": [
-    "CRY-09"
+    "CRY-10",
+    "CRY-10.4",
+    "CRY-10.5"
   ],
   "cmmc_mapping": ""
 }

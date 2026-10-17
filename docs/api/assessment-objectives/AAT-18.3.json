@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-18.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-18.3",
+      "ao_id": "AAT-18.3_A01",
+      "objective": "the organization publicly discloses information about Artificial Intelligence and Autonomous Technologies (AAT) in detail that enables content lineage to be assessed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-18.3",
+      "ao_id": "AAT-18.3_A02",
+      "objective": "the organization publicly discloses information about Artificial Intelligence and Autonomous Technologies (AAT) in detail that enables any transforms or modification of the data used for the output to be assessed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

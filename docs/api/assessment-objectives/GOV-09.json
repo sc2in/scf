@@ -1,15 +1,25 @@
 {
   "scf_control_id": "GOV-09",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "GOV-09",
       "ao_id": "GOV-09_A01",
-      "objective": "security and privacy-related control objectives are established as the basis for the selection, implementation and management of the organization's internal control system.",
+      "objective": "an executive steering committee, or advisory board, is formed and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-09",
+      "ao_id": "GOV-09_A02",
+      "objective": "the executive steering committee, or advisory board, coordinates cybersecurity, technology, risk, privacy and business alignment through formal meetings held per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
       "org_defined_parameters": ""
     }
   ]

@@ -1,0 +1,303 @@
+{
+  "control_id": "CFG-08.2",
+  "title": "Integrity Assurance & Enforcement (IAE)",
+  "family": "CFG",
+  "description": "Automated mechanisms exist to:\n(1) Identify unauthorized deviations from an approved secure baseline configuration; and\n(2) Implement automated resiliency actions to remediate the unauthorized change.",
+  "scf_question": "Does the organization use automated mechanisms to identify unauthorized deviations from an approved baseline and implement automated resiliency actions to remediate the unauthorized change?",
+  "relative_weight": 3,
+  "conformity_cadence": "Quarterly",
+  "evidence_requests": [
+    "E-CFG-01"
+  ],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Configuration Management (CFG) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are well-documented and kept current by process owners.\n▪ A configuration management team, or similar function, is appropriately staffed and supported to implement and maintain CFG domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of configuration management operations (e.g., Configuration Management Database (CMBD) Asset Management solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically identify unauthorized deviations from an approved baseline and implement automated resiliency actions to remediate the unauthorized change.",
+    "4": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
+  },
+  "profiles": [
+    "CORE ESP Level 3 Advanced Threats"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Document baseline configurations for key systems",
+    "small": "∙ Configuration baseline documentation\n∙ CIS Benchmark hardening guides",
+    "medium": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)",
+    "large": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)",
+    "enterprise": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)"
+  },
+  "risks": [
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-2",
+    "R-BC-4",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-2",
+    "R-GV-4",
+    "R-GV-6",
+    "R-GV-9",
+    "R-GV-10",
+    "R-IR-2",
+    "R-IR-3",
+    "R-SA-1",
+    "R-IP-3"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-12",
+    "MT-14",
+    "MT-20",
+    "MT-23",
+    "MT-27"
+  ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Possible",
+    "R-AC-4": "Possible",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Likely",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Unlikely",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Possible",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Possible",
+    "R-EX-7": "Possible",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Possible",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Possible",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Likely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Possible",
+    "R-GV-10": "Possible",
+    "R-IR-1": "Unlikely",
+    "R-IR-2": "Possible",
+    "R-IR-3": "Possible",
+    "R-IR-4": "Unlikely",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Likely",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Unlikely",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Unlikely",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Likely",
+    "MT-3": "Unlikely",
+    "MT-4": "Unlikely",
+    "MT-5": "Unlikely",
+    "MT-6": "Unlikely",
+    "MT-7": "Possible",
+    "MT-8": "Possible",
+    "MT-9": "Likely",
+    "MT-10": "Likely",
+    "MT-11": "Unlikely",
+    "MT-12": "Likely",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Unlikely",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Possible",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Possible",
+    "MT-24": "Unlikely",
+    "MT-25": "Unlikely",
+    "MT-26": "Unlikely",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- merged old CFG-06",
+  "family_name": "Configuration Management",
+  "crosswalks": {
+    "general-cis-csc-8-1": [
+      "2.3",
+      "2.4"
+    ],
+    "general-cis-csc-8-1-ig1": [
+      "2.3"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "2.3",
+      "2.4"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "2.3",
+      "2.4"
+    ],
+    "general-csa-iot-2": [
+      "CCM-03"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "HDR 3.11(1)",
+      "NDR 3.11(1)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "CM-03(03)",
+      "CM-03(05)",
+      "CM-03(08)",
+      "CM-11(03)"
+    ],
+    "general-nist-800-82-r3": [
+      "CM-03(03)",
+      "CM-03(05)",
+      "CM-03(08)"
+    ],
+    "general-nist-800-161-r1": [
+      "CM-3(8)"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "CM-3(8)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "CM-3(8)"
+    ],
+    "general-nist-800-171-r3": [
+      "03.04.02.a",
+      "03.04.02.b",
+      "03.04.03.a"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.04.02.a[01]",
+      "A.03.04.02.b[01]",
+      "A.03.04.03.a"
+    ],
+    "general-nist-800-172-r3": [
+      "03.14.11E"
+    ],
+    "general-nist-800-172a-r3": [
+      "A.03.04.02E.ODP[01]",
+      "DS-A.03.14.11E"
+    ],
+    "general-nist-800-207": [
+      "NIST Tenet 5"
+    ],
+    "usa-federal-dow-cmmc-2-level-3": [
+      "CM.L3-3.4.2E"
+    ],
+    "usa-federal-ffiec-iteh-2016": [
+      "II.C.10.a"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "CM-8(CE-3).b"
+    ],
+    "emea-deu-c5-2026": [
+      "OPS-05.02AC",
+      "OPS-05.03AC",
+      "OPS-26.05B",
+      "OPS-26.06B",
+      "OPS-26.05AS",
+      "OPS-30.01B.3",
+      "SSO-05.01AC.1",
+      "COM-03.01AC",
+      "COM-03.01AC.1"
+    ],
+    "emea-eu-dora-rts-2024": [
+      "Article 11.2(f)(ii)"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-5-3-5"
+    ],
+    "apac-aus-cloud-controls-matrix-2026": [
+      "PRO-04"
+    ],
+    "apac-aus-ism-2026-june": [
+      "ISM-1471"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.DS.S6"
+    ],
+    "apac-sgp-cyber-hygiene-practice-2019": [
+      "4.3(b)"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.04.02.A",
+      "03.04.02.B",
+      "03.04.03.A"
+    ]
+  }
+}

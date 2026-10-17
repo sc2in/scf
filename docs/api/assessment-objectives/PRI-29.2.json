@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-29.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-29.2",
+      "ao_id": "PRI-29.2_A01",
+      "objective": "a process to decouple Personal Data (PD) from business processes in a timely manner is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "the period required by applicable data protection law, regulation or contract, and no longer than the shortest applicable deadline",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-29.2",
+      "ao_id": "PRI-29.2_A02",
+      "objective": "upon consent revocation by the data subject, processes decouple Personal Data (PD) from business processes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "the period required by applicable data protection law, regulation or contract, and no longer than the shortest applicable deadline",
+      "org_defined_parameters": ""
+    }
+  ]
+}

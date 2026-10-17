@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CFG-24",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-24",
+      "ao_id": "CFG-24_A01",
+      "objective": "changes to Control Assurance Automation (CAA) collection or scoring logic that could alter reported control status are detected (e.g., through file integrity monitoring, version control hooks or configuration drift detection).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-24",
+      "ao_id": "CFG-24_A02",
+      "objective": "detected changes to Control Assurance Automation (CAA) collection or scoring logic are reconciled against authorized change records.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-24",
+      "ao_id": "CFG-24_A03",
+      "objective": "changes to Control Assurance Automation (CAA) collection or scoring logic that lack a corresponding authorized change record generate an alert to designated personnel.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-24",
+      "ao_id": "CFG-24_A04",
+      "objective": "the personnel or roles that receive alerts of unauthorized changes to Control Assurance Automation (CAA) logic are defined.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-24",
+      "ao_id": "CFG-24_A05",
+      "objective": "alerts of unauthorized changes to Control Assurance Automation (CAA) logic are investigated and resolved within a defined time period, including determining whether reported control status was affected.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

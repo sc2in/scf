@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-BCD-13",
+  "area": "Business Continuity",
+  "artifact_name": "Data Backups - Recovery Activities",
+  "artifact_description": "Documented evidence of recovery activities (successful and failed).",
+  "scf_controls": [
+    "BCD-18",
+    "BCD-32"
+  ],
+  "cmmc_mapping": ""
+}

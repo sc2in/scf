@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "BCD-23",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-23",
+      "ao_id": "BCD-23_A01",
+      "objective": "a backup architecture is documented that identifies backup storage locations, data flows and the mechanisms used to protect backup copies.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-23",
+      "ao_id": "BCD-23_A02",
+      "objective": "backup copies are stored in an immutable form (e.g., Write Once Read Many (WORM) storage, object lock or retention lock) that prevents modification or deletion for the defined immutability period.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-23",
+      "ao_id": "BCD-23_A03",
+      "objective": "the period for which backup copies remain immutable is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-23",
+      "ao_id": "BCD-23_A04",
+      "objective": "backup copies and backup infrastructure are protected from unauthorized access, including through encryption of backup data and access restrictions on backup repositories.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-23",
+      "ao_id": "BCD-23_A05",
+      "objective": "privileged actions on the backup infrastructure (e.g., deleting backups or changing retention or immutability settings) are restricted to authorized personnel, require multi-factor authentication and are logged.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-23",
+      "ao_id": "BCD-23_A06",
+      "objective": "the immutability of backup copies is tested at a defined frequency and the results are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

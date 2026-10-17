@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "BCD-27",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-27",
+      "ao_id": "BCD-27_A01",
+      "objective": "Recovery Point Objectives (RPOs) are defined for data that requires replication.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-27",
+      "ao_id": "BCD-27_A02",
+      "objective": "data is replicated to alternate storage or processing locations.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-27",
+      "ao_id": "BCD-27_A03",
+      "objective": "the replication frequency or replication lag for each replicated data set is configured so that it does not exceed the Recovery Point Objective (RPO) of that data.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-27",
+      "ao_id": "BCD-27_A04",
+      "objective": "replication status is monitored and replication failures or lag exceeding the Recovery Point Objective (RPO) generate alerts that are investigated and resolved.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-27",
+      "ao_id": "BCD-27_A05",
+      "objective": "the ability of replicated data to satisfy Recovery Point Objectives (RPOs) is validated at a defined frequency and the results are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

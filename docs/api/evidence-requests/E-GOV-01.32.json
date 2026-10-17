@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.32",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Threat Management Policy",
+  "artifact_description": "Documented evidence of a threat management policy.",
+  "scf_controls": [
+    "GOV-04",
+    "THR-01"
+  ],
+  "cmmc_mapping": ""
+}

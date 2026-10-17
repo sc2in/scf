@@ -1,0 +1,16 @@
+{
+  "control_id": "HRS-16",
+  "risk_if_not_implemented": "Without Identify Critical Skills & Gaps, essential knowledge and skills may be unavailable when needed, degrading the organization's ability to operate and protect itself. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to Loss of Critical Knowledge / Capability (R-PE-1), and most likely increases susceptibility to Dysfunctional Management Practices (MT-8), Human Error (MT-9), Workforce Shortage / Loss of Critical Skills / Labor Disruption (MT-25).",
+  "compensating_control_1": {
+    "control_id": "SAT-05",
+    "name": "Role-Based Security, Compliance & Resilience Training",
+    "description": "Mechanisms exist to provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter.",
+    "justification": "Role-Based Security, Compliance & Resilience Training (SAT-05) provides personnel training and awareness that compensates for the absence of Identify Critical Skills & Gaps (HRS-16) by reducing human-factor risk by equipping personnel to recognize and respond to relevant threats. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "GOV-05",
+    "name": "Assigned Security, Compliance & Resilience Responsibilities",
+    "description": "Mechanisms exist to assign one or more qualified individuals with the mission and resources to centrally-manage, coordinate, develop, implement and maintain an enterprise-wide Security, Compliance & Resilience Program (SCRP).",
+    "justification": "Assigned Security, Compliance & Resilience Responsibilities (GOV-05) provides resilience and recovery capability that compensates for the absence of Identify Critical Skills & Gaps (HRS-16) by ensuring the organization can restore operations and data when the primary control is absent. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

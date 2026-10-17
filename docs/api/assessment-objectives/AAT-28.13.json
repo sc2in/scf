@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-28.13",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-28.13",
+      "ao_id": "AAT-28.13_A01",
+      "objective": "the organization mitigates concerns of model collapse by assessing the proportion of synthetic to non-synthetic training data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-28.13",
+      "ao_id": "AAT-28.13_A02",
+      "objective": "the organization mitigates concerns of model collapse by verifying training data is not homogenous beyond organization-defined thresholds and is not produced by Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

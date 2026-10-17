@@ -1,15 +1,25 @@
 {
   "scf_control_id": "AST-13",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-13",
       "ao_id": "AST-13_A01",
-      "objective": "technology configurations prohibit third-party technology assets from connecting to the organization's internal network(s).",
+      "objective": "administrative practices identify software licensing restrictions needed for compliance with End User Licensing Agreements (EULAs).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-13",
+      "ao_id": "AST-13_A02",
+      "objective": "software inventories are reviewed, through automated or manual means, for software licensing compliance per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     }
   ]

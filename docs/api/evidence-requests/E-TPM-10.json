@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-TPM-10",
+  "area": "Third-Party Management",
+  "artifact_name": "Foreign Ownership, Control or Influence (FOCI) Assessments",
+  "artifact_description": "Documented evidence of Foreign Ownership, Control or Influence (FOCI) assessments and ownership change monitoring for third-parties.",
+  "scf_controls": [
+    "GOV-13",
+    "GOV-14",
+    "TPM-20",
+    "TPM-20.1",
+    "TPM-20.2"
+  ],
+  "cmmc_mapping": ""
+}

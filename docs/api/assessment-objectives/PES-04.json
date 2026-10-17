@@ -1,11 +1,21 @@
 {
   "scf_control_id": "PES-04",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "PES-04",
       "ao_id": "PES-04_A01",
-      "objective": "identify systems, equipment and respective operating environments that require limited physical access so that appropriate physical access controls are designed and implemented for offices, rooms and facilities.",
+      "objective": "a zone-based approach to physical security is developed.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-04",
+      "ao_id": "PES-04_A02",
+      "objective": "a zone-based approach to physical security is implemented.",
       "pptdf": "Facility",
       "origin": "SCF Created",
       "assessment_rigor": "1",

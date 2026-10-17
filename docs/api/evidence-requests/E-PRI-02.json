@@ -4,10 +4,12 @@
   "artifact_name": "Authorized Use",
   "artifact_description": "Documented evidence of authorized use definitions for privacy-related data operations.",
   "scf_controls": [
-    "PRI-04",
-    "PRI-04.1",
-    "PRI-05",
-    "PRI-05.1"
+    "PRI-12",
+    "PRI-22",
+    "PRI-29",
+    "PRI-31",
+    "PRI-31.1",
+    "PRI-35"
   ],
   "cmmc_mapping": ""
 }

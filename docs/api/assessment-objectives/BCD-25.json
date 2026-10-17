@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "BCD-25",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-25",
+      "ao_id": "BCD-25_A01",
+      "objective": "business-critical data requiring redundant copies is identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-25",
+      "ao_id": "BCD-25_A02",
+      "objective": "redundant copies of all business-critical data are maintained within one (1) or more logically vaulted or offline environments.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-25",
+      "ao_id": "BCD-25_A03",
+      "objective": "logically vaulted or offline environments are isolated from the primary processing environment such that a compromise of production credentials or systems cannot modify or delete the redundant copies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-25",
+      "ao_id": "BCD-25_A04",
+      "objective": "the frequency at which redundant copies of business-critical data are updated is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least weekly, or more frequently as required to meet Recovery Point Objectives (RPOs)",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-25",
+      "ao_id": "BCD-25_A05",
+      "objective": "redundant copies of business-critical data are verified for completeness and recoverability at a defined frequency and the results are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

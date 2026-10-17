@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-EMB-05",
+  "area": "Asset Management",
+  "artifact_name": "Embedded Technology Configuration Monitoring & Reviews",
+  "artifact_description": "Documented evidence of embedded technology configuration monitoring, alteration prevention and periodic reviews.",
+  "scf_controls": [
+    "EMB-08",
+    "EMB-09",
+    "EMB-11",
+    "EMB-13"
+  ],
+  "cmmc_mapping": ""
+}

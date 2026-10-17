@@ -4,7 +4,8 @@
   "artifact_name": "Risk Management Justification",
   "artifact_description": "Document evidence of justification for selecting a specific course of action to manage material risk.",
   "scf_controls": [
-    "RSK-13.2"
+    "RSK-06.1",
+    "RSK-06.2"
   ],
   "cmmc_mapping": ""
 }

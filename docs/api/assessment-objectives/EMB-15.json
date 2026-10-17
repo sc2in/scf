@@ -1,15 +1,55 @@
 {
   "scf_control_id": "EMB-15",
-  "total": 1,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "EMB-15",
       "ao_id": "EMB-15_A01",
-      "objective": "the safety aspects of embedded technologies are evaluated via a fault tree analysis or similar method, to determine possible consequences of misuse, misconfiguration and/or failure.",
+      "objective": "requests for remote management access to embedded technologies are approved by designated personnel before access is enabled.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-15",
+      "ao_id": "EMB-15_A02",
+      "objective": "remote management access to embedded technologies is enabled only for the duration of an approved need and is disabled when the need ends.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-15",
+      "ao_id": "EMB-15_A03",
+      "objective": "persistent (\"always on\") remote management connections to embedded technologies are eliminated, with remote sessions established on demand and terminated on completion.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-15",
+      "ao_id": "EMB-15_A04",
+      "objective": "remote management of embedded technologies requires strong authentication (e.g., multi-factor authentication).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-15",
+      "ao_id": "EMB-15_A05",
+      "objective": "remote management sessions to embedded technologies are logged and the logs are reviewed at a defined frequency for unapproved or anomalous access.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least quarterly",
       "org_defined_parameters": ""
     }
   ]

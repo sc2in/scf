@@ -4,7 +4,8 @@
   "artifact_name": "Sensitive / Regulated Data Spills",
   "artifact_description": "Documented evidence of records of response to sensitive / regulated data spills.",
   "scf_controls": [
-    "IRO-12"
+    "IRO-20",
+    "IRO-20.3"
   ],
   "cmmc_mapping": ""
 }

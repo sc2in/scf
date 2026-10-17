@@ -4,7 +4,7 @@
   "artifact_name": "IRP Training",
   "artifact_description": "Documented evidence of an Incident Response Plan (IRP)-related training activity.",
   "scf_controls": [
-    "IRO-05"
+    "IRO-10"
   ],
   "cmmc_mapping": ""
 }

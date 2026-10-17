@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CPL-13",
+  "area": "Compliance",
+  "artifact_name": "Evidence Request List (ERL) & Sampling Criteria",
+  "artifact_description": "Documented evidence of the Evidence Request List (ERL) and evidence sampling criteria defined prior to an assessment.",
+  "scf_controls": [
+    "CPL-11",
+    "CPL-12",
+    "CPL-16",
+    "CPL-17"
+  ],
+  "cmmc_mapping": ""
+}

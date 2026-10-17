@@ -1,35 +1,15 @@
 {
   "scf_control_id": "DCH-25",
-  "total": 3,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "DCH-25",
       "ao_id": "DCH-25_A01",
-      "objective": "the statutory, regulatory and/or contractual basis restricts the transfer of sensitive and/or regulated data to third-countries or international organizations is identified.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "DCH-25",
-      "ao_id": "DCH-25_A02",
-      "objective": "mechanisms to restrict the transfer of sensitive and/or regulated data to third-countries or international organizations are defined.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "DCH-25",
-      "ao_id": "DCH-25_A03",
-      "objective": "mechanisms to restrict the transfer of sensitive and/or regulated data to third-countries or international organizations are implemented.",
+      "objective": "ad-hoc exchanges of large digital files with internal or external parties are secured according to organization-defined protection criteria.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "encryption of files in transit and at rest, with access limited to named recipients",
       "org_defined_parameters": ""
     }
   ]

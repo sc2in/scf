@@ -4,11 +4,11 @@
   "scf_to_framework": {
     "total_mappings": 2,
     "mappings": {
-      "CPL-01": [
+      "CPL-02": [
         "0001",
         "2314"
       ],
-      "SEA-01.2": [
+      "SEA-02.1": [
         "2500"
       ]
     }
@@ -17,13 +17,13 @@
     "total_mappings": 3,
     "mappings": {
       "2314": [
-        "CPL-01"
+        "CPL-02"
       ],
       "2500": [
-        "SEA-01.2"
+        "SEA-02.1"
       ],
       "0001": [
-        "CPL-01"
+        "CPL-02"
       ]
     }
   }

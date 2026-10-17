@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-CPL-12",
+  "area": "Compliance",
+  "artifact_name": "Control Assurance Automation (CAA) Evidence Integrity Records",
+  "artifact_description": "Documented evidence of integrity and chain-of-custody protections for automatically collected evidence, including tamper-evident storage, authorized data feed reconciliation and protection of aggregated telemetry.",
+  "scf_controls": [
+    "CPL-30",
+    "DCH-41",
+    "MON-37"
+  ],
+  "cmmc_mapping": ""
+}

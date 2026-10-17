@@ -4,15 +4,13 @@
   "artifact_name": "Design and Development Plan (DDP)",
   "artifact_description": "Documented evidence of an engineering method to control the design process and govern the lifecycle of the product/service.",
   "scf_controls": [
-    "SEA-01",
-    "SEA-02",
-    "SEA-03",
-    "TDA-02.3",
-    "TDA-05",
-    "TDA-06.3",
+    "TDA-03",
+    "TDA-04",
+    "TDA-06",
+    "TDA-11",
+    "TDA-13",
     "TDA-14",
-    "TDA-14.1",
-    "TDA-14.2"
+    "TDA-20"
   ],
   "cmmc_mapping": ""
 }

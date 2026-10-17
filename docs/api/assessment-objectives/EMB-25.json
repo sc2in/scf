@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "EMB-25",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-25",
+      "ao_id": "EMB-25_A01",
+      "objective": "hazardous processes requiring a Safety Instrumented System (SIS) are identified through a documented hazard and risk assessment (e.g., Hazard and Operability study (HAZOP) or Layer of Protection Analysis (LOPA)).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-25",
+      "ao_id": "EMB-25_A02",
+      "objective": "a Safety Instrumented System (SIS) automatically monitors identified hazardous processes for conditions that could lead to a hazardous event.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-25",
+      "ao_id": "EMB-25_A03",
+      "objective": "the Safety Instrumented System (SIS) automatically takes control action to bring the hazardous process to a safe state when a hazardous condition is detected.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-25",
+      "ao_id": "EMB-25_A04",
+      "objective": "the Safety Instrumented System (SIS) is functionally independent of the Basic Process Control System (BPCS) so that a failure of the control system does not disable the safety function.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-25",
+      "ao_id": "EMB-25_A05",
+      "objective": "the proof test interval for the Safety Instrumented System (SIS) is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-25",
+      "ao_id": "EMB-25_A06",
+      "objective": "the Safety Instrumented System (SIS) is proof tested at the defined interval and the results, including any failures found, are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -4,9 +4,8 @@
   "artifact_name": "Asset Inventories - Cloud Service Provider (CSP)",
   "artifact_description": "Documented evidence of an inventory of the organization's cloud-based services (e.g., SaaS, IaaS, PaaS, etc.).",
   "scf_controls": [
-    "CLD-01",
-    "CLD-09",
-    "TPM-01.1"
+    "CLD-02",
+    "TPM-08"
   ],
   "cmmc_mapping": "CM.L2-3.4.1"
 }

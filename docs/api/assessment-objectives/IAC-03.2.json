@@ -1,23 +1,23 @@
 {
   "scf_control_id": "IAC-03.2",
-  "total": 3,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-03.2",
       "ao_id": "IAC-03.2_A01",
-      "objective": "only external authenticators that are NIST-compliant are accepted.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_IA-08(02)(a)",
+      "objective": "a record is retained of all access granted to an individual, at both the system and application level.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "for the life of the account plus no less than 1 year, or longer where required by applicable legal, regulatory or contractual obligations",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "IAC-03.2",
       "ao_id": "IAC-03.2_A02",
-      "objective": "a list of accepted external authenticators is documented.",
-      "pptdf": "Process",
-      "origin": "53A_R5_IA-08(02)(b)[01]",
+      "objective": "a record is retained of who authorized each grant of access.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,19 @@
     {
       "scf_control_id": "IAC-03.2",
       "ao_id": "IAC-03.2_A03",
-      "objective": "a list of accepted external authenticators is maintained.",
-      "pptdf": "Process",
-      "origin": "53A_R5_IA-08(02)(b)[02]",
+      "objective": "a record is retained of when each authorization was granted.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-03.2",
+      "ao_id": "IAC-03.2_A04",
+      "objective": "a record is retained of when each individual's access was last reviewed.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

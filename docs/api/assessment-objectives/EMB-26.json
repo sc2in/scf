@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "EMB-26",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-26",
+      "ao_id": "EMB-26_A01",
+      "objective": "the predetermined actions each Safety Instrumented Function (SIF) executes upon detection of a potentially hazardous event are documented in a Safety Requirements Specification (SRS).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-26",
+      "ao_id": "EMB-26_A02",
+      "objective": "the detection conditions (e.g., trip points) that initiate each Safety Instrumented Function (SIF) are defined and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-26",
+      "ao_id": "EMB-26_A03",
+      "objective": "Safety Instrumented Functions (SIFs) within the Safety Instrumented System (SIS) automatically execute the predetermined actions when the defined detection conditions are met, without requiring operator intervention.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-26",
+      "ao_id": "EMB-26_A04",
+      "objective": "each Safety Instrumented Function (SIF) is functionally tested at the defined proof test interval to confirm it executes the predetermined actions and the results are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-26",
+      "ao_id": "EMB-26_A05",
+      "objective": "bypasses or overrides of a Safety Instrumented Function (SIF) are authorized, time limited and logged.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

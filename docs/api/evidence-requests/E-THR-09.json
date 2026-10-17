@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-THR-09",
+  "area": "Threat Management",
+  "artifact_name": "Insider Threat Program",
+  "artifact_description": "Documented evidence of an insider threat program, including the cross-discipline incident handling team and insider threat monitoring.",
+  "scf_controls": [
+    "MON-17.3",
+    "THR-15",
+    "THR-16"
+  ],
+  "cmmc_mapping": ""
+}

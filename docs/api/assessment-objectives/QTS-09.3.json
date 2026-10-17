@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "QTS-09.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-09.3",
+      "ao_id": "QTS-09.3_A01",
+      "objective": "Post-Quantum Cryptography (PQC) algorithms are approved.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-09.3",
+      "ao_id": "QTS-09.3_A02",
+      "objective": "required validation levels for approved algorithms (e.g., FIPS 140-3 validated) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

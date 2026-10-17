@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.29",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Security Awareness & Training Policy",
+  "artifact_description": "Documented evidence of a security awareness and training policy.",
+  "scf_controls": [
+    "GOV-04",
+    "SAT-01"
+  ],
+  "cmmc_mapping": ""
+}

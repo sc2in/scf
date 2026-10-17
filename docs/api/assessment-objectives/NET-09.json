@@ -5,9 +5,9 @@
     {
       "scf_control_id": "NET-09",
       "ao_id": "NET-09_A01",
-      "objective": "the authenticity of communications sessions is protected.",
+      "objective": "automated mechanisms separate network appliance functions (e.g., management, control and data planes).",
       "pptdf": "Technology",
-      "origin": "171A_3.13.15\n171A_R3_A.03.13.15\n53A_R5_SC-23",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "NET-09",
       "ao_id": "NET-09_A02",
-      "objective": "the confidentiality and/or integrity of information is/are maintained during preparation for transmission.",
+      "objective": "separation prevents ordinary traffic from accessing functions that manage network appliances.",
       "pptdf": "Technology",
-      "origin": "53A_R5_SC-08(02)[01]\n53A_R5_SC-08(02)_ODP",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "NET-09",
       "ao_id": "NET-09_A03",
-      "objective": "the confidentiality and/or integrity of information is/are maintained during reception.",
+      "objective": "separation prevents ordinary traffic from accessing functions that affect network operations.",
       "pptdf": "Technology",
-      "origin": "53A_R5_SC-08(02)[02]\n53A_R5_SC-08(02)_ODP",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

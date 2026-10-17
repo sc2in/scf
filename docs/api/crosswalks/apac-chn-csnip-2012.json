@@ -4,56 +4,56 @@
   "scf_to_framework": {
     "total_mappings": 7,
     "mappings": {
-      "HRS-06.1": [
+      "CPL-21": [
+        "VI"
+      ],
+      "HRS-07.1": [
         "III"
       ],
-      "PRI-01.6": [
-        "IV"
-      ],
-      "PRI-01.11": [
+      "PRI-09": [
         "I",
         "II",
         "VI"
       ],
-      "PRI-05.4": [
+      "PRI-10": [
+        "IV"
+      ],
+      "PRI-29": [
         "V"
       ],
-      "PRI-06": [
+      "PRI-39.1": [
         "VIII"
       ],
-      "PRI-06.5": [
+      "PRI-40": [
         "VIII"
-      ],
-      "PRI-16": [
-        "VI"
       ]
     }
   },
   "framework_to_scf": {
     "total_mappings": 7,
     "mappings": {
-      "III": [
-        "HRS-06.1"
+      "VI": [
+        "CPL-21",
+        "PRI-09"
       ],
-      "IV": [
-        "PRI-01.6"
+      "III": [
+        "HRS-07.1"
       ],
       "I": [
-        "PRI-01.11"
+        "PRI-09"
       ],
       "II": [
-        "PRI-01.11"
+        "PRI-09"
       ],
-      "VI": [
-        "PRI-01.11",
-        "PRI-16"
+      "IV": [
+        "PRI-10"
       ],
       "V": [
-        "PRI-05.4"
+        "PRI-29"
       ],
       "VIII": [
-        "PRI-06",
-        "PRI-06.5"
+        "PRI-39.1",
+        "PRI-40"
       ]
     }
   }

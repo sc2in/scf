@@ -1,13 +1,13 @@
 {
   "scf_control_id": "CRY-10",
-  "total": 4,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "CRY-10",
       "ao_id": "CRY-10_A01",
-      "objective": "cybersecurity / data privacy attributes associated with information exchanged are defined.",
+      "objective": "requirements for key generation, distribution, storage, access, and destruction are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SC-16_ODP[01]\n53A_R5_SC-16_ODP[02]",
+      "origin": "53A_R5_SC-28(03)_ODP[02]\n171A_R3_A.03.13.10.ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,32 +15,52 @@
     {
       "scf_control_id": "CRY-10",
       "ao_id": "CRY-10_A02",
-      "objective": "cybersecurity / data privacy attributes are associated with information exchanged between systems.",
+      "objective": "protected storage for cryptographic keys is provided using organization-defined criteria.",
       "pptdf": "Technology",
-      "origin": "53A_R5_SC-16[01]\n53A_R5_SC-16[03]",
-      "assessment_rigor": "3",
+      "origin": "53A_R5_SC-28(03)\n53A_R5_SC-28(03)_ODP[01]",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CRY-10",
       "ao_id": "CRY-10_A03",
-      "objective": "security /privacy attributes are associated with information exchanged between system components.",
+      "objective": "cryptographic keys are established in the system in accordance with organization-defined key management requirements.",
       "pptdf": "Technology",
-      "origin": "53A_R5_SC-16[02]\n53A_R5_SC-16[04]",
-      "assessment_rigor": "3",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CRY-10",
       "ao_id": "CRY-10_A04",
-      "objective": "the integrity of transmitted cybersecurity / data privacy attributes is verified.",
+      "objective": "cryptographic keys are managed in the system in accordance with organization-defined key management requirements.",
       "pptdf": "Technology",
-      "origin": "53A_R5_SC-16(01)[01]\n53A_R5_SC-16(01)[02]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no longer than the cryptoperiod defined for each key type and algorithm",
       "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-10",
+      "ao_id": "CRY-10_A05",
+      "objective": "cryptographic keys are established in the system in accordance with the following key management requirements: <A.03.13.10.ODP[01]: requirements>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.10[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: At a minimum, establish a policy and procedure in line with the latest Cryptographic key management guidance",
+      "org_defined_parameters": "US DoD ODP Value: Guidance: At a minimum, establish a policy and procedure in line with the latest Cryptographic key management guidance"
+    },
+    {
+      "scf_control_id": "CRY-10",
+      "ao_id": "CRY-10_A06",
+      "objective": "cryptographic keys are managed in the system in accordance with the following key management requirements: <A.03.13.10.ODP[01]: requirements>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.10[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: At a minimum, establish a policy and procedure in line with the latest Cryptographic key management guidance",
+      "org_defined_parameters": "US DoD ODP Value: Guidance: At a minimum, establish a policy and procedure in line with the latest Cryptographic key management guidance"
     }
   ]
 }

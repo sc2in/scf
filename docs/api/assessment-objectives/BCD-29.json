@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "BCD-29",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-29",
+      "ao_id": "BCD-29_A01",
+      "objective": "data requiring Continuous Data Protection (CDP) is identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-29",
+      "ao_id": "BCD-29_A02",
+      "objective": "automated Continuous Data Protection (CDP) mechanisms capture data changes as they occur for the identified data.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-29",
+      "ao_id": "BCD-29_A03",
+      "objective": "the recovery window for which Continuous Data Protection (CDP) change history is retained is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-29",
+      "ao_id": "BCD-29_A04",
+      "objective": "Continuous Data Protection (CDP) mechanisms enable recovery of the identified data to a specific point in time within the defined recovery window.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-29",
+      "ao_id": "BCD-29_A05",
+      "objective": "point-in-time recovery from Continuous Data Protection (CDP) is tested at a defined frequency and the results are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-29",
+      "ao_id": "BCD-29_A06",
+      "objective": "Continuous Data Protection (CDP) operation is monitored and capture failures or gaps generate alerts that are investigated and resolved.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-GV-10",
+  "grouping": "Governance",
+  "name": "Unreliable Assurance / Decision Information",
+  "description": "Executive management, the Board of Directors (BoD), assessors or other stakeholders rely on inaccurate, incomplete or untimely control, risk or compliance information, leading to:\n(1) Unsound decisions; and/or\n(2) False assurance.",
+  "nist_csf_function": "Protect"
+}

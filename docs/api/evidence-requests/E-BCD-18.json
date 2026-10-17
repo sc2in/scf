@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-BCD-18",
+  "area": "Business Continuity",
+  "artifact_name": "Alternate Processing / Storage Site Agreements",
+  "artifact_description": "Documented evidence of alternate processing site, alternate storage site and alternate telecommunications service agreements, including separation from primary sites.",
+  "scf_controls": [
+    "BCD-12",
+    "BCD-13",
+    "BCD-13.1",
+    "BCD-15",
+    "BCD-16",
+    "BCD-17",
+    "BCD-17.2"
+  ],
+  "cmmc_mapping": ""
+}

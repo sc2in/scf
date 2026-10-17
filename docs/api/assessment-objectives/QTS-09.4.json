@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "QTS-09.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-09.4",
+      "ao_id": "QTS-09.4_A01",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are configured to use FIPS 140-3 validated cryptographic modules, where applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

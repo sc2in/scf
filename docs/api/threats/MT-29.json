@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-29",
+  "grouping": "Man-Made Threat",
+  "name": "Adversarial Artificial Intelligence (AI) Attack",
+  "description": "Deliberate manipulation or exploitation of an AI system through adversarial inputs, prompt injection, jailbreaking, data or model poisoning, model theft, inference attacks or related techniques that bypass, alter or impair controls or AI-dependent functions."
+}

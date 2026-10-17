@@ -39,7 +39,7 @@
       "pptdf": "Process",
       "origin": "53A_R5_CA-03_ODP[03]\n171A_R3_A.03.12.05.ODP[02]",
       "assessment_rigor": "2",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
@@ -180,7 +180,7 @@
       "origin": "171A_R3_A.03.12.05.a[01]",
       "assessment_rigor": "NIST 800-171",
       "scf_defined_parameters": "requirements as described in the contract",
-      "org_defined_parameters": ""
+      "org_defined_parameters": "US DoD ODP Value: requirements as described in the contract"
     },
     {
       "scf_control_id": "NET-05",
@@ -190,7 +190,7 @@
       "origin": "171A_R3_A.03.12.05.a[02]",
       "assessment_rigor": "NIST 800-171",
       "scf_defined_parameters": "requirements as described in the contract",
-      "org_defined_parameters": ""
+      "org_defined_parameters": "US DoD ODP Value: requirements as described in the contract"
     },
     {
       "scf_control_id": "NET-05",
@@ -200,7 +200,7 @@
       "origin": "171A_R3_A.03.12.05.c[01]",
       "assessment_rigor": "NIST 800-171",
       "scf_defined_parameters": "at least every 12 months",
-      "org_defined_parameters": ""
+      "org_defined_parameters": "US DoD ODP Value: at least every 12 months"
     },
     {
       "scf_control_id": "NET-05",
@@ -210,7 +210,7 @@
       "origin": "171A_R3_A.03.12.05.c[02]",
       "assessment_rigor": "NIST 800-171",
       "scf_defined_parameters": "at least every 12 months",
-      "org_defined_parameters": ""
+      "org_defined_parameters": "US DoD ODP Value: at least every 12 months"
     }
   ]
 }

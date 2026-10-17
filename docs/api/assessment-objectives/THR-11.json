@@ -1,22 +1,12 @@
 {
   "scf_control_id": "THR-11",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "THR-11",
       "ao_id": "THR-11_A01",
-      "objective": "baselines are captured to establish behavioral baselines about user and entity behavior.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "THR-11",
-      "ao_id": "THR-11_A02",
-      "objective": "behavioral baselines about user and entity behavior are leveraged for dynamic threat discovery purposes.",
-      "pptdf": "Technology",
+      "objective": "Indicators of Exposure (IOE) exist for personnel to understand the potential attack vectors that attackers could use to attack the organization.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

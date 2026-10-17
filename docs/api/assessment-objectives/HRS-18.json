@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-18",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-18",
+      "ao_id": "HRS-18_A01",
+      "objective": "personnel are able to report suspicious activities and/or behavior without fear of reprisal or other negative consequences (e.g., whistleblower protections).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-18",
+      "ao_id": "HRS-18_A02",
+      "objective": "personnel are provided with an anonymous means to report suspicious activities and/or behavior.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

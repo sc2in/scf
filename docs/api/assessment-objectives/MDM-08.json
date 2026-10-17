@@ -5,7 +5,7 @@
     {
       "scf_control_id": "MDM-08",
       "ao_id": "MDM-08_A01",
-      "objective": "data retention on mobile devices is limited to the smallest usable dataset and timeframe.",
+      "objective": "the functionality of mobile devices is restricted based on geographic location.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

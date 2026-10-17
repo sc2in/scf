@@ -1,11 +1,11 @@
 {
   "scf_control_id": "QTS-07",
-  "total": 5,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-07",
       "ao_id": "QTS-07_A01",
-      "objective": "capability exists to respond to the compromise or disallowance of a Post-Quantum Cryptography (PQC) or classical algorithm on a compressed timeline.",
+      "objective": "means to gain situational awareness into the organization's current cryptographic landscape through a formal discovery process are defined.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,37 +15,7 @@
     {
       "scf_control_id": "QTS-07",
       "ao_id": "QTS-07_A02",
-      "objective": "pre-identified algorithm alternates are established.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-07",
-      "ao_id": "QTS-07_A03",
-      "objective": "tested rollback and roll-forward procedures are established.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-07",
-      "ao_id": "QTS-07_A04",
-      "objective": "customer and/or counterparty communication templates are established.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-07",
-      "ao_id": "QTS-07_A05",
-      "objective": "incident response rehearsals against defined scenarios are conducted.",
+      "objective": "the discovery process uses available tools to generate situational awareness.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

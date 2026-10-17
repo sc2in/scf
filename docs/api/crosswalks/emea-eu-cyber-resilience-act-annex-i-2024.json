@@ -2,27 +2,41 @@
   "framework_id": "emea-eu-cyber-resilience-act-annex-i-2024",
   "display_name": "EU - European Union Cyber Resilience Act - Annex I (2024)",
   "scf_to_framework": {
-    "total_mappings": 16,
+    "total_mappings": 18,
     "mappings": {
-      "CPL-01": [
+      "CPL-02": [
         "Annex I, Part II"
       ],
-      "IAO-01": [
+      "CRY-05": [
+        "Annex I, Part I(2)(e)"
+      ],
+      "CRY-07": [
+        "Annex I, Part I(2)(e)"
+      ],
+      "IAO-02": [
         "Annex I, Part I(2)",
         "Annex I, Part II(3)"
       ],
-      "IAO-02.2": [
+      "IAO-05": [
         "Annex I, Part I(2)",
         "Annex I, Part II(3)"
       ],
-      "IAO-04": [
+      "IAO-10": [
         "Annex I, Part II(2)",
         "Annex I, Part II(3)"
       ],
-      "PRI-01.11": [
+      "PRI-09": [
         "Annex I, Part I(2)(g)"
       ],
-      "TDA-01.1": [
+      "TDA-05": [
+        "Annex I, Part I(2)(e)",
+        "Annex I, Part I(2)(f)",
+        "Annex I, Part I(2)(h)",
+        "Annex I, Part I(2)(i)",
+        "Annex I, Part I(2)(j)",
+        "Annex I, Part I(2)(k)"
+      ],
+      "TDA-06": [
         "Annex I, Part I(1)",
         "Annex I, Part I(2)(g)",
         "Annex I, Part I(2)(h)",
@@ -33,24 +47,7 @@
         "Annex I, Part II(1)",
         "Annex I, Part II(2)"
       ],
-      "TDA-01.3": [
-        "Annex I, Part I(2)(a)"
-      ],
-      "TDA-02": [
-        "Annex I, Part I(2)(a)",
-        "Annex I, Part I(2)(e)",
-        "Annex I, Part I(2)(f)"
-      ],
-      "TDA-02.4": [
-        "Annex I, Part I(2)(b)",
-        "Annex I, Part I(2)(e)",
-        "Annex I, Part I(2)(f)"
-      ],
-      "TDA-02.8": [
-        "Annex I, Part I(2)(a)",
-        "Annex I, Part I(2)(d)"
-      ],
-      "TDA-02.9": [
+      "TDA-06.3": [
         "Annex I, Part I(2)(c)",
         "Annex I, Part I(2)(l)",
         "Annex I, Part II(2)",
@@ -61,25 +58,34 @@
         "Annex I, Part II(7)",
         "Annex I, Part II(8)"
       ],
-      "TDA-02.11": [
+      "TDA-07": [
         "Annex I, Part II(5)",
         "Annex I, Part II(6)"
       ],
-      "TDA-02.12": [
+      "TDA-08.5": [
         "Annex I, Part I(1)"
       ],
-      "TDA-04.2": [
+      "TDA-11.1": [
+        "Annex I, Part I(2)(a)",
+        "Annex I, Part I(2)(e)",
+        "Annex I, Part I(2)(f)"
+      ],
+      "TDA-13": [
+        "Annex I, Part I(2)(a)",
+        "Annex I, Part I(2)(d)"
+      ],
+      "TDA-13.1": [
+        "Annex I, Part I(2)(b)",
+        "Annex I, Part I(2)(e)",
+        "Annex I, Part I(2)(f)"
+      ],
+      "TDA-13.2": [
+        "Annex I, Part I(2)(a)"
+      ],
+      "TDA-21.4": [
         "Annex I, Part II(1)"
       ],
-      "TDA-06": [
-        "Annex I, Part I(2)(e)",
-        "Annex I, Part I(2)(f)",
-        "Annex I, Part I(2)(h)",
-        "Annex I, Part I(2)(i)",
-        "Annex I, Part I(2)(j)",
-        "Annex I, Part I(2)(k)"
-      ],
-      "VPM-02": [
+      "VPM-06": [
         "Annex I, Part II(2)"
       ]
     }
@@ -88,98 +94,100 @@
     "total_mappings": 24,
     "mappings": {
       "Annex I, Part II": [
-        "CPL-01"
-      ],
-      "Annex I, Part I(2)": [
-        "IAO-01",
-        "IAO-02.2"
-      ],
-      "Annex I, Part II(3)": [
-        "IAO-01",
-        "IAO-02.2",
-        "IAO-04",
-        "TDA-02.9"
-      ],
-      "Annex I, Part II(2)": [
-        "IAO-04",
-        "TDA-01.1",
-        "TDA-02.9",
-        "VPM-02"
-      ],
-      "Annex I, Part I(2)(g)": [
-        "PRI-01.11",
-        "TDA-01.1"
-      ],
-      "Annex I, Part I(1)": [
-        "TDA-01.1",
-        "TDA-02.12"
-      ],
-      "Annex I, Part I(2)(h)": [
-        "TDA-01.1",
-        "TDA-06"
-      ],
-      "Annex I, Part I(2)(i)": [
-        "TDA-01.1",
-        "TDA-06"
-      ],
-      "Annex I, Part I(2)(j)": [
-        "TDA-01.1",
-        "TDA-06"
-      ],
-      "Annex I, Part I(2)(k)": [
-        "TDA-01.1",
-        "TDA-06"
-      ],
-      "Annex I, Part I(2)(m)": [
-        "TDA-01.1"
-      ],
-      "Annex I, Part II(1)": [
-        "TDA-01.1",
-        "TDA-04.2"
-      ],
-      "Annex I, Part I(2)(a)": [
-        "TDA-01.3",
-        "TDA-02",
-        "TDA-02.8"
+        "CPL-02"
       ],
       "Annex I, Part I(2)(e)": [
-        "TDA-02",
-        "TDA-02.4",
+        "CRY-05",
+        "CRY-07",
+        "TDA-05",
+        "TDA-11.1",
+        "TDA-13.1"
+      ],
+      "Annex I, Part I(2)": [
+        "IAO-02",
+        "IAO-05"
+      ],
+      "Annex I, Part II(3)": [
+        "IAO-02",
+        "IAO-05",
+        "IAO-10",
+        "TDA-06.3"
+      ],
+      "Annex I, Part II(2)": [
+        "IAO-10",
+        "TDA-06",
+        "TDA-06.3",
+        "VPM-06"
+      ],
+      "Annex I, Part I(2)(g)": [
+        "PRI-09",
         "TDA-06"
       ],
       "Annex I, Part I(2)(f)": [
-        "TDA-02",
-        "TDA-02.4",
+        "TDA-05",
+        "TDA-11.1",
+        "TDA-13.1"
+      ],
+      "Annex I, Part I(2)(h)": [
+        "TDA-05",
         "TDA-06"
       ],
-      "Annex I, Part I(2)(b)": [
-        "TDA-02.4"
+      "Annex I, Part I(2)(i)": [
+        "TDA-05",
+        "TDA-06"
       ],
-      "Annex I, Part I(2)(d)": [
-        "TDA-02.8"
+      "Annex I, Part I(2)(j)": [
+        "TDA-05",
+        "TDA-06"
+      ],
+      "Annex I, Part I(2)(k)": [
+        "TDA-05",
+        "TDA-06"
+      ],
+      "Annex I, Part I(1)": [
+        "TDA-06",
+        "TDA-08.5"
+      ],
+      "Annex I, Part I(2)(m)": [
+        "TDA-06"
+      ],
+      "Annex I, Part II(1)": [
+        "TDA-06",
+        "TDA-21.4"
       ],
       "Annex I, Part I(2)(c)": [
-        "TDA-02.9"
+        "TDA-06.3"
       ],
       "Annex I, Part I(2)(l)": [
-        "TDA-02.9"
+        "TDA-06.3"
       ],
       "Annex I, Part II(4)": [
-        "TDA-02.9"
+        "TDA-06.3"
       ],
       "Annex I, Part II(5)": [
-        "TDA-02.9",
-        "TDA-02.11"
+        "TDA-06.3",
+        "TDA-07"
       ],
       "Annex I, Part II(6)": [
-        "TDA-02.9",
-        "TDA-02.11"
+        "TDA-06.3",
+        "TDA-07"
       ],
       "Annex I, Part II(7)": [
-        "TDA-02.9"
+        "TDA-06.3"
       ],
       "Annex I, Part II(8)": [
-        "TDA-02.9"
+        "TDA-06.3"
+      ],
+      "Annex I, Part I(2)(a)": [
+        "TDA-11.1",
+        "TDA-13",
+        "TDA-13.2"
+      ],
+      "Annex I, Part I(2)(d)": [
+        "TDA-13"
+      ],
+      "Annex I, Part I(2)(b)": [
+        "TDA-13.1"
       ]
     }
   }

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.4",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Business Continuity & Disaster Recovery Policy",
+  "artifact_description": "Documented evidence of a Business Continuity and Disaster Recovery (BC/DR) policy.",
+  "scf_controls": [
+    "BCD-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

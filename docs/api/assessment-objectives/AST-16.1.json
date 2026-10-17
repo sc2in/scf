@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-16.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-16.1",
+      "ao_id": "AST-16.1_A01",
+      "objective": "an inventory of systems, applications and services exists for each statutory, regulatory and/or contractual compliance obligation and provides sufficient detail to determine control applicability, based on asset scope categorization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-16.1",
+      "ao_id": "AST-16.1_A02",
+      "objective": "inventories of systems, applications and services are reviewed and updated per an organization-defined frequency for each statutory, regulatory and/or contractual compliance obligation, providing sufficient detail to determine control applicability, based on asset scope categorization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

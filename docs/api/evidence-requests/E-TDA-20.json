@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-TDA-20",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Development / Test / Production Environment Separation",
+  "artifact_description": "Documented evidence of secure development environments and separation of development, test and production environments, including secure migration practices.",
+  "scf_controls": [
+    "CFG-03.2",
+    "TDA-15",
+    "TDA-15.1",
+    "TDA-15.2",
+    "TDA-16",
+    "TDA-16.1"
+  ],
+  "cmmc_mapping": ""
+}

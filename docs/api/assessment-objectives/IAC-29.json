@@ -1,13 +1,33 @@
 {
   "scf_control_id": "IAC-29",
-  "total": 1,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-29",
       "ao_id": "IAC-29_A01",
-      "objective": "Attribute-Based Access Control (ABAC) is enforced for policy-driven, dynamic authorizations that supports the secure sharing of information.",
+      "objective": "rules governing the timing of revocations of access authorizations are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-03(08)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-29",
+      "ao_id": "IAC-29_A02",
+      "objective": "revocation of access authorizations is enforced, resulting from changes to the cybersecurity / data privacy attributes of subjects based on organization-defined rules.",
       "pptdf": "Technology",
-      "origin": "SCF Created",
+      "origin": "53A_R5_AC-03(08)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-29",
+      "ao_id": "IAC-29_A03",
+      "objective": "revocation of access authorizations is enforced resulting from changes to the cybersecurity / data privacy attributes of objects based on organization-defined rules.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-03(08)[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

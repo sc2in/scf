@@ -1,25 +1,15 @@
 {
   "scf_control_id": "CAP-05",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "CAP-05",
       "ao_id": "CAP-05_A01",
-      "objective": "resources needing dynamic expansion (e.g., elasticity) are defined.",
+      "objective": "the operating state and health status of critical Technology Assets, Applications and/or Services (TAAS) is centrally-monitored.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "CAP-05",
-      "ao_id": "CAP-05_A02",
-      "objective": "applicable services are configured to dynamically expand the resources available for services, as demand conditions change.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "continuously",
       "org_defined_parameters": ""
     }
   ]

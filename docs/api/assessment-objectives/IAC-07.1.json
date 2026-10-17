@@ -5,7 +5,7 @@
     {
       "scf_control_id": "IAC-07.1",
       "ao_id": "IAC-07.1_A01",
-      "objective": "user access rights are revoked following changes in personnel roles and duties, if no longer necessary or permitted.",
+      "objective": "Machine Learning (ML) is used to make real-time access decisions based on advanced network analytics, leveraging enterprise-wide data sources.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

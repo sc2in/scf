@@ -5,7 +5,7 @@
     {
       "scf_control_id": "QTS-06.4",
       "ao_id": "QTS-06.4_A01",
-      "objective": "Technology Assets, Applications and/or Services (TAAS) are configured to use FIPS 140-3 validated cryptographic modules, where applicable.",
+      "objective": "vendors are contractually obligated to support Post-Quantum Cryptography (PQC) migration, including flow-down requirements to subcontractors, suppliers and third-party components.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

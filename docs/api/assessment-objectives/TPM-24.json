@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-24",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-24",
+      "ao_id": "TPM-24_A01",
+      "objective": "the third-party relationships for which a documented exit strategy is required are identified based on criticality, dependency and risk.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24",
+      "ao_id": "TPM-24_A02",
+      "objective": "a documented exit strategy exists for applicable third-party relationships before the cessation of third-party services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24",
+      "ao_id": "TPM-24_A03",
+      "objective": "each exit strategy addresses an orderly, secure, compliant and resilient transition to another third-party or to internally-managed services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24",
+      "ao_id": "TPM-24_A04",
+      "objective": "exit strategies are reviewed and updated at a defined frequency and upon significant change to the third-party relationship or the services provided.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually, and upon significant change to the third-party relationship or the services provided",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24",
+      "ao_id": "TPM-24_A05",
+      "objective": "upon cessation of third-party services, the documented exit strategy is executed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

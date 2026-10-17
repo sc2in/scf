@@ -5,9 +5,9 @@
     {
       "scf_control_id": "TPM-04.2",
       "ao_id": "TPM-04.2_A01",
-      "objective": "external system services that require the identification of functions, ports, protocols and other services are defined.",
+      "objective": "controls to limit harm from potential supply chain adversaries are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SA-09(02)_ODP",
+      "origin": "53A_R5_SR-03(02)_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "TPM-04.2",
       "ao_id": "TPM-04.2_A02",
-      "objective": "providers of external system services are required to identify the functions, ports, protocols and other services required for the use of such services.",
+      "objective": "controls are employed to limit harm from potential adversaries identifying and targeting the organizational supply chain.",
       "pptdf": "Process",
-      "origin": "53A_R5_SA-09(02)",
+      "origin": "53A_R5_SR-03(02)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

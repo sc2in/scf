@@ -1,7 +1,7 @@
 {
   "risk_id": "R-AM-3",
   "grouping": "Asset Management",
-  "name": "Emergent properties and/or unintended consequences",
-  "description": "Emergent properties and/or unintended consequences from Artificial Intelligence & Autonomous Technologies (AAT).",
+  "name": "Unauthorized Retention / Inability to Dispose of Data",
+  "description": "Sensitive and/or regulated data is retained beyond authorized or necessary periods, cannot be reliably located or disposed of, or remains recoverable after intended destruction, creating security, data privacy, legal or discovery exposure.",
   "nist_csf_function": "Protect"
 }

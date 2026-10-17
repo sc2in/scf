@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CFG-17.2",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-17.2",
+      "ao_id": "CFG-17.2_A01",
+      "objective": "software repositories are protected from importing untrusted and/or malicious software artifacts.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-17.2",
+      "ao_id": "CFG-17.2_A02",
+      "objective": "software artifacts are scanned for malicious content.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "prior to import into the repository",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-17.2",
+      "ao_id": "CFG-17.2_A03",
+      "objective": "the digital signature or secure hash provided over a secure channel for each software artifact is verified.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "prior to import into the repository",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-17.2",
+      "ao_id": "CFG-17.2_A04",
+      "objective": "software artifacts are scanned to identify plain text or encoded secrets and keys.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "prior to import into the repository",
+      "org_defined_parameters": ""
+    }
+  ]
+}

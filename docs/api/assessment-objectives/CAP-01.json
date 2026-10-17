@@ -1,13 +1,13 @@
 {
   "scf_control_id": "CAP-01",
-  "total": 7,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "CAP-01",
       "ao_id": "CAP-01_A01",
-      "objective": "resources to be allocated to protect the availability of resources are defined.",
+      "objective": "a formal, documented capacity and performance planning policy is approved by executive management, or a formally delegated authority, and conveys executive management's intent for capacity and performance planning.",
       "pptdf": "Process",
-      "origin": "53A_R5_SC-06_ODP[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,60 +15,40 @@
     {
       "scf_control_id": "CAP-01",
       "ao_id": "CAP-01_A02",
-      "objective": "controls to protect the availability of resources are defined.",
+      "objective": "the capacity and performance planning policy provides organizational direction and states the behaviors expected of personnel and other applicable parties with respect to capacity and performance planning.",
       "pptdf": "Process",
-      "origin": "53A_R5_SC-06_ODP[02]\n53A_R5_SC-06_ODP[03]",
-      "assessment_rigor": "3",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CAP-01",
       "ao_id": "CAP-01_A03",
-      "objective": "the availability of resources is protected by allocating resources per organization-defined criteria.",
+      "objective": "the current version of the capacity and performance planning policy is communicated to, and accessible by, the personnel and other applicable parties who are expected to comply with it.",
       "pptdf": "Process",
-      "origin": "53A_R5_SC-06",
-      "assessment_rigor": "3",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CAP-01",
       "ao_id": "CAP-01_A04",
-      "objective": "capacity & performance planning operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "objective": "the capacity and performance planning policy is reviewed at least annually.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CAP-01",
       "ao_id": "CAP-01_A05",
-      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support capacity & performance planning operations.",
+      "objective": "the capacity and performance planning policy is updated, as necessary, in response to changes in risks, threats, business practices and/or statutory, regulatory and contractual obligations that affect the organization.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "CAP-01",
-      "ao_id": "CAP-01_A06",
-      "objective": "responsibility and authority for the performance of capacity & performance planning-related activities are assigned to designated personnel.",
-      "pptdf": "People",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "CAP-01",
-      "ao_id": "CAP-01_A07",
-      "objective": "personnel performing capacity & performance planning-related activities have the skills and knowledge needed to perform their assigned duties.",
-      "pptdf": "People",
-      "origin": "SCF Created",
-      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

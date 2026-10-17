@@ -4,12 +4,14 @@
   "artifact_name": "Data Handling Practices",
   "artifact_description": "Documented evidence of an organization-specific data handling practices (e.g., guidance specific the data classification scheme).",
   "scf_controls": [
-    "AST-04.1",
-    "DCH-01.1",
-    "DCH-01.2",
-    "DCH-01.4",
     "DCH-02",
-    "DCH-06"
+    "DCH-04",
+    "DCH-06",
+    "DCH-06.1",
+    "DCH-07",
+    "DCH-08",
+    "DCH-11",
+    "DCH-13"
   ],
   "cmmc_mapping": ""
 }

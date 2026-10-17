@@ -1,13 +1,13 @@
 {
   "scf_control_id": "DCH-06.1",
-  "total": 5,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "DCH-06.1",
       "ao_id": "DCH-06.1_A01",
-      "objective": "types of digital media to be physically controlled are defined.",
+      "objective": "specific individuals and/or roles authorized for logical and/or physical access to sensitive / regulated data are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_MP-04_ODP[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "DCH-06.1",
       "ao_id": "DCH-06.1_A02",
-      "objective": "types of non-digital media to be physically controlled are defined.",
+      "objective": "only authorized individuals are provided logical and/or physical access to sensitive / regulated data.",
       "pptdf": "Process",
-      "origin": "53A_R5_MP-04_ODP[02]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,30 +25,20 @@
     {
       "scf_control_id": "DCH-06.1",
       "ao_id": "DCH-06.1_A03",
-      "objective": "types of digital media are physically controlled.",
-      "pptdf": "Process",
-      "origin": "53A_R5_MP-04a.[01]",
+      "objective": "the system security plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.15.02.c",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "all types of digital and non-digital media with sensitive information",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "DCH-06.1",
       "ao_id": "DCH-06.1_A04",
-      "objective": "types of non-digital media are physically controlled.",
-      "pptdf": "Process",
-      "origin": "53A_R5_MP-04a.[02]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "all types of digital and non-digital media with sensitive information",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "DCH-06.1",
-      "ao_id": "DCH-06.1_A05",
-      "objective": "system media types are protected until the media are destroyed or sanitized using approved equipment, techniques and procedures.",
-      "pptdf": "Process",
-      "origin": "53A_R5_MP-04b.",
-      "assessment_rigor": "1",
+      "objective": "the SCRM plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-02c.[01]\n171A_R3_A.03.17.01.c",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

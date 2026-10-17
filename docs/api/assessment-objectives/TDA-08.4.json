@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TDA-08.4",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-08.4",
+      "ao_id": "TDA-08.4_A01",
+      "objective": "the developer of the system, system component or system service is required to identify the functions intended for organizational use.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(09)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-08.4",
+      "ao_id": "TDA-08.4_A02",
+      "objective": "developers and/or process owners are required to identify the ports necessary to operate their technology solutions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(09)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-08.4",
+      "ao_id": "TDA-08.4_A03",
+      "objective": "developers and/or process owners are required to identify the protocols necessary to operate their technology solutions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(09)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-08.4",
+      "ao_id": "TDA-08.4_A04",
+      "objective": "developers and/or process owners are required to identify the other services necessary to operate their technology solutions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(09)[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-08.4",
+      "ao_id": "TDA-08.4_A05",
+      "objective": "developers and/or process owners document and justify the business need for the ports, protocols and other services necessary to operate their technology solutions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

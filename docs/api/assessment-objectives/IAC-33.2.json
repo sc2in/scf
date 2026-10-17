@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-33.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-33.2",
+      "ao_id": "IAC-33.2_A01",
+      "objective": "the use of external authenticators is restricted to those that are National Institute of Standards and Technology (NIST)-compliant.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no lower than the Authenticator Assurance Level (AAL) called for by the NIST digital identity guidelines for the sensitivity of the data being accessed",
+      "org_defined_parameters": ""
+    }
+  ]
+}

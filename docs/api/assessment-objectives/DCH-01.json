@@ -1,13 +1,13 @@
 {
   "scf_control_id": "DCH-01",
-  "total": 8,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "DCH-01",
       "ao_id": "DCH-01_A01",
-      "objective": "paper media containing sensitive / regulated data is physically controlled.",
-      "pptdf": "Data",
-      "origin": "171A_3.8.1[a]",
+      "objective": "a formal, documented data classification and handling policy is approved by executive management, or a formally delegated authority, and conveys executive management's intent for data classification and handling.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "DCH-01",
       "ao_id": "DCH-01_A02",
-      "objective": "digital media containing sensitive / regulated data is physically controlled.",
-      "pptdf": "Data",
-      "origin": "171A_3.8.1[b]",
+      "objective": "the data classification and handling policy provides organizational direction and states the behaviors expected of personnel and other applicable parties with respect to data classification and handling.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,60 +25,30 @@
     {
       "scf_control_id": "DCH-01",
       "ao_id": "DCH-01_A03",
-      "objective": "paper media containing sensitive / regulated data is securely stored.",
-      "pptdf": "Data",
-      "origin": "171A_3.8.1[c]",
-      "assessment_rigor": "2",
+      "objective": "the current version of the data classification and handling policy is communicated to, and accessible by, the personnel and other applicable parties who are expected to comply with it.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "DCH-01",
       "ao_id": "DCH-01_A04",
-      "objective": "digital media containing sensitive / regulated data is securely stored.",
-      "pptdf": "Data",
-      "origin": "171A_3.8.1[d]",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
+      "objective": "the data classification and handling policy is reviewed at least annually.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "DCH-01",
       "ao_id": "DCH-01_A05",
-      "objective": "data classification & handling management operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "objective": "the data classification and handling policy is updated, as necessary, in response to changes in risks, threats, business practices and/or statutory, regulatory and contractual obligations that affect the organization.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "DCH-01",
-      "ao_id": "DCH-01_A06",
-      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support data classification & handling management operations.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "DCH-01",
-      "ao_id": "DCH-01_A07",
-      "objective": "responsibility and authority for the performance of data classification & handling management-related activities are assigned to designated personnel.",
-      "pptdf": "People",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "DCH-01",
-      "ao_id": "DCH-01_A08",
-      "objective": "personnel performing data classification & handling management-related activities have the skills and knowledge needed to perform their assigned duties.",
-      "pptdf": "People",
-      "origin": "SCF Created",
-      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

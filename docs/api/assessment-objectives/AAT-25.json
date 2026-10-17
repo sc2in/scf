@@ -1,21 +1,11 @@
 {
   "scf_control_id": "AAT-25",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-25",
       "ao_id": "AAT-25_A01",
-      "objective": "the sequence of events involved in creating and deploying Artificial Intelligence (AI) and Autonomous Technologies (AAT) is documented.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-25",
-      "ao_id": "AAT-25_A02",
-      "objective": "the relevant stakeholders involved in creating and deploying Artificial Intelligence (AI) and Autonomous Technologies (AAT) is documented.",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related stakeholders define the tasks that AAT will support (e.g., classifiers, generative models, recommenders).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

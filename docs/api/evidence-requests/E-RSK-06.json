@@ -4,8 +4,8 @@
   "artifact_name": "Risk Threshold",
   "artifact_description": "Documented evidence the organization has a defined risk threshold.",
   "scf_controls": [
-    "RSK-01.1",
-    "RSK-01.3"
+    "RSK-05",
+    "RSK-05.2"
   ],
   "cmmc_mapping": ""
 }

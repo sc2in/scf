@@ -54,6 +54,14 @@
           },
           "risks": {"type": "array", "items": {"type": "string"}},
           "threats": {"type": "array", "items": {"type": "string"}},
+          "risk_likelihood": {
+            "type": "object",
+            "additionalProperties": {"enum": ["Unlikely", "Possible", "Likely"]}
+          },
+          "threat_likelihood": {
+            "type": "object",
+            "additionalProperties": {"enum": ["Unlikely", "Possible", "Likely"]}
+          },
           "errata": {"type": "string"}
         }
       }

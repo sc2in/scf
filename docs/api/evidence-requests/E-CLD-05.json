@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CLD-05",
+  "area": "Asset Management",
+  "artifact_name": "Hosted Technology Assets, Applications and/or Services (TAAS) Authorizations",
+  "artifact_description": "Documented evidence of authorizations for hosted TAAS, including authorized individuals and restrictions on sensitive / regulated data.",
+  "scf_controls": [
+    "CLD-12",
+    "CLD-12.1",
+    "CLD-12.2",
+    "CLD-13"
+  ],
+  "cmmc_mapping": ""
+}

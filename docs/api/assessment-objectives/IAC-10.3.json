@@ -5,9 +5,9 @@
     {
       "scf_control_id": "IAC-10.3",
       "ao_id": "IAC-10.3_A01",
-      "objective": "the validation and verification of identity evidence is conducted in person before a designated registration authority.",
+      "objective": "dedicated privileged user accounts are used solely for duties requiring privileged access.",
       "pptdf": "Technology",
-      "origin": "53A_R5_IA-12(04)",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

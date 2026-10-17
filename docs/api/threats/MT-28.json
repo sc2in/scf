@@ -2,5 +2,5 @@
   "threat_id": "MT-28",
   "grouping": "Man-Made Threat",
   "name": "Harvest Now / Decrypt Later (HNDL)",
-  "description": "Harvest Now / Decrypt Later (HNDL) is a threat category associated with Post-Quantum Cryptography (PQC) that is focused on nation-state threat actors harvesting data streams using legacy encryption protocols, so  when a quantum computer exists it can decrypt harvested data for long-living sensitive / regulated data (e.g., secrets, intellectual property, etc.)."
+  "description": "A threat actor intercepts and retains currently encrypted sensitive information with the intent to decrypt it later when cryptanalytic or quantum capabilities make the deployed cryptography vulnerable."
 }

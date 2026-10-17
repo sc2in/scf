@@ -1,11 +1,21 @@
 {
   "scf_control_id": "CPL-10",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "CPL-10",
       "ao_id": "CPL-10_A01",
-      "objective": "instances of control inheritance within assessment boundaries are defined.",
+      "objective": "assessors are granted the minimum logical access authorizations necessary to conduct conformity assessments.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-10",
+      "ao_id": "CPL-10_A02",
+      "objective": "assessors are granted the minimum physical access authorizations necessary to conduct conformity assessments.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

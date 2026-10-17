@@ -1,7 +1,7 @@
 {
   "risk_id": "R-SC-2",
   "grouping": "Supply Chain",
-  "name": "Third-party physical security exposure",
-  "description": "Loss of Confidentiality, Integrity, Availability and/or Safety (CIAS) from physical security exposure of third-party structures, facilities and/or other physical assets that affects the supply chain through impacted products and/or services.",
+  "name": "Third-Party Physical Security Disruption / Exposure",
+  "description": "A physical security event affecting a supplier's or External Service Provider's (ESP)  facilities, personnel, equipment or other assets disrupts or compromises products, services, data or operations relied upon by the organization.",
   "nist_csf_function": "Protect"
 }

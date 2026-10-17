@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "QTS-07.1",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-07.1",
+      "ao_id": "QTS-07.1_A01",
+      "objective": "a current inventory of cryptographic assets is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.1",
+      "ao_id": "QTS-07.1_A02",
+      "objective": "the inventory includes algorithms (asymmetric and symmetric).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.1",
+      "ao_id": "QTS-07.1_A03",
+      "objective": "the inventory includes key lengths.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.1",
+      "ao_id": "QTS-07.1_A04",
+      "objective": "the inventory includes libraries.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.1",
+      "ao_id": "QTS-07.1_A05",
+      "objective": "the inventory includes protocols.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.1",
+      "ao_id": "QTS-07.1_A06",
+      "objective": "the inventory includes associated Technology Assets, Applications and/or Services (TAAS) utilizing the cryptography.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.1",
+      "ao_id": "QTS-07.1_A07",
+      "objective": "the inventory includes Federal Information Processing Standards (FIPS) validation status from the Cryptographic Module Validation Program (CMVP), including certificate number, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "BCD-28",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-28",
+      "ao_id": "BCD-28_A01",
+      "objective": "the criteria used to determine when data is no longer in active use and is eligible for archiving are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-28",
+      "ao_id": "BCD-28_A02",
+      "objective": "applicable statutory, regulatory and contractual retention obligations are identified and documented for each type of archived data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-28",
+      "ao_id": "BCD-28_A03",
+      "objective": "data that is no longer in active use is archived to secure storage and retained for the period required by the identified retention obligations.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-28",
+      "ao_id": "BCD-28_A04",
+      "objective": "archived data is protected from unauthorized access, modification and deletion for the duration of its retention period.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-28",
+      "ao_id": "BCD-28_A05",
+      "objective": "the retrievability of archived data is tested at a defined frequency and the results are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

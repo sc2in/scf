@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "RSK-15",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-15",
+      "ao_id": "RSK-15_A01",
+      "objective": "newly discovered risks are ranked based on industry-recognized practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "an industry-recognized vulnerability scoring method, such as the Common Vulnerability Scoring System (CVSS)",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-18",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-18",
+      "ao_id": "CPL-18_A01",
+      "objective": "the scope of Continuous Control Monitoring (CCM) is defined, including the Technology Assets, Applications, Services and Data (TAASD) and the security, compliance and resilience controls subject to monitoring.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-18",
+      "ao_id": "CPL-18_A02",
+      "objective": "Continuous Control Monitoring (CCM) is performed by automated mechanisms that assess and report the conformity status of the organization's Technology Assets, Applications, Services and Data (TAASD) against applicable security, compliance and resilience controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

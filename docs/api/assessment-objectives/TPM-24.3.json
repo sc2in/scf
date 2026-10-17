@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-24.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-24.3",
+      "ao_id": "TPM-24.3_A01",
+      "objective": "the required disposition (return, transfer, retention and/or secure destruction) is determined and documented for each category of organizational Technology Assets, Applications, Services and Data (TAASD) held, managed or processed by a third-party before its services cease.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.3",
+      "ao_id": "TPM-24.3_A02",
+      "objective": "organizational Technology Assets, Applications, Services and Data (TAASD) designated for return are returned by the third-party.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.3",
+      "ao_id": "TPM-24.3_A03",
+      "objective": "organizational Technology Assets, Applications, Services and Data (TAASD) designated for transfer are transferred to the replacement third-party or internally-managed service.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.3",
+      "ao_id": "TPM-24.3_A04",
+      "objective": "where organizational Technology Assets, Applications, Services and Data (TAASD) are retained by the third-party after cessation of services (e.g., to satisfy legal or regulatory obligations), the retention period, protection requirements and destruction at the end of the period are documented and agreed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.3",
+      "ao_id": "TPM-24.3_A05",
+      "objective": "organizational Technology Assets, Applications, Services and Data (TAASD) designated for destruction, including copies and backups held by the third-party, are securely destroyed and a written attestation or certificate of destruction is obtained from the third-party.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "within a defined period after cessation of services, and using methods consistent with NIST SP 800-88 media sanitization guidance",
+      "org_defined_parameters": ""
+    }
+  ]
+}

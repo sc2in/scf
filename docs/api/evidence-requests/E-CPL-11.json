@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CPL-11",
+  "area": "Compliance",
+  "artifact_name": "Control Assurance Automation (CAA) Governance",
+  "artifact_description": "Documented evidence that Control Assurance Automation (CAA) pipelines, tooling and automated evidence collection are governed under the organization's technology governance and risk oversight.",
+  "scf_controls": [
+    "CPL-29",
+    "IAO-15"
+  ],
+  "cmmc_mapping": ""
+}

@@ -20,6 +20,7 @@ from .sources import (
     Reconciliation,
     SourceRow,
     assign_api_ids,
+    matrix_columns,
     reconcile,
 )
 from .workbook import (
@@ -32,6 +33,12 @@ from .workbook import (
 
 SOURCE_URL = "https://securecontrolsframework.com"
 LICENSE_TEXT = "CC BY-ND (Attribution, No Derivatives)"
+
+# 2026.3 likelihood-matrix ratings. "Unlikely" means the risk/threat does not
+# meaningfully apply, so it stays out of the `risks`/`threats` id lists (which
+# keep their pre-2026.3 meaning: applicable ids) but is kept in the maps.
+LIKELIHOODS = ("Unlikely", "Possible", "Likely")
+APPLICABLE_LIKELIHOODS = frozenset({"Possible", "Likely"})
 
 
 @dataclass
@@ -195,11 +202,18 @@ def _parse_controls(wb: SCFWorkbook, result: ParseResult) -> tuple[list[dict], d
             raise ColumnResolveError(f"no maturity column for level {level} in {sheet.title!r}")
     solution_cols = {key: sheet.col(pat) for key, pat in _SOLUTION_KEYS}
 
-    risks_col = sheet.col(MAPPING_RIGHT_MARKER)
-    threats_col = sheet.col("control threat summary")
+    # Risks/threats: a per-id likelihood matrix (2026.3) or two summary text
+    # columns (<= 2026.2). The crosswalk slice ends where either begins.
+    risk_matrix, threat_matrix = matrix_columns(sheet.header)
+    if risk_matrix:
+        risks_col = min(risk_matrix)
+        threats_col = None
+    else:
+        risks_col = sheet.col(MAPPING_RIGHT_MARKER)
+        threats_col = sheet.col("control threat summary")
     errata_col = sheet.find_col("errata")
 
-    # Crosswalk landmark slice: first AICPA column .. Risk Threat Summary.
+    # Crosswalk landmark slice: first AICPA column .. first risk column.
     left = next(
         (i for i, h in enumerate(sheet.header) if h and MAPPING_LEFT_MARKER in h),
         None,
@@ -234,16 +248,26 @@ def _parse_controls(wb: SCFWorkbook, result: ParseResult) -> tuple[list[dict], d
         evidence = split_multivalue(row[erl_col])
         for v in evidence:
             result.refs.append(Ref("control-erl", v, cid, sheet.title, _cell(sheet, i, erl_col)))
-        risks = split_multivalue(row[risks_col])
-        for v in risks:
-            result.refs.append(
-                Ref("control-risk", v, cid, sheet.title, _cell(sheet, i, risks_col))
+        risk_likelihood: dict[str, str] = {}
+        threat_likelihood: dict[str, str] = {}
+        if risk_matrix:
+            risks = _read_matrix(
+                result, sheet, i, row, cid, risk_matrix, "control-risk", risk_likelihood
             )
-        threats = split_multivalue(row[threats_col])
-        for v in threats:
-            result.refs.append(
-                Ref("control-threat", v, cid, sheet.title, _cell(sheet, i, threats_col))
+            threats = _read_matrix(
+                result, sheet, i, row, cid, threat_matrix, "control-threat", threat_likelihood
             )
+        else:
+            risks = split_multivalue(row[risks_col])
+            for v in risks:
+                result.refs.append(
+                    Ref("control-risk", v, cid, sheet.title, _cell(sheet, i, risks_col))
+                )
+            threats = split_multivalue(row[threats_col])
+            for v in threats:
+                result.refs.append(
+                    Ref("control-threat", v, cid, sheet.title, _cell(sheet, i, threats_col))
+                )
         result.refs.append(
             Ref("family-domain", cid.split("-")[0], cid, sheet.title, _cell(sheet, i, id_col))
         )
@@ -277,12 +301,58 @@ def _parse_controls(wb: SCFWorkbook, result: ParseResult) -> tuple[list[dict], d
             "risks": risks,
             "threats": threats,
         }
+        if risk_matrix:
+            control["risk_likelihood"] = risk_likelihood
+            control["threat_likelihood"] = threat_likelihood
         if errata_col is not None and cell_text(row[errata_col]):
             control["errata"] = _text(row[errata_col])
         controls.append(control)
 
     xwalk = _parse_crosswalks(wb, result, sheet, rows, id_col, xwalk_cols)
     return controls, xwalk
+
+
+def _read_matrix(
+    result: ParseResult,
+    sheet: Sheet,
+    i: int,
+    row: tuple,
+    cid: str,
+    columns: dict[int, str],
+    check: str,
+    ratings: dict[str, str],
+) -> list[str]:
+    """Read one control's likelihood cells; return the applicable ids.
+
+    Every id column becomes a Ref so the validation gate still proves it exists
+    in the catalog. A rating outside LIKELIHOODS is a `likelihood-value` fail:
+    that is the shape of the 2026.3 break (a matrix read as id text), so a new
+    vocabulary must summon a human instead of silently dropping ids.
+    """
+    applicable: list[str] = []
+    for col, rid in columns.items():
+        raw = cell_text(row[col]) if col < len(row) else None
+        if raw is None or not raw.strip():
+            continue
+        rating = next((r for r in LIKELIHOODS if r.casefold() == raw.strip().casefold()), None)
+        result.refs.append(Ref(check, rid, cid, sheet.title, _cell(sheet, i, col)))
+        if rating is None:
+            result.findings.append(
+                {
+                    "check": "likelihood-value",
+                    "severity": "fail",
+                    "message": f"{cid!r} rates {rid!r} {raw!r}, expected one of {LIKELIHOODS}",
+                    "owner": cid,
+                    "value": raw,
+                    "sheet": sheet.title,
+                    "cell": _cell(sheet, i, col),
+                }
+            )
+            continue
+        ratings[rid] = rating
+        if rating in APPLICABLE_LIKELIHOODS:
+            applicable.append(rid)
+    return applicable
 
 
 def _js_object_order(d: dict[str, list[str]]) -> dict[str, list[str]]:
@@ -388,7 +458,8 @@ def _parse_aos(wb: SCFWorkbook, result: ParseResult) -> dict:
     origin_col = sheet.col("origin")
     rigor_col = sheet.col("rigor")
     sdp_col = sheet.col("scf defined parameters")
-    odp_col = sheet.col("organization defined parameters")
+    # 2026.3 dropped the ODP column; "Notes" carries the ODP values (DoD ODP text).
+    odp_col = sheet.col("organization defined parameters", alts=("notes",))
 
     records = []
     occurrences = result.ids.setdefault("ao", [])
@@ -422,7 +493,10 @@ def _parse_aos(wb: SCFWorkbook, result: ParseResult) -> dict:
 
 
 def _parse_compensating(wb: SCFWorkbook, result: ParseResult) -> dict:
-    sheet = wb.sheet("compensating")
+    # 2026.3 dropped the compensating tab: its columns now sit on the controls
+    # tab, under the same headers.
+    kind = "compensating" if wb.has_sheet("compensating") else "controls"
+    sheet = wb.sheet(kind)
     # 2026.2 shortened "SCF Control #" to "SCF #". Neither pattern is a
     # substring of the other's header, so both releases resolve unambiguously.
     id_col = sheet.col("scf #", alts=("scf control #",))
@@ -473,7 +547,8 @@ def _parse_evidence(wb: SCFWorkbook, result: ParseResult) -> dict:
     sheet = wb.sheet("evidence")
     erl_col = sheet.col("erl #")
     area_col = sheet.col("area of focus")
-    artifact_col = sheet.col("documentation artifact")
+    # 2026.3 renamed "Documentation Artifact" to "ERL Artifact".
+    artifact_col = sheet.col("erl artifact", alts=("documentation artifact",))
     desc_col = sheet.col("artifact description")
     mappings_col = sheet.col("scf control mappings")
     cmmc_col = sheet.find_col("cmmc")
@@ -565,7 +640,11 @@ def _parse_risks(wb: SCFWorkbook, result: ParseResult) -> dict:
     grouping_col = sheet.col("grouping")
     desc_col = sheet.col("description")
     func_col = sheet.col("nist csf")
-    name_col = id_col + 1
+    # 2026.3 inserted "Old Risk #" after "Risk #", so the name is no longer the
+    # next column; it is the "Risk*" header.
+    name_col = sheet.find_col("risk*")
+    if name_col is None:
+        name_col = id_col + 1
 
     records = []
     occurrences = result.ids.setdefault("risk", [])

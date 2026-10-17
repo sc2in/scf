@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CFG-18.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-18.1",
+      "ao_id": "CFG-18.1_A01",
+      "objective": "measures to restrict the use of data collected by embedded sensors to authorized purposes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-18.1",
+      "ao_id": "CFG-18.1_A02",
+      "objective": "data collected by embedded sensors is restricted to authorized purposes through organization-defined measures.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-18.1",
+      "ao_id": "CFG-18.1_A03",
+      "objective": "the authorized purposes for which data collected by embedded sensors may be used are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

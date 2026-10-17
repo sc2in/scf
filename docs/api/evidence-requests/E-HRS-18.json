@@ -4,13 +4,11 @@
   "artifact_name": "Provisioning Checklist (Onboarding)",
   "artifact_description": "Documented evidence of personnel management practices to formally onboard personnel into their assigned roles.",
   "scf_controls": [
-    "HRS-03",
-    "HRS-03.1",
-    "HRS-04.2",
-    "HRS-05.7",
-    "HRS-10",
-    "IAC-07",
-    "IAC-28"
+    "HRS-08",
+    "HRS-08.1",
+    "HRS-08.2",
+    "IAC-04",
+    "IAC-05"
   ],
   "cmmc_mapping": ""
 }

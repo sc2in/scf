@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-36.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-36.9",
+      "ao_id": "AAT-36.9_A01",
+      "objective": "criteria to define a \"serious incident\" involving operational Artificial Intelligence (AI) and Autonomous Technologies (AAT) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-36.9",
+      "ao_id": "AAT-36.9_A02",
+      "objective": "the organization reports any serious incident involving operational Artificial Intelligence (AI) and Autonomous Technologies (AAT) to relevant authorities as to when and where the serious incident occurred, in accordance with mandated reporting timelines.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "the reporting timeline required by the applicable statutory, regulatory or contractual obligation, and no longer than the shortest applicable deadline",
+      "org_defined_parameters": ""
+    }
+  ]
+}

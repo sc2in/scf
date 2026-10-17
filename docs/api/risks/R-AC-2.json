@@ -1,7 +1,7 @@
 {
   "risk_id": "R-AC-2",
   "grouping": "Access Control",
-  "name": "Improper assignment of privileged functions",
-  "description": "The inability to implement least privileges (e.g., Role-Based Access Control (RBAC), Privileged Account Management (PAM), etc.).",
+  "name": "Excessive or Unauthorized Privilege",
+  "description": "Users, services or systems obtain or retain privileges beyond those required for authorized duties, increasing the ability to access, change, disclose or disrupt protected resources.",
   "nist_csf_function": "Protect"
 }

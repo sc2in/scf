@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.7",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Cloud Security Policy",
+  "artifact_description": "Documented evidence of a cloud security policy.",
+  "scf_controls": [
+    "CLD-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

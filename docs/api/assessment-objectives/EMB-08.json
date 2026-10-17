@@ -5,7 +5,7 @@
     {
       "scf_control_id": "EMB-08",
       "ao_id": "EMB-08_A01",
-      "objective": "embedded technologies are configured to be resilient to data network and power outages.",
+      "objective": "embedded devices generate log entries when configuration changes or attempts to access interfaces are detected.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

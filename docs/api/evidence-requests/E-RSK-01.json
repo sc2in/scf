@@ -4,9 +4,10 @@
   "artifact_name": "Risk Management Program (RMP)",
   "artifact_description": "Documented evidence of a Risk Management Program (RMP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
   "scf_controls": [
-    "RSK-01",
-    "RSK-01.1",
     "RSK-02",
+    "RSK-03",
+    "RSK-04",
+    "RSK-05",
     "RSK-12"
   ],
   "cmmc_mapping": ""

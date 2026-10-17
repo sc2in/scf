@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-27.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-27.4",
+      "ao_id": "DCH-27.4_A01",
+      "objective": "data retention on mobile devices is limited to an organization-defined dataset and retention period representing the smallest usable dataset and timeframe.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 30 days of locally retained organizational data",
+      "org_defined_parameters": ""
+    }
+  ]
+}

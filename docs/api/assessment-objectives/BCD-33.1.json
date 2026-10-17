@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "BCD-33.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-33.1",
+      "ao_id": "BCD-33.1_A01",
+      "objective": "critical or sensitive system and organizational operations for which dual authorization is to be enforced are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.1e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-33.1",
+      "ao_id": "BCD-33.1_A02",
+      "objective": "dual authorization is employed to execute critical or sensitive system and organizational operations.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.1e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-33.1",
+      "ao_id": "BCD-33.1_A03",
+      "objective": "sensitive and/or regulated backup media and data for which to enforce dual authorization in order to delete or destroy are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(07)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-33.1",
+      "ao_id": "BCD-33.1_A04",
+      "objective": "dual authorization for the deletion or destruction of sensitive and/or regulated backup media and data is enforced.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-09(07)",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

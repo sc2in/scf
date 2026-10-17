@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-EMB-01",
+  "area": "Asset Management",
+  "artifact_name": "Embedded Technology Network Separation",
+  "artifact_description": "Documented evidence that embedded technologies (OT / IoT) are logically or physically separated from IT networks, with restricted and authorized communications.",
+  "scf_controls": [
+    "EMB-03",
+    "EMB-07",
+    "EMB-16",
+    "EMB-17",
+    "EMB-20"
+  ],
+  "cmmc_mapping": ""
+}

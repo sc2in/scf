@@ -1,40 +1,43 @@
 {
   "framework_id": "usa-federal-doc-data-privacy-framework-2023",
-  "display_name": "US - Data Privacy Framework (2023)",
+  "display_name": "USA - Data Privacy Framework (2023)",
   "scf_to_framework": {
-    "total_mappings": 31,
+    "total_mappings": 32,
     "mappings": {
-      "GOV-15": [
+      "GOV-11": [
         "II.4.a"
       ],
-      "CPL-01": [
+      "CPL-02": [
         "II.7.c",
         "III.5.a",
         "III.5.b.i"
       ],
-      "CPL-01.3": [
+      "CPL-04": [
         "II.7.b",
         "III.5.a"
       ],
-      "CPL-05.2": [
+      "CPL-19.2": [
         "III.5.b.ii"
       ],
-      "DCH-03.1": [
+      "DCH-08.2": [
         "III.8.c.i",
         "III.8.d.i",
         "III.14.d.i"
       ],
-      "DCH-23": [
+      "DCH-36": [
         "III.14.a.i",
         "III.14.g.i"
       ],
-      "HRS-01": [
+      "HRS-02": [
         "III.9.b.iii"
       ],
-      "PRI-01": [
+      "PRI-02": [
         "III.15.a"
       ],
-      "PRI-01.5": [
+      "PRI-10": [
+        "II.4.a"
+      ],
+      "PRI-15": [
         "II.3.a",
         "II.3.b",
         "III.9.b.i",
@@ -52,14 +55,15 @@
         "III.10.b.i",
         "III.10.c.i"
       ],
-      "PRI-01.6": [
-        "II.4.a"
-      ],
-      "PRI-01.7": [
+      "PRI-17": [
         "III.8.c.ii",
         "III.14.e.i"
       ],
-      "PRI-02": [
+      "PRI-18.2": [
+        "III.8.g.i",
+        "III.8.h.i"
+      ],
+      "PRI-21": [
         "II.1.a.i",
         "II.1.a.ii",
         "II.1.a.iii",
@@ -78,45 +82,53 @@
         "III.11.d.ii",
         "III.14.b.ii"
       ],
-      "PRI-02.1": [
+      "PRI-22": [
         "II.1.a.iv",
         "II.5.a"
       ],
-      "PRI-03": [
+      "PRI-24": [
         "II.2.a",
         "II.2.c"
       ],
-      "PRI-03.2": [
-        "III.14.b.i",
-        "III.14.b.ii"
-      ],
-      "PRI-03.6": [
-        "II.2.b"
-      ],
-      "PRI-03.7": [
+      "PRI-24.1": [
         "II.2.c",
         "III.12.a",
         "III.12.b"
       ],
-      "PRI-03.9": [
-        "III.14.c.i"
+      "PRI-24.4": [
+        "III.14.b.i",
+        "III.14.b.ii"
       ],
-      "PRI-04": [
-        "II.5.a"
+      "PRI-27": [
+        "III.1.a"
       ],
-      "PRI-04.5": [
-        "II.5.a"
+      "PRI-28": [
+        "II.2.b"
       ],
-      "PRI-05": [
-        "II.5.b"
-      ],
-      "PRI-05.2": [
-        "II.5.a"
-      ],
-      "PRI-05.4": [
+      "PRI-29": [
         "II.2.c"
       ],
-      "PRI-06": [
+      "PRI-29.1": [
+        "III.14.c.i"
+      ],
+      "PRI-30": [
+        "II.5.b"
+      ],
+      "PRI-31.1": [
+        "II.5.a"
+      ],
+      "PRI-35": [
+        "II.5.a"
+      ],
+      "PRI-35.1": [
+        "II.5.a"
+      ],
+      "PRI-39": [
+        "II.7.a.i",
+        "III.8.i.i",
+        "III.11.d.i"
+      ],
+      "PRI-39.1": [
         "II.6.a",
         "III.8.a.i",
         "III.8.a.i.1",
@@ -130,25 +142,16 @@
         "III.8.f.i",
         "III.14.e.ii"
       ],
-      "PRI-06.1": [
+      "PRI-39.3": [
         "II.6.a"
       ],
-      "PRI-06.4": [
-        "II.7.a.i",
-        "III.8.i.i",
-        "III.11.d.i"
-      ],
-      "PRI-07.5": [
-        "III.8.g.i",
-        "III.8.h.i"
-      ],
-      "SEA-01": [
+      "SEA-05": [
         "II.4.a"
       ],
-      "OPS-01.1": [
+      "OPS-04": [
         "II.7.a.ii"
       ],
-      "TPM-05": [
+      "TPM-14": [
         "II.3.a",
         "II.3.b",
         "II.7.d",
@@ -158,7 +161,7 @@
         "III.10.a.ii.3",
         "III.10.a.iii"
       ],
-      "TPM-05.2": [
+      "TPM-14.1": [
         "II.7.d",
         "III.10.a.ii.1",
         "III.10.a.ii.2",
@@ -168,254 +171,257 @@
     }
   },
   "framework_to_scf": {
-    "total_mappings": 74,
+    "total_mappings": 75,
     "mappings": {
       "II.4.a": [
-        "GOV-15",
-        "PRI-01.6",
-        "SEA-01"
+        "GOV-11",
+        "PRI-10",
+        "SEA-05"
       ],
       "II.7.c": [
-        "CPL-01"
+        "CPL-02"
       ],
       "III.5.a": [
-        "CPL-01",
-        "CPL-01.3"
+        "CPL-02",
+        "CPL-04"
       ],
       "III.5.b.i": [
-        "CPL-01"
+        "CPL-02"
       ],
       "II.7.b": [
-        "CPL-01.3"
+        "CPL-04"
       ],
       "III.5.b.ii": [
-        "CPL-05.2"
+        "CPL-19.2"
       ],
       "III.8.c.i": [
-        "DCH-03.1"
+        "DCH-08.2"
       ],
       "III.8.d.i": [
-        "DCH-03.1"
+        "DCH-08.2"
       ],
       "III.14.d.i": [
-        "DCH-03.1"
+        "DCH-08.2"
       ],
       "III.14.a.i": [
-        "DCH-23"
+        "DCH-36"
       ],
       "III.14.g.i": [
-        "DCH-23"
+        "DCH-36"
       ],
       "III.9.b.iii": [
-        "HRS-01",
-        "PRI-01.5"
+        "HRS-02",
+        "PRI-15"
       ],
       "III.15.a": [
-        "PRI-01"
+        "PRI-02"
       ],
       "II.3.a": [
-        "PRI-01.5",
-        "TPM-05"
+        "PRI-15",
+        "TPM-14"
       ],
       "II.3.b": [
-        "PRI-01.5",
-        "TPM-05"
+        "PRI-15",
+        "TPM-14"
       ],
       "III.9.b.i": [
-        "PRI-01.5"
+        "PRI-15"
       ],
       "III.9.b.ii": [
-        "PRI-01.5"
+        "PRI-15"
       ],
       "III.9.c.i": [
-        "PRI-01.5"
+        "PRI-15"
       ],
       "III.9.d.i": [
-        "PRI-01.5"
+        "PRI-15"
       ],
       "III.9.d.ii": [
-        "PRI-01.5"
+        "PRI-15"
       ],
       "III.9.e.i": [
-        "PRI-01.5"
+        "PRI-15"
       ],
       "III.10.a.i": [
-        "PRI-01.5",
-        "TPM-05"
+        "PRI-15",
+        "TPM-14"
       ],
       "III.10.a.ii.1": [
-        "PRI-01.5",
-        "TPM-05",
-        "TPM-05.2"
+        "PRI-15",
+        "TPM-14",
+        "TPM-14.1"
       ],
       "III.10.a.ii.2": [
-        "PRI-01.5",
-        "TPM-05",
-        "TPM-05.2"
+        "PRI-15",
+        "TPM-14",
+        "TPM-14.1"
       ],
       "III.10.a.ii.3": [
-        "PRI-01.5",
-        "TPM-05",
-        "TPM-05.2"
+        "PRI-15",
+        "TPM-14",
+        "TPM-14.1"
       ],
       "III.10.a.iii": [
-        "PRI-01.5",
-        "TPM-05",
-        "TPM-05.2"
+        "PRI-15",
+        "TPM-14",
+        "TPM-14.1"
       ],
       "III.10.b.i": [
-        "PRI-01.5"
+        "PRI-15"
       ],
       "III.10.c.i": [
-        "PRI-01.5"
+        "PRI-15"
       ],
       "III.8.c.ii": [
-        "PRI-01.7"
+        "PRI-17"
       ],
       "III.14.e.i": [
-        "PRI-01.7"
-      ],
-      "II.1.a.i": [
-        "PRI-02"
-      ],
-      "II.1.a.ii": [
-        "PRI-02"
-      ],
-      "II.1.a.iii": [
-        "PRI-02"
-      ],
-      "II.1.a.iv": [
-        "PRI-02",
-        "PRI-02.1"
-      ],
-      "II.1.a.v": [
-        "PRI-02"
-      ],
-      "II.1.a.vi": [
-        "PRI-02"
-      ],
-      "II.1.a.vii": [
-        "PRI-02"
-      ],
-      "II.1.a.viii": [
-        "PRI-02"
-      ],
-      "II.1.a.ix": [
-        "PRI-02"
-      ],
-      "II.1.a.x": [
-        "PRI-02"
-      ],
-      "II.1.a.xi": [
-        "PRI-02"
-      ],
-      "II.1.a.xii": [
-        "PRI-02"
-      ],
-      "II.1.a.xiii": [
-        "PRI-02"
-      ],
-      "II.1.b": [
-        "PRI-02"
-      ],
-      "III.11.d.i": [
-        "PRI-02",
-        "PRI-06.4"
-      ],
-      "III.11.d.ii": [
-        "PRI-02"
-      ],
-      "III.14.b.ii": [
-        "PRI-02",
-        "PRI-03.2"
-      ],
-      "II.5.a": [
-        "PRI-02.1",
-        "PRI-04",
-        "PRI-04.5",
-        "PRI-05.2"
-      ],
-      "II.2.a": [
-        "PRI-03"
-      ],
-      "II.2.c": [
-        "PRI-03",
-        "PRI-03.7",
-        "PRI-05.4"
-      ],
-      "III.14.b.i": [
-        "PRI-03.2"
-      ],
-      "II.2.b": [
-        "PRI-03.6"
-      ],
-      "III.12.a": [
-        "PRI-03.7"
-      ],
-      "III.12.b": [
-        "PRI-03.7"
-      ],
-      "III.14.c.i": [
-        "PRI-03.9"
-      ],
-      "II.5.b": [
-        "PRI-05"
-      ],
-      "II.6.a": [
-        "PRI-06",
-        "PRI-06.1"
-      ],
-      "III.8.a.i": [
-        "PRI-06"
-      ],
-      "III.8.a.i.1": [
-        "PRI-06"
-      ],
-      "III.8.a.i.2": [
-        "PRI-06"
-      ],
-      "III.8.a.i.3": [
-        "PRI-06"
-      ],
-      "III.8.a.iii": [
-        "PRI-06"
-      ],
-      "III.8.b.i": [
-        "PRI-06"
-      ],
-      "III.8.b.ii": [
-        "PRI-06"
-      ],
-      "III.8.d.ii": [
-        "PRI-06"
-      ],
-      "III.8.e.i": [
-        "PRI-06"
-      ],
-      "III.8.f.i": [
-        "PRI-06"
-      ],
-      "III.14.e.ii": [
-        "PRI-06"
-      ],
-      "II.7.a.i": [
-        "PRI-06.4"
-      ],
-      "III.8.i.i": [
-        "PRI-06.4"
+        "PRI-17"
       ],
       "III.8.g.i": [
-        "PRI-07.5"
+        "PRI-18.2"
       ],
       "III.8.h.i": [
-        "PRI-07.5"
+        "PRI-18.2"
+      ],
+      "II.1.a.i": [
+        "PRI-21"
+      ],
+      "II.1.a.ii": [
+        "PRI-21"
+      ],
+      "II.1.a.iii": [
+        "PRI-21"
+      ],
+      "II.1.a.iv": [
+        "PRI-21",
+        "PRI-22"
+      ],
+      "II.1.a.v": [
+        "PRI-21"
+      ],
+      "II.1.a.vi": [
+        "PRI-21"
+      ],
+      "II.1.a.vii": [
+        "PRI-21"
+      ],
+      "II.1.a.viii": [
+        "PRI-21"
+      ],
+      "II.1.a.ix": [
+        "PRI-21"
+      ],
+      "II.1.a.x": [
+        "PRI-21"
+      ],
+      "II.1.a.xi": [
+        "PRI-21"
+      ],
+      "II.1.a.xii": [
+        "PRI-21"
+      ],
+      "II.1.a.xiii": [
+        "PRI-21"
+      ],
+      "II.1.b": [
+        "PRI-21"
+      ],
+      "III.11.d.i": [
+        "PRI-21",
+        "PRI-39"
+      ],
+      "III.11.d.ii": [
+        "PRI-21"
+      ],
+      "III.14.b.ii": [
+        "PRI-21",
+        "PRI-24.4"
+      ],
+      "II.5.a": [
+        "PRI-22",
+        "PRI-31.1",
+        "PRI-35",
+        "PRI-35.1"
+      ],
+      "II.2.a": [
+        "PRI-24"
+      ],
+      "II.2.c": [
+        "PRI-24",
+        "PRI-24.1",
+        "PRI-29"
+      ],
+      "III.12.a": [
+        "PRI-24.1"
+      ],
+      "III.12.b": [
+        "PRI-24.1"
+      ],
+      "III.14.b.i": [
+        "PRI-24.4"
+      ],
+      "III.1.a": [
+        "PRI-27"
+      ],
+      "II.2.b": [
+        "PRI-28"
+      ],
+      "III.14.c.i": [
+        "PRI-29.1"
+      ],
+      "II.5.b": [
+        "PRI-30"
+      ],
+      "II.7.a.i": [
+        "PRI-39"
+      ],
+      "III.8.i.i": [
+        "PRI-39"
+      ],
+      "II.6.a": [
+        "PRI-39.1",
+        "PRI-39.3"
+      ],
+      "III.8.a.i": [
+        "PRI-39.1"
+      ],
+      "III.8.a.i.1": [
+        "PRI-39.1"
+      ],
+      "III.8.a.i.2": [
+        "PRI-39.1"
+      ],
+      "III.8.a.i.3": [
+        "PRI-39.1"
+      ],
+      "III.8.a.iii": [
+        "PRI-39.1"
+      ],
+      "III.8.b.i": [
+        "PRI-39.1"
+      ],
+      "III.8.b.ii": [
+        "PRI-39.1"
+      ],
+      "III.8.d.ii": [
+        "PRI-39.1"
+      ],
+      "III.8.e.i": [
+        "PRI-39.1"
+      ],
+      "III.8.f.i": [
+        "PRI-39.1"
+      ],
+      "III.14.e.ii": [
+        "PRI-39.1"
       ],
       "II.7.a.ii": [
-        "OPS-01.1"
+        "OPS-04"
       ],
       "II.7.d": [
-        "TPM-05",
-        "TPM-05.2"
+        "TPM-14",
+        "TPM-14.1"
       ]
     }
   }

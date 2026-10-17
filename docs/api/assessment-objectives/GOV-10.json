@@ -1,13 +1,13 @@
 {
   "scf_control_id": "GOV-10",
-  "total": 6,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "GOV-10",
       "ao_id": "GOV-10_A01",
-      "objective": "a data integrity board/function is established.",
+      "objective": "the executive steering committee, or advisory board, directs organization leadership to incorporate cybersecurity / data privacy principles into Business As Usual (BAU) practices.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-24",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,51 +15,21 @@
     {
       "scf_control_id": "GOV-10",
       "ao_id": "GOV-10_A02",
-      "objective": "the data integrity board/function reviews proposals to conduct or participate in a matching program.",
+      "objective": "cybersecurity incidents are reviewed to identify incidents that occurred due to cybersecurity / data privacy principles not being adopted as Business As Usual (BAU) practices.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-24a.",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "GOV-10",
       "ao_id": "GOV-10_A03",
-      "objective": "the data integrity board/function conducts an annual review of all matching programs in which the organization has participated.",
+      "objective": "identified deficiencies of cybersecurity / data privacy principles not being adopted as Business As Usual (BAU) practices are tracked via a Plan of Action and Milestones (POA&M), or risk register, through remediation.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-24b.",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "GOV-10",
-      "ao_id": "GOV-10_A04",
-      "objective": "the roles of the organization's data governance body are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PM-23_ODP[01]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "GOV-10",
-      "ao_id": "GOV-10_A05",
-      "objective": "the responsibilities of the organization's data governance body are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PM-23_ODP[02]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "GOV-10",
-      "ao_id": "GOV-10_A06",
-      "objective": "the organization's data governance body has defined roles with established responsibilities.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PM-23",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least quarterly",
       "org_defined_parameters": ""
     }
   ]

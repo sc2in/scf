@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCD-09",
+  "area": "Business Continuity",
+  "artifact_name": "COOP Dependency Analysis",
+  "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related dependency analysis for Technology Assets, Applications, Services and/or Data (TAASD) (including facilities and third-parties).",
+  "scf_controls": [
+    "AST-06"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,7 +1,7 @@
 {
   "risk_id": "R-IR-4",
   "grouping": "Incident Response",
-  "name": "Expense associated with managing a loss event",
-  "description": "Financial repercussions from responding to an incident or loss.",
+  "name": "Incident Response / Recovery Cost",
+  "description": "The organization incurs unplanned investigation, containment, recovery, notification, legal, forensic, restoration and/or other costs associated with managing an incident or loss event.",
   "nist_csf_function": "Respond"
 }

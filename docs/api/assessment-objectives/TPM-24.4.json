@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-24.4",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-24.4",
+      "ao_id": "TPM-24.4_A01",
+      "objective": "the time period within which third-party physical and logical access is revoked upon cessation of services or when access is no longer required is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "within 24 hours of cessation of services or of the determination that access is no longer required, and immediately for adverse or unplanned terminations",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.4",
+      "ao_id": "TPM-24.4_A02",
+      "objective": "third-party logical access (e.g., accounts, credentials, API keys, certificates, VPN and remote access) to organizational Technology Assets, Applications, Services and Data (TAASD) is revoked within the defined time period upon cessation of third-party services.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.4",
+      "ao_id": "TPM-24.4_A03",
+      "objective": "third-party physical access (e.g., badges, keys and visitor authorizations) to organizational facilities and Technology Assets, Applications, Services and Data (TAASD) is revoked within the defined time period upon cessation of third-party services.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.4",
+      "ao_id": "TPM-24.4_A04",
+      "objective": "third-party access that is no longer required during an ongoing relationship (e.g., completion of a project or change in personnel) is identified and revoked within the defined time period.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.4",
+      "ao_id": "TPM-24.4_A05",
+      "objective": "a record of third-party access revocations, including the date of cessation or determination and the date of revocation, is retained.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

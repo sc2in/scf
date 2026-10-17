@@ -4,7 +4,9 @@
   "artifact_name": "Accounting of Disclosures",
   "artifact_description": "Documented evidence of accounting for privacy-related disclosures.",
   "scf_controls": [
-    "PRI-14.1"
+    "PRI-17",
+    "PRI-17.1",
+    "PRI-18"
   ],
   "cmmc_mapping": ""
 }

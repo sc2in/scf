@@ -1,0 +1,536 @@
+{
+  "framework_id": "apac-ind-rbi-pa-2025",
+  "display_name": "Reserve Bank of India (RBI) - Master Direction on Regulation of Payment Aggregators (PA) (2025)",
+  "scf_to_framework": {
+    "total_mappings": 69,
+    "mappings": {
+      "GOV-01": [
+        "III.7",
+        "Annex 1.1.7"
+      ],
+      "GOV-02": [
+        "III.9.b",
+        "Annex 1.1.7.1"
+      ],
+      "GOV-03.2": [
+        "Annex 1.1.8"
+      ],
+      "GOV-04": [
+        "III.9.b",
+        "IV.14.a",
+        "Annex 1.1.6"
+      ],
+      "GOV-04.1": [
+        "Annex 1.1.6"
+      ],
+      "GOV-05": [
+        "III.8.d",
+        "Annex 1.1.6"
+      ],
+      "GOV-09": [
+        "Annex 1.1.7.1",
+        "Annex 1.1.7.2"
+      ],
+      "GOV-09.1": [
+        "Annex 1.1.1",
+        "Annex 1.1.5"
+      ],
+      "GOV-15": [
+        "IV.13.i"
+      ],
+      "GOV-19": [
+        "III.7.c"
+      ],
+      "AST-16.1": [
+        "Annex 1.1.5"
+      ],
+      "BCD-02": [
+        "Annex 1.1.7.4"
+      ],
+      "CPL-02": [
+        "III.9.e",
+        "III.11.e",
+        "IV.13.i"
+      ],
+      "CPL-07.2": [
+        "III.9.d",
+        "Annex 1.1.1",
+        "Annex 2.Annual.2"
+      ],
+      "CPL-08": [
+        "III.9.d",
+        "Annex 2.Annual.2"
+      ],
+      "CPL-10": [
+        "Annex 1.1.12",
+        "Annex 1.1.17"
+      ],
+      "CPL-22": [
+        "III.8.a",
+        "III.8.d"
+      ],
+      "CPL-22.1": [
+        "III.8.a",
+        "III.8.d"
+      ],
+      "CPL-27": [
+        "III.9.d",
+        "III.12",
+        "Annex 2.Annual.2"
+      ],
+      "MON-02": [
+        "III.9.a"
+      ],
+      "MON-05": [
+        "Annex 1.1.15"
+      ],
+      "MON-05.2": [
+        "Annex 1.1.15"
+      ],
+      "MON-16": [
+        "IV.13.h"
+      ],
+      "CRY-02": [
+        "Annex 1.1.2",
+        "Annex 1.1.14"
+      ],
+      "CRY-05": [
+        "Annex 1.1.2"
+      ],
+      "DCH-02": [
+        "Annex 1.1.2"
+      ],
+      "DCH-03": [
+        "Annex 1.1.7.3"
+      ],
+      "DCH-03.1": [
+        "Annex 1.1.8"
+      ],
+      "DCH-15": [
+        "Annex 1.2.1"
+      ],
+      "DCH-30": [
+        "III.9.c",
+        "Annex 1.1.16",
+        "Annex 1.2.3"
+      ],
+      "DCH-31": [
+        "III.9.c",
+        "Annex 1.1.16",
+        "Annex 1.2.3"
+      ],
+      "HRS-05": [
+        "III.7.a.i.a",
+        "III.7.a.i.b",
+        "III.7.a.i.c",
+        "III.7.a.ii.a",
+        "III.7.a.ii.b",
+        "III.7.a.ii.c",
+        "III.7.a.ii.d",
+        "III.7.a.ii.e",
+        "III.7.b"
+      ],
+      "HRS-16": [
+        "Annex 1.1.11"
+      ],
+      "IAC-05": [
+        "IV.13.a",
+        "IV.15.a.i",
+        "IV.15.a.ii"
+      ],
+      "IAC-05.2": [
+        "IV.13.b.i",
+        "IV.13.b.iii"
+      ],
+      "IAC-05.3": [
+        "IV.13.a",
+        "IV.13.b.i",
+        "IV.13.b.iii",
+        "IV.15.a.i",
+        "IV.15.a.ii"
+      ],
+      "IAC-05.4": [
+        "IV.13.b.ii"
+      ],
+      "IAC-05.5": [
+        "IV.13.b.ii"
+      ],
+      "IAC-13.1": [
+        "IV.13.e"
+      ],
+      "IAC-14": [
+        "III.10.e"
+      ],
+      "IAC-25.1": [
+        "Annex 1.1.16"
+      ],
+      "IAC-30": [
+        "Annex 1.1.10"
+      ],
+      "IRO-08": [
+        "Annex 1.1.7.4"
+      ],
+      "IRO-13": [
+        "Annex 1.1.15"
+      ],
+      "IRO-14": [
+        "Annex 1.1.3"
+      ],
+      "IRO-16.2": [
+        "Annex 1.1.3"
+      ],
+      "IRO-16.3": [
+        "Annex 1.1.3"
+      ],
+      "PRI-21": [
+        "III.8.c"
+      ],
+      "PRI-21.2": [
+        "III.8.c"
+      ],
+      "PRM-03": [
+        "Annex 1.1.13"
+      ],
+      "PRM-06": [
+        "Annex 1.1.7.1"
+      ],
+      "RSK-02": [
+        "III.9.a"
+      ],
+      "RSK-13": [
+        "Annex 1.1.1",
+        "Annex 1.1.9"
+      ],
+      "SEA-04": [
+        "Annex 1.1.7.3"
+      ],
+      "OPS-04.1": [
+        "Annex 1.1.10"
+      ],
+      "SAT-05": [
+        "Annex 1.1.11"
+      ],
+      "TDA-05": [
+        "Annex 1.1.18"
+      ],
+      "TDA-12": [
+        "IV.13.g"
+      ],
+      "TPM-02": [
+        "III.10.h",
+        "IV.14.a",
+        "IV.15.c"
+      ],
+      "TPM-10": [
+        "III.10.h",
+        "IV.13.c",
+        "IV.13.d",
+        "IV.15.b",
+        "Annex 1.1.4",
+        "Annex 1.1.18"
+      ],
+      "TPM-11": [
+        "III.8.b"
+      ],
+      "TPM-13": [
+        "IV.15.b"
+      ],
+      "TPM-14": [
+        "III.8.b",
+        "IV.14.b",
+        "V.18.a",
+        "Annex 1.1.12",
+        "Annex 1.1.17"
+      ],
+      "TPM-14.1": [
+        "III.9.a",
+        "IV.14.c",
+        "Annex 1.1.4"
+      ],
+      "TPM-15": [
+        "III.9.a",
+        "IV.13.f",
+        "IV.13.h",
+        "IV.14.c"
+      ],
+      "TPM-23": [
+        "Annex 1.1.17"
+      ],
+      "VPM-12": [
+        "Annex 1.1.5"
+      ],
+      "VPM-18": [
+        "Annex 1.1.5"
+      ],
+      "WEB-07": [
+        "Annex 1.2.2"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 69,
+    "mappings": {
+      "III.7": [
+        "GOV-01"
+      ],
+      "Annex 1.1.7": [
+        "GOV-01"
+      ],
+      "III.9.b": [
+        "GOV-02",
+        "GOV-04"
+      ],
+      "Annex 1.1.7.1": [
+        "GOV-02",
+        "GOV-09",
+        "PRM-06"
+      ],
+      "Annex 1.1.8": [
+        "GOV-03.2",
+        "DCH-03.1"
+      ],
+      "IV.14.a": [
+        "GOV-04",
+        "TPM-02"
+      ],
+      "Annex 1.1.6": [
+        "GOV-04",
+        "GOV-04.1",
+        "GOV-05"
+      ],
+      "III.8.d": [
+        "GOV-05",
+        "CPL-22",
+        "CPL-22.1"
+      ],
+      "Annex 1.1.7.2": [
+        "GOV-09"
+      ],
+      "Annex 1.1.1": [
+        "GOV-09.1",
+        "CPL-07.2",
+        "RSK-13"
+      ],
+      "Annex 1.1.5": [
+        "GOV-09.1",
+        "AST-16.1",
+        "VPM-12",
+        "VPM-18"
+      ],
+      "IV.13.i": [
+        "GOV-15",
+        "CPL-02"
+      ],
+      "III.7.c": [
+        "GOV-19"
+      ],
+      "Annex 1.1.7.4": [
+        "BCD-02",
+        "IRO-08"
+      ],
+      "III.9.e": [
+        "CPL-02"
+      ],
+      "III.11.e": [
+        "CPL-02"
+      ],
+      "III.9.d": [
+        "CPL-07.2",
+        "CPL-08",
+        "CPL-27"
+      ],
+      "Annex 2.Annual.2": [
+        "CPL-07.2",
+        "CPL-08",
+        "CPL-27"
+      ],
+      "Annex 1.1.12": [
+        "CPL-10",
+        "TPM-14"
+      ],
+      "Annex 1.1.17": [
+        "CPL-10",
+        "TPM-14",
+        "TPM-23"
+      ],
+      "III.8.a": [
+        "CPL-22",
+        "CPL-22.1"
+      ],
+      "III.12": [
+        "CPL-27"
+      ],
+      "III.9.a": [
+        "MON-02",
+        "RSK-02",
+        "TPM-14.1",
+        "TPM-15"
+      ],
+      "Annex 1.1.15": [
+        "MON-05",
+        "MON-05.2",
+        "IRO-13"
+      ],
+      "IV.13.h": [
+        "MON-16",
+        "TPM-15"
+      ],
+      "Annex 1.1.2": [
+        "CRY-02",
+        "CRY-05",
+        "DCH-02"
+      ],
+      "Annex 1.1.14": [
+        "CRY-02"
+      ],
+      "Annex 1.1.7.3": [
+        "DCH-03",
+        "SEA-04"
+      ],
+      "Annex 1.2.1": [
+        "DCH-15"
+      ],
+      "III.9.c": [
+        "DCH-30",
+        "DCH-31"
+      ],
+      "Annex 1.1.16": [
+        "DCH-30",
+        "DCH-31",
+        "IAC-25.1"
+      ],
+      "Annex 1.2.3": [
+        "DCH-30",
+        "DCH-31"
+      ],
+      "III.7.a.i.a": [
+        "HRS-05"
+      ],
+      "III.7.a.i.b": [
+        "HRS-05"
+      ],
+      "III.7.a.i.c": [
+        "HRS-05"
+      ],
+      "III.7.a.ii.a": [
+        "HRS-05"
+      ],
+      "III.7.a.ii.b": [
+        "HRS-05"
+      ],
+      "III.7.a.ii.c": [
+        "HRS-05"
+      ],
+      "III.7.a.ii.d": [
+        "HRS-05"
+      ],
+      "III.7.a.ii.e": [
+        "HRS-05"
+      ],
+      "III.7.b": [
+        "HRS-05"
+      ],
+      "Annex 1.1.11": [
+        "HRS-16",
+        "SAT-05"
+      ],
+      "IV.13.a": [
+        "IAC-05",
+        "IAC-05.3"
+      ],
+      "IV.15.a.i": [
+        "IAC-05",
+        "IAC-05.3"
+      ],
+      "IV.15.a.ii": [
+        "IAC-05",
+        "IAC-05.3"
+      ],
+      "IV.13.b.i": [
+        "IAC-05.2",
+        "IAC-05.3"
+      ],
+      "IV.13.b.iii": [
+        "IAC-05.2",
+        "IAC-05.3"
+      ],
+      "IV.13.b.ii": [
+        "IAC-05.4",
+        "IAC-05.5"
+      ],
+      "IV.13.e": [
+        "IAC-13.1"
+      ],
+      "III.10.e": [
+        "IAC-14"
+      ],
+      "Annex 1.1.10": [
+        "IAC-30",
+        "OPS-04.1"
+      ],
+      "Annex 1.1.3": [
+        "IRO-14",
+        "IRO-16.2",
+        "IRO-16.3"
+      ],
+      "III.8.c": [
+        "PRI-21",
+        "PRI-21.2"
+      ],
+      "Annex 1.1.13": [
+        "PRM-03"
+      ],
+      "Annex 1.1.9": [
+        "RSK-13"
+      ],
+      "Annex 1.1.18": [
+        "TDA-05",
+        "TPM-10"
+      ],
+      "IV.13.g": [
+        "TDA-12"
+      ],
+      "III.10.h": [
+        "TPM-02",
+        "TPM-10"
+      ],
+      "IV.15.c": [
+        "TPM-02"
+      ],
+      "IV.13.c": [
+        "TPM-10"
+      ],
+      "IV.13.d": [
+        "TPM-10"
+      ],
+      "IV.15.b": [
+        "TPM-10",
+        "TPM-13"
+      ],
+      "Annex 1.1.4": [
+        "TPM-10",
+        "TPM-14.1"
+      ],
+      "III.8.b": [
+        "TPM-11",
+        "TPM-14"
+      ],
+      "IV.14.b": [
+        "TPM-14"
+      ],
+      "V.18.a": [
+        "TPM-14"
+      ],
+      "IV.14.c": [
+        "TPM-14.1",
+        "TPM-15"
+      ],
+      "IV.13.f": [
+        "TPM-15"
+      ],
+      "Annex 1.2.2": [
+        "WEB-07"
+      ]
+    }
+  }
+}

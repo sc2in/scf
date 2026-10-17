@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "DCH-32",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-32",
+      "ao_id": "DCH-32_A01",
+      "objective": "the statutory, regulatory and/or contractual basis for restricting the cross-border and/or interorganizational transfer of sensitive and/or regulated data is identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-32",
+      "ao_id": "DCH-32_A02",
+      "objective": "mechanisms to restrict and govern the cross-border transfer of sensitive and/or regulated data are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-32",
+      "ao_id": "DCH-32_A03",
+      "objective": "mechanisms to restrict and govern the cross-border transfer of sensitive and/or regulated data are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-32",
+      "ao_id": "DCH-32_A04",
+      "objective": "mechanisms to restrict and govern the interorganizational transfer of sensitive and/or regulated data are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-32",
+      "ao_id": "DCH-32_A05",
+      "objective": "mechanisms to restrict and govern the interorganizational transfer of sensitive and/or regulated data are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

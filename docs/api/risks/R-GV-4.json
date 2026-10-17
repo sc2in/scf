@@ -1,7 +1,7 @@
 {
   "risk_id": "R-GV-4",
   "grouping": "Governance",
-  "name": "Inadequate internal practices",
-  "description": "Insufficient cybersecurity and/or privacy practices that can securely support the organization's technologies & processes.",
+  "name": "Uncontrolled Internal Security / Privacy Exposure",
+  "description": "Internal practices are insufficient to prevent, detect, respond to or recover from security, data privacy, compliance and/or resilience events, leaving organizational operations and assets exposed.",
   "nist_csf_function": "Protect"
 }

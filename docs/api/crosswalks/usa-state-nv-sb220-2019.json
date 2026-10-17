@@ -1,18 +1,18 @@
 {
   "framework_id": "usa-state-nv-sb220-2019",
-  "display_name": "US - Nevada SB220 (2019)",
+  "display_name": "USA - Nevada SB220 (2019)",
   "scf_to_framework": {
     "total_mappings": 3,
     "mappings": {
-      "PRI-05.4": [
+      "PRI-29": [
         "2.3"
       ],
-      "PRI-06": [
+      "PRI-39": [
+        "2.4"
+      ],
+      "PRI-39.1": [
         "2.1",
         "2.2"
-      ],
-      "PRI-06.4": [
-        "2.4"
       ]
     }
   },
@@ -20,16 +20,16 @@
     "total_mappings": 4,
     "mappings": {
       "2.3": [
-        "PRI-05.4"
-      ],
-      "2.1": [
-        "PRI-06"
-      ],
-      "2.2": [
-        "PRI-06"
+        "PRI-29"
       ],
       "2.4": [
-        "PRI-06.4"
+        "PRI-39"
+      ],
+      "2.1": [
+        "PRI-39.1"
+      ],
+      "2.2": [
+        "PRI-39.1"
       ]
     }
   }

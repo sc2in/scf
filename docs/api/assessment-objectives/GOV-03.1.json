@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-03.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-03.1",
+      "ao_id": "GOV-03.1_A01",
+      "objective": "the organization's Security, Compliance & Resilience Program (SCRP) is aligned with one or more industry-recognized frameworks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-03.1",
+      "ao_id": "GOV-03.1_A02",
+      "objective": "documented justification for the organization's secure practices cites the industry-recognized framework(s) with which the Security, Compliance & Resilience Program (SCRP) is aligned.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

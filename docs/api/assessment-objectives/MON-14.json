@@ -1,13 +1,13 @@
 {
   "scf_control_id": "MON-14",
-  "total": 3,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "MON-14",
       "ao_id": "MON-14_A01",
-      "objective": "methods for coordinating audit information among external organizations when audit information is transmitted across organizational boundaries are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_AU-16_ODP[01]",
+      "objective": "a full text analysis of logged privileged commands in a physically distinct component or subsystem of the system or other system that is dedicated to that analysis is performed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-06(08)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,19 +15,9 @@
     {
       "scf_control_id": "MON-14",
       "ao_id": "MON-14_A02",
-      "objective": "audit information to be coordinated among external organizations when audit information is transmitted across organizational boundaries is defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_AU-16_ODP[02]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-14",
-      "ao_id": "MON-14_A03",
-      "objective": "organization-defined methods for coordinating audit information among external organizations when audit information is transmitted across organizational boundaries are employed.",
+      "objective": "the execution of privileged functions is logged.",
       "pptdf": "Technology",
-      "origin": "53A_R5_AU-16",
+      "origin": "171A_R3_A.03.01.07.b",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

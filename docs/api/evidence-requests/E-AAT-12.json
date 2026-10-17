@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-AAT-12",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "AI Agent Governance & Logging",
+  "artifact_description": "Documented evidence of AI agent governance controls (e.g., permitted actions, tool / API invocation restrictions, kill switch) and AI agent activity logs.",
+  "scf_controls": [
+    "AAT-38",
+    "AAT-39",
+    "AAT-39.3",
+    "AAT-39.13",
+    "AAT-39.20",
+    "AAT-40",
+    "AAT-40.1"
+  ],
+  "cmmc_mapping": ""
+}

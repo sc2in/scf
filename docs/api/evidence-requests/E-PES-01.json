@@ -4,11 +4,12 @@
   "artifact_name": "Environmental Monitoring",
   "artifact_description": "Documented evidence of environmental monitoring (e.g., water leaks, temperature, humidity, etc.)",
   "scf_controls": [
-    "PES-01",
-    "PES-07",
-    "PES-07.5",
-    "PES-08",
-    "PES-09"
+    "PES-20",
+    "PES-24",
+    "PES-26",
+    "PES-27",
+    "PES-28",
+    "PES-29"
   ],
   "cmmc_mapping": ""
 }

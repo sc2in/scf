@@ -4,9 +4,9 @@
   "artifact_name": "Personnel Actions Documentation",
   "artifact_description": "Documented evidence of notifications or records of recently transferred, separated, or terminated employees.",
   "scf_controls": [
-    "HRS-07",
-    "HRS-08",
-    "HRS-09"
+    "HRS-11",
+    "HRS-12",
+    "HRS-12.1"
   ],
   "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5\nPS.L2-3.9.1\nPS.L2-3.9.2"
 }

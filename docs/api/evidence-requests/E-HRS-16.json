@@ -4,10 +4,9 @@
   "artifact_name": "Access Agreements",
   "artifact_description": "Documented evidence of personnel management practices protecting sensitive/regulated data through formal access agreements.",
   "scf_controls": [
-    "HRS-03.1",
-    "HRS-05",
     "HRS-06",
-    "HRS-10"
+    "HRS-07",
+    "HRS-13"
   ],
   "cmmc_mapping": ""
 }

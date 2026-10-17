@@ -1,13 +1,13 @@
 {
   "scf_control_id": "GOV-05",
-  "total": 3,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "GOV-05",
       "ao_id": "GOV-05_A01",
-      "objective": "cybersecurity / data privacy measures of performance are developed.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PM-06[01]\n53A_R5_PM-06[04]",
+      "objective": "a senior organizational cybersecurity position is appointed.",
+      "pptdf": "People",
+      "origin": "53A_R5_PM-02[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,19 +15,9 @@
     {
       "scf_control_id": "GOV-05",
       "ao_id": "GOV-05_A02",
-      "objective": "cybersecurity / data privacy measures of performance are monitored.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PM-06[02]\n53A_R5_PM-06[05]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "GOV-05",
-      "ao_id": "GOV-05_A03",
-      "objective": "the results of cybersecurity / data privacy measures of performance are reported.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PM-06[03]\n53A_R5_PM-06[06]",
+      "objective": "the senior organizational cybersecurity position is provided with the mission and resources to coordinate, develop, implement and maintain an organization-wide cybersecurity program.",
+      "pptdf": "People",
+      "origin": "53A_R5_PM-02[02]\n53A_R5_PM-02[03]\n53A_R5_PM-02[04]\n53A_R5_PM-02[05]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "GOV-12.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-12.2",
+      "ao_id": "GOV-12.2_A01",
+      "objective": "Key Risk Indicators (KRIs) are developed to assist senior management in performance monitoring, trend analysis and possible control redesign or replacement for the organization's Security, Compliance & Resilience Program (SCRP).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-12.2",
+      "ao_id": "GOV-12.2_A02",
+      "objective": "Key Risk Indicator (KRI) results are reported to senior management per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-12.2",
+      "ao_id": "GOV-12.2_A03",
+      "objective": "Key Risk Indicator (KRI) results are used to identify Security, Compliance & Resilience Program (SCRP) controls that may require redesign or replacement.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

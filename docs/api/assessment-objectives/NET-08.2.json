@@ -5,8 +5,8 @@
     {
       "scf_control_id": "NET-08.2",
       "ao_id": "NET-08.2_A01",
-      "objective": "wireless network segments implement Wireless Intrusion Detection / Prevention Systems (WIDS/WIPS) technologies.",
-      "pptdf": "Technology",
+      "objective": "sensitive / regulated data enclaves (secure zones) are isolated from corporate-provided IT resources by providing enclave-specific IT services (e.g., directory services, DNS, NTP, ITAM, antimalware and patch management) to those isolated network segments.",
+      "pptdf": "Data",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

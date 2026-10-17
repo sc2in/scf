@@ -1,35 +1,65 @@
 {
   "scf_control_id": "OPS-02",
-  "total": 3,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "OPS-02",
-      "ao_id": "OPS-02_A02",
-      "objective": "a Concept of Operations (CONOPS) for the system describing how the organization intends to operate the system from the perspective of cybersecurity / data privacy is developed.",
+      "ao_id": "OPS-02_A01",
+      "objective": "operations security controls to be employed to protect key organizational information throughout the system development life cycle are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_PL-07a.",
+      "origin": "53A_R5_SC-38_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "OPS-02",
-      "ao_id": "OPS-02_A01",
-      "objective": "frequency for review / update of the Concept of Operations (CONOPS) is defined.",
+      "ao_id": "OPS-02_A02",
+      "objective": "operations security controls are employed to protect key organizational information throughout the system development life cycle.",
       "pptdf": "Process",
-      "origin": "53A_R5_PL-07_ODP",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "at least annually",
+      "origin": "53A_R5_SC-38",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "OPS-02",
       "ao_id": "OPS-02_A03",
-      "objective": "the Concept of Operations (CONOPS) is reviewed / updated per an organization-defined frequency.",
+      "objective": "security operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
       "pptdf": "Process",
-      "origin": "53A_R5_PL-07b.",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "at least annually",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-02",
+      "ao_id": "OPS-02_A04",
+      "objective": "resources (e.g., people, processes, technologies, data and/or facilities) required to support security operations are identified and provided.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-02",
+      "ao_id": "OPS-02_A05",
+      "objective": "responsibility and authority for the performance of security operations-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-02",
+      "ao_id": "OPS-02_A06",
+      "objective": "personnel performing security operations-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }
   ]

@@ -4,7 +4,7 @@
   "artifact_name": "Certificate Monitoring",
   "artifact_description": "Documented evidence of certificate monitoring activities.",
   "scf_controls": [
-    "CRY-12"
+    "CRY-13"
   ],
   "cmmc_mapping": ""
 }

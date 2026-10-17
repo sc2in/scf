@@ -4,7 +4,7 @@
   "artifact_name": "Roots of Trust Evidence",
   "artifact_description": "Documented evidence of product supplier data that can be used as a “roots of trust” basis for integrity verification.",
   "scf_controls": [
-    "AST-18"
+    "AST-30"
   ],
   "cmmc_mapping": ""
 }

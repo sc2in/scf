@@ -1,13 +1,13 @@
 {
   "scf_control_id": "IAC-28",
-  "total": 5,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-28",
       "ao_id": "IAC-28_A01",
-      "objective": "users who require accounts for logical access to systems based on appropriate identity assurance level requirements as specified in applicable standards and guidelines are identity proofed.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_IA-12a.",
+      "objective": "privileged commands and/or other actions requiring dual authorization are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-03(02)_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "IAC-28",
       "ao_id": "IAC-28_A02",
-      "objective": "user identities are resolved to a unique individual.",
+      "objective": "dual authorization is enforced for organization-defined privileged commands and/or other actions.",
       "pptdf": "Technology",
-      "origin": "53A_R5_IA-12b.",
+      "origin": "53A_R5_AC-03(02)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "IAC-28",
       "ao_id": "IAC-28_A03",
-      "objective": "identity evidence is collected.",
+      "objective": "critical or sensitive system and organizational operations for which dual authorization is to be enforced are identified.",
       "pptdf": "Process",
-      "origin": "53A_R5_IA-12c.[01]",
+      "origin": "172A_3.1.1e[a]\n53A_R5_CM-05(04)_ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,20 +35,10 @@
     {
       "scf_control_id": "IAC-28",
       "ao_id": "IAC-28_A04",
-      "objective": "identity evidence is validated.",
-      "pptdf": "Process",
-      "origin": "53A_R5_IA-12c.[02]",
+      "objective": "dual authorization is employed to execute critical or sensitive system and organizational operations.",
+      "pptdf": "Technology",
+      "origin": "172A_3.1.1e[b]\n53A_R5_CM-05(04)[01]\n53A_R5_CM-05(04)[02]",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-28",
-      "ao_id": "IAC-28_A05",
-      "objective": "identity evidence is verified.",
-      "pptdf": "Process",
-      "origin": "53A_R5_IA-12c.[03]",
-      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

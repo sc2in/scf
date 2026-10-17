@@ -14,6 +14,7 @@ already use (e.g. general-nist-800-53-r5-2).
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 
 from rapidfuzz import fuzz, process as rf_process
@@ -23,7 +24,25 @@ from .normalize import norm_key
 FUZZY_THRESHOLD = 70
 
 MAPPING_LEFT_MARKER = "AICPA"
-MAPPING_RIGHT_MARKER = "Risk Threat Summary"
+MAPPING_RIGHT_MARKER = "Risk Threat Summary"  # <= 2026.2: summary text columns
+# 2026.3: a likelihood matrix, one "Risk R-AC-1" / "Threat NT-1" column each.
+RISK_COLUMN_RE = re.compile(r"^risk (r-[a-z]+-\d+)$")
+THREAT_COLUMN_RE = re.compile(r"^threat ([a-z]+-\d+)$")
+
+
+def matrix_columns(header: list[str | None]) -> tuple[dict[int, str], dict[int, str]]:
+    """({col: risk id}, {col: threat id}) for the 2026.3 likelihood matrix."""
+    risks: dict[int, str] = {}
+    threats: dict[int, str] = {}
+    for i, h in enumerate(header):
+        if not h:
+            continue
+        key = norm_key(h)
+        if m := RISK_COLUMN_RE.match(key):
+            risks[i] = m.group(1).upper()
+        elif m := THREAT_COLUMN_RE.match(key):
+            threats[i] = m.group(1).upper()
+    return risks, threats
 
 
 @dataclass

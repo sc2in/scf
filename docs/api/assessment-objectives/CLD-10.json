@@ -15,7 +15,7 @@
     {
       "scf_control_id": "CLD-10",
       "ao_id": "CLD-10_A02",
-      "objective": "the storage of sensitive / regulated data in public cloud providers is controlled.",
+      "objective": "the storage of sensitive / regulated data in public cloud providers is limited and managed in accordance with documented organizational restrictions.",
       "pptdf": "Data",
       "origin": "SCF Created",
       "assessment_rigor": "1",

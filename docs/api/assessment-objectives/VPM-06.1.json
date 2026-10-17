@@ -5,29 +5,29 @@
     {
       "scf_control_id": "VPM-06.1",
       "ao_id": "VPM-06.1_A01",
-      "objective": "the frequency at which to update system vulnerabilities to be scanned is defined.",
+      "objective": "cybersecurity / data privacy controls and related processes to be centrally managed are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_RA-05(02)_ODP[01]\n53A_R5_RA-05(02)_ODP[02]\n171A_R3_A.03.11.02.ODP[04]",
+      "origin": "53A_R5_PL-09_ODP",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "within 24 hours prior to\nrunning scans",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "VPM-06.1",
       "ao_id": "VPM-06.1_A02",
-      "objective": "system vulnerabilities to be scanned are updated per an organization-defined frequency.",
+      "objective": "controls and related processes are centrally managed.",
       "pptdf": "Process",
-      "origin": "53A_R5_RA-05(02)",
+      "origin": "53A_R5_PL-09",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "within 24 hours prior to\nrunning scans",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "VPM-06.1",
       "ao_id": "VPM-06.1_A03",
-      "objective": "system vulnerabilities to be scanned are updated when new vulnerabilities are identified and reported.",
+      "objective": "the system components requiring automated patch management tools to facilitate flaw remediation are defined.",
       "pptdf": "Process",
-      "origin": "171A_R3_A.03.11.02.c[02]",
+      "origin": "53A_R5_SI-02(04)_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,11 +35,11 @@
     {
       "scf_control_id": "VPM-06.1",
       "ao_id": "VPM-06.1_A04",
-      "objective": "system vulnerabilities to be scanned are updated <A.03.11.02.ODP[04]: frequency>.",
-      "pptdf": "Process",
-      "origin": "171A_R3_A.03.11.02.c[01]",
-      "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "no more than 24 hours prior to running the scans",
+      "objective": "automated patch management tools are employed to facilitate flaw remediation to components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-02(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }
   ]

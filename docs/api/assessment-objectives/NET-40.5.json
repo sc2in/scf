@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-40.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-40.5",
+      "ao_id": "NET-40.5_A01",
+      "objective": "email systems are configured to implement email labeling that applies organization-defined tags to incoming email.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, a tag identifying email that originates outside the organization",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-40.5",
+      "ao_id": "NET-40.5_A02",
+      "objective": "email systems are configured to implement email labeling that applies organization-defined tags to outgoing email.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, tags reflecting the organization's data classification levels",
+      "org_defined_parameters": ""
+    }
+  ]
+}

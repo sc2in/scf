@@ -1,17 +1,16 @@
 {
   "control_id": "MON-02",
-  "title": "Centralized Collection of Security Event Logs",
+  "title": "Continuous Monitoring",
   "family": "MON",
-  "description": "Mechanisms exist to utilize a Security Incident Event Manager (SIEM), or similar automated tool, to support the centralized collection of security-related event logs.",
-  "scf_question": "Does the organization utilize a Security Incident Event Manager (SIEM), or similar automated tool, to support the centralized collection of security-related event logs?",
+  "description": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls.",
+  "scf_question": "Does the organization facilitate the implementation of enterprise-wide monitoring controls?",
   "relative_weight": 10,
   "conformity_cadence": "Annual",
   "evidence_requests": [
-    "E-MON-01",
-    "E-MON-05"
+    "E-MON-01"
   ],
   "pptdf": "Technology",
-  "nist_csf_function": "Detect",
+  "nist_csf_function": "Govern",
   "scrm_focus": {
     "strategic": true,
     "operational": true,
@@ -19,62 +18,61 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
-    "2": "Continuous Monitoring (MON) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MON domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Continuous monitoring-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Continuous monitoring may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ A log aggregator, or similar automated tool, provides an event log report generation capability to aid in detecting and assessing anomalous activities on business-critical TAASD.\n▪ IT and/or cybersecurity personnel configure alerts for critical or sensitive data that is stored, transmitted and processed on assets.",
-    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM), etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to utilize a Security Incident Event Manager (SIEM), or similar automated tool, to support the centralized collection of security-related event logs.",
+    "1": "Continuous Monitoring (MON) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with MON domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Event monitoring-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Monitoring is primarily reactive in nature, focused on identifying incidents that occurred.\n▪ Event log reviews primarily rely on manual processes to identify anomalous behaviors.\n▪ Generating event logs and the review of those event logs is narrowly-focused to business-critical Technology Assets, Applications, Services and/or Data (TAASD).",
+    "2": "Continuous Monitoring (MON) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MON domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Continuous monitoring-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Continuous monitoring may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM)).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to facilitate the implementation of enterprise-wide monitoring controls.",
     "4": "Continuous Monitoring (MON) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
   "profiles": [
+    "SCRMS",
     "CORE ESP Level 1 Foundational",
     "CORE ESP Level 2 Critical Infrastructure",
     "CORE ESP Level 3 Advanced Threats",
-    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)",
+    "CORE MSO Level 1 Initial Public Draft",
+    "CORE MSO Level 2 Initial Public Draft",
+    "CORE MSO Level 3 Initial Public Draft"
   ],
   "possible_solutions": {
-    "micro_small": "∙ Centralized log collector (e.g., Windows Event Forwarding, syslog server)\n∙ Managed Security Services Provider (MSSP)\n∙ Cloud logging (e.g., Microsoft Sentinel free tier, AWS CloudWatch)",
-    "small": "∙ Centralized log collector (e.g., Graylog free, Elastic Stack free)\n∙ Managed Security Services Provider (MSSP)\n∙ Cloud SIEM (e.g., Microsoft Sentinel, Sumo Logic)",
-    "medium": "∙ Centralized log collector\n∙ Security Incident Event Manager (SIEM) (e.g., Splunk, Microsoft Sentinel, IBM QRadar)\n∙ Managed Security Services Provider (MSSP)",
-    "large": "∙ Enterprise SIEM with centralized log collection (e.g., Splunk, Microsoft Sentinel)\n∙ Log management platform (e.g., Splunk, Elastic Stack, Graylog)\n∙ Managed Security Services Provider (MSSP)",
-    "enterprise": "∙ Enterprise SIEM with scalable log ingestion (e.g., Splunk Enterprise, IBM QRadar)\n∙ Log management and analytics platform\n∙ Managed Detection and Response (MDR) or in-house SOC\n∙ Log data lake for long-term retention and threat hunting"
+    "micro_small": "∙ Centralized event logging\n∙ Managed Security Services Provider (MSSP)\n∙ Cloud-native SIEM (e.g., Microsoft Sentinel free tier, Elastic SIEM free)",
+    "small": "∙ Centralized event logging\n∙ Managed Security Services Provider (MSSP)\n∙ Cloud SIEM (e.g., Microsoft Sentinel, Elastic SIEM, Sumo Logic)",
+    "medium": "∙ Centralized event logging\n∙ Security Incident Event Management (SIEM) (e.g., Splunk, Microsoft Sentinel, IBM QRadar)\n∙ Managed Security Services Provider (MSSP)\n∙ Security Operations Center (SOC)",
+    "large": "∙ Centralized event logging\n∙ Security Incident Event Management (SIEM) (e.g., Splunk, Microsoft Sentinel, IBM QRadar)\n∙ Managed Security Services Provider (MSSP)\n∙ Security Operations Center (SOC) with 24/7 coverage",
+    "enterprise": "∙ Enterprise SIEM platform (e.g., Splunk Enterprise Security, IBM QRadar, Microsoft Sentinel)\n∙ 24/7 Security Operations Center (SOC)\n∙ Security Orchestration, Automation & Response (SOAR)\n∙ Threat intelligence integration\n∙ Managed Detection & Response (MDR) or in-house SOC"
   },
   "risks": [
+    "R-AC-1",
+    "R-AC-3",
     "R-AC-4",
-    "R-AM-1",
-    "R-AM-2",
-    "R-AM-3",
+    "R-AC-5",
     "R-BC-1",
-    "R-BC-2",
-    "R-BC-3",
     "R-BC-4",
-    "R-BC-5",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
-    "R-EX-4",
-    "R-EX-5",
     "R-EX-6",
     "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-3",
+    "R-EX-10",
     "R-GV-4",
-    "R-GV-5",
     "R-GV-6",
     "R-GV-7",
+    "R-GV-9",
+    "R-GV-10",
     "R-IR-1",
     "R-IR-2",
     "R-IR-3",
     "R-IR-4",
     "R-SA-1",
-    "R-SC-1",
-    "R-SC-2",
-    "R-SC-3",
-    "R-SC-4",
-    "R-SC-5",
-    "R-SC-6"
+    "R-AI-1",
+    "R-AI-2",
+    "R-AI-3",
+    "R-AI-5",
+    "R-OT-1",
+    "R-IP-2",
+    "R-IP-3",
+    "R-IP-4",
+    "R-IP-5"
   ],
   "threats": [
+    "NT-1",
     "NT-2",
     "NT-3",
     "NT-4",
@@ -88,423 +86,1140 @@
     "NT-12",
     "NT-13",
     "NT-14",
-    "MT-1",
     "MT-2",
-    "MT-3",
-    "MT-4",
-    "MT-5",
-    "MT-6",
     "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
-    "MT-11",
     "MT-12",
     "MT-13",
     "MT-14",
-    "MT-24",
+    "MT-15",
     "MT-25",
     "MT-27",
-    "MT-28"
+    "MT-29",
+    "MT-30"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Possible",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Possible",
+    "R-AC-4": "Possible",
+    "R-AC-5": "Possible",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Unlikely",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Possible",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Possible",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Possible",
+    "R-EX-7": "Possible",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Possible",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Possible",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Likely",
+    "R-GV-7": "Possible",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Possible",
+    "R-GV-10": "Likely",
+    "R-IR-1": "Possible",
+    "R-IR-2": "Possible",
+    "R-IR-3": "Possible",
+    "R-IR-4": "Possible",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Likely",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Possible",
+    "R-AI-2": "Possible",
+    "R-AI-3": "Possible",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Possible",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Possible",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Possible",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Possible",
+    "R-IP-5": "Possible",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Likely",
+    "MT-3": "Unlikely",
+    "MT-4": "Unlikely",
+    "MT-5": "Unlikely",
+    "MT-6": "Unlikely",
+    "MT-7": "Possible",
+    "MT-8": "Possible",
+    "MT-9": "Likely",
+    "MT-10": "Likely",
+    "MT-11": "Unlikely",
+    "MT-12": "Possible",
+    "MT-13": "Possible",
+    "MT-14": "Possible",
+    "MT-15": "Possible",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Unlikely",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Unlikely",
+    "MT-24": "Unlikely",
+    "MT-25": "Possible",
+    "MT-26": "Unlikely",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Possible",
+    "MT-30": "Possible",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- renumbered",
   "family_name": "Continuous Monitoring",
   "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "S7.1-POF2"
+    ],
     "general-aicpa-tsc-2017": [
       "CC7.2",
-      "CC7.2-POF1",
-      "CC7.3"
+      "CC7.2-POF1"
     ],
     "general-cis-csc-8-1": [
-      "3.14",
-      "8.1",
+      "8.0",
       "8.2",
-      "8.3",
-      "8.4",
-      "8.5",
-      "8.6",
-      "8.7",
-      "8.8",
-      "8.9",
-      "8.12",
-      "13.1"
+      "13.0",
+      "13.6"
     ],
     "general-cis-csc-8-1-ig1": [
-      "8.1",
-      "8.2",
-      "8.3"
+      "8.2"
     ],
     "general-cis-csc-8-1-ig2": [
-      "8.1",
       "8.2",
-      "8.3",
-      "8.4",
-      "8.5",
-      "8.6",
-      "8.7",
-      "8.8",
-      "8.9",
-      "13.1"
+      "13.6"
     ],
     "general-cis-csc-8-1-ig3": [
-      "3.14",
-      "8.1",
       "8.2",
-      "8.3",
-      "8.4",
-      "8.5",
-      "8.6",
-      "8.7",
-      "8.8",
-      "8.9",
-      "8.12",
-      "13.1"
+      "13.6"
+    ],
+    "general-cobit-2019": [
+      "DSS01.03",
+      "DSS05.07",
+      "MEA01.01"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "LOG-01"
     ],
     "general-csa-iot-2": [
-      "MON-07"
+      "MON-01",
+      "MON-03",
+      "MON-05",
+      "MON-07",
+      "SNT-03"
     ],
     "general-govramp": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
       "SI-04"
     ],
     "general-govramp-core": [
       "SI-04"
     ],
     "general-govramp-low": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
       "SI-04"
     ],
     "general-govramp-low-plus": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
       "SI-04"
     ],
     "general-govramp-mod": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
       "SI-04"
     ],
     "general-govramp-high": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
       "SI-04"
     ],
     "general-iec-62443-3-3-2013": [
-      "SR 2.8 RE 1"
+      "SR 6.2"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "CR 6.2"
     ],
     "general-iso-27002-2022": [
-      "8.15"
+      "8.15",
+      "8.16"
     ],
     "general-iso-27017-2015": [
       "12.4.1"
     ],
     "general-iso-27018-2025": [
-      "8.15"
+      "8.15",
+      "8.16"
+    ],
+    "general-mitre-att_ck-16-1": [
+      "T1001",
+      "T1001.001",
+      "T1001.002",
+      "T1001.003",
+      "T1003",
+      "T1003.001",
+      "T1003.002",
+      "T1003.003",
+      "T1003.004",
+      "T1003.005",
+      "T1003.006",
+      "T1003.007",
+      "T1003.008",
+      "T1005",
+      "T1008",
+      "T1011",
+      "T1011.001",
+      "T1020.001",
+      "T1021",
+      "T1021.001",
+      "T1021.002",
+      "T1021.003",
+      "T1021.004",
+      "T1021.005",
+      "T1021.006",
+      "T1021.008",
+      "T1025",
+      "T1027",
+      "T1027.002",
+      "T1027.007",
+      "T1027.008",
+      "T1027.009",
+      "T1027.010",
+      "T1027.011",
+      "T1027.012",
+      "T1029",
+      "T1030",
+      "T1036",
+      "T1036.001",
+      "T1036.003",
+      "T1036.005",
+      "T1036.007",
+      "T1036.008",
+      "T1036.010",
+      "T1037",
+      "T1037.002",
+      "T1037.003",
+      "T1037.004",
+      "T1037.005",
+      "T1040",
+      "T1041",
+      "T1046",
+      "T1047",
+      "T1048",
+      "T1048.001",
+      "T1048.002",
+      "T1048.003",
+      "T1052",
+      "T1052.001",
+      "T1053",
+      "T1053.002",
+      "T1053.003",
+      "T1053.005",
+      "T1053.006",
+      "T1055",
+      "T1055.001",
+      "T1055.002",
+      "T1055.003",
+      "T1055.004",
+      "T1055.005",
+      "T1055.008",
+      "T1055.009",
+      "T1055.011",
+      "T1055.012",
+      "T1055.013",
+      "T1055.014",
+      "T1056.002",
+      "T1059",
+      "T1059.001",
+      "T1059.002",
+      "T1059.003",
+      "T1059.004",
+      "T1059.005",
+      "T1059.006",
+      "T1059.007",
+      "T1059.008",
+      "T1059.009",
+      "T1059.010",
+      "T1059.011",
+      "T1068",
+      "T1070",
+      "T1070.001",
+      "T1070.002",
+      "T1070.003",
+      "T1070.007",
+      "T1070.008",
+      "T1070.009",
+      "T1070.010",
+      "T1071",
+      "T1071.001",
+      "T1071.002",
+      "T1071.003",
+      "T1071.004",
+      "T1071.005",
+      "T1072",
+      "T1078",
+      "T1078.001",
+      "T1078.002",
+      "T1078.003",
+      "T1078.004",
+      "T1080",
+      "T1087",
+      "T1087.001",
+      "T1087.002",
+      "T1090",
+      "T1090.001",
+      "T1090.002",
+      "T1091",
+      "T1092",
+      "T1095",
+      "T1098",
+      "T1098.001",
+      "T1098.002",
+      "T1098.003",
+      "T1098.004",
+      "T1098.007",
+      "T1102",
+      "T1102.001",
+      "T1102.002",
+      "T1102.003",
+      "T1104",
+      "T1105",
+      "T1106",
+      "T1110",
+      "T1110.001",
+      "T1110.002",
+      "T1110.003",
+      "T1110.004",
+      "T1111",
+      "T1114",
+      "T1114.001",
+      "T1114.002",
+      "T1114.003",
+      "T1119",
+      "T1127",
+      "T1127.001",
+      "T1127.002",
+      "T1129",
+      "T1132",
+      "T1132.001",
+      "T1132.002",
+      "T1133",
+      "T1135",
+      "T1136",
+      "T1136.001",
+      "T1136.002",
+      "T1136.003",
+      "T1137",
+      "T1137.001",
+      "T1176",
+      "T1185",
+      "T1187",
+      "T1189",
+      "T1190",
+      "T1195",
+      "T1195.001",
+      "T1197",
+      "T1201",
+      "T1203",
+      "T1204",
+      "T1204.001",
+      "T1204.002",
+      "T1204.003",
+      "T1205",
+      "T1205.001",
+      "T1205.002",
+      "T1210",
+      "T1211",
+      "T1212",
+      "T1213",
+      "T1213.001",
+      "T1213.002",
+      "T1213.004",
+      "T1213.005",
+      "T1216",
+      "T1216.001",
+      "T1218",
+      "T1218.001",
+      "T1218.002",
+      "T1218.003",
+      "T1218.004",
+      "T1218.005",
+      "T1218.008",
+      "T1218.009",
+      "T1218.010",
+      "T1218.011",
+      "T1218.012",
+      "T1218.013",
+      "T1218.014",
+      "T1218.015",
+      "T1219",
+      "T1220",
+      "T1221",
+      "T1222",
+      "T1222.001",
+      "T1222.002",
+      "T1484",
+      "T1485",
+      "T1486",
+      "T1489",
+      "T1490",
+      "T1491",
+      "T1491.001",
+      "T1491.002",
+      "T1499",
+      "T1499.001",
+      "T1499.002",
+      "T1499.003",
+      "T1499.004",
+      "T1505",
+      "T1505.002",
+      "T1505.003",
+      "T1505.004",
+      "T1505.005",
+      "T1525",
+      "T1528",
+      "T1530",
+      "T1537",
+      "T1539",
+      "T1542.004",
+      "T1542.005",
+      "T1543",
+      "T1543.002",
+      "T1546.002",
+      "T1546.003",
+      "T1546.004",
+      "T1546.006",
+      "T1546.008",
+      "T1546.013",
+      "T1546.014",
+      "T1546.016",
+      "T1547.002",
+      "T1547.003",
+      "T1547.004",
+      "T1547.005",
+      "T1547.006",
+      "T1547.007",
+      "T1547.008",
+      "T1547.009",
+      "T1547.012",
+      "T1547.013",
+      "T1548",
+      "T1548.001",
+      "T1548.002",
+      "T1548.003",
+      "T1548.004",
+      "T1548.006",
+      "T1550.001",
+      "T1550.003",
+      "T1552",
+      "T1552.001",
+      "T1552.002",
+      "T1552.003",
+      "T1552.004",
+      "T1552.005",
+      "T1552.006",
+      "T1552.008",
+      "T1553",
+      "T1553.001",
+      "T1553.003",
+      "T1553.004",
+      "T1553.005",
+      "T1555",
+      "T1555.001",
+      "T1555.002",
+      "T1555.004",
+      "T1555.005",
+      "T1556",
+      "T1556.001",
+      "T1556.002",
+      "T1556.003",
+      "T1556.004",
+      "T1556.008",
+      "T1556.009",
+      "T1557",
+      "T1557.001",
+      "T1557.002",
+      "T1557.003",
+      "T1557.004",
+      "T1558",
+      "T1558.002",
+      "T1558.003",
+      "T1558.004",
+      "T1558.005",
+      "T1559",
+      "T1559.002",
+      "T1559.003",
+      "T1560",
+      "T1560.001",
+      "T1561",
+      "T1561.001",
+      "T1561.002",
+      "T1562",
+      "T1562.001",
+      "T1562.002",
+      "T1562.003",
+      "T1562.004",
+      "T1562.006",
+      "T1562.010",
+      "T1562.011",
+      "T1562.012",
+      "T1563",
+      "T1563.001",
+      "T1563.002",
+      "T1564.002",
+      "T1564.004",
+      "T1564.006",
+      "T1564.007",
+      "T1564.008",
+      "T1564.009",
+      "T1564.010",
+      "T1565",
+      "T1565.001",
+      "T1565.002",
+      "T1565.003",
+      "T1566",
+      "T1566.001",
+      "T1566.002",
+      "T1566.003",
+      "T1567",
+      "T1568",
+      "T1568.002",
+      "T1569",
+      "T1569.002",
+      "T1570",
+      "T1571",
+      "T1572",
+      "T1573",
+      "T1573.001",
+      "T1573.002",
+      "T1574",
+      "T1574.001",
+      "T1574.004",
+      "T1574.005",
+      "T1574.007",
+      "T1574.008",
+      "T1574.009",
+      "T1574.010",
+      "T1574.013",
+      "T1574.014",
+      "T1578",
+      "T1578.001",
+      "T1578.002",
+      "T1578.003",
+      "T1598",
+      "T1598.001",
+      "T1598.002",
+      "T1598.003",
+      "T1599",
+      "T1599.001",
+      "T1601",
+      "T1601.001",
+      "T1601.002",
+      "T1602",
+      "T1602.001",
+      "T1602.002",
+      "T1610",
+      "T1611",
+      "T1612",
+      "T1613",
+      "T1622",
+      "T1647",
+      "T1648",
+      "T1651",
+      "T1653"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "TS-1.5"
+    ],
+    "general-naic-insurance-data-security-model-law-668-2017": [
+      "4.D(2)(h)"
+    ],
+    "general-nist-600-1-gen-ai-profile": [
+      "GV-4.3-002",
+      "GV-6.2-004"
+    ],
+    "general-nist-800-37-r2": [
+      "TASK P-7"
     ],
     "general-nist-800-53-r4": [
-      "AU-2",
-      "AU-2(3)",
-      "AU-6",
-      "IR-4(4)",
+      "AU-1",
       "SI-4"
     ],
     "general-nist-800-53-r5-2": [
-      "AU-02",
-      "AU-06",
-      "IR-04(04)",
-      "SI-04"
-    ],
-    "general-nist-800-53-r5-2-privacy": [
-      "AU-02",
-      "AU-06",
-      "IR-04(04)",
+      "AU-01",
+      "PM-31",
       "SI-04"
     ],
     "general-nist-800-53-r5-2-low": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
+      "SI-04"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "AU-01",
       "SI-04"
     ],
     "general-nist-800-53-r5-2-high": [
-      "IR-04(04)"
+      "AU-01",
+      "SI-04"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "AU-01",
+      "PM-31"
+    ],
+    "general-nist-800-66-r2": [
+      "164.308(a)(1)",
+      "164.312(b)"
     ],
     "general-nist-800-82-r3": [
-      "AU-02",
-      "AU-06",
-      "IR-04(04)",
+      "AU-01",
+      "PM-31",
       "SI-04"
     ],
     "general-nist-800-82-r3-low": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
+      "PM-31",
       "SI-04"
     ],
     "general-nist-800-82-r3-mod": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
+      "PM-31",
       "SI-04"
     ],
     "general-nist-800-82-r3-high": [
-      "AU-02",
-      "AU-06",
-      "IR-04(04)",
+      "AU-01",
+      "PM-31",
       "SI-04"
     ],
     "general-nist-800-160-vol-2-r1": [
-      "AU-06",
-      "IR-04(04)"
+      "PM-31"
     ],
     "general-nist-800-161-r1": [
-      "AU-2",
-      "AU-6",
+      "AU-1",
+      "PM-31",
       "SI-4"
     ],
     "general-nist-800-161-r1-cscrm": [
-      "AU-2",
-      "AU-6",
+      "AU-1",
       "SI-4"
     ],
     "general-nist-800-161-r1-flowdown": [
-      "AU-2",
       "SI-4"
     ],
     "general-nist-800-161-r1-level-1": [
-      "AU-2",
+      "AU-1",
+      "PM-31",
       "SI-4"
     ],
     "general-nist-800-161-r1-level-2": [
-      "AU-2",
-      "AU-6",
+      "AU-1",
+      "PM-31",
       "SI-4"
     ],
     "general-nist-800-161-r1-level-3": [
-      "AU-2",
-      "AU-6",
+      "AU-1",
+      "PM-31",
       "SI-4"
     ],
     "general-nist-800-171-r2": [
-      "3.3.1",
       "3.3.3",
-      "3.3.5",
-      "3.3.6",
-      "3.3.8",
-      "3.3.9"
+      "3.14.6",
+      "NFO - AU-1"
     ],
     "general-nist-800-171-r3": [
-      "03.03.05.a",
-      "03.03.05.c"
+      "03.03.01.a",
+      "03.12.03",
+      "03.14.06.a",
+      "03.14.06.a.02"
     ],
     "general-nist-800-171a-r3": [
-      "A.03.03.05.ODP[01]",
-      "A.03.03.05.a",
-      "A.03.03.05.c[01]"
+      "A.03.03.01.a",
+      "A.03.12.03[01]",
+      "A.03.14.06.a.01[01]",
+      "A.03.14.06.a.01[02]",
+      "A.03.14.06.a.02"
     ],
     "general-nist-800-207": [
       "NIST Tenet 5",
+      "NIST Tenet 6",
       "NIST Tenet 7"
     ],
     "general-nist-csf-2-0": [
-      "DE.AE-03",
-      "DE.AE-06"
+      "PR.PS-04",
+      "DE.CM-01",
+      "DE.CM-03",
+      "DE.CM-06",
+      "DE.CM-09",
+      "DE.AE"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "CT.DM-P8"
     ],
     "general-owasp-top-10-2025": [
+      "A01:2025",
       "A09:2025"
     ],
     "general-pci-dss-4-0-1": [
-      "10.3.3",
-      "10.4",
-      "10.4.1",
-      "10.4.1.1"
+      "10.1",
+      "10.4.3",
+      "10.7",
+      "10.7.1",
+      "10.7.2",
+      "10.7.3",
+      "A3.3.1",
+      "A3.5"
     ],
     "general-pci-dss-4-0-1-saq-a-ep": [
-      "10.3.3",
-      "10.4.1",
-      "10.4.1.1"
+      "10.4.3"
     ],
     "general-pci-dss-4-0-1-saq-c": [
-      "10.3.3",
-      "10.4.1",
-      "10.4.1.1"
+      "10.4.3"
     ],
     "general-pci-dss-4-0-1-saq-d-merchant": [
-      "10.3.3",
-      "10.4.1",
-      "10.4.1.1"
+      "10.4.3",
+      "10.7.2",
+      "10.7.3"
     ],
     "general-pci-dss-4-0-1-saq-d-service-provider": [
-      "10.3.3",
-      "10.4.1",
-      "10.4.1.1"
+      "10.4.3",
+      "10.7.1",
+      "10.7.2",
+      "10.7.3"
+    ],
+    "general-scf-dpmp-2026": [
+      "7.0"
+    ],
+    "general-sparta-4-0": [
+      "CM0090"
     ],
     "general-swift-cscf-2025": [
-      "6.1",
-      "6.2",
-      "6.3",
-      "6.4"
+      "6.4",
+      "6.5A"
     ],
     "general-tisax-6-0-3": [
       "5.2.4"
     ],
-    "usa-federal-dhs-cisa-tic-3-0": [
-      "3.UNI.CLMAN"
+    "general-un-155-2021": [
+      "7.2.2.2(g)",
+      "7.2.2.2(h)"
+    ],
+    "general-un-ece-wp-29-2020": [
+      "7.2.2.2(g)",
+      "7.2.2.2(h)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "AU-1",
+      "SI-4",
+      "SI-4.a",
+      "SI-4.a.1",
+      "SI-4.a.2",
+      "SI-4.b",
+      "SI-4.c",
+      "SI-4.d",
+      "SI-4.e",
+      "SI-4.f",
+      "SI-4.g",
+      "SI-4.g.1",
+      "SI-4.g.2",
+      "SI-4.h",
+      "SI-4.i",
+      "SI-4.j",
+      "SI-4.k",
+      "SI-4-IS.1"
     ],
     "usa-federal-dhs-cisa-cpg-2-0": [
-      "2.G",
+      "1.D",
       "2.T"
     ],
-    "usa-federal-fbi-cjis-6-0": [
-      "AU-2",
-      "AU-6",
-      "SI-4"
+    "usa-federal-dhs-cisa-ssdaf-2024": [
+      "1.b.",
+      "1.f"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNI.AACCO",
+      "3.UNI.CLMAN",
+      "3.UNI.SAWAR",
+      "3.UNL.CMREP"
     ],
     "usa-federal-doe-c2m2-2-1": [
-      "SITUATION-1e"
+      "SITUATION-1a",
+      "SITUATION-2c",
+      "SITUATION-3g"
+    ],
+    "usa-federal-dow-brilliant-basics-ot": [
+      "7"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "MON:SG1",
+      "MON:SG1.SP1",
+      "MON:SG1.SP2",
+      "MON:SG1.SP3",
+      "MON:SG1.SP4",
+      "MON:SG2",
+      "MON:SG2.SP1",
+      "MON:SG2.SP2",
+      "MON:SG2.SP3",
+      "MON:SG2.SP4",
+      "MON:GG1.GP1",
+      "MON:GG2",
+      "MON:GG2.GP2"
     ],
     "usa-federal-dow-cmmc-2-level-2": [
-      "AUL2.-3.3.1",
       "AUL2.-3.3.3",
-      "AUL2.-3.3.5",
-      "AUL2.-3.3.6",
-      "AUL2.-3.3.8",
-      "AUL2.-3.3.9"
+      "SIL2.-3.14.6"
+    ],
+    "usa-federal-dow-zta-reference-architecture-2-0": [
+      "6.5"
     ],
     "usa-federal-dow-zt-roadmap-1-1": [
-      "3.5.1",
-      "3.5.2",
-      "7.1"
+      "3.5",
+      "7.3.1"
+    ],
+    "usa-federal-eo-14028": [
+      "4e(i)(B)",
+      "4e(i)(F)"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "AU-1",
+      "SI-4"
     ],
     "usa-federal-fda-21-cfr-part-11-2025": [
       "11.10",
-      "11.10(b)",
-      "11.10(c)",
       "11.10(e)"
     ],
+    "usa-federal-ffiec-iteh-2016": [
+      "III.B"
+    ],
     "usa-federal-gsa-fedramp-5-low": [
-      "AU-02",
-      "AU-06",
-      "IR-04(04)",
+      "AU-01",
       "SI-04"
     ],
     "usa-federal-gsa-fedramp-5-mod": [
-      "AU-02",
-      "AU-06",
-      "IR-04(04)",
+      "AU-01",
       "SI-04"
     ],
     "usa-federal-gsa-fedramp-5-high": [
-      "AU-02",
-      "AU-06",
-      "IR-04(04)",
+      "AU-01",
       "SI-04"
     ],
     "usa-federal-gsa-fedramp-5-li-saas": [
-      "AU-02",
-      "AU-06",
-      "IR-04(04)",
+      "AU-01",
       "SI-04"
     ],
-    "usa-federal-irs-1075-2021": [
-      "AU-2",
-      "AU-6",
-      "SI-4"
+    "usa-federal-hhs-45-cfr-155-260-2016": [
+      "155.260(a)(3)(viii)"
     ],
-    "usa-federal-cms-marse-2-0": [
-      "AU-2",
-      "AU-2.a",
-      "AU-2.b",
-      "AU-2.c",
-      "AU-6",
-      "AU-6.a",
-      "SI-4"
+    "usa-federal-irs-1075-2021": [
+      "AU-1",
+      "SI-4",
+      "SI-4(IRS-Defined)"
+    ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(c)(1)",
+      "101.650(f)(3)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "§ 164.308(a)(1)(i)",
+      "§ 164.308(a)(1)(ii)(D)",
+      "§ 164.312(b)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "§ 164.308(a)(1)(i)",
+      "§ 164.308(a)(1)(ii)(D)",
+      "§ 164.312(b)"
+    ],
+    "usa-federal-nsf-rig-2025-information-assurance": [
+      "5.3.6 / NSF9"
+    ],
+    "usa-federal-tsa-sd-pipeline-2021-02f": [
+      "III.D",
+      "III.D.3.a"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.D.3",
+      "III.D.3.a",
+      "III.D.3.b"
     ],
     "usa-state-ca-ccpa-cpra-2026": [
       "7123(c)(7)"
     ],
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
-      "500.6(a)(2)",
-      "500.14(b)(2)"
+      "500.2(b)(3)",
+      "500.6(a)(1)",
+      "500.6(a)(2)"
     ],
     "usa-state-tx-dir-security-control-standards-catalog-2-2": [
-      "AT-02",
-      "AU-02",
-      "AU-06",
+      "AU-01",
       "SI-04"
     ],
     "usa-state-tx-txramp-2-0-level-1": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
       "SI-04"
     ],
     "usa-state-tx-txramp-2-0-level-2": [
-      "AU-02",
-      "AU-06",
+      "AU-01",
       "SI-04"
     ],
-    "emea-eu-eba-ict-srm-2025": [
-      "3.4.5.38",
-      "3.4.5.39",
-      "3.5.52"
+    "emea-che-finma-circ-23-1": [
+      "IV.C.c-65",
+      "IV.D-77"
     ],
-    "emea-eu-nis2-annex-2024": [
-      "3.2.6"
-    ],
-    "emea-deu-c5-2020": [
-      "RB-10",
-      "RB-13",
-      "RB-16-DOAR",
-      "SIM-05"
-    ],
-    "emea-sau-cscc-1-2019": [
-      "2-11-1-3",
-      "2-11-1-4"
-    ],
-    "emea-sau-otcc-1-2022": [
-      "2-11-1-5",
-      "2-11-1-6",
-      "2-11-1-7",
-      "2-11-1-8"
+    "emea-deu-c5-2026": [
+      "OIS-04.03B",
+      "OIS-04.01AC",
+      "AM-01.01AC",
+      "AM-01.01AC.1",
+      "AM-09.03AC",
+      "OPS-07.01B",
+      "OPS-10.01B",
+      "OPS-10.01B.2",
+      "OPS-10.01B.4",
+      "OPS-17.01B",
+      "OPS-30.01B.3",
+      "OPS-32.01AC.6",
+      "OPS-34.02B.3",
+      "PSS-01.02B.15",
+      "PSS-12.02AC.2"
     ],
     "emea-esp-ccn-stic-825-2026": [
       "op.exp.8"
     ],
-    "apac-aus-ism-2026-march": [
+    "emea-esp-decree-311-2022": [
+      "Article 8(3)",
+      "Article 12(6)(l)",
+      "Article 24(1)",
+      "Article 24(2)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 10.3"
+    ],
+    "emea-eu-dora-rts-2024": [
+      "Article 12.1",
+      "Article 12.2",
+      "Article 23.2",
+      "Article 23.2(a)",
+      "Article 23.5(d)",
+      "Article 34.1(f)",
+      "Article 34.1(g)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.5.39",
+      "3.5.52"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "2.2.3",
+      "3.2.1",
+      "3.2.2",
+      "3.2.6",
+      "13.1.2(f)"
+    ],
+    "emea-gbr-caf-4-0": [
+      "C1"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "C1"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2203",
+      "2427",
+      "3100",
+      "3101",
+      "3102",
+      "3106"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2427",
+      "3100",
+      "3101"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2203",
+      "2427",
+      "3100",
+      "3101",
+      "3106"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2203",
+      "2427",
+      "3100",
+      "3102",
+      "3106"
+    ],
+    "emea-lux-cssf-20-750": [
+      "3.4.1-30.e",
+      "3.4.5-38.a",
+      "3.5-52"
+    ],
+    "emea-lux-cssf-22-806": [
+      "138.b.iii"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-11-1"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-11-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-12-1",
+      "2-12-2",
+      "5-1-3-3"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-11-1",
+      "2-11-1-10",
+      "2-11-2"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.14",
+      "3.3.14.1",
+      "3.3.14.3",
+      "3.3.14.4",
+      "3.3.14.4.a",
+      "3.3.14.4.b",
+      "3.3.14.4.c",
+      "3.3.14.4.d",
+      "3.3.14.4.e",
+      "3.3.14.4.f",
+      "3.3.14.4.g"
+    ],
+    "apac-aus-essential-8-2024": [
+      "ISM-0109"
+    ],
+    "apac-aus-ism-2026-june": [
       "ISM-0109",
-      "ISM-1228",
-      "ISM-1405",
-      "ISM-1536",
-      "ISM-1537",
-      "ISM-1566",
-      "ISM-1650",
-      "ISM-1911",
-      "ISM-1960",
-      "ISM-1963",
-      "ISM-1976",
-      "ISM-1977",
-      "ISM-1978",
-      "ISM-1979",
-      "ISM-1983",
-      "ISM-1986",
-      "ISM-1987"
+      "ISM-0120",
+      "ISM-0580",
+      "ISM-0660",
+      "ISM-1163",
+      "ISM-1294",
+      "ISM-1586",
+      "ISM-2117"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "16(d)"
+    ],
+    "apac-chn-data-security-law-2021": [
+      "Article 29"
+    ],
+    "apac-ind-rbi-dpsc-2021": [
+      "18.0",
+      "41.0",
+      "72.0"
+    ],
+    "apac-ind-rbi-pa-2025": [
+      "III.9.a"
+    ],
+    "apac-ind-sebi-2024": [
+      "DE.CM.S2",
+      "PR.AA.S8"
+    ],
+    "apac-jpn-ismap": [
+      "12.4",
+      "12.4.1",
+      "12.4.1.15.PB"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "11.3(e)",
+      "11.9",
+      "12.3(c)",
+      "A5-E1(i)",
+      "A10-B10(a)",
+      "A10-B10(b)"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
+      "HMS18"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP70",
+      "HML70"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP61"
     ],
     "apac-nzl-ism-3-9": [
-      "16.6.11.C.01",
-      "16.6.11.C.02",
-      "16.6.11.C.03",
-      "16.6.12.C.01",
-      "16.6.12.C.02",
-      "16.6.12.C.03"
+      "16.6.6.C.01",
+      "16.6.6.C.02",
+      "16.6.8.C.01",
+      "16.6.10.C.01",
+      "16.6.10.C.02"
+    ],
+    "apac-sgp-ccp-cii-2026": [
+      "5.4.1",
+      "5.4.1(a)",
+      "6.1.1",
+      "6.2.1",
+      "6.2.1(a)",
+      "6.2.2",
+      "6.2.3",
+      "6.2.4",
+      "7.3.5(c)",
+      "12.7.6"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "6.4.7",
+      "12.2.1"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.21"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.03.01.A",
+      "03.12.03",
+      "03.14.06.A",
+      "03.14.06.A.02"
     ],
     "americas-can-osfi-b13-2022": [
-      "3.3.1"
-    ],
-    "americas-can-osfi-self-assessment-2": [
+      "3.3",
       "3.3.1",
       "3.3.2"
     ],
-    "americas-can-itsp-10-171-2025": [
-      "03.03.05.A",
-      "03.03.05.C"
+    "americas-can-osfi-self-assessment": [
+      "3.3.1"
     ]
   }
 }

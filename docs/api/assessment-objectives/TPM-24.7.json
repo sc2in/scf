@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-24.7",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-24.7",
+      "ao_id": "TPM-24.7_A01",
+      "objective": "scenarios in which a third-party relationship may be terminated unexpectedly or the third-party may be unable or unwilling to support an orderly transition (e.g., insolvency, breach, sanctions, service withdrawal) are identified for applicable third-party relationships.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.7",
+      "ao_id": "TPM-24.7_A02",
+      "objective": "documented contingency measures exist to maintain security, compliance and resilience of affected Technology Assets, Applications, Services and Data (TAASD) when a third-party relationship is terminated unexpectedly.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.7",
+      "ao_id": "TPM-24.7_A03",
+      "objective": "documented contingency measures exist to maintain continuity of operations, including alternate sourcing, internally-managed fallback and/or escrow arrangements, when the third-party is unable or unwilling to support an orderly transition.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.7",
+      "ao_id": "TPM-24.7_A04",
+      "objective": "contingency measures for third-party exit are tested or exercised at a defined frequency for critical third-party relationships.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually for critical third-party relationships",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.7",
+      "ao_id": "TPM-24.7_A05",
+      "objective": "the conditions and authority for invoking third-party exit contingency measures are defined and, when invoked, the invocation is recorded.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "PRM-02",
-  "total": 3,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "PRM-02",
       "ao_id": "PRM-02_A01",
-      "objective": "the resources needed to implement the cybersecurity / data privacy program are included in capital planning and investment requests and all exceptions are documented.",
+      "objective": "a documented strategic cybersecurity / data privacy-specific business plan exists.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-03a.[01]\n53A_R5_PM-03a.[02]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,19 +15,9 @@
     {
       "scf_control_id": "PRM-02",
       "ao_id": "PRM-02_A02",
-      "objective": "the documentation required for addressing the cybersecurity / data privacy program in capital planning and investment requests is prepared in accordance with applicable laws, executive orders, directives, policies, regulations, standards.",
+      "objective": "a documented set of objectives to achieve that cybersecurity and privacy-specific business plan exists.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-03b.[01]\n53A_R5_PM-03b.[02]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "PRM-02",
-      "ao_id": "PRM-02_A03",
-      "objective": "cybersecurity / data privacy resources are made available for expenditure as planned.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PM-03c.[01]\n53A_R5_PM-03c.[02]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

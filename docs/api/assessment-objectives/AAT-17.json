@@ -1,11 +1,11 @@
 {
   "scf_control_id": "AAT-17",
-  "total": 2,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-17",
       "ao_id": "AAT-17_A01",
-      "objective": "the organization proactively identifies unanticipated and emergent Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks.",
+      "objective": "a Release Owner Gate (ROG), or similar function, prohibits the external release of AI-augmented content without formal Subject Matter Expert (SME) review and Line of Business (LOB) approval.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,27 @@
     {
       "scf_control_id": "AAT-17",
       "ao_id": "AAT-17_A02",
-      "objective": "the organization tracks existing, unanticipated and emergent Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks in a Plan of Action & Milestones (POA&M), or similar risk register.",
+      "objective": "the review and approval process validates material facts.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17",
+      "ao_id": "AAT-17_A03",
+      "objective": "the review and approval process validates citations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17",
+      "ao_id": "AAT-17_A04",
+      "objective": "the review and approval process validates other relevant content that could discredit the organization.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

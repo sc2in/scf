@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-NET-12",
+  "area": "Network Security",
+  "artifact_name": "Email Security Configuration",
+  "artifact_description": "Documented evidence of email domain reputation protections (DMARC, SPF, ARC) and phishing / spam protection configurations.",
+  "scf_controls": [
+    "NET-39",
+    "NET-39.1",
+    "NET-39.2",
+    "NET-39.3",
+    "NET-40",
+    "NET-40.2",
+    "NET-40.3"
+  ],
+  "cmmc_mapping": ""
+}

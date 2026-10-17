@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-EX-9",
+  "grouping": "Exposure",
+  "name": "Intellectual Property / Trade Secret Loss",
+  "description": "The strategic or competitive value of proprietary data, trade secrets, research, designs, source code or other Intellectual Property (IP) is reduced when it is:\n(1) Improperly disclosed;\n(2) Stolen;\n(3) Copied; and/or\n(4) Rendered non-exclusive,",
+  "nist_csf_function": "Protect"
+}

@@ -5,11 +5,11 @@
     {
       "scf_control_id": "WEB-07",
       "ao_id": "WEB-07_A01",
-      "objective": "the Open Web Application Security Project (OWASP) Application Security Verification Standard is incorporated into the organization's Secure Systems Development Lifecycle (SSDLC) process.",
-      "pptdf": "Process",
+      "objective": "Strong Customer Authentication (SCA) is utilized for consumers and/or data subjects to prove their identity.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "no fewer than 2 independent authentication elements drawn from different categories: knowledge, possession and inherence",
       "org_defined_parameters": ""
     }
   ]

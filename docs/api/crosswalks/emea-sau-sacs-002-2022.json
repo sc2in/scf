@@ -2,23 +2,23 @@
   "framework_id": "emea-sau-sacs-002-2022",
   "display_name": "Saudi Arabia - SACS - 002 Third Party Cybersecurity Standard (2022)",
   "scf_to_framework": {
-    "total_mappings": 101,
+    "total_mappings": 106,
     "mappings": {
-      "GOV-01.3": [
-        "VII.B.TPC-69"
-      ],
-      "GOV-02": [
+      "GOV-04": [
         "VII.B.TPC-24",
         "VII.B.TPC-25"
       ],
-      "AST-09": [
+      "AST-22": [
         "VII.A.TPC-19",
         "VII.B.TPC-66"
       ],
-      "BCD-01": [
+      "AST-39": [
+        "VII.B.TPC-51"
+      ],
+      "BCD-02": [
         "VII.B.TPC-64"
       ],
-      "BCD-01.7": [
+      "BCD-04": [
         "VII.B.TPC-67",
         "VII.B.TPC-68",
         "VII.B.TPC-68(a)",
@@ -32,23 +32,23 @@
         "VII.B.TPC-68(i)",
         "VII.B.TPC-69"
       ],
-      "BCD-04": [
+      "BCD-10": [
         "VII.B.TPC-70"
       ],
-      "BCD-11": [
+      "BCD-24": [
         "VII.B.TPC-64"
       ],
-      "BCD-11.2": [
+      "BCD-24.2": [
         "VII.B.TPC-65"
       ],
-      "BCD-11.4": [
+      "BCD-24.3": [
         "VII.B.TPC-50",
         "VII.B.TPC-65"
       ],
-      "CAP-02": [
+      "CAP-04": [
         "VII.B.TPC-92"
       ],
-      "CFG-02": [
+      "CFG-04": [
         "VII.A.TPC-2",
         "VII.A.TPC-2-BP1",
         "VII.A.TPC-2-BP2",
@@ -64,175 +64,187 @@
         "VII.B.TPC-63-BP3",
         "VII.B.TPC-63-BP4"
       ],
-      "MON-01.15": [
-        "VII.B.TPC-83"
+      "CFG-04.8": [
+        "VII.B.TPC-42"
       ],
-      "MON-02.1": [
+      "MON-08": [
         "VII.B.TPC-81"
       ],
-      "MON-03": [
+      "MON-09": [
         "VII.B.TPC-87"
       ],
-      "MON-10": [
+      "MON-13": [
         "VII.B.TPC-75"
       ],
-      "MON-11.3": [
-        "VII.B.TPC-80"
+      "MON-14.2": [
+        "VII.B.TPC-83"
       ],
       "MON-16": [
         "VII.B.TPC-80"
       ],
-      "CRY-01": [
+      "MON-17": [
+        "VII.B.TPC-80"
+      ],
+      "CRY-02": [
         "VII.B.TPC-54"
       ],
-      "CRY-03": [
+      "CRY-05": [
         "VII.B.TPC-52",
         "VII.B.TPC-53"
       ],
-      "CRY-07": [
-        "VII.B.TPC-42"
-      ],
-      "CRY-09": [
+      "CRY-10": [
         "VII.B.TPC-55"
       ],
-      "DCH-01.2": [
+      "DCH-04": [
+        "VII.B.TPC-24"
+      ],
+      "DCH-06.1": [
+        "VII.B.TPC-39"
+      ],
+      "DCH-07": [
         "VII.B.TPC-39",
         "VII.B.TPC-58"
       ],
-      "DCH-01.4": [
-        "VII.B.TPC-39"
-      ],
-      "DCH-02": [
-        "VII.B.TPC-24"
-      ],
-      "DCH-09": [
+      "DCH-18": [
         "VII.A.TPC-19",
         "VII.B.TPC-66"
       ],
-      "DCH-13": [
+      "DCH-22": [
         "VII.B.TPC-36"
       ],
-      "DCH-18": [
+      "DCH-27": [
         "VII.A.TPC-19"
       ],
       "END-04": [
         "VII.A.TPC-12"
       ],
-      "END-05": [
+      "END-07": [
         "VII.A.TPC-22"
       ],
-      "END-08": [
-        "VII.A.TPC-16"
-      ],
-      "HRS-01": [
-        "VII.B.TPC-26"
-      ],
-      "HRS-01.1": [
-        "VII.A.TPC-18",
-        "VII.B.TPC-71"
-      ],
-      "HRS-03": [
+      "HRS-02": [
         "VII.B.TPC-26"
       ],
       "HRS-03.2": [
         "VII.B.TPC-26"
       ],
-      "HRS-05": [
+      "HRS-04": [
+        "VII.B.TPC-26"
+      ],
+      "HRS-06": [
         "VII.A.TPC-1"
-      ],
-      "HRS-05.1": [
-        "VII.A.TPC-1"
-      ],
-      "HRS-05.3": [
-        "VII.A.TPC-8"
-      ],
-      "HRS-05.5": [
-        "VII.B.TPC-84"
       ],
       "HRS-06.1": [
+        "VII.A.TPC-1"
+      ],
+      "HRS-06.3": [
+        "VII.A.TPC-8"
+      ],
+      "HRS-06.5": [
+        "VII.B.TPC-84"
+      ],
+      "HRS-07.1": [
         "VII.A.TPC-9"
       ],
-      "HRS-09.4": [
+      "HRS-08": [
+        "VII.A.TPC-18",
+        "VII.B.TPC-71"
+      ],
+      "HRS-12.1": [
         "VII.A.TPC-6"
       ],
-      "IAC-02": [
-        "VII.B.TPC-32"
-      ],
-      "IAC-03": [
-        "VII.B.TPC-32"
+      "IAC-04": [
+        "VII.A.TPC-6"
       ],
       "IAC-06": [
+        "VII.B.TPC-34"
+      ],
+      "IAC-08": [
+        "VII.B.TPC-32"
+      ],
+      "IAC-12": [
+        "VII.B.TPC-33"
+      ],
+      "IAC-14": [
+        "VII.B.TPC-62"
+      ],
+      "IAC-14.2": [
+        "VII.A.TPC-3"
+      ],
+      "IAC-15": [
+        "VII.A.TPC-2"
+      ],
+      "IAC-30": [
+        "VII.B.TPC-34"
+      ],
+      "IAC-32": [
+        "VII.B.TPC-32"
+      ],
+      "IAC-33": [
+        "VII.B.TPC-32"
+      ],
+      "IAC-35": [
+        "VII.B.TPC-84"
+      ],
+      "IAC-37": [
         "VII.A.TPC-4",
         "VII.A.TPC-5",
         "VII.B.TPC-37",
         "VII.B.TPC-44",
         "VII.B.TPC-45"
       ],
-      "IAC-07": [
-        "VII.A.TPC-6"
+      "IAC-37.5": [
+        "VII.B.TPC-37"
       ],
-      "IAC-08": [
-        "VII.B.TPC-34"
+      "IAC-37.6": [
+        "VII.A.TPC-4"
       ],
-      "IAC-10": [
-        "VII.B.TPC-62"
-      ],
-      "IAC-10.1": [
-        "VII.A.TPC-2"
-      ],
-      "IAC-10.5": [
-        "VII.A.TPC-3"
-      ],
-      "IAC-15": [
-        "VII.B.TPC-32"
-      ],
-      "IAC-17": [
-        "VII.B.TPC-33"
-      ],
-      "IAC-21": [
-        "VII.B.TPC-34"
+      "IAC-37.7": [
+        "VII.B.TPC-37"
       ],
       "IRO-01": [
-        "VII.A.TPC-23"
+        "VII.B.TPC-88"
       ],
       "IRO-02": [
-        "VII.B.TPC-89"
+        "VII.A.TPC-23"
       ],
-      "IRO-03": [
+      "IRO-05": [
         "VII.B.TPC-80"
       ],
-      "IRO-04": [
+      "IRO-06": [
+        "VII.B.TPC-89"
+      ],
+      "IRO-08": [
         "VII.A.TPC-23-BP2",
         "VII.B.TPC-88"
       ],
-      "IRO-09": [
-        "VII.B.TPC-90"
-      ],
-      "IRO-10": [
-        "VII.A.TPC-23-BP1"
-      ],
-      "IRO-13": [
+      "IRO-14": [
         "VII.B.TPC-89"
       ],
-      "IAO-02.2": [
+      "IRO-16": [
+        "VII.A.TPC-23-BP1"
+      ],
+      "IRO-16.1": [
+        "VII.B.TPC-90"
+      ],
+      "IAO-05": [
         "VII.B.TPC-72"
       ],
-      "IAO-04": [
+      "IAO-10": [
         "VII.B.TPC-72"
       ],
-      "IAO-06": [
+      "IAO-11": [
         "VII.B.TPC-72",
         "VII.B.TPC-73"
       ],
-      "IAO-07": [
+      "IAO-14": [
         "VII.B.TPC-72",
         "VII.B.TPC-73"
-      ],
-      "MDM-05": [
-        "VII.B.TPC-59"
       ],
       "MDM-06": [
         "VII.B.TPC-84"
+      ],
+      "MDM-09": [
+        "VII.B.TPC-59"
       ],
       "NET-03": [
         "VII.B.TPC-76"
@@ -243,66 +255,78 @@
       "NET-06": [
         "VII.B.TPC-40"
       ],
-      "NET-06.3": [
+      "NET-08.1": [
         "VII.B.TPC-38"
       ],
-      "NET-08": [
-        "VII.B.TPC-77"
-      ],
-      "NET-10.3": [
-        "VII.A.TPC-13",
-        "VII.A.TPC-14",
-        "VII.A.TPC-15"
-      ],
-      "NET-14.4": [
-        "VII.B.TPC-35"
-      ],
-      "NET-15.1": [
-        "VII.B.TPC-42"
-      ],
-      "NET-18": [
+      "NET-17": [
         "VII.B.TPC-57",
         "VII.B.TPC-57-BP1",
         "VII.B.TPC-57-BP2",
         "VII.B.TPC-57-BP3"
       ],
-      "PES-02": [
-        "VII.B.TPC-86"
+      "NET-24.1": [
+        "VII.B.TPC-42"
       ],
-      "PES-02.1": [
-        "VII.B.TPC-86"
+      "NET-26.6": [
+        "VII.B.TPC-35"
       ],
-      "PES-03": [
-        "VII.B.TPC-82"
+      "NET-31": [
+        "VII.B.TPC-77"
       ],
-      "PES-03.2": [
-        "VII.B.TPC-46"
+      "NET-33": [
+        "VII.B.TPC-41"
       ],
-      "PES-03.4": [
-        "VII.B.TPC-46"
+      "NET-34": [
+        "VII.B.TPC-79"
       ],
-      "PES-04.1": [
-        "VII.B.TPC-49"
+      "NET-39.2": [
+        "VII.A.TPC-13",
+        "VII.A.TPC-14",
+        "VII.A.TPC-15"
+      ],
+      "NET-40.2": [
+        "VII.A.TPC-16"
       ],
       "PES-06": [
+        "VII.B.TPC-86"
+      ],
+      "PES-07": [
+        "VII.B.TPC-86"
+      ],
+      "PES-08": [
+        "VII.B.TPC-82"
+      ],
+      "PES-11": [
+        "VII.B.TPC-49"
+      ],
+      "PES-11.1": [
+        "VII.B.TPC-38",
+        "VII.B.TPC-49"
+      ],
+      "PES-12": [
+        "VII.B.TPC-46"
+      ],
+      "PES-12.1": [
+        "VII.B.TPC-46"
+      ],
+      "PES-14": [
         "VII.B.TPC-47",
         "VII.B.TPC-47-BP2",
         "VII.B.TPC-47-BP3"
       ],
-      "PES-06.2": [
+      "PES-14.2": [
         "VII.B.TPC-47-BP1"
       ],
-      "PES-06.3": [
+      "PES-14.3": [
         "VII.B.TPC-48"
       ],
-      "PES-18": [
-        "VII.B.TPC-38",
-        "VII.B.TPC-49"
+      "PRM-05.1": [
+        "VII.B.TPC-69"
       ],
-      "RSK-04": [
+      "RSK-13": [
         "VII.B.TPC-31"
       ],
-      "SAT-02": [
+      "SAT-04": [
         "VII.A.TPC-7",
         "VII.A.TPC-7.1",
         "VII.A.TPC-7.2",
@@ -311,327 +335,323 @@
         "VII.A.TPC-8",
         "VII.A.TPC-9"
       ],
-      "SAT-02.2": [
+      "SAT-06.1": [
         "VII.A.TPC-7.3"
       ],
-      "TDA-06": [
+      "TDA-05": [
         "VII.B.TPC-74"
       ],
-      "TDA-17": [
-        "VII.B.TPC-51"
-      ],
-      "TDA-18": [
+      "TDA-12": [
         "VII.B.TPC-60"
       ],
-      "TDA-19": [
+      "TDA-12.1": [
         "VII.B.TPC-61"
       ],
-      "TDA-19.1": [
+      "TDA-12.2": [
         "VII.B.TPC-61"
       ],
-      "TPM-04": [
+      "TPM-12": [
         "VII.B.TPC-36"
       ],
-      "TPM-05": [
+      "TPM-14": [
         "VII.A.TPC-17",
         "VII.A.TPC-23-BP2"
       ],
-      "TPM-05.8": [
+      "TPM-23": [
         "VII.A.TPC-20",
         "VII.A.TPC-21"
       ],
-      "VPM-02": [
+      "VPM-06": [
         "VII.B.TPC-91",
         "VII.B.TPC-91-BP1",
         "VII.B.TPC-91-BP2",
         "VII.B.TPC-91-BP3"
       ],
-      "VPM-05": [
+      "VPM-08": [
         "VII.A.TPC-11"
       ],
-      "VPM-06": [
+      "VPM-12": [
         "VII.B.TPC-85"
       ],
-      "VPM-06.1": [
+      "VPM-12.1": [
         "VII.B.TPC-78"
       ],
-      "VPM-07": [
+      "VPM-18": [
         "VII.B.TPC-27",
         "VII.B.TPC-28",
         "VII.B.TPC-29"
-      ],
-      "WEB-02": [
-        "VII.B.TPC-41"
-      ],
-      "WEB-03": [
-        "VII.B.TPC-79"
       ]
     }
   },
   "framework_to_scf": {
     "total_mappings": 124,
     "mappings": {
-      "VII.B.TPC-69": [
-        "GOV-01.3",
-        "BCD-01.7"
-      ],
       "VII.B.TPC-24": [
-        "GOV-02",
-        "DCH-02"
+        "GOV-04",
+        "DCH-04"
       ],
       "VII.B.TPC-25": [
-        "GOV-02"
+        "GOV-04"
       ],
       "VII.A.TPC-19": [
-        "AST-09",
-        "DCH-09",
-        "DCH-18"
+        "AST-22",
+        "DCH-18",
+        "DCH-27"
       ],
       "VII.B.TPC-66": [
-        "AST-09",
-        "DCH-09"
+        "AST-22",
+        "DCH-18"
+      ],
+      "VII.B.TPC-51": [
+        "AST-39"
       ],
       "VII.B.TPC-64": [
-        "BCD-01",
-        "BCD-11"
+        "BCD-02",
+        "BCD-24"
       ],
       "VII.B.TPC-67": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(a)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(b)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(c)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(d)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(e)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(f)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(g)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(h)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-68(i)": [
-        "BCD-01.7"
-      ],
-      "VII.B.TPC-70": [
         "BCD-04"
       ],
+      "VII.B.TPC-68": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(a)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(b)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(c)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(d)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(e)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(f)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(g)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(h)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-68(i)": [
+        "BCD-04"
+      ],
+      "VII.B.TPC-69": [
+        "BCD-04",
+        "PRM-05.1"
+      ],
+      "VII.B.TPC-70": [
+        "BCD-10"
+      ],
       "VII.B.TPC-65": [
-        "BCD-11.2",
-        "BCD-11.4"
+        "BCD-24.2",
+        "BCD-24.3"
       ],
       "VII.B.TPC-50": [
-        "BCD-11.4"
+        "BCD-24.3"
       ],
       "VII.B.TPC-92": [
-        "CAP-02"
+        "CAP-04"
       ],
       "VII.A.TPC-2": [
-        "CFG-02",
-        "IAC-10.1"
+        "CFG-04",
+        "IAC-15"
       ],
       "VII.A.TPC-2-BP1": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.A.TPC-2-BP2": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.A.TPC-2-BP3": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.A.TPC-2-BP4": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.A.TPC-2-BP5": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.A.TPC-10": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.B.TPC-56": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.B.TPC-62": [
-        "CFG-02",
-        "IAC-10"
+        "CFG-04",
+        "IAC-14"
       ],
       "VII.B.TPC-63": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.B.TPC-63-BP1": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.B.TPC-63-BP2": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.B.TPC-63-BP3": [
-        "CFG-02"
+        "CFG-04"
       ],
       "VII.B.TPC-63-BP4": [
-        "CFG-02"
-      ],
-      "VII.B.TPC-83": [
-        "MON-01.15"
-      ],
-      "VII.B.TPC-81": [
-        "MON-02.1"
-      ],
-      "VII.B.TPC-87": [
-        "MON-03"
-      ],
-      "VII.B.TPC-75": [
-        "MON-10"
-      ],
-      "VII.B.TPC-80": [
-        "MON-11.3",
-        "MON-16",
-        "IRO-03"
-      ],
-      "VII.B.TPC-54": [
-        "CRY-01"
-      ],
-      "VII.B.TPC-52": [
-        "CRY-03"
-      ],
-      "VII.B.TPC-53": [
-        "CRY-03"
+        "CFG-04"
       ],
       "VII.B.TPC-42": [
-        "CRY-07",
-        "NET-15.1"
+        "CFG-04.8",
+        "NET-24.1"
+      ],
+      "VII.B.TPC-81": [
+        "MON-08"
+      ],
+      "VII.B.TPC-87": [
+        "MON-09"
+      ],
+      "VII.B.TPC-75": [
+        "MON-13"
+      ],
+      "VII.B.TPC-83": [
+        "MON-14.2"
+      ],
+      "VII.B.TPC-80": [
+        "MON-16",
+        "MON-17",
+        "IRO-05"
+      ],
+      "VII.B.TPC-54": [
+        "CRY-02"
+      ],
+      "VII.B.TPC-52": [
+        "CRY-05"
+      ],
+      "VII.B.TPC-53": [
+        "CRY-05"
       ],
       "VII.B.TPC-55": [
-        "CRY-09"
+        "CRY-10"
       ],
       "VII.B.TPC-39": [
-        "DCH-01.2",
-        "DCH-01.4"
+        "DCH-06.1",
+        "DCH-07"
       ],
       "VII.B.TPC-58": [
-        "DCH-01.2"
+        "DCH-07"
       ],
       "VII.B.TPC-36": [
-        "DCH-13",
+        "DCH-22",
         "NET-05.1",
-        "TPM-04"
+        "TPM-12"
       ],
       "VII.A.TPC-12": [
         "END-04"
       ],
       "VII.A.TPC-22": [
-        "END-05"
-      ],
-      "VII.A.TPC-16": [
-        "END-08"
+        "END-07"
       ],
       "VII.B.TPC-26": [
-        "HRS-01",
-        "HRS-03",
-        "HRS-03.2"
-      ],
-      "VII.A.TPC-18": [
-        "HRS-01.1"
-      ],
-      "VII.B.TPC-71": [
-        "HRS-01.1"
+        "HRS-02",
+        "HRS-03.2",
+        "HRS-04"
       ],
       "VII.A.TPC-1": [
-        "HRS-05",
-        "HRS-05.1"
+        "HRS-06",
+        "HRS-06.1"
       ],
       "VII.A.TPC-8": [
-        "HRS-05.3",
-        "SAT-02"
+        "HRS-06.3",
+        "SAT-04"
       ],
       "VII.B.TPC-84": [
-        "HRS-05.5",
+        "HRS-06.5",
+        "IAC-35",
         "MDM-06"
       ],
       "VII.A.TPC-9": [
-        "HRS-06.1",
-        "SAT-02"
+        "HRS-07.1",
+        "SAT-04"
+      ],
+      "VII.A.TPC-18": [
+        "HRS-08"
+      ],
+      "VII.B.TPC-71": [
+        "HRS-08"
       ],
       "VII.A.TPC-6": [
-        "HRS-09.4",
-        "IAC-07"
-      ],
-      "VII.B.TPC-32": [
-        "IAC-02",
-        "IAC-03",
-        "IAC-15"
-      ],
-      "VII.A.TPC-4": [
-        "IAC-06"
-      ],
-      "VII.A.TPC-5": [
-        "IAC-06"
-      ],
-      "VII.B.TPC-37": [
-        "IAC-06"
-      ],
-      "VII.B.TPC-44": [
-        "IAC-06"
-      ],
-      "VII.B.TPC-45": [
-        "IAC-06"
+        "HRS-12.1",
+        "IAC-04"
       ],
       "VII.B.TPC-34": [
-        "IAC-08",
-        "IAC-21"
+        "IAC-06",
+        "IAC-30"
       ],
-      "VII.A.TPC-3": [
-        "IAC-10.5"
+      "VII.B.TPC-32": [
+        "IAC-08",
+        "IAC-32",
+        "IAC-33"
       ],
       "VII.B.TPC-33": [
-        "IAC-17"
+        "IAC-12"
       ],
-      "VII.A.TPC-23": [
-        "IRO-01"
+      "VII.A.TPC-3": [
+        "IAC-14.2"
       ],
-      "VII.B.TPC-89": [
-        "IRO-02",
-        "IRO-13"
+      "VII.A.TPC-4": [
+        "IAC-37",
+        "IAC-37.6"
       ],
-      "VII.A.TPC-23-BP2": [
-        "IRO-04",
-        "TPM-05"
+      "VII.A.TPC-5": [
+        "IAC-37"
+      ],
+      "VII.B.TPC-37": [
+        "IAC-37",
+        "IAC-37.5",
+        "IAC-37.7"
+      ],
+      "VII.B.TPC-44": [
+        "IAC-37"
+      ],
+      "VII.B.TPC-45": [
+        "IAC-37"
       ],
       "VII.B.TPC-88": [
-        "IRO-04"
+        "IRO-01",
+        "IRO-08"
       ],
-      "VII.B.TPC-90": [
-        "IRO-09"
+      "VII.A.TPC-23": [
+        "IRO-02"
+      ],
+      "VII.B.TPC-89": [
+        "IRO-06",
+        "IRO-14"
+      ],
+      "VII.A.TPC-23-BP2": [
+        "IRO-08",
+        "TPM-14"
       ],
       "VII.A.TPC-23-BP1": [
-        "IRO-10"
+        "IRO-16"
+      ],
+      "VII.B.TPC-90": [
+        "IRO-16.1"
       ],
       "VII.B.TPC-72": [
-        "IAO-02.2",
-        "IAO-04",
-        "IAO-06",
-        "IAO-07"
+        "IAO-05",
+        "IAO-10",
+        "IAO-11",
+        "IAO-14"
       ],
       "VII.B.TPC-73": [
-        "IAO-06",
-        "IAO-07"
+        "IAO-11",
+        "IAO-14"
       ],
       "VII.B.TPC-59": [
-        "MDM-05"
+        "MDM-09"
       ],
       "VII.B.TPC-76": [
         "NET-03"
@@ -640,144 +660,144 @@
         "NET-06"
       ],
       "VII.B.TPC-38": [
-        "NET-06.3",
-        "PES-18"
-      ],
-      "VII.B.TPC-77": [
-        "NET-08"
-      ],
-      "VII.A.TPC-13": [
-        "NET-10.3"
-      ],
-      "VII.A.TPC-14": [
-        "NET-10.3"
-      ],
-      "VII.A.TPC-15": [
-        "NET-10.3"
-      ],
-      "VII.B.TPC-35": [
-        "NET-14.4"
+        "NET-08.1",
+        "PES-11.1"
       ],
       "VII.B.TPC-57": [
-        "NET-18"
+        "NET-17"
       ],
       "VII.B.TPC-57-BP1": [
-        "NET-18"
+        "NET-17"
       ],
       "VII.B.TPC-57-BP2": [
-        "NET-18"
+        "NET-17"
       ],
       "VII.B.TPC-57-BP3": [
-        "NET-18"
+        "NET-17"
       ],
-      "VII.B.TPC-86": [
-        "PES-02",
-        "PES-02.1"
+      "VII.B.TPC-35": [
+        "NET-26.6"
       ],
-      "VII.B.TPC-82": [
-        "PES-03"
-      ],
-      "VII.B.TPC-46": [
-        "PES-03.2",
-        "PES-03.4"
-      ],
-      "VII.B.TPC-49": [
-        "PES-04.1",
-        "PES-18"
-      ],
-      "VII.B.TPC-47": [
-        "PES-06"
-      ],
-      "VII.B.TPC-47-BP2": [
-        "PES-06"
-      ],
-      "VII.B.TPC-47-BP3": [
-        "PES-06"
-      ],
-      "VII.B.TPC-47-BP1": [
-        "PES-06.2"
-      ],
-      "VII.B.TPC-48": [
-        "PES-06.3"
-      ],
-      "VII.B.TPC-31": [
-        "RSK-04"
-      ],
-      "VII.A.TPC-7": [
-        "SAT-02"
-      ],
-      "VII.A.TPC-7.1": [
-        "SAT-02"
-      ],
-      "VII.A.TPC-7.2": [
-        "SAT-02"
-      ],
-      "VII.A.TPC-7.4": [
-        "SAT-02"
-      ],
-      "VII.A.TPC-7.5": [
-        "SAT-02"
-      ],
-      "VII.A.TPC-7.3": [
-        "SAT-02.2"
-      ],
-      "VII.B.TPC-74": [
-        "TDA-06"
-      ],
-      "VII.B.TPC-51": [
-        "TDA-17"
-      ],
-      "VII.B.TPC-60": [
-        "TDA-18"
-      ],
-      "VII.B.TPC-61": [
-        "TDA-19",
-        "TDA-19.1"
-      ],
-      "VII.A.TPC-17": [
-        "TPM-05"
-      ],
-      "VII.A.TPC-20": [
-        "TPM-05.8"
-      ],
-      "VII.A.TPC-21": [
-        "TPM-05.8"
-      ],
-      "VII.B.TPC-91": [
-        "VPM-02"
-      ],
-      "VII.B.TPC-91-BP1": [
-        "VPM-02"
-      ],
-      "VII.B.TPC-91-BP2": [
-        "VPM-02"
-      ],
-      "VII.B.TPC-91-BP3": [
-        "VPM-02"
-      ],
-      "VII.A.TPC-11": [
-        "VPM-05"
-      ],
-      "VII.B.TPC-85": [
-        "VPM-06"
-      ],
-      "VII.B.TPC-78": [
-        "VPM-06.1"
-      ],
-      "VII.B.TPC-27": [
-        "VPM-07"
-      ],
-      "VII.B.TPC-28": [
-        "VPM-07"
-      ],
-      "VII.B.TPC-29": [
-        "VPM-07"
+      "VII.B.TPC-77": [
+        "NET-31"
       ],
       "VII.B.TPC-41": [
-        "WEB-02"
+        "NET-33"
       ],
       "VII.B.TPC-79": [
-        "WEB-03"
+        "NET-34"
+      ],
+      "VII.A.TPC-13": [
+        "NET-39.2"
+      ],
+      "VII.A.TPC-14": [
+        "NET-39.2"
+      ],
+      "VII.A.TPC-15": [
+        "NET-39.2"
+      ],
+      "VII.A.TPC-16": [
+        "NET-40.2"
+      ],
+      "VII.B.TPC-86": [
+        "PES-06",
+        "PES-07"
+      ],
+      "VII.B.TPC-82": [
+        "PES-08"
+      ],
+      "VII.B.TPC-49": [
+        "PES-11",
+        "PES-11.1"
+      ],
+      "VII.B.TPC-46": [
+        "PES-12",
+        "PES-12.1"
+      ],
+      "VII.B.TPC-47": [
+        "PES-14"
+      ],
+      "VII.B.TPC-47-BP2": [
+        "PES-14"
+      ],
+      "VII.B.TPC-47-BP3": [
+        "PES-14"
+      ],
+      "VII.B.TPC-47-BP1": [
+        "PES-14.2"
+      ],
+      "VII.B.TPC-48": [
+        "PES-14.3"
+      ],
+      "VII.B.TPC-31": [
+        "RSK-13"
+      ],
+      "VII.A.TPC-7": [
+        "SAT-04"
+      ],
+      "VII.A.TPC-7.1": [
+        "SAT-04"
+      ],
+      "VII.A.TPC-7.2": [
+        "SAT-04"
+      ],
+      "VII.A.TPC-7.4": [
+        "SAT-04"
+      ],
+      "VII.A.TPC-7.5": [
+        "SAT-04"
+      ],
+      "VII.A.TPC-7.3": [
+        "SAT-06.1"
+      ],
+      "VII.B.TPC-74": [
+        "TDA-05"
+      ],
+      "VII.B.TPC-60": [
+        "TDA-12"
+      ],
+      "VII.B.TPC-61": [
+        "TDA-12.1",
+        "TDA-12.2"
+      ],
+      "VII.A.TPC-17": [
+        "TPM-14"
+      ],
+      "VII.A.TPC-20": [
+        "TPM-23"
+      ],
+      "VII.A.TPC-21": [
+        "TPM-23"
+      ],
+      "VII.B.TPC-91": [
+        "VPM-06"
+      ],
+      "VII.B.TPC-91-BP1": [
+        "VPM-06"
+      ],
+      "VII.B.TPC-91-BP2": [
+        "VPM-06"
+      ],
+      "VII.B.TPC-91-BP3": [
+        "VPM-06"
+      ],
+      "VII.A.TPC-11": [
+        "VPM-08"
+      ],
+      "VII.B.TPC-85": [
+        "VPM-12"
+      ],
+      "VII.B.TPC-78": [
+        "VPM-12.1"
+      ],
+      "VII.B.TPC-27": [
+        "VPM-18"
+      ],
+      "VII.B.TPC-28": [
+        "VPM-18"
+      ],
+      "VII.B.TPC-29": [
+        "VPM-18"
       ]
     }
   }

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-30.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-30.2",
+      "ao_id": "PRI-30.2_A01",
+      "objective": "checks of temporary files for the existence of Personal Data (PD) are performed per an organization-defined frequency.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

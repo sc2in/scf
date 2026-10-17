@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-IP-3",
+  "grouping": "Information Protection",
+  "name": "Loss of Data Integrity",
+  "description": "Data is altered, corrupted, fabricated, deleted or otherwise changed without authorization or reliable detection, causing it to become untrustworthy for its intended use.",
+  "nist_csf_function": "Protect"
+}

@@ -4,7 +4,9 @@
   "artifact_name": "Logical Tamper Detection Tool",
   "artifact_description": "Documented evidence of software that is implemented and configured to detect logical tampering (e.g., configurations).",
   "scf_controls": [
-    "AST-15"
+    "AST-29",
+    "AST-29.1",
+    "AST-29.2"
   ],
   "cmmc_mapping": ""
 }

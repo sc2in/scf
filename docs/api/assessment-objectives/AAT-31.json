@@ -5,8 +5,8 @@
     {
       "scf_control_id": "AAT-31",
       "ao_id": "AAT-31_A01",
-      "objective": "risk-based prioritization is implemented to prevent cognitive overload or decision fatigue for humans-in-the-loop (HITL).",
-      "pptdf": "Technology",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability includes proactive and continuous monitoring of deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

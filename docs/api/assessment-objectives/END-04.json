@@ -39,7 +39,7 @@
       "pptdf": "Process",
       "origin": "171A_3.14.2[a]",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "to include endpoints and network entry and exit points",
       "org_defined_parameters": ""
     },
     {
@@ -59,7 +59,7 @@
       "pptdf": "Process",
       "origin": "53A_R5_SI-03_ODP[04]\n53A_R5_SI-03_ODP[05]",
       "assessment_rigor": "3",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "to include blocking and quarantining malicious code",
       "org_defined_parameters": ""
     },
     {
@@ -69,7 +69,7 @@
       "pptdf": "Process",
       "origin": "53A_R5_SI-03_ODP[06]",
       "assessment_rigor": "3",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "administrator or defined security personnel, alerted in near real time",
       "org_defined_parameters": ""
     },
     {

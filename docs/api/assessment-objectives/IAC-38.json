@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-38",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-38",
+      "ao_id": "IAC-38_A01",
+      "objective": "automated mechanisms enable Technology Assets, Applications and/or Services (TAAS) to authenticate to a cryptographic module in accordance with applicable laws, executive orders, directives, policies, regulations, standards and guidelines for such authentication.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-07",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "artifact_name": "Physical Access Authorizations",
   "artifact_description": "Documented evidence of physical access authorization activities (e.g., list reviews, termination changes, etc.).",
   "scf_controls": [
-    "PES-02",
-    "PES-02.1"
+    "PES-06",
+    "PES-07"
   ],
   "cmmc_mapping": ""
 }

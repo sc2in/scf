@@ -1,11 +1,11 @@
 {
   "scf_control_id": "TDA-21",
-  "total": 2,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "TDA-21",
       "ao_id": "TDA-21_A01",
-      "objective": "developed products and/or services conform to applicable statutory and regulatory requirements, based on the product's and/or service's use case(s).",
+      "objective": "the Technology Assets, Applications and/or Services (TAAS) for which a Bill of Materials (BOM) is required are defined.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,11 +15,41 @@
     {
       "scf_control_id": "TDA-21",
       "ao_id": "TDA-21_A02",
-      "objective": "developed products and/or services conform to applicable statutory and regulatory requirements, based on the product's and/or service's geographic markets.",
+      "objective": "a Bill of Materials (BOM) is generated for internally developed Technology Assets, Applications and/or Services (TAAS), or obtained from the supplier for acquired TAAS, that identifies the components comprising the TAAS.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21",
+      "ao_id": "TDA-21_A03",
+      "objective": "each Bill of Materials (BOM) records the version of each component.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21",
+      "ao_id": "TDA-21_A04",
+      "objective": "each Bill of Materials (BOM) records supplier information for each component.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21",
+      "ao_id": "TDA-21_A05",
+      "objective": "Bills of Material (BOMs) are updated when the components comprising the Technology Assets, Applications and/or Services (TAAS) change.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "upon each release or change to the component composition of the TAAS, and reviewed at least annually",
       "org_defined_parameters": ""
     }
   ]

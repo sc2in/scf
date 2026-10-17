@@ -1,13 +1,13 @@
 {
   "scf_control_id": "AST-29",
-  "total": 2,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-29",
       "ao_id": "AST-29_A01",
-      "objective": "secure baseline configurations exist for Radio Frequency Identification (RFID) devices to protect the confidentiality and integrity of data being stored, processed and/or transmitted.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
+      "objective": "systems or system components that require inspection are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-10_ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,29 @@
     {
       "scf_control_id": "AST-29",
       "ao_id": "AST-29_A02",
-      "objective": "Radio Frequency Identification (RFID) devices are secured according to defined secure baseline configurations.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
+      "objective": "the frequency at which to inspect systems or system components is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-10_ODP[02]\n53A_R5_SR-10_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-29",
+      "ao_id": "AST-29_A03",
+      "objective": "indications of the need for an inspection of systems or system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-10_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-29",
+      "ao_id": "AST-29_A04",
+      "objective": "systems or system components are inspected to detect tampering.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-10",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

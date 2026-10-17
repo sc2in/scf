@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-EX-10",
+  "grouping": "Exposure",
+  "name": "Fraud / Theft / Direct Financial Loss",
+  "description": "The organization or its stakeholders suffer direct monetary loss through:\n(1) Fraud;\n(2) Theft;\n(3) Unauthorized transactions;\n(4) Diversion of funds; or\n(5) Other financially harmful activity.",
+  "nist_csf_function": "Protect"
+}

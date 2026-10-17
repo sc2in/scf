@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-DCH-18",
+  "area": "Data Protection",
+  "artifact_name": "Removable Media Controls",
+  "artifact_description": "Documented evidence of removable media and portable storage device restrictions and use authorizations.",
+  "scf_controls": [
+    "DCH-19",
+    "DCH-20",
+    "DCH-20.1",
+    "DCH-21"
+  ],
+  "cmmc_mapping": ""
+}

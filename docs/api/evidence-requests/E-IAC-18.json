@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAC-18",
+  "area": "Identity & Access Management",
+  "artifact_name": "Emergency / Temporary Account Records",
+  "artifact_description": "Documented evidence of emergency and temporary accounts, including approvals and removal.",
+  "scf_controls": [
+    "IAC-11",
+    "IAC-11.1"
+  ],
+  "cmmc_mapping": ""
+}

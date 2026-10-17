@@ -1,35 +1,25 @@
 {
   "scf_control_id": "IAC-13",
-  "total": 3,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-13",
       "ao_id": "IAC-13_A01",
-      "objective": "supplemental authentication techniques or mechanisms to be employed when accessing the system under specific circumstances or situations are defined.",
+      "objective": "characteristics used to identify individual status is defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_IA-10_ODP[01]",
+      "origin": "53A_R5_IA-04(04)_ODP",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "contractors; foreign nationals",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "IAC-13",
       "ao_id": "IAC-13_A02",
-      "objective": "circumstances or situations that require individuals accessing the system to employ supplemental authentication techniques or mechanisms are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_IA-10_ODP[02]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-13",
-      "ao_id": "IAC-13_A03",
-      "objective": "individuals accessing the system are required to employ supplemental authentication techniques or mechanisms under specific circumstances or situations.",
+      "objective": "individual identifiers are managed by uniquely identifying each individual as characteristics.",
       "pptdf": "Technology",
-      "origin": "53A_R5_IA-10",
+      "origin": "53A_R5_IA-04(04)",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "contractors; foreign nationals",
       "org_defined_parameters": ""
     }
   ]

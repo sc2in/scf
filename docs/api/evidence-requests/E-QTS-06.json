@@ -4,7 +4,7 @@
   "artifact_name": "Cryptographic Agility Risk Assessment (CARA) Methodology",
   "artifact_description": "Documented evidence of a Cryptographic Agility Risk Assessment (CARA) methodology.",
   "scf_controls": [
-    "QTS-02"
+    "QTS-04"
   ],
   "cmmc_mapping": ""
 }

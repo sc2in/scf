@@ -1,13 +1,13 @@
 {
   "scf_control_id": "SEA-02.2",
-  "total": 2,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "SEA-02.2",
       "ao_id": "SEA-02.2_A01",
-      "objective": "non-essential functions or services to be offloaded are defined.",
+      "objective": "architecture requirements define the technology stack as modular and interoperable, with documented integration points between components.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-07(01)_ODP",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,29 @@
     {
       "scf_control_id": "SEA-02.2",
       "ao_id": "SEA-02.2_A02",
-      "objective": "non-essential functions or services are offloaded to other systems, system components or an external provider.",
+      "objective": "Technology Assets, Applications and Services (TAAS) in the technology stack expose or consume documented, standards-based interfaces (e.g., open Application Programming Interfaces (APIs) or industry-standard protocols) that enable components to be integrated or replaced without redesign of the stack.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02.2",
+      "ao_id": "SEA-02.2_A03",
+      "objective": "commercial Technology Assets, Applications and Services (TAAS) are evaluated for interoperability with the existing technology stack before acquisition or integration.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-07(01)",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02.2",
+      "ao_id": "SEA-02.2_A04",
+      "objective": "the technology stack architecture is maintained, including documentation of components, integration points and dependencies, and is updated when components are added, replaced or retired.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

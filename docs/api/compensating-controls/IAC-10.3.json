@@ -1,16 +1,16 @@
 {
   "control_id": "IAC-10.3",
-  "risk_if_not_implemented": "Without In-Person or Trusted Third-Party Registration, third-party risks may go unmanaged, creating supply-chain exposure that compromises the organization.",
+  "risk_if_not_implemented": "Without Dedicated Privileged Account, users, services and processes may obtain or retain access beyond authorized need, enabling misuse or escalation. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to Excessive or Unauthorized Privilege (R-AC-2), Unauthorized Access (R-AC-4), Identity Compromise / Impersonation (R-AC-5), and most likely increases susceptibility to Malicious Cyber Activity (MT-2), Human Error (MT-9).",
   "compensating_control_1": {
-    "control_id": "CRY-09",
-    "name": "Cryptographic Key Management",
-    "description": "Mechanisms exist to facilitate cryptographic key management controls to protect the confidentiality, integrity and availability of keys.",
-    "justification": "Cryptographic Key Management (CRY-09) provides cryptographic protection that compensates for the absence of In-Person or Trusted Third-Party Registration (IAC-10.3) by ensuring data confidentiality and integrity through alternative technical means. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+    "control_id": "HRS-14",
+    "name": "Separation of Duties (SoD)",
+    "description": "Mechanisms exist to implement and maintain Separation of Duties (SoD) to prevent potential inappropriate activity without collusion.",
+    "justification": "Separation of Duties (SoD) (HRS-14) provides overlapping security capability that compensates for the absence of Dedicated Privileged Account (IAC-10.3) by addressing related risk objectives through an alternative control mechanism aligned with People applicability. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
   },
   "compensating_control_2": {
     "control_id": "IAC-10",
-    "name": "Authenticator Management",
-    "description": "Mechanisms exist to:\n(1) Securely manage authenticators for users and devices; and\n(2) Ensure the strength of authentication is appropriate to the classification of the data being accessed.",
-    "justification": "Authenticator Management (IAC-10) provides access control enforcement that compensates for the absence of In-Person or Trusted Third-Party Registration (IAC-10.3) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+    "name": "Privileged Account Management (PAM)",
+    "description": "Mechanisms exist to restrict and control privileged access rights for users and Technology Assets, Applications and/or Services (TAAS).",
+    "justification": "Privileged Account Management (PAM) (IAC-10) provides access control enforcement that compensates for the absence of Dedicated Privileged Account (IAC-10.3) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
   }
 }

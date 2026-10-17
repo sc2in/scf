@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CLD-03",
+  "area": "Asset Management",
+  "artifact_name": "Multi-Tenant Environment Controls",
+  "artifact_description": "Documented evidence of controls for multi-tenant cloud environments, including tenant-specific event logging, forensics and incident response capabilities.",
+  "scf_controls": [
+    "CLD-07",
+    "CLD-07.1",
+    "CLD-07.2",
+    "CLD-07.3"
+  ],
+  "cmmc_mapping": ""
+}

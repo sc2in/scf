@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "TDA-21.2",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-21.2",
+      "ao_id": "TDA-21.2_A01",
+      "objective": "the Technology Assets, Applications and/or Services (TAAS) for which a Hardware Bill of Materials (HBOM) is required are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21.2",
+      "ao_id": "TDA-21.2_A02",
+      "objective": "a Hardware Bill of Materials (HBOM) is generated for internally produced Technology Assets, Applications and/or Services (TAAS), or obtained from the supplier for acquired TAAS, that lists the hardware components in use.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21.2",
+      "ao_id": "TDA-21.2_A03",
+      "objective": "each Hardware Bill of Materials (HBOM) records a unique identifier (e.g., part number, model or serial number) for each hardware component.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21.2",
+      "ao_id": "TDA-21.2_A04",
+      "objective": "each Hardware Bill of Materials (HBOM) records the version or revision of each hardware component.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21.2",
+      "ao_id": "TDA-21.2_A05",
+      "objective": "each Hardware Bill of Materials (HBOM) records the supplier of each hardware component.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21.2",
+      "ao_id": "TDA-21.2_A06",
+      "objective": "Hardware Bills of Materials (HBOMs) are updated when hardware components are added, replaced or removed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

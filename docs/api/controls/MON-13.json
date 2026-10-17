@@ -1,13 +1,15 @@
 {
   "control_id": "MON-13",
-  "title": "Alternate Event Logging Capability",
+  "title": "Event Log & Security-Relevant Telemetry Retention",
   "family": "MON",
-  "description": "Mechanisms exist to provide an alternate event logging capability in the event of a failure in primary audit capability.",
-  "scf_question": "Does the organization provide an alternate event logging capability in the event of a failure in primary audit capability?",
-  "relative_weight": 3,
-  "conformity_cadence": "Annual",
-  "evidence_requests": [],
-  "pptdf": "Technology",
+  "description": "Mechanisms exist to retain event logs and security-relevant telemetry for a time period consistent with records retention requirements to provide support for after-the-fact investigations of security incidents and to meet statutory, regulatory and contractual retention requirements.",
+  "scf_question": "Does the organization retain event logs for a time period consistent with records retention requirements to provide support for after-the-fact investigations of security incidents and to meet statutory, regulatory and contractual retention requirements?",
+  "relative_weight": 10,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [
+    "E-AST-11"
+  ],
+  "pptdf": "Data",
   "nist_csf_function": "Detect",
   "scrm_focus": {
     "strategic": false,
@@ -17,68 +19,452 @@
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
     "1": "Continuous Monitoring (MON) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with MON domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Event monitoring-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Monitoring is primarily reactive in nature, focused on identifying incidents that occurred.\n▪ Event log reviews primarily rely on manual processes to identify anomalous behaviors.",
-    "2": "Continuous Monitoring (MON) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MON domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Continuous monitoring-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Continuous monitoring may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
-    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM), etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to provide an alternate event logging capability in the event of a failure in primary audit capability.",
+    "2": "Continuous Monitoring (MON) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MON domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Continuous monitoring-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Continuous monitoring may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM)).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to retain event logs for a time period consistent with records retention requirements to provide support for after-the-fact investigations of security incidents and to meet statutory, regulatory and contractual retention requirements.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
-  "profiles": [],
+  "profiles": [
+    "CORE AI Model Deployment",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)",
+    "CORE MSO Level 1 Initial Public Draft",
+    "CORE MSO Level 2 Initial Public Draft",
+    "CORE MSO Level 3 Initial Public Draft"
+  ],
   "possible_solutions": {
-    "micro_small": "∙ Managed Security Services Provider (MSSP)",
-    "small": "∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)",
-    "medium": "∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)",
-    "large": "∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)",
-    "enterprise": "∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)"
+    "micro_small": "∙ Managed Security Services Provider (MSSP)\n∙ Log retention policy (minimum 90 days online, 1 year archived)\n∙ Cloud log storage (e.g., AWS S3, Azure Storage)",
+    "small": "∙ Managed Security Services Provider (MSSP)\n∙ Log retention policy (minimum 90 days online, 1 year archived)\n∙ Cloud SIEM with configurable retention",
+    "medium": "∙ Security Incident Event Manager (SIEM) with defined retention schedules\n∙ Managed Security Services Provider (MSSP)\n∙ Log archiving to cold storage (e.g., AWS S3 Glacier, Azure Archive)",
+    "large": "∙ SIEM with tiered log retention (hot/warm/cold storage)\n∙ Log retention policy aligned to regulatory requirements (e.g., HIPAA 6 yrs, PCI DSS 1 yr)\n∙ Managed Security Services Provider (MSSP)",
+    "enterprise": "∙ Enterprise log retention program aligned to all applicable regulations\n∙ SIEM with tiered retention (hot/warm/cold storage)\n∙ Immutable log archives (e.g., AWS S3 Object Lock, Azure Blob WORM)\n∙ Legal hold capability for investigation support"
   },
   "risks": [
     "R-AC-1",
     "R-AM-3",
     "R-BC-2",
-    "R-BC-4",
-    "R-BC-5",
-    "R-EX-1",
     "R-EX-2",
-    "R-EX-3",
-    "R-EX-4",
     "R-EX-5",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-4",
-    "R-GV-5",
+    "R-EX-10",
+    "R-GV-6",
+    "R-GV-9",
+    "R-GV-10",
     "R-IR-1",
     "R-IR-2",
     "R-IR-3",
     "R-IR-4",
-    "R-SA-1"
+    "R-SA-1",
+    "R-IP-4",
+    "R-IP-5",
+    "R-IP-6"
   ],
   "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
     "NT-7",
-    "MT-1",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
     "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
     "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
     "MT-11",
     "MT-12",
-    "MT-13",
     "MT-14",
     "MT-15",
-    "MT-24",
-    "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-27"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Likely",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Unlikely",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Unlikely",
+    "R-AM-3": "Possible",
+    "R-BC-1": "Unlikely",
+    "R-BC-2": "Possible",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Unlikely",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Possible",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Possible",
+    "R-EX-6": "Unlikely",
+    "R-EX-7": "Unlikely",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Possible",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Unlikely",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Possible",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Likely",
+    "R-GV-10": "Possible",
+    "R-IR-1": "Likely",
+    "R-IR-2": "Possible",
+    "R-IR-3": "Possible",
+    "R-IR-4": "Possible",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Possible",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Unlikely",
+    "R-IP-3": "Unlikely",
+    "R-IP-4": "Possible",
+    "R-IP-5": "Possible",
+    "R-IP-6": "Possible",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Likely",
+    "MT-3": "Possible",
+    "MT-4": "Possible",
+    "MT-5": "Possible",
+    "MT-6": "Possible",
+    "MT-7": "Possible",
+    "MT-8": "Possible",
+    "MT-9": "Likely",
+    "MT-10": "Likely",
+    "MT-11": "Likely",
+    "MT-12": "Possible",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Possible",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Unlikely",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Unlikely",
+    "MT-24": "Unlikely",
+    "MT-25": "Unlikely",
+    "MT-26": "Unlikely",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- wordsmithed\n- renamed\n- renumbered",
   "family_name": "Continuous Monitoring",
   "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "C1.2"
+    ],
+    "general-cis-csc-8-1": [
+      "8.10"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "8.10"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "8.10"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "LOG-04"
+    ],
+    "general-govramp": [
+      "AU-11"
+    ],
+    "general-govramp-core": [
+      "AU-11"
+    ],
+    "general-govramp-low": [
+      "AU-11"
+    ],
+    "general-govramp-low-plus": [
+      "AU-11"
+    ],
+    "general-govramp-mod": [
+      "AU-11"
+    ],
+    "general-govramp-high": [
+      "AU-11"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "EVENT 1.4"
+    ],
     "general-nist-800-53-r4": [
-      "AU-15"
+      "AU-11"
     ],
     "general-nist-800-53-r5-2": [
-      "AU-05(05)"
+      "AU-11"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "AU-11"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "AU-11"
+    ],
+    "general-nist-800-53-r5-2-high": [
+      "AU-11"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "AU-11"
     ],
     "general-nist-800-82-r3": [
-      "AU-05(05)"
+      "AU-11"
+    ],
+    "general-nist-800-82-r3-low": [
+      "AU-11"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "AU-11"
+    ],
+    "general-nist-800-82-r3-high": [
+      "AU-11"
+    ],
+    "general-nist-800-171-r2": [
+      "3.3.1"
+    ],
+    "general-nist-800-171-r3": [
+      "03.03.03.b"
+    ],
+    "general-nist-800-171a": [
+      "3.3.1[e]",
+      "3.3.1[f]"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.03.03.b"
+    ],
+    "general-owasp-top-10-2025": [
+      "A09:2025"
+    ],
+    "general-pci-dss-4-0-1": [
+      "10.5",
+      "10.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "10.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "10.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "10.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "10.5.1"
+    ],
+    "general-scf-dpmp-2026": [
+      "11.6"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "D.3"
+    ],
+    "general-swift-cscf-2025": [
+      "6.4"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "AU-11",
+      "AU-11-IS.1",
+      "AU-11-IS.2"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "2.U"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "AUL2.-3.3.1"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "AU-11"
+    ],
+    "usa-federal-ffiec-iteh-2016": [
+      "II.C.22"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "AU-11"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "AU-11"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "AU-11"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "AU-11"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "AU-11"
+    ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.650(c)(1)"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-006-6 1.9",
+      "CIP-006-6 2.3",
+      "CIP-007-6 4.3"
+    ],
+    "usa-federal-tsa-sd-pipeline-2021-02f": [
+      "III.D.3.b"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.D.3.b"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.6(b)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "AU-11"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "AU-11"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "AU-11"
+    ],
+    "emea-deu-c5-2026": [
+      "OPS-10.01B.3",
+      "OPS-12.01B.2",
+      "OPS-12.01B.3",
+      "OPS-14.01B",
+      "OPS-14.02B",
+      "OPS-26.04B"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 19.1",
+      "Article 19.2"
+    ],
+    "emea-eu-dora-rts-2024": [
+      "Article 8.2(b)(iii)",
+      "Article 12.2(a)",
+      "Article 21.1(e)(i)",
+      "Article 22.1(d)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "3.2.3",
+      "3.2.5"
+    ],
+    "emea-gbr-caf-4-0": [
+      "C1.b"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "3103",
+      "3107"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "3107"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "3103",
+      "3107"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "3103",
+      "3107"
+    ],
+    "emea-lux-cssf-20-750": [
+      "3.4.2-31.d"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-11-1"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-11-2"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-12-3-5",
+      "2-14-3-3"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "VII.B.TPC-75"
+    ],
+    "apac-aus-cloud-controls-matrix-2026": [
+      "DET-01"
+    ],
+    "apac-aus-ism-2026-june": [
+      "ISM-1213",
+      "ISM-1988",
+      "ISM-1989"
+    ],
+    "apac-ind-rbi-ppi-2021": [
+      "6.3"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.AA.S9"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "10.42",
+      "10.57(c)",
+      "A3-1(f)",
+      "A10-B13(b)"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
+      "HMS18"
+    ],
+    "apac-nzl-ism-3-9": [
+      "16.6.13.C.05"
+    ],
+    "apac-sgp-ccp-cii-2026": [
+      "6.1.4(c)",
+      "6.1.4(e)"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.21-BP1"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.03.03.B"
+    ],
+    "americas-can-osfi-self-assessment": [
+      "3.3.1"
     ]
   }
 }

@@ -1,61 +1,21 @@
 {
   "scf_control_id": "AAT-19",
-  "total": 6,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-19",
       "ao_id": "AAT-19_A01",
-      "objective": "the organization defines use cases for Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "objective": "the organization proactively identifies unanticipated and emergent Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks per an organization-defined frequency.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least quarterly",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "AAT-19",
       "ao_id": "AAT-19_A02",
-      "objective": "the organization defines geographic markets for Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-19",
-      "ao_id": "AAT-19_A03",
-      "objective": "the organization defines the use of Intellectual Property (IP) for Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-19",
-      "ao_id": "AAT-19_A04",
-      "objective": "the organization ensures deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT) conform to applicable statutory and regulatory requirements, based on defined use cases.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-19",
-      "ao_id": "AAT-19_A05",
-      "objective": "the organization ensures deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT) conform to applicable statutory and regulatory requirements, based on geographic markets.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AAT-19",
-      "ao_id": "AAT-19_A06",
-      "objective": "the organization ensures deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT) conform to applicable statutory and regulatory requirements, based on the use of Intellectual Property (IP).",
+      "objective": "the organization tracks existing, unanticipated and emergent Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks in a Plan of Action & Milestones (POA&M), or similar risk register.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

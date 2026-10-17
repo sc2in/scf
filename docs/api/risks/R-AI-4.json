@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-AI-4",
+  "grouping": "Artificial Intelligence & Autonomous Technologies",
+  "name": "Sensitive Data / Compliance Exposure from Unsanctioned AI Use",
+  "description": "Unapproved or ungoverned Artificial Intelligence (AI) use:\n(1) Exposes sensitive and/or regulated data;\n(2) Creates unauthorized processing;\n(3) Introduces Intellectual Property (IP) or licensing issues; and/or\n(4) Causes statutory, regulatory and/or contractual noncompliance.",
+  "nist_csf_function": "Protect"
+}

@@ -5,7 +5,7 @@
     {
       "scf_control_id": "EMB-07",
       "ao_id": "EMB-07_A01",
-      "objective": "embedded devices are capable of securely receiving software updates and upgraded functionality.",
+      "objective": "embedded devices are protected against unauthorized use of the physical factory diagnostic and test interface(s).",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

@@ -5,9 +5,9 @@
     {
       "scf_control_id": "IRO-14",
       "ao_id": "IRO-14_A01",
-      "objective": "time period for personnel to report suspected incidents to the organizational incident response capability is defined.",
+      "objective": "an After Action Review (AAR), or a similar lessons learned process, is conducted following incidents that require escalation to an Integrated Security Incident Response Team (ISIRT) or a similar integrated team of cybersecurity, IT and business function representatives.",
       "pptdf": "Process",
-      "origin": "53A_R5_IR-06_ODP[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,29 +15,29 @@
     {
       "scf_control_id": "IRO-14",
       "ao_id": "IRO-14_A02",
-      "objective": "authorities to whom incident information is to be reported are defined.",
+      "objective": "events that would require the current incident response policy / procedures to be reviewed / updated are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_IR-06_ODP[02]\n171A_R3_A.03.06.02.ODP[02]",
+      "origin": "53A_R5_IR-01_ODP[06]\n53A_R5_IR-01_ODP[08]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "significant changes",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-14",
+      "ao_id": "IRO-14_A03",
+      "objective": "incident response documentation is updated to reflect changes identified from lessons learned during incident analysis and resolution.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "IRO-14",
-      "ao_id": "IRO-14_A03",
-      "objective": "personnel are required to report suspected incidents to the organizational incident response capability within an organization-defined time period.",
-      "pptdf": "Process",
-      "origin": "53A_R5_IR-06a.",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "without delay",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IRO-14",
       "ao_id": "IRO-14_A04",
-      "objective": "incident information is reported to authorities.",
+      "objective": "events that initiate a review of the incident response training content are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_IR-06b.",
+      "origin": "53A_R5_IR-02_ODP[04]\n171A_R3_A.03.06.04.ODP[04]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

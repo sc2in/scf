@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-MDM-02",
+  "area": "Endpoint Security",
+  "artifact_name": "Mobile Device Ownership & Enrollment Inventory",
+  "artifact_description": "Documented evidence of enrolled mobile devices by ownership model (organization-owned, personally-owned / BYOD, third-party devices).",
+  "scf_controls": [
+    "AST-25",
+    "AST-26",
+    "AST-27",
+    "MDM-06",
+    "MDM-07"
+  ],
+  "cmmc_mapping": ""
+}

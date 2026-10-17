@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-WEB-02",
+  "area": "Website Security",
+  "artifact_name": "Client-Facing Web Services Protections",
+  "artifact_description": "Documented evidence of protections for client-facing web services, including Strong Customer Authentication (SCA) and secure web traffic.",
+  "scf_controls": [
+    "NET-35",
+    "NET-36",
+    "WEB-06",
+    "WEB-07",
+    "WEB-09"
+  ],
+  "cmmc_mapping": ""
+}

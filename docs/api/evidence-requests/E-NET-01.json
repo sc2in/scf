@@ -4,6 +4,8 @@
   "artifact_name": "Content / DNS Filtering",
   "artifact_description": "Documented evidence of the methods that content / DNS filtering is implemented to prevent Internet traffic from prohibited content and/or hostile web sites.",
   "scf_controls": [
+    "NET-13",
+    "NET-17",
     "NET-18",
     "NET-18.1"
   ],

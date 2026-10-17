@@ -4,9 +4,7 @@
   "artifact_name": "Statutory, Regulatory & Contractual Obligations",
   "artifact_description": "Documented evidence of applicable statutory, regulatory and/or contractual obligations for cybersecurity & data privacy controls.",
   "scf_controls": [
-    "CPL-01",
-    "MON-03",
-    "QTS-03.4"
+    "CPL-02"
   ],
   "cmmc_mapping": ""
 }

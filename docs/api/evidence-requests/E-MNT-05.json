@@ -4,7 +4,9 @@
   "artifact_name": "Maintenance Tool Inspection Records",
   "artifact_description": "Documented evidence of maintenance tool inspection records.",
   "scf_controls": [
-    "MNT-04.2"
+    "MNT-11",
+    "MNT-11.1",
+    "MNT-11.2"
   ],
   "cmmc_mapping": "MA.L2-3.7.2"
 }

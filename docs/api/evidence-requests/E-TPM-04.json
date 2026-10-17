@@ -4,9 +4,11 @@
   "artifact_name": "Service Level Agreements (SLAs)",
   "artifact_description": "Documented evidence of third-party Service Level Agreements (SLAs) to support business operations.",
   "scf_controls": [
-    "BCD-09.3",
-    "BCD-10.1",
-    "OPS-03"
+    "BCD-14",
+    "BCD-17.1",
+    "OPS-05",
+    "TPM-14.2",
+    "TPM-21"
   ],
   "cmmc_mapping": ""
 }

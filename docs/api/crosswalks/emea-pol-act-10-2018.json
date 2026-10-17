@@ -4,11 +4,11 @@
   "scf_to_framework": {
     "total_mappings": 2,
     "mappings": {
-      "PRI-01.4": [
+      "PRI-03.2": [
         "Art. 8",
         "Art. 11a"
       ],
-      "PRI-02": [
+      "PRI-21": [
         "Art. 11"
       ]
     }
@@ -17,13 +17,13 @@
     "total_mappings": 3,
     "mappings": {
       "Art. 8": [
-        "PRI-01.4"
+        "PRI-03.2"
       ],
       "Art. 11a": [
-        "PRI-01.4"
+        "PRI-03.2"
       ],
       "Art. 11": [
-        "PRI-02"
+        "PRI-21"
       ]
     }
   }

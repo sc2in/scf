@@ -4,7 +4,10 @@
   "artifact_name": "Data Privacy Notice",
   "artifact_description": "Documented evidence of a publicly-accessible data privacy notice.",
   "scf_controls": [
-    "PRI-02"
+    "PRI-20",
+    "PRI-21",
+    "PRI-21.2",
+    "PRI-25"
   ],
   "cmmc_mapping": ""
 }

@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-TPM-11",
+  "area": "Third-Party Management",
+  "artifact_name": "Supplier Diversity & Concentration Risk Analysis",
+  "artifact_description": "Documented evidence of supplier diversity, adequate supply and outsourcing limitation analyses addressing single-source / concentration dependencies.",
+  "scf_controls": [
+    "TPM-03",
+    "TPM-05",
+    "TPM-05.1",
+    "TPM-06",
+    "TPM-07"
+  ],
+  "cmmc_mapping": ""
+}

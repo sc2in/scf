@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAC-14",
+  "area": "Identity & Access Management",
+  "artifact_name": "Remote Access Authorizations",
+  "artifact_description": "Documented evidence of authorization for users to connect via remote access methods.",
+  "scf_controls": [
+    "NET-26",
+    "NET-30"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.12"
+}

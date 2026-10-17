@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-28.12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-28.12",
+      "ao_id": "AAT-28.12_A01",
+      "objective": "a method to benchmark the verifiable lineage and origin of content used by Artificial Intelligence (AI) and Autonomous Technologies (AAT) according to industry-recognized standards is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, a recognized content provenance specification, for example the Coalition for Content Provenance and Authenticity (C2PA) content credentials specification",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-28.12",
+      "ao_id": "AAT-28.12_A02",
+      "objective": "the organization benchmarks the verifiable lineage and origin of content used by Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

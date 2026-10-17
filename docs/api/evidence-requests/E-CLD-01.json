@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CLD-01",
+  "area": "Asset Management",
+  "artifact_name": "Cloud Security Architecture",
+  "artifact_description": "Documented evidence of cloud security architecture, including security management subnets and infrastructure security zones.",
+  "scf_controls": [
+    "CLD-05",
+    "CLD-06"
+  ],
+  "cmmc_mapping": ""
+}

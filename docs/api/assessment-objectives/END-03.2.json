@@ -1,13 +1,13 @@
 {
   "scf_control_id": "END-03.2",
-  "total": 6,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "END-03.2",
       "ao_id": "END-03.2_A01",
-      "objective": "physical access restrictions associated with changes to the system are defined and documented.",
-      "pptdf": "Process",
-      "origin": "171A_3.4.5[a]\n171A_3.4.5[b]\n53A_R5_CM-05[01]",
+      "objective": "malicious code protection mechanisms are updated as new releases are available.",
+      "pptdf": "Technology",
+      "origin": "171A_3.14.4",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,19 +15,19 @@
     {
       "scf_control_id": "END-03.2",
       "ao_id": "END-03.2_A02",
-      "objective": "physical access restrictions associated with changes to the system are approved.",
-      "pptdf": "Process",
-      "origin": "171A_3.4.5[c]\n53A_R5_CM-05[02]",
-      "assessment_rigor": "1",
+      "objective": "malicious code protection mechanisms are updated as new releases are available in accordance with configuration management policy and procedures.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.14.02.b",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "END-03.2",
       "ao_id": "END-03.2_A03",
-      "objective": "physical access restrictions associated with changes to the system are enforced.",
-      "pptdf": "Process",
-      "origin": "171A_3.4.5[d]\n53A_R5_CM-05[03]",
+      "objective": "endpoint protection-related Technology Assets, Applications and/or Services (TAAS) are automatically updated when new releases are available.",
+      "pptdf": "Technology",
+      "origin": "CMMC L1 Assessment Guide",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,9 +35,9 @@
     {
       "scf_control_id": "END-03.2",
       "ao_id": "END-03.2_A04",
-      "objective": "logical access restrictions associated with changes to the system are defined and documented.",
+      "objective": "the configuration and change management practices that govern automated updates of endpoint protection-related Technology Assets, Applications and/or Services (TAAS) are defined.",
       "pptdf": "Process",
-      "origin": "171A_3.4.5[e]\n171A_3.4.5[f]\n53A_R5_CM-05[04]",
+      "origin": "53A_R5_SI-08(02)_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -45,20 +45,10 @@
     {
       "scf_control_id": "END-03.2",
       "ao_id": "END-03.2_A05",
-      "objective": "logical access restrictions associated with changes to the system are approved.",
-      "pptdf": "Process",
-      "origin": "171A_3.4.5[g]\n53A_R5_CM-05[05]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "END-03.2",
-      "ao_id": "END-03.2_A06",
-      "objective": "logical access restrictions associated with changes to the system are enforced.",
-      "pptdf": "Process",
-      "origin": "171A_3.4.5[h]\n53A_R5_CM-05[06]",
-      "assessment_rigor": "1",
+      "objective": "automated updates of endpoint protection-related Technology Assets, Applications and/or Services (TAAS) are performed in accordance with the organization-defined configuration and change management practices.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-08b.\n53A_R5_SI-08(02)",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

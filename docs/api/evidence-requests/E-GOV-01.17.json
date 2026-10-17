@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.17",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Incident Response Policy",
+  "artifact_description": "Documented evidence of a incident response policy.",
+  "scf_controls": [
+    "GOV-04",
+    "IRO-01"
+  ],
+  "cmmc_mapping": ""
+}

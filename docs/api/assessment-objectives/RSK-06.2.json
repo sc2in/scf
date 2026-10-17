@@ -1,11 +1,21 @@
 {
   "scf_control_id": "RSK-06.2",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "RSK-06.2",
       "ao_id": "RSK-06.2_A01",
-      "objective": "identify and implement compensating countermeasures to reduce risk and exposure to threats.",
+      "objective": "acceptable methods to document executive leadership justification for selecting a specific course of action to manage material risk are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-06.2",
+      "ao_id": "RSK-06.2_A02",
+      "objective": "executive leadership justification for selecting a specific course of action to manage material risk are documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-IAC-13",
+  "area": "Identity & Access Management",
+  "artifact_name": "Authenticator Types",
+  "artifact_description": "Documented evidence of system authenticator types.",
+  "scf_controls": [
+    "IAC-14",
+    "IAC-15",
+    "IAC-16",
+    "IAC-17",
+    "IAC-18",
+    "IAC-19"
+  ],
+  "cmmc_mapping": ""
+}

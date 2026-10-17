@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.20",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Mobile Device Management Policy",
+  "artifact_description": "Documented evidence of a mobile device management policy.",
+  "scf_controls": [
+    "GOV-04",
+    "MDM-01"
+  ],
+  "cmmc_mapping": ""
+}

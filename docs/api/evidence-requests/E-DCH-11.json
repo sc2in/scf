@@ -4,7 +4,8 @@
   "artifact_name": "Authorized Users To Post Publicly Accessible Content",
   "artifact_description": "Documented evidence of list of users authorized to post publicly accessible content on organizational systems.",
   "scf_controls": [
-    "HRS-05.2"
+    "DCH-24",
+    "HRS-06.2"
   ],
   "cmmc_mapping": "AC.L1-3.1.22"
 }

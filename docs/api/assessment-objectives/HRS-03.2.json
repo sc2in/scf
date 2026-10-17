@@ -1,14 +1,14 @@
 {
   "scf_control_id": "HRS-03.2",
-  "total": 5,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "HRS-03.2",
       "ao_id": "HRS-03.2_A01",
-      "objective": "defined competency requirements ensure that all cybersecurity / data privacy-related positions are staffed by qualified individuals who have the necessary skill set.",
+      "objective": "all security, compliance and resilience-related positions are staffed by individuals who meet documented competency requirements for the position.",
       "pptdf": "People",
       "origin": "SCF Created",
-      "assessment_rigor": "1",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
@@ -50,6 +50,16 @@
       "origin": "53A_R5_PS-02c.",
       "assessment_rigor": "3",
       "scf_defined_parameters": "at least every three years",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-03.2",
+      "ao_id": "HRS-03.2_A06",
+      "objective": "competency requirements (necessary skill set) for each security, compliance and resilience-related position are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }
   ]

@@ -1,11 +1,11 @@
 {
   "scf_control_id": "AAT-07.2",
-  "total": 2,
+  "total": 7,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-07.2",
       "ao_id": "AAT-07.2_A01",
-      "objective": "the potential likelihood is documented for each identified risk based on expected use and past uses of Artificial Intelligence (AI) and Autonomous Technologies (AAT) in similar contexts.",
+      "objective": "defined classes are assigned to Artificial Intelligence and Autonomous Technologies (AAT) and AI agents based on their characteristics (e.g., intended use, autonomy, access, potential impact and risk).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,57 @@
     {
       "scf_control_id": "AAT-07.2",
       "ao_id": "AAT-07.2_A02",
-      "objective": "the potential impact is documented for each identified risk based on expected use and past uses of Artificial Intelligence (AI) and Autonomous Technologies (AAT) in similar contexts.",
+      "objective": "the assigned class determines applicable approval requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.2",
+      "ao_id": "AAT-07.2_A03",
+      "objective": "the assigned class determines applicable security, compliance and/or resilience controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.2",
+      "ao_id": "AAT-07.2_A04",
+      "objective": "the assigned class determines applicable testing rigor.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.2",
+      "ao_id": "AAT-07.2_A05",
+      "objective": "the assigned class determines applicable monitoring requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.2",
+      "ao_id": "AAT-07.2_A06",
+      "objective": "the assigned class determines applicable supporting documentation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.2",
+      "ao_id": "AAT-07.2_A07",
+      "objective": "the assigned class determines applicable oversight requirements.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

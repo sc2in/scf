@@ -5,8 +5,8 @@
     {
       "scf_control_id": "EMB-10",
       "ao_id": "EMB-10_A01",
-      "objective": "deployed embedded technologies are evaluated per an organization-defined interval (no less than annually) to ensure that necessary updates to mitigate the risks associated with legacy embedded technologies are identified and implemented.",
-      "pptdf": "Process",
+      "objective": "software updates and functionality upgrades are securely applied to embedded devices.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

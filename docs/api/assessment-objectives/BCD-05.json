@@ -1,25 +1,15 @@
 {
   "scf_control_id": "BCD-05",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "BCD-05",
       "ao_id": "BCD-05_A01",
-      "objective": "the contingency plan test results are reviewed.",
+      "objective": "criteria that must be met to initiate Business Continuity / Disaster Recovery (BC/DR) plans that facilitate business continuity operations capable of meeting applicable Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_CP-04b.",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "BCD-05",
-      "ao_id": "BCD-05_A02",
-      "objective": "corrective actions to remediate contingency plan deficiencies are initiated, if needed.",
-      "pptdf": "Process",
-      "origin": "53A_R5_CP-04c.",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "the Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) established by the organization's Business Impact Analysis (BIA)",
       "org_defined_parameters": ""
     }
   ]

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-25",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-25",
+      "ao_id": "NET-25_A01",
+      "objective": "all authorized and unauthorized Wireless Access Points (WAPs) within the facility(ies) are identified through testing performed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-25",
+      "ao_id": "NET-25_A02",
+      "objective": "rogue WAPs are responded to in accordance with published incident response plans.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "artifact_name": "Physical Access Control Devices",
   "artifact_description": "Documented evidence of Physical Access Control (PAC) mechanisms.",
   "scf_controls": [
-    "PES-03"
+    "PES-08"
   ],
   "cmmc_mapping": "PE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
 }

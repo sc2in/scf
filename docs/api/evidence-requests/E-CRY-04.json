@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-CRY-04",
+  "area": "Cryptographic Protections",
+  "artifact_name": "Public Key Infrastructure (PKI) Documentation",
+  "artifact_description": "Documented evidence of Public Key Infrastructure (PKI) implementation, availability and approved Certificate Authorities (CAs).",
+  "scf_controls": [
+    "CRY-09",
+    "CRY-09.1",
+    "CRY-12"
+  ],
+  "cmmc_mapping": ""
+}

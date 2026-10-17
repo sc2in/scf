@@ -5,7 +5,7 @@
     {
       "scf_control_id": "WEB-04",
       "ao_id": "WEB-04_A01",
-      "objective": "a capability exists to protect the confidentiality and availability of client data that is stored, transmitted or processed by the Internet-based service.",
+      "objective": "a robust Web Application Framework is used to aid in the development of secure web applications, including web services, web resources and web APIs.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

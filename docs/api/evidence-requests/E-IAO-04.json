@@ -4,7 +4,10 @@
   "artifact_name": "Security Assessment Plan",
   "artifact_description": "Documented evidence of a plan to conduct security assessments.",
   "scf_controls": [
-    "IAO-02"
+    "IAO-04",
+    "IAO-04.1",
+    "IAO-05",
+    "IAO-06"
   ],
   "cmmc_mapping": "CA.L2-3.12.1"
 }

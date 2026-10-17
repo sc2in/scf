@@ -1,0 +1,16 @@
+{
+  "control_id": "NET-03.12",
+  "risk_if_not_implemented": "Without Network Processing Rules For Personal Data (PD), Personal Data (PD) may be collected, processed, retained or shared without lawful authority or adequate safeguards, harming individuals and exposing the organization to regulatory action. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to Privacy Harm / Unauthorized Processing (R-IP-6), and most likely increases susceptibility to Technical / Mechanical Failure (MT-10), Statutory / Regulatory / Contractual Change (MT-11).",
+  "compensating_control_1": {
+    "control_id": "NET-31",
+    "name": "Network Intrusion Detection / Prevention Systems (NIDS / NIPS)",
+    "description": "Mechanisms exist to employ Network Intrusion Detection / Prevention Systems (NIDS/NIPS) to detect and/or prevent intrusions into the network.",
+    "justification": "Network Intrusion Detection / Prevention Systems (NIDS / NIPS) (NET-31) provides detective monitoring capability that compensates for the absence of Personal Data (PD) (NET-03.12) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "MON-02",
+    "name": "Continuous Monitoring",
+    "description": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls.",
+    "justification": "Continuous Monitoring (MON-02) provides detective monitoring capability that compensates for the absence of Personal Data (PD) (NET-03.12) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

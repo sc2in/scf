@@ -1,16 +1,16 @@
 {
   "framework_id": "usa-federal-far-52-204-27",
-  "display_name": "US - Federal Acquisition Regulation (FAR) 52.204 - 27 - Prohibition on a ByteDance Covered Application",
+  "display_name": "USA - Federal Acquisition Regulation (FAR) 52.204 - 27 - Prohibition on a ByteDance Covered Application",
   "scf_to_framework": {
     "total_mappings": 3,
     "mappings": {
-      "AST-17": [
+      "AST-12": [
         "52.204-27(b)"
       ],
-      "TPM-05": [
+      "TPM-14": [
         "52.204-27(c)"
       ],
-      "TPM-05.2": [
+      "TPM-14.1": [
         "52.204-27(c)"
       ]
     }
@@ -19,11 +19,11 @@
     "total_mappings": 2,
     "mappings": {
       "52.204-27(b)": [
-        "AST-17"
+        "AST-12"
       ],
       "52.204-27(c)": [
-        "TPM-05",
-        "TPM-05.2"
+        "TPM-14",
+        "TPM-14.1"
       ]
     }
   }

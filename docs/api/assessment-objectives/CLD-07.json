@@ -5,7 +5,7 @@
     {
       "scf_control_id": "CLD-07",
       "ao_id": "CLD-07_A01",
-      "objective": "cloud providers use secure protocols for information/data exchange to support secure data portability.",
+      "objective": "multi-tenant owned / managed assets (physical and virtual) are designed and governed such that provider and customer (tenant) user access is segmented from other tenant users.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

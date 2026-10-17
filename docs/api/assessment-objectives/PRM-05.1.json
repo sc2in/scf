@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRM-05.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRM-05.1",
+      "ao_id": "PRM-05.1_A01",
+      "objective": "resources committed for continual improvement of the organization's Security, Compliance & Resilience Program (SCRP) include staffing, budget, processes and technologies.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

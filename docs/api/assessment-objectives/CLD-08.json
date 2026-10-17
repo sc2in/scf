@@ -1,21 +1,11 @@
 {
   "scf_control_id": "CLD-08",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "CLD-08",
       "ao_id": "CLD-08_A01",
-      "objective": "cloud providers use industry-recognized formats to support secure interoperability.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "CLD-08",
-      "ao_id": "CLD-08_A02",
-      "objective": "cloud providers provide documentation of custom changes to virtualization formats for review by affected stakeholders.",
+      "objective": "cloud providers use secure protocols for the import, export and management of data in cloud-based Technology Assets, Applications and/or Services (TAAS).",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

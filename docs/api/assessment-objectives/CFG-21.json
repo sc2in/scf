@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CFG-21",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-21",
+      "ao_id": "CFG-21_A01",
+      "objective": "access to security functions is restricted to authorized individuals, applying least privilege for necessary job functions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

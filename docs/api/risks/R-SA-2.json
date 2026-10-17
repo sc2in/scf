@@ -2,6 +2,6 @@
   "risk_id": "R-SA-2",
   "grouping": "Situational Awareness",
   "name": "Lack of a security-minded workforce",
-  "description": "The inability to appropriately educate and train personnel to foster a security-minded workforce.",
+  "description": "Personnel are more likely to:\n(1) Make unsafe decisions;\n(2) Fall victim to social engineering;\n(3) Mishandle data;\n(4) Violate requirements; and/or\n(5) Fail to recognize and report security or privacy concerns.",
   "nist_csf_function": "Protect"
 }

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.26",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Risk Management Policy",
+  "artifact_description": "Documented evidence of a risk management policy.",
+  "scf_controls": [
+    "GOV-04",
+    "RSK-01"
+  ],
+  "cmmc_mapping": ""
+}

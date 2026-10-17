@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "EMB-27",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-27",
+      "ao_id": "EMB-27_A01",
+      "objective": "the methodology used to determine the Safety Integrity Level (SIL) for each Safety Instrumented Function (SIF) (e.g., risk graph or Layer of Protection Analysis (LOPA)) is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-27",
+      "ao_id": "EMB-27_A02",
+      "objective": "a target Safety Integrity Level (SIL) is assigned to each Safety Instrumented Function (SIF) based on the risk reduction required, as determined by a documented hazard and risk assessment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-27",
+      "ao_id": "EMB-27_A03",
+      "objective": "the achieved Safety Integrity Level (SIL) of each Safety Instrumented Function (SIF) is verified (e.g., through Probability of Failure on Demand (PFD) calculation and architectural constraints) to meet or exceed the assigned target SIL.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-27",
+      "ao_id": "EMB-27_A04",
+      "objective": "Safety Integrity Level (SIL) assignments are re-validated at a defined frequency and when the process, Safety Instrumented System (SIS) design or operating conditions change.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

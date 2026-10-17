@@ -1,10 +1,12 @@
 {
   "erl_id": "E-VPM-11",
-  "area": "Vulnerability Management",
+  "area": "Vulnerability & Patch Management",
   "artifact_name": "Vulnerability Scanning",
   "artifact_description": "Documented evidence of internal and external vulnerability scans being performed.",
   "scf_controls": [
-    "VPM-06"
+    "VPM-12",
+    "VPM-12.2",
+    "VPM-17"
   ],
   "cmmc_mapping": "RA.L2-3.11.2"
 }

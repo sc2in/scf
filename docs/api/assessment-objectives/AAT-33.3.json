@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-33.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-33.3",
+      "ao_id": "AAT-33.3_A01",
+      "objective": "the organization collects feedback from end users and impacted communities for use in Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related system evaluation metrics.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33.3",
+      "ao_id": "AAT-33.3_A02",
+      "objective": "feedback from end users and impacted communities is integrated into Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related system evaluation metrics.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

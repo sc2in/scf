@@ -4,8 +4,9 @@
   "artifact_name": "Role Assignment - DPO",
   "artifact_description": "Documented evidence of a formal role assignment to Data Protection Officer (DPO) positions.",
   "scf_controls": [
-    "GOV-04",
-    "PRI-01.4"
+    "GOV-05",
+    "PRI-03",
+    "PRI-03.2"
   ],
   "cmmc_mapping": ""
 }

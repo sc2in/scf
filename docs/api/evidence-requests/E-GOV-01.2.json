@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.2",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Artificial Intelligence & Autonomous Technologies Policy",
+  "artifact_description": "Documented evidence of a Artificial Intelligence and Autonomous Technologies (AAT) policy.",
+  "scf_controls": [
+    "AAT-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.12",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Data Classification & Handling Policy",
+  "artifact_description": "Documented evidence of a data classification and handling policy.",
+  "scf_controls": [
+    "DCH-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

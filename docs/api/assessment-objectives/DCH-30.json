@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "DCH-30",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-30",
+      "ao_id": "DCH-30_A01",
+      "objective": "locations where information processing and data storage is/are to be restricted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(05)_ODP[01]\n53A_R5_SA-09(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-30",
+      "ao_id": "DCH-30_A02",
+      "objective": "requirements or conditions for restricting the location of information processing, information storage or information services are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(05)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-30",
+      "ao_id": "DCH-30_A03",
+      "objective": "based on requirements, information processing, information storage or information services is/are restricted to locations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-30",
+      "ao_id": "DCH-30_A04",
+      "objective": "the geographic location of information processing and data storage is restricted to facilities located within the legal jurisdictional boundary of the United States.",
+      "pptdf": "Data",
+      "origin": "53A_R5_SA-09(08)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-30",
+      "ao_id": "DCH-30_A05",
+      "objective": "data flows for data that is resident (permanently or temporarily) within geographically distributed Technology Assets, Applications and/or Services (TAAS) (physical and virtual) are inventoried and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-30",
+      "ao_id": "DCH-30_A06",
+      "objective": "the frequency at which to review and update the data flow inventory is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually, and upon significant change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-30",
+      "ao_id": "DCH-30_A07",
+      "objective": "the data flow inventory is reviewed and updated at the defined frequency and upon changes to the geographic distribution of Technology Assets, Applications and/or Services (TAAS).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

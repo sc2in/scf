@@ -1,7 +1,7 @@
 {
   "risk_id": "R-AM-2",
   "grouping": "Asset Management",
-  "name": "Loss of integrity through unauthorized changes",
-  "description": "Unauthorized changes that corrupt the integrity of the system / application / service.",
+  "name": "Unauthorized Modification / Loss of System Integrity",
+  "description": "Unauthorized or unintended changes alter the configuration, code, data or state of a Technology Asset, Application and/or Service (TAAS) causing it to operate in an untrusted or unreliable manner.",
   "nist_csf_function": "Protect"
 }

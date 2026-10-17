@@ -1,7 +1,7 @@
 {
   "risk_id": "R-SC-5",
   "grouping": "Supply Chain",
-  "name": "Use of product / service",
-  "description": "The misuse of the product / service in a manner that it was not designed or how it was approved for use.",
+  "name": "Harm from Unauthorized / Unintended Product or Service Use",
+  "description": "A product or service is used outside its authorized, intended or approved purpose, creating security, data privacy, safety, legal, operational or financial harm.",
   "nist_csf_function": "Protect"
 }

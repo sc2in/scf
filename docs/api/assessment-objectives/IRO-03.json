@@ -1,13 +1,13 @@
 {
   "scf_control_id": "IRO-03",
-  "total": 4,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "IRO-03",
       "ao_id": "IRO-03_A01",
-      "objective": "anomalous or suspicious behavior is defined.",
+      "objective": "qualitative / quantitative data from testing are used to determine the effectiveness of incident response processes.",
       "pptdf": "Process",
-      "origin": "172A_3.14.2e[a]",
+      "origin": "53A_R5_IR-03(03)(a)[01]\n53A_R5_IR-03(03)(a)[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "IRO-03",
       "ao_id": "IRO-03_A02",
-      "objective": "environments or resources which may contain or may be related to anomalous or suspected adversarial behavior are defined.",
+      "objective": "qualitative / quantitative data from testing are used to continuously improve incident response processes.",
       "pptdf": "Process",
-      "origin": "53A_R5_IR-04(13)_ODP",
+      "origin": "53A_R5_IR-03(03)(b)[01]\n53A_R5_IR-03(03)(b)[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,20 +25,30 @@
     {
       "scf_control_id": "IRO-03",
       "ao_id": "IRO-03_A03",
-      "objective": "anomalous or suspected adversarial behavior in or related to organization-defined environments or resources are analyzed.",
+      "objective": "qualitative / quantitative data from testing are used to provide incident response measures and metrics that are accurate.",
       "pptdf": "Process",
-      "origin": "53A_R5_IR-04(13)",
-      "assessment_rigor": "1",
+      "origin": "53A_R5_IR-03(03)(c)[01]\n53A_R5_IR-03(03)(c)[02]",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "IRO-03",
       "ao_id": "IRO-03_A04",
-      "objective": "organizational systems and system components are monitored on an ongoing basis for anomalous or suspicious behavior.",
-      "pptdf": "Technology",
-      "origin": "172A_3.14.2e[b]",
-      "assessment_rigor": "1",
+      "objective": "qualitative / quantitative data from testing are used to provide incident response measures and metrics that are consistent.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03(03)(c)[03]\n53A_R5_IR-03(03)(c)[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-03",
+      "ao_id": "IRO-03_A05",
+      "objective": "qualitative / quantitative data from testing are used to provide incident response measures and metrics in a reproducible format.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03(03)(c)[05]\n53A_R5_IR-03(03)(c)[06]",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

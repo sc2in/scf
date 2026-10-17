@@ -4,127 +4,127 @@
   "scf_to_framework": {
     "total_mappings": 37,
     "mappings": {
-      "GOV-13": [
+      "GOV-14": [
         "Article 38"
       ],
-      "CPL-06": [
+      "CPL-20": [
         "Article 38"
       ],
-      "CPL-08": [
+      "CPL-21": [
+        "Article 38"
+      ],
+      "CPL-23": [
         "Article 53"
       ],
-      "DCH-03.1": [
+      "DCH-08.2": [
         "Article 25"
       ],
-      "DCH-26": [
+      "DCH-31": [
         "Article 40"
       ],
-      "HRS-06.1": [
+      "HRS-07.1": [
         "Article 59"
       ],
-      "IRO-02": [
+      "IRO-06": [
         "Article 57"
       ],
-      "IRO-10": [
+      "IRO-16": [
         "Article 57"
       ],
-      "PRI-01": [
+      "PRI-02": [
         "Article 51"
       ],
-      "PRI-01.4": [
+      "PRI-03.2": [
         "Article 52",
         "Article 54"
       ],
-      "PRI-01.5": [
-        "Article 38"
-      ],
-      "PRI-01.6": [
-        "Article 9"
-      ],
-      "PRI-01.11": [
+      "PRI-09": [
         "Article 5",
         "Article 7",
         "Article 10",
         "Article 26",
         "Article 27"
       ],
-      "PRI-02": [
+      "PRI-10": [
+        "Article 9"
+      ],
+      "PRI-13": [
+        "Article 16"
+      ],
+      "PRI-14": [
+        "Article 21"
+      ],
+      "PRI-15": [
+        "Article 38"
+      ],
+      "PRI-17.1": [
+        "Article 22",
+        "Article 23"
+      ],
+      "PRI-18.1": [
+        "Article 50"
+      ],
+      "PRI-18.2": [
+        "Article 50"
+      ],
+      "PRI-21": [
         "Article 17",
         "Article 18",
         "Article 30",
         "Article 39"
       ],
-      "PRI-02.1": [
+      "PRI-22": [
         "Article 6"
       ],
-      "PRI-03": [
+      "PRI-24": [
         "Article 14"
       ],
-      "PRI-03.1": [
+      "PRI-24.2": [
         "Article 29"
       ],
-      "PRI-03.4": [
+      "PRI-24.3": [
         "Article 15"
       ],
-      "PRI-03.5": [
-        "Article 16"
-      ],
-      "PRI-03.6": [
-        "Article 49"
-      ],
-      "PRI-03.13": [
+      "PRI-27.1": [
         "Article 31"
       ],
-      "PRI-05": [
-        "Article 19",
-        "Article 47"
+      "PRI-28": [
+        "Article 49"
       ],
-      "PRI-05.2": [
-        "Article 8"
-      ],
-      "PRI-05.4": [
+      "PRI-29": [
         "Article 13",
         "Article 28"
       ],
-      "PRI-06": [
+      "PRI-30": [
+        "Article 19",
+        "Article 47"
+      ],
+      "PRI-35": [
+        "Article 8"
+      ],
+      "PRI-36.1": [
+        "Article 24"
+      ],
+      "PRI-36.4": [
+        "Article 24"
+      ],
+      "PRI-39": [
+        "Article 50"
+      ],
+      "PRI-39.1": [
         "Article 44",
         "Article 48"
       ],
-      "PRI-06.1": [
+      "PRI-39.3": [
         "Article 46"
       ],
-      "PRI-06.4": [
-        "Article 50"
-      ],
-      "PRI-06.6": [
+      "PRI-41": [
         "Article 45"
       ],
-      "PRI-07.1": [
-        "Article 21"
-      ],
-      "PRI-07.2": [
+      "PRI-43": [
         "Article 20"
       ],
-      "PRI-07.4": [
-        "Article 50"
-      ],
-      "PRI-07.5": [
-        "Article 50"
-      ],
-      "PRI-14.1": [
-        "Article 22",
-        "Article 23"
-      ],
-      "PRI-16": [
-        "Article 38"
-      ],
-      "PRI-19": [
-        "Article 24"
-      ],
-      "PRI-19.3": [
-        "Article 24"
-      ],
-      "RSK-10": [
+      "RSK-19": [
         "Article 55",
         "Article 56"
       ]
@@ -134,140 +134,140 @@
     "total_mappings": 43,
     "mappings": {
       "Article 38": [
-        "GOV-13",
-        "CPL-06",
-        "PRI-01.5",
-        "PRI-16"
+        "GOV-14",
+        "CPL-20",
+        "CPL-21",
+        "PRI-15"
       ],
       "Article 53": [
-        "CPL-08"
+        "CPL-23"
       ],
       "Article 25": [
-        "DCH-03.1"
+        "DCH-08.2"
       ],
       "Article 40": [
-        "DCH-26"
+        "DCH-31"
       ],
       "Article 59": [
-        "HRS-06.1"
+        "HRS-07.1"
       ],
       "Article 57": [
-        "IRO-02",
-        "IRO-10"
+        "IRO-06",
+        "IRO-16"
       ],
       "Article 51": [
-        "PRI-01"
+        "PRI-02"
       ],
       "Article 52": [
-        "PRI-01.4"
+        "PRI-03.2"
       ],
       "Article 54": [
-        "PRI-01.4"
-      ],
-      "Article 9": [
-        "PRI-01.6"
+        "PRI-03.2"
       ],
       "Article 5": [
-        "PRI-01.11"
+        "PRI-09"
       ],
       "Article 7": [
-        "PRI-01.11"
+        "PRI-09"
       ],
       "Article 10": [
-        "PRI-01.11"
+        "PRI-09"
       ],
       "Article 26": [
-        "PRI-01.11"
+        "PRI-09"
       ],
       "Article 27": [
-        "PRI-01.11"
+        "PRI-09"
       ],
-      "Article 17": [
-        "PRI-02"
-      ],
-      "Article 18": [
-        "PRI-02"
-      ],
-      "Article 30": [
-        "PRI-02"
-      ],
-      "Article 39": [
-        "PRI-02"
-      ],
-      "Article 6": [
-        "PRI-02.1"
-      ],
-      "Article 14": [
-        "PRI-03"
-      ],
-      "Article 29": [
-        "PRI-03.1"
-      ],
-      "Article 15": [
-        "PRI-03.4"
+      "Article 9": [
+        "PRI-10"
       ],
       "Article 16": [
-        "PRI-03.5"
-      ],
-      "Article 49": [
-        "PRI-03.6"
-      ],
-      "Article 31": [
-        "PRI-03.13"
-      ],
-      "Article 19": [
-        "PRI-05"
-      ],
-      "Article 47": [
-        "PRI-05"
-      ],
-      "Article 8": [
-        "PRI-05.2"
-      ],
-      "Article 13": [
-        "PRI-05.4"
-      ],
-      "Article 28": [
-        "PRI-05.4"
-      ],
-      "Article 44": [
-        "PRI-06"
-      ],
-      "Article 48": [
-        "PRI-06"
-      ],
-      "Article 46": [
-        "PRI-06.1"
-      ],
-      "Article 50": [
-        "PRI-06.4",
-        "PRI-07.4",
-        "PRI-07.5"
-      ],
-      "Article 45": [
-        "PRI-06.6"
+        "PRI-13"
       ],
       "Article 21": [
-        "PRI-07.1"
-      ],
-      "Article 20": [
-        "PRI-07.2"
+        "PRI-14"
       ],
       "Article 22": [
-        "PRI-14.1"
+        "PRI-17.1"
       ],
       "Article 23": [
-        "PRI-14.1"
+        "PRI-17.1"
+      ],
+      "Article 50": [
+        "PRI-18.1",
+        "PRI-18.2",
+        "PRI-39"
+      ],
+      "Article 17": [
+        "PRI-21"
+      ],
+      "Article 18": [
+        "PRI-21"
+      ],
+      "Article 30": [
+        "PRI-21"
+      ],
+      "Article 39": [
+        "PRI-21"
+      ],
+      "Article 6": [
+        "PRI-22"
+      ],
+      "Article 14": [
+        "PRI-24"
+      ],
+      "Article 29": [
+        "PRI-24.2"
+      ],
+      "Article 15": [
+        "PRI-24.3"
+      ],
+      "Article 31": [
+        "PRI-27.1"
+      ],
+      "Article 49": [
+        "PRI-28"
+      ],
+      "Article 13": [
+        "PRI-29"
+      ],
+      "Article 28": [
+        "PRI-29"
+      ],
+      "Article 19": [
+        "PRI-30"
+      ],
+      "Article 47": [
+        "PRI-30"
+      ],
+      "Article 8": [
+        "PRI-35"
       ],
       "Article 24": [
-        "PRI-19",
-        "PRI-19.3"
+        "PRI-36.1",
+        "PRI-36.4"
+      ],
+      "Article 44": [
+        "PRI-39.1"
+      ],
+      "Article 48": [
+        "PRI-39.1"
+      ],
+      "Article 46": [
+        "PRI-39.3"
+      ],
+      "Article 45": [
+        "PRI-41"
+      ],
+      "Article 20": [
+        "PRI-43"
       ],
       "Article 55": [
-        "RSK-10"
+        "RSK-19"
       ],
       "Article 56": [
-        "RSK-10"
+        "RSK-19"
       ]
     }
   }
