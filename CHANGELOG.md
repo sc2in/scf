@@ -16,6 +16,10 @@ gate (issue #4). The parser now reads 2026.1.1, 2026.2 and 2026.3 from one code 
 - Smaller header changes: `Documentation Artifact` is now `ERL Artifact`, the
   Organization Defined Parameters column became `Notes` (still emitted as
   `org_defined_parameters`), and the risk catalog gained an `Old Risk #` column.
+- **Control ids were renumbered** (858 added, 801 removed, 1,457 marked
+  `- renumbered`). Consumers must migrate stored 2026.2 ids; the workbook's
+  `Legacy SCF #` column is the old→new map and is not emitted by this API yet
+  (see the README migration note).
 - The MON-03.3 evidence-request typo is fixed upstream, so its override is now
   scoped to 2026.1.1 and 2026.2.
 

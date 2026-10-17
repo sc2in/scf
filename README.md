@@ -4,9 +4,10 @@ SC2's canonical, validated [Secure Controls Framework](https://securecontrolsfra
 dataset: official SCF Excel workbook → validated `data/*.json` → static JSON API under
 `docs/` (GitHub Pages).
 
-- **1,534 controls** across 34 families (SCF 2026.2), 252 framework crosswalks,
-  5,956 assessment objectives, 316 evidence requests, risk/threat catalogs,
-  compensating controls, privacy principles.
+- **1,591 controls** across 34 families (SCF 2026.3), 270 framework crosswalks,
+  6,446 assessment objectives, 422 evidence requests, risk/threat catalogs
+  (65 risks, 45 threats, with a per-control likelihood rating), compensating
+  controls, privacy principles.
 - **Validated**: every id-bearing cell is checked for cross-sheet referential
   integrity before a release ships. The SCF master workbook is maintained by hand;
   this gate is what keeps its inconsistencies from silently reaching consumers.
@@ -33,6 +34,22 @@ Static JSON, no auth. Base URL: the GitHub Pages deployment of `docs/`.
 
 Or consume `data/*.json` directly (praxis-style) via a flake input / submodule.
 
+### Migrating to SCF 2026.3 control ids
+
+2026.3 renumbered the catalog: 858 control ids were added and 801 removed relative to
+2026.2, and 1,457 of the 1,591 controls carry a `- renumbered` errata note. Any stored
+reference to a 2026.2 (or older) control id — policies, mappings, assessments, praxis /
+policypress / grc imports — must be migrated before it is trusted against 2026.3 data.
+
+- The workbook's `Legacy SCF #` column (and its `READ THIS` tab, which lists deprecated
+  controls and where they merged) is the authoritative old→new map. **This API does not
+  emit it yet**, so migrate from the workbook, or ask for a `legacy_ids` field.
+- `controls[].errata` says what changed for each control (`- renumbered`, `- renamed`,
+  `- wordsmithed`, `- new control`).
+- `CHANGELOG.md` lists the exact added, removed and changed ids per release.
+- Dangling ids surface as validation failures in consumers that check against this
+  catalog, so run your own reference check after bumping.
+
 ## Pipeline
 
 ```
@@ -43,6 +60,9 @@ scf-api build                      # data/ → docs/ static tree
 scf-api changelog old/ new/        # human-readable release notes
 scf-api verify-tree A B            # semantic docs/api equivalence proof
 scf-api all                        # the autopilot path
+scf-api diagnose --workbook X.xlsx # bounded, fix-oriented parse/validate output
+scf-api triage                     # validation report grouped by check
+scf-api headers --workbook X.xlsx --sheet T   # one line per column of a tab
 ```
 
 Development: `nix develop`, then `pytest`. Full gate: `nix flake check -L`
