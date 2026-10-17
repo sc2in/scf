@@ -1,4 +1,5 @@
-"""scf-api CLI: fetch | parse | validate | build | changelog | verify-tree | all.
+"""scf-api CLI: fetch | parse | validate | build | changelog | verify-tree | all,
+plus agent-facing diagnostics: diagnose | triage | headers.
 
 The pipeline contract (autopilot depends on these exit codes):
 - `parse` writes data/ ONLY when the validation gate passes (overrides
@@ -214,6 +215,26 @@ def _cmd_verify_tree(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_diagnose(args: argparse.Namespace) -> int:
+    from .diagnose import diagnose
+
+    version = args.scf_version or infer_version(Path(args.workbook).name) or "0.0"
+    overrides = Path(args.overrides) if args.overrides else None
+    return diagnose(Path(args.workbook), version, overrides)
+
+
+def _cmd_triage(args: argparse.Namespace) -> int:
+    from .diagnose import triage
+
+    return triage(Path(args.report), args.limit)
+
+
+def _cmd_headers(args: argparse.Namespace) -> int:
+    from .diagnose import headers
+
+    return headers(Path(args.workbook), args.sheet, args.grep, args.sample)
+
+
 def _cmd_all(args: argparse.Namespace) -> int:
     if args.workbook:
         workbook = Path(args.workbook)
@@ -282,6 +303,24 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("theirs")
     p.add_argument("--allowlist", default=None)
     p.set_defaults(func=_cmd_verify_tree)
+
+    p = sub.add_parser("diagnose", help="parse + validate with bounded, fix-oriented output")
+    p.add_argument("--workbook", required=True)
+    p.add_argument("--scf-version", default=None)
+    p.add_argument("--overrides", default="overrides/overrides.json")
+    p.set_defaults(func=_cmd_diagnose)
+
+    p = sub.add_parser("triage", help="summarize a validation report by check")
+    p.add_argument("--report", default="validation/validation-report.json")
+    p.add_argument("--limit", type=int, default=3, help="samples per check")
+    p.set_defaults(func=_cmd_triage)
+
+    p = sub.add_parser("headers", help="one line per column of a tab (index, header, sample)")
+    p.add_argument("--workbook", required=True)
+    p.add_argument("--sheet", required=True, help="tab-name substring")
+    p.add_argument("--grep", default=None, help="only headers containing this text")
+    p.add_argument("--sample", action="store_true", help="show the first data row's cells")
+    p.set_defaults(func=_cmd_headers)
 
     p = sub.add_parser("all", help="fetch -> parse -> validate -> build")
     p.add_argument("--workbook", default=None, help="skip fetch, use this workbook")

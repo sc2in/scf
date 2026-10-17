@@ -30,9 +30,26 @@ from .normalize import norm_key
 class SheetResolveError(KeyError):
     """A required sheet could not be found by pattern."""
 
+    def __init__(self, message: str, kind: str = "", patterns: tuple[str, ...] = ()):
+        super().__init__(message)
+        self.kind = kind
+        self.patterns = patterns  # what was tried, for `scf-api diagnose`
+
 
 class ColumnResolveError(KeyError):
     """A required column could not be found in a sheet header."""
+
+    def __init__(
+        self,
+        message: str,
+        sheet_title: str = "",
+        patterns: tuple[str, ...] = (),
+        header: list | None = None,
+    ):
+        super().__init__(message)
+        self.sheet_title = sheet_title
+        self.patterns = patterns  # what was tried, for `scf-api diagnose`
+        self.header = header or []
 
 
 # kind -> (accepted patterns, newest first), exclude-patterns.
@@ -126,7 +143,10 @@ class Sheet:
             tried = ", ".join(repr(p) for p in (pattern, *alts))
             raise ColumnResolveError(
                 f"no column matching {tried} in sheet {self.title!r} "
-                f"(headers: {[h for h in self.header if h][:12]}...)"
+                f"(headers: {[h for h in self.header if h][:12]}...)",
+                sheet_title=self.title,
+                patterns=(pattern, *alts),
+                header=self.header,
             )
         return idx
 
@@ -241,8 +261,15 @@ class SCFWorkbook:
 
         tried = ", ".join(repr(p) for p in patterns)
         raise SheetResolveError(
-            f"no sheet matching {tried} (exclude={excludes!r}) in {self.sheet_names}"
+            f"no sheet matching {tried} (exclude={excludes!r}) in {self.sheet_names}",
+            kind=kind,
+            patterns=patterns,
         )
+
+    def peek(self, title: str, rows: int = 12) -> list[tuple]:
+        """First `rows` raw rows of a tab (diagnostics; never used by the parser)."""
+        ws = self._wb[title]
+        return [r for _, r in zip(range(rows), ws.iter_rows(values_only=True))]
 
     def has_sheet(self, kind: str) -> bool:
         """True when a built-in pattern resolves `kind` (no aliases, never raises).
