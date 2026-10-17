@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-NET-11",
+  "area": "Network Security",
+  "artifact_name": "Intrusion Detection / Prevention Deployment",
+  "artifact_description": "Documented evidence of Network and Host Intrusion Detection / Prevention Systems (NIDS / NIPS, HIDS / HIPS) deployment and monitoring coverage.",
+  "scf_controls": [
+    "MON-22",
+    "MON-23",
+    "MON-24",
+    "NET-31"
+  ],
+  "cmmc_mapping": ""
+}

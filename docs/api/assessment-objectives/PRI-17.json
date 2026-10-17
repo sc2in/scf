@@ -5,7 +5,7 @@
     {
       "scf_control_id": "PRI-17",
       "ao_id": "PRI-17_A01",
-      "objective": "disclosures and communications to data subjects are made easily accessible.",
+      "objective": "the disclosure of Personal Data (PD) is limited to what is consistent with authorized purposes.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "PRI-17",
       "ao_id": "PRI-17_A02",
-      "objective": "disclosures and communications to data subjects are written in a manner that is concise, unambiguous and understandable by a reasonable person.",
+      "objective": "the authorized purposes for which Personal Data (PD) may be disclosed are defined.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

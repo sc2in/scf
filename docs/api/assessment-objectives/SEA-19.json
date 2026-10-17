@@ -1,13 +1,23 @@
 {
   "scf_control_id": "SEA-19",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "SEA-19",
       "ao_id": "SEA-19_A01",
-      "objective": "the user is notified, upon successful logon to the system, of the date and time of the last logon.",
+      "objective": "controls to be implemented to protect the system memory from unauthorized code execution are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-16_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-19",
+      "ao_id": "SEA-19_A02",
+      "objective": "controls are implemented to protect the system memory from unauthorized code execution.",
       "pptdf": "Technology",
-      "origin": "53A_R5_AC-09",
+      "origin": "53A_R5_SI-16",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.23",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Data Privacy Policy",
+  "artifact_description": "Documented evidence of a data privacy policy.",
+  "scf_controls": [
+    "GOV-04",
+    "PRI-01"
+  ],
+  "cmmc_mapping": ""
+}

@@ -4,9 +4,8 @@
   "artifact_name": "Data Flow Diagram (DFD)",
   "artifact_description": "Documented evidence of a Data Flow Diagram (DFD) that accurately identifies where sensitive/regulated data is stored, transmitted and/or processed.",
   "scf_controls": [
-    "AST-02.8",
-    "AST-04",
-    "NET-02"
+    "AST-17",
+    "AST-17.2"
   ],
   "cmmc_mapping": ""
 }

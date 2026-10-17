@@ -4,7 +4,7 @@
   "artifact_name": "Quantum Risk Governance Charter",
   "artifact_description": "Documented evidence of a quantum risk governance charter with named lead and steering committee.",
   "scf_controls": [
-    "QTS-01"
+    "QTS-02"
   ],
   "cmmc_mapping": ""
 }

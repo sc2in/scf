@@ -5,8 +5,8 @@
     {
       "scf_control_id": "WEB-06",
       "ao_id": "WEB-06_A01",
-      "objective": "Strong Customer Authentication (SCA) is utilized for consumers and/or data subjects to prove their identity.",
-      "pptdf": "Technology",
+      "objective": "a capability exists to protect the confidentiality and availability of client data that is stored, transmitted or processed by the Internet-based service.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

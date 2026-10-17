@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "MON-37",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-37",
+      "ao_id": "MON-37_A01",
+      "objective": "authorized Control Assurance Automation (CAA) collection activities are documented, including the collecting system or service account, the data sources accessed, the data collected, the destination repository and the collection schedule.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-37",
+      "ao_id": "MON-37_A02",
+      "objective": "the frequency at which observed Control Assurance Automation (CAA) collection activity is reconciled against authorized collection activities is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-37",
+      "ao_id": "MON-37_A03",
+      "objective": "Control Assurance Automation (CAA) collection activity observed in network and Technology Assets, Applications and/or Services (TAAS) logs is reconciled against the documented authorized collection activities at the defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-37",
+      "ao_id": "MON-37_A04",
+      "objective": "collection activity that cannot be reconciled to an authorized Control Assurance Automation (CAA) activity is treated as potential unauthorized data exfiltration and investigated in accordance with incident response procedures.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-37",
+      "ao_id": "MON-37_A05",
+      "objective": "monitoring and data loss prevention rules are configured to recognize authorized Control Assurance Automation (CAA) collection so that alerts distinguish legitimate collection from unauthorized data exfiltration.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

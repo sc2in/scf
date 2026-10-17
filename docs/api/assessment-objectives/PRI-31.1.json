@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-31.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-31.1",
+      "ao_id": "PRI-31.1_A01",
+      "objective": "the type of processing of Personal Data (PD) is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-02_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-31.1",
+      "ao_id": "PRI-31.1_A02",
+      "objective": "the type of processing of Personal Data (PD) to be restricted is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-02_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "control_id": "CFG-25",
+  "risk_if_not_implemented": "Without Control Assurance Automation (CAA) Separation of Duties, automated control assurance results may be manipulated, misattributed or lose integrity, causing misplaced confidence in control effectiveness. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to Excessive or Unauthorized Privilege (R-AC-2), Unauthorized Modification / Loss of System Integrity (R-AM-2), Inability to Demonstrate Due Diligence / Due Care (R-GV-9), Unreliable Assurance / Decision Information (R-GV-10), and most likely increases susceptibility to man-made threats MT-2, MT-8, MT-9, MT-10, MT-14, MT-15, MT-25.",
+  "compensating_control_1": {
+    "control_id": "HRS-14",
+    "name": "Separation of Duties (SoD)",
+    "description": "Mechanisms exist to implement and maintain Separation of Duties (SoD) to prevent potential inappropriate activity without collusion.",
+    "justification": "Separation of Duties (SoD) (HRS-14) provides overlapping security capability that compensates for the absence of Control Assurance Automation (CAA) Separation of Duties (CFG-25) by addressing related risk objectives through an alternative control mechanism. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "IAC-28",
+    "name": "Dual Authorization for Privileged Commands",
+    "description": "Automated mechanisms exist to enforce dual authorization for privileged commands.",
+    "justification": "Dual Authorization for Privileged Commands (IAC-28) provides access control enforcement that compensates for the absence of Control Assurance Automation (CAA) Separation of Duties (CFG-25) by restricting system and data access through alternative identity and access management mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

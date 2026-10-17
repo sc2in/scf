@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CRY-03.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-03.2",
+      "ao_id": "CRY-03.2_A01",
+      "objective": "the confidentiality and integrity of information is maintained during preparation for transmission.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-08(02)[01]\n53A_R5_SC-08(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-03.2",
+      "ao_id": "CRY-03.2_A02",
+      "objective": "the confidentiality and integrity of information is maintained during reception.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-08(02)[02]\n53A_R5_SC-08(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

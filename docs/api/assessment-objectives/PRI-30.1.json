@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-30.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-30.1",
+      "ao_id": "PRI-30.1_A01",
+      "objective": "a data retention schedule, or similar process, dictates the maximum timeline necessary to maintain Personal Data (PD), based on purposes for which the PD are processed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "the shortest retention period required by the applicable data protection law, regulation or contract, and no longer than the period necessary for the documented processing purpose",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-30.1",
+      "ao_id": "PRI-30.1_A02",
+      "objective": "processes are defined to implement the data retention schedule for Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-30.1",
+      "ao_id": "PRI-30.1_A03",
+      "objective": "processes remove Personal Data (PD) which permits the identification of data subjects once it is no longer necessary for the purposes for which the PD are processed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

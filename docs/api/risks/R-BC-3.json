@@ -1,7 +1,7 @@
 {
   "risk_id": "R-BC-3",
   "grouping": "Business Continuity",
-  "name": "Reduction in productivity",
-  "description": "Diminished user productivity.",
+  "name": "Reduced Operational Productivity",
+  "description": "Personnel, systems and/or business processes operate below required efficiency or throughput because necessary Technology Assets, Applications, Services and/or Data (TAASD) are unavailable or degraded.",
   "nist_csf_function": "Protect"
 }

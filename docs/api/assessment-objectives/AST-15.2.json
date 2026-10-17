@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-15.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-15.2",
+      "ao_id": "AST-15.2_A01",
+      "objective": "a defined methodology is used to categorize Artificial Intelligence (AI)-enabled Technology Assets, Applications and/or Services (TAAS) based on data sensitivity and criticality.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

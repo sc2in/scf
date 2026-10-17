@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAC-12",
+  "area": "Identity & Access Management",
+  "artifact_name": "Account Management Documentation",
+  "artifact_description": "Documented evidence of list of account management practices.",
+  "scf_controls": [
+    "IAC-08",
+    "IAC-13"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,12 +1,32 @@
 {
   "scf_control_id": "SEA-02.1",
-  "total": 1,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "SEA-02.1",
       "ao_id": "SEA-02.1_A01",
-      "objective": "technology and process terminology is standardized to reduce confusion amongst groups and departments.",
+      "objective": "the required capabilities of Technology Assets, Applications and/or Services (TAAS) that must continue to operate in a controlled and acceptable manner under routine and degraded conditions are defined.",
       "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) established for each critical Technology Asset, Application or Service",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02.1",
+      "ao_id": "SEA-02.1_A02",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are designed so that required capabilities continue to operate in a controlled and acceptable manner under routine conditions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02.1",
+      "ao_id": "SEA-02.1_A03",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are designed so that required capabilities continue to operate in a controlled and acceptable manner under degraded conditions.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

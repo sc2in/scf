@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-22.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-22.1",
+      "ao_id": "CPL-22.1_A01",
+      "objective": "responses are provided to legitimate grievances related to the organization's cybersecurity and/or data protection practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "within the response period required by the applicable data protection law or contract, and otherwise per an organization-defined response timeline",
+      "org_defined_parameters": ""
+    }
+  ]
+}

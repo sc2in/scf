@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IRO-17.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-17.2",
+      "ao_id": "IRO-17.2_A01",
+      "objective": "incident response activities are reviewed for the existence of recurring incidents per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

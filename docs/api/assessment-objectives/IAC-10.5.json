@@ -1,13 +1,13 @@
 {
   "scf_control_id": "IAC-10.5",
-  "total": 6,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-10.5",
       "ao_id": "IAC-10.5_A01",
-      "objective": "authenticators are protected commensurate with the security category of the information to which use of the authenticator permits access.",
+      "objective": "instances that require a manual override of current account privileges, to respond to unusual conditions without terminating the current session and establishing a new session as a higher-privileged user, are identified.",
       "pptdf": "Technology",
-      "origin": "53A_R5_IA-05(06)",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "IAC-10.5",
       "ao_id": "IAC-10.5_A02",
-      "objective": "authenticator content is protected from unauthorized disclosure.",
+      "objective": "the processes and technologies needed to enable a manual override of current account privileges, to respond to unusual conditions without terminating the current session and establishing a new session as a higher-privileged user, are identified.",
       "pptdf": "Technology",
-      "origin": "171A_R3_A.03.05.12.f[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,40 +25,10 @@
     {
       "scf_control_id": "IAC-10.5",
       "ao_id": "IAC-10.5_A03",
-      "objective": "authenticator content is protected from unauthorized modification.",
+      "objective": "a capability exists to manually override current account privileges, to respond to unusual conditions without terminating the current session and establishing a new session as a higher-privileged user.",
       "pptdf": "Technology",
-      "origin": "171A_R3_A.03.05.12.f[02]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-10.5",
-      "ao_id": "IAC-10.5_A04",
-      "objective": "passwords are stored in a cryptographically protected form.",
-      "pptdf": "Technology",
-      "origin": "171A_3.5.10[a]\n171A_R3_A.03.05.07.d",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-10.5",
-      "ao_id": "IAC-10.5_A05",
-      "objective": "passwords are cryptographically protected in transit.",
-      "pptdf": "Technology",
-      "origin": "171A_3.5.10[b]",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-10.5",
-      "ao_id": "IAC-10.5_A06",
-      "objective": "passwords are only transmitted over cryptographically protected channels.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.05.07.c",
-      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

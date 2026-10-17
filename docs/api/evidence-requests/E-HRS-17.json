@@ -4,8 +4,8 @@
   "artifact_name": "Background Checks",
   "artifact_description": "Documented evidence of personnel screening practices, which centers around some form of formalized background check process.",
   "scf_controls": [
-    "HRS-04",
-    "HRS-04.1"
+    "HRS-05",
+    "HRS-05.1"
   ],
   "cmmc_mapping": "PS.L2-3.9.1"
 }

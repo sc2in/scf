@@ -1,22 +1,12 @@
 {
   "scf_control_id": "TDA-13.2",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "TDA-13.2",
       "ao_id": "TDA-13.2_A01",
-      "objective": "requisite skillsets for developers for Secure Software Development Practices (SSDP) are defined.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "TDA-13.2",
-      "ao_id": "TDA-13.2_A02",
-      "objective": "developers of Technology Assets, Applications and/or Services (TAAS) who lack the requisite skillset receive suitable training on Secure Software Development Practices (SSDP) are trained.",
-      "pptdf": "Process",
+      "objective": "at least one (1) malware detection tool is used to identify if any known malware exists in the final binaries of the product or security update.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "QTS-07.2",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "QTS-07.2",
+      "ao_id": "QTS-07.2_A01",
+      "objective": "a current inventory of Technology Assets, Applications and/or Services (TAAS) with Post-Quantum Cryptography (PQC) exposure is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.2",
+      "ao_id": "QTS-07.2_A02",
+      "objective": "the inventory includes public key algorithms vulnerable to Cryptographically Relevant Quantum Computers (CRQCs).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.2",
+      "ao_id": "QTS-07.2_A03",
+      "objective": "the inventory includes long-lived keys and certificates (e.g., CA roots, firmware signing keys, etc.).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "a validity period or key lifetime of more than 1 year",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-07.2",
+      "ao_id": "QTS-07.2_A04",
+      "objective": "the inventory includes TAAS that cannot easily adopt PQC upgrades (e.g., embedded, RTOS, etc.).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

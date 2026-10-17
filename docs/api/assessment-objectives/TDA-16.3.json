@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-16.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-16.3",
+      "ao_id": "TDA-16.3_A01",
+      "objective": "software releases and all of their components (e.g., code, package files, third-party libraries, documentation) are securely archived to maintain integrity verification information.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "retained for no less than the supported lifecycle of the software release, including any contractual support period",
+      "org_defined_parameters": ""
+    }
+  ]
+}

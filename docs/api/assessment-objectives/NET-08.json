@@ -5,11 +5,11 @@
     {
       "scf_control_id": "NET-08",
       "ao_id": "NET-08_A01",
-      "objective": "Network Intrusion Detection / Prevention Systems (NIDS/NIPS) is utilized to detect and/or prevent intrusions into the network.",
+      "objective": "subnetworks are physically or logically separate to isolate organization-defined Technology Assets, Applications, Services and/or Data (TAASD).",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at a minimum, Technology Assets, Applications, Services and/or Data (TAASD) that store, process or transmit sensitive and/or regulated data",
       "org_defined_parameters": ""
     }
   ]

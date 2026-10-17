@@ -1,14 +1,24 @@
 {
   "scf_control_id": "AAT-22",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-22",
       "ao_id": "AAT-22_A01",
-      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) includes appropriate technical and organizational measures so that AAT are used in accordance with the AAT developer-provided instructions for use.",
-      "pptdf": "Technology",
+      "objective": "a documented methodology prioritizes workforce diversity, equity, inclusion and accessibility processes in the mapping, measuring and managing of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks throughout the AAT lifecycle.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22",
+      "ao_id": "AAT-22_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are tested for outputs that unfairly identify, profile and/or statistically single out a segmented population defined by race, religion, gender identity, national origin, disability or any other politically-charged identifier, and identified issues are remediated.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

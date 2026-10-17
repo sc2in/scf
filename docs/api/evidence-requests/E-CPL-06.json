@@ -4,13 +4,10 @@
   "artifact_name": "Manufacturer Disclosure Statement for Medical Device Security (MDS2)",
   "artifact_description": "Documented Manufacturer Disclosure Statement for Medical Device Security (MDS2) that communicates information about medical device cybersecurity & data privacy characteristics to current device owners and potential buyers. [note MDS2 is specific to medical device manufacturers]",
   "scf_controls": [
-    "TDA-01.1",
-    "TDA-02.1",
-    "TDA-02.5",
-    "TDA-04",
-    "TDA-04.1",
-    "TPM-04",
-    "TPM-04.2"
+    "TDA-08",
+    "TDA-08.2",
+    "TDA-08.3",
+    "TDA-08.4"
   ],
   "cmmc_mapping": ""
 }

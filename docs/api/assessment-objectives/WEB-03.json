@@ -5,8 +5,8 @@
     {
       "scf_control_id": "WEB-03",
       "ao_id": "WEB-03_A01",
-      "objective": "a Web Application Firewalls (WAFs) is utilized for Internet-facing technologies to protect against application-specific threats.",
-      "pptdf": "Technology",
+      "objective": "the Open Web Application Security Project (OWASP) Application Security Verification Standard is incorporated into the organization's Secure Systems Development Lifecycle (SSDLC) process.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

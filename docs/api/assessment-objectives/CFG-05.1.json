@@ -5,9 +5,9 @@
     {
       "scf_control_id": "CFG-05.1",
       "ao_id": "CFG-05.1_A01",
-      "objective": "compliance with software installation policies is enforced using organization-defined automated mechanisms.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_CM-11(03)[01]",
+      "objective": "connection ports or input/output devices to be disabled or removed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-41_ODP[01]\n53A_R5_SC-41_ODP[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,20 +15,20 @@
     {
       "scf_control_id": "CFG-05.1",
       "ao_id": "CFG-05.1_A02",
-      "objective": "the frequency at which automated mechanisms are used to detect the presence of unauthorized hardware, software and/or firmware within the system is defined.",
+      "objective": "technology assets at greater risk of device tampering from which connection ports or input/output devices are to be disabled or removed are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_CM-08(03)_ODP[04]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "automated mechanisms with a maximum five-minute delay in detection",
+      "origin": "53A_R5_SC-41_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CFG-05.1",
       "ao_id": "CFG-05.1_A03",
-      "objective": "automated mechanisms used to monitor compliance are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_CM-11(03)_ODP[02]",
-      "assessment_rigor": "3",
+      "objective": "prohibited connection ports or input/output devices are physically disabled or removed from technology assets at greater risk of device tampering.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-41",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

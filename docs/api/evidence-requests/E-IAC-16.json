@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-IAC-16",
+  "area": "Identity & Access Management",
+  "artifact_name": "Multi-Factor Authentication (MFA) Configuration",
+  "artifact_description": "Documented evidence of Multi-Factor Authentication (MFA) enforcement, including replay-resistant and phishing-resistant authenticators for privileged and non-privileged network access.",
+  "scf_controls": [
+    "IAC-37",
+    "IAC-37.1",
+    "IAC-37.2",
+    "IAC-37.5",
+    "IAC-37.6",
+    "IAC-37.7"
+  ],
+  "cmmc_mapping": ""
+}

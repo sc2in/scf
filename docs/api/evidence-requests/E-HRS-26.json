@@ -4,7 +4,9 @@
   "artifact_name": "Vital Cybersecurity & Data Privacy Staff",
   "artifact_description": "Documented evidence of personnel management practices to formally identify vital cybersecurity & data privacy personnel.",
   "scf_controls": [
-    "HRS-13.2"
+    "HRS-16.2",
+    "HRS-16.3",
+    "HRS-16.4"
   ],
   "cmmc_mapping": ""
 }

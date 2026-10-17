@@ -4,8 +4,8 @@
   "artifact_name": "Authorization Documentation",
   "artifact_description": "Documented evidence of that identifies authorized users and processes acting on behalf of authorized users.",
   "scf_controls": [
-    "CFG-08",
-    "DCH-01.4"
+    "DCH-06.1",
+    "IAC-08.2"
   ],
   "cmmc_mapping": "AC.L2-3.1.4\nAC.L2-3.1.5\nAU.L2-3.3.9"
 }

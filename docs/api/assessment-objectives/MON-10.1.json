@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "MON-10.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-10.1",
+      "ao_id": "MON-10.1_A01",
+      "objective": "the personnel, roles and/or locations to be warned when allocated event log and security-relevant telemetry storage volume reaches a percentage of maximum storage capacity are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-05(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-10.1",
+      "ao_id": "MON-10.1_A02",
+      "objective": "the time period within which the defined personnel, roles and/or locations are to be warned when allocated event log and security-relevant telemetry storage volume reaches a percentage of maximum storage capacity is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-05(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-10.1",
+      "ao_id": "MON-10.1_A03",
+      "objective": "the percentage of maximum event log and security-relevant telemetry storage capacity that triggers a warning is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-05(01)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "75%, or one month before expected negative impact",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-10.1",
+      "ao_id": "MON-10.1_A04",
+      "objective": "a warning is provided within the defined time period when allocated event log and security-relevant telemetry storage volume reaches the defined percentage of maximum storage capacity.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-05(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

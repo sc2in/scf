@@ -5,11 +5,11 @@
     {
       "scf_control_id": "AAT-04.1",
       "ao_id": "AAT-04.1_A01",
-      "objective": "documented methods exist to viably assess the potential benefits of Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "objective": "the organization analyzes its business practices to determine applicable statutory, regulatory and/or contractual obligations for Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     }
   ]

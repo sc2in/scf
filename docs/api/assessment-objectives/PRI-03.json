@@ -1,13 +1,13 @@
 {
   "scf_control_id": "PRI-03",
-  "total": 2,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "PRI-03",
       "ao_id": "PRI-03_A01",
-      "objective": "the tools or mechanisms to be implemented for individuals to consent to the processing of their Personal Data (PD) are defined.",
+      "objective": "a documented data privacy accountability structure exists.",
       "pptdf": "Process",
-      "origin": "53A_R5_PT-04_ODP",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,11 +15,51 @@
     {
       "scf_control_id": "PRI-03",
       "ao_id": "PRI-03_A02",
-      "objective": "tools or mechanisms are implemented for individuals to consent to the processing of their Personal Data (PD) prior to its collection that facilitates individuals’ informed decision-making.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_PT-04",
+      "objective": "the data privacy accountability structure identifies the data privacy roles required by applicable statutory, regulatory and/or contractual obligations (e.g., Data Protection Officer (DPO), representative in a jurisdiction, data owner).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03",
+      "ao_id": "PRI-03_A03",
+      "objective": "each identified data privacy role is assigned to one or more named individuals.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03",
+      "ao_id": "PRI-03_A04",
+      "objective": "individuals assigned to data privacy roles possess the requisite qualifications for the role.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03",
+      "ao_id": "PRI-03_A05",
+      "objective": "individuals assigned to data privacy roles are granted the authority, independence and resources needed to perform the role.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03",
+      "ao_id": "PRI-03_A06",
+      "objective": "the data privacy accountability structure is reviewed and updated when data privacy obligations, operating jurisdictions and/or business practices change.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually, and upon change to applicable data privacy obligations, operating jurisdictions or business practices",
       "org_defined_parameters": ""
     }
   ]

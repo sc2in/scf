@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-MDM-01",
+  "area": "Endpoint Security",
+  "artifact_name": "Mobile Device Management (MDM) Configuration",
+  "artifact_description": "Documented evidence of Mobile Device Management (MDM) configuration, including centralized management, access restrictions for unauthorized devices, device / container encryption, separate profiles and geofencing.",
+  "scf_controls": [
+    "IAC-35",
+    "MDM-02",
+    "MDM-03",
+    "MDM-04",
+    "MDM-05",
+    "MDM-08"
+  ],
+  "cmmc_mapping": ""
+}

@@ -4,7 +4,7 @@
   "artifact_name": "Intellectual Property (IP) Infringement Assessment of Artificial Intelligence and Autonomous Technologies (AAT)",
   "artifact_description": "Documented evidence of a legal opinion on the potential for Intellectual Property (IP) infringement by the organization's Artificial Intelligence (AI) and Autonomous Technologies (AAT) initiatives.",
   "scf_controls": [
-    "AAT-12"
+    "AAT-18"
   ],
   "cmmc_mapping": ""
 }

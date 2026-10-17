@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-30.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-30.1",
+      "ao_id": "MON-30.1_A01",
+      "objective": "the Personal Data (PD) elements identified in the Data Privacy Risk Assessment (DPRA) that may be contained in event logs and security-relevant telemetry are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-03(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-30.1",
+      "ao_id": "MON-30.1_A02",
+      "objective": "Personal Data (PD) contained in event logs and security-relevant telemetry is limited to the elements identified in the Data Privacy Risk Assessment (DPRA).",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-03(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

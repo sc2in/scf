@@ -1,13 +1,13 @@
 {
   "scf_control_id": "END-09",
-  "total": 3,
+  "total": 7,
   "assessment_objectives": [
     {
       "scf_control_id": "END-09",
       "ao_id": "END-09_A01",
-      "objective": "an organization-defined isolated trusted communication path (e.g., Control-Alt-Delete in Microsoft Windows) is provided for communications between the user and the trusted components of the system.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_SC-11a.",
+      "objective": "security-relevant changes to the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(07)_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "END-09",
       "ao_id": "END-09_A02",
-      "objective": "users are permitted to invoke the trusted communication path (e.g., Control-Alt-Delete in Microsoft Windows) for communications between the user and the security functions of the system, including authentication and re-authentication, at a minimum.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_SC-11b.",
+      "objective": "the detection of changes is incorporated into the organizational incident response capability.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(07)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,49 @@
     {
       "scf_control_id": "END-09",
       "ao_id": "END-09_A03",
-      "objective": "logical security functions of the system are defined.",
+      "objective": "the endpoints on which Endpoint Detection & Response (EDR) capabilities are required are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SC-11_ODP[01]\n53A_R5_SC-11_ODP[02]",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-09",
+      "ao_id": "END-09_A04",
+      "objective": "Endpoint Detection & Response (EDR) capabilities are deployed and operational on the defined endpoints.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-09",
+      "ao_id": "END-09_A05",
+      "objective": "Endpoint Detection & Response (EDR) capabilities detect anomalous and/or malicious activity on the defined endpoints.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-09",
+      "ao_id": "END-09_A06",
+      "objective": "anomalous and/or malicious activity detected by Endpoint Detection & Response (EDR) capabilities is investigated.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-09",
+      "ao_id": "END-09_A07",
+      "objective": "anomalous and/or malicious activity detected by Endpoint Detection & Response (EDR) capabilities is responded to in accordance with the organization's incident response processes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

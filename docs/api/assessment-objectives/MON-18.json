@@ -1,13 +1,13 @@
 {
   "scf_control_id": "MON-18",
-  "total": 2,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "MON-18",
       "ao_id": "MON-18_A01",
-      "objective": "automated tools are used to monitor sensitive/regulated data in Assets, Applications & Services (AAS).",
-      "pptdf": "Data",
-      "origin": "SCF Created",
+      "objective": "additional monitoring of individuals who have been identified as posing an increased level of risk is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(19)_ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,19 @@
     {
       "scf_control_id": "MON-18",
       "ao_id": "MON-18_A02",
-      "objective": "automated tools are used to monitor sensitive/regulated data in data repositories.",
-      "pptdf": "Data",
-      "origin": "SCF Created",
+      "objective": "sources that identify individuals who pose an increased level of risk are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(19)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-18",
+      "ao_id": "MON-18_A03",
+      "objective": "additional monitoring is implemented on individuals who have been identified by sources as posing an increased level of risk.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(19)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

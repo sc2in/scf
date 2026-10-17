@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "BCD-18.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-18.1",
+      "ao_id": "BCD-18.1_A01",
+      "objective": "Technology Assets, Applications, Services and/or Data (TAASD) are restored to a known, operational state from configuration-controlled and integrity-protected information.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-10(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-18.1",
+      "ao_id": "BCD-18.1_A02",
+      "objective": "the restoration time period within which to restore Technology Assets, Applications, Services and/or Data (TAASD) to a known, operational state is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-10(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "a time period consistent with the restoration time periods defined in the service provider and organization Service Level Agreement (SLA)",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-18.1",
+      "ao_id": "BCD-18.1_A03",
+      "objective": "Technology Assets, Applications, Services and/or Data (TAASD) are restored to a known, operational state within the organization-defined restoration time period.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

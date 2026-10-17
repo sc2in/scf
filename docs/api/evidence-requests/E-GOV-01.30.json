@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.30",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Technology Development & Acquisition Policy",
+  "artifact_description": "Documented evidence of a technology development and acquisition policy.",
+  "scf_controls": [
+    "GOV-04",
+    "TDA-01"
+  ],
+  "cmmc_mapping": ""
+}

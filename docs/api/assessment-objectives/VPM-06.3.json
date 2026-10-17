@@ -5,31 +5,31 @@
     {
       "scf_control_id": "VPM-06.3",
       "ao_id": "VPM-06.3_A01",
-      "objective": "system components to which privileged access is authorized for selected vulnerability scanning activities are defined.",
+      "objective": "remediation and mitigation of Known Exploited Vulnerabilities (KEV) is prioritized.",
       "pptdf": "Process",
-      "origin": "53A_R5_RA-05(05)_ODP[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "all components that support authentication",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "VPM-06.3",
       "ao_id": "VPM-06.3_A02",
-      "objective": "vulnerability scanning activities selected for privileged access authorization to system components are defined.",
+      "objective": "KEV remediation efforts reduce or remove public exposure to exploitation, if applicable.",
       "pptdf": "Process",
-      "origin": "53A_R5_RA-05(05)_ODP[02]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "all scans",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "VPM-06.3",
       "ao_id": "VPM-06.3_A03",
-      "objective": "privileged access authorization is implemented to system components for vulnerability scanning activities.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_RA-05(05)",
+      "objective": "KEV remediation efforts expedite patch deployment actions, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "all components that support authentication",
+      "scf_defined_parameters": "no later than the remediation due date published for the vulnerability in the applicable Known Exploited Vulnerabilities (KEV) catalog",
       "org_defined_parameters": ""
     }
   ]

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MON-25",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-25",
+      "ao_id": "MON-25_A01",
+      "objective": "De-Militarized Zone (DMZ) network segments that separate untrusted networks from trusted networks are monitored.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

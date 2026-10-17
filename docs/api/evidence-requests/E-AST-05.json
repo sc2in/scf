@@ -4,7 +4,7 @@
   "artifact_name": "Asset Inventories - Software",
   "artifact_description": "Documented evidence of an inventory of the organization's software assets.",
   "scf_controls": [
-    "AST-02"
+    "AST-04"
   ],
   "cmmc_mapping": "CM.L2-3.4.1\nSI.L2-3.14.6\nSI.L2-3.14.7"
 }

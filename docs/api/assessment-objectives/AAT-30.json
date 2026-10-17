@@ -5,8 +5,8 @@
     {
       "scf_control_id": "AAT-30",
       "ao_id": "AAT-30_A01",
-      "objective": "AI agent actions include non-repudiation to determine accountability.",
-      "pptdf": "Technology",
+      "objective": "results from Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) are documented.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -15,11 +15,11 @@
     {
       "scf_control_id": "AAT-30",
       "ao_id": "AAT-30_A02",
-      "objective": "AI agent actions are able to be forensically examined to determine accountability.",
-      "pptdf": "Technology",
+      "objective": "the status and results of Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) are reported to relevant stakeholders, including governing bodies, per an organization-defined frequency.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     }
   ]

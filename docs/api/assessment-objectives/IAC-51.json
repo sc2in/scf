@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IAC-51",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-51",
+      "ao_id": "IAC-51_A01",
+      "objective": "Control Assurance Automation (CAA) automated identities are granted read-only permissions limited to the resources required for control validation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-51",
+      "ao_id": "IAC-51_A02",
+      "objective": "Control Assurance Automation (CAA) automated identities are prohibited from holding write and/or administrative permissions on the Technology Assets, Applications and/or Services (TAAS) they assess.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-51",
+      "ao_id": "IAC-51_A03",
+      "objective": "requests for permissions beyond read-only access for a Control Assurance Automation (CAA) automated identity are denied or, where an exception is granted, are documented, risk-assessed and approved.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-51",
+      "ao_id": "IAC-51_A04",
+      "objective": "permissions assigned to Control Assurance Automation (CAA) automated identities are reviewed at a defined frequency to confirm they remain read-only and least privilege.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

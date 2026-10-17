@@ -4,7 +4,9 @@
   "artifact_name": "Artificial Intelligence and Autonomous Technologies (AAT) Governance Program",
   "artifact_description": "Documented evidence of a governance program for Artificial Intelligence and Autonomous Technologies (AAT).",
   "scf_controls": [
-    "AAT-01"
+    "AAT-02",
+    "AAT-05",
+    "AAT-08"
   ],
   "cmmc_mapping": ""
 }

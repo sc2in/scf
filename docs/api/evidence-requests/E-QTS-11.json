@@ -4,7 +4,7 @@
   "artifact_name": "Interoperability Test Records",
   "artifact_description": "Documented evidence of cryptographic algorithm interoperability, performance and rollback tests.",
   "scf_controls": [
-    "QTS-03.1"
+    "QTS-10"
   ],
   "cmmc_mapping": ""
 }

@@ -4,7 +4,12 @@
   "artifact_name": "Internal Boundaries",
   "artifact_description": "Documented evidence of key internal boundaries.",
   "scf_controls": [
-    "NET-03"
+    "NET-03",
+    "NET-06",
+    "NET-08",
+    "NET-08.1",
+    "NET-10",
+    "NET-11"
   ],
   "cmmc_mapping": "SC.L1-3.13.1\nSC.L1-3.13.5"
 }

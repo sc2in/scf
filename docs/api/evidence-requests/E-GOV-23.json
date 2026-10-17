@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-23",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Mergers, Acquisitions & Divestitures (MA&D) Due Diligence Records",
+  "artifact_description": "Documented evidence of security, compliance and resilience due diligence performed for mergers, acquisitions and divestitures, including Virtual Data Room (VDR) controls.",
+  "scf_controls": [
+    "GOV-19",
+    "GOV-19.1"
+  ],
+  "cmmc_mapping": ""
+}

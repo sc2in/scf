@@ -5,9 +5,9 @@
     {
       "scf_control_id": "IAC-05.2",
       "ao_id": "IAC-05.2_A01",
-      "objective": "privileged access by non-organizational users is prohibited.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
+      "objective": "evidence of individual identification is presented to the registration authority.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-12(02)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

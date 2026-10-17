@@ -5,8 +5,8 @@
     {
       "scf_control_id": "AAT-28.1",
       "ao_id": "AAT-28.1_A01",
-      "objective": "technical controls prevent \"model pollution\" due to accidental and/or malicious inputs by an AI agent that can negatively alter the AI model.",
-      "pptdf": "Technology",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability evaluates Artificial Intelligence (AI) and Autonomous Technologies (AAT) for trustworthy characteristics.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

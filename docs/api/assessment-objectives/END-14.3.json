@@ -5,11 +5,11 @@
     {
       "scf_control_id": "END-14.3",
       "ao_id": "END-14.3_A01",
-      "objective": "personnel are trained to limit access to virtual meetings to appropriate individuals.",
+      "objective": "personnel are trained to limit access to virtual meetings to authorized individuals.",
       "pptdf": "People",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
@@ -25,7 +25,7 @@
     {
       "scf_control_id": "END-14.3",
       "ao_id": "END-14.3_A03",
-      "objective": "individual identities are verified to ensure that access to virtual meetings is limited to appropriate individuals.",
+      "objective": "individual identities are verified so that access to virtual meetings is limited to authorized individuals.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

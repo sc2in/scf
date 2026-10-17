@@ -1,25 +1,20 @@
 {
   "framework_id": "usa-federal-doe-c2m2-2-1",
-  "display_name": "US - Department of Energy (DOE) - Cybersecurity Capability Maturity Model version 2.1",
+  "display_name": "USA - Department of Energy (DOE) - Cybersecurity Capability Maturity Model version 2.1",
   "scf_to_framework": {
-    "total_mappings": 224,
+    "total_mappings": 231,
     "mappings": {
-      "GOV-01": [
+      "GOV-02": [
         "PROGRAM-1f",
         "PROGRAM-1g",
         "PROGRAM-2b",
         "PROGRAM-2i"
       ],
-      "GOV-01.1": [
-        "RISK-1f",
-        "PROGRAM-2a",
-        "PROGRAM-2c",
-        "PROGRAM-2d"
+      "GOV-03": [
+        "RISK-2l",
+        "ARCHITECTURE-1f"
       ],
-      "GOV-01.2": [
-        "PROGRAM-2g"
-      ],
-      "GOV-02": [
+      "GOV-04": [
         "ASSET-5c",
         "THREAT-3c",
         "RISK-5c",
@@ -31,10 +26,10 @@
         "ARCHITECTURE-6c",
         "PROGRAM-3c"
       ],
-      "GOV-03": [
+      "GOV-04.1": [
         "PROGRAM-1h"
       ],
-      "GOV-04": [
+      "GOV-05": [
         "ASSET-5d",
         "THREAT-3d",
         "RISK-5d",
@@ -47,15 +42,31 @@
         "PROGRAM-2e",
         "PROGRAM-3d"
       ],
-      "GOV-04.1": [
+      "GOV-05.1": [
         "RISK-1e",
         "PROGRAM-2f"
       ],
-      "GOV-04.2": [
+      "GOV-05.2": [
         "RISK-1e",
         "PROGRAM-2f"
       ],
-      "GOV-05": [
+      "GOV-09": [
+        "RISK-1f",
+        "PROGRAM-2a",
+        "PROGRAM-2c",
+        "PROGRAM-2d"
+      ],
+      "GOV-09.1": [
+        "PROGRAM-2g"
+      ],
+      "GOV-11": [
+        "ARCHITECTURE-1f"
+      ],
+      "GOV-11.1": [
+        "ARCHITECTURE-1f",
+        "ARCHITECTURE-1g"
+      ],
+      "GOV-12": [
         "ASSET-5f",
         "THREAT-3f",
         "RISK-5f",
@@ -69,27 +80,15 @@
         "PROGRAM-2g",
         "PROGRAM-3f"
       ],
-      "GOV-07": [
+      "GOV-16": [
         "PROGRAM-2j"
       ],
-      "GOV-15": [
-        "ARCHITECTURE-1f"
-      ],
-      "GOV-15.1": [
-        "ARCHITECTURE-1f",
-        "ARCHITECTURE-1g"
-      ],
-      "AST-01": [
+      "AST-02": [
         "ASSET-1d",
         "ASSET-1h",
         "ASSET-2e"
       ],
-      "AST-01.1": [
-        "ASSET-1a",
-        "RISK-2m",
-        "THIRD-PARTIES-1a"
-      ],
-      "AST-02": [
+      "AST-04": [
         "ASSET-1a",
         "ASSET-1b",
         "ASSET-1d",
@@ -102,91 +101,125 @@
         "ASSET-2g",
         "RISK-2h"
       ],
-      "AST-02.1": [
+      "AST-04.1": [
         "ASSET-2g"
       ],
-      "AST-02.5": [
-        "ARCHITECTURE-2k"
-      ],
-      "AST-02.9": [
-        "ASSET-1d",
-        "ASSET-2e",
-        "ASSET-2g"
-      ],
-      "AST-09": [
-        "ASSET-1h",
-        "ASSET-2h"
-      ],
-      "AST-31": [
-        "ASSET-2c",
-        "ASSET-2d"
-      ],
-      "BCD-01": [
-        "RESPONSE-4d"
-      ],
-      "BCD-01.4": [
-        "RESPONSE-4g"
-      ],
-      "BCD-01.5": [
-        "RESPONSE-4h"
-      ],
-      "BCD-01.7": [
-        "RESPONSE-4a",
-        "RESPONSE-4e",
-        "RESPONSE-4f",
-        "RESPONSE-4g",
-        "RESPONSE-4m"
-      ],
-      "BCD-02": [
+      "AST-05": [
         "ASSET-1c",
         "ASSET-2c",
         "RISK-2h",
         "RISK-2m",
         "THIRD-PARTIES-1a"
       ],
+      "AST-06": [
+        "ASSET-1a",
+        "RISK-2m",
+        "THIRD-PARTIES-1a"
+      ],
+      "AST-08": [
+        "ASSET-1g"
+      ],
+      "AST-08.1": [
+        "ASSET-1d",
+        "ASSET-2e",
+        "ASSET-2g"
+      ],
+      "AST-09": [
+        "ASSET-1f"
+      ],
+      "AST-15": [
+        "ASSET-2c",
+        "ASSET-2d"
+      ],
+      "AST-22": [
+        "ASSET-1h",
+        "ASSET-2h"
+      ],
+      "AST-37": [
+        "ASSET-1h"
+      ],
+      "AST-39": [
+        "THIRD-PARTIES-2i"
+      ],
+      "AST-39.1": [
+        "THIRD-PARTIES-2i"
+      ],
+      "BCD-02": [
+        "RESPONSE-4d"
+      ],
+      "BCD-03": [
+        "ARCHITECTURE-1j"
+      ],
       "BCD-04": [
+        "RESPONSE-4a",
+        "RESPONSE-4e",
+        "RESPONSE-4f",
+        "RESPONSE-4g",
+        "RESPONSE-4m"
+      ],
+      "BCD-04.1": [
+        "RESPONSE-4g"
+      ],
+      "BCD-05": [
+        "RESPONSE-4h"
+      ],
+      "BCD-07": [
+        "RESPONSE-4p"
+      ],
+      "BCD-10": [
         "RESPONSE-4i",
         "RESPONSE-4n"
       ],
-      "BCD-05": [
+      "BCD-11": [
         "RESPONSE-4o"
       ],
-      "BCD-06": [
-        "RESPONSE-4p"
-      ],
-      "BCD-11": [
-        "RESPONSE-4b",
-        "RESPONSE-4j"
-      ],
-      "BCD-11.1": [
-        "RESPONSE-4b"
-      ],
-      "BCD-11.2": [
-        "RESPONSE-4k"
-      ],
-      "BCD-11.4": [
-        "RESPONSE-4j"
-      ],
-      "BCD-11.9": [
-        "RESPONSE-4j"
-      ],
-      "BCD-15": [
+      "BCD-20": [
         "RESPONSE-4c",
         "RESPONSE-4l"
       ],
-      "CAP-01": [
+      "BCD-24": [
+        "RESPONSE-4b",
+        "RESPONSE-4j"
+      ],
+      "BCD-24.2": [
+        "RESPONSE-4k"
+      ],
+      "BCD-24.3": [
+        "RESPONSE-4j"
+      ],
+      "BCD-30": [
+        "RESPONSE-4j"
+      ],
+      "BCD-32": [
+        "RESPONSE-4b"
+      ],
+      "CAP-02": [
         "ARCHITECTURE-3i"
       ],
-      "CHG-01": [
+      "CHG-02": [
         "ASSET-4a",
         "ASSET-4c",
         "ASSET-4g"
       ],
-      "CHG-02": [
+      "CHG-03": [
         "ASSET-4b",
         "ARCHITECTURE-3l"
       ],
-      "CHG-02.2": [
+      "CHG-04.1": [
+        "ASSET-4e"
+      ],
+      "CHG-04.2": [
+        "ASSET-4e"
+      ],
+      "CHG-05": [
+        "ASSET-4c",
+        "THREAT-1h"
+      ],
+      "CHG-06": [
+        "ASSET-4c",
+        "ASSET-4d"
+      ],
+      "CHG-07": [
         "ASSET-4b",
         "ASSET-4c",
         "ASSET-4d",
@@ -195,49 +228,43 @@
         "ASSET-4i",
         "THREAT-1h"
       ],
-      "CHG-02.3": [
-        "ASSET-4c",
-        "THREAT-1h"
-      ],
-      "CHG-03": [
-        "ASSET-4c",
-        "ASSET-4d"
-      ],
-      "CHG-04": [
+      "CHG-09": [
         "ASSET-4e"
       ],
-      "CHG-04.4": [
-        "ASSET-4e"
-      ],
-      "CHG-06": [
-        "ASSET-4e"
-      ],
-      "CHG-07": [
+      "CHG-10": [
         "ASSET-4f"
       ],
-      "CPL-01": [
+      "CPL-02": [
         "PROGRAM-1g"
       ],
-      "CPL-01.1": [
+      "CPL-04": [
+        "ARCHITECTURE-1i"
+      ],
+      "CPL-04.1": [
+        "ARCHITECTURE-1i"
+      ],
+      "CPL-05.1": [
+        "RISK-4c",
+        "ARCHITECTURE-1i"
+      ],
+      "CPL-06": [
         "RISK-2l",
         "ARCHITECTURE-1i"
       ],
-      "CPL-01.3": [
-        "ARCHITECTURE-1i"
-      ],
-      "CPL-01.4": [
-        "ARCHITECTURE-1i"
-      ],
-      "CPL-02": [
+      "CPL-07": [
         "RISK-4c",
         "ARCHITECTURE-1i",
         "PROGRAM-2h"
       ],
-      "CPL-03.2": [
-        "RISK-4c",
-        "ARCHITECTURE-1i"
+      "CFG-03": [
+        "ARCHITECTURE-3d"
       ],
-      "CFG-02": [
+      "CFG-03.1": [
+        "ASSET-3d",
+        "SITUATION-1f",
+        "ARCHITECTURE-3h"
+      ],
+      "CFG-04": [
         "ASSET-3a",
         "ASSET-3b",
         "ASSET-3c",
@@ -252,57 +279,35 @@
         "ARCHITECTURE-3h",
         "ARCHITECTURE-3l"
       ],
-      "CFG-02.1": [
-        "ASSET-3d",
-        "ASSET-3e"
-      ],
-      "CFG-02.2": [
-        "ASSET-3e"
-      ],
-      "CFG-02.5": [
+      "CFG-05": [
         "SITUATION-1f",
         "ARCHITECTURE-3k"
       ],
-      "CFG-02.9": [
+      "CFG-07": [
         "ASSET-3d",
-        "SITUATION-1f",
-        "ARCHITECTURE-3h"
+        "ASSET-3e"
       ],
-      "CFG-03": [
-        "ARCHITECTURE-3d"
+      "CFG-07.1": [
+        "ASSET-3e"
       ],
-      "CFG-03.3": [
+      "CFG-14": [
         "ARCHITECTURE-3m"
       ],
-      "MON-01": [
+      "CFG-14.1": [
+        "ARCHITECTURE-3m"
+      ],
+      "MON-02": [
         "SITUATION-1a",
         "SITUATION-2c",
         "SITUATION-3g"
       ],
-      "MON-01.2": [
-        "RESPONSE-1d"
-      ],
-      "MON-01.3": [
-        "SITUATION-2b"
-      ],
-      "MON-01.4": [
-        "SITUATION-1a",
-        "SITUATION-1b",
-        "SITUATION-1c",
-        "SITUATION-1d",
-        "SITUATION-1f",
-        "SITUATION-2e"
-      ],
-      "MON-01.8": [
+      "MON-03": [
         "SITUATION-2a",
         "SITUATION-2b",
         "SITUATION-2e",
         "SITUATION-2i"
       ],
-      "MON-01.13": [
-        "SITUATION-3g"
-      ],
-      "MON-01.16": [
+      "MON-03.2": [
         "SITUATION-1a",
         "SITUATION-1f",
         "SITUATION-2f",
@@ -310,15 +315,18 @@
         "SITUATION-3g",
         "RESPONSE-1e"
       ],
-      "MON-02": [
+      "MON-04": [
+        "SITUATION-1a",
+        "SITUATION-1b",
+        "SITUATION-1c",
+        "SITUATION-1d",
+        "SITUATION-1f",
+        "SITUATION-2e"
+      ],
+      "MON-05": [
         "SITUATION-1e"
       ],
-      "MON-02.1": [
-        "SITUATION-1e",
-        "SITUATION-3e",
-        "RESPONSE-1d"
-      ],
-      "MON-02.3": [
+      "MON-05.4": [
         "RESPONSE-1d"
       ],
       "MON-06": [
@@ -328,15 +336,21 @@
         "SITUATION-3d",
         "SITUATION-3f"
       ],
-      "MON-06.2": [
+      "MON-06.1": [
         "SITUATION-3a",
         "SITUATION-3c",
         "SITUATION-3d"
       ],
-      "MON-11.3": [
-        "SITUATION-2d",
-        "SITUATION-2h",
-        "SITUATION-2i"
+      "MON-07": [
+        "SITUATION-3g"
+      ],
+      "MON-08": [
+        "SITUATION-1e",
+        "SITUATION-3e",
+        "RESPONSE-1d"
+      ],
+      "MON-08.1": [
+        "RESPONSE-1d"
       ],
       "MON-16": [
         "ACCESS-2i",
@@ -344,60 +358,69 @@
         "SITUATION-2h",
         "SITUATION-2i"
       ],
-      "CRY-01": [
-        "ARCHITECTURE-5d"
+      "MON-17": [
+        "SITUATION-2d",
+        "SITUATION-2h",
+        "SITUATION-2i"
       ],
-      "CRY-03": [
-        "ARCHITECTURE-5c",
+      "MON-22": [
+        "SITUATION-2b"
+      ],
+      "MON-23": [
+        "ARCHITECTURE-2f"
+      ],
+      "CRY-02": [
         "ARCHITECTURE-5d"
       ],
       "CRY-05": [
+        "ARCHITECTURE-5c",
+        "ARCHITECTURE-5d"
+      ],
+      "CRY-06": [
+        "ARCHITECTURE-5c"
+      ],
+      "CRY-07": [
         "ARCHITECTURE-5a",
         "ARCHITECTURE-5b",
         "ARCHITECTURE-5d"
       ],
-      "CRY-09": [
+      "CRY-10": [
         "ARCHITECTURE-5e"
       ],
-      "DCH-09": [
+      "DCH-18": [
         "ASSET-2h"
       ],
-      "DCH-12": [
+      "DCH-21": [
         "ARCHITECTURE-3g"
       ],
-      "EMB-01": [
+      "DCH-40": [
+        "ARCHITECTURE-5f"
+      ],
+      "EMB-02": [
         "ARCHITECTURE-2j"
       ],
-      "END-01": [
-        "ARCHITECTURE-3b"
+      "EMB-04": [
+        "ASSET-1f",
+        "ASSET-1g"
       ],
       "END-02": [
+        "ARCHITECTURE-3b"
+      ],
+      "END-03": [
         "ARCHITECTURE-3f",
         "ARCHITECTURE-3h"
       ],
-      "HRS-01": [
+      "HRS-02": [
         "WORKFORCE-1g",
         "WORKFORCE-3e",
         "WORKFORCE-3f"
       ],
-      "HRS-02": [
+      "HRS-03": [
         "ACCESS-3h",
         "WORKFORCE-3a"
       ],
-      "HRS-02.1": [
-        "ACCESS-3h"
-      ],
-      "HRS-03": [
-        "THREAT-2a",
-        "RESPONSE-3a",
-        "WORKFORCE-3a",
-        "WORKFORCE-3b",
-        "WORKFORCE-3c",
-        "WORKFORCE-3d"
-      ],
       "HRS-03.1": [
-        "WORKFORCE-1e",
-        "WORKFORCE-2a"
+        "ACCESS-3h"
       ],
       "HRS-03.2": [
         "ASSET-5e",
@@ -412,149 +435,175 @@
         "PROGRAM-3e"
       ],
       "HRS-04": [
+        "THREAT-2a",
+        "RESPONSE-3a",
+        "WORKFORCE-3a",
+        "WORKFORCE-3b",
+        "WORKFORCE-3c",
+        "WORKFORCE-3d"
+      ],
+      "HRS-04.1": [
+        "WORKFORCE-1e",
+        "WORKFORCE-2a"
+      ],
+      "HRS-05": [
         "WORKFORCE-1a",
         "WORKFORCE-1b",
         "WORKFORCE-1c",
         "WORKFORCE-1f"
       ],
-      "HRS-04.1": [
+      "HRS-05.1": [
         "ACCESS-3h",
         "WORKFORCE-1f"
-      ],
-      "HRS-04.2": [
-        "WORKFORCE-1e",
-        "WORKFORCE-2a"
-      ],
-      "HRS-05": [
-        "WORKFORCE-1e"
-      ],
-      "HRS-05.1": [
-        "WORKFORCE-1e"
-      ],
-      "HRS-05.2": [
-        "WORKFORCE-1e"
-      ],
-      "HRS-05.3": [
-        "WORKFORCE-1e"
-      ],
-      "HRS-05.4": [
-        "WORKFORCE-1e"
-      ],
-      "HRS-05.5": [
-        "WORKFORCE-1e"
-      ],
-      "HRS-05.7": [
-        "WORKFORCE-1e"
       ],
       "HRS-06": [
         "WORKFORCE-1e"
       ],
+      "HRS-06.1": [
+        "WORKFORCE-1e"
+      ],
+      "HRS-06.2": [
+        "WORKFORCE-1e"
+      ],
+      "HRS-06.3": [
+        "WORKFORCE-1e"
+      ],
+      "HRS-06.4": [
+        "WORKFORCE-1e"
+      ],
+      "HRS-06.5": [
+        "WORKFORCE-1e"
+      ],
       "HRS-07": [
+        "WORKFORCE-1e"
+      ],
+      "HRS-08.1": [
+        "WORKFORCE-1e",
+        "WORKFORCE-2a"
+      ],
+      "HRS-08.2": [
+        "WORKFORCE-1e"
+      ],
+      "HRS-10": [
         "WORKFORCE-1g"
       ],
-      "HRS-07.1": [
-        "WORKFORCE-1g"
-      ],
-      "HRS-08": [
-        "WORKFORCE-1d"
-      ],
-      "HRS-09": [
-        "WORKFORCE-1d",
+      "HRS-10.1": [
         "WORKFORCE-1g"
       ],
       "HRS-11": [
+        "WORKFORCE-1d"
+      ],
+      "HRS-12": [
+        "WORKFORCE-1d",
+        "WORKFORCE-1g"
+      ],
+      "HRS-14": [
         "ACCESS-2e",
         "ACCESS-3f"
       ],
-      "HRS-13": [
+      "HRS-16": [
         "WORKFORCE-4b",
         "WORKFORCE-4c"
       ],
-      "IAC-01": [
+      "IAC-02": [
         "ACCESS-2a",
         "ACCESS-2c",
         "ACCESS-2f",
         "ARCHITECTURE-3a"
       ],
-      "IAC-01.2": [
+      "IAC-03": [
         "ACCESS-1b"
       ],
-      "IAC-06": [
-        "ACCESS-1h",
-        "ACCESS-1i"
-      ],
-      "IAC-06.1": [
-        "ACCESS-1h"
-      ],
-      "IAC-06.3": [
-        "ACCESS-1h"
-      ],
-      "IAC-07": [
+      "IAC-04": [
         "ACCESS-1a",
         "ACCESS-1c",
         "ACCESS-1f",
         "ACCESS-2f",
         "ACCESS-2g"
       ],
-      "IAC-07.1": [
+      "IAC-04.1": [
         "ACCESS-2f",
         "ACCESS-2g",
         "ACCESS-2h"
       ],
-      "IAC-08": [
+      "IAC-05": [
+        "WORKFORCE-1f"
+      ],
+      "IAC-06": [
         "ACCESS-1g",
         "ACCESS-2b",
         "ARCHITECTURE-3c"
       ],
-      "IAC-10": [
-        "ACCESS-1b"
-      ],
-      "IAC-10.1": [
-        "ACCESS-1b",
-        "ACCESS-1d"
-      ],
-      "IAC-10.2": [
-        "ACCESS-1b"
-      ],
-      "IAC-15": [
+      "IAC-08": [
         "ACCESS-2b"
       ],
-      "IAC-15.3": [
+      "IAC-08.4": [
         "ACCESS-1j"
       ],
-      "IAC-16": [
+      "IAC-09": [
+        "ACCESS-2f",
+        "ACCESS-2g"
+      ],
+      "IAC-09.1": [
+        "ACCESS-2f",
+        "ACCESS-2g"
+      ],
+      "IAC-10": [
         "ACCESS-1g",
         "ACCESS-1h",
         "ACCESS-2b"
       ],
-      "IAC-17": [
+      "IAC-12": [
         "ACCESS-1e",
         "ACCESS-2b",
         "ACCESS-2h"
       ],
-      "IAC-20": [
+      "IAC-14": [
+        "ACCESS-1b"
+      ],
+      "IAC-15": [
+        "ACCESS-1b",
+        "ACCESS-1d"
+      ],
+      "IAC-18": [
+        "ACCESS-1b"
+      ],
+      "IAC-25": [
         "ACCESS-2d"
       ],
-      "IAC-21": [
+      "IAC-30": [
         "ACCESS-1g",
         "ACCESS-2d",
         "ARCHITECTURE-3c"
       ],
-      "IAC-21.3": [
-        "ACCESS-2f",
-        "ACCESS-2g"
+      "IAC-37": [
+        "ACCESS-1h",
+        "ACCESS-1i"
       ],
-      "IAC-28": [
-        "WORKFORCE-1f"
+      "IAC-37.5": [
+        "ACCESS-1h"
       ],
-      "IAC-28.1": [
-        "ACCESS-2f",
-        "ACCESS-2g"
-      ],
-      "IRO-01": [
-        "RESPONSE-1a"
+      "IAC-37.7": [
+        "ACCESS-1h"
       ],
       "IRO-02": [
+        "RESPONSE-1a"
+      ],
+      "IRO-04": [
+        "RESPONSE-1b",
+        "RESPONSE-2a",
+        "RESPONSE-2b",
+        "RESPONSE-2c",
+        "RESPONSE-2d",
+        "RESPONSE-2e",
+        "RESPONSE-2h"
+      ],
+      "IRO-05": [
+        "SITUATION-2d",
+        "SITUATION-2h",
+        "SITUATION-2i"
+      ],
+      "IRO-06": [
         "RESPONSE-1a",
         "RESPONSE-1b",
         "RESPONSE-1f",
@@ -565,21 +614,7 @@
         "RESPONSE-3e",
         "RESPONSE-3l"
       ],
-      "IRO-02.4": [
-        "RESPONSE-1b",
-        "RESPONSE-2a",
-        "RESPONSE-2b",
-        "RESPONSE-2c",
-        "RESPONSE-2d",
-        "RESPONSE-2e",
-        "RESPONSE-2h"
-      ],
-      "IRO-03": [
-        "SITUATION-2d",
-        "SITUATION-2h",
-        "SITUATION-2i"
-      ],
-      "IRO-04": [
+      "IRO-08": [
         "RESPONSE-1a",
         "RESPONSE-3b",
         "RESPONSE-3d",
@@ -587,67 +622,64 @@
         "RESPONSE-3f",
         "RESPONSE-3l"
       ],
-      "IRO-06": [
-        "RESPONSE-3g"
-      ],
-      "IRO-06.1": [
-        "RESPONSE-3j"
-      ],
-      "IRO-07": [
-        "RESPONSE-3a"
+      "IRO-08.1": [
+        "RESPONSE-3h"
       ],
       "IRO-09": [
-        "RESPONSE-1c",
-        "RESPONSE-2f"
+        "RESPONSE-3g"
       ],
-      "IRO-09.3": [
-        "RESPONSE-2f"
+      "IRO-09.1": [
+        "RESPONSE-3j"
       ],
-      "IRO-09.4": [
-        "RESPONSE-2i"
+      "IRO-11": [
+        "RESPONSE-3a"
       ],
-      "IRO-10": [
-        "RESPONSE-2g",
-        "RESPONSE-3c"
-      ],
-      "IRO-10.2": [
-        "RESPONSE-2g",
-        "RESPONSE-3c"
-      ],
-      "IRO-11.2": [
-        "RESPONSE-3j",
-        "RESPONSE-3k"
-      ],
-      "IRO-13": [
+      "IRO-14": [
         "RESPONSE-3h",
         "RESPONSE-3i"
       ],
-      "IAO-01": [
-        "RISK-4c"
+      "IRO-16": [
+        "RESPONSE-2g",
+        "RESPONSE-3c"
+      ],
+      "IRO-16.1": [
+        "RESPONSE-1c",
+        "RESPONSE-2f"
+      ],
+      "IRO-16.2": [
+        "RESPONSE-2g",
+        "RESPONSE-3c"
+      ],
+      "IRO-17": [
+        "RESPONSE-2f"
+      ],
+      "IRO-17.1": [
+        "RESPONSE-2i"
+      ],
+      "IRO-19.1": [
+        "RESPONSE-3j",
+        "RESPONSE-3k"
       ],
       "IAO-02": [
+        "RISK-4c"
+      ],
+      "IAO-04": [
         "RISK-4d"
       ],
-      "IAO-05": [
+      "IAO-12": [
         "RISK-3f",
         "RISK-3g"
       ],
-      "MNT-01": [
+      "MNT-02": [
         "ARCHITECTURE-3i"
       ],
-      "NET-01": [
+      "NET-02": [
         "ARCHITECTURE-2a",
         "ARCHITECTURE-2c",
         "ARCHITECTURE-2f"
       ],
-      "NET-02": [
-        "ARCHITECTURE-2c"
-      ],
       "NET-03.5": [
         "ARCHITECTURE-5f"
-      ],
-      "NET-03.6": [
-        "ARCHITECTURE-2l"
       ],
       "NET-04": [
         "ARCHITECTURE-2e"
@@ -660,38 +692,41 @@
         "ARCHITECTURE-2d",
         "ARCHITECTURE-2h"
       ],
-      "NET-06.4": [
+      "NET-08.2": [
         "ARCHITECTURE-2i",
         "ARCHITECTURE-2j"
       ],
-      "NET-17": [
-        "ARCHITECTURE-5f"
+      "NET-16": [
+        "ARCHITECTURE-2k"
       ],
-      "NET-18": [
+      "NET-17": [
         "ARCHITECTURE-2g",
         "ARCHITECTURE-5f"
       ],
-      "PES-01": [
+      "NET-42.2": [
+        "ARCHITECTURE-2l"
+      ],
+      "PES-02": [
         "ACCESS-3a",
         "ACCESS-3d",
         "ARCHITECTURE-3a",
         "ARCHITECTURE-3j"
       ],
-      "PES-02": [
+      "PES-06": [
         "ACCESS-3b",
         "ACCESS-3d",
         "ACCESS-3f",
         "ACCESS-3g",
         "ACCESS-3i"
       ],
-      "PES-02.1": [
+      "PES-07": [
         "ACCESS-3e",
         "ACCESS-3f"
       ],
-      "PES-02.2": [
+      "PES-07.1": [
         "ACCESS-3f"
       ],
-      "PES-03": [
+      "PES-08": [
         "ACCESS-3a",
         "ACCESS-3d",
         "ACCESS-3e",
@@ -699,14 +734,10 @@
         "ACCESS-3g",
         "ACCESS-3j"
       ],
-      "PES-03.3": [
+      "PES-09.1": [
         "ACCESS-3c"
       ],
-      "PRM-01": [
-        "RISK-1f",
-        "ARCHITECTURE-1e"
-      ],
-      "PRM-01.1": [
+      "PRM-02": [
         "RISK-1a",
         "ARCHITECTURE-1a",
         "PROGRAM-1a",
@@ -715,7 +746,11 @@
         "PROGRAM-1d",
         "PROGRAM-1e"
       ],
-      "PRM-03": [
+      "PRM-04": [
+        "RISK-1f",
+        "ARCHITECTURE-1e"
+      ],
+      "PRM-06": [
         "ASSET-5b",
         "THREAT-3b",
         "RISK-5b",
@@ -727,79 +762,66 @@
         "ARCHITECTURE-6b",
         "PROGRAM-3b"
       ],
-      "PRM-06": [
+      "PRM-10": [
         "ASSET-2d"
       ],
-      "RSK-01": [
+      "RSK-02": [
         "RISK-1b",
         "RISK-1c",
         "RISK-1d",
         "RISK-1g",
         "RISK-1h"
       ],
-      "RSK-01.1": [
+      "RSK-05": [
         "RISK-2m",
         "RISK-3b",
         "SITUATION-2h"
       ],
-      "RSK-02": [
+      "RSK-07": [
         "RISK-2d",
         "RISK-2i",
         "RISK-3a"
       ],
-      "RSK-03": [
+      "RSK-09": [
         "RISK-2a",
         "RISK-2b",
         "RISK-2c",
         "RISK-2g",
         "RISK-2m"
       ],
-      "RSK-03.1": [
+      "RSK-10": [
         "RISK-2e",
         "RISK-2j"
       ],
-      "RSK-04": [
-        "RISK-2g"
-      ],
-      "RSK-04.1": [
-        "RISK-2e",
-        "RISK-2f",
-        "RISK-3f"
-      ],
-      "RSK-04.2": [
+      "RSK-12": [
         "RISK-2g",
         "RISK-3c",
         "RISK-3d",
         "RISK-3e",
         "RISK-4b"
       ],
-      "RSK-06": [
+      "RSK-13": [
+        "RISK-2g"
+      ],
+      "RSK-14": [
+        "RISK-2e",
+        "RISK-2f",
+        "RISK-3f"
+      ],
+      "RSK-16": [
         "RISK-4e"
       ],
-      "RSK-06.1": [
-        "RISK-4e"
-      ],
-      "RSK-06.3": [
+      "RSK-16.1": [
         "RISK-4a",
         "RISK-4b"
       ],
-      "SEA-01": [
-        "ARCHITECTURE-1b",
-        "ARCHITECTURE-1j",
-        "ARCHITECTURE-5g",
-        "ARCHITECTURE-5h"
+      "RSK-17": [
+        "RISK-4e"
       ],
-      "SEA-01.1": [
-        "RISK-2l",
-        "ARCHITECTURE-1f"
-      ],
-      "SEA-01.2": [
+      "SEA-02.1": [
         "ARCHITECTURE-1j"
       ],
-      "SEA-01.3": [
-        "ARCHITECTURE-1j"
-      ],
-      "SEA-02": [
+      "SEA-04": [
         "ARCHITECTURE-1b",
         "ARCHITECTURE-1c",
         "ARCHITECTURE-1d",
@@ -807,13 +829,17 @@
         "ARCHITECTURE-1j",
         "ARCHITECTURE-1k"
       ],
-      "SEA-03": [
-        "ARCHITECTURE-1b"
+      "SEA-05": [
+        "ARCHITECTURE-1b",
+        "ARCHITECTURE-1j",
+        "ARCHITECTURE-5g",
+        "ARCHITECTURE-5h"
       ],
-      "SEA-07.1": [
-        "ASSET-1h"
+      "SEA-06": [
+        "ARCHITECTURE-1b",
+        "ARCHITECTURE-2c"
       ],
-      "OPS-01.1": [
+      "OPS-04": [
         "ASSET-5a",
         "THREAT-3a",
         "RISK-5a",
@@ -825,102 +851,95 @@
         "ARCHITECTURE-6a",
         "PROGRAM-3a"
       ],
-      "SAT-01": [
+      "SAT-02": [
         "WORKFORCE-2a",
         "WORKFORCE-2b",
         "WORKFORCE-2c",
         "WORKFORCE-4f"
       ],
-      "SAT-01.1": [
+      "SAT-03": [
         "WORKFORCE-2g",
         "WORKFORCE-4e"
       ],
-      "SAT-02": [
+      "SAT-04": [
         "WORKFORCE-2a",
         "WORKFORCE-2b",
         "WORKFORCE-2c",
         "WORKFORCE-2d",
         "WORKFORCE-4d"
       ],
-      "SAT-03": [
+      "SAT-05": [
         "WORKFORCE-2e",
         "WORKFORCE-2f",
         "WORKFORCE-4a"
       ],
-      "TDA-01": [
+      "TDA-02": [
         "ARCHITECTURE-4a",
         "ARCHITECTURE-4b",
         "ARCHITECTURE-4e"
       ],
-      "TDA-01.1": [
+      "TDA-03.2": [
         "ARCHITECTURE-4c"
       ],
-      "TDA-02": [
-        "ARCHITECTURE-4b",
-        "ARCHITECTURE-4c",
-        "ARCHITECTURE-4e"
-      ],
-      "TDA-05": [
+      "TDA-04": [
         "ARCHITECTURE-4f"
       ],
-      "TDA-06": [
+      "TDA-05": [
         "ARCHITECTURE-4a",
         "ARCHITECTURE-4d"
       ],
-      "TDA-06.1": [
+      "TDA-05.1": [
         "ASSET-1c",
         "ASSET-1d",
         "ASSET-2c",
         "ASSET-2d"
       ],
-      "TDA-06.5": [
+      "TDA-05.4": [
         "ARCHITECTURE-4f"
       ],
-      "TDA-09": [
-        "ARCHITECTURE-4h"
-      ],
-      "TDA-09.2": [
-        "ARCHITECTURE-4h"
-      ],
-      "TDA-09.3": [
-        "ARCHITECTURE-4h"
-      ],
-      "TDA-09.5": [
-        "ARCHITECTURE-4h"
-      ],
-      "TDA-09.6": [
+      "TDA-06": [
         "ARCHITECTURE-4c"
       ],
-      "TDA-14.1": [
-        "ARCHITECTURE-4g"
+      "TDA-11.1": [
+        "ARCHITECTURE-4b",
+        "ARCHITECTURE-4c",
+        "ARCHITECTURE-4e"
       ],
       "TDA-17": [
-        "THIRD-PARTIES-2i"
+        "ARCHITECTURE-4h"
       ],
       "TDA-17.1": [
-        "THIRD-PARTIES-2i"
+        "ARCHITECTURE-4h"
       ],
-      "TPM-01.1": [
-        "THIRD-PARTIES-1b",
-        "THIRD-PARTIES-1d"
+      "TDA-17.2": [
+        "ARCHITECTURE-4h"
       ],
-      "TPM-02": [
-        "THIRD-PARTIES-1c",
-        "THIRD-PARTIES-1d",
-        "THIRD-PARTIES-1e",
-        "THIRD-PARTIES-1f"
+      "TDA-17.4": [
+        "ARCHITECTURE-4h"
       ],
-      "TPM-03.1": [
+      "TDA-20.3": [
+        "ARCHITECTURE-4g"
+      ],
+      "TDA-21": [
+        "THIRD-PARTIES-2k"
+      ],
+      "TPM-03": [
         "THIRD-PARTIES-2j",
         "THIRD-PARTIES-2k",
         "THIRD-PARTIES-2l",
         "THIRD-PARTIES-2m"
       ],
-      "TPM-04": [
-        "THREAT-2a",
-        "THIRD-PARTIES-1a"
+      "TPM-08": [
+        "THIRD-PARTIES-1b",
+        "THIRD-PARTIES-1d"
       ],
-      "TPM-04.1": [
+      "TPM-09": [
+        "THIRD-PARTIES-1c",
+        "THIRD-PARTIES-1d",
+        "THIRD-PARTIES-1e",
+        "THIRD-PARTIES-1f"
+      ],
+      "TPM-10": [
         "THIRD-PARTIES-1c",
         "THIRD-PARTIES-2a",
         "THIRD-PARTIES-2b",
@@ -928,24 +947,28 @@
         "ARCHITECTURE-4b",
         "ARCHITECTURE-4e"
       ],
-      "TPM-05": [
+      "TPM-11": [
+        "THREAT-2a",
+        "THIRD-PARTIES-1a"
+      ],
+      "TPM-12": [
+        "THREAT-2a",
+        "THIRD-PARTIES-1a"
+      ],
+      "TPM-14": [
         "THIRD-PARTIES-2c",
         "THIRD-PARTIES-2e",
         "THIRD-PARTIES-2f",
         "THIRD-PARTIES-2g",
         "THIRD-PARTIES-2h"
       ],
-      "TPM-05.4": [
-        "THREAT-2a",
-        "THIRD-PARTIES-1a"
-      ],
-      "TPM-05.5": [
+      "TPM-15": [
         "THIRD-PARTIES-2d"
       ],
-      "TPM-08": [
+      "TPM-16": [
         "THIRD-PARTIES-2d"
       ],
-      "THR-03": [
+      "THR-04": [
         "THREAT-1a",
         "THREAT-1b",
         "THREAT-1e",
@@ -955,66 +978,66 @@
         "RISK-2k",
         "SITUATION-3e"
       ],
-      "THR-03.1": [
+      "THR-05": [
         "THREAT-1i",
         "THREAT-2b",
         "THREAT-2h",
         "THREAT-2k"
       ],
       "THR-06": [
-        "THREAT-1m"
-      ],
-      "THR-09": [
         "RISK-2j"
       ],
-      "THR-10": [
+      "THR-08": [
         "THREAT-2c",
         "THREAT-2e",
         "THREAT-2g",
         "THREAT-2i"
       ],
-      "VPM-01": [
+      "THR-12": [
+        "THREAT-1m"
+      ],
+      "VPM-02": [
         "THREAT-1j"
       ],
-      "VPM-01.1": [
+      "VPM-03": [
         "THREAT-1e"
       ],
-      "VPM-03": [
+      "VPM-04": [
+        "THREAT-1b",
+        "THREAT-1g",
+        "THREAT-1h",
+        "THREAT-2b"
+      ],
+      "VPM-05": [
         "THREAT-1b",
         "THREAT-1g",
         "THREAT-1h",
         "THREAT-2b",
         "THREAT-2d"
       ],
-      "VPM-03.1": [
-        "THREAT-1b",
-        "THREAT-1g",
-        "THREAT-1h",
-        "THREAT-2b"
+      "VPM-06.1": [
+        "THREAT-1l",
+        "RISK-2l"
       ],
-      "VPM-04": [
+      "VPM-06.2": [
         "THREAT-1d",
         "THREAT-1i",
         "THREAT-2d"
       ],
-      "VPM-05.1": [
-        "THREAT-1l",
-        "RISK-2l"
-      ],
-      "VPM-05.3": [
+      "VPM-07": [
         "THREAT-1i",
         "RISK-2l"
       ],
-      "VPM-06": [
+      "VPM-12": [
         "THREAT-1c",
         "THREAT-1f",
         "THREAT-1k"
       ],
-      "VPM-06.1": [
+      "VPM-12.1": [
         "THREAT-1a",
         "THREAT-1e"
       ],
-      "VPM-06.2": [
+      "VPM-12.2": [
         "THREAT-1e"
       ]
     }
@@ -1023,585 +1046,572 @@
     "total_mappings": 356,
     "mappings": {
       "PROGRAM-1f": [
-        "GOV-01"
+        "GOV-02"
       ],
       "PROGRAM-1g": [
-        "GOV-01",
-        "CPL-01"
+        "GOV-02",
+        "CPL-02"
       ],
       "PROGRAM-2b": [
-        "GOV-01"
+        "GOV-02"
       ],
       "PROGRAM-2i": [
-        "GOV-01"
-      ],
-      "RISK-1f": [
-        "GOV-01.1",
-        "PRM-01"
-      ],
-      "PROGRAM-2a": [
-        "GOV-01.1"
-      ],
-      "PROGRAM-2c": [
-        "GOV-01.1"
-      ],
-      "PROGRAM-2d": [
-        "GOV-01.1"
-      ],
-      "PROGRAM-2g": [
-        "GOV-01.2",
-        "GOV-05"
-      ],
-      "ASSET-5c": [
         "GOV-02"
       ],
-      "THREAT-3c": [
-        "GOV-02"
-      ],
-      "RISK-5c": [
-        "GOV-02"
-      ],
-      "ACCESS-4c": [
-        "GOV-02"
-      ],
-      "SITUATION-4c": [
-        "GOV-02"
-      ],
-      "RESPONSE-5c": [
-        "GOV-02"
-      ],
-      "THIRD-PARTIES-3c": [
-        "GOV-02"
-      ],
-      "WORKFORCE-5c": [
-        "GOV-02"
-      ],
-      "ARCHITECTURE-6c": [
-        "GOV-02"
-      ],
-      "PROGRAM-3c": [
-        "GOV-02"
-      ],
-      "PROGRAM-1h": [
-        "GOV-03"
-      ],
-      "ASSET-5d": [
-        "GOV-04"
-      ],
-      "THREAT-3d": [
-        "GOV-04"
-      ],
-      "RISK-5d": [
-        "GOV-04"
-      ],
-      "ACCESS-4d": [
-        "GOV-04"
-      ],
-      "SITUATION-4d": [
-        "GOV-04"
-      ],
-      "RESPONSE-5d": [
-        "GOV-04"
-      ],
-      "THIRD-PARTIES-3d": [
-        "GOV-04"
-      ],
-      "WORKFORCE-5d": [
-        "GOV-04"
-      ],
-      "ARCHITECTURE-6d": [
-        "GOV-04"
-      ],
-      "PROGRAM-2e": [
-        "GOV-04"
-      ],
-      "PROGRAM-3d": [
-        "GOV-04"
-      ],
-      "RISK-1e": [
-        "GOV-04.1",
-        "GOV-04.2"
-      ],
-      "PROGRAM-2f": [
-        "GOV-04.1",
-        "GOV-04.2"
-      ],
-      "ASSET-5f": [
-        "GOV-05"
-      ],
-      "THREAT-3f": [
-        "GOV-05"
-      ],
-      "RISK-5f": [
-        "GOV-05"
-      ],
-      "ACCESS-4f": [
-        "GOV-05"
-      ],
-      "SITUATION-3d": [
-        "GOV-05",
-        "MON-06",
-        "MON-06.2"
-      ],
-      "SITUATION-4f": [
-        "GOV-05"
-      ],
-      "RESPONSE-5f": [
-        "GOV-05"
-      ],
-      "THIRD-PARTIES-3f": [
-        "GOV-05"
-      ],
-      "WORKFORCE-5f": [
-        "GOV-05"
-      ],
-      "ARCHITECTURE-6f": [
-        "GOV-05"
-      ],
-      "PROGRAM-3f": [
-        "GOV-05"
-      ],
-      "PROGRAM-2j": [
-        "GOV-07"
+      "RISK-2l": [
+        "GOV-03",
+        "CPL-06",
+        "VPM-06.1",
+        "VPM-07"
       ],
       "ARCHITECTURE-1f": [
-        "GOV-15",
-        "GOV-15.1",
-        "SEA-01.1"
+        "GOV-03",
+        "GOV-11",
+        "GOV-11.1"
+      ],
+      "ASSET-5c": [
+        "GOV-04"
+      ],
+      "THREAT-3c": [
+        "GOV-04"
+      ],
+      "RISK-5c": [
+        "GOV-04"
+      ],
+      "ACCESS-4c": [
+        "GOV-04"
+      ],
+      "SITUATION-4c": [
+        "GOV-04"
+      ],
+      "RESPONSE-5c": [
+        "GOV-04"
+      ],
+      "THIRD-PARTIES-3c": [
+        "GOV-04"
+      ],
+      "WORKFORCE-5c": [
+        "GOV-04"
+      ],
+      "ARCHITECTURE-6c": [
+        "GOV-04"
+      ],
+      "PROGRAM-3c": [
+        "GOV-04"
+      ],
+      "PROGRAM-1h": [
+        "GOV-04.1"
+      ],
+      "ASSET-5d": [
+        "GOV-05"
+      ],
+      "THREAT-3d": [
+        "GOV-05"
+      ],
+      "RISK-5d": [
+        "GOV-05"
+      ],
+      "ACCESS-4d": [
+        "GOV-05"
+      ],
+      "SITUATION-4d": [
+        "GOV-05"
+      ],
+      "RESPONSE-5d": [
+        "GOV-05"
+      ],
+      "THIRD-PARTIES-3d": [
+        "GOV-05"
+      ],
+      "WORKFORCE-5d": [
+        "GOV-05"
+      ],
+      "ARCHITECTURE-6d": [
+        "GOV-05"
+      ],
+      "PROGRAM-2e": [
+        "GOV-05"
+      ],
+      "PROGRAM-3d": [
+        "GOV-05"
+      ],
+      "RISK-1e": [
+        "GOV-05.1",
+        "GOV-05.2"
+      ],
+      "PROGRAM-2f": [
+        "GOV-05.1",
+        "GOV-05.2"
+      ],
+      "RISK-1f": [
+        "GOV-09",
+        "PRM-04"
+      ],
+      "PROGRAM-2a": [
+        "GOV-09"
+      ],
+      "PROGRAM-2c": [
+        "GOV-09"
+      ],
+      "PROGRAM-2d": [
+        "GOV-09"
+      ],
+      "PROGRAM-2g": [
+        "GOV-09.1",
+        "GOV-12"
       ],
       "ARCHITECTURE-1g": [
-        "GOV-15.1"
+        "GOV-11.1"
+      ],
+      "ASSET-5f": [
+        "GOV-12"
+      ],
+      "THREAT-3f": [
+        "GOV-12"
+      ],
+      "RISK-5f": [
+        "GOV-12"
+      ],
+      "ACCESS-4f": [
+        "GOV-12"
+      ],
+      "SITUATION-3d": [
+        "GOV-12",
+        "MON-06",
+        "MON-06.1"
+      ],
+      "SITUATION-4f": [
+        "GOV-12"
+      ],
+      "RESPONSE-5f": [
+        "GOV-12"
+      ],
+      "THIRD-PARTIES-3f": [
+        "GOV-12"
+      ],
+      "WORKFORCE-5f": [
+        "GOV-12"
+      ],
+      "ARCHITECTURE-6f": [
+        "GOV-12"
+      ],
+      "PROGRAM-3f": [
+        "GOV-12"
+      ],
+      "PROGRAM-2j": [
+        "GOV-16"
       ],
       "ASSET-1d": [
-        "AST-01",
         "AST-02",
-        "AST-02.9",
-        "TDA-06.1"
+        "AST-04",
+        "AST-08.1",
+        "TDA-05.1"
       ],
       "ASSET-1h": [
-        "AST-01",
-        "AST-09",
-        "SEA-07.1"
+        "AST-02",
+        "AST-22",
+        "AST-37"
       ],
       "ASSET-2e": [
-        "AST-01",
-        "AST-02.9"
+        "AST-02",
+        "AST-08.1"
       ],
       "ASSET-1a": [
-        "AST-01.1",
-        "AST-02"
-      ],
-      "RISK-2m": [
-        "AST-01.1",
-        "BCD-02",
-        "RSK-01.1",
-        "RSK-03"
-      ],
-      "THIRD-PARTIES-1a": [
-        "AST-01.1",
-        "BCD-02",
-        "TPM-04",
-        "TPM-05.4"
+        "AST-04",
+        "AST-06"
       ],
       "ASSET-1b": [
-        "AST-02"
+        "AST-04"
       ],
       "ASSET-1e": [
-        "AST-02"
+        "AST-04"
       ],
       "ASSET-1f": [
-        "AST-02"
+        "AST-04",
+        "AST-09",
+        "EMB-04"
       ],
       "ASSET-1g": [
-        "AST-02"
+        "AST-04",
+        "AST-08",
+        "EMB-04"
       ],
       "ASSET-2a": [
-        "AST-02"
+        "AST-04"
       ],
       "ASSET-2b": [
-        "AST-02"
+        "AST-04"
       ],
       "ASSET-2f": [
-        "AST-02"
+        "AST-04"
       ],
       "ASSET-2g": [
-        "AST-02",
-        "AST-02.1",
-        "AST-02.9"
+        "AST-04",
+        "AST-04.1",
+        "AST-08.1"
       ],
       "RISK-2h": [
-        "AST-02",
-        "BCD-02"
-      ],
-      "ARCHITECTURE-2k": [
-        "AST-02.5"
-      ],
-      "ASSET-2h": [
-        "AST-09",
-        "DCH-09"
-      ],
-      "ASSET-2c": [
-        "AST-31",
-        "BCD-02",
-        "TDA-06.1"
-      ],
-      "ASSET-2d": [
-        "AST-31",
-        "PRM-06",
-        "TDA-06.1"
-      ],
-      "RESPONSE-4d": [
-        "BCD-01"
-      ],
-      "RESPONSE-4g": [
-        "BCD-01.4",
-        "BCD-01.7"
-      ],
-      "RESPONSE-4h": [
-        "BCD-01.5"
-      ],
-      "RESPONSE-4a": [
-        "BCD-01.7"
-      ],
-      "RESPONSE-4e": [
-        "BCD-01.7"
-      ],
-      "RESPONSE-4f": [
-        "BCD-01.7"
-      ],
-      "RESPONSE-4m": [
-        "BCD-01.7"
+        "AST-04",
+        "AST-05"
       ],
       "ASSET-1c": [
-        "BCD-02",
-        "TDA-06.1"
+        "AST-05",
+        "TDA-05.1"
       ],
-      "RESPONSE-4i": [
+      "ASSET-2c": [
+        "AST-05",
+        "AST-15",
+        "TDA-05.1"
+      ],
+      "RISK-2m": [
+        "AST-05",
+        "AST-06",
+        "RSK-05",
+        "RSK-09"
+      ],
+      "THIRD-PARTIES-1a": [
+        "AST-05",
+        "AST-06",
+        "TPM-11",
+        "TPM-12"
+      ],
+      "ASSET-2d": [
+        "AST-15",
+        "PRM-10",
+        "TDA-05.1"
+      ],
+      "ASSET-2h": [
+        "AST-22",
+        "DCH-18"
+      ],
+      "THIRD-PARTIES-2i": [
+        "AST-39",
+        "AST-39.1",
+        "TPM-10"
+      ],
+      "RESPONSE-4d": [
+        "BCD-02"
+      ],
+      "ARCHITECTURE-1j": [
+        "BCD-03",
+        "SEA-02.1",
+        "SEA-04",
+        "SEA-05"
+      ],
+      "RESPONSE-4a": [
         "BCD-04"
       ],
-      "RESPONSE-4n": [
+      "RESPONSE-4e": [
         "BCD-04"
       ],
-      "RESPONSE-4o": [
+      "RESPONSE-4f": [
+        "BCD-04"
+      ],
+      "RESPONSE-4g": [
+        "BCD-04",
+        "BCD-04.1"
+      ],
+      "RESPONSE-4m": [
+        "BCD-04"
+      ],
+      "RESPONSE-4h": [
         "BCD-05"
       ],
       "RESPONSE-4p": [
-        "BCD-06"
+        "BCD-07"
       ],
-      "RESPONSE-4b": [
-        "BCD-11",
-        "BCD-11.1"
+      "RESPONSE-4i": [
+        "BCD-10"
       ],
-      "RESPONSE-4j": [
-        "BCD-11",
-        "BCD-11.4",
-        "BCD-11.9"
+      "RESPONSE-4n": [
+        "BCD-10"
       ],
-      "RESPONSE-4k": [
-        "BCD-11.2"
+      "RESPONSE-4o": [
+        "BCD-11"
       ],
       "RESPONSE-4c": [
-        "BCD-15"
+        "BCD-20"
       ],
       "RESPONSE-4l": [
-        "BCD-15"
+        "BCD-20"
+      ],
+      "RESPONSE-4b": [
+        "BCD-24",
+        "BCD-32"
+      ],
+      "RESPONSE-4j": [
+        "BCD-24",
+        "BCD-24.3",
+        "BCD-30"
+      ],
+      "RESPONSE-4k": [
+        "BCD-24.2"
       ],
       "ARCHITECTURE-3i": [
-        "CAP-01",
-        "MNT-01"
+        "CAP-02",
+        "MNT-02"
       ],
       "ASSET-4a": [
-        "CHG-01"
+        "CHG-02"
       ],
       "ASSET-4c": [
-        "CHG-01",
-        "CHG-02.2",
-        "CHG-02.3",
-        "CHG-03"
-      ],
-      "ASSET-4g": [
-        "CHG-01"
-      ],
-      "ASSET-4b": [
         "CHG-02",
-        "CHG-02.2"
-      ],
-      "ARCHITECTURE-3l": [
-        "CHG-02",
-        "CFG-02"
-      ],
-      "ASSET-4d": [
-        "CHG-02.2",
-        "CHG-03"
-      ],
-      "ASSET-4f": [
-        "CHG-02.2",
+        "CHG-05",
+        "CHG-06",
         "CHG-07"
       ],
-      "ASSET-4h": [
-        "CHG-02.2"
+      "ASSET-4g": [
+        "CHG-02"
       ],
-      "ASSET-4i": [
-        "CHG-02.2"
+      "ASSET-4b": [
+        "CHG-03",
+        "CHG-07"
       ],
-      "THREAT-1h": [
-        "CHG-02.2",
-        "CHG-02.3",
-        "VPM-03",
-        "VPM-03.1"
+      "ARCHITECTURE-3l": [
+        "CHG-03",
+        "CFG-04"
       ],
       "ASSET-4e": [
-        "CHG-04",
-        "CHG-04.4",
-        "CHG-06"
+        "CHG-04.1",
+        "CHG-04.2",
+        "CHG-09"
       ],
-      "RISK-2l": [
-        "CPL-01.1",
-        "SEA-01.1",
-        "VPM-05.1",
-        "VPM-05.3"
+      "THREAT-1h": [
+        "CHG-05",
+        "CHG-07",
+        "VPM-04",
+        "VPM-05"
+      ],
+      "ASSET-4d": [
+        "CHG-06",
+        "CHG-07"
+      ],
+      "ASSET-4f": [
+        "CHG-07",
+        "CHG-10"
+      ],
+      "ASSET-4h": [
+        "CHG-07"
+      ],
+      "ASSET-4i": [
+        "CHG-07"
       ],
       "ARCHITECTURE-1i": [
-        "CPL-01.1",
-        "CPL-01.3",
-        "CPL-01.4",
-        "CPL-02",
-        "CPL-03.2"
+        "CPL-04",
+        "CPL-04.1",
+        "CPL-05.1",
+        "CPL-06",
+        "CPL-07"
       ],
       "RISK-4c": [
-        "CPL-02",
-        "CPL-03.2",
-        "IAO-01"
+        "CPL-05.1",
+        "CPL-07",
+        "IAO-02"
       ],
       "PROGRAM-2h": [
-        "CPL-02"
+        "CPL-07"
+      ],
+      "ARCHITECTURE-3d": [
+        "CFG-03",
+        "CFG-04"
+      ],
+      "ASSET-3d": [
+        "CFG-03.1",
+        "CFG-07"
+      ],
+      "SITUATION-1f": [
+        "CFG-03.1",
+        "CFG-05",
+        "MON-03.2",
+        "MON-04"
+      ],
+      "ARCHITECTURE-3h": [
+        "CFG-03.1",
+        "CFG-04",
+        "END-03"
       ],
       "ASSET-3a": [
-        "CFG-02"
+        "CFG-04"
       ],
       "ASSET-3b": [
-        "CFG-02"
+        "CFG-04"
       ],
       "ASSET-3c": [
-        "CFG-02"
+        "CFG-04"
       ],
       "SITUATION-1c": [
-        "CFG-02",
-        "MON-01.4"
+        "CFG-04",
+        "MON-04"
       ],
       "SITUATION-1d": [
-        "CFG-02",
-        "MON-01.4"
+        "CFG-04",
+        "MON-04"
       ],
       "ARCHITECTURE-2e": [
-        "CFG-02",
+        "CFG-04",
         "NET-04",
         "NET-04.1"
       ],
       "ARCHITECTURE-3b": [
-        "CFG-02",
-        "END-01"
-      ],
-      "ARCHITECTURE-3d": [
-        "CFG-02",
-        "CFG-03"
+        "CFG-04",
+        "END-02"
       ],
       "ARCHITECTURE-3e": [
-        "CFG-02"
+        "CFG-04"
       ],
       "ARCHITECTURE-3f": [
-        "CFG-02",
-        "END-02"
+        "CFG-04",
+        "END-03"
       ],
       "ARCHITECTURE-3g": [
-        "CFG-02",
-        "DCH-12"
-      ],
-      "ARCHITECTURE-3h": [
-        "CFG-02",
-        "CFG-02.9",
-        "END-02"
-      ],
-      "ASSET-3d": [
-        "CFG-02.1",
-        "CFG-02.9"
-      ],
-      "ASSET-3e": [
-        "CFG-02.1",
-        "CFG-02.2"
-      ],
-      "SITUATION-1f": [
-        "CFG-02.5",
-        "CFG-02.9",
-        "MON-01.4",
-        "MON-01.16"
+        "CFG-04",
+        "DCH-21"
       ],
       "ARCHITECTURE-3k": [
-        "CFG-02.5"
+        "CFG-05"
+      ],
+      "ASSET-3e": [
+        "CFG-07",
+        "CFG-07.1"
       ],
       "ARCHITECTURE-3m": [
-        "CFG-03.3"
+        "CFG-14",
+        "CFG-14.1"
       ],
       "SITUATION-1a": [
-        "MON-01",
-        "MON-01.4",
-        "MON-01.16"
+        "MON-02",
+        "MON-03.2",
+        "MON-04"
       ],
       "SITUATION-2c": [
-        "MON-01"
+        "MON-02"
       ],
       "SITUATION-3g": [
-        "MON-01",
-        "MON-01.13",
-        "MON-01.16"
-      ],
-      "RESPONSE-1d": [
-        "MON-01.2",
-        "MON-02.1",
-        "MON-02.3"
-      ],
-      "SITUATION-2b": [
-        "MON-01.3",
-        "MON-01.8"
-      ],
-      "SITUATION-1b": [
-        "MON-01.4"
-      ],
-      "SITUATION-2e": [
-        "MON-01.4",
-        "MON-01.8"
+        "MON-02",
+        "MON-03.2",
+        "MON-07"
       ],
       "SITUATION-2a": [
-        "MON-01.8"
+        "MON-03"
+      ],
+      "SITUATION-2b": [
+        "MON-03",
+        "MON-22"
+      ],
+      "SITUATION-2e": [
+        "MON-03",
+        "MON-04"
       ],
       "SITUATION-2i": [
-        "MON-01.8",
-        "MON-11.3",
+        "MON-03",
         "MON-16",
-        "IRO-03"
+        "MON-17",
+        "IRO-05"
       ],
       "SITUATION-2f": [
-        "MON-01.16"
+        "MON-03.2"
       ],
       "SITUATION-2g": [
-        "MON-01.16"
+        "MON-03.2"
       ],
       "RESPONSE-1e": [
-        "MON-01.16"
+        "MON-03.2"
+      ],
+      "SITUATION-1b": [
+        "MON-04"
       ],
       "SITUATION-1e": [
-        "MON-02",
-        "MON-02.1"
+        "MON-05",
+        "MON-08"
       ],
-      "SITUATION-3e": [
-        "MON-02.1",
-        "THR-03"
+      "RESPONSE-1d": [
+        "MON-05.4",
+        "MON-08",
+        "MON-08.1"
       ],
       "SITUATION-3a": [
         "MON-06",
-        "MON-06.2"
+        "MON-06.1"
       ],
       "SITUATION-3b": [
         "MON-06"
       ],
       "SITUATION-3c": [
         "MON-06",
-        "MON-06.2"
+        "MON-06.1"
       ],
       "SITUATION-3f": [
         "MON-06"
       ],
-      "SITUATION-2d": [
-        "MON-11.3",
-        "MON-16",
-        "IRO-03"
-      ],
-      "SITUATION-2h": [
-        "MON-11.3",
-        "MON-16",
-        "IRO-03",
-        "RSK-01.1"
+      "SITUATION-3e": [
+        "MON-08",
+        "THR-04"
       ],
       "ACCESS-2i": [
         "MON-16"
       ],
+      "SITUATION-2d": [
+        "MON-16",
+        "MON-17",
+        "IRO-05"
+      ],
+      "SITUATION-2h": [
+        "MON-16",
+        "MON-17",
+        "IRO-05",
+        "RSK-05"
+      ],
+      "ARCHITECTURE-2f": [
+        "MON-23",
+        "NET-02"
+      ],
       "ARCHITECTURE-5d": [
-        "CRY-01",
-        "CRY-03",
-        "CRY-05"
+        "CRY-02",
+        "CRY-05",
+        "CRY-07"
       ],
       "ARCHITECTURE-5c": [
-        "CRY-03"
+        "CRY-05",
+        "CRY-06"
       ],
       "ARCHITECTURE-5a": [
-        "CRY-05"
+        "CRY-07"
       ],
       "ARCHITECTURE-5b": [
-        "CRY-05"
+        "CRY-07"
       ],
       "ARCHITECTURE-5e": [
-        "CRY-09"
+        "CRY-10"
+      ],
+      "ARCHITECTURE-5f": [
+        "DCH-40",
+        "NET-03.5",
+        "NET-17"
       ],
       "ARCHITECTURE-2j": [
-        "EMB-01",
-        "NET-06.4"
+        "EMB-02",
+        "NET-08.2"
       ],
       "WORKFORCE-1g": [
-        "HRS-01",
-        "HRS-07",
-        "HRS-07.1",
-        "HRS-09"
+        "HRS-02",
+        "HRS-10",
+        "HRS-10.1",
+        "HRS-12"
       ],
       "WORKFORCE-3e": [
-        "HRS-01"
+        "HRS-02"
       ],
       "WORKFORCE-3f": [
-        "HRS-01"
+        "HRS-02"
       ],
       "ACCESS-3h": [
-        "HRS-02",
-        "HRS-02.1",
-        "HRS-04.1"
+        "HRS-03",
+        "HRS-03.1",
+        "HRS-05.1"
       ],
       "WORKFORCE-3a": [
-        "HRS-02",
-        "HRS-03"
-      ],
-      "THREAT-2a": [
         "HRS-03",
-        "TPM-04",
-        "TPM-05.4"
-      ],
-      "RESPONSE-3a": [
-        "HRS-03",
-        "IRO-07"
-      ],
-      "WORKFORCE-3b": [
-        "HRS-03"
-      ],
-      "WORKFORCE-3c": [
-        "HRS-03"
-      ],
-      "WORKFORCE-3d": [
-        "HRS-03"
-      ],
-      "WORKFORCE-1e": [
-        "HRS-03.1",
-        "HRS-04.2",
-        "HRS-05",
-        "HRS-05.1",
-        "HRS-05.2",
-        "HRS-05.3",
-        "HRS-05.4",
-        "HRS-05.5",
-        "HRS-05.7",
-        "HRS-06"
-      ],
-      "WORKFORCE-2a": [
-        "HRS-03.1",
-        "HRS-04.2",
-        "SAT-01",
-        "SAT-02"
+        "HRS-04"
       ],
       "ASSET-5e": [
         "HRS-03.2"
@@ -1633,231 +1643,257 @@
       "PROGRAM-3e": [
         "HRS-03.2"
       ],
-      "WORKFORCE-1a": [
+      "THREAT-2a": [
+        "HRS-04",
+        "TPM-11",
+        "TPM-12"
+      ],
+      "RESPONSE-3a": [
+        "HRS-04",
+        "IRO-11"
+      ],
+      "WORKFORCE-3b": [
         "HRS-04"
+      ],
+      "WORKFORCE-3c": [
+        "HRS-04"
+      ],
+      "WORKFORCE-3d": [
+        "HRS-04"
+      ],
+      "WORKFORCE-1e": [
+        "HRS-04.1",
+        "HRS-06",
+        "HRS-06.1",
+        "HRS-06.2",
+        "HRS-06.3",
+        "HRS-06.4",
+        "HRS-06.5",
+        "HRS-07",
+        "HRS-08.1",
+        "HRS-08.2"
+      ],
+      "WORKFORCE-2a": [
+        "HRS-04.1",
+        "HRS-08.1",
+        "SAT-02",
+        "SAT-04"
+      ],
+      "WORKFORCE-1a": [
+        "HRS-05"
       ],
       "WORKFORCE-1b": [
-        "HRS-04"
+        "HRS-05"
       ],
       "WORKFORCE-1c": [
-        "HRS-04"
+        "HRS-05"
       ],
       "WORKFORCE-1f": [
-        "HRS-04",
-        "HRS-04.1",
-        "IAC-28"
+        "HRS-05",
+        "HRS-05.1",
+        "IAC-05"
       ],
       "WORKFORCE-1d": [
-        "HRS-08",
-        "HRS-09"
+        "HRS-11",
+        "HRS-12"
       ],
       "ACCESS-2e": [
-        "HRS-11"
+        "HRS-14"
       ],
       "ACCESS-3f": [
-        "HRS-11",
-        "PES-02",
-        "PES-02.1",
-        "PES-02.2",
-        "PES-03"
+        "HRS-14",
+        "PES-06",
+        "PES-07",
+        "PES-07.1",
+        "PES-08"
       ],
       "WORKFORCE-4b": [
-        "HRS-13"
+        "HRS-16"
       ],
       "WORKFORCE-4c": [
-        "HRS-13"
+        "HRS-16"
       ],
       "ACCESS-2a": [
-        "IAC-01"
+        "IAC-02"
       ],
       "ACCESS-2c": [
-        "IAC-01"
+        "IAC-02"
       ],
       "ACCESS-2f": [
-        "IAC-01",
-        "IAC-07",
-        "IAC-07.1",
-        "IAC-21.3",
-        "IAC-28.1"
+        "IAC-02",
+        "IAC-04",
+        "IAC-04.1",
+        "IAC-09",
+        "IAC-09.1"
       ],
       "ARCHITECTURE-3a": [
-        "IAC-01",
-        "PES-01"
+        "IAC-02",
+        "PES-02"
       ],
       "ACCESS-1b": [
-        "IAC-01.2",
-        "IAC-10",
-        "IAC-10.1",
-        "IAC-10.2"
-      ],
-      "ACCESS-1h": [
-        "IAC-06",
-        "IAC-06.1",
-        "IAC-06.3",
-        "IAC-16"
-      ],
-      "ACCESS-1i": [
-        "IAC-06"
+        "IAC-03",
+        "IAC-14",
+        "IAC-15",
+        "IAC-18"
       ],
       "ACCESS-1a": [
-        "IAC-07"
+        "IAC-04"
       ],
       "ACCESS-1c": [
-        "IAC-07"
+        "IAC-04"
       ],
       "ACCESS-1f": [
-        "IAC-07"
+        "IAC-04"
       ],
       "ACCESS-2g": [
-        "IAC-07",
-        "IAC-07.1",
-        "IAC-21.3",
-        "IAC-28.1"
+        "IAC-04",
+        "IAC-04.1",
+        "IAC-09",
+        "IAC-09.1"
       ],
       "ACCESS-2h": [
-        "IAC-07.1",
-        "IAC-17"
+        "IAC-04.1",
+        "IAC-12"
       ],
       "ACCESS-1g": [
-        "IAC-08",
-        "IAC-16",
-        "IAC-21"
+        "IAC-06",
+        "IAC-10",
+        "IAC-30"
       ],
       "ACCESS-2b": [
+        "IAC-06",
         "IAC-08",
-        "IAC-15",
-        "IAC-16",
-        "IAC-17"
+        "IAC-10",
+        "IAC-12"
       ],
       "ARCHITECTURE-3c": [
-        "IAC-08",
-        "IAC-21"
-      ],
-      "ACCESS-1d": [
-        "IAC-10.1"
+        "IAC-06",
+        "IAC-30"
       ],
       "ACCESS-1j": [
-        "IAC-15.3"
+        "IAC-08.4"
+      ],
+      "ACCESS-1h": [
+        "IAC-10",
+        "IAC-37",
+        "IAC-37.5",
+        "IAC-37.7"
       ],
       "ACCESS-1e": [
-        "IAC-17"
+        "IAC-12"
+      ],
+      "ACCESS-1d": [
+        "IAC-15"
       ],
       "ACCESS-2d": [
-        "IAC-20",
-        "IAC-21"
+        "IAC-25",
+        "IAC-30"
+      ],
+      "ACCESS-1i": [
+        "IAC-37"
       ],
       "RESPONSE-1a": [
-        "IRO-01",
         "IRO-02",
-        "IRO-04"
+        "IRO-06",
+        "IRO-08"
       ],
       "RESPONSE-1b": [
-        "IRO-02",
-        "IRO-02.4"
-      ],
-      "RESPONSE-1f": [
-        "IRO-02"
-      ],
-      "RESPONSE-2a": [
-        "IRO-02",
-        "IRO-02.4"
-      ],
-      "RESPONSE-2b": [
-        "IRO-02",
-        "IRO-02.4"
-      ],
-      "RESPONSE-3b": [
-        "IRO-02",
-        "IRO-04"
-      ],
-      "RESPONSE-3c": [
-        "IRO-02",
-        "IRO-10",
-        "IRO-10.2"
-      ],
-      "RESPONSE-3e": [
-        "IRO-02",
-        "IRO-04"
-      ],
-      "RESPONSE-3l": [
-        "IRO-02",
-        "IRO-04"
-      ],
-      "RESPONSE-2c": [
-        "IRO-02.4"
-      ],
-      "RESPONSE-2d": [
-        "IRO-02.4"
-      ],
-      "RESPONSE-2e": [
-        "IRO-02.4"
-      ],
-      "RESPONSE-2h": [
-        "IRO-02.4"
-      ],
-      "RESPONSE-3d": [
-        "IRO-04"
-      ],
-      "RESPONSE-3f": [
-        "IRO-04"
-      ],
-      "RESPONSE-3g": [
+        "IRO-04",
         "IRO-06"
       ],
-      "RESPONSE-3j": [
-        "IRO-06.1",
-        "IRO-11.2"
+      "RESPONSE-2a": [
+        "IRO-04",
+        "IRO-06"
       ],
-      "RESPONSE-1c": [
-        "IRO-09"
+      "RESPONSE-2b": [
+        "IRO-04",
+        "IRO-06"
       ],
-      "RESPONSE-2f": [
-        "IRO-09",
-        "IRO-09.3"
+      "RESPONSE-2c": [
+        "IRO-04"
       ],
-      "RESPONSE-2i": [
-        "IRO-09.4"
+      "RESPONSE-2d": [
+        "IRO-04"
       ],
-      "RESPONSE-2g": [
-        "IRO-10",
-        "IRO-10.2"
+      "RESPONSE-2e": [
+        "IRO-04"
       ],
-      "RESPONSE-3k": [
-        "IRO-11.2"
+      "RESPONSE-2h": [
+        "IRO-04"
+      ],
+      "RESPONSE-1f": [
+        "IRO-06"
+      ],
+      "RESPONSE-3b": [
+        "IRO-06",
+        "IRO-08"
+      ],
+      "RESPONSE-3c": [
+        "IRO-06",
+        "IRO-16",
+        "IRO-16.2"
+      ],
+      "RESPONSE-3e": [
+        "IRO-06",
+        "IRO-08"
+      ],
+      "RESPONSE-3l": [
+        "IRO-06",
+        "IRO-08"
+      ],
+      "RESPONSE-3d": [
+        "IRO-08"
+      ],
+      "RESPONSE-3f": [
+        "IRO-08"
       ],
       "RESPONSE-3h": [
-        "IRO-13"
+        "IRO-08.1",
+        "IRO-14"
+      ],
+      "RESPONSE-3g": [
+        "IRO-09"
+      ],
+      "RESPONSE-3j": [
+        "IRO-09.1",
+        "IRO-19.1"
       ],
       "RESPONSE-3i": [
-        "IRO-13"
+        "IRO-14"
+      ],
+      "RESPONSE-2g": [
+        "IRO-16",
+        "IRO-16.2"
+      ],
+      "RESPONSE-1c": [
+        "IRO-16.1"
+      ],
+      "RESPONSE-2f": [
+        "IRO-16.1",
+        "IRO-17"
+      ],
+      "RESPONSE-2i": [
+        "IRO-17.1"
+      ],
+      "RESPONSE-3k": [
+        "IRO-19.1"
       ],
       "RISK-4d": [
-        "IAO-02"
+        "IAO-04"
       ],
       "RISK-3f": [
-        "IAO-05",
-        "RSK-04.1"
+        "IAO-12",
+        "RSK-14"
       ],
       "RISK-3g": [
-        "IAO-05"
+        "IAO-12"
       ],
       "ARCHITECTURE-2a": [
-        "NET-01"
-      ],
-      "ARCHITECTURE-2c": [
-        "NET-01",
         "NET-02"
       ],
-      "ARCHITECTURE-2f": [
-        "NET-01"
-      ],
-      "ARCHITECTURE-5f": [
-        "NET-03.5",
-        "NET-17",
-        "NET-18"
-      ],
-      "ARCHITECTURE-2l": [
-        "NET-03.6"
+      "ARCHITECTURE-2c": [
+        "NET-02",
+        "SEA-06"
       ],
       "ARCHITECTURE-2b": [
         "NET-06"
@@ -1869,435 +1905,431 @@
         "NET-06"
       ],
       "ARCHITECTURE-2i": [
-        "NET-06.4"
+        "NET-08.2"
+      ],
+      "ARCHITECTURE-2k": [
+        "NET-16"
       ],
       "ARCHITECTURE-2g": [
-        "NET-18"
+        "NET-17"
+      ],
+      "ARCHITECTURE-2l": [
+        "NET-42.2"
       ],
       "ACCESS-3a": [
-        "PES-01",
-        "PES-03"
+        "PES-02",
+        "PES-08"
       ],
       "ACCESS-3d": [
-        "PES-01",
         "PES-02",
-        "PES-03"
+        "PES-06",
+        "PES-08"
       ],
       "ARCHITECTURE-3j": [
-        "PES-01"
+        "PES-02"
       ],
       "ACCESS-3b": [
-        "PES-02"
+        "PES-06"
       ],
       "ACCESS-3g": [
-        "PES-02",
-        "PES-03"
+        "PES-06",
+        "PES-08"
       ],
       "ACCESS-3i": [
-        "PES-02"
+        "PES-06"
       ],
       "ACCESS-3e": [
-        "PES-02.1",
-        "PES-03"
+        "PES-07",
+        "PES-08"
       ],
       "ACCESS-3j": [
-        "PES-03"
+        "PES-08"
       ],
       "ACCESS-3c": [
-        "PES-03.3"
-      ],
-      "ARCHITECTURE-1e": [
-        "PRM-01"
+        "PES-09.1"
       ],
       "RISK-1a": [
-        "PRM-01.1"
+        "PRM-02"
       ],
       "ARCHITECTURE-1a": [
-        "PRM-01.1"
+        "PRM-02"
       ],
       "PROGRAM-1a": [
-        "PRM-01.1"
+        "PRM-02"
       ],
       "PROGRAM-1b": [
-        "PRM-01.1"
+        "PRM-02"
       ],
       "PROGRAM-1c": [
-        "PRM-01.1"
+        "PRM-02"
       ],
       "PROGRAM-1d": [
-        "PRM-01.1"
+        "PRM-02"
       ],
       "PROGRAM-1e": [
-        "PRM-01.1"
+        "PRM-02"
+      ],
+      "ARCHITECTURE-1e": [
+        "PRM-04"
       ],
       "ASSET-5b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "THREAT-3b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "RISK-5b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "ACCESS-4b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "SITUATION-4b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "RESPONSE-5b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "THIRD-PARTIES-3b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "WORKFORCE-5b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "ARCHITECTURE-6b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "PROGRAM-3b": [
-        "PRM-03"
+        "PRM-06"
       ],
       "RISK-1b": [
-        "RSK-01"
+        "RSK-02"
       ],
       "RISK-1c": [
-        "RSK-01"
+        "RSK-02"
       ],
       "RISK-1d": [
-        "RSK-01"
+        "RSK-02"
       ],
       "RISK-1g": [
-        "RSK-01"
+        "RSK-02"
       ],
       "RISK-1h": [
-        "RSK-01"
+        "RSK-02"
       ],
       "RISK-3b": [
-        "RSK-01.1"
+        "RSK-05"
       ],
       "RISK-2d": [
-        "RSK-02"
+        "RSK-07"
       ],
       "RISK-2i": [
-        "RSK-02"
+        "RSK-07"
       ],
       "RISK-3a": [
-        "RSK-02"
+        "RSK-07"
       ],
       "RISK-2a": [
-        "RSK-03"
+        "RSK-09"
       ],
       "RISK-2b": [
-        "RSK-03"
+        "RSK-09"
       ],
       "RISK-2c": [
-        "RSK-03"
+        "RSK-09"
       ],
       "RISK-2g": [
-        "RSK-03",
-        "RSK-04",
-        "RSK-04.2"
+        "RSK-09",
+        "RSK-12",
+        "RSK-13"
       ],
       "RISK-2e": [
-        "RSK-03.1",
-        "RSK-04.1"
+        "RSK-10",
+        "RSK-14"
       ],
       "RISK-2j": [
-        "RSK-03.1",
-        "THR-09"
-      ],
-      "RISK-2f": [
-        "RSK-04.1"
-      ],
-      "RISK-3c": [
-        "RSK-04.2"
-      ],
-      "RISK-3d": [
-        "RSK-04.2"
-      ],
-      "RISK-3e": [
-        "RSK-04.2"
-      ],
-      "RISK-4b": [
-        "RSK-04.2",
-        "RSK-06.3"
-      ],
-      "RISK-4e": [
-        "RSK-06",
-        "RSK-06.1"
-      ],
-      "RISK-4a": [
-        "RSK-06.3"
-      ],
-      "ARCHITECTURE-1b": [
-        "SEA-01",
-        "SEA-02",
-        "SEA-03"
-      ],
-      "ARCHITECTURE-1j": [
-        "SEA-01",
-        "SEA-01.2",
-        "SEA-01.3",
-        "SEA-02"
-      ],
-      "ARCHITECTURE-5g": [
-        "SEA-01"
-      ],
-      "ARCHITECTURE-5h": [
-        "SEA-01"
-      ],
-      "ARCHITECTURE-1c": [
-        "SEA-02"
-      ],
-      "ARCHITECTURE-1d": [
-        "SEA-02"
-      ],
-      "ARCHITECTURE-1h": [
-        "SEA-02"
-      ],
-      "ARCHITECTURE-1k": [
-        "SEA-02"
-      ],
-      "ASSET-5a": [
-        "OPS-01.1"
-      ],
-      "THREAT-3a": [
-        "OPS-01.1"
-      ],
-      "RISK-5a": [
-        "OPS-01.1"
-      ],
-      "ACCESS-4a": [
-        "OPS-01.1"
-      ],
-      "SITUATION-4a": [
-        "OPS-01.1"
-      ],
-      "RESPONSE-5a": [
-        "OPS-01.1"
-      ],
-      "THIRD-PARTIES-3a": [
-        "OPS-01.1"
-      ],
-      "WORKFORCE-5a": [
-        "OPS-01.1"
-      ],
-      "ARCHITECTURE-6a": [
-        "OPS-01.1"
-      ],
-      "PROGRAM-3a": [
-        "OPS-01.1"
-      ],
-      "WORKFORCE-2b": [
-        "SAT-01",
-        "SAT-02"
-      ],
-      "WORKFORCE-2c": [
-        "SAT-01",
-        "SAT-02"
-      ],
-      "WORKFORCE-4f": [
-        "SAT-01"
-      ],
-      "WORKFORCE-2g": [
-        "SAT-01.1"
-      ],
-      "WORKFORCE-4e": [
-        "SAT-01.1"
-      ],
-      "WORKFORCE-2d": [
-        "SAT-02"
-      ],
-      "WORKFORCE-4d": [
-        "SAT-02"
-      ],
-      "WORKFORCE-2e": [
-        "SAT-03"
-      ],
-      "WORKFORCE-2f": [
-        "SAT-03"
-      ],
-      "WORKFORCE-4a": [
-        "SAT-03"
-      ],
-      "ARCHITECTURE-4a": [
-        "TDA-01",
-        "TDA-06"
-      ],
-      "ARCHITECTURE-4b": [
-        "TDA-01",
-        "TDA-02",
-        "TPM-04.1"
-      ],
-      "ARCHITECTURE-4e": [
-        "TDA-01",
-        "TDA-02",
-        "TPM-04.1"
-      ],
-      "ARCHITECTURE-4c": [
-        "TDA-01.1",
-        "TDA-02",
-        "TDA-09.6"
-      ],
-      "ARCHITECTURE-4f": [
-        "TDA-05",
-        "TDA-06.5"
-      ],
-      "ARCHITECTURE-4d": [
-        "TDA-06"
-      ],
-      "ARCHITECTURE-4h": [
-        "TDA-09",
-        "TDA-09.2",
-        "TDA-09.3",
-        "TDA-09.5"
-      ],
-      "ARCHITECTURE-4g": [
-        "TDA-14.1"
-      ],
-      "THIRD-PARTIES-2i": [
-        "TDA-17",
-        "TDA-17.1",
-        "TPM-04.1"
-      ],
-      "THIRD-PARTIES-1b": [
-        "TPM-01.1"
-      ],
-      "THIRD-PARTIES-1d": [
-        "TPM-01.1",
-        "TPM-02"
-      ],
-      "THIRD-PARTIES-1c": [
-        "TPM-02",
-        "TPM-04.1"
-      ],
-      "THIRD-PARTIES-1e": [
-        "TPM-02"
-      ],
-      "THIRD-PARTIES-1f": [
-        "TPM-02"
-      ],
-      "THIRD-PARTIES-2j": [
-        "TPM-03.1"
-      ],
-      "THIRD-PARTIES-2k": [
-        "TPM-03.1"
-      ],
-      "THIRD-PARTIES-2l": [
-        "TPM-03.1"
-      ],
-      "THIRD-PARTIES-2m": [
-        "TPM-03.1"
-      ],
-      "THIRD-PARTIES-2a": [
-        "TPM-04.1"
-      ],
-      "THIRD-PARTIES-2b": [
-        "TPM-04.1"
-      ],
-      "THIRD-PARTIES-2c": [
-        "TPM-05"
-      ],
-      "THIRD-PARTIES-2e": [
-        "TPM-05"
-      ],
-      "THIRD-PARTIES-2f": [
-        "TPM-05"
-      ],
-      "THIRD-PARTIES-2g": [
-        "TPM-05"
-      ],
-      "THIRD-PARTIES-2h": [
-        "TPM-05"
-      ],
-      "THIRD-PARTIES-2d": [
-        "TPM-05.5",
-        "TPM-08"
-      ],
-      "THREAT-1a": [
-        "THR-03",
-        "VPM-06.1"
-      ],
-      "THREAT-1b": [
-        "THR-03",
-        "VPM-03",
-        "VPM-03.1"
-      ],
-      "THREAT-1e": [
-        "THR-03",
-        "VPM-01.1",
-        "VPM-06.1",
-        "VPM-06.2"
-      ],
-      "THREAT-2f": [
-        "THR-03"
-      ],
-      "THREAT-2j": [
-        "THR-03"
-      ],
-      "THREAT-2k": [
-        "THR-03",
-        "THR-03.1"
-      ],
-      "RISK-2k": [
-        "THR-03"
-      ],
-      "THREAT-1i": [
-        "THR-03.1",
-        "VPM-04",
-        "VPM-05.3"
-      ],
-      "THREAT-2b": [
-        "THR-03.1",
-        "VPM-03",
-        "VPM-03.1"
-      ],
-      "THREAT-2h": [
-        "THR-03.1"
-      ],
-      "THREAT-1m": [
+        "RSK-10",
         "THR-06"
       ],
+      "RISK-3c": [
+        "RSK-12"
+      ],
+      "RISK-3d": [
+        "RSK-12"
+      ],
+      "RISK-3e": [
+        "RSK-12"
+      ],
+      "RISK-4b": [
+        "RSK-12",
+        "RSK-16.1"
+      ],
+      "RISK-2f": [
+        "RSK-14"
+      ],
+      "RISK-4e": [
+        "RSK-16",
+        "RSK-17"
+      ],
+      "RISK-4a": [
+        "RSK-16.1"
+      ],
+      "ARCHITECTURE-1b": [
+        "SEA-04",
+        "SEA-05",
+        "SEA-06"
+      ],
+      "ARCHITECTURE-1c": [
+        "SEA-04"
+      ],
+      "ARCHITECTURE-1d": [
+        "SEA-04"
+      ],
+      "ARCHITECTURE-1h": [
+        "SEA-04"
+      ],
+      "ARCHITECTURE-1k": [
+        "SEA-04"
+      ],
+      "ARCHITECTURE-5g": [
+        "SEA-05"
+      ],
+      "ARCHITECTURE-5h": [
+        "SEA-05"
+      ],
+      "ASSET-5a": [
+        "OPS-04"
+      ],
+      "THREAT-3a": [
+        "OPS-04"
+      ],
+      "RISK-5a": [
+        "OPS-04"
+      ],
+      "ACCESS-4a": [
+        "OPS-04"
+      ],
+      "SITUATION-4a": [
+        "OPS-04"
+      ],
+      "RESPONSE-5a": [
+        "OPS-04"
+      ],
+      "THIRD-PARTIES-3a": [
+        "OPS-04"
+      ],
+      "WORKFORCE-5a": [
+        "OPS-04"
+      ],
+      "ARCHITECTURE-6a": [
+        "OPS-04"
+      ],
+      "PROGRAM-3a": [
+        "OPS-04"
+      ],
+      "WORKFORCE-2b": [
+        "SAT-02",
+        "SAT-04"
+      ],
+      "WORKFORCE-2c": [
+        "SAT-02",
+        "SAT-04"
+      ],
+      "WORKFORCE-4f": [
+        "SAT-02"
+      ],
+      "WORKFORCE-2g": [
+        "SAT-03"
+      ],
+      "WORKFORCE-4e": [
+        "SAT-03"
+      ],
+      "WORKFORCE-2d": [
+        "SAT-04"
+      ],
+      "WORKFORCE-4d": [
+        "SAT-04"
+      ],
+      "WORKFORCE-2e": [
+        "SAT-05"
+      ],
+      "WORKFORCE-2f": [
+        "SAT-05"
+      ],
+      "WORKFORCE-4a": [
+        "SAT-05"
+      ],
+      "ARCHITECTURE-4a": [
+        "TDA-02",
+        "TDA-05"
+      ],
+      "ARCHITECTURE-4b": [
+        "TDA-02",
+        "TDA-11.1",
+        "TPM-10"
+      ],
+      "ARCHITECTURE-4e": [
+        "TDA-02",
+        "TDA-11.1",
+        "TPM-10"
+      ],
+      "ARCHITECTURE-4c": [
+        "TDA-03.2",
+        "TDA-06",
+        "TDA-11.1"
+      ],
+      "ARCHITECTURE-4f": [
+        "TDA-04",
+        "TDA-05.4"
+      ],
+      "ARCHITECTURE-4d": [
+        "TDA-05"
+      ],
+      "ARCHITECTURE-4h": [
+        "TDA-17",
+        "TDA-17.1",
+        "TDA-17.2",
+        "TDA-17.4"
+      ],
+      "ARCHITECTURE-4g": [
+        "TDA-20.3"
+      ],
+      "THIRD-PARTIES-2k": [
+        "TDA-21",
+        "TPM-03"
+      ],
+      "THIRD-PARTIES-2j": [
+        "TPM-03"
+      ],
+      "THIRD-PARTIES-2l": [
+        "TPM-03"
+      ],
+      "THIRD-PARTIES-2m": [
+        "TPM-03"
+      ],
+      "THIRD-PARTIES-1b": [
+        "TPM-08"
+      ],
+      "THIRD-PARTIES-1d": [
+        "TPM-08",
+        "TPM-09"
+      ],
+      "THIRD-PARTIES-1c": [
+        "TPM-09",
+        "TPM-10"
+      ],
+      "THIRD-PARTIES-1e": [
+        "TPM-09"
+      ],
+      "THIRD-PARTIES-1f": [
+        "TPM-09"
+      ],
+      "THIRD-PARTIES-2a": [
+        "TPM-10"
+      ],
+      "THIRD-PARTIES-2b": [
+        "TPM-10"
+      ],
+      "THIRD-PARTIES-2c": [
+        "TPM-14"
+      ],
+      "THIRD-PARTIES-2e": [
+        "TPM-14"
+      ],
+      "THIRD-PARTIES-2f": [
+        "TPM-14"
+      ],
+      "THIRD-PARTIES-2g": [
+        "TPM-14"
+      ],
+      "THIRD-PARTIES-2h": [
+        "TPM-14"
+      ],
+      "THIRD-PARTIES-2d": [
+        "TPM-15",
+        "TPM-16"
+      ],
+      "THREAT-1a": [
+        "THR-04",
+        "VPM-12.1"
+      ],
+      "THREAT-1b": [
+        "THR-04",
+        "VPM-04",
+        "VPM-05"
+      ],
+      "THREAT-1e": [
+        "THR-04",
+        "VPM-03",
+        "VPM-12.1",
+        "VPM-12.2"
+      ],
+      "THREAT-2f": [
+        "THR-04"
+      ],
+      "THREAT-2j": [
+        "THR-04"
+      ],
+      "THREAT-2k": [
+        "THR-04",
+        "THR-05"
+      ],
+      "RISK-2k": [
+        "THR-04"
+      ],
+      "THREAT-1i": [
+        "THR-05",
+        "VPM-06.2",
+        "VPM-07"
+      ],
+      "THREAT-2b": [
+        "THR-05",
+        "VPM-04",
+        "VPM-05"
+      ],
+      "THREAT-2h": [
+        "THR-05"
+      ],
       "THREAT-2c": [
-        "THR-10"
+        "THR-08"
       ],
       "THREAT-2e": [
-        "THR-10"
+        "THR-08"
       ],
       "THREAT-2g": [
-        "THR-10"
+        "THR-08"
       ],
       "THREAT-2i": [
-        "THR-10"
+        "THR-08"
+      ],
+      "THREAT-1m": [
+        "THR-12"
       ],
       "THREAT-1j": [
-        "VPM-01"
+        "VPM-02"
       ],
       "THREAT-1g": [
-        "VPM-03",
-        "VPM-03.1"
+        "VPM-04",
+        "VPM-05"
       ],
       "THREAT-2d": [
-        "VPM-03",
-        "VPM-04"
-      ],
-      "THREAT-1d": [
-        "VPM-04"
+        "VPM-05",
+        "VPM-06.2"
       ],
       "THREAT-1l": [
-        "VPM-05.1"
+        "VPM-06.1"
+      ],
+      "THREAT-1d": [
+        "VPM-06.2"
       ],
       "THREAT-1c": [
-        "VPM-06"
+        "VPM-12"
       ],
       "THREAT-1f": [
-        "VPM-06"
+        "VPM-12"
       ],
       "THREAT-1k": [
-        "VPM-06"
+        "VPM-12"
       ]
     }
   }

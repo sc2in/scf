@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-24.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-24.1",
+      "ao_id": "TPM-24.1_A01",
+      "objective": "a documented transition plan exists for applicable third-party relationships that defines the activities necessary to support an orderly cessation and transition of third-party services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.1",
+      "ao_id": "TPM-24.1_A02",
+      "objective": "the transition plan assigns responsibility for each transition activity to the organization, the outgoing third-party and/or the replacement service provider.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.1",
+      "ao_id": "TPM-24.1_A03",
+      "objective": "the transition plan identifies the dependencies (e.g., data, interfaces, licenses, personnel and other third-parties) that affect the cessation and transition of third-party services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.1",
+      "ao_id": "TPM-24.1_A04",
+      "objective": "the transition plan defines milestones and timelines for the cessation and transition of third-party services, including any contractual notice and transition assistance periods.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.1",
+      "ao_id": "TPM-24.1_A05",
+      "objective": "progress against transition plan milestones is tracked and deviations are escalated to accountable personnel.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

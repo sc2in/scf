@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-28",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-28",
+      "ao_id": "MON-28_A01",
+      "objective": "automated tools are used to monitor sensitive/regulated data in Technology Assets, Applications and/or Services (TAAS).",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-28",
+      "ao_id": "MON-28_A02",
+      "objective": "automated tools are used to monitor sensitive/regulated data in data repositories.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-CPL-14",
+  "area": "Compliance",
+  "artifact_name": "Conformity Attestations & Declarations",
+  "artifact_description": "Documented evidence of conformity assessment results, attestations and/or declarations of conformity, including the designated certifying official.",
+  "scf_controls": [
+    "CPL-04",
+    "CPL-04.1",
+    "CPL-04.2",
+    "CPL-04.3",
+    "CPL-04.4",
+    "CPL-13",
+    "GOV-18"
+  ],
+  "cmmc_mapping": ""
+}

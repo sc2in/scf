@@ -1,12 +1,42 @@
 {
   "scf_control_id": "CFG-08.1",
-  "total": 1,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "CFG-08.1",
       "ao_id": "CFG-08.1_A01",
-      "objective": "an automated mechanism generates event logs whenever sensitive / regulated data is collected, created, updated, deleted and/or archived.",
-      "pptdf": "Technology",
+      "objective": "actions to be taken upon an unauthorized change are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-06(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-08.1",
+      "ao_id": "CFG-08.1_A02",
+      "objective": "organization-defined actions are taken in response to unauthorized changes to secure baseline configurations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-06(02)",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-08.1",
+      "ao_id": "CFG-08.1_A03",
+      "objective": "secure baseline configurations requiring action upon an unauthorized change are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-06(02)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-08.1",
+      "ao_id": "CFG-08.1_A04",
+      "objective": "unauthorized changes to secure baseline configurations are handled as security incidents through the incident response process.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

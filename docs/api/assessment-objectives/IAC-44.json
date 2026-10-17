@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-44",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-44",
+      "ao_id": "IAC-44_A01",
+      "objective": "instances that require Mutual Authentication (MA) are identified, where both sides of a communications channel verify the identity of the other party through certificate exchange.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-44",
+      "ao_id": "IAC-44_A02",
+      "objective": "technologies to implement MA are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-44",
+      "ao_id": "IAC-44_A03",
+      "objective": "technologies enforce Mutual Authentication (MA) for those instances identified as requiring it.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

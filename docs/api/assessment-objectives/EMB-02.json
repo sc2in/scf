@@ -1,14 +1,84 @@
 {
   "scf_control_id": "EMB-02",
-  "total": 1,
+  "total": 8,
   "assessment_objectives": [
     {
       "scf_control_id": "EMB-02",
       "ao_id": "EMB-02_A01",
-      "objective": "cybersecurity / data privacy risks associated with Internet of Things (IoT) are proactively managed.",
+      "objective": "embedded technology controls are implemented to protect the confidentiality of Operational Technology (OT) and/or Internet of Things (IoT) technologies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-02",
+      "ao_id": "EMB-02_A02",
+      "objective": "embedded technology controls are implemented to protect the integrity of Operational Technology (OT) and/or Internet of Things (IoT) technologies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-02",
+      "ao_id": "EMB-02_A03",
+      "objective": "embedded technology controls are implemented to protect the availability of Operational Technology (OT) and/or Internet of Things (IoT) technologies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-02",
+      "ao_id": "EMB-02_A04",
+      "objective": "embedded technology controls are implemented to protect the safety of Operational Technology (OT) and/or Internet of Things (IoT) technologies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-02",
+      "ao_id": "EMB-02_A05",
+      "objective": "embedded technology management operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-02",
+      "ao_id": "EMB-02_A06",
+      "objective": "resources are provided to support embedded technology management operations, including at a minimum: people, processes, technologies, data and facilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-02",
+      "ao_id": "EMB-02_A07",
+      "objective": "responsibility and authority for the performance of embedded technology management-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-02",
+      "ao_id": "EMB-02_A08",
+      "objective": "personnel performing embedded technology management-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

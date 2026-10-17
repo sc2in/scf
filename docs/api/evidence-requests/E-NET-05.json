@@ -4,7 +4,8 @@
   "artifact_name": "Zero Trust Architecture (ZTA)",
   "artifact_description": "Documented evidence of controls that would enable the organization to claim conformity with Zero Trust (ZT) principles.",
   "scf_controls": [
-    "NET-01.1"
+    "NET-14",
+    "NET-15"
   ],
   "cmmc_mapping": ""
 }

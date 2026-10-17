@@ -4,16 +4,16 @@
   "scf_to_framework": {
     "total_mappings": 27,
     "mappings": {
-      "CPL-01.3": [
+      "CPL-04": [
         "Title 2, Chapter II, Art. 29(5)"
       ],
-      "DCH-23": [
+      "DCH-36": [
         "Title 4, Chapter III, Section 3, Art. 198",
         "Title 4, Chapter III, Section 3, Art. 199",
         "Title 4, Chapter III, Section 3, Art. 200",
         "Title 4, Chapter III, Section 3, Art. 201"
       ],
-      "IRO-10": [
+      "IRO-16": [
         "Title 2, Chapter IV, Section 4, Art. 61(1)",
         "Title 2, Chapter IV, Section 4, Art. 61(2)",
         "Title 2, Chapter IV, Section 4, Art. 61(3)",
@@ -26,38 +26,32 @@
         "Title 2, Chapter IV, Section 4, Art. 62(4)",
         "Title 2, Chapter IV, Section 4, Art. 62(5)"
       ],
-      "PRI-01.4": [
+      "PRI-03.2": [
         "Title 2, Chapter IV, Section 5, Art. 63",
         "Title 2, Chapter IV, Section 5, Art. 64",
         "Title 2, Chapter IV, Section 5, Art. 65",
-        "Title 4, Chapter II, Art. 190",
+        "Title 4, Chapter II, Art. 190"
+      ],
+      "PRI-05": [
+        "Title 1, Section III, Art. 14(3)",
+        "Title 2, Chapter III, Art. 45(5)",
+        "Title 2, Chapter IV, Section 4, Art. 55(1)",
+        "Title 2, Chapter IV, Section 4, Art. 55(2)",
+        "Title 2, Chapter IV, Section 4, Art. 55(3)",
+        "Title 2, Chapter IV, Section 4, Art. 56(1)",
+        "Title 2, Chapter IV, Section 4, Art. 56(2)",
+        "Title 2, Chapter IV, Section 4, Art. 56(3)",
+        "Title 2, Chapter IV, Section 4, Art. 57",
+        "Title 2, Chapter IV, Section 4, Art. 58",
         "Title 4, Chapter II, Art. 191",
         "Title 4, Chapter II, Art. 192"
       ],
-      "PRI-01.5": [
-        "Title 2, Chapter V, Art. 66(1)",
-        "Title 2, Chapter V, Art. 66(2)",
-        "Title 2, Chapter V, Art. 67",
-        "Title 2, Chapter V, Art. 68(1)",
-        "Title 2, Chapter V, Art. 68(2)",
-        "Title 2, Chapter V, Art. 68(3)",
-        "Title 2, Chapter V, Art. 69(1)",
-        "Title 2, Chapter V, Art. 69(2)",
-        "Title 2, Chapter V, Art. 69(3)",
-        "Title 2, Chapter V, Art. 70(1)",
-        "Title 2, Chapter V, Art. 70(2)",
-        "Title 2, Chapter V, Art. 70(3)"
+      "PRI-06": [
+        "Title 1, Chapter II, Art. 8(2)",
+        "Title 1, Chapter II, Art. 10(2)",
+        "Title 2, Chapter II, Art. 31"
       ],
-      "PRI-01.6": [
-        "Title 2, Chapter II, Art. 34(2)",
-        "Title 2, Chapter III, Art. 45(4)",
-        "Title 2, Chapter IV, Section 1, Art. 50",
-        "Title 2, Chapter IV, Section 1, Art. 51(1)",
-        "Title 2, Chapter IV, Section 1, Art. 51(2)",
-        "Title 2, Chapter IV, Section 4, Art. 60(1)",
-        "Title 2, Chapter IV, Section 4, Art. 60(2)"
-      ],
-      "PRI-01.11": [
+      "PRI-09": [
         "Title 1, Section III, Art. 14(2)",
         "Title 2, Chapter II, Art. 28",
         "Title 2, Chapter II, Art. 32(1)",
@@ -72,60 +66,21 @@
         "Title 4, Chapter III, Section 3, Art. 202(1)",
         "Title 4, Chapter III, Section 3, Art. 202(2)"
       ],
-      "PRI-02": [
-        "Title 2, Chapter III, Art. 37(1)",
-        "Title 2, Chapter III, Art. 37(2)",
-        "Title 4, Chapter III, Section 1, Art. 193"
+      "PRI-10": [
+        "Title 2, Chapter II, Art. 34(2)",
+        "Title 2, Chapter III, Art. 45(4)",
+        "Title 2, Chapter IV, Section 1, Art. 50",
+        "Title 2, Chapter IV, Section 1, Art. 51(1)",
+        "Title 2, Chapter IV, Section 1, Art. 51(2)",
+        "Title 2, Chapter IV, Section 4, Art. 60(1)",
+        "Title 2, Chapter IV, Section 4, Art. 60(2)"
       ],
-      "PRI-03.3": [
-        "Title 1, Chapter II, Art. 7"
-      ],
-      "PRI-04": [
-        "Title 2, Chapter II, Art. 29(1)",
-        "Title 2, Chapter II, Art. 29(2)"
-      ],
-      "PRI-04.1": [
+      "PRI-12": [
         "Title 1, Section III, Art. 14(4)",
         "Title 2, Chapter II, Art. 33(1)",
         "Title 2, Chapter II, Art. 33(2)"
       ],
-      "PRI-05": [
-        "Title 2, Chapter II, Art. 30"
-      ],
-      "PRI-05.2": [
-        "Title 2, Chapter II, Art. 32(2)"
-      ],
-      "PRI-05.4": [
-        "Title 1, Chapter II, Art. 8(3)",
-        "Title 1, Chapter II, Art. 9",
-        "Title 1, Chapter II, Art. 10(1)",
-        "Title 2, Chapter III, Art. 45(2)"
-      ],
-      "PRI-05.7": [
-        "Title 1, Chapter II, Art. 8(2)",
-        "Title 1, Chapter II, Art. 10(2)",
-        "Title 2, Chapter II, Art. 31"
-      ],
-      "PRI-06": [
-        "Title 2, Chapter III, Art. 36(2)",
-        "Title 2, Chapter III, Art. 38(1)",
-        "Title 2, Chapter III, Art. 38(2)",
-        "Title 2, Chapter III, Art. 39(1)"
-      ],
-      "PRI-06.2": [
-        "Title 2, Chapter III, Art. 39(5)",
-        "Title 2, Chapter III, Art. 39(6)"
-      ],
-      "PRI-06.4": [
-        "Title 2, Chapter III, Art. 36(3)",
-        "Title 2, Chapter III, Art. 38(3)",
-        "Title 2, Chapter III, Art. 39(4)",
-        "Title 2, Chapter III, Art. 40"
-      ],
-      "PRI-06.5": [
-        "Title 2, Chapter III, Art. 39(2)"
-      ],
-      "PRI-07.1": [
+      "PRI-14": [
         "Title 2, Chapter IV, Section 3, Art. 53(1)",
         "Title 2, Chapter IV, Section 3, Art. 53(2)",
         "Title 2, Chapter IV, Section 3, Art. 53(3)",
@@ -133,36 +88,81 @@
         "Title 2, Chapter IV, Section 3, Art. 53(5)",
         "Title 2, Chapter IV, Section 3, Art. 54"
       ],
-      "PRI-07.2": [
-        "Title 2, Chapter IV, Section 2, Art. 52"
+      "PRI-15": [
+        "Title 2, Chapter V, Art. 66(1)",
+        "Title 2, Chapter V, Art. 66(2)",
+        "Title 2, Chapter V, Art. 67",
+        "Title 2, Chapter V, Art. 68(1)",
+        "Title 2, Chapter V, Art. 68(2)",
+        "Title 2, Chapter V, Art. 68(3)",
+        "Title 2, Chapter V, Art. 69(1)",
+        "Title 2, Chapter V, Art. 69(2)",
+        "Title 2, Chapter V, Art. 69(3)",
+        "Title 2, Chapter V, Art. 70(1)",
+        "Title 2, Chapter V, Art. 70(2)",
+        "Title 2, Chapter V, Art. 70(3)"
       ],
-      "PRI-07.4": [
+      "PRI-18.1": [
         "Title 2, Chapter III, Art. 36(4)"
       ],
-      "PRI-07.5": [
+      "PRI-18.2": [
         "Title 2, Chapter III, Art. 36(5)"
       ],
-      "PRI-14": [
-        "Title 1, Section III, Art. 14(3)",
-        "Title 2, Chapter III, Art. 45(5)",
-        "Title 2, Chapter IV, Section 4, Art. 55(1)",
-        "Title 2, Chapter IV, Section 4, Art. 55(2)",
-        "Title 2, Chapter IV, Section 4, Art. 55(3)",
-        "Title 2, Chapter IV, Section 4, Art. 56(1)",
-        "Title 2, Chapter IV, Section 4, Art. 56(2)",
-        "Title 2, Chapter IV, Section 4, Art. 56(3)",
-        "Title 2, Chapter IV, Section 4, Art. 57",
-        "Title 2, Chapter IV, Section 4, Art. 58"
+      "PRI-21": [
+        "Title 2, Chapter III, Art. 37(1)",
+        "Title 2, Chapter III, Art. 37(2)",
+        "Title 4, Chapter III, Section 1, Art. 193"
       ],
-      "PRI-17": [
+      "PRI-24.5": [
+        "Title 1, Chapter II, Art. 7"
+      ],
+      "PRI-29": [
+        "Title 1, Chapter II, Art. 8(3)",
+        "Title 1, Chapter II, Art. 9",
+        "Title 1, Chapter II, Art. 10(1)",
+        "Title 2, Chapter III, Art. 45(2)"
+      ],
+      "PRI-30": [
+        "Title 2, Chapter II, Art. 30"
+      ],
+      "PRI-31.1": [
+        "Title 2, Chapter II, Art. 29(1)",
+        "Title 2, Chapter II, Art. 29(2)"
+      ],
+      "PRI-35": [
+        "Title 2, Chapter II, Art. 32(2)"
+      ],
+      "PRI-36.1": [
+        "Title 2, Chapter II, Art. 35"
+      ],
+      "PRI-37": [
         "Title 2, Chapter II, Art. 32(3)",
         "Title 2, Chapter III, Art. 36(1)"
       ],
-      "PRI-18": [
-        "Title 2, Chapter III, Art. 38(4)"
+      "PRI-39": [
+        "Title 2, Chapter III, Art. 36(3)",
+        "Title 2, Chapter III, Art. 38(3)",
+        "Title 2, Chapter III, Art. 39(4)",
+        "Title 2, Chapter III, Art. 40"
       ],
-      "PRI-19": [
-        "Title 2, Chapter II, Art. 35"
+      "PRI-39.1": [
+        "Title 2, Chapter III, Art. 36(2)",
+        "Title 2, Chapter III, Art. 38(1)",
+        "Title 2, Chapter III, Art. 38(2)",
+        "Title 2, Chapter III, Art. 39(1)"
+      ],
+      "PRI-39.4": [
+        "Title 2, Chapter III, Art. 39(5)",
+        "Title 2, Chapter III, Art. 39(6)"
+      ],
+      "PRI-40": [
+        "Title 2, Chapter III, Art. 39(2)"
+      ],
+      "PRI-43": [
+        "Title 2, Chapter IV, Section 2, Art. 52"
+      ],
+      "PRI-44": [
+        "Title 2, Chapter III, Art. 38(4)"
       ]
     }
   },
@@ -170,320 +170,320 @@
     "total_mappings": 105,
     "mappings": {
       "Title 2, Chapter II, Art. 29(5)": [
-        "CPL-01.3"
+        "CPL-04"
       ],
       "Title 4, Chapter III, Section 3, Art. 198": [
-        "DCH-23"
+        "DCH-36"
       ],
       "Title 4, Chapter III, Section 3, Art. 199": [
-        "DCH-23"
+        "DCH-36"
       ],
       "Title 4, Chapter III, Section 3, Art. 200": [
-        "DCH-23"
+        "DCH-36"
       ],
       "Title 4, Chapter III, Section 3, Art. 201": [
-        "DCH-23"
+        "DCH-36"
       ],
       "Title 2, Chapter IV, Section 4, Art. 61(1)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 61(2)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 61(3)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 61(4)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 61(5)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 61(6)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 62(1)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 62(2)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 62(3)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 62(4)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 4, Art. 62(5)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Title 2, Chapter IV, Section 5, Art. 63": [
-        "PRI-01.4"
+        "PRI-03.2"
       ],
       "Title 2, Chapter IV, Section 5, Art. 64": [
-        "PRI-01.4"
+        "PRI-03.2"
       ],
       "Title 2, Chapter IV, Section 5, Art. 65": [
-        "PRI-01.4"
+        "PRI-03.2"
       ],
       "Title 4, Chapter II, Art. 190": [
-        "PRI-01.4"
-      ],
-      "Title 4, Chapter II, Art. 191": [
-        "PRI-01.4"
-      ],
-      "Title 4, Chapter II, Art. 192": [
-        "PRI-01.4"
-      ],
-      "Title 2, Chapter V, Art. 66(1)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 66(2)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 67": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 68(1)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 68(2)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 68(3)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 69(1)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 69(2)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 69(3)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 70(1)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 70(2)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter V, Art. 70(3)": [
-        "PRI-01.5"
-      ],
-      "Title 2, Chapter II, Art. 34(2)": [
-        "PRI-01.6"
-      ],
-      "Title 2, Chapter III, Art. 45(4)": [
-        "PRI-01.6"
-      ],
-      "Title 2, Chapter IV, Section 1, Art. 50": [
-        "PRI-01.6"
-      ],
-      "Title 2, Chapter IV, Section 1, Art. 51(1)": [
-        "PRI-01.6"
-      ],
-      "Title 2, Chapter IV, Section 1, Art. 51(2)": [
-        "PRI-01.6"
-      ],
-      "Title 2, Chapter IV, Section 4, Art. 60(1)": [
-        "PRI-01.6"
-      ],
-      "Title 2, Chapter IV, Section 4, Art. 60(2)": [
-        "PRI-01.6"
-      ],
-      "Title 1, Section III, Art. 14(2)": [
-        "PRI-01.11"
-      ],
-      "Title 2, Chapter II, Art. 28": [
-        "PRI-01.11"
-      ],
-      "Title 2, Chapter II, Art. 32(1)": [
-        "PRI-01.11"
-      ],
-      "Title 2, Chapter II, Art. 32(3)": [
-        "PRI-01.11",
-        "PRI-17"
-      ],
-      "Title 2, Chapter II, Art. 34(1)": [
-        "PRI-01.11"
-      ],
-      "Title 2, Chapter III, Art. 39(3)": [
-        "PRI-01.11"
-      ],
-      "Title 2, Chapter III, Art. 45(3)": [
-        "PRI-01.11"
-      ],
-      "Title 4, Chapter III, Section 2, Art. 194": [
-        "PRI-01.11"
-      ],
-      "Title 4, Chapter III, Section 2, Art. 195": [
-        "PRI-01.11"
-      ],
-      "Title 4, Chapter III, Section 2, Art. 196": [
-        "PRI-01.11"
-      ],
-      "Title 4, Chapter III, Section 2, Art. 197": [
-        "PRI-01.11"
-      ],
-      "Title 4, Chapter III, Section 3, Art. 202(1)": [
-        "PRI-01.11"
-      ],
-      "Title 4, Chapter III, Section 3, Art. 202(2)": [
-        "PRI-01.11"
-      ],
-      "Title 2, Chapter III, Art. 37(1)": [
-        "PRI-02"
-      ],
-      "Title 2, Chapter III, Art. 37(2)": [
-        "PRI-02"
-      ],
-      "Title 4, Chapter III, Section 1, Art. 193": [
-        "PRI-02"
-      ],
-      "Title 1, Chapter II, Art. 7": [
-        "PRI-03.3"
-      ],
-      "Title 2, Chapter II, Art. 29(1)": [
-        "PRI-04"
-      ],
-      "Title 2, Chapter II, Art. 29(2)": [
-        "PRI-04"
-      ],
-      "Title 1, Section III, Art. 14(4)": [
-        "PRI-04.1"
-      ],
-      "Title 2, Chapter II, Art. 33(1)": [
-        "PRI-04.1"
-      ],
-      "Title 2, Chapter II, Art. 33(2)": [
-        "PRI-04.1"
-      ],
-      "Title 2, Chapter II, Art. 30": [
-        "PRI-05"
-      ],
-      "Title 2, Chapter II, Art. 32(2)": [
-        "PRI-05.2"
-      ],
-      "Title 1, Chapter II, Art. 8(3)": [
-        "PRI-05.4"
-      ],
-      "Title 1, Chapter II, Art. 9": [
-        "PRI-05.4"
-      ],
-      "Title 1, Chapter II, Art. 10(1)": [
-        "PRI-05.4"
-      ],
-      "Title 2, Chapter III, Art. 45(2)": [
-        "PRI-05.4"
-      ],
-      "Title 1, Chapter II, Art. 8(2)": [
-        "PRI-05.7"
-      ],
-      "Title 1, Chapter II, Art. 10(2)": [
-        "PRI-05.7"
-      ],
-      "Title 2, Chapter II, Art. 31": [
-        "PRI-05.7"
-      ],
-      "Title 2, Chapter III, Art. 36(2)": [
-        "PRI-06"
-      ],
-      "Title 2, Chapter III, Art. 38(1)": [
-        "PRI-06"
-      ],
-      "Title 2, Chapter III, Art. 38(2)": [
-        "PRI-06"
-      ],
-      "Title 2, Chapter III, Art. 39(1)": [
-        "PRI-06"
-      ],
-      "Title 2, Chapter III, Art. 39(5)": [
-        "PRI-06.2"
-      ],
-      "Title 2, Chapter III, Art. 39(6)": [
-        "PRI-06.2"
-      ],
-      "Title 2, Chapter III, Art. 36(3)": [
-        "PRI-06.4"
-      ],
-      "Title 2, Chapter III, Art. 38(3)": [
-        "PRI-06.4"
-      ],
-      "Title 2, Chapter III, Art. 39(4)": [
-        "PRI-06.4"
-      ],
-      "Title 2, Chapter III, Art. 40": [
-        "PRI-06.4"
-      ],
-      "Title 2, Chapter III, Art. 39(2)": [
-        "PRI-06.5"
-      ],
-      "Title 2, Chapter IV, Section 3, Art. 53(1)": [
-        "PRI-07.1"
-      ],
-      "Title 2, Chapter IV, Section 3, Art. 53(2)": [
-        "PRI-07.1"
-      ],
-      "Title 2, Chapter IV, Section 3, Art. 53(3)": [
-        "PRI-07.1"
-      ],
-      "Title 2, Chapter IV, Section 3, Art. 53(4)": [
-        "PRI-07.1"
-      ],
-      "Title 2, Chapter IV, Section 3, Art. 53(5)": [
-        "PRI-07.1"
-      ],
-      "Title 2, Chapter IV, Section 3, Art. 54": [
-        "PRI-07.1"
-      ],
-      "Title 2, Chapter IV, Section 2, Art. 52": [
-        "PRI-07.2"
-      ],
-      "Title 2, Chapter III, Art. 36(4)": [
-        "PRI-07.4"
-      ],
-      "Title 2, Chapter III, Art. 36(5)": [
-        "PRI-07.5"
+        "PRI-03.2"
       ],
       "Title 1, Section III, Art. 14(3)": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter III, Art. 45(5)": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter IV, Section 4, Art. 55(1)": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter IV, Section 4, Art. 55(2)": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter IV, Section 4, Art. 55(3)": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter IV, Section 4, Art. 56(1)": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter IV, Section 4, Art. 56(2)": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter IV, Section 4, Art. 56(3)": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter IV, Section 4, Art. 57": [
-        "PRI-14"
+        "PRI-05"
       ],
       "Title 2, Chapter IV, Section 4, Art. 58": [
+        "PRI-05"
+      ],
+      "Title 4, Chapter II, Art. 191": [
+        "PRI-05"
+      ],
+      "Title 4, Chapter II, Art. 192": [
+        "PRI-05"
+      ],
+      "Title 1, Chapter II, Art. 8(2)": [
+        "PRI-06"
+      ],
+      "Title 1, Chapter II, Art. 10(2)": [
+        "PRI-06"
+      ],
+      "Title 2, Chapter II, Art. 31": [
+        "PRI-06"
+      ],
+      "Title 1, Section III, Art. 14(2)": [
+        "PRI-09"
+      ],
+      "Title 2, Chapter II, Art. 28": [
+        "PRI-09"
+      ],
+      "Title 2, Chapter II, Art. 32(1)": [
+        "PRI-09"
+      ],
+      "Title 2, Chapter II, Art. 32(3)": [
+        "PRI-09",
+        "PRI-37"
+      ],
+      "Title 2, Chapter II, Art. 34(1)": [
+        "PRI-09"
+      ],
+      "Title 2, Chapter III, Art. 39(3)": [
+        "PRI-09"
+      ],
+      "Title 2, Chapter III, Art. 45(3)": [
+        "PRI-09"
+      ],
+      "Title 4, Chapter III, Section 2, Art. 194": [
+        "PRI-09"
+      ],
+      "Title 4, Chapter III, Section 2, Art. 195": [
+        "PRI-09"
+      ],
+      "Title 4, Chapter III, Section 2, Art. 196": [
+        "PRI-09"
+      ],
+      "Title 4, Chapter III, Section 2, Art. 197": [
+        "PRI-09"
+      ],
+      "Title 4, Chapter III, Section 3, Art. 202(1)": [
+        "PRI-09"
+      ],
+      "Title 4, Chapter III, Section 3, Art. 202(2)": [
+        "PRI-09"
+      ],
+      "Title 2, Chapter II, Art. 34(2)": [
+        "PRI-10"
+      ],
+      "Title 2, Chapter III, Art. 45(4)": [
+        "PRI-10"
+      ],
+      "Title 2, Chapter IV, Section 1, Art. 50": [
+        "PRI-10"
+      ],
+      "Title 2, Chapter IV, Section 1, Art. 51(1)": [
+        "PRI-10"
+      ],
+      "Title 2, Chapter IV, Section 1, Art. 51(2)": [
+        "PRI-10"
+      ],
+      "Title 2, Chapter IV, Section 4, Art. 60(1)": [
+        "PRI-10"
+      ],
+      "Title 2, Chapter IV, Section 4, Art. 60(2)": [
+        "PRI-10"
+      ],
+      "Title 1, Section III, Art. 14(4)": [
+        "PRI-12"
+      ],
+      "Title 2, Chapter II, Art. 33(1)": [
+        "PRI-12"
+      ],
+      "Title 2, Chapter II, Art. 33(2)": [
+        "PRI-12"
+      ],
+      "Title 2, Chapter IV, Section 3, Art. 53(1)": [
         "PRI-14"
       ],
-      "Title 2, Chapter III, Art. 36(1)": [
-        "PRI-17"
+      "Title 2, Chapter IV, Section 3, Art. 53(2)": [
+        "PRI-14"
       ],
-      "Title 2, Chapter III, Art. 38(4)": [
-        "PRI-18"
+      "Title 2, Chapter IV, Section 3, Art. 53(3)": [
+        "PRI-14"
+      ],
+      "Title 2, Chapter IV, Section 3, Art. 53(4)": [
+        "PRI-14"
+      ],
+      "Title 2, Chapter IV, Section 3, Art. 53(5)": [
+        "PRI-14"
+      ],
+      "Title 2, Chapter IV, Section 3, Art. 54": [
+        "PRI-14"
+      ],
+      "Title 2, Chapter V, Art. 66(1)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 66(2)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 67": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 68(1)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 68(2)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 68(3)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 69(1)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 69(2)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 69(3)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 70(1)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 70(2)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter V, Art. 70(3)": [
+        "PRI-15"
+      ],
+      "Title 2, Chapter III, Art. 36(4)": [
+        "PRI-18.1"
+      ],
+      "Title 2, Chapter III, Art. 36(5)": [
+        "PRI-18.2"
+      ],
+      "Title 2, Chapter III, Art. 37(1)": [
+        "PRI-21"
+      ],
+      "Title 2, Chapter III, Art. 37(2)": [
+        "PRI-21"
+      ],
+      "Title 4, Chapter III, Section 1, Art. 193": [
+        "PRI-21"
+      ],
+      "Title 1, Chapter II, Art. 7": [
+        "PRI-24.5"
+      ],
+      "Title 1, Chapter II, Art. 8(3)": [
+        "PRI-29"
+      ],
+      "Title 1, Chapter II, Art. 9": [
+        "PRI-29"
+      ],
+      "Title 1, Chapter II, Art. 10(1)": [
+        "PRI-29"
+      ],
+      "Title 2, Chapter III, Art. 45(2)": [
+        "PRI-29"
+      ],
+      "Title 2, Chapter II, Art. 30": [
+        "PRI-30"
+      ],
+      "Title 2, Chapter II, Art. 29(1)": [
+        "PRI-31.1"
+      ],
+      "Title 2, Chapter II, Art. 29(2)": [
+        "PRI-31.1"
+      ],
+      "Title 2, Chapter II, Art. 32(2)": [
+        "PRI-35"
       ],
       "Title 2, Chapter II, Art. 35": [
-        "PRI-19"
+        "PRI-36.1"
+      ],
+      "Title 2, Chapter III, Art. 36(1)": [
+        "PRI-37"
+      ],
+      "Title 2, Chapter III, Art. 36(3)": [
+        "PRI-39"
+      ],
+      "Title 2, Chapter III, Art. 38(3)": [
+        "PRI-39"
+      ],
+      "Title 2, Chapter III, Art. 39(4)": [
+        "PRI-39"
+      ],
+      "Title 2, Chapter III, Art. 40": [
+        "PRI-39"
+      ],
+      "Title 2, Chapter III, Art. 36(2)": [
+        "PRI-39.1"
+      ],
+      "Title 2, Chapter III, Art. 38(1)": [
+        "PRI-39.1"
+      ],
+      "Title 2, Chapter III, Art. 38(2)": [
+        "PRI-39.1"
+      ],
+      "Title 2, Chapter III, Art. 39(1)": [
+        "PRI-39.1"
+      ],
+      "Title 2, Chapter III, Art. 39(5)": [
+        "PRI-39.4"
+      ],
+      "Title 2, Chapter III, Art. 39(6)": [
+        "PRI-39.4"
+      ],
+      "Title 2, Chapter III, Art. 39(2)": [
+        "PRI-40"
+      ],
+      "Title 2, Chapter IV, Section 2, Art. 52": [
+        "PRI-43"
+      ],
+      "Title 2, Chapter III, Art. 38(4)": [
+        "PRI-44"
       ]
     }
   }

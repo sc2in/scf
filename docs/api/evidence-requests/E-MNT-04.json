@@ -4,10 +4,12 @@
   "artifact_name": "Maintenance Activities",
   "artifact_description": "Documented evidence of maintenance activities for the organization's Technology Assets, Applications and/or Services (TAAS).",
   "scf_controls": [
-    "MNT-01",
-    "MNT-02",
     "MNT-03",
-    "MNT-03.1"
+    "MNT-04",
+    "MNT-05",
+    "MNT-06",
+    "MNT-07",
+    "MNT-08"
   ],
   "cmmc_mapping": ""
 }

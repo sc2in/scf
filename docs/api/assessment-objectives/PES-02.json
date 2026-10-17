@@ -1,13 +1,13 @@
 {
   "scf_control_id": "PES-02",
-  "total": 14,
+  "total": 10,
   "assessment_objectives": [
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A01",
-      "objective": "authorized individuals allowed physical access are identified.",
-      "pptdf": "Process",
-      "origin": "171A_3.10.1[a]\n53A_R5_PE-02a.[01]",
+      "objective": "the physical facility where organizational systems reside is protected.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.2[a]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A02",
-      "objective": "physical access to operating environments is limited to authorized individuals.",
+      "objective": "the location or site of the facility where the system resides is planned considering physical and environmental hazards.",
       "pptdf": "Facility",
-      "origin": "171A_3.10.1[d]",
+      "origin": "53A_R5_PE-23a.",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A03",
-      "objective": "physical access to organizational systems is limited to authorized individuals.",
+      "objective": "for existing facilities, physical and environmental hazards are considered in the organizational risk management strategy.",
       "pptdf": "Facility",
-      "origin": "171A_3.10.1[b]",
+      "origin": "53A_R5_PE-23b.",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,19 +35,19 @@
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A04",
-      "objective": "physical access to equipment is limited to authorized individuals.",
+      "objective": "the support infrastructure for organizational systems is protected.",
       "pptdf": "Facility",
-      "origin": "171A_3.10.1[c]",
-      "assessment_rigor": "1",
+      "origin": "171A_3.10.2[b]",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A05",
-      "objective": "the frequency at which to review the access list detailing authorized facility access by individuals is defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PE-02_ODP\n171A_R3_A.03.10.01.ODP[01]",
+      "objective": "the physical facility where organizational systems reside is monitored.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.2[c]",
       "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -55,9 +55,9 @@
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A06",
-      "objective": "a list of individuals with authorized access to the facility where the system resides is approved.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PE-02a.[02]\n171A_R3_A.03.10.01.a[02]",
+      "objective": "the support infrastructure for organizational systems is monitored.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.2[d]",
       "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -65,81 +65,41 @@
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A07",
-      "objective": "a list of individuals with authorized access to the facility where the system resides is maintained.",
+      "objective": "physical security operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
       "pptdf": "Process",
-      "origin": "53A_R5_PE-02a.[03]\n171A_R3_A.03.10.01.a[03]",
-      "assessment_rigor": "2",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A08",
-      "objective": "authorization credentials are issued for facility access.",
-      "pptdf": "Facility",
-      "origin": "53A_R5_PE-02b.",
-      "assessment_rigor": "3",
+      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support physical security operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A09",
-      "objective": "the facility access list is reviewed per an organization-defined frequency.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PE-02c.",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "at least annually",
+      "objective": "responsibility and authority for the performance of physical security-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "PES-02",
       "ao_id": "PES-02_A10",
-      "objective": "individuals from the facility access list are removed when access is no longer required.",
-      "pptdf": "Facility",
-      "origin": "53A_R5_PE-02d.\n171A_R3_A.03.10.01.d",
+      "objective": "personnel performing physical security-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
       "assessment_rigor": "2",
       "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "PES-02",
-      "ao_id": "PES-02_A11",
-      "objective": "physical access restrictions associated with changes to the system are approved.",
-      "pptdf": "Process",
-      "origin": "171A_R3_A.03.04.05[02]",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "PES-02",
-      "ao_id": "PES-02_A12",
-      "objective": "a list of individuals with authorized access to the facility where the system resides is developed.",
-      "pptdf": "Process",
-      "origin": "171A_R3_A.03.10.01.a[01]",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "PES-02",
-      "ao_id": "PES-02_A13",
-      "objective": "physical access authorizations are enforced at entry and exit points to the facility where the system resides by verifying individual physical access authorizations before granting access.",
-      "pptdf": "Facility",
-      "origin": "171A_R3_A.03.10.07.a.01",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "PES-02",
-      "ao_id": "PES-02_A14",
-      "objective": "the facility access list is reviewed <A.03.10.01.ODP[01]: frequency>.",
-      "pptdf": "Process",
-      "origin": "171A_R3_A.03.10.01.c",
-      "assessment_rigor": "NIST 800-171",
-      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
       "org_defined_parameters": ""
     }
   ]

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAO-06",
+  "area": "Information Assurance",
+  "artifact_name": "Security Authorization Records",
+  "artifact_description": "Documented evidence of security authorization decisions (e.g., Authorization To Operate (ATO)) for in-scope Technology Assets, Applications and/or Services (TAAS).",
+  "scf_controls": [
+    "GOV-11.4",
+    "IAO-14"
+  ],
+  "cmmc_mapping": ""
+}

@@ -4,13 +4,13 @@
   "artifact_name": "Cybersecurity Risk Assessment (RA)",
   "artifact_description": "Documented evidence of a cybersecurity-specific risk assessment.",
   "scf_controls": [
-    "RSK-02",
-    "RSK-02.1",
-    "RSK-03",
-    "RSK-04",
-    "RSK-05",
-    "VPM-02",
-    "VPM-03"
+    "RSK-07",
+    "RSK-07.1",
+    "RSK-09",
+    "RSK-13",
+    "RSK-13.2",
+    "RSK-13.3",
+    "RSK-15"
   ],
   "cmmc_mapping": ""
 }

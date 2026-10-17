@@ -5,7 +5,7 @@
     {
       "scf_control_id": "QTS-08",
       "ao_id": "QTS-08_A01",
-      "objective": "Post-Quantum Cryptography (PQC) implementations are validated for functional and cryptographic requirements.",
+      "objective": "a quantum threat intelligence function is established.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "QTS-08",
       "ao_id": "QTS-08_A02",
-      "objective": "each PQC implementation is interoperable with counterparties and successors.",
+      "objective": "the function monitors cryptanalytic threat developments.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,7 +25,7 @@
     {
       "scf_control_id": "QTS-08",
       "ao_id": "QTS-08_A03",
-      "objective": "each PQC implementation meets performance criteria for its use case.",
+      "objective": "the function monitors quantum computing capability advances.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -35,11 +35,11 @@
     {
       "scf_control_id": "QTS-08",
       "ao_id": "QTS-08_A04",
-      "objective": "test results and exceptions are documented.",
+      "objective": "the function monitors NIST and/or regulatory updates to approved algorithm lists.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least quarterly",
       "org_defined_parameters": ""
     }
   ]

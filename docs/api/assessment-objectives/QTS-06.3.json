@@ -1,11 +1,11 @@
 {
   "scf_control_id": "QTS-06.3",
-  "total": 2,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-06.3",
       "ao_id": "QTS-06.3_A01",
-      "objective": "Post-Quantum Cryptography (PQC) algorithms are approved.",
+      "objective": "vendors are required to disclose Post-Quantum Cryptography (PQC) support roadmaps.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,17 @@
     {
       "scf_control_id": "QTS-06.3",
       "ao_id": "QTS-06.3_A02",
-      "objective": "required validation levels for approved algorithms (e.g., FIPS 140-3 validated) are defined.",
+      "objective": "the roadmaps include identification of PQC-related limitations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "QTS-06.3",
+      "ao_id": "QTS-06.3_A03",
+      "objective": "the roadmaps include supported upgrade paths to ensure long-lived devices (e.g., OT, IoT and embedded systems) can support PQC capabilities.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

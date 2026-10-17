@@ -4,7 +4,8 @@
   "artifact_name": "Security Operations Center (SOC)",
   "artifact_description": "Documented evidence of a Security Operations Center (SOC).",
   "scf_controls": [
-    "OPS-04"
+    "OPS-07",
+    "OPS-08"
   ],
   "cmmc_mapping": ""
 }

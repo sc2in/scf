@@ -1,13 +1,23 @@
 {
   "scf_control_id": "DCH-18.3",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "DCH-18.3",
       "ao_id": "DCH-18.3_A01",
-      "objective": "periodic checks of temporary files for the existence of Personal Data (PD) are performed.",
+      "objective": "the frequency with which to test digital media sanitization equipment and procedures is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(02)_ODP[01]\n53A_R5_MP-06(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-18.3",
+      "ao_id": "DCH-18.3_A02",
+      "objective": "digital media sanitization equipment and procedures are tested at the defined frequency to verify that the intended sanitization result is achieved.",
       "pptdf": "Technology",
-      "origin": "SCF Created",
+      "origin": "53A_R5_MP-06(02)[01]\n53A_R5_MP-06(02)[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

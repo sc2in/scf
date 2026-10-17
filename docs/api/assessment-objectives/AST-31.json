@@ -1,11 +1,31 @@
 {
   "scf_control_id": "AST-31",
-  "total": 1,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-31",
       "ao_id": "AST-31_A01",
-      "objective": "the organization utilizes a defined methodology to categorize its technology assets based on data sensitivity and criticality.",
+      "objective": "usage restrictions and implementation guidance for telecommunication equipment are established to prevent potential damage.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-31",
+      "ao_id": "AST-31_A02",
+      "objective": "usage restrictions and implementation guidance for telecommunication equipment are established to prevent unauthorized modification.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-31",
+      "ao_id": "AST-31_A03",
+      "objective": "usage restrictions and implementation guidance for telecommunication equipment are established to prevent potential eavesdropping.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

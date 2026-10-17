@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-EX-11",
+  "grouping": "Exposure",
+  "name": "Loss of Authorization / Certification / License",
+  "description": "The organization loses or is unable to obtain or maintain an authorization, certification, accreditation, license or other permission required to operate, sell, contract or access a market.",
+  "nist_csf_function": "Protect"
+}

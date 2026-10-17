@@ -1,13 +1,13 @@
 {
   "scf_control_id": "IAC-07",
-  "total": 7,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-07",
       "ao_id": "IAC-07_A01",
-      "objective": "the validation and verification of identity evidence is conducted in person before a designated registration authority.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_IA-12(04)",
+      "objective": "the circumstances and/or usage conditions to be enforced for users and/or roles are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(11)_ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "IAC-07",
       "ao_id": "IAC-07_A02",
-      "objective": "authorization is received from organizational personnel or roles to assign an individual, group, role, service, or device identifier.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.05.05.a",
+      "objective": "the users and/or roles subject to enforcement of circumstances and/or usage conditions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(11)_ODP[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "IAC-07",
       "ao_id": "IAC-07_A03",
-      "objective": "system accounts are created in accordance with organizational policy, procedures, prerequisites, and criteria.",
+      "objective": "the defined circumstances and/or usage conditions for users and/or roles are automatically enforced through Attribute-Based Access Control (ABAC) policy-driven, dynamic authorizations.",
       "pptdf": "Technology",
-      "origin": "171A_R3_A.03.01.01.b[01]",
+      "origin": "53A_R5_AC-02(11)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,39 +35,9 @@
     {
       "scf_control_id": "IAC-07",
       "ao_id": "IAC-07_A04",
-      "objective": "system accounts are enabled in accordance with organizational policy, procedures, prerequisites, and criteria.",
+      "objective": "Attribute-Based Access Control (ABAC) is enforced for policy-driven, dynamic authorizations that support the secure sharing of information.",
       "pptdf": "Technology",
-      "origin": "171A_R3_A.03.01.01.b[02]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-07",
-      "ao_id": "IAC-07_A05",
-      "objective": "system accounts are modified in accordance with organizational policy, procedures, prerequisites, and criteria.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.01.01.b[03]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-07",
-      "ao_id": "IAC-07_A06",
-      "objective": "system accounts are disabled in accordance with organizational policy, procedures, prerequisites, and criteria.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.01.01.b[04]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "IAC-07",
-      "ao_id": "IAC-07_A07",
-      "objective": "system accounts are removed in accordance with organizational policy, procedures, prerequisites, and criteria.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.01.01.b[05]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

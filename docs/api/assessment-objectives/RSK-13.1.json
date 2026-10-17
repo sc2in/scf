@@ -1,21 +1,11 @@
 {
   "scf_control_id": "RSK-13.1",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "RSK-13.1",
       "ao_id": "RSK-13.1_A01",
-      "objective": "potential courses of action are developed to manage material risks with necessary information to make an informed decision.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "RSK-13.1",
-      "ao_id": "RSK-13.1_A02",
-      "objective": "potential courses of action to manage material risks are presented to executive leadership.",
+      "objective": "instances that require a risk assessment to be performed are defined.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

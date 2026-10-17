@@ -1,34 +1,54 @@
 {
   "scf_control_id": "PES-15",
-  "total": 3,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "PES-15",
       "ao_id": "PES-15_A01",
-      "objective": "protective measures to be employed against electromagnetic pulse damage are defined.",
+      "objective": "types of system components to be authorized and controlled when entering the facility are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_PE-21_ODP[01]",
+      "origin": "53A_R5_PE-16_ODP[01]",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "all information system components",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "PES-15",
       "ao_id": "PES-15_A02",
-      "objective": "system and system components requiring protection against electromagnetic pulse damage are defined.",
+      "objective": "types of system components to be authorized and controlled when exiting the facility are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_PE-21_ODP[02]",
+      "origin": "53A_R5_PE-16_ODP[02]",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "all information system components",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "PES-15",
       "ao_id": "PES-15_A03",
-      "objective": "protective measures are employed against electromagnetic pulse damage for system and system components.",
+      "objective": "types of system components are authorized and controlled when entering the facility.",
       "pptdf": "Facility",
-      "origin": "53A_R5_PE-21",
+      "origin": "53A_R5_PE-16a.[01]\n53A_R5_PE-16a.[02]",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "all information system components",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-15",
+      "ao_id": "PES-15_A04",
+      "objective": "types of system components are authorized and controlled when exiting the facility.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-16a.[03]\n53A_R5_PE-16a.[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "all information system components",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-15",
+      "ao_id": "PES-15_A05",
+      "objective": "records of the system components are maintained.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-16b.",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

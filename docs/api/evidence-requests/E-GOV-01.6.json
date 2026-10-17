@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.6",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Change Management Policy",
+  "artifact_description": "Documented evidence of a change management policy.",
+  "scf_controls": [
+    "CHG-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

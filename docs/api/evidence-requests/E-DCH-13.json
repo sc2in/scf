@@ -4,8 +4,10 @@
   "artifact_name": "Media Storage Facilities",
   "artifact_description": "Documented evidence of media storage facilities.",
   "scf_controls": [
-    "BCD-01.3",
-    "DCH-06"
+    "AST-18",
+    "AST-19",
+    "DCH-13",
+    "DCH-14"
   ],
   "cmmc_mapping": "MP.L2-3.8.1"
 }

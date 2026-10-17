@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.14",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Endpoint Security Policy",
+  "artifact_description": "Documented evidence of a endpoint security policy.",
+  "scf_controls": [
+    "END-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

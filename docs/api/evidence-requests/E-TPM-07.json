@@ -4,7 +4,8 @@
   "artifact_name": "System Connection or Processing Agreements",
   "artifact_description": "Documented evidence of system connection or processing agreements.",
   "scf_controls": [
-    "TPM-05"
+    "NET-05",
+    "TPM-14"
   ],
   "cmmc_mapping": "AC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.21"
 }

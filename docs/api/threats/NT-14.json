@@ -2,5 +2,5 @@
   "threat_id": "NT-14",
   "grouping": "Natural Threat",
   "name": "Winter Storms & Extreme Cold",
-  "description": "Winter storms is a broad category of meteorological events that include events that range from ice storms, to heavy snowfall, to unseasonably (e.g., record breaking) cold temperatures. Winter storms can significantly impact business operations and transportation systems over a wide geographic region."
+  "description": "Snow, ice, freezing temperatures or other severe winter conditions that can interrupt utilities and transportation, damage equipment, restrict personnel access and degrade control execution or recovery."
 }

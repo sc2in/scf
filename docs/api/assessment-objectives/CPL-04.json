@@ -5,20 +5,20 @@
     {
       "scf_control_id": "CPL-04",
       "ao_id": "CPL-04_A01",
-      "objective": "an internal audit function formally defines audit-related priorities for the organization.",
+      "objective": "a capability exists to demonstrate conformity with applicable cybersecurity and data protection laws, regulations and/or contractual obligations.",
       "pptdf": "Process",
       "origin": "SCF Created",
-      "assessment_rigor": "1",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CPL-04",
       "ao_id": "CPL-04_A02",
-      "objective": "audits are thoughtfully planned to minimize the impact of audit-related activities on business operations.",
-      "pptdf": "Process",
+      "objective": "responsibility for demonstrating conformity with applicable cybersecurity and data protection laws, regulations and/or contractual obligations is assigned to designated personnel or roles.",
+      "pptdf": "People",
       "origin": "SCF Created",
-      "assessment_rigor": "1",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

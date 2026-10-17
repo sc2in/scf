@@ -1,45 +1,15 @@
 {
   "scf_control_id": "QTS-04.3",
-  "total": 4,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-04.3",
       "ao_id": "QTS-04.3_A01",
-      "objective": "a current inventory of Technology Assets, Applications and/or Services (TAAS) with Post-Quantum Cryptography (PQC) exposure is maintained.",
+      "objective": "progress is measured in adopting cryptographic agility using defined maturity criteria to support resilience against evolving Post-Quantum Cryptography (PQC) requirements and threats.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.3",
-      "ao_id": "QTS-04.3_A02",
-      "objective": "the inventory includes public key algorithms vulnerable to Cryptographically Relevant Quantum Computers (CRQCs).",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.3",
-      "ao_id": "QTS-04.3_A03",
-      "objective": "the inventory includes long-lived keys and certificates (e.g., CA roots, firmware signing keys, etc.).",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.3",
-      "ao_id": "QTS-04.3_A04",
-      "objective": "the inventory includes TAAS that cannot easily adopt PQC upgrades (e.g., embedded, RTOS, etc.).",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     }
   ]

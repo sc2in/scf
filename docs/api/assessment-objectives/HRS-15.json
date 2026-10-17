@@ -5,21 +5,21 @@
     {
       "scf_control_id": "HRS-15",
       "ao_id": "HRS-15_A01",
-      "objective": "personnel are empowered to efficiently report suspicious activities and/or behavior without fear of recrimination.",
+      "objective": "duties of individuals requiring separation are identified.",
       "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "3",
+      "origin": "171A_R3_A.03.01.04.a",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "HRS-15",
       "ao_id": "HRS-15_A02",
-      "objective": "personnel are provided with an anonymous means to report suspicious activities and/or behavior.",
+      "objective": "incompatible development-specific roles are avoided by limiting developer privileges to change hardware, software and firmware components within a production/operational environment and by reviewing those privileges per an organization-defined frequency.",
       "pptdf": "Process",
       "origin": "SCF Created",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
       "org_defined_parameters": ""
     }
   ]

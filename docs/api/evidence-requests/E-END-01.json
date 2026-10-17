@@ -4,9 +4,15 @@
   "artifact_name": "Endpoint Security Tools",
   "artifact_description": "Documented evidence of endpoint security tools employed by the organization to ensure secure, compliant and resilient Technology Assets, Applications and/or Services (TAAS) (e.g., antimalware, FIM, etc.).",
   "scf_controls": [
-    "END-01",
+    "END-02",
+    "END-03",
     "END-04",
-    "END-06"
+    "END-07",
+    "END-08",
+    "END-09",
+    "END-10",
+    "END-11",
+    "END-12"
   ],
   "cmmc_mapping": "SI.L1-3.14.4\nSI.L1-3.14.5"
 }

@@ -4,8 +4,8 @@
   "artifact_name": "Approved / Deprecated Algorithm List",
   "artifact_description": "Documented evidence of an approved / deprecated algorithm list.",
   "scf_controls": [
-    "QTS-06.3",
-    "QTS-06.5"
+    "QTS-09.3",
+    "QTS-09.5"
   ],
   "cmmc_mapping": ""
 }

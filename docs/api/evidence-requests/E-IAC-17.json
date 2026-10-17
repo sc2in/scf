@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-IAC-17",
+  "area": "Identity & Access Management",
+  "artifact_name": "Authenticator Configuration Settings",
+  "artifact_description": "Documented evidence of authenticator management settings (e.g., password complexity, default authenticator changes, account lockout, protection of authenticators).",
+  "scf_controls": [
+    "CFG-04.1",
+    "IAC-14.2",
+    "IAC-14.4",
+    "IAC-15",
+    "IAC-15.1"
+  ],
+  "cmmc_mapping": ""
+}

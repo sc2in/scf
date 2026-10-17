@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CRY-15",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-15",
+      "ao_id": "CRY-15_A01",
+      "objective": "a legal opinion regarding exporting cryptographic technologies is obtained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-15",
+      "ao_id": "CRY-15_A02",
+      "objective": "cryptographic uses are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-13_ODP[01]\n53A_R5_SC-13a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "all uses of cryptography, including encryption of data, decryption of data, hashing, random number generation, key generation, generation of one-time passwords (OTPs) for multi-factor authentication, and protocols such as TLS, SSH and HTTPS",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-15",
+      "ao_id": "CRY-15_A03",
+      "objective": "types of cryptography for each specified cryptographic use are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-13_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

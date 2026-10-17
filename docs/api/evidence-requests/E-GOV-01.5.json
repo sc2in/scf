@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.5",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Capacity & Performance Planning Policy",
+  "artifact_description": "Documented evidence of a capacity and performance planning policy.",
+  "scf_controls": [
+    "CAP-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

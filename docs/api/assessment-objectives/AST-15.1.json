@@ -1,13 +1,13 @@
 {
   "scf_control_id": "AST-15.1",
-  "total": 4,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-15.1",
       "ao_id": "AST-15.1_A01",
-      "objective": "systems or system components that require inspection are defined.",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are categorized as \"High Risk\" if they pose a significant risk of harm to an individual's health.",
       "pptdf": "Process",
-      "origin": "53A_R5_SR-10_ODP[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,29 +15,19 @@
     {
       "scf_control_id": "AST-15.1",
       "ao_id": "AST-15.1_A02",
-      "objective": "the frequency at which to inspect systems or system components is defined.",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are categorized as \"High Risk\" if they pose a significant risk of harm to an individual's safety.",
       "pptdf": "Process",
-      "origin": "53A_R5_SR-10_ODP[02]\n53A_R5_SR-10_ODP[03]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "at least annually",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AST-15.1",
-      "ao_id": "AST-15.1_A03",
-      "objective": "indications of the need for an inspection of systems or system components are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SR-10_ODP[04]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "AST-15.1",
-      "ao_id": "AST-15.1_A04",
-      "objective": "systems or system components are inspected to detect tampering.",
+      "ao_id": "AST-15.1_A03",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) are categorized as \"High Risk\" if they pose a significant risk of harm to an individual's fundamental human rights.",
       "pptdf": "Process",
-      "origin": "53A_R5_SR-10",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

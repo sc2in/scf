@@ -1,0 +1,16 @@
+{
+  "control_id": "BCD-18.1",
+  "risk_if_not_implemented": "Without Restore Within Time Period, data, software and system images cannot be reliably restored within required recovery objectives following a disruption. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to R-AM-2, R-BC-1, R-BC-2, R-OR-1, R-IP-3, R-IP-4, and most likely increases susceptibility to Malicious Cyber Activity (MT-2), Human Error (MT-9), Technical / Mechanical Failure (MT-10), Data Quality Degradation / Data Poisoning (MT-12).",
+  "compensating_control_1": {
+    "control_id": "BCD-13",
+    "name": "Alternate Processing Site",
+    "description": "Mechanisms exist to establish an alternate processing site that provides processing capability and security measures equivalent to that of the primary site.",
+    "justification": "Alternate Processing Site (BCD-13) provides resilience and recovery capability that compensates for the absence of Restore Within Time Period (BCD-18.1) by ensuring the organization can restore operations and data when the primary control is absent. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "BCD-24",
+    "name": "Data Backups",
+    "description": "Mechanisms exist to create recurring backups of data, software and/or system images, as well as verify the integrity of these backups, to ensure the availability of the data to satisfy Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).",
+    "justification": "Data Backups (BCD-24) provides resilience and recovery capability that compensates for the absence of Restore Within Time Period (BCD-18.1) by ensuring the organization can restore operations and data when the primary control is absent. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

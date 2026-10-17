@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-AI-6",
+  "grouping": "Artificial Intelligence & Autonomous Technologies",
+  "name": "AI Bias / Discriminatory Outcome",
+  "description": "Artificial Intelligence (AI)-supported decisions or outputs produce unjustified, systematically biased or discriminatory outcomes that create legal, ethical, reputational or individual harm.",
+  "nist_csf_function": "Protect"
+}

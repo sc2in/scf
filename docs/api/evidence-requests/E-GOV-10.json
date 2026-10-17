@@ -1,16 +1,11 @@
 {
   "erl_id": "E-GOV-10",
-  "area": "Cybersecurity & Data Protection Management",
-  "artifact_name": "Cybersecurity & Data Protection Controls",
-  "artifact_description": "Documented evidence of an appropriately-scoped cybersecurity & data protection controls. Controls are technical, administrative or physical safeguards. Controls are the nexus used to manage risks through preventing, detecting or lessening the ability of a particular threat from negatively impacting business processes. Controls directly map to standards, since control testing is designed to measure specific aspects of how standards are actually implemented.",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Charter - Data Privacy Steering Committee",
+  "artifact_description": "Documented evidence of an executive steering committee, or advisory board, that is formed to perform oversight of privacy management decisions and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
   "scf_controls": [
     "GOV-09",
-    "CPL-01",
-    "CPL-01.2",
-    "BCD-13",
-    "BCD-13.1",
-    "SEA-01.1",
-    "SEA-01.2"
+    "GOV-09.1"
   ],
   "cmmc_mapping": ""
 }

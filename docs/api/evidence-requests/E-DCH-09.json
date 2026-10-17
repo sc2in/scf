@@ -4,9 +4,7 @@
   "artifact_name": "Assigned Responsibilities",
   "artifact_description": "Documented evidence of data stewardship being assigned and communicated to individuals entrusted with sensitive and/or regulated data.",
   "scf_controls": [
-    "CRY-01",
-    "DCH-01.1",
-    "DCH-14"
+    "DCH-06"
   ],
   "cmmc_mapping": ""
 }

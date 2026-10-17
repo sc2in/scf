@@ -1,13 +1,13 @@
 {
   "erl_id": "E-GOV-13",
-  "area": "Cybersecurity & Data Protection Management",
-  "artifact_name": "Measures of Performance (Metrics)",
-  "artifact_description": "Documented evidence of formal measure of performance that are used to track the health of the cybersecurity & data protection program (e.g., metrics, KPIs, KRIs).",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Charter - Data Management Board (DMB)",
+  "artifact_description": "Documented evidence of the organization's Data Management Board (DMB) charter and mission.",
   "scf_controls": [
-    "GOV-01.2",
-    "GOV-05",
-    "GOV-05.2",
-    "CPL-02"
+    "DCH-03",
+    "DCH-33.1",
+    "GOV-09",
+    "GOV-09.1"
   ],
   "cmmc_mapping": ""
 }

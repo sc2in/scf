@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-EMB-02",
+  "area": "Asset Management",
+  "artifact_name": "Embedded Technology Security Program",
+  "artifact_description": "Documented evidence of an embedded technology security program covering Internet of Things (IoT) and Operational Technology (OT).",
+  "scf_controls": [
+    "EMB-02",
+    "EMB-05",
+    "EMB-06"
+  ],
+  "cmmc_mapping": ""
+}

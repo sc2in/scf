@@ -1,0 +1,17 @@
+{
+  "erl_id": "E-MON-12",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Event Log Protection & Time Synchronization",
+  "artifact_description": "Documented evidence of event log protection (access restriction, cryptographic protection, separate backup) and synchronization with an authoritative time source.",
+  "scf_controls": [
+    "MON-10",
+    "MON-11",
+    "MON-11.1",
+    "MON-12",
+    "MON-12.1",
+    "MON-12.2",
+    "MON-12.3",
+    "SEA-30"
+  ],
+  "cmmc_mapping": ""
+}

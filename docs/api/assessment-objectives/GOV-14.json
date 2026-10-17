@@ -5,17 +5,17 @@
     {
       "scf_control_id": "GOV-14",
       "ao_id": "GOV-14_A01",
-      "objective": "the executive steering committee, or advisory board, directs organization leadership to incorporate cybersecurity / data privacy principles into Business As Usual (BAU) practices.",
+      "objective": "an executive steering committee, or advisory board, evaluates host nation business practices for possible instances where the organization's Technology Assets, Applications and/or Services (TAAS) could be leveraged for economic or political espionage and/or cyberwarfare activities.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "GOV-14",
       "ao_id": "GOV-14_A02",
-      "objective": "cybersecurity incidents are reviewed to identify incidents that occurred due to cybersecurity / data privacy principles not being adopted as Business As Usual (BAU) practices.",
+      "objective": "documented measures enable the executive steering committee, or advisory board, to identify and evaluate host nation business practices that could leverage the organization's Technology Assets, Applications and/or Services (TAAS) for economic or political espionage and/or cyberwarfare activities.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,7 +25,7 @@
     {
       "scf_control_id": "GOV-14",
       "ao_id": "GOV-14_A03",
-      "objective": "identified deficiencies of cybersecurity / data privacy principles not being adopted as Business As Usual (BAU) practices are tracked via a Plan of Action and Milestones (POA&M), or risk register, through remediation.",
+      "objective": "actions are taken to prevent and/or block potential instances where host nation business practices could leverage the organization's Technology Assets, Applications and/or Services (TAAS) for economic or political espionage and/or cyberwarfare activities.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

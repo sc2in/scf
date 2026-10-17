@@ -1,112 +1,243 @@
 {
   "control_id": "BCD-09.1",
-  "title": "Separation from Primary Processing Site",
+  "title": "Simulated Events",
   "family": "BCD",
-  "description": "Mechanisms exist to separate the alternate processing site from the primary processing site to reduce susceptibility to similar threats.",
-  "scf_question": "Does the organization separate the alternate processing site from the primary processing site to reduce susceptibility to similar threats?",
-  "relative_weight": 7,
+  "description": "Mechanisms exist to incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.",
+  "scf_question": "Does the organization incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations?",
+  "relative_weight": 3,
   "conformity_cadence": "Annual",
-  "evidence_requests": [],
-  "pptdf": "Facility",
-  "nist_csf_function": "Protect",
+  "evidence_requests": [
+    "E-BCD-06"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Recover",
   "scrm_focus": {
     "strategic": false,
     "operational": true,
-    "tactical": false
+    "tactical": true
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
-    "2": "Business Continuity & Disaster Recovery (BCD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with BCD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with BCD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with BCD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Business Continuity / Disaster Recovery (BC/DR)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ BC/DR may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
-    "3": "Business Continuity & Disaster Recovery (BCD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with BCD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with BCD domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with BCD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to separate the alternate processing site from the primary processing site to reduce susceptibility to similar threats.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Business Continuity & Disaster Recovery (BCD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with BCD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with BCD domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with BCD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
   "profiles": [],
   "possible_solutions": {
-    "micro_small": "∙ Continuity of Operations Plan (COOP)",
-    "small": "∙ Continuity of Operations Plan (COOP)",
-    "medium": "∙ Continuity of Operations Plan (COOP)",
-    "large": "∙ Continuity of Operations Plan (COOP)",
-    "enterprise": "∙ Continuity of Operations Plan (COOP)"
+    "micro_small": "∙ Tabletop exercises",
+    "small": "∙ Tabletop exercises",
+    "medium": "∙ Tabletop exercises",
+    "large": "∙ Tabletop exercises\n∙ Simulated events",
+    "enterprise": "∙ Tabletop exercises\n∙ Simulated events"
   },
   "risks": [
-    "R-AM-3",
     "R-BC-1",
     "R-BC-3",
-    "R-BC-4",
-    "R-BC-5",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
-    "R-EX-4",
-    "R-EX-5",
-    "R-GV-1"
+    "R-EX-8",
+    "R-GV-9",
+    "R-GV-10",
+    "R-IR-2",
+    "R-OR-1",
+    "R-SA-2",
+    "R-PE-1"
   ],
   "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
     "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
     "MT-1",
-    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
     "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
     "MT-11",
-    "MT-12",
-    "MT-13",
-    "MT-14",
-    "MT-15",
-    "MT-24",
+    "MT-16",
+    "MT-21",
     "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-27"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Unlikely",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Unlikely",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Possible",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Possible",
+    "R-BC-4": "Unlikely",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Unlikely",
+    "R-EX-7": "Unlikely",
+    "R-EX-8": "Possible",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Unlikely",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Possible",
+    "R-GV-10": "Possible",
+    "R-IR-1": "Unlikely",
+    "R-IR-2": "Possible",
+    "R-IR-3": "Unlikely",
+    "R-IR-4": "Unlikely",
+    "R-OR-1": "Possible",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Unlikely",
+    "R-SA-2": "Possible",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Unlikely",
+    "R-IP-3": "Unlikely",
+    "R-IP-4": "Unlikely",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Likely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Possible",
+    "MT-2": "Unlikely",
+    "MT-3": "Possible",
+    "MT-4": "Possible",
+    "MT-5": "Possible",
+    "MT-6": "Possible",
+    "MT-7": "Possible",
+    "MT-8": "Likely",
+    "MT-9": "Likely",
+    "MT-10": "Possible",
+    "MT-11": "Possible",
+    "MT-12": "Unlikely",
+    "MT-13": "Unlikely",
+    "MT-14": "Unlikely",
+    "MT-15": "Unlikely",
+    "MT-16": "Possible",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Unlikely",
+    "MT-21": "Possible",
+    "MT-22": "Unlikely",
+    "MT-23": "Unlikely",
+    "MT-24": "Unlikely",
+    "MT-25": "Likely",
+    "MT-26": "Unlikely",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- renumbered",
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
-      "A1.2"
+      "A1.3"
+    ],
+    "general-cr-cmm-2026": [
+      "CR6.3.1"
     ],
     "general-govramp": [
-      "CP-07(01)"
+      "CP-03(01)"
     ],
     "general-govramp-mod": [
-      "CP-07(01)"
+      "CP-03(01)"
     ],
     "general-govramp-high": [
-      "CP-07(01)"
+      "CP-03(01)"
     ],
     "general-nist-800-53-r4": [
-      "CP-7(1)"
+      "CP-3(1)"
     ],
     "general-nist-800-53-r5-2": [
-      "CP-07(01)"
+      "CP-03(01)"
     ],
-    "general-nist-800-53-r5-2-mod": [
-      "CP-07(01)"
+    "general-nist-800-53-r5-2-high": [
+      "CP-03(01)"
     ],
     "general-nist-800-82-r3": [
-      "CP-07(01)"
-    ],
-    "general-nist-800-82-r3-mod": [
-      "CP-07(01)"
+      "CP-03(01)"
     ],
     "general-nist-800-82-r3-high": [
-      "CP-07(01)"
+      "CP-03(01)"
     ],
-    "usa-federal-fbi-cjis-6-0": [
-      "CP-7(1)"
+    "general-nist-800-161-r1": [
+      "CP-3(1)"
     ],
-    "usa-federal-gsa-fedramp-5-mod": [
-      "CP-07(01)"
+    "general-nist-800-161-r1-level-2": [
+      "CP-3(1)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "CP-3(1)"
     ],
     "usa-federal-gsa-fedramp-5-high": [
-      "CP-07(01)"
+      "CP-03(01)"
     ],
-    "usa-federal-cms-marse-2-0": [
-      "CP-7(1)"
+    "emea-sau-cscc-1-2019": [
+      "3-1-1-4"
     ],
-    "emea-eu-dora-2023": [
-      "Article 12.5(a)"
+    "apac-sgp-mas-trm-2021": [
+      "13.5.1",
+      "13.5.2"
     ]
   }
 }

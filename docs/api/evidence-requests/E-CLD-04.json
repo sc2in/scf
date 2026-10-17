@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CLD-04",
+  "area": "Asset Management",
+  "artifact_name": "Cloud Access Security Broker (CASB) Configuration",
+  "artifact_description": "Documented evidence of Cloud Access Security Broker (CASB), or similar, configuration governing sanctioned and unsanctioned cloud service use.",
+  "scf_controls": [
+    "CLD-11",
+    "OPS-09"
+  ],
+  "cmmc_mapping": ""
+}

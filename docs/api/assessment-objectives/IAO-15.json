@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "IAO-15",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-15",
+      "ao_id": "IAO-15_A01",
+      "objective": "the Control Validation Testing (CVT) activities that are applicable for automation through Control Assurance Automation (CAA) are identified and documented, including the controls and Technology Assets, Applications and/or Services (TAAS) in scope.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-15",
+      "ao_id": "IAO-15_A02",
+      "objective": "Control Assurance Automation (CAA) engineering practices, pipelines and tooling are used to execute machine-executable tests that validate the implementation and operation of in-scope controls.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-15",
+      "ao_id": "IAO-15_A03",
+      "objective": "Control Assurance Automation (CAA) pipelines and tooling automatically collect evidence from in-scope Technology Assets, Applications and/or Services (TAAS) and evaluate it against defined control expectations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-15",
+      "ao_id": "IAO-15_A04",
+      "objective": "evidence and test results produced by Control Assurance Automation (CAA) are timestamped, attributable to the source Technology Assets, Applications and/or Services (TAAS) and protected from unauthorized modification.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-15",
+      "ao_id": "IAO-15_A05",
+      "objective": "machine-executable tests are version controlled and are reviewed and updated when the controls, Technology Assets, Applications and/or Services (TAAS) or evaluation criteria they test change.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-15",
+      "ao_id": "IAO-15_A06",
+      "objective": "failed or inconclusive Control Assurance Automation (CAA) test results are reviewed by assigned personnel and tracked to resolution.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

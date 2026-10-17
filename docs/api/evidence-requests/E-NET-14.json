@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-NET-14",
+  "area": "Network Security",
+  "artifact_name": "Wireless Networking Configuration",
+  "artifact_description": "Documented evidence of wireless networking configuration, including authentication and encryption, wireless boundaries and guest network isolation.",
+  "scf_controls": [
+    "CFG-04.8",
+    "NET-22",
+    "NET-24",
+    "NET-24.1",
+    "NET-24.2"
+  ],
+  "cmmc_mapping": ""
+}

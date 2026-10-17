@@ -5,8 +5,8 @@
     {
       "scf_control_id": "EMB-05",
       "ao_id": "EMB-05_A01",
-      "objective": "embedded devices generate log entries when configuration changes or attempts to access interfaces are detected.",
-      "pptdf": "Technology",
+      "objective": "security, compliance and resilience risks associated with Internet of Things (IoT) are documented and managed.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

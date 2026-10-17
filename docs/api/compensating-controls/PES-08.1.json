@@ -1,16 +1,16 @@
 {
   "control_id": "PES-08.1",
-  "risk_if_not_implemented": "Without Fire Detection Devices, security events may go undetected, allowing threats to persist unnoticed and increasing breach dwell time.",
+  "risk_if_not_implemented": "Without Physical Access Device Inventories, unauthorized individuals may gain physical access to facilities and equipment, enabling theft, tampering, damage or safety incidents. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to Loss of Accountability / Attribution (R-AC-1), Loss, Theft or Damage of Assets (R-AM-1), and most likely increases susceptibility to Human Error (MT-9), Data Quality Degradation / Data Poisoning (MT-12).",
   "compensating_control_1": {
-    "control_id": "MON-01",
-    "name": "Continuous Monitoring",
-    "description": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls.",
-    "justification": "Continuous Monitoring (MON-01) provides detective monitoring capability that compensates for the absence of Fire Detection Devices (PES-08.1) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the facility and physical environment focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+    "control_id": "AST-04",
+    "name": "Asset Inventories",
+    "description": "Mechanisms exist to perform inventories of Technology Assets, Applications, Services and/or Data (TAASD) that:\n(1) Accurately reflects the current TAASD in use; \n(2) Identifies authorized software products, including business justification details;\n(3) Is at the level of granularity deemed necessary for tracking and reporting;\n(4) Includes organization-defined information deemed necessary to achieve effective property accountability; and\n(5) Is available for review and audit by designated organizational personnel.",
+    "justification": "Asset Inventories (AST-04) provides overlapping security capability that compensates for the absence of Physical Access Device Inventories (PES-08.1) by addressing related risk objectives through an alternative control mechanism aligned with Facility applicability. Given the facility and physical environment focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
   },
   "compensating_control_2": {
-    "control_id": "PES-08",
-    "name": "Fire Protection",
-    "description": "Facility security mechanisms exist to utilize and maintain fire suppression and detection devices/systems for the system that are supported by an independent energy source.",
-    "justification": "Fire Protection (PES-08) provides overlapping security capability that compensates for the absence of Fire Detection Devices (PES-08.1) by addressing related risk objectives through an alternative control mechanism aligned with Facility applicability. Given the facility and physical environment focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+    "control_id": "MON-02",
+    "name": "Continuous Monitoring",
+    "description": "Mechanisms exist to facilitate the implementation of enterprise-wide monitoring controls.",
+    "justification": "Continuous Monitoring (MON-02) provides detective monitoring capability that compensates for the absence of Physical Access Device Inventories (PES-08.1) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the facility and physical environment focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
   }
 }

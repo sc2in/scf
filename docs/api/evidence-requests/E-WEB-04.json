@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-WEB-04",
+  "area": "Website Security",
+  "artifact_name": "Web Application Input Validation & Output Encoding",
+  "artifact_description": "Documented evidence of web application input validation, sanitization and output encoding controls (e.g., test results, framework configuration).",
+  "scf_controls": [
+    "TDA-12",
+    "WEB-08",
+    "WEB-10"
+  ],
+  "cmmc_mapping": ""
+}

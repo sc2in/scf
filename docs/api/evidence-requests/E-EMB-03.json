@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-EMB-03",
+  "area": "Asset Management",
+  "artifact_name": "Embedded Technology Remote Management & Maintenance Records",
+  "artifact_description": "Documented evidence of remote management restrictions and maintenance records for embedded technologies.",
+  "scf_controls": [
+    "EMB-10",
+    "EMB-15"
+  ],
+  "cmmc_mapping": ""
+}

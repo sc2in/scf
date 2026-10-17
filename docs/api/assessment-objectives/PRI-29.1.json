@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-29.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-29.1",
+      "ao_id": "PRI-29.1_A01",
+      "objective": "a process exists to notify affected the Personal Data Process Manager, or similar role, when a data subject withdraws consent.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-29.1",
+      "ao_id": "PRI-29.1_A02",
+      "objective": "a process exists to cease processing Personal Data (PD), once notification of consent revocation is received.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "the period required by applicable data protection law, regulation or contract, and no longer than the shortest applicable deadline",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "IAC-03.3",
-  "total": 2,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "IAC-03.3",
       "ao_id": "IAC-03.3_A01",
-      "objective": "identity management profiles are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_IA-08(04)_ODP",
+      "objective": "identity providers and authorization servers are employed to manage user, device and Non-Person Entity (NPE) identities, attributes and access rights that support authentication and authorization decisions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,19 @@
     {
       "scf_control_id": "IAC-03.3",
       "ao_id": "IAC-03.3_A02",
-      "objective": "there is conformance with identity management profiles for identity management.",
+      "objective": "authentication and authorization decisions are made in accordance with organization-defined identification and authentication policy.",
       "pptdf": "Technology",
-      "origin": "53A_R5_IA-08(04)",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-03.3",
+      "ao_id": "IAC-03.3_A03",
+      "objective": "authentication and authorization decisions use organization-defined mechanisms.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

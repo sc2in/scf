@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-TPM-08",
+  "area": "Third-Party Management",
+  "artifact_name": "Third-Party Exit / Transition Plan",
+  "artifact_description": "Documented evidence of exit strategies and transition plans for third-party relationships, including TAASD portability, disposition, knowledge transfer and exit contingencies.",
+  "scf_controls": [
+    "TPM-24",
+    "TPM-24.1",
+    "TPM-24.2",
+    "TPM-24.3",
+    "TPM-24.5",
+    "TPM-24.7"
+  ],
+  "cmmc_mapping": ""
+}

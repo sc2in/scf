@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-IAC-05",
+  "area": "Identity & Access Management",
+  "artifact_name": "Identity & Access Management (IAM) Function",
+  "artifact_description": "Documented evidence of an Identity & Access Management (IAM), or similar function, that facilitates the implementation of identification and access management controls.",
+  "scf_controls": [
+    "IAC-02",
+    "IAC-32",
+    "IAC-33",
+    "IAC-34",
+    "IAC-36"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.20\nAC.L2-3.1.21"
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "IAC-37.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-37.2",
+      "ao_id": "IAC-37.2_A01",
+      "objective": "the accounts, Technology Assets, Applications and/or Services (TAAS) and access scenarios for which phishing-resistant Multi-Factor Authentication (MFA) is required are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, all privileged accounts, all remote access and all access to Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive / regulated data",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.2",
+      "ao_id": "IAC-37.2_A02",
+      "objective": "automated mechanisms enforce phishing-resistant Multi-Factor Authentication (MFA) using authenticators that are cryptographically bound to the verifier's identity (e.g., FIDO2 / WebAuthn or Public Key Infrastructure (PKI)-based authenticators).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.2",
+      "ao_id": "IAC-37.2_A03",
+      "objective": "authenticator outputs are not accepted by a verifier other than the one to which the authenticator is cryptographically bound, preventing credential relay by an impersonating party.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.2",
+      "ao_id": "IAC-37.2_A04",
+      "objective": "authenticators that are not phishing-resistant (e.g., SMS, voice, email or push-notification codes) are not accepted as a factor for in-scope accounts and access scenarios.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.2",
+      "ao_id": "IAC-37.2_A05",
+      "objective": "configurations of in-scope authentication mechanisms are reviewed to confirm phishing-resistant Multi-Factor Authentication (MFA) remains enforced.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least quarterly, and upon significant change to the authentication infrastructure",
+      "org_defined_parameters": ""
+    }
+  ]
+}

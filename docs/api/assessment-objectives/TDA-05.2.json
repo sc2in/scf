@@ -5,8 +5,8 @@
     {
       "scf_control_id": "TDA-05.2",
       "ao_id": "TDA-05.2_A01",
-      "objective": "endpoint devices are configured to log events and generate alerts for attempts to access diagnostic and test interfaces.",
-      "pptdf": "Technology",
+      "objective": "threat modelling and other secure design techniques are used to ensure that threats to software and solutions are identified and accounted for.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

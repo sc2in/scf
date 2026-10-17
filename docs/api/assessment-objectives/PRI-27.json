@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-27",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-27",
+      "ao_id": "PRI-27_A01",
+      "objective": "consent is obtained from data subject for Personal Data (PD) processing actions (e.g., collecting, receiving, processing, storing, transmitting, sharing and/or updating PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

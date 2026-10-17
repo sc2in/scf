@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-SF-1",
+  "grouping": "Safety",
+  "name": "Injury / Loss of Life",
+  "description": "A control deficiency contributes to unsafe conditions that cause or materially increase the likelihood of:\n(1) Human injury;\n(2) Illness; and/or\n(3) Loss of life.",
+  "nist_csf_function": "Protect"
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.18",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Information Assurance Policy",
+  "artifact_description": "Documented evidence of a information assurance policy.",
+  "scf_controls": [
+    "GOV-04",
+    "IAO-01"
+  ],
+  "cmmc_mapping": ""
+}

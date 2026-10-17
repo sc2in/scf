@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TPM-18",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-18",
+      "ao_id": "TPM-18_A01",
+      "objective": "weaknesses or deficiencies in supply chain elements identified during independent or organizational assessments of such elements are remediated.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 90 days, with shorter periods for higher-severity deficiencies",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "artifact_name": "Root Cause Analysis (RCA)",
   "artifact_description": "Documented evidence of a Root Cause Analysis (RCA) from any Incident Response Plan (IRP)-related training, testing or significant incident.",
   "scf_controls": [
-    "IRO-13"
+    "IRO-14"
   ],
   "cmmc_mapping": ""
 }

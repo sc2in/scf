@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "IAC-50",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-50",
+      "ao_id": "IAC-50_A01",
+      "objective": "an inventory of Control Assurance Automation (CAA) automated identities is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-50",
+      "ao_id": "IAC-50_A02",
+      "objective": "each Control Assurance Automation (CAA) automated identity is uniquely identified and is not shared across tools, pipelines or workloads.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-50",
+      "ao_id": "IAC-50_A03",
+      "objective": "an accountable owner is assigned to each Control Assurance Automation (CAA) automated identity and is recorded in the inventory.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-50",
+      "ao_id": "IAC-50_A04",
+      "objective": "the inventory of Control Assurance Automation (CAA) automated identities includes service accounts.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-50",
+      "ao_id": "IAC-50_A05",
+      "objective": "the inventory of Control Assurance Automation (CAA) automated identities includes API keys.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-50",
+      "ao_id": "IAC-50_A06",
+      "objective": "the inventory of Control Assurance Automation (CAA) automated identities includes OAuth grants.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-50",
+      "ao_id": "IAC-50_A07",
+      "objective": "the inventory of Control Assurance Automation (CAA) automated identities includes machine and workload identities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-50",
+      "ao_id": "IAC-50_A08",
+      "objective": "the inventory of Control Assurance Automation (CAA) automated identities is reconciled against identities present in the identity provider(s), tooling and pipelines at a defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually, and upon significant change to CAA tooling or pipelines",
+      "org_defined_parameters": ""
+    }
+  ]
+}

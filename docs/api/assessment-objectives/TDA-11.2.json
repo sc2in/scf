@@ -5,10 +5,10 @@
     {
       "scf_control_id": "TDA-11.2",
       "ao_id": "TDA-11.2_A01",
-      "objective": "N/A [deprecated – incorporated into AST-09]",
-      "pptdf": "N/A",
-      "origin": "N/A",
-      "assessment_rigor": "3",
+      "objective": "risks associated with the use of insecure ports, protocols and services necessary to operate technology solutions are appropriately mitigated.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

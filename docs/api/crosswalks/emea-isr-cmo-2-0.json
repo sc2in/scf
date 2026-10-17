@@ -2,131 +2,133 @@
   "framework_id": "emea-isr-cmo-2-0",
   "display_name": "Ireland - Cybersecurity Methodology for an Organization (CMO) v2.0",
   "scf_to_framework": {
-    "total_mappings": 67,
+    "total_mappings": 68,
     "mappings": {
-      "GOV-01": [
+      "GOV-02": [
         "2.A",
         "4.2, Stage 0"
       ],
-      "GOV-01.1": [
-        "2.A"
-      ],
-      "GOV-01.3": [
-        "4.1, Stage 5",
-        "Appendix A, 1.1"
-      ],
       "GOV-03": [
-        "Appendix A, 1.1"
-      ],
-      "GOV-04": [
-        "4.2, Stage 1.1"
+        "Appendix C"
       ],
       "GOV-04.1": [
-        "4.2, Stage 1.1"
-      ],
-      "GOV-04.2": [
-        "4.2, Stage 1.1"
+        "Appendix A, 1.1"
       ],
       "GOV-05": [
+        "4.2, Stage 1.1"
+      ],
+      "GOV-05.1": [
+        "4.2, Stage 1.1"
+      ],
+      "GOV-05.2": [
+        "4.2, Stage 1.1"
+      ],
+      "GOV-09": [
+        "2.A"
+      ],
+      "GOV-12": [
         "4.2, Stage 5",
         "Appendix D"
-      ],
-      "AST-02": [
-        "4.1, Stage 1"
       ],
       "AST-04": [
         "4.1, Stage 1"
       ],
-      "BCD-11": [
+      "AST-17": [
+        "4.1, Stage 1"
+      ],
+      "BCD-02": [
+        "Appendix A, 14"
+      ],
+      "BCD-24": [
         "Appendix A, 14.1"
       ],
-      "CAP-02": [
+      "CAP-04": [
         "Appendix A, 7.1"
       ],
-      "CLD-02": [
-        "Appendix A, 6.1"
-      ],
-      "CLD-06.1": [
+      "CLD-03.1": [
         "Appendix A, 5.1"
+      ],
+      "CLD-05": [
+        "Appendix A, 6.1"
       ],
       "CLD-10": [
         "Appendix A, 6.1"
       ],
-      "CPL-02": [
-        "4.1, Stage 5"
-      ],
-      "CPL-02.1": [
-        "4.1, Stage 5"
-      ],
-      "CPL-03": [
+      "CPL-05": [
         "4.2, Stage 5"
       ],
-      "CFG-02": [
+      "CPL-07": [
+        "4.1, Stage 5"
+      ],
+      "CPL-07.1": [
+        "4.1, Stage 5"
+      ],
+      "CFG-04": [
         "Appendix A, 3.1",
         "Appendix A, 4.1",
         "Appendix A, 4.2"
       ],
-      "MON-03": [
+      "MON-09": [
         "Appendix A, 12.2"
       ],
-      "CRY-01": [
+      "CRY-02": [
         "Appendix A, 3.1"
       ],
-      "DCH-01.2": [
+      "DCH-04": [
         "Appendix A, 5.2"
       ],
-      "DCH-02": [
+      "DCH-07": [
         "Appendix A, 5.2"
       ],
-      "DCH-14": [
+      "DCH-08.1": [
         "Appendix A, 5.2"
+      ],
+      "END-03.2": [
+        "Appendix A, 2.2"
       ],
       "END-04": [
         "Appendix A, 2.1"
       ],
       "END-04.1": [
-        "Appendix A, 2.2"
-      ],
-      "END-04.7": [
         "Appendix A, 2.1"
       ],
-      "HRS-05.1": [
+      "HRS-06.1": [
         "Appendix A, 9.1"
       ],
-      "HRS-08": [
+      "HRS-11": [
         "Appendix A, 9.2"
       ],
-      "HRS-09": [
+      "HRS-12": [
         "Appendix A, 9.2"
       ],
-      "IAC-01": [
+      "IAC-02": [
         "Appendix A, 8.2"
       ],
-      "IAC-07": [
+      "IAC-04": [
         "Appendix A, 9.2"
       ],
-      "IAC-07.1": [
+      "IAC-04.1": [
         "Appendix A, 9.2"
       ],
-      "IAC-07.2": [
+      "IAC-04.2": [
         "Appendix A, 9.2"
       ],
-      "IAC-15": [
+      "IAC-08": [
         "Appendix A, 8.1"
       ],
-      "IRO-02": [
-        "Appendix A, 12.1"
-      ],
-      "IRO-02.4": [
+      "IRO-04": [
         "Appendix B"
       ],
-      "IRO-09": [
+      "IRO-06": [
+        "Appendix A, 12.1"
+      ],
+      "IRO-16.1": [
         "Appendix A, 13.1"
       ],
-      "IAO-01.1": [
+      "IAO-03": [
         "4.2, Stage 1.3"
       ],
-      "IAO-05": [
+      "IAO-12": [
         "4.2, Stage 4"
       ],
       "NET-03": [
@@ -138,193 +140,200 @@
       "NET-04.1": [
         "Appendix A, 7.4"
       ],
-      "NET-06.9": [
+      "NET-08": [
         "Appendix A, 7.5"
       ],
-      "NET-10": [
+      "NET-13": [
         "Appendix A, 7.2"
       ],
-      "PES-07.4": [
+      "PES-23": [
         "Appendix A, 11.1"
       ],
-      "PES-08": [
+      "PES-26": [
         "Appendix A, 11.2"
       ],
-      "PRI-01": [
+      "PRI-02": [
         "Appendix F"
       ],
-      "PRM-01": [
-        "4.1, Stage 4"
-      ],
-      "PRM-01.1": [
+      "PRM-02": [
         "2.A",
         "4.1, Stage 4",
         "4.2, Stage 1.2"
       ],
-      "PRM-01.2": [
+      "PRM-03": [
         "4.1, Stages 2-3"
       ],
-      "PRM-02.1": [
+      "PRM-04": [
+        "4.1, Stage 4"
+      ],
+      "PRM-05.1": [
+        "4.1, Stage 5",
+        "Appendix A, 1.1"
+      ],
+      "PRM-05.2": [
         "2.D",
         "4.1, Stage 4"
       ],
-      "PRM-03": [
+      "PRM-06": [
         "4.1, Stage 4"
       ],
-      "RSK-01": [
+      "RSK-02": [
         "3"
       ],
-      "RSK-01.1": [
+      "RSK-05": [
         "4.2, Stage 2.1"
       ],
-      "RSK-03": [
+      "RSK-09": [
         "4.2, Stage 2.1"
       ],
-      "RSK-04": [
+      "RSK-13": [
         "4.2, Stage 2.2",
         "4.2, Stage 2.3"
       ],
-      "RSK-04.1": [
+      "RSK-14": [
         "4.2, Stage 2.2"
       ],
-      "RSK-06": [
-        "4.2, Stage 2.3"
-      ],
-      "RSK-06.3": [
+      "RSK-16.1": [
         "4.2, Stage 3.1"
       ],
-      "RSK-06.4": [
+      "RSK-17": [
+        "4.2, Stage 2.3"
+      ],
+      "RSK-17.1": [
         "4.2, Stage 4"
       ],
-      "SEA-01.1": [
-        "Appendix C"
-      ],
-      "SEA-03": [
+      "SEA-06": [
         "2.E"
       ],
-      "OPS-02": [
+      "OPS-03": [
         "4.2, Stage 1.2"
       ],
-      "TPM-01": [
+      "TPM-02": [
         "Appendix A, 10.1"
       ],
-      "THR-01": [
+      "THR-02": [
         "2.B"
       ],
-      "THR-10": [
+      "THR-08": [
         "Appendix B"
       ]
     }
   },
   "framework_to_scf": {
-    "total_mappings": 48,
+    "total_mappings": 49,
     "mappings": {
       "3": [
-        "RSK-01"
+        "RSK-02"
       ],
       "2.A": [
-        "GOV-01",
-        "GOV-01.1",
-        "PRM-01.1"
+        "GOV-02",
+        "GOV-09",
+        "PRM-02"
       ],
       "4.2, Stage 0": [
-        "GOV-01"
+        "GOV-02"
       ],
-      "4.1, Stage 5": [
-        "GOV-01.3",
-        "CPL-02",
-        "CPL-02.1"
-      ],
-      "Appendix A, 1.1": [
-        "GOV-01.3",
+      "Appendix C": [
         "GOV-03"
       ],
-      "4.2, Stage 1.1": [
-        "GOV-04",
+      "Appendix A, 1.1": [
         "GOV-04.1",
-        "GOV-04.2"
+        "PRM-05.1"
+      ],
+      "4.2, Stage 1.1": [
+        "GOV-05",
+        "GOV-05.1",
+        "GOV-05.2"
       ],
       "4.2, Stage 5": [
-        "GOV-05",
-        "CPL-03"
+        "GOV-12",
+        "CPL-05"
       ],
       "Appendix D": [
-        "GOV-05"
+        "GOV-12"
       ],
       "4.1, Stage 1": [
-        "AST-02",
-        "AST-04"
+        "AST-04",
+        "AST-17"
+      ],
+      "Appendix A, 14": [
+        "BCD-02"
       ],
       "Appendix A, 14.1": [
-        "BCD-11"
+        "BCD-24"
       ],
       "Appendix A, 7.1": [
-        "CAP-02"
-      ],
-      "Appendix A, 6.1": [
-        "CLD-02",
-        "CLD-10"
+        "CAP-04"
       ],
       "Appendix A, 5.1": [
-        "CLD-06.1"
+        "CLD-03.1"
+      ],
+      "Appendix A, 6.1": [
+        "CLD-05",
+        "CLD-10"
+      ],
+      "4.1, Stage 5": [
+        "CPL-07",
+        "CPL-07.1",
+        "PRM-05.1"
       ],
       "Appendix A, 3.1": [
-        "CFG-02",
-        "CRY-01"
+        "CFG-04",
+        "CRY-02"
       ],
       "Appendix A, 4.1": [
-        "CFG-02"
+        "CFG-04"
       ],
       "Appendix A, 4.2": [
-        "CFG-02"
+        "CFG-04"
       ],
       "Appendix A, 12.2": [
-        "MON-03"
+        "MON-09"
       ],
       "Appendix A, 5.2": [
-        "DCH-01.2",
-        "DCH-02",
-        "DCH-14"
+        "DCH-04",
+        "DCH-07",
+        "DCH-08.1"
+      ],
+      "Appendix A, 2.2": [
+        "END-03.2"
       ],
       "Appendix A, 2.1": [
         "END-04",
-        "END-04.7"
-      ],
-      "Appendix A, 2.2": [
         "END-04.1"
       ],
       "Appendix A, 9.1": [
-        "HRS-05.1"
+        "HRS-06.1"
       ],
       "Appendix A, 9.2": [
-        "HRS-08",
-        "HRS-09",
-        "IAC-07",
-        "IAC-07.1",
-        "IAC-07.2"
+        "HRS-11",
+        "HRS-12",
+        "IAC-04",
+        "IAC-04.1",
+        "IAC-04.2"
       ],
       "Appendix A, 8.2": [
-        "IAC-01"
+        "IAC-02"
       ],
       "Appendix A, 8.1": [
-        "IAC-15"
-      ],
-      "Appendix A, 12.1": [
-        "IRO-02"
+        "IAC-08"
       ],
       "Appendix B": [
-        "IRO-02.4",
-        "THR-10"
+        "IRO-04",
+        "THR-08"
+      ],
+      "Appendix A, 12.1": [
+        "IRO-06"
       ],
       "Appendix A, 13.1": [
-        "IRO-09"
+        "IRO-16.1"
       ],
       "4.2, Stage 1.3": [
-        "IAO-01.1"
+        "IAO-03"
       ],
       "4.2, Stage 4": [
-        "IAO-05",
-        "RSK-06.4"
+        "IAO-12",
+        "RSK-17.1"
       ],
       "Appendix A, 7.3": [
         "NET-03"
@@ -334,62 +343,59 @@
         "NET-04.1"
       ],
       "Appendix A, 7.5": [
-        "NET-06.9"
+        "NET-08"
       ],
       "Appendix A, 7.2": [
-        "NET-10"
+        "NET-13"
       ],
       "Appendix A, 11.1": [
-        "PES-07.4"
+        "PES-23"
       ],
       "Appendix A, 11.2": [
-        "PES-08"
+        "PES-26"
       ],
       "Appendix F": [
-        "PRI-01"
+        "PRI-02"
       ],
       "4.1, Stage 4": [
-        "PRM-01",
-        "PRM-01.1",
-        "PRM-02.1",
-        "PRM-03"
+        "PRM-02",
+        "PRM-04",
+        "PRM-05.2",
+        "PRM-06"
       ],
       "4.2, Stage 1.2": [
-        "PRM-01.1",
-        "OPS-02"
+        "PRM-02",
+        "OPS-03"
       ],
       "4.1, Stages 2-3": [
-        "PRM-01.2"
+        "PRM-03"
       ],
       "2.D": [
-        "PRM-02.1"
+        "PRM-05.2"
       ],
       "4.2, Stage 2.1": [
-        "RSK-01.1",
-        "RSK-03"
+        "RSK-05",
+        "RSK-09"
       ],
       "4.2, Stage 2.2": [
-        "RSK-04",
-        "RSK-04.1"
+        "RSK-13",
+        "RSK-14"
       ],
       "4.2, Stage 2.3": [
-        "RSK-04",
-        "RSK-06"
+        "RSK-13",
+        "RSK-17"
       ],
       "4.2, Stage 3.1": [
-        "RSK-06.3"
-      ],
-      "Appendix C": [
-        "SEA-01.1"
+        "RSK-16.1"
       ],
       "2.E": [
-        "SEA-03"
+        "SEA-06"
       ],
       "Appendix A, 10.1": [
-        "TPM-01"
+        "TPM-02"
       ],
       "2.B": [
-        "THR-01"
+        "THR-02"
       ]
     }
   }

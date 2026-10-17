@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-CFG-02",
+  "area": "Asset Management",
+  "artifact_name": "Control Assurance Automation (CAA) Change Control Records",
+  "artifact_description": "Documented evidence that Control Assurance Automation (CAA) collection code, queries and scoring logic are under version control, peer review and change management, with separation of duties and unauthorized change detection.",
+  "scf_controls": [
+    "CFG-23",
+    "CFG-24",
+    "CFG-25"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-QTS-14",
+  "area": "Quantum Security",
+  "artifact_name": "Post-Quantum Cryptography Agility Plan (PQCAP)",
+  "artifact_description": "Documented evidence of a Post-Quantum Cryptography Agility Plan (PQCAP), including data shelf-life classification and crypto-agility architecture.",
+  "scf_controls": [
+    "QTS-03",
+    "QTS-06",
+    "QTS-09"
+  ],
+  "cmmc_mapping": ""
+}

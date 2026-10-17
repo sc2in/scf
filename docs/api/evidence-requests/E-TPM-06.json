@@ -4,8 +4,9 @@
   "artifact_name": "Third-Party Terms & Conditions",
   "artifact_description": "Documented evidence of terms and conditions for external systems.",
   "scf_controls": [
-    "TPM-01",
-    "TPM-05"
+    "DCH-22",
+    "TPM-12",
+    "TPM-14"
   ],
   "cmmc_mapping": ""
 }

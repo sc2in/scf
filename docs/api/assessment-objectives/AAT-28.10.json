@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-28.10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-28.10",
+      "ao_id": "AAT-28.10_A01",
+      "objective": "the assurance criteria demonstrated by Artificial Intelligence (AI) and Autonomous Technologies (AAT) for conditions prior to deployment are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-28.10",
+      "ao_id": "AAT-28.10_A02",
+      "objective": "Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) activities evaluate Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related performance against the assurance criteria demonstrated for conditions prior to deployment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

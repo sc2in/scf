@@ -1,10 +1,10 @@
 {
   "control_id": "NET-18",
-  "title": "DNS & Content Filtering",
+  "title": "Authenticated Proxy",
   "family": "NET",
-  "description": "Mechanisms exist to force Internet-bound network traffic through a proxy device (e.g., Policy Enforcement Point (PEP)) for URL content filtering and DNS filtering to limit a user's ability to connect to dangerous or prohibited Internet sites.",
-  "scf_question": "Does the organization force Internet-bound network traffic through a proxy device (e.g., Policy Enforcement Point (PEP)) for URL content filtering and DNS filtering to limit a user's ability to connect to dangerous or prohibited Internet sites?",
-  "relative_weight": 9,
+  "description": "Mechanisms exist to force systems and processes to authenticate Internet-bound traffic with a proxy to enable user, group and/or location-aware security controls.",
+  "scf_question": "Does the organization force systems and processes to authenticate Internet-bound traffic with a proxy to enable user, group and/or location-aware security controls?",
+  "relative_weight": 3,
   "conformity_cadence": "Annual",
   "evidence_requests": [
     "E-NET-01"
@@ -13,61 +13,43 @@
   "nist_csf_function": "Protect",
   "scrm_focus": {
     "strategic": false,
-    "operational": true,
+    "operational": false,
     "tactical": true
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "Network Security (NET) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with NET domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Network security-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
-    "2": "Network Security (NET) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Network security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Network security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel define secure networking practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ SBC enforce Internet-bound network traffic routing through a proxy device for URL content filtering to limit a user's ability to connect to prohibited content.\n▪ Content filtering blocks users from performing ad hoc file transfers through unapproved file transfer services (e.g., Box, Dropbox, Google Drive, etc.).",
-    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution, log aggregator, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to force Internet-bound network traffic through a proxy device (e.g., Policy Enforcement Point (PEP)) for URL content filtering and DNS filtering to limit a user's ability to connect to dangerous or prohibited Internet sites.",
-    "4": "Network Security (NET) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-    "5": "Network Security (NET) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution and log aggregator).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to force systems and processes to authenticate Internet-bound traffic with a proxy to enable user, group and/or location-aware security controls.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
   "profiles": [
-    "SCRMS",
-    "CORE ESP Level 1 Foundational",
     "CORE ESP Level 2 Critical Infrastructure",
-    "CORE ESP Level 3 Advanced Threats",
-    "CORE Fundamentals",
-    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+    "CORE ESP Level 3 Advanced Threats"
   ],
   "possible_solutions": {
-    "micro_small": "∙ Secure Baseline Configurations (SBC)",
-    "small": "∙ Secure Baseline Configurations (SBC)",
-    "medium": "∙ Secure Baseline Configurations (SBC)",
-    "large": "∙ Secure Baseline Configurations (SBC)",
-    "enterprise": "∙ Secure Baseline Configurations (SBC)"
+    "micro_small": "∙ Note: Typically not required at this size; DNS filtering with user identification (e.g., Cisco Umbrella, Cloudflare Gateway)",
+    "small": "∙ Cloud secure web gateway with user authentication (e.g., Cloudflare Gateway, Cisco Umbrella, Zscaler)",
+    "medium": "∙ Authenticated proxy for sensitive network access",
+    "large": "∙ Enterprise authenticated proxy with user-level access controls",
+    "enterprise": "∙ Enterprise authenticated proxy platform (e.g., Zscaler, Bluecoat)\n∙ User-level policy enforcement\n∙ SSO integration"
   },
   "risks": [
-    "R-AM-3",
-    "R-BC-2",
-    "R-BC-3",
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-4",
+    "R-AC-5",
     "R-BC-4",
-    "R-BC-5",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
-    "R-EX-4",
-    "R-EX-5",
     "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-4",
-    "R-GV-5",
-    "R-GV-6",
-    "R-GV-7",
     "R-GV-8",
     "R-IR-1",
     "R-SA-1",
-    "R-SC-1",
-    "R-SC-2",
-    "R-SC-3",
-    "R-SC-4",
-    "R-SC-5",
-    "R-SC-6"
+    "R-AI-4",
+    "R-IP-2"
   ],
   "threats": [
+    "NT-1",
     "NT-2",
     "NT-3",
     "NT-4",
@@ -81,7 +63,6 @@
     "NT-12",
     "NT-13",
     "NT-14",
-    "MT-1",
     "MT-2",
     "MT-3",
     "MT-4",
@@ -91,231 +72,134 @@
     "MT-8",
     "MT-9",
     "MT-10",
-    "MT-11",
     "MT-12",
-    "MT-13",
     "MT-14",
-    "MT-15",
-    "MT-24",
+    "MT-20",
+    "MT-21",
+    "MT-23",
     "MT-25",
     "MT-27",
-    "MT-28"
+    "MT-31"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Likely",
+    "R-AC-2": "Possible",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Likely",
+    "R-AC-5": "Possible",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Unlikely",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Unlikely",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Possible",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Unlikely",
+    "R-EX-7": "Possible",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Unlikely",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Possible",
+    "R-GV-9": "Unlikely",
+    "R-GV-10": "Unlikely",
+    "R-IR-1": "Possible",
+    "R-IR-2": "Unlikely",
+    "R-IR-3": "Unlikely",
+    "R-IR-4": "Unlikely",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Possible",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Possible",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Possible",
+    "R-IP-3": "Unlikely",
+    "R-IP-4": "Unlikely",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Likely",
+    "MT-3": "Possible",
+    "MT-4": "Possible",
+    "MT-5": "Possible",
+    "MT-6": "Possible",
+    "MT-7": "Possible",
+    "MT-8": "Possible",
+    "MT-9": "Likely",
+    "MT-10": "Likely",
+    "MT-11": "Unlikely",
+    "MT-12": "Possible",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Unlikely",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Possible",
+    "MT-21": "Possible",
+    "MT-22": "Unlikely",
+    "MT-23": "Possible",
+    "MT-24": "Unlikely",
+    "MT-25": "Possible",
+    "MT-26": "Unlikely",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Possible"
+  },
+  "errata": "- renumbered",
   "family_name": "Network Security",
   "crosswalks": {
-    "general-cis-csc-8-1": [
-      "9",
-      "9.2",
-      "9.3",
-      "13.10"
-    ],
-    "general-cis-csc-8-1-ig1": [
-      "9.2"
-    ],
-    "general-cis-csc-8-1-ig2": [
-      "9.2",
-      "9.3"
-    ],
-    "general-cis-csc-8-1-ig3": [
-      "9.2",
-      "9.3",
-      "13.10"
-    ],
-    "general-govramp": [
-      "SC-07(08)"
-    ],
-    "general-govramp-mod": [
-      "SC-07(08)"
-    ],
-    "general-govramp-high": [
-      "SC-07(08)"
-    ],
-    "general-iso-27002-2022": [
-      "5.14",
-      "8.23"
-    ],
-    "general-iso-27017-2015": [
-      "13.2.1"
-    ],
-    "general-iso-27018-2025": [
-      "5.14",
-      "8.23"
-    ],
-    "general-mpa-csbp-5-3-1": [
-      "TS-2.8",
-      "TS-2.10"
-    ],
-    "general-nist-800-53-r4": [
-      "SC-7(8)",
-      "SC-18(3)"
-    ],
-    "general-nist-800-53-r5-2": [
-      "SC-07(08)",
-      "SC-18(03)"
-    ],
-    "general-nist-800-53-r5-2-privacy": [
-      "SC-07(08)",
-      "SC-18(03)"
-    ],
-    "general-nist-800-53-r5-2-mod": [
-      "SC-07(08)"
-    ],
-    "general-nist-800-82-r3": [
-      "SC-07(08)",
-      "SC-18(03)"
-    ],
-    "general-nist-800-82-r3-mod": [
-      "SC-07(08)"
-    ],
-    "general-nist-800-82-r3-high": [
-      "SC-07(08)"
-    ],
-    "general-nist-800-171-r2": [
-      "3.1.3"
-    ],
-    "general-nist-800-171-r3": [
-      "03.14.06.c"
-    ],
-    "general-nist-800-171a-r3": [
-      "A.03.14.06.c[02]"
-    ],
-    "general-nist-csf-2-0": [
-      "DE.CM-03"
-    ],
-    "general-swift-cscf-2025": [
-      "1.4"
-    ],
     "usa-federal-dhs-cisa-tic-3-0": [
-      "3.PEP.DO.DNSIN",
-      "3.PEP.DO.PDSER",
-      "3.PEP.EM.CFILT",
-      "3.PEP.EM.LCTPR",
-      "3.PEP.EM.MLPRO",
-      "3.PEP.SE.MCFIL",
-      "3.PEP.WE.CFILT",
-      "3.PEP.WE.DCFIL",
-      "3.PEP.WE.DREPF",
-      "3.PEP.WE.DRESF",
-      "3.PEP.WE.MCFIL"
-    ],
-    "usa-federal-dhs-cisa-cpg-2-0": [
-      "2.M"
-    ],
-    "usa-federal-fbi-cjis-6-0": [
-      "SC-7(8)"
-    ],
-    "usa-federal-doe-c2m2-2-1": [
-      "ARCHITECTURE-2g",
-      "ARCHITECTURE-5f"
-    ],
-    "usa-federal-dow-cmmc-2-level-2": [
-      "ACL2.-3.1.3"
-    ],
-    "usa-federal-gsa-fedramp-5-low": [
-      "SC-07(08)",
-      "SC-18(03)"
-    ],
-    "usa-federal-gsa-fedramp-5-mod": [
-      "SC-07(08)",
-      "SC-18(03)"
-    ],
-    "usa-federal-gsa-fedramp-5-high": [
-      "SC-07(08)",
-      "SC-18(03)"
-    ],
-    "usa-federal-gsa-fedramp-5-li-saas": [
-      "SC-07(08)",
-      "SC-18(03)"
-    ],
-    "usa-federal-irs-1075-2021": [
-      "SC-7(CE-8)"
-    ],
-    "usa-federal-cms-marse-2-0": [
-      "SC-7(8)"
-    ],
-    "usa-federal-tsa-security-directive-1580-82-2022-01": [
-      "III.D.1.b",
-      "III.D.1.c",
-      "III.D.1.e",
-      "III.D.2.a"
-    ],
-    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
-      "500.14(a)(2)"
-    ],
-    "emea-eu-nis2-annex-2024": [
-      "6.7.2(l)"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-5-3-3"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "VII.B.TPC-57",
-      "VII.B.TPC-57-BP1",
-      "VII.B.TPC-57-BP2",
-      "VII.B.TPC-57-BP3"
-    ],
-    "emea-esp-ccn-stic-825-2026": [
-      "mp.s.1",
-      "mp.s.3"
-    ],
-    "emea-gbr-cyber-essentials-requirements-3-3": [
-      "5-BP1-4"
-    ],
-    "emea-gbr-def-stan-05-138-2024": [
-      "2411"
-    ],
-    "emea-gbr-def-stan-05-138-l1-2024": [
-      "2411"
-    ],
-    "emea-gbr-def-stan-05-138-l2-2024": [
-      "2411"
-    ],
-    "emea-gbr-def-stan-05-138-l3-2024": [
-      "2411"
-    ],
-    "apac-aus-ism-2026-march": [
-      "ISM-0267",
-      "ISM-0649",
-      "ISM-0659",
-      "ISM-0958",
-      "ISM-0961",
-      "ISM-0963",
-      "ISM-1171",
-      "ISM-1234",
-      "ISM-1236",
-      "ISM-1237",
-      "ISM-1275",
-      "ISM-1287",
-      "ISM-1293",
-      "ISM-1502",
-      "ISM-1524",
-      "ISM-1965"
-    ],
-    "apac-nzl-ism-3-9": [
-      "9.3.6.C.01",
-      "14.3.6.C.01",
-      "14.3.6.C.02",
-      "14.3.6.C.03",
-      "14.3.10.C.01",
-      "14.3.10.C.02",
-      "14.3.10.C.03",
-      "14.3.10.C.04",
-      "14.3.11.C.01",
-      "14.3.11.C.02",
-      "14.3.12.C.01",
-      "20.3.9.C.01",
-      "20.3.10.C.01",
-      "20.3.11.C.01",
-      "20.3.11.C.02",
-      "21.3.7.C.01",
-      "21.3.7.C.02",
-      "21.3.14.C.01"
-    ],
-    "apac-sgp-mas-trm-2021": [
-      "11.2.7"
-    ],
-    "americas-can-itsp-10-171-2025": [
-      "03.14.06.C"
+      "3.PEP.WE.APROX"
     ]
   }
 }

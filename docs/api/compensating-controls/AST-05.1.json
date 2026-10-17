@@ -1,16 +1,16 @@
 {
   "control_id": "AST-05.1",
-  "risk_if_not_implemented": "Without Management Approval For External Media Transfer, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "risk_if_not_implemented": "Without Technology Assets, Applications, Services and/or Data (TAASD) Criticality Ratings, recovery efforts cannot be sequenced by business importance, so restoration resources may be spent on low-value assets while critical ones remain down. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to Unaddressed Security / Compliance Exposure (R-GV-2), Recovery Failure / Unacceptable Recovery Delay (R-OR-1), and most likely increases susceptibility to Human Error (MT-9).",
   "compensating_control_1": {
-    "control_id": "PES-03",
-    "name": "Physical Access Control",
-    "description": "Physical access control mechanisms exist to enforce physical access authorizations for all physical access points (including designated entry/exit points) to facilities (excluding those areas within the facility officially designated as publicly accessible).",
-    "justification": "Physical Access Control (PES-03) provides access control enforcement that compensates for the absence of Management Approval For External Media Transfer (AST-05.1) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+    "control_id": "RSK-08",
+    "name": "Business Impact Analysis (BIA)",
+    "description": "Mechanisms exist to conduct a Business Impact Analysis (BIA) to identify and assess security, compliance and resilience risks.",
+    "justification": "Business Impact Analysis (BIA) (RSK-08) compensates for the absence of Technology Assets, Applications, Services and/or Data (TAASD) Criticality Ratings (AST-05.1) by identifying critical business functions, their dependencies and Recovery Time / Point Objectives, which yields the same recovery-priority information that a formal criticality rating would provide. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
   },
   "compensating_control_2": {
-    "control_id": "DCH-06",
-    "name": "Media Storage",
-    "description": "Mechanisms exist to: \n(1) Physically control and securely store digital and non-digital media within controlled areas using organization-defined security measures; and\n(2) Protect system media until the media are destroyed or sanitized using approved equipment, techniques and procedures.",
-    "justification": "Media Storage (DCH-06) provides overlapping security capability that compensates for the absence of Management Approval For External Media Transfer (AST-05.1) by addressing related risk objectives through an alternative control mechanism aligned with Process applicability. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+    "control_id": "BCD-05",
+    "name": "Recovery Operations Criteria",
+    "description": "Mechanisms exist to define specific criteria that must be met to initiate Business Continuity / Disaster Recovery (BC/DR) plans that facilitate business continuity operations capable of meeting applicable Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).",
+    "justification": "Recovery Operations Criteria (BCD-05) compensates for the absence of Technology Assets, Applications, Services and/or Data (TAASD) Criticality Ratings (AST-05.1) by defining the criteria under which recovery operations are initiated and the order in which they proceed, which forces an implicit criticality ranking of the assets and services in scope. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
   }
 }

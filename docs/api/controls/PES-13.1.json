@@ -1,0 +1,370 @@
+{
+  "control_id": "PES-13.1",
+  "title": "Intrusion Alarms / Surveillance Equipment",
+  "family": "PES",
+  "description": "Physical access control mechanisms exist to monitor physical intrusion alarms and surveillance equipment.",
+  "scf_question": "Does the organization monitor physical intrusion alarms and surveillance equipment?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-PES-05"
+  ],
+  "pptdf": "Facility",
+  "nist_csf_function": "Detect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Physical & Environmental Security (PES) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PES domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Physical security-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Physical security controls are primarily administrative in nature (e.g., policies & standards), focusing on protecting High Value Assets (HVAs).\n▪ IT and/or cybersecurity personnel implement appropriate physical security practices to protect the confidentiality, integrity, availability and safety of the organization's technology assets and data.",
+    "2": "Physical & Environmental Security (PES) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PES domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with PES domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PES domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Physical security / facilities management-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Physical security / facilities management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Physical security controls and technologies primarily focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ Where applicable, physical security controls and technologies are configured to monitor for, detect and respond to physical security incidents.",
+    "3": "Physical & Environmental Security (PES) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PES domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PES domain capabilities are well-documented and kept current by process owners.\n▪ A facilities management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of physical and environmental security operations (e.g., facility management solution, visitor log management automation and proximity badge access).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PES domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational physical security capability exists to monitor physical intrusion alarms and surveillance equipment.",
+    "4": "Physical & Environmental Security (PES) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Physical & Environmental Security (PES) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)",
+    "CORE MSO Level 2 Initial Public Draft",
+    "CORE MSO Level 3 Initial Public Draft"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Physical alarm systems\n∙ Video surveillance systems",
+    "small": "∙ Physical alarm systems\n∙ Video surveillance systems",
+    "medium": "∙ Physical alarm systems\n∙ Video surveillance systems",
+    "large": "∙ Physical alarm systems\n∙ Video surveillance systems",
+    "enterprise": "∙ Physical alarm systems\n∙ Video surveillance systems"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-5",
+    "R-EX-7",
+    "R-EX-9",
+    "R-EX-10",
+    "R-GV-4",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-OT-1",
+    "R-IP-2",
+    "R-IP-4",
+    "R-SF-1",
+    "R-SF-2"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-26",
+    "MT-27",
+    "MT-29",
+    "MT-30",
+    "MT-31"
+  ],
+  "risk_likelihood": {
+    "R-AC-1": "Possible",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Possible",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Possible",
+    "R-AM-2": "Possible",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Possible",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Unlikely",
+    "R-BC-5": "Possible",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Unlikely",
+    "R-EX-7": "Possible",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Possible",
+    "R-EX-10": "Possible",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Possible",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Unlikely",
+    "R-GV-10": "Unlikely",
+    "R-IR-1": "Possible",
+    "R-IR-2": "Possible",
+    "R-IR-3": "Possible",
+    "R-IR-4": "Possible",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Likely",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Possible",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Possible",
+    "R-IP-3": "Unlikely",
+    "R-IP-4": "Possible",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Possible",
+    "R-SF-2": "Possible",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Likely",
+    "NT-3": "Likely",
+    "NT-4": "Likely",
+    "NT-5": "Likely",
+    "NT-6": "Likely",
+    "NT-7": "Likely",
+    "NT-8": "Likely",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Likely",
+    "NT-12": "Likely",
+    "NT-13": "Likely",
+    "NT-14": "Likely",
+    "MT-1": "Possible",
+    "MT-2": "Possible",
+    "MT-3": "Likely",
+    "MT-4": "Likely",
+    "MT-5": "Likely",
+    "MT-6": "Likely",
+    "MT-7": "Likely",
+    "MT-8": "Possible",
+    "MT-9": "Likely",
+    "MT-10": "Likely",
+    "MT-11": "Unlikely",
+    "MT-12": "Possible",
+    "MT-13": "Possible",
+    "MT-14": "Likely",
+    "MT-15": "Possible",
+    "MT-16": "Possible",
+    "MT-17": "Unlikely",
+    "MT-18": "Possible",
+    "MT-19": "Possible",
+    "MT-20": "Possible",
+    "MT-21": "Possible",
+    "MT-22": "Possible",
+    "MT-23": "Possible",
+    "MT-24": "Possible",
+    "MT-25": "Likely",
+    "MT-26": "Possible",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Possible",
+    "MT-30": "Possible",
+    "MT-31": "Possible"
+  },
+  "errata": "- renumbered",
+  "family_name": "Physical & Environmental Security",
+  "crosswalks": {
+    "general-csa-cmm-4-1-0": [
+      "DCS-11"
+    ],
+    "general-csa-iot-2": [
+      "PHY-01"
+    ],
+    "general-govramp": [
+      "PE-06(01)"
+    ],
+    "general-govramp-mod": [
+      "PE-06(01)"
+    ],
+    "general-govramp-high": [
+      "PE-06(01)"
+    ],
+    "general-iso-27002-2022": [
+      "7.4"
+    ],
+    "general-iso-27018-2025": [
+      "7.4"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "PS-1.4",
+      "PS-3.0"
+    ],
+    "general-nist-800-53-r4": [
+      "PE-6(1)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PE-06(01)"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "PE-06(01)"
+    ],
+    "general-nist-800-53-r5-2-high": [
+      "PE-06(01)"
+    ],
+    "general-nist-800-82-r3": [
+      "PE-06(01)"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "PE-06(01)"
+    ],
+    "general-nist-800-82-r3-high": [
+      "PE-06(01)"
+    ],
+    "general-nist-800-171-r2": [
+      "3.10.2",
+      "NFO - PE-6(1)"
+    ],
+    "general-nist-800-171-r3": [
+      "03.10.02.a"
+    ],
+    "general-nist-800-171a": [
+      "3.10.2[c]",
+      "3.10.2[d]"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.10.02.a[01]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.10.01E"
+    ],
+    "general-nist-800-172a-r3": [
+      "DS-A.03.10.01E[02]"
+    ],
+    "general-pci-dss-4-0-1": [
+      "9.2.1.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "9.2.1.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "9.2.1.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "9.2.1.1"
+    ],
+    "general-tisax-6-0-3": [
+      "8.1.6"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "PE-6(1)"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "PEL2.-3.10.2"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "PE-6(1)"
+    ],
+    "usa-federal-ffiec-iteh-2016": [
+      "II.C.8"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PE-06(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PE-06(01)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "PE-6(CE-1)"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-006-6 1.5",
+      "CIP-006-6 1.7"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "PE-06 (01)"
+    ],
+    "emea-deu-c5-2026": [
+      "PS-03.01AC",
+      "PS-08.01B.6"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "1500"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "1500"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "1500"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "1500"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-13-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-14-3-2"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-13-1-2"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.2.3.b"
+    ],
+    "apac-mys-bnm-rmit-2025": [
+      "A2-C6",
+      "A2-C14",
+      "A2-NC2"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.10.02.A"
+    ]
+  }
+}

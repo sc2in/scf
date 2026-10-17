@@ -5,7 +5,7 @@
   "artifact_description": "Documented evidence of personnel management practices to formally identify critical cybersecurity skills needed to support business operations.",
   "scf_controls": [
     "HRS-03.2",
-    "HRS-13"
+    "HRS-16"
   ],
   "cmmc_mapping": ""
 }

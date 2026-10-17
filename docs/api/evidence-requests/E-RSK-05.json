@@ -4,7 +4,7 @@
   "artifact_name": "Supply Chain Risk Assessment (SCRA)",
   "artifact_description": "Documented evidence of supply chain-specific risk assessment that evaluates risks that are specific to its supply chain.",
   "scf_controls": [
-    "RSK-09.1"
+    "RSK-21"
   ],
   "cmmc_mapping": ""
 }

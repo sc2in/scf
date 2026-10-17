@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-03.11",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-03.11",
+      "ao_id": "NET-03.11_A01",
+      "objective": "automated Content Disarm and Reconstruction (CDR) technologies are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.11",
+      "ao_id": "NET-03.11_A02",
+      "objective": "automated Content Disarm and Reconstruction (CDR) mechanisms are configured to remove active content from files traversing trust boundaries, resulting in reconstructed content containing only known safe elements.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.11",
+      "ao_id": "NET-03.11_A03",
+      "objective": "the trust boundaries at which files are subject to Content Disarm and Reconstruction (CDR) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

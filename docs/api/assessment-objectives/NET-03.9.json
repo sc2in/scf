@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-03.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-03.9",
+      "ao_id": "NET-03.9_A01",
+      "objective": "Internet addresses to be blocked are documented on a denylist.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.9",
+      "ao_id": "NET-03.9_A02",
+      "objective": "Internet address denylisting protections block traffic received from or destined to a denylisted Internet address.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

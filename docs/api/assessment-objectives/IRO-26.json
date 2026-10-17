@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "IRO-26",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-26",
+      "ao_id": "IRO-26_A01",
+      "objective": "post-incident assurance activities (e.g., vulnerability scanning, configuration review, integrity verification and control testing) are performed on affected Technology Assets, Applications and Services (TAAS) before they are returned to normal business operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-26",
+      "ao_id": "IRO-26_A02",
+      "objective": "post-incident assurance activities validate that affected Technology Assets, Applications and Services (TAAS) are secure, including that the exploited weakness has been remediated and no indicators of compromise remain.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-26",
+      "ao_id": "IRO-26_A03",
+      "objective": "post-incident assurance activities validate that affected Technology Assets, Applications and Services (TAAS) are compliant with applicable security, compliance and resilience requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-26",
+      "ao_id": "IRO-26_A04",
+      "objective": "post-incident assurance activities validate that affected Technology Assets, Applications and Services (TAAS) are capable of supporting the resumption of normal business operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-26",
+      "ao_id": "IRO-26_A05",
+      "objective": "the results of post-incident assurance activities, including the approval to return affected Technology Assets, Applications and Services (TAAS) to normal business operations, are documented and retained.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

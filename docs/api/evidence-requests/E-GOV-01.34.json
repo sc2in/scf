@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.34",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Web Security Policy",
+  "artifact_description": "Documented evidence of a web security policy.",
+  "scf_controls": [
+    "GOV-04",
+    "WEB-01"
+  ],
+  "cmmc_mapping": ""
+}

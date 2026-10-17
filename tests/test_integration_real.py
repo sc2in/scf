@@ -23,6 +23,10 @@ GROUND_TRUTH = {
     # shortened the compensating "SCF Control #" header to "SCF #"; it also
     # added the QTS family and threat MT-28.
     "2026.2": (1534, 34, 252, 5956, 316, 1371, 258, 42, 39),
+    # 2026.3 folded the compensating tab into the control tab, replaced the
+    # risk/threat summary columns with a likelihood matrix (65 risks, 45
+    # threats); the MON-03.3 ERL typo is fixed upstream.
+    "2026.3": (1591, 34, 270, 6446, 422, 1397, 263, 45, 65),
 }
 
 

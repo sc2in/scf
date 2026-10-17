@@ -4,7 +4,7 @@
   "artifact_name": "Risk Catalog",
   "artifact_description": "Documented evidence of a risk catalog.",
   "scf_controls": [
-    "RSK-03.1"
+    "RSK-10"
   ],
   "cmmc_mapping": ""
 }

@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CLD-02",
+  "area": "Asset Management",
+  "artifact_name": "Cloud Infrastructure Onboarding / Offboarding Records",
+  "artifact_description": "Documented evidence of cloud infrastructure onboarding and offboarding activities (e.g., account provisioning, configuration baselining, decommissioning and data disposition).",
+  "scf_controls": [
+    "CLD-03",
+    "CLD-04",
+    "CLD-08",
+    "CLD-09"
+  ],
+  "cmmc_mapping": ""
+}

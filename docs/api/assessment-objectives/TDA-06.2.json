@@ -5,9 +5,9 @@
     {
       "scf_control_id": "TDA-06.2",
       "ao_id": "TDA-06.2_A01",
-      "objective": "threat modelling and other secure design techniques are used to ensure that threats to software and solutions are identified and accounted for.",
+      "objective": "the developer of the system, system component or system service is required to produce a plan for the continuous monitoring of control effectiveness that is consistent with the continuous monitoring program of the organization.",
       "pptdf": "Process",
-      "origin": "SCF Created",
+      "origin": "53A_R5_SA-04(08)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

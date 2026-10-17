@@ -1,13 +1,13 @@
 {
   "scf_control_id": "AST-14",
-  "total": 5,
+  "total": 10,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-14",
       "ao_id": "AST-14_A01",
-      "objective": "the components for which usage restrictions and implementation guidance are to be established are defined.",
+      "objective": "systems, system components and associated data that require valid provenance are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SC-43_ODP",
+      "origin": "53A_R5_SR-04_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "AST-14",
       "ao_id": "AST-14_A02",
-      "objective": "usage restrictions and implementation guidelines are established for components.",
+      "objective": "valid provenance is documented for systems, system components and associated data.",
       "pptdf": "Process",
-      "origin": "53A_R5_SC-43a.",
+      "origin": "53A_R5_SR-04[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "AST-14",
       "ao_id": "AST-14_A03",
-      "objective": "the use of components is authorized within the system.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_SC-43b.[01]",
+      "objective": "valid provenance is monitored for systems, system components and associated data.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04[02]",
       "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,9 +35,9 @@
     {
       "scf_control_id": "AST-14",
       "ao_id": "AST-14_A04",
-      "objective": "the use of components is monitored within the system.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_SC-43b.[02]",
+      "objective": "valid provenance is maintained for systems, system components and associated data.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04[03]",
       "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -45,9 +45,59 @@
     {
       "scf_control_id": "AST-14",
       "ao_id": "AST-14_A05",
-      "objective": "the use of components is controlled within the system.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_SC-43b.[03]",
+      "objective": "supply chain elements, processes and personnel associated with systems and critical system components that require unique identification are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(01)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-14",
+      "ao_id": "AST-14_A06",
+      "objective": "unique identification of supply chain elements, processes and personnel is established.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(01)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-14",
+      "ao_id": "AST-14_A07",
+      "objective": "unique identification of supply chain elements, processes and personnel is maintained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(01)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-14",
+      "ao_id": "AST-14_A08",
+      "objective": "systems and critical system components that require unique identification for tracking through the supply chain are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(02)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-14",
+      "ao_id": "AST-14_A09",
+      "objective": "the unique identification of systems and critical system components is established for tracking through the supply chain.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(02)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-14",
+      "ao_id": "AST-14_A10",
+      "objective": "the unique identification of systems and critical system components is maintained for tracking through the supply chain.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(02)[02]",
       "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

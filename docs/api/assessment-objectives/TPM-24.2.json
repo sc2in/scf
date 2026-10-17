@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-24.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-24.2",
+      "ao_id": "TPM-24.2_A01",
+      "objective": "the Technology Assets, Applications, Services and Data (TAASD) held, managed or processed by each applicable third-party that must be transferred, migrated or made available upon cessation of services are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.2",
+      "ao_id": "TPM-24.2_A02",
+      "objective": "contractual and/or technical provisions exist that require applicable Technology Assets, Applications, Services and Data (TAASD) to be made available in a documented, usable format that can be consumed by a replacement third-party or internally-managed service.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.2",
+      "ao_id": "TPM-24.2_A03",
+      "objective": "the transfer or migration of Technology Assets, Applications, Services and Data (TAASD) from a third-party uses protected channels and/or encryption consistent with the classification of the data.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.2",
+      "ao_id": "TPM-24.2_A04",
+      "objective": "the completeness and integrity of transferred or migrated Technology Assets, Applications, Services and Data (TAASD) are verified before the third-party services cease.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.2",
+      "ao_id": "TPM-24.2_A05",
+      "objective": "the ability to transfer or migrate applicable Technology Assets, Applications, Services and Data (TAASD) is tested or otherwise validated before it is relied upon during a cessation of third-party services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually for critical third-party relationships",
+      "org_defined_parameters": ""
+    }
+  ]
+}

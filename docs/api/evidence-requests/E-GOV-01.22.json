@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.22",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Physical & Environmental Security Policy",
+  "artifact_description": "Documented evidence of a physical and environmental security policy.",
+  "scf_controls": [
+    "GOV-04",
+    "PES-01"
+  ],
+  "cmmc_mapping": ""
+}

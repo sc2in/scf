@@ -4,7 +4,7 @@
   "artifact_name": "Risk Alternatives",
   "artifact_description": "Documented evidence of alternative courses of action to manage material risks.",
   "scf_controls": [
-    "RSK-13.1"
+    "RSK-17.2"
   ],
   "cmmc_mapping": ""
 }

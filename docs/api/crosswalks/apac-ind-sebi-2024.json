@@ -2,109 +2,115 @@
   "framework_id": "apac-ind-sebi-2024",
   "display_name": "India - SEBI Cybersecurity and Cyber Resilience Framework (2024)",
   "scf_to_framework": {
-    "total_mappings": 170,
+    "total_mappings": 174,
     "mappings": {
       "GOV-01": [
+        "GV.PO.S2"
+      ],
+      "GOV-02": [
         "GV.OC.S1",
         "GV.OC.S2",
         "PR.IP.S17"
       ],
-      "GOV-01.1": [
+      "GOV-03.3": [
+        "GV.OC.S1",
+        "GV.RM.S1"
+      ],
+      "GOV-04": [
+        "GV.PO.S1"
+      ],
+      "GOV-04.1": [
+        "GV.PO.S2",
+        "GV.PO.S3",
+        "GV.PO.S4"
+      ],
+      "GOV-04.2": [
+        "GV.PO.S3"
+      ],
+      "GOV-05": [
+        "GV.RR.S1",
+        "GV.RR.S2",
+        "GV.RR.S3"
+      ],
+      "GOV-05.1": [
+        "GV.RR.S1",
+        "GV.RR.S2"
+      ],
+      "GOV-05.2": [
+        "GV.OC.S1",
+        "GV.PO.S5"
+      ],
+      "GOV-09": [
         "GV.OV.S2",
         "GV.RR.S1",
         "GV.RR.S3",
         "GV.RR.S4"
       ],
-      "GOV-01.2": [
+      "GOV-09.1": [
         "GV.OV.S1"
       ],
-      "GOV-02": [
-        "GV.PO.S1"
+      "GOV-10": [
+        "GV.RR.S1"
       ],
-      "GOV-02.1": [
-        "GV.PO.S3"
+      "GOV-11": [
+        "GV.RM.S2"
       ],
-      "GOV-03": [
-        "GV.PO.S2",
-        "GV.PO.S3",
-        "GV.PO.S4"
-      ],
-      "GOV-04": [
-        "GV.RR.S1",
-        "GV.RR.S2",
-        "GV.RR.S3"
-      ],
-      "GOV-04.1": [
-        "GV.RR.S1",
-        "GV.RR.S2"
-      ],
-      "GOV-04.2": [
-        "GV.OC.S1",
-        "GV.PO.S5"
-      ],
-      "GOV-05": [
+      "GOV-12": [
         "GV.OV.S3",
         "GV.OV.S4",
         "PR.IP.S10"
       ],
-      "GOV-09": [
-        "GV.OC.S1",
-        "GV.RM.S1"
-      ],
-      "GOV-14": [
-        "GV.RR.S1"
-      ],
-      "GOV-15": [
-        "GV.RM.S2"
-      ],
-      "AST-01": [
-        "GV.PO.S5"
-      ],
-      "AST-01.2": [
-        "GV.PO.S5"
-      ],
       "AST-02": [
+        "GV.PO.S5"
+      ],
+      "AST-04": [
         "ID.AM.S1",
         "ID.AM.S5",
         "ID.AM.S6"
       ],
-      "AST-02.8": [
-        "ID.AM.S2"
+      "AST-05": [
+        "ID.AM.S4"
       ],
-      "AST-03": [
+      "AST-07": [
         "GV.PO.S5"
       ],
-      "AST-04": [
-        "ID.AM.S2"
+      "AST-07.1": [
+        "GV.PO.S5"
       ],
       "AST-09": [
+        "ID.AM.S3"
+      ],
+      "AST-17": [
+        "ID.AM.S2"
+      ],
+      "AST-17.2": [
+        "ID.AM.S2"
+      ],
+      "AST-22": [
         "PR.AA.S14"
       ],
-      "BCD-01": [
+      "BCD-02": [
         "PR.IP.S11",
         "RC.RP.S1",
         "RC.RP.S4",
         "RS.MA.S3"
       ],
-      "BCD-01.2": [
-        "GV.SC.S6"
-      ],
-      "BCD-01.4": [
+      "BCD-04.1": [
         "RC.RP.S2"
       ],
-      "BCD-01.5": [
+      "BCD-05": [
         "RC.RP.S1"
       ],
-      "BCD-02": [
-        "ID.AM.S4"
+      "BCD-07.4": [
+        "GV.SC.S6"
       ],
-      "BCD-04": [
+      "BCD-10": [
         "GV.RM.S3",
         "PR.IP.S11",
         "RC.IM.S2",
         "RC.RP.S3"
       ],
-      "BCD-05": [
+      "BCD-11": [
         "RC.IM.S1",
         "RC.IM.S2",
         "RS.AN.S4",
@@ -112,265 +118,255 @@
         "RS.AN.S4b",
         "RS.IM.S1"
       ],
-      "BCD-11": [
+      "BCD-18": [
+        "PR.IP.S7"
+      ],
+      "BCD-24": [
         "PR.IP.S7",
         "PR.IP.S8",
         "RC.RP.S4"
       ],
-      "BCD-11.1": [
+      "BCD-32": [
         "PR.IP.S8"
       ],
-      "BCD-12": [
-        "PR.IP.S7"
-      ],
-      "CAP-01": [
+      "CAP-02": [
         "PR.DS.S3"
       ],
-      "CAP-04": [
+      "CAP-05": [
         "DE.CM.S4"
-      ],
-      "CHG-01": [
-        "PR.IP.S3"
       ],
       "CHG-02": [
         "PR.IP.S3"
       ],
-      "CHG-02.2": [
-        "PR.MA.S1"
+      "CHG-03": [
+        "PR.IP.S3"
       ],
-      "CLD-01": [
-        "PR.IP.S13"
+      "CHG-07": [
+        "PR.MA.S1"
       ],
       "CLD-02": [
         "PR.IP.S13"
       ],
-      "CLD-04": [
-        "PR.AA.S17"
+      "CLD-05": [
+        "PR.IP.S13"
       ],
-      "CLD-09": [
-        "PR.DS.S2"
-      ],
-      "CPL-01": [
+      "CPL-02": [
         "GV.OC.S2",
         "PR.IP.S13",
         "RS.MA.S5"
       ],
-      "CPL-01.3": [
+      "CPL-04": [
         "PR.IP.S17"
       ],
-      "CPL-02": [
-        "EV.ST.S4"
-      ],
-      "CPL-02.2": [
-        "DE.CM.S5"
-      ],
-      "CPL-03": [
+      "CPL-05": [
         "EV.ST.S5"
       ],
-      "CPL-03.1": [
-        "PR.IP.S14"
-      ],
-      "CPL-03.2": [
+      "CPL-05.1": [
         "DE.CM.S5"
       ],
-      "CFG-01": [
-        "PR.IP.S3"
+      "CPL-07": [
+        "EV.ST.S4"
+      ],
+      "CPL-07.2": [
+        "DE.CM.S5"
+      ],
+      "CPL-08": [
+        "PR.IP.S14"
       ],
       "CFG-02": [
-        "PR.IP.S1"
-      ],
-      "CFG-02.1": [
-        "PR.IP.S1"
+        "PR.IP.S3"
       ],
       "CFG-03": [
         "PR.IP.S1"
       ],
-      "CFG-03.1": [
+      "CFG-04": [
+        "PR.IP.S1"
+      ],
+      "CFG-07": [
+        "PR.IP.S1"
+      ],
+      "CFG-08": [
         "DE.CM.S5"
       ],
-      "CFG-06": [
+      "CFG-08.2": [
         "PR.DS.S6"
       ],
-      "CFG-06.1": [
-        "PR.DS.S6"
-      ],
-      "MON-01": [
+      "MON-02": [
         "DE.CM.S2",
         "PR.AA.S8"
       ],
-      "MON-01.8": [
-        "DE.CM.S3"
-      ],
       "MON-03": [
-        "PR.AA.S9"
-      ],
-      "MON-08": [
-        "PR.AA.S9"
-      ],
-      "MON-10": [
-        "PR.AA.S9"
-      ],
-      "MON-17": [
         "DE.CM.S3"
       ],
-      "CRY-01": [
-        "PR.DS.S1"
+      "MON-05.2": [
+        "DE.CM.S3"
       ],
-      "CRY-03": [
+      "MON-09": [
+        "PR.AA.S9"
+      ],
+      "MON-12": [
+        "PR.AA.S9"
+      ],
+      "MON-13": [
+        "PR.AA.S9"
+      ],
+      "CRY-02": [
         "PR.DS.S1"
       ],
       "CRY-05": [
         "PR.DS.S1"
       ],
-      "DCH-01": [
+      "CRY-07": [
+        "PR.DS.S1"
+      ],
+      "DCH-02": [
         "PR.AA.S14",
         "PR.DS.S4"
       ],
-      "DCH-02": [
+      "DCH-04": [
         "PR.DS.S2"
       ],
-      "DCH-06": [
-        "PR.AA.S14"
-      ],
-      "DCH-06.2": [
+      "DCH-05": [
         "ID.AM.S5"
       ],
-      "DCH-18": [
+      "DCH-13": [
+        "PR.AA.S14"
+      ],
+      "DCH-17": [
         "PR.AA.S13"
       ],
-      "DCH-21": [
+      "DCH-27": [
         "PR.AA.S13"
       ],
-      "DCH-26": [
+      "DCH-30.1": [
         "PR.DS.S2"
+      ],
+      "DCH-31": [
+        "PR.DS.S2"
+      ],
+      "DCH-40": [
+        "PR.DS.S4"
       ],
       "END-04": [
         "PR.IP.S4"
       ],
-      "END-04.7": [
+      "END-04.1": [
         "PR.IP.S4"
       ],
-      "END-06": [
+      "END-11": [
         "PR.DS.S6"
       ],
-      "END-06.1": [
+      "END-11.1": [
         "PR.DS.S6"
-      ],
-      "HRS-01": [
-        "GV.RR.S6",
-        "RS.CO.S1"
       ],
       "HRS-02": [
-        "DE.DP.S1",
-        "GV.RR.S2",
-        "PR.AT.S4",
+        "GV.RR.S6",
         "RS.CO.S1"
       ],
       "HRS-03": [
         "DE.DP.S1",
         "GV.RR.S2",
         "PR.AT.S4",
+        "RS.CO.S1"
+      ],
+      "HRS-04": [
+        "DE.DP.S1",
+        "GV.RR.S2",
+        "PR.AT.S4",
         "PR.AT.S5",
         "RS.CO.S1"
       ],
-      "HRS-03.1": [
+      "HRS-04.1": [
         "GV.RR.S6",
         "PR.AT.S4",
         "PR.AT.S5"
       ],
-      "HRS-06": [
+      "HRS-07": [
         "GV.RR.S5"
       ],
-      "HRS-06.1": [
+      "HRS-07.1": [
         "GV.RR.S5"
       ],
-      "HRS-11": [
+      "HRS-14": [
         "PR.AA.S3"
       ],
       "IAC-01": [
+        "PR.AA.S6"
+      ],
+      "IAC-02": [
         "PR.AA.S1",
         "PR.AA.S6",
         "PR.AA.S15"
       ],
       "IAC-06": [
-        "PR.AA.S7"
+        "PR.AA.S3"
       ],
       "IAC-08": [
-        "PR.AA.S3"
-      ],
-      "IAC-10": [
-        "PR.AA.S6"
-      ],
-      "IAC-15": [
         "PR.AA.S1"
       ],
-      "IAC-16": [
+      "IAC-10": [
         "PR.AA.S11"
       ],
-      "IAC-17": [
+      "IAC-12": [
         "PR.AA.S5"
       ],
-      "IAC-20": [
+      "IAC-14": [
+        "PR.AA.S6"
+      ],
+      "IAC-25": [
         "PR.AA.S15"
       ],
-      "IAC-21": [
+      "IAC-30": [
         "PR.AA.S3"
       ],
-      "IAC-21.4": [
+      "IAC-30.4": [
         "PR.AA.S11"
       ],
-      "IRO-01": [
-        "RS.MA.S1"
+      "IAC-37": [
+        "PR.AA.S7"
+      ],
+      "IAC-37.6": [
+        "PR.AA.S7"
       ],
       "IRO-02": [
-        "RS.MA.S2"
+        "RS.MA.S1"
       ],
-      "IRO-02.4": [
+      "IRO-04": [
         "RS.AN.S2"
       ],
-      "IRO-02.5": [
+      "IRO-06": [
+        "RS.MA.S2"
+      ],
+      "IRO-06.1": [
         "GV.SC.S6",
         "RS.CO.S3",
         "RS.MA.S5"
       ],
-      "IRO-04": [
+      "IRO-08": [
         "DE.DP.S2",
         "GV.RM.S3",
         "RS.MA.S1",
         "RS.MA.S3"
       ],
-      "IRO-04.2": [
+      "IRO-08.1": [
         "EV.ST.S3",
+        "RS.IM.S1",
         "RS.IM.S2"
       ],
-      "IRO-05": [
-        "RS.IM.S2"
-      ],
-      "IRO-06": [
+      "IRO-09": [
         "DE.DP.S2",
         "GV.RM.S3"
       ],
-      "IRO-08": [
-        "RS.AN.S3"
-      ],
-      "IRO-09": [
-        "RS.CO.S3"
-      ],
       "IRO-10": [
-        "DE.DP.S3",
-        "RC.CO.S2",
-        "RC.CO.S3",
-        "RS.CO.S2",
-        "RS.CO.S3"
+        "RS.IM.S2"
       ],
-      "IRO-10.2": [
-        "DE.DP.S3",
-        "RS.CO.S2"
-      ],
-      "IRO-10.4": [
-        "RS.CO.S3"
+      "IRO-12": [
+        "RC.CO.S1"
       ],
       "IRO-13": [
+        "RS.AN.S3"
+      ],
+      "IRO-14": [
         "EV.ST.S3",
         "RC.IM.S1",
         "RS.AN.S3",
@@ -381,226 +377,245 @@
         "RS.IM.S1"
       ],
       "IRO-16": [
-        "RC.CO.S1"
+        "DE.DP.S3",
+        "RC.CO.S2",
+        "RC.CO.S3",
+        "RS.CO.S2",
+        "RS.CO.S3"
       ],
-      "IAO-01": [
+      "IRO-16.1": [
+        "RS.CO.S3"
+      ],
+      "IRO-16.2": [
+        "DE.DP.S3",
+        "RS.CO.S2"
+      ],
+      "IRO-19": [
+        "RS.CO.S3"
+      ],
+      "IAO-02": [
         "ID.AM.S4",
         "PR.AA.S16"
       ],
-      "IAO-02": [
+      "IAO-04": [
         "PR.AA.S16"
       ],
-      "MNT-02": [
+      "MNT-03": [
         "PR.MA.S1"
       ],
-      "MNT-05": [
+      "MNT-12": [
         "PR.MA.S2"
       ],
-      "MNT-05.5": [
+      "MNT-12.2": [
         "PR.MA.S2"
       ],
-      "NET-01": [
+      "NET-02": [
         "PR.AA.S2"
-      ],
-      "NET-01.1": [
-        "PR.AA.S4"
       ],
       "NET-03.5": [
         "PR.DS.S4"
-      ],
-      "NET-04.11": [
-        "ID.AM.S3"
       ],
       "NET-06": [
         "PR.AA.S2"
       ],
       "NET-14": [
+        "PR.AA.S4"
+      ],
+      "NET-26": [
         "PR.AA.S12"
       ],
-      "NET-17": [
-        "PR.DS.S4"
+      "NET-26.4": [
+        "PR.AA.S12"
       ],
-      "PES-01": [
+      "NET-35": [
+        "PR.AA.S17"
+      ],
+      "PES-02": [
         "PR.AA.S10",
         "PR.IP.S9"
       ],
-      "PES-01.1": [
+      "PES-03": [
         "PR.IP.S9"
       ],
-      "PES-03": [
+      "PES-08": [
         "PR.AA.S10"
       ],
-      "PES-03.4": [
+      "PES-12": [
         "PR.AA.S10"
       ],
-      "PES-05": [
+      "PES-13": [
         "PR.AA.S10"
       ],
-      "PRM-01": [
+      "PRM-02": [
         "GV.RR.S4"
       ],
-      "PRM-01.1": [
+      "PRM-04": [
         "GV.RR.S4"
       ],
-      "PRM-03": [
+      "PRM-06": [
         "GV.RR.S4"
       ],
       "PRM-07": [
         "PR.IP.S2"
       ],
       "RSK-01": [
+        "GV.PO.S4"
+      ],
+      "RSK-02": [
         "GV.RM.S1"
       ],
-      "RSK-01.3": [
+      "RSK-05.1": [
         "GV.RM.S4"
       ],
-      "RSK-01.5": [
+      "RSK-05.3": [
         "GV.RM.S4"
       ],
-      "RSK-04": [
+      "RSK-13": [
         "ID.RA.S1",
         "ID.RA.S2"
       ],
-      "RSK-04.1": [
+      "RSK-14": [
         "GV.RM.S4"
       ],
-      "RSK-06": [
+      "RSK-17": [
         "ID.RA.S5"
       ],
-      "RSK-06.2": [
+      "RSK-18": [
         "EV.ST.S1",
         "EV.ST.S4"
       ],
-      "RSK-09.1": [
+      "RSK-21": [
+        "GV.SC.S1",
+        "GV.SC.S2",
         "GV.SC.S7"
       ],
-      "SEA-01": [
+      "SEA-05": [
         "PR.IP.S17"
       ],
-      "SEA-13": [
+      "SEA-22": [
         "EV.ST.S2"
       ],
-      "OPS-01.1": [
+      "OPS-04": [
         "PR.AA.S14",
         "PR.IP.S7",
         "RC.RP.S4"
       ],
-      "OPS-04": [
+      "OPS-07": [
         "DE.CM.S1"
       ],
-      "OPS-07": [
+      "OPS-09": [
         "ID.AM.S3"
       ],
-      "SAT-01": [
+      "SAT-02": [
         "GV.RR.S6",
         "PR.AT.S1"
       ],
-      "SAT-03": [
+      "SAT-05": [
         "PR.AT.S2"
       ],
-      "SAT-03.5": [
+      "SAT-05.2": [
         "PR.AT.S2"
       ],
-      "TDA-04.2": [
-        "GV.SC.S5",
-        "PR.IP.S5"
-      ],
-      "TDA-08": [
+      "TDA-15.1": [
         "PR.DS.S5"
       ],
-      "TDA-09": [
+      "TDA-17": [
         "PR.IP.S6"
       ],
-      "TPM-01": [
-        "GV.OC.S3",
-        "GV.SC.S1",
-        "PR.IP.S15"
-      ],
-      "TPM-01.1": [
-        "GV.OC.S3",
-        "GV.SC.S1",
-        "GV.SC.S2"
+      "TDA-21.4": [
+        "GV.SC.S5",
+        "PR.IP.S5"
       ],
       "TPM-02": [
         "GV.OC.S3",
         "GV.SC.S1",
-        "GV.SC.S2"
+        "PR.IP.S15"
       ],
-      "TPM-03": [
+      "TPM-04": [
         "GV.OC.S3",
         "GV.SC.S1"
       ],
-      "TPM-05": [
+      "TPM-08": [
+        "GV.OC.S3",
+        "GV.SC.S1",
+        "GV.SC.S2"
+      ],
+      "TPM-09": [
+        "GV.OC.S3",
+        "GV.SC.S1",
+        "GV.SC.S2"
+      ],
+      "TPM-11": [
+        "GV.OC.S3",
+        "GV.SC.S3",
+        "PR.AT.S3"
+      ],
+      "TPM-13": [
+        "PR.AT.S3"
+      ],
+      "TPM-14": [
         "GV.OC.S3",
         "GV.SC.S3",
         "GV.SC.S8",
         "PR.AT.S3"
       ],
-      "TPM-05.2": [
+      "TPM-14.1": [
         "GV.SC.S3",
         "GV.SC.S8"
       ],
-      "TPM-05.4": [
-        "GV.OC.S3",
-        "GV.SC.S3",
-        "PR.AT.S3"
+      "TPM-15": [
+        "GV.SC.S4"
       ],
-      "TPM-05.6": [
-        "PR.IP.S5"
+      "TPM-17": [
+        "GV.SC.S4"
       ],
-      "TPM-05.7": [
+      "TPM-18": [
+        "GV.SC.S4"
+      ],
+      "TPM-19": [
         "GV.SC.S3"
       ],
-      "TPM-05.8": [
+      "TPM-22": [
+        "PR.IP.S5"
+      ],
+      "TPM-23": [
         "PR.IP.S15",
         "PR.IP.S16"
       ],
-      "TPM-06": [
-        "PR.AT.S3"
-      ],
-      "TPM-08": [
-        "GV.SC.S4"
-      ],
-      "TPM-09": [
-        "GV.SC.S4"
-      ],
-      "TPM-10": [
-        "GV.SC.S4"
-      ],
-      "THR-01": [
+      "THR-02": [
         "EV.ST.S1"
       ],
-      "THR-03": [
+      "THR-04": [
         "EV.ST.S1",
         "EV.ST.S4",
         "ID.RA.S3",
         "RS.AN.S1"
       ],
-      "THR-03.1": [
+      "THR-05": [
         "RS.AN.S1"
       ],
-      "THR-07": [
-        "DE.DP.S5"
-      ],
-      "THR-10": [
+      "THR-08": [
         "ID.RA.S4"
       ],
-      "VPM-01": [
-        "PR.IP.S12"
+      "THR-13": [
+        "DE.DP.S5"
       ],
       "VPM-02": [
-        "PR.MA.S3"
-      ],
-      "VPM-03": [
-        "PR.MA.S3"
+        "PR.IP.S12"
       ],
       "VPM-05": [
         "PR.MA.S3"
       ],
       "VPM-06": [
+        "PR.MA.S3"
+      ],
+      "VPM-08": [
+        "PR.MA.S3"
+      ],
+      "VPM-12": [
         "ID.RA.S1"
       ],
-      "VPM-10": [
+      "VPM-21": [
         "DE.DP.S4"
       ]
     }
@@ -608,522 +623,529 @@
   "framework_to_scf": {
     "total_mappings": 129,
     "mappings": {
-      "GV.OC.S1": [
+      "GV.PO.S2": [
         "GOV-01",
-        "GOV-04.2",
-        "GOV-09"
+        "GOV-04.1"
+      ],
+      "GV.OC.S1": [
+        "GOV-02",
+        "GOV-03.3",
+        "GOV-05.2"
       ],
       "GV.OC.S2": [
-        "GOV-01",
-        "CPL-01"
+        "GOV-02",
+        "CPL-02"
       ],
       "PR.IP.S17": [
-        "GOV-01",
-        "CPL-01.3",
-        "SEA-01"
-      ],
-      "GV.OV.S2": [
-        "GOV-01.1"
-      ],
-      "GV.RR.S1": [
-        "GOV-01.1",
-        "GOV-04",
-        "GOV-04.1",
-        "GOV-14"
-      ],
-      "GV.RR.S3": [
-        "GOV-01.1",
-        "GOV-04"
-      ],
-      "GV.RR.S4": [
-        "GOV-01.1",
-        "PRM-01",
-        "PRM-01.1",
-        "PRM-03"
-      ],
-      "GV.OV.S1": [
-        "GOV-01.2"
-      ],
-      "GV.PO.S1": [
-        "GOV-02"
-      ],
-      "GV.PO.S3": [
-        "GOV-02.1",
-        "GOV-03"
-      ],
-      "GV.PO.S2": [
-        "GOV-03"
-      ],
-      "GV.PO.S4": [
-        "GOV-03"
-      ],
-      "GV.RR.S2": [
-        "GOV-04",
-        "GOV-04.1",
-        "HRS-02",
-        "HRS-03"
-      ],
-      "GV.PO.S5": [
-        "GOV-04.2",
-        "AST-01",
-        "AST-01.2",
-        "AST-03"
-      ],
-      "GV.OV.S3": [
-        "GOV-05"
-      ],
-      "GV.OV.S4": [
-        "GOV-05"
-      ],
-      "PR.IP.S10": [
-        "GOV-05"
+        "GOV-02",
+        "CPL-04",
+        "SEA-05"
       ],
       "GV.RM.S1": [
-        "GOV-09",
+        "GOV-03.3",
+        "RSK-02"
+      ],
+      "GV.PO.S1": [
+        "GOV-04"
+      ],
+      "GV.PO.S3": [
+        "GOV-04.1",
+        "GOV-04.2"
+      ],
+      "GV.PO.S4": [
+        "GOV-04.1",
         "RSK-01"
       ],
+      "GV.RR.S1": [
+        "GOV-05",
+        "GOV-05.1",
+        "GOV-09",
+        "GOV-10"
+      ],
+      "GV.RR.S2": [
+        "GOV-05",
+        "GOV-05.1",
+        "HRS-03",
+        "HRS-04"
+      ],
+      "GV.RR.S3": [
+        "GOV-05",
+        "GOV-09"
+      ],
+      "GV.PO.S5": [
+        "GOV-05.2",
+        "AST-02",
+        "AST-07",
+        "AST-07.1"
+      ],
+      "GV.OV.S2": [
+        "GOV-09"
+      ],
+      "GV.RR.S4": [
+        "GOV-09",
+        "PRM-02",
+        "PRM-04",
+        "PRM-06"
+      ],
+      "GV.OV.S1": [
+        "GOV-09.1"
+      ],
       "GV.RM.S2": [
-        "GOV-15"
+        "GOV-11"
+      ],
+      "GV.OV.S3": [
+        "GOV-12"
+      ],
+      "GV.OV.S4": [
+        "GOV-12"
+      ],
+      "PR.IP.S10": [
+        "GOV-12"
       ],
       "ID.AM.S1": [
-        "AST-02"
-      ],
-      "ID.AM.S5": [
-        "AST-02",
-        "DCH-06.2"
-      ],
-      "ID.AM.S6": [
-        "AST-02"
-      ],
-      "ID.AM.S2": [
-        "AST-02.8",
         "AST-04"
       ],
-      "PR.AA.S14": [
-        "AST-09",
-        "DCH-01",
-        "DCH-06",
-        "OPS-01.1"
+      "ID.AM.S5": [
+        "AST-04",
+        "DCH-05"
       ],
-      "PR.IP.S11": [
-        "BCD-01",
-        "BCD-04"
-      ],
-      "RC.RP.S1": [
-        "BCD-01",
-        "BCD-01.5"
-      ],
-      "RC.RP.S4": [
-        "BCD-01",
-        "BCD-11",
-        "OPS-01.1"
-      ],
-      "RS.MA.S3": [
-        "BCD-01",
-        "IRO-04"
-      ],
-      "GV.SC.S6": [
-        "BCD-01.2",
-        "IRO-02.5"
-      ],
-      "RC.RP.S2": [
-        "BCD-01.4"
+      "ID.AM.S6": [
+        "AST-04"
       ],
       "ID.AM.S4": [
+        "AST-05",
+        "IAO-02"
+      ],
+      "ID.AM.S3": [
+        "AST-09",
+        "OPS-09"
+      ],
+      "ID.AM.S2": [
+        "AST-17",
+        "AST-17.2"
+      ],
+      "PR.AA.S14": [
+        "AST-22",
+        "DCH-02",
+        "DCH-13",
+        "OPS-04"
+      ],
+      "PR.IP.S11": [
         "BCD-02",
-        "IAO-01"
+        "BCD-10"
       ],
-      "GV.RM.S3": [
-        "BCD-04",
-        "IRO-04",
-        "IRO-06"
-      ],
-      "RC.IM.S2": [
-        "BCD-04",
+      "RC.RP.S1": [
+        "BCD-02",
         "BCD-05"
       ],
+      "RC.RP.S4": [
+        "BCD-02",
+        "BCD-24",
+        "OPS-04"
+      ],
+      "RS.MA.S3": [
+        "BCD-02",
+        "IRO-08"
+      ],
+      "RC.RP.S2": [
+        "BCD-04.1"
+      ],
+      "GV.SC.S6": [
+        "BCD-07.4",
+        "IRO-06.1"
+      ],
+      "GV.RM.S3": [
+        "BCD-10",
+        "IRO-08",
+        "IRO-09"
+      ],
+      "RC.IM.S2": [
+        "BCD-10",
+        "BCD-11"
+      ],
       "RC.RP.S3": [
-        "BCD-04"
+        "BCD-10"
       ],
       "RC.IM.S1": [
-        "BCD-05",
-        "IRO-13"
+        "BCD-11",
+        "IRO-14"
       ],
       "RS.AN.S4": [
-        "BCD-05",
-        "IRO-13"
+        "BCD-11",
+        "IRO-14"
       ],
       "RS.AN.S4a": [
-        "BCD-05",
-        "IRO-13"
+        "BCD-11",
+        "IRO-14"
       ],
       "RS.AN.S4b": [
-        "BCD-05",
-        "IRO-13"
+        "BCD-11",
+        "IRO-14"
       ],
       "RS.IM.S1": [
-        "BCD-05",
-        "IRO-13"
+        "BCD-11",
+        "IRO-08.1",
+        "IRO-14"
       ],
       "PR.IP.S7": [
-        "BCD-11",
-        "BCD-12",
-        "OPS-01.1"
+        "BCD-18",
+        "BCD-24",
+        "OPS-04"
       ],
       "PR.IP.S8": [
-        "BCD-11",
-        "BCD-11.1"
+        "BCD-24",
+        "BCD-32"
       ],
       "PR.DS.S3": [
-        "CAP-01"
+        "CAP-02"
       ],
       "DE.CM.S4": [
-        "CAP-04"
+        "CAP-05"
       ],
       "PR.IP.S3": [
-        "CHG-01",
         "CHG-02",
-        "CFG-01"
+        "CHG-03",
+        "CFG-02"
       ],
       "PR.MA.S1": [
-        "CHG-02.2",
-        "MNT-02"
+        "CHG-07",
+        "MNT-03"
       ],
       "PR.IP.S13": [
-        "CLD-01",
         "CLD-02",
-        "CPL-01"
-      ],
-      "PR.AA.S17": [
-        "CLD-04"
-      ],
-      "PR.DS.S2": [
-        "CLD-09",
-        "DCH-02",
-        "DCH-26"
+        "CLD-05",
+        "CPL-02"
       ],
       "RS.MA.S5": [
-        "CPL-01",
-        "IRO-02.5"
-      ],
-      "EV.ST.S4": [
         "CPL-02",
-        "RSK-06.2",
-        "THR-03"
-      ],
-      "DE.CM.S5": [
-        "CPL-02.2",
-        "CPL-03.2",
-        "CFG-03.1"
+        "IRO-06.1"
       ],
       "EV.ST.S5": [
-        "CPL-03"
+        "CPL-05"
+      ],
+      "DE.CM.S5": [
+        "CPL-05.1",
+        "CPL-07.2",
+        "CFG-08"
+      ],
+      "EV.ST.S4": [
+        "CPL-07",
+        "RSK-18",
+        "THR-04"
       ],
       "PR.IP.S14": [
-        "CPL-03.1"
+        "CPL-08"
       ],
       "PR.IP.S1": [
-        "CFG-02",
-        "CFG-02.1",
-        "CFG-03"
+        "CFG-03",
+        "CFG-04",
+        "CFG-07"
       ],
       "PR.DS.S6": [
-        "CFG-06",
-        "CFG-06.1",
-        "END-06",
-        "END-06.1"
+        "CFG-08.2",
+        "END-11",
+        "END-11.1"
       ],
       "DE.CM.S2": [
-        "MON-01"
+        "MON-02"
       ],
       "PR.AA.S8": [
-        "MON-01"
+        "MON-02"
       ],
       "DE.CM.S3": [
-        "MON-01.8",
-        "MON-17"
+        "MON-03",
+        "MON-05.2"
       ],
       "PR.AA.S9": [
-        "MON-03",
-        "MON-08",
-        "MON-10"
+        "MON-09",
+        "MON-12",
+        "MON-13"
       ],
       "PR.DS.S1": [
-        "CRY-01",
-        "CRY-03",
-        "CRY-05"
+        "CRY-02",
+        "CRY-05",
+        "CRY-07"
       ],
       "PR.DS.S4": [
-        "DCH-01",
-        "NET-03.5",
-        "NET-17"
+        "DCH-02",
+        "DCH-40",
+        "NET-03.5"
+      ],
+      "PR.DS.S2": [
+        "DCH-04",
+        "DCH-30.1",
+        "DCH-31"
       ],
       "PR.AA.S13": [
-        "DCH-18",
-        "DCH-21"
+        "DCH-17",
+        "DCH-27"
       ],
       "PR.IP.S4": [
         "END-04",
-        "END-04.7"
+        "END-04.1"
       ],
       "GV.RR.S6": [
-        "HRS-01",
-        "HRS-03.1",
-        "SAT-01"
+        "HRS-02",
+        "HRS-04.1",
+        "SAT-02"
       ],
       "RS.CO.S1": [
-        "HRS-01",
         "HRS-02",
-        "HRS-03"
+        "HRS-03",
+        "HRS-04"
       ],
       "DE.DP.S1": [
-        "HRS-02",
-        "HRS-03"
+        "HRS-03",
+        "HRS-04"
       ],
       "PR.AT.S4": [
-        "HRS-02",
         "HRS-03",
-        "HRS-03.1"
+        "HRS-04",
+        "HRS-04.1"
       ],
       "PR.AT.S5": [
-        "HRS-03",
-        "HRS-03.1"
+        "HRS-04",
+        "HRS-04.1"
       ],
       "GV.RR.S5": [
-        "HRS-06",
-        "HRS-06.1"
+        "HRS-07",
+        "HRS-07.1"
       ],
       "PR.AA.S3": [
-        "HRS-11",
-        "IAC-08",
-        "IAC-21"
-      ],
-      "PR.AA.S1": [
-        "IAC-01",
-        "IAC-15"
+        "HRS-14",
+        "IAC-06",
+        "IAC-30"
       ],
       "PR.AA.S6": [
         "IAC-01",
-        "IAC-10"
+        "IAC-02",
+        "IAC-14"
+      ],
+      "PR.AA.S1": [
+        "IAC-02",
+        "IAC-08"
       ],
       "PR.AA.S15": [
-        "IAC-01",
-        "IAC-20"
-      ],
-      "PR.AA.S7": [
-        "IAC-06"
+        "IAC-02",
+        "IAC-25"
       ],
       "PR.AA.S11": [
-        "IAC-16",
-        "IAC-21.4"
+        "IAC-10",
+        "IAC-30.4"
       ],
       "PR.AA.S5": [
-        "IAC-17"
+        "IAC-12"
+      ],
+      "PR.AA.S7": [
+        "IAC-37",
+        "IAC-37.6"
       ],
       "RS.MA.S1": [
-        "IRO-01",
+        "IRO-02",
+        "IRO-08"
+      ],
+      "RS.AN.S2": [
         "IRO-04"
       ],
       "RS.MA.S2": [
-        "IRO-02"
-      ],
-      "RS.AN.S2": [
-        "IRO-02.4"
-      ],
-      "RS.CO.S3": [
-        "IRO-02.5",
-        "IRO-09",
-        "IRO-10",
-        "IRO-10.4"
-      ],
-      "DE.DP.S2": [
-        "IRO-04",
         "IRO-06"
       ],
+      "RS.CO.S3": [
+        "IRO-06.1",
+        "IRO-16",
+        "IRO-16.1",
+        "IRO-19"
+      ],
+      "DE.DP.S2": [
+        "IRO-08",
+        "IRO-09"
+      ],
       "EV.ST.S3": [
-        "IRO-04.2",
-        "IRO-13"
+        "IRO-08.1",
+        "IRO-14"
       ],
       "RS.IM.S2": [
-        "IRO-04.2",
-        "IRO-05"
-      ],
-      "RS.AN.S3": [
-        "IRO-08",
-        "IRO-13"
-      ],
-      "DE.DP.S3": [
-        "IRO-10",
-        "IRO-10.2"
-      ],
-      "RC.CO.S2": [
+        "IRO-08.1",
         "IRO-10"
-      ],
-      "RC.CO.S3": [
-        "IRO-10"
-      ],
-      "RS.CO.S2": [
-        "IRO-10",
-        "IRO-10.2"
-      ],
-      "RS.AN.S5": [
-        "IRO-13"
       ],
       "RC.CO.S1": [
+        "IRO-12"
+      ],
+      "RS.AN.S3": [
+        "IRO-13",
+        "IRO-14"
+      ],
+      "RS.AN.S5": [
+        "IRO-14"
+      ],
+      "DE.DP.S3": [
+        "IRO-16",
+        "IRO-16.2"
+      ],
+      "RC.CO.S2": [
         "IRO-16"
       ],
+      "RC.CO.S3": [
+        "IRO-16"
+      ],
+      "RS.CO.S2": [
+        "IRO-16",
+        "IRO-16.2"
+      ],
       "PR.AA.S16": [
-        "IAO-01",
-        "IAO-02"
+        "IAO-02",
+        "IAO-04"
       ],
       "PR.MA.S2": [
-        "MNT-05",
-        "MNT-05.5"
+        "MNT-12",
+        "MNT-12.2"
       ],
       "PR.AA.S2": [
-        "NET-01",
+        "NET-02",
         "NET-06"
       ],
       "PR.AA.S4": [
-        "NET-01.1"
-      ],
-      "ID.AM.S3": [
-        "NET-04.11",
-        "OPS-07"
-      ],
-      "PR.AA.S12": [
         "NET-14"
       ],
+      "PR.AA.S12": [
+        "NET-26",
+        "NET-26.4"
+      ],
+      "PR.AA.S17": [
+        "NET-35"
+      ],
       "PR.AA.S10": [
-        "PES-01",
-        "PES-03",
-        "PES-03.4",
-        "PES-05"
+        "PES-02",
+        "PES-08",
+        "PES-12",
+        "PES-13"
       ],
       "PR.IP.S9": [
-        "PES-01",
-        "PES-01.1"
+        "PES-02",
+        "PES-03"
       ],
       "PR.IP.S2": [
         "PRM-07"
       ],
       "GV.RM.S4": [
-        "RSK-01.3",
-        "RSK-01.5",
-        "RSK-04.1"
+        "RSK-05.1",
+        "RSK-05.3",
+        "RSK-14"
       ],
       "ID.RA.S1": [
-        "RSK-04",
-        "VPM-06"
+        "RSK-13",
+        "VPM-12"
       ],
       "ID.RA.S2": [
-        "RSK-04"
+        "RSK-13"
       ],
       "ID.RA.S5": [
-        "RSK-06"
+        "RSK-17"
       ],
       "EV.ST.S1": [
-        "RSK-06.2",
-        "THR-01",
-        "THR-03"
-      ],
-      "GV.SC.S7": [
-        "RSK-09.1"
-      ],
-      "EV.ST.S2": [
-        "SEA-13"
-      ],
-      "DE.CM.S1": [
-        "OPS-04"
-      ],
-      "PR.AT.S1": [
-        "SAT-01"
-      ],
-      "PR.AT.S2": [
-        "SAT-03",
-        "SAT-03.5"
-      ],
-      "GV.SC.S5": [
-        "TDA-04.2"
-      ],
-      "PR.IP.S5": [
-        "TDA-04.2",
-        "TPM-05.6"
-      ],
-      "PR.DS.S5": [
-        "TDA-08"
-      ],
-      "PR.IP.S6": [
-        "TDA-09"
-      ],
-      "GV.OC.S3": [
-        "TPM-01",
-        "TPM-01.1",
-        "TPM-02",
-        "TPM-03",
-        "TPM-05",
-        "TPM-05.4"
+        "RSK-18",
+        "THR-02",
+        "THR-04"
       ],
       "GV.SC.S1": [
-        "TPM-01",
-        "TPM-01.1",
+        "RSK-21",
         "TPM-02",
-        "TPM-03"
-      ],
-      "PR.IP.S15": [
-        "TPM-01",
-        "TPM-05.8"
+        "TPM-04",
+        "TPM-08",
+        "TPM-09"
       ],
       "GV.SC.S2": [
-        "TPM-01.1",
-        "TPM-02"
+        "RSK-21",
+        "TPM-08",
+        "TPM-09"
       ],
-      "GV.SC.S3": [
-        "TPM-05",
-        "TPM-05.2",
-        "TPM-05.4",
-        "TPM-05.7"
+      "GV.SC.S7": [
+        "RSK-21"
       ],
-      "GV.SC.S8": [
-        "TPM-05",
-        "TPM-05.2"
+      "EV.ST.S2": [
+        "SEA-22"
       ],
-      "PR.AT.S3": [
-        "TPM-05",
-        "TPM-05.4",
-        "TPM-06"
+      "DE.CM.S1": [
+        "OPS-07"
       ],
-      "PR.IP.S16": [
-        "TPM-05.8"
+      "PR.AT.S1": [
+        "SAT-02"
       ],
-      "GV.SC.S4": [
+      "PR.AT.S2": [
+        "SAT-05",
+        "SAT-05.2"
+      ],
+      "PR.DS.S5": [
+        "TDA-15.1"
+      ],
+      "PR.IP.S6": [
+        "TDA-17"
+      ],
+      "GV.SC.S5": [
+        "TDA-21.4"
+      ],
+      "PR.IP.S5": [
+        "TDA-21.4",
+        "TPM-22"
+      ],
+      "GV.OC.S3": [
+        "TPM-02",
+        "TPM-04",
         "TPM-08",
         "TPM-09",
-        "TPM-10"
+        "TPM-11",
+        "TPM-14"
+      ],
+      "PR.IP.S15": [
+        "TPM-02",
+        "TPM-23"
+      ],
+      "GV.SC.S3": [
+        "TPM-11",
+        "TPM-14",
+        "TPM-14.1",
+        "TPM-19"
+      ],
+      "PR.AT.S3": [
+        "TPM-11",
+        "TPM-13",
+        "TPM-14"
+      ],
+      "GV.SC.S8": [
+        "TPM-14",
+        "TPM-14.1"
+      ],
+      "GV.SC.S4": [
+        "TPM-15",
+        "TPM-17",
+        "TPM-18"
+      ],
+      "PR.IP.S16": [
+        "TPM-23"
       ],
       "ID.RA.S3": [
-        "THR-03"
+        "THR-04"
       ],
       "RS.AN.S1": [
-        "THR-03",
-        "THR-03.1"
-      ],
-      "DE.DP.S5": [
-        "THR-07"
+        "THR-04",
+        "THR-05"
       ],
       "ID.RA.S4": [
-        "THR-10"
+        "THR-08"
+      ],
+      "DE.DP.S5": [
+        "THR-13"
       ],
       "PR.IP.S12": [
-        "VPM-01"
+        "VPM-02"
       ],
       "PR.MA.S3": [
-        "VPM-02",
-        "VPM-03",
-        "VPM-05"
+        "VPM-05",
+        "VPM-06",
+        "VPM-08"
       ],
       "DE.DP.S4": [
-        "VPM-10"
+        "VPM-21"
       ]
     }
   }

@@ -5,7 +5,7 @@
     {
       "scf_control_id": "CPL-06",
       "ao_id": "CPL-06_A01",
-      "objective": "a formal process exists to intake and document access requests from host governments for unrestricted and non-monitored access to the organization's systems, applications and services that could potentially violate other applicable statutory, regulatory and/or contractual obligations.",
+      "objective": "instances of non-conformity with statutory, regulatory and/or contractual obligations are documented, including the reason(s) for non-conformity.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,17 +15,17 @@
     {
       "scf_control_id": "CPL-06",
       "ao_id": "CPL-06_A02",
-      "objective": "executive leadership, along with legal counsel, formally identifies risks associated with non-compliance (e.g., fines, operational impacts, etc.).",
+      "objective": "instances of non-conformity with statutory, regulatory and/or contractual obligations are formally reviewed to develop risk mitigation actions.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CPL-06",
       "ao_id": "CPL-06_A03",
-      "objective": "executive leadership, along with legal counsel, formally identifies primary risks associated with compliance (e.g., loss of confidentiality and/or integrity considerations with data governance).",
+      "objective": "instances of non-conformity with statutory, regulatory and/or contractual obligations are centrally governed to maintain situational awareness.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -35,7 +35,7 @@
     {
       "scf_control_id": "CPL-06",
       "ao_id": "CPL-06_A04",
-      "objective": "executive leadership, along with legal counsel, formally identifies secondary risks associated with compliance (e.g., non-compliance with other laws, regulations and contractual agreements).",
+      "objective": "instances of non-conformity with statutory, regulatory and/or contractual obligations are assigned to individuals or teams for remediation.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -45,7 +45,7 @@
     {
       "scf_control_id": "CPL-06",
       "ao_id": "CPL-06_A05",
-      "objective": "executive leadership, along with legal counsel, formally identifies tertiary risks associated with compliance (e.g., human rights abuses, theft of intellectual property, espionage, etc.).",
+      "objective": "risk mitigation actions for instances of non-conformity with statutory, regulatory and/or contractual obligations are documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -55,7 +55,7 @@
     {
       "scf_control_id": "CPL-06",
       "ao_id": "CPL-06_A06",
-      "objective": "executive leadership, along with legal counsel, formally adopts an action plan to respond to host government requests for unrestricted and non-monitored access to the organization's systems, applications and services that could potentially violate other applicable statutory, regulatory and/or contractual obligations.",
+      "objective": "instances of non-conformity with statutory, regulatory and/or contractual obligations are identified.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

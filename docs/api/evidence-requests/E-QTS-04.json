@@ -4,10 +4,10 @@
   "artifact_name": "Cryptographic Asset Inventory",
   "artifact_description": "Documented evidence of a cryptographic asset inventory.",
   "scf_controls": [
-    "CRY-01.5",
-    "QTS-03.3",
-    "QTS-04",
-    "QTS-04.1"
+    "CRY-04",
+    "QTS-07",
+    "QTS-07.1",
+    "QTS-07.2"
   ],
   "cmmc_mapping": ""
 }

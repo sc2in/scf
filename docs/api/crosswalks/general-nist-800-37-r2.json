@@ -2,123 +2,123 @@
   "framework_id": "general-nist-800-37-r2",
   "display_name": "NIST SP 800 - 37 R2 - Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy",
   "scf_to_framework": {
-    "total_mappings": 45,
+    "total_mappings": 47,
     "mappings": {
-      "GOV-02": [
+      "GOV-04": [
         "TASK P-5"
       ],
-      "GOV-04": [
+      "GOV-05": [
         "TASK P-1"
       ],
-      "GOV-04.1": [
+      "GOV-05.1": [
         "TASK P-9"
       ],
-      "GOV-15": [
+      "GOV-11": [
         "TASK P-17"
       ],
-      "GOV-15.1": [
+      "GOV-11.1": [
         "TASK P-5",
         "TASK S-1"
       ],
-      "GOV-15.2": [
+      "GOV-11.2": [
         "TASK P-17",
         "TASK S-3",
         "TASK I-1"
       ],
-      "GOV-15.3": [
+      "GOV-11.3": [
         "TASK A-3",
         "TASK M-2"
       ],
-      "GOV-15.4": [
+      "GOV-11.4": [
         "TASK R-4"
       ],
-      "GOV-15.5": [
+      "GOV-11.5": [
         "TASK M-1"
       ],
-      "AST-01": [
+      "AST-02": [
         "TASK P-18"
       ],
-      "AST-01.2": [
-        "TASK P-9"
-      ],
-      "AST-02": [
+      "AST-04": [
         "TASK P-10"
       ],
-      "AST-04": [
-        "TASK P-11"
-      ],
-      "AST-09": [
-        "TASK M-7"
-      ],
-      "BCD-02": [
+      "AST-05": [
         "TASK P-6",
         "TASK P-8"
       ],
-      "CPL-01.2": [
+      "AST-07": [
+        "TASK P-9"
+      ],
+      "AST-17": [
         "TASK P-11"
       ],
-      "CPL-02": [
+      "AST-22": [
+        "TASK M-7"
+      ],
+      "CPL-03": [
+        "TASK P-11"
+      ],
+      "CPL-07": [
         "TASK P-7"
       ],
-      "CFG-02.5": [
-        "TASK P-6"
-      ],
-      "CFG-02.9": [
+      "CFG-03.1": [
         "TASK P-4",
         "TASK S-2"
       ],
-      "MON-01": [
+      "CFG-05": [
+        "TASK P-6"
+      ],
+      "MON-02": [
         "TASK P-7"
       ],
-      "DCH-02": [
+      "DCH-04": [
         "TASK P-12",
         "TASK C-2"
       ],
-      "DCH-22": [
+      "DCH-33": [
         "TASK P-13"
       ],
-      "HRS-03": [
+      "HRS-04": [
         "TASK P-1"
       ],
-      "IAO-01.1": [
+      "IAO-03": [
         "TASK P-11"
       ],
-      "IAO-02": [
+      "IAO-04": [
         "TASK C-3",
         "TASK A-1",
         "TASK A-2",
         "TASK A-3"
       ],
-      "IAO-02.1": [
+      "IAO-04.1": [
+        "TASK P-9"
+      ],
+      "IAO-05": [
         "TASK A-1"
       ],
-      "IAO-02.2": [
+      "IAO-06": [
         "TASK A-1"
       ],
-      "IAO-02.4": [
-        "TASK A-4",
-        "TASK M-5"
-      ],
-      "IAO-03": [
+      "IAO-09": [
         "TASK C-1",
         "TASK S-4",
         "TASK S-5",
         "TASK S-6"
       ],
-      "IAO-03.1": [
-        "TASK P-9"
-      ],
-      "IAO-04": [
+      "IAO-10": [
         "TASK A-5",
         "TASK M-3"
       ],
-      "IAO-05": [
+      "IAO-12": [
         "TASK I-2",
         "TASK A-5",
         "TASK A-6",
         "TASK R-3"
       ],
-      "IAO-07": [
+      "IAO-13": [
+        "TASK A-4",
+        "TASK M-5"
+      ],
+      "IAO-14": [
         "TASK P-18",
         "TASK R-1",
         "TASK R-2",
@@ -127,43 +127,49 @@
         "TASK M-4",
         "TASK M-6"
       ],
-      "PRI-01.11": [
+      "PRI-03": [
+        "TASK P-1"
+      ],
+      "PRI-09": [
         "TASK P-16"
       ],
-      "PRM-01.1": [
-        "TASK P-8"
-      ],
-      "PRM-05": [
-        "TASK P-8"
-      ],
-      "PRM-06": [
+      "PRM-02": [
         "TASK P-8"
       ],
       "PRM-07": [
         "TASK P-13",
         "TASK M-7"
       ],
-      "RSK-01": [
+      "PRM-09": [
+        "TASK P-8"
+      ],
+      "PRM-10": [
+        "TASK P-8"
+      ],
+      "RSK-02": [
         "TASK P-2"
       ],
-      "RSK-03": [
+      "RSK-09": [
         "TASK P-3",
         "TASK P-14"
       ],
-      "RSK-04": [
+      "RSK-13": [
         "TASK P-3",
         "TASK P-14"
       ],
-      "RSK-06.2": [
-        "TASK S-2"
-      ],
-      "RSK-06.4": [
+      "RSK-17.1": [
         "TASK R-3"
       ],
-      "SEA-01": [
+      "RSK-18": [
+        "TASK S-2"
+      ],
+      "SEA-02": [
+        "TASK P-16"
+      ],
+      "SEA-05": [
         "TASK P-15"
       ],
-      "TPM-05.4": [
+      "TPM-11": [
         "TASK P-1"
       ]
     }
@@ -172,170 +178,172 @@
     "total_mappings": 47,
     "mappings": {
       "TASK P-5": [
-        "GOV-02",
-        "GOV-15.1"
+        "GOV-04",
+        "GOV-11.1"
       ],
       "TASK P-1": [
-        "GOV-04",
-        "HRS-03",
-        "TPM-05.4"
+        "GOV-05",
+        "HRS-04",
+        "PRI-03",
+        "TPM-11"
       ],
       "TASK P-9": [
-        "GOV-04.1",
-        "AST-01.2",
-        "IAO-03.1"
+        "GOV-05.1",
+        "AST-07",
+        "IAO-04.1"
       ],
       "TASK P-17": [
-        "GOV-15",
-        "GOV-15.2"
+        "GOV-11",
+        "GOV-11.2"
       ],
       "TASK S-1": [
-        "GOV-15.1"
+        "GOV-11.1"
       ],
       "TASK S-3": [
-        "GOV-15.2"
+        "GOV-11.2"
       ],
       "TASK I-1": [
-        "GOV-15.2"
+        "GOV-11.2"
       ],
       "TASK A-3": [
-        "GOV-15.3",
-        "IAO-02"
+        "GOV-11.3",
+        "IAO-04"
       ],
       "TASK M-2": [
-        "GOV-15.3"
+        "GOV-11.3"
       ],
       "TASK R-4": [
-        "GOV-15.4",
-        "IAO-07"
+        "GOV-11.4",
+        "IAO-14"
       ],
       "TASK M-1": [
-        "GOV-15.5"
+        "GOV-11.5"
       ],
       "TASK P-18": [
-        "AST-01",
-        "IAO-07"
+        "AST-02",
+        "IAO-14"
       ],
       "TASK P-10": [
-        "AST-02"
-      ],
-      "TASK P-11": [
-        "AST-04",
-        "CPL-01.2",
-        "IAO-01.1"
-      ],
-      "TASK M-7": [
-        "AST-09",
-        "PRM-07"
+        "AST-04"
       ],
       "TASK P-6": [
-        "BCD-02",
-        "CFG-02.5"
+        "AST-05",
+        "CFG-05"
       ],
       "TASK P-8": [
-        "BCD-02",
-        "PRM-01.1",
-        "PRM-05",
-        "PRM-06"
+        "AST-05",
+        "PRM-02",
+        "PRM-09",
+        "PRM-10"
+      ],
+      "TASK P-11": [
+        "AST-17",
+        "CPL-03",
+        "IAO-03"
+      ],
+      "TASK M-7": [
+        "AST-22",
+        "PRM-07"
       ],
       "TASK P-7": [
-        "CPL-02",
-        "MON-01"
+        "CPL-07",
+        "MON-02"
       ],
       "TASK P-4": [
-        "CFG-02.9"
+        "CFG-03.1"
       ],
       "TASK S-2": [
-        "CFG-02.9",
-        "RSK-06.2"
+        "CFG-03.1",
+        "RSK-18"
       ],
       "TASK P-12": [
-        "DCH-02"
+        "DCH-04"
       ],
       "TASK C-2": [
-        "DCH-02"
+        "DCH-04"
       ],
       "TASK P-13": [
-        "DCH-22",
+        "DCH-33",
         "PRM-07"
       ],
       "TASK C-3": [
-        "IAO-02"
-      ],
-      "TASK A-1": [
-        "IAO-02",
-        "IAO-02.1",
-        "IAO-02.2"
-      ],
-      "TASK A-2": [
-        "IAO-02"
-      ],
-      "TASK A-4": [
-        "IAO-02.4"
-      ],
-      "TASK M-5": [
-        "IAO-02.4"
-      ],
-      "TASK C-1": [
-        "IAO-03"
-      ],
-      "TASK S-4": [
-        "IAO-03"
-      ],
-      "TASK S-5": [
-        "IAO-03"
-      ],
-      "TASK S-6": [
-        "IAO-03"
-      ],
-      "TASK A-5": [
-        "IAO-04",
-        "IAO-05"
-      ],
-      "TASK M-3": [
         "IAO-04"
       ],
+      "TASK A-1": [
+        "IAO-04",
+        "IAO-05",
+        "IAO-06"
+      ],
+      "TASK A-2": [
+        "IAO-04"
+      ],
+      "TASK C-1": [
+        "IAO-09"
+      ],
+      "TASK S-4": [
+        "IAO-09"
+      ],
+      "TASK S-5": [
+        "IAO-09"
+      ],
+      "TASK S-6": [
+        "IAO-09"
+      ],
+      "TASK A-5": [
+        "IAO-10",
+        "IAO-12"
+      ],
+      "TASK M-3": [
+        "IAO-10"
+      ],
       "TASK I-2": [
-        "IAO-05"
+        "IAO-12"
       ],
       "TASK A-6": [
-        "IAO-05"
+        "IAO-12"
       ],
       "TASK R-3": [
-        "IAO-05",
-        "RSK-06.4"
+        "IAO-12",
+        "RSK-17.1"
+      ],
+      "TASK A-4": [
+        "IAO-13"
+      ],
+      "TASK M-5": [
+        "IAO-13"
       ],
       "TASK R-1": [
-        "IAO-07"
+        "IAO-14"
       ],
       "TASK R-2": [
-        "IAO-07"
+        "IAO-14"
       ],
       "TASK R-5": [
-        "IAO-07"
+        "IAO-14"
       ],
       "TASK M-4": [
-        "IAO-07"
+        "IAO-14"
       ],
       "TASK M-6": [
-        "IAO-07"
+        "IAO-14"
       ],
       "TASK P-16": [
-        "PRI-01.11"
+        "PRI-09",
+        "SEA-02"
       ],
       "TASK P-2": [
-        "RSK-01"
+        "RSK-02"
       ],
       "TASK P-3": [
-        "RSK-03",
-        "RSK-04"
+        "RSK-09",
+        "RSK-13"
       ],
       "TASK P-14": [
-        "RSK-03",
-        "RSK-04"
+        "RSK-09",
+        "RSK-13"
       ],
       "TASK P-15": [
-        "SEA-01"
+        "SEA-05"
       ]
     }
   }

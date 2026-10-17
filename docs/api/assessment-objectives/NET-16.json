@@ -1,13 +1,13 @@
 {
   "scf_control_id": "NET-16",
-  "total": 2,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "NET-16",
       "ao_id": "NET-16_A01",
-      "objective": "trust relationships are established with other organizations owning, operating, and/or maintaining intranet systems.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
+      "objective": "system components that are known, authenticated, in a properly configured state or in a trust profile are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.5.3e[a]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,10 +15,40 @@
     {
       "scf_control_id": "NET-16",
       "ao_id": "NET-16_A02",
-      "objective": "trust relationships with other organizations allow authorized individuals to: \n •Access the intranet from external systems. and/or and\n •Process, store, and/or transmit organization-controlled information using the external systems.",
+      "objective": "automated or manual/procedural mechanisms to prohibit system components from connecting to organizational systems are identified.",
       "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
+      "origin": "172A_3.5.3e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-16",
+      "ao_id": "NET-16_A03",
+      "objective": "automated or manual/procedural mechanisms are employed to prohibit system components from connecting to organizational systems unless the components are known, authenticated, in a properly configured state or in a trust profile.",
+      "pptdf": "Technology",
+      "origin": "172A_3.5.3e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-16",
+      "ao_id": "NET-16_A04",
+      "objective": "configuration management process to be employed to handle device identification and authentication based on attestation is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-03(04)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-16",
+      "ao_id": "NET-16_A05",
+      "objective": "device identification and authentication are handled based on attestation by configuration management process.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-03(04)",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

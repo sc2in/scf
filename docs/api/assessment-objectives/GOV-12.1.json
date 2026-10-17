@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "GOV-12.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-12.1",
+      "ao_id": "GOV-12.1_A01",
+      "objective": "Key Performance Indicators (KPIs) are developed to assist organizational management in performance monitoring, trend analysis and possible control redesign or replacement for the organization's Security, Compliance & Resilience Program (SCRP).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-12.1",
+      "ao_id": "GOV-12.1_A02",
+      "objective": "Key Performance Indicator (KPI) results are reported to organizational management per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-12.1",
+      "ao_id": "GOV-12.1_A03",
+      "objective": "Key Performance Indicator (KPI) results are used to identify Security, Compliance & Resilience Program (SCRP) controls that may require redesign or replacement.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

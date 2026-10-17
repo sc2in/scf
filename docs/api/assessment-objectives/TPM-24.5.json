@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-24.5",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-24.5",
+      "ao_id": "TPM-24.5_A01",
+      "objective": "the knowledge, documentation, configurations, credentials, procedures and operational responsibilities that must be transferred upon cessation of third-party services are identified for each applicable third-party relationship.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.5",
+      "ao_id": "TPM-24.5_A02",
+      "objective": "knowledge, documentation and procedures necessary to operate and maintain the affected services are transferred to authorized personnel, a replacement third-party or internally-managed service before the cessation of third-party services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.5",
+      "ao_id": "TPM-24.5_A03",
+      "objective": "configurations and credentials necessary to operate and maintain the affected services are transferred through protected means to authorized recipients, and transferred credentials are changed upon receipt.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.5",
+      "ao_id": "TPM-24.5_A04",
+      "objective": "operational responsibilities for the affected services are formally handed over to named personnel or the replacement service provider before the cessation of third-party services.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-24.5",
+      "ao_id": "TPM-24.5_A05",
+      "objective": "completion of the knowledge and operational transfer is confirmed and recorded before the third-party services cease.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

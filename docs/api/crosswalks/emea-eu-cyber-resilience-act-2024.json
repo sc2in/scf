@@ -4,15 +4,10 @@
   "scf_to_framework": {
     "total_mappings": 35,
     "mappings": {
-      "GOV-17": [
-        "Article 13(23)",
-        "Article 19(8)",
-        "Article 20(6)"
-      ],
-      "AAT-09.1": [
+      "AAT-11.2": [
         "Article 12(1)"
       ],
-      "CPL-01": [
+      "CPL-02": [
         "Article 6",
         "Article 6(a)",
         "Article 6(b)",
@@ -24,11 +19,11 @@
         "Article 23(1)(b)",
         "Article 24(2)"
       ],
-      "CPL-01.3": [
+      "CPL-04": [
         "Article 13(1)",
         "Article 32(5)"
       ],
-      "CPL-01.4": [
+      "CPL-04.1": [
         "Article 12(3)",
         "Article 13(12)",
         "Article 19(2)(a)",
@@ -42,35 +37,40 @@
         "Article 32(3)(b)",
         "Article 32(6)"
       ],
-      "CPL-01.5": [
+      "CPL-04.2": [
+        "Article 18(1)"
+      ],
+      "CPL-04.4": [
         "Article 12(1)(c)",
         "Article 20(5)"
       ],
-      "CPL-01.7": [
-        "Article 18(1)"
-      ],
-      "CPL-05.2": [
+      "CPL-19.2": [
         "Article 53"
       ],
-      "CPL-07": [
+      "CPL-22": [
         "Article 13(17)"
       ],
-      "DCH-18": [
+      "CPL-27": [
+        "Article 13(23)",
+        "Article 19(8)",
+        "Article 20(6)"
+      ],
+      "DCH-27": [
         "Article 13(13)",
         "Article 19(6)",
         "Article 23(2)"
       ],
-      "IRO-02.4": [
+      "IRO-04": [
         "Article 14(5)",
         "Article 14(5)(a)",
         "Article 14(5)(b)"
       ],
-      "IRO-10": [
+      "IRO-16": [
         "Article 14(8)",
         "Article 15(1)",
         "Article 15(2)"
       ],
-      "IRO-10.2": [
+      "IRO-16.2": [
         "Article 14(1)",
         "Article 14(3)",
         "Article 14(4)(a)",
@@ -80,28 +80,28 @@
         "Article 14(4)(i)(ii)",
         "Article 14(4)(i)(iii)"
       ],
-      "IAO-01": [
-        "Article 13(2)"
-      ],
-      "IAO-01.1": [
-        "Article 13(2)"
-      ],
       "IAO-02": [
+        "Article 13(2)"
+      ],
+      "IAO-03": [
+        "Article 13(2)"
+      ],
+      "IAO-04": [
         "Article 13(2)",
         "Article 32(1)"
       ],
-      "IAO-02.1": [
-        "Article 13(2)"
-      ],
-      "IAO-02.2": [
+      "IAO-05": [
         "Article 13(2)",
         "Article 13(3)",
         "Article 32(1)"
       ],
-      "IAO-02.4": [
+      "IAO-06": [
         "Article 13(2)"
       ],
-      "IAO-03": [
+      "IAO-08": [
+        "Article 24(1)"
+      ],
+      "IAO-09": [
         "Article 13(2)",
         "Article 13(3)",
         "Article 13(7)",
@@ -110,29 +110,32 @@
         "Article 31(2)",
         "Article 31(3)"
       ],
-      "IAO-03.2": [
-        "Article 24(1)"
-      ],
-      "IAO-04": [
+      "IAO-10": [
         "Article 13(6)",
         "Article 13(21)"
       ],
-      "IAO-05": [
+      "IAO-11": [
         "Article 13(2)"
       ],
-      "IAO-06": [
+      "IAO-12": [
         "Article 13(2)"
       ],
-      "IAO-07": [
+      "IAO-13": [
         "Article 13(2)"
       ],
-      "PRM-04": [
-        "Article 13(14)"
+      "IAO-14": [
+        "Article 13(2)"
       ],
       "PRM-07": [
         "Article 13(14)"
       ],
-      "TDA-01.1": [
+      "PRM-08": [
+        "Article 13(14)"
+      ],
+      "TDA-05": [
+        "Article 24(1)"
+      ],
+      "TDA-06": [
         "Article 13(1)",
         "Article 13(5)",
         "Article 13(8)",
@@ -169,15 +172,12 @@
         "Article 30(3)",
         "Article 30(4)"
       ],
-      "TDA-02": [
-        "Article 24(1)"
-      ],
-      "TDA-02.9": [
+      "TDA-06.3": [
         "Article 13(8)",
         "Article 13(9)",
         "Article 13(11)"
       ],
-      "TDA-02.11": [
+      "TDA-07": [
         "Article 14(1)",
         "Article 14(2)(a)",
         "Article 14(2)(b)",
@@ -188,19 +188,19 @@
         "Article 20(3)",
         "Article 20(4)"
       ],
-      "TDA-04": [
+      "TDA-08.2": [
+        "Article 13(7)",
+        "Article 31(1)"
+      ],
+      "TDA-08.3": [
         "Article 13(4)",
         "Article 13(7)",
         "Article 31(1)"
       ],
-      "TDA-04.1": [
-        "Article 13(7)",
-        "Article 31(1)"
-      ],
-      "TDA-06": [
+      "TDA-11.1": [
         "Article 24(1)"
       ],
-      "VPM-02": [
+      "VPM-06": [
         "Article 13(6)"
       ]
     }
@@ -208,326 +208,326 @@
   "framework_to_scf": {
     "total_mappings": 96,
     "mappings": {
-      "Article 13(23)": [
-        "GOV-17",
-        "TDA-01.1"
-      ],
-      "Article 19(8)": [
-        "GOV-17"
-      ],
-      "Article 20(6)": [
-        "GOV-17"
-      ],
       "Article 12(1)": [
-        "AAT-09.1"
+        "AAT-11.2"
       ],
       "Article 6": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 6(a)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 6(b)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 12(1)(a)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 12(1)(b)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 19(7)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 23(1)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 23(1)(a)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 23(1)(b)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 24(2)": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 13(1)": [
-        "CPL-01.3",
-        "TDA-01.1"
-      ],
-      "Article 32(5)": [
-        "CPL-01.3"
-      ],
-      "Article 12(3)": [
-        "CPL-01.4"
-      ],
-      "Article 13(12)": [
-        "CPL-01.4"
-      ],
-      "Article 19(2)(a)": [
-        "CPL-01.4"
-      ],
-      "Article 32(1)": [
-        "CPL-01.4",
-        "IAO-02",
-        "IAO-02.2"
-      ],
-      "Article 32(1)(a)": [
-        "CPL-01.4"
-      ],
-      "Article 32(1)(b)": [
-        "CPL-01.4"
-      ],
-      "Article 32(1)(c)": [
-        "CPL-01.4"
-      ],
-      "Article 32(1)(d)": [
-        "CPL-01.4"
-      ],
-      "Article 32(3)": [
-        "CPL-01.4"
-      ],
-      "Article 32(3)(a)": [
-        "CPL-01.4"
-      ],
-      "Article 32(3)(b)": [
-        "CPL-01.4"
-      ],
-      "Article 32(6)": [
-        "CPL-01.4"
-      ],
-      "Article 12(1)(c)": [
-        "CPL-01.5"
-      ],
-      "Article 20(5)": [
-        "CPL-01.5"
-      ],
-      "Article 18(1)": [
-        "CPL-01.7"
-      ],
-      "Article 53": [
-        "CPL-05.2"
-      ],
-      "Article 13(17)": [
-        "CPL-07",
-        "TDA-01.1"
-      ],
-      "Article 13(13)": [
-        "DCH-18",
-        "TDA-01.1"
-      ],
-      "Article 19(6)": [
-        "DCH-18",
-        "TDA-01.1"
-      ],
-      "Article 23(2)": [
-        "DCH-18"
-      ],
-      "Article 14(5)": [
-        "IRO-02.4"
-      ],
-      "Article 14(5)(a)": [
-        "IRO-02.4"
-      ],
-      "Article 14(5)(b)": [
-        "IRO-02.4"
-      ],
-      "Article 14(8)": [
-        "IRO-10"
-      ],
-      "Article 15(1)": [
-        "IRO-10"
-      ],
-      "Article 15(2)": [
-        "IRO-10"
-      ],
-      "Article 14(1)": [
-        "IRO-10.2",
-        "TDA-02.11"
-      ],
-      "Article 14(3)": [
-        "IRO-10.2"
-      ],
-      "Article 14(4)(a)": [
-        "IRO-10.2"
-      ],
-      "Article 14(4)(b)": [
-        "IRO-10.2"
-      ],
-      "Article 14(4)(c)": [
-        "IRO-10.2"
-      ],
-      "Article 14(4)(i)": [
-        "IRO-10.2"
-      ],
-      "Article 14(4)(i)(ii)": [
-        "IRO-10.2"
-      ],
-      "Article 14(4)(i)(iii)": [
-        "IRO-10.2"
-      ],
-      "Article 13(2)": [
-        "IAO-01",
-        "IAO-01.1",
-        "IAO-02",
-        "IAO-02.1",
-        "IAO-02.2",
-        "IAO-02.4",
-        "IAO-03",
-        "IAO-05",
-        "IAO-06",
-        "IAO-07"
-      ],
-      "Article 13(3)": [
-        "IAO-02.2",
-        "IAO-03"
-      ],
-      "Article 13(7)": [
-        "IAO-03",
-        "TDA-04",
-        "TDA-04.1"
-      ],
-      "Article 19(2)(b)": [
-        "IAO-03"
-      ],
-      "Article 31(1)": [
-        "IAO-03",
-        "TDA-04",
-        "TDA-04.1"
-      ],
-      "Article 31(2)": [
-        "IAO-03"
-      ],
-      "Article 31(3)": [
-        "IAO-03"
-      ],
-      "Article 24(1)": [
-        "IAO-03.2",
-        "TDA-01.1",
-        "TDA-02",
+        "CPL-04",
         "TDA-06"
       ],
-      "Article 13(6)": [
+      "Article 32(5)": [
+        "CPL-04"
+      ],
+      "Article 12(3)": [
+        "CPL-04.1"
+      ],
+      "Article 13(12)": [
+        "CPL-04.1"
+      ],
+      "Article 19(2)(a)": [
+        "CPL-04.1"
+      ],
+      "Article 32(1)": [
+        "CPL-04.1",
         "IAO-04",
-        "VPM-02"
+        "IAO-05"
+      ],
+      "Article 32(1)(a)": [
+        "CPL-04.1"
+      ],
+      "Article 32(1)(b)": [
+        "CPL-04.1"
+      ],
+      "Article 32(1)(c)": [
+        "CPL-04.1"
+      ],
+      "Article 32(1)(d)": [
+        "CPL-04.1"
+      ],
+      "Article 32(3)": [
+        "CPL-04.1"
+      ],
+      "Article 32(3)(a)": [
+        "CPL-04.1"
+      ],
+      "Article 32(3)(b)": [
+        "CPL-04.1"
+      ],
+      "Article 32(6)": [
+        "CPL-04.1"
+      ],
+      "Article 18(1)": [
+        "CPL-04.2"
+      ],
+      "Article 12(1)(c)": [
+        "CPL-04.4"
+      ],
+      "Article 20(5)": [
+        "CPL-04.4"
+      ],
+      "Article 53": [
+        "CPL-19.2"
+      ],
+      "Article 13(17)": [
+        "CPL-22",
+        "TDA-06"
+      ],
+      "Article 13(23)": [
+        "CPL-27",
+        "TDA-06"
+      ],
+      "Article 19(8)": [
+        "CPL-27"
+      ],
+      "Article 20(6)": [
+        "CPL-27"
+      ],
+      "Article 13(13)": [
+        "DCH-27",
+        "TDA-06"
+      ],
+      "Article 19(6)": [
+        "DCH-27",
+        "TDA-06"
+      ],
+      "Article 23(2)": [
+        "DCH-27"
+      ],
+      "Article 14(5)": [
+        "IRO-04"
+      ],
+      "Article 14(5)(a)": [
+        "IRO-04"
+      ],
+      "Article 14(5)(b)": [
+        "IRO-04"
+      ],
+      "Article 14(8)": [
+        "IRO-16"
+      ],
+      "Article 15(1)": [
+        "IRO-16"
+      ],
+      "Article 15(2)": [
+        "IRO-16"
+      ],
+      "Article 14(1)": [
+        "IRO-16.2",
+        "TDA-07"
+      ],
+      "Article 14(3)": [
+        "IRO-16.2"
+      ],
+      "Article 14(4)(a)": [
+        "IRO-16.2"
+      ],
+      "Article 14(4)(b)": [
+        "IRO-16.2"
+      ],
+      "Article 14(4)(c)": [
+        "IRO-16.2"
+      ],
+      "Article 14(4)(i)": [
+        "IRO-16.2"
+      ],
+      "Article 14(4)(i)(ii)": [
+        "IRO-16.2"
+      ],
+      "Article 14(4)(i)(iii)": [
+        "IRO-16.2"
+      ],
+      "Article 13(2)": [
+        "IAO-02",
+        "IAO-03",
+        "IAO-04",
+        "IAO-05",
+        "IAO-06",
+        "IAO-09",
+        "IAO-11",
+        "IAO-12",
+        "IAO-13",
+        "IAO-14"
+      ],
+      "Article 13(3)": [
+        "IAO-05",
+        "IAO-09"
+      ],
+      "Article 24(1)": [
+        "IAO-08",
+        "TDA-05",
+        "TDA-06",
+        "TDA-11.1"
+      ],
+      "Article 13(7)": [
+        "IAO-09",
+        "TDA-08.2",
+        "TDA-08.3"
+      ],
+      "Article 19(2)(b)": [
+        "IAO-09"
+      ],
+      "Article 31(1)": [
+        "IAO-09",
+        "TDA-08.2",
+        "TDA-08.3"
+      ],
+      "Article 31(2)": [
+        "IAO-09"
+      ],
+      "Article 31(3)": [
+        "IAO-09"
+      ],
+      "Article 13(6)": [
+        "IAO-10",
+        "VPM-06"
       ],
       "Article 13(21)": [
-        "IAO-04",
-        "TDA-01.1"
+        "IAO-10",
+        "TDA-06"
       ],
       "Article 13(14)": [
-        "PRM-04",
         "PRM-07",
-        "TDA-01.1"
+        "PRM-08",
+        "TDA-06"
       ],
       "Article 13(5)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 13(8)": [
-        "TDA-01.1",
-        "TDA-02.9"
+        "TDA-06",
+        "TDA-06.3"
       ],
       "Article 13(10)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 13(11)": [
-        "TDA-01.1",
-        "TDA-02.9"
+        "TDA-06",
+        "TDA-06.3"
       ],
       "Article 13(15)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 13(16)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 13(18)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 13(19)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 13(20)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 13(22)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 19(1)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 19(2)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 19(2)(c)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 19(2)(d)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 19(3)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 19(4)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 19(5)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 20(1)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 20(2)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 20(2)(a)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 20(2)(b)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 20(3)": [
-        "TDA-01.1",
-        "TDA-02.11"
+        "TDA-06",
+        "TDA-07"
       ],
       "Article 20(4)": [
-        "TDA-01.1",
-        "TDA-02.11"
+        "TDA-06",
+        "TDA-07"
       ],
       "Article 30(1)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 30(2)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 30(3)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 30(4)": [
-        "TDA-01.1"
+        "TDA-06"
       ],
       "Article 13(9)": [
-        "TDA-02.9"
+        "TDA-06.3"
       ],
       "Article 14(2)(a)": [
-        "TDA-02.11"
+        "TDA-07"
       ],
       "Article 14(2)(b)": [
-        "TDA-02.11"
+        "TDA-07"
       ],
       "Article 14(2)(c)": [
-        "TDA-02.11"
+        "TDA-07"
       ],
       "Article 14(2)(i)": [
-        "TDA-02.11"
+        "TDA-07"
       ],
       "Article 14(2)(i)(ii)": [
-        "TDA-02.11"
+        "TDA-07"
       ],
       "Article 14(2)(i)(iii)": [
-        "TDA-02.11"
+        "TDA-07"
       ],
       "Article 13(4)": [
-        "TDA-04"
+        "TDA-08.3"
       ]
     }
   }

@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-GOV-22",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Contacts With Authorities",
+  "artifact_description": "Documented evidence of established points of contact with regulatory authorities and law enforcement (e.g., contact roster, notification procedures).",
+  "scf_controls": [
+    "CPL-19",
+    "GOV-15",
+    "IRO-15"
+  ],
+  "cmmc_mapping": ""
+}

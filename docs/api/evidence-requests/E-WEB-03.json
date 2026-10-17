@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-WEB-03",
+  "area": "Website Security",
+  "artifact_name": "Website Change Detection & Unauthorized Code Monitoring",
+  "artifact_description": "Documented evidence of website change detection and monitoring for unauthorized code on web pages.",
+  "scf_controls": [
+    "WEB-05",
+    "WEB-12"
+  ],
+  "cmmc_mapping": ""
+}

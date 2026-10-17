@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAC-01",
+  "area": "Identity & Access Management",
+  "artifact_name": "Access Permission Review",
+  "artifact_description": "Documented evidence of periodic access permission reviews.",
+  "scf_controls": [
+    "IAC-12",
+    "IAC-12.1"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5"
+}

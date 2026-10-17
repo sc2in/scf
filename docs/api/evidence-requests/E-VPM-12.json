@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-VPM-12",
+  "area": "Vulnerability & Patch Management",
+  "artifact_name": "Known Exploited Vulnerabilities (KEV) Mitigation Records",
+  "artifact_description": "Documented evidence of Known Exploited Vulnerabilities (KEV) identification and mitigation status.",
+  "scf_controls": [
+    "VPM-06.3"
+  ],
+  "cmmc_mapping": ""
+}

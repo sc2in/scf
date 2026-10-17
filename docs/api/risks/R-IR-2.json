@@ -1,7 +1,7 @@
 {
   "risk_id": "R-IR-2",
   "grouping": "Incident Response",
-  "name": "Improper response to incidents",
-  "description": "The inability to appropriately respond to incidents in a timely manner.",
+  "name": "Delayed Containment / Increased Incident Impact",
+  "description": "An incident is not contained, eradicated, communicated or escalated in a timely and appropriate manner, allowing the scope, duration, cost and/or harm of the incident to increase.",
   "nist_csf_function": "Respond"
 }

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "MON-19",
-  "total": 3,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "MON-19",
       "ao_id": "MON-19_A01",
-      "objective": "Technology Assets, Applications and/or Services (TAAS) that require hardware-enforced, write-once media (e.g., Write Once Read Many (WORM) technologies) are identified.",
+      "objective": "open-source information and/or information sites to be monitored for evidence of unauthorized disclosure of organizational information is/are defined.",
       "pptdf": "Process",
-      "origin": "",
+      "origin": "53A_R5_AU-13_ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,19 +15,49 @@
     {
       "scf_control_id": "MON-19",
       "ao_id": "MON-19_A02",
-      "objective": "hardware-enforced, write-once media technologies are identified.",
+      "objective": "the frequency with which open-source information and/or information sites are monitored for evidence of unauthorized disclosure of organizational information is defined.",
       "pptdf": "Process",
-      "origin": "",
+      "origin": "53A_R5_AU-13_ODP[02]\n53A_R5_AU-13a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-19",
+      "ao_id": "MON-19_A03",
+      "objective": "personnel or roles to be notified if an information disclosure is discovered is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-13_ODP[03]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "MON-19",
-      "ao_id": "MON-19_A03",
-      "objective": "hardware-enforced, write-once media technologies are implemented, where required.",
+      "ao_id": "MON-19_A04",
+      "objective": "additional actions to be taken if an information disclosure is discovered are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-13_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-19",
+      "ao_id": "MON-19_A05",
+      "objective": "personnel or roles are notified if an information disclosure is discovered.",
       "pptdf": "Technology",
-      "origin": "",
+      "origin": "53A_R5_AU-13b.01",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-19",
+      "ao_id": "MON-19_A06",
+      "objective": "additional actions are taken if an information disclosure is discovered.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-13b.02",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

@@ -5,7 +5,7 @@
     {
       "scf_control_id": "WEB-11",
       "ao_id": "WEB-11_A01",
-      "objective": "output encoding is performed on all content produced by a web application to reduce the likelihood of cross-site scripting and other injection attacks.",
+      "objective": "web applications implement Content-Security-Policy, HSTS and X-Frame-Options response headers to protect both the web application and its users.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

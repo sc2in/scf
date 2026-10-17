@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-12.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-12.1",
+      "ao_id": "DCH-12.1_A01",
+      "objective": "the technologies used to store sensitive / regulated data are current, supported and capable of rendering that data human unreadable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-12.1",
+      "ao_id": "DCH-12.1_A02",
+      "objective": "secure baseline configurations render sensitive / regulated data human unreadable anywhere that data is stored.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

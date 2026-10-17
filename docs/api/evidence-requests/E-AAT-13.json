@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-AAT-13",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "AI Human Oversight Records",
+  "artifact_description": "Documented evidence of human oversight measures for deployed Artificial Intelligence and Autonomous Technologies (AAT), including oversight roles and escalation.",
+  "scf_controls": [
+    "AAT-16",
+    "AAT-17",
+    "AAT-35",
+    "AAT-35.1",
+    "AAT-35.2",
+    "AAT-36.12"
+  ],
+  "cmmc_mapping": ""
+}

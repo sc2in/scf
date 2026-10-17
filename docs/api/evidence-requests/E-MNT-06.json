@@ -1,0 +1,18 @@
+{
+  "erl_id": "E-MNT-06",
+  "area": "Maintenance",
+  "artifact_name": "Remote Maintenance Records",
+  "artifact_description": "Documented evidence of remote maintenance sessions, including pre-approval, notification, cryptographic protection, disconnect verification and audit records.",
+  "scf_controls": [
+    "MNT-12",
+    "MNT-12.1",
+    "MNT-12.2",
+    "MNT-12.3",
+    "MNT-12.4",
+    "MNT-12.5",
+    "MNT-13",
+    "MNT-17",
+    "MNT-18"
+  ],
+  "cmmc_mapping": ""
+}

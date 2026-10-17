@@ -1,13 +1,13 @@
 {
   "scf_control_id": "MON-10",
-  "total": 2,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "MON-10",
       "ao_id": "MON-10_A01",
-      "objective": "a time period to retain audit records that is consistent with the records retention policy is defined.",
+      "objective": "event log and security-relevant telemetry retention requirements are defined.",
       "pptdf": "Process",
-      "origin": "171A_3.3.1[e]\n53A_R5_AU-11_ODP",
+      "origin": "53A_R5_AU-04_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,10 +15,20 @@
     {
       "scf_control_id": "MON-10",
       "ao_id": "MON-10_A02",
-      "objective": "audit records are retained for a time period consistent with the records retention policy.",
-      "pptdf": "Data",
-      "origin": "171A_3.3.1[f]\n171A_R3_A.03.03.03.b\n53A_R5_AU-11",
+      "objective": "event log and security-relevant telemetry storage capacity is allocated to accommodate the defined retention requirements.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-04",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-10",
+      "ao_id": "MON-10_A03",
+      "objective": "event log and security-relevant telemetry storage utilization is proactively monitored and managed to reduce the likelihood of allocated capacity being exceeded.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

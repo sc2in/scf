@@ -1,11 +1,11 @@
 {
   "scf_control_id": "QTS-04.1",
-  "total": 7,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-04.1",
       "ao_id": "QTS-04.1_A01",
-      "objective": "a current inventory of cryptographic assets is maintained.",
+      "objective": "each Post-Quantum Cryptography (PQC) deviation is governed through a formal cryptographic exception register.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "QTS-04.1",
       "ao_id": "QTS-04.1_A02",
-      "objective": "the inventory includes algorithms (asymmetric and symmetric).",
+      "objective": "the exception register contains the asset and/or process owner(s).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,7 +25,7 @@
     {
       "scf_control_id": "QTS-04.1",
       "ao_id": "QTS-04.1_A03",
-      "objective": "the inventory includes key lengths.",
+      "objective": "the exception register contains compensating control(s).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -35,7 +35,7 @@
     {
       "scf_control_id": "QTS-04.1",
       "ao_id": "QTS-04.1_A04",
-      "objective": "the inventory includes libraries.",
+      "objective": "the exception register contains the planned remediation date.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -45,31 +45,11 @@
     {
       "scf_control_id": "QTS-04.1",
       "ao_id": "QTS-04.1_A05",
-      "objective": "the inventory includes protocols.",
+      "objective": "the exception register contains the re-evaluation date.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.1",
-      "ao_id": "QTS-04.1_A06",
-      "objective": "the inventory includes associated Technology Assets, Applications and/or Services (TAAS) utilizing the cryptography.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.1",
-      "ao_id": "QTS-04.1_A07",
-      "objective": "the inventory includes Federal Information Processing Standards (FIPS) validation status from the Cryptographic Module Validation Program (CMVP), including certificate number, if applicable.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "no more than 12 months after the exception was approved or last re-evaluated",
       "org_defined_parameters": ""
     }
   ]

@@ -1,25 +1,45 @@
 {
   "scf_control_id": "DCH-18.1",
-  "total": 2,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "DCH-18.1",
       "ao_id": "DCH-18.1_A01",
-      "objective": "elements of Personal Data (PD) being processed in the information life cycle are defined.",
+      "objective": "media containing sensitive and/or regulated data to be sanitized is defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SI-12(01)_ODP",
-      "assessment_rigor": "1",
+      "origin": "53A_R5_MP-06_ODP[01]",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "DCH-18.1",
       "ao_id": "DCH-18.1_A02",
-      "objective": "Personal Data (PD) being processed in the information life cycle is limited to organization-defined elements of Personal Data (PD).",
+      "objective": "types of sensitive and/or regulated data to be sanitized are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SI-12(01)",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-18.1",
+      "ao_id": "DCH-18.1_A03",
+      "objective": "sanitization techniques and procedures for sensitive and/or regulated data are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "techniques and procedures IAW NIST SP 800-88 Section 4: Reuse and Disposal of Storage Media and Hardware",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-18.1",
+      "ao_id": "DCH-18.1_A04",
+      "objective": "sanitization mechanisms with strength and integrity commensurate with the security category or classification of the information are employed for the sanitization of sensitive and/or regulated data.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "sanitization methods consistent with NIST media sanitization guidance for the applicable media type and data classification",
       "org_defined_parameters": ""
     }
   ]

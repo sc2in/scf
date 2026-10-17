@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-PES-14",
+  "area": "Physical Security",
+  "artifact_name": "Delivery & Removal Records",
+  "artifact_description": "Documented evidence of controls over the delivery and removal of technology assets and media to / from facilities.",
+  "scf_controls": [
+    "AST-24",
+    "PES-15"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-19.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-19.2",
+      "ao_id": "TDA-19.2_A01",
+      "objective": "requisite skillsets for developers for Secure Software Development Practices (SSDP) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-19.2",
+      "ao_id": "TDA-19.2_A02",
+      "objective": "developers of Technology Assets, Applications and/or Services (TAAS) who lack the requisite skillset receive suitable training on Secure Software Development Practices (SSDP) are trained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

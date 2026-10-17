@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "CPL-20",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-20",
+      "ao_id": "CPL-20_A01",
+      "objective": "a formal process exists to intake and document access requests from host governments for unrestricted and unmonitored access to the organization's Technology Assets, Applications, Services and/or Data (TAASD) that could potentially violate other applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-20",
+      "ao_id": "CPL-20_A02",
+      "objective": "executive leadership, along with legal counsel, formally identifies risks associated with non-compliance, including at a minimum: fines and operational impacts.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-20",
+      "ao_id": "CPL-20_A03",
+      "objective": "executive leadership, along with legal counsel, formally identifies primary risks associated with compliance, including at a minimum: loss of confidentiality and/or integrity of the organization's data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-20",
+      "ao_id": "CPL-20_A04",
+      "objective": "executive leadership, along with legal counsel, formally identifies secondary risks associated with compliance, including at a minimum: non-compliance with other laws, regulations and contractual agreements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-20",
+      "ao_id": "CPL-20_A05",
+      "objective": "executive leadership, along with legal counsel, formally identifies tertiary risks associated with compliance, including at a minimum: human rights abuses, theft of intellectual property and espionage.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-20",
+      "ao_id": "CPL-20_A06",
+      "objective": "executive leadership, along with legal counsel, formally adopts an action plan to respond to host government requests for unrestricted and unmonitored access to the organization's Technology Assets, Applications, Services and/or Data (TAASD) that could potentially violate other applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -5,8 +5,8 @@
     {
       "scf_control_id": "EMB-06",
       "ao_id": "EMB-06_A01",
-      "objective": "embedded devices are protected by preventing the unauthorized installation and execution of software.",
-      "pptdf": "Technology",
+      "objective": "security, compliance and resilience risks associated with Operational Technology (OT) are documented and managed.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

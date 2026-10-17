@@ -1,13 +1,13 @@
 {
   "scf_control_id": "END-11",
-  "total": 6,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "END-11",
       "ao_id": "END-11_A01",
-      "objective": "system components to be employed with minimal functionality and information storage are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SC-25_ODP",
+      "objective": "software, firmware and/or information requiring integrity verification tools to be employed to detect unauthorized changes is defined.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07_ODP[01]\n53A_R5_SI-07_ODP[02]\n53A_R5_SI-07_ODP[03]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "END-11",
       "ao_id": "END-11_A02",
-      "objective": "minimal functionality for system components is employed.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_SC-25[01]",
+      "objective": "actions to be taken when unauthorized changes to software, firmware and/or information are detected are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07_ODP[04]\n53A_R5_SI-07_ODP[05]\n53A_R5_SI-07_ODP[06]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "END-11",
       "ao_id": "END-11_A03",
-      "objective": "minimal information storage on system components is allocated.",
+      "objective": "integrity verification tools are employed to detect unauthorized changes to software, firmware and/or information.",
       "pptdf": "Technology",
-      "origin": "53A_R5_SC-25[02]",
+      "origin": "53A_R5_SI-07a.[01]\n53A_R5_SI-07a.[02]\n53A_R5_SI-07a.[03]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,30 +35,10 @@
     {
       "scf_control_id": "END-11",
       "ao_id": "END-11_A04",
-      "objective": "physical isolation techniques are defined.",
-      "pptdf": "Process",
-      "origin": "172A_3.13.4e_ODP[1]\n172A_3.13.4e_ODP[2]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "END-11",
-      "ao_id": "END-11_A05",
-      "objective": "logical isolation techniques are defined.",
-      "pptdf": "Process",
-      "origin": "172A_3.13.4e_ODP[1]\n172A_3.13.4e_ODP[3]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "END-11",
-      "ao_id": "END-11_A06",
-      "objective": "physical isolation techniques and/or logical isolation techniques are employed in organizational systems and system components.",
+      "objective": "actions are taken when unauthorized changes to the software, firmware and/or information are detected.",
       "pptdf": "Technology",
-      "origin": "172A_3.13.4e[a]",
-      "assessment_rigor": "3",
+      "origin": "53A_R5_SI-07b.[01]\n53A_R5_SI-07b.[02]\n53A_R5_SI-07b.[03]",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

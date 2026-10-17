@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-CFG-01",
+  "area": "Asset Management",
+  "artifact_name": "Configuration Review & Unauthorized Change Response Records",
+  "artifact_description": "Documented evidence of periodic configuration reviews and responses to detected unauthorized configuration changes (e.g., integrity assurance alerts and remediation).",
+  "scf_controls": [
+    "CFG-08",
+    "CFG-08.1",
+    "CFG-08.2"
+  ],
+  "cmmc_mapping": ""
+}

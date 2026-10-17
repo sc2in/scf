@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.13",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Embedded Technology Policy",
+  "artifact_description": "Documented evidence of a embedded technology policy.",
+  "scf_controls": [
+    "EMB-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

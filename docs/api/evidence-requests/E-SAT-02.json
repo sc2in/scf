@@ -4,11 +4,9 @@
   "artifact_name": "Initial User Training",
   "artifact_description": "Documented evidence of initial user training for security, compliance and/or resilience topics.",
   "scf_controls": [
-    "SAT-01",
-    "SAT-02",
-    "SAT-02.2",
-    "SAT-04",
-    "HRS-05.7"
+    "HRS-08.1",
+    "HRS-08.2",
+    "SAT-04"
   ],
   "cmmc_mapping": ""
 }

@@ -4,8 +4,8 @@
   "artifact_name": "Network Diagram - Low Level",
   "artifact_description": "Documented evidence of a low-level network diagram that provides a detailed, logical depiction of assets on the network(s).",
   "scf_controls": [
-    "AST-04",
-    "NET-02"
+    "AST-17",
+    "NET-06"
   ],
   "cmmc_mapping": ""
 }

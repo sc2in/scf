@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-14.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-14.3",
+      "ao_id": "AAT-14.3_A01",
+      "objective": "the targeted application scope of the proposed use and operation of Artificial Intelligence (AI) and Autonomous Technologies (AAT) is defined and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

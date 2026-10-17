@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-IAC-15",
+  "area": "Identity & Access Management",
+  "artifact_name": "Control Assurance Automation (CAA) Identity & Credential Management",
+  "artifact_description": "Documented evidence of the inventory, ownership, least-privilege (read-only) scope and credential lifecycle management for Control Assurance Automation (CAA) automated identities (service accounts, API keys, OAuth grants).",
+  "scf_controls": [
+    "IAC-50",
+    "IAC-51",
+    "IAC-52",
+    "IAC-53"
+  ],
+  "cmmc_mapping": ""
+}

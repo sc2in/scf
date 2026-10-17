@@ -1,11 +1,21 @@
 {
   "scf_control_id": "AAT-23",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-23",
       "ao_id": "AAT-23_A01",
-      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) output is marked in a machine-readable format so it is detectable as artificially generated or manipulated.",
+      "objective": "the knowledge limits of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-23",
+      "ao_id": "AAT-23_A02",
+      "objective": "stakeholders are provided the knowledge limits of Artificial Intelligence (AI) and Autonomous Technologies (AAT) to assist in decision making.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

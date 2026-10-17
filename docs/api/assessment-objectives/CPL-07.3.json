@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-07.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-07.3",
+      "ao_id": "CPL-07.3_A01",
+      "objective": "audit-related priorities are formally defined with input from operational risk and compliance partners.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-07.3",
+      "ao_id": "CPL-07.3_A02",
+      "objective": "audits are planned in a documented manner that minimizes the impact of audit-related activities on business operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     {
       "scf_control_id": "EMB-11",
       "ao_id": "EMB-11_A01",
-      "objective": "configurations enforce the security of Message Queuing Telemetry Transport (MQTT) traffic.",
+      "objective": "embedded technologies are configured to be resilient to data network and power outages.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-35.7",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-35.7",
+      "ao_id": "AAT-35.7_A01",
+      "objective": "methods to identify the employees, including workers' representatives, who are to be informed of Artificial Intelligence (AI) and Autonomous Technologies (AAT) deployments are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-35.7",
+      "ao_id": "AAT-35.7_A02",
+      "objective": "the employees, including workers' representatives, who are to be informed of Artificial Intelligence (AI) and Autonomous Technologies (AAT) deployments are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-35.7",
+      "ao_id": "AAT-35.7_A03",
+      "objective": "employees, including workers' representatives, are informed about Artificial Intelligence (AI) and Autonomous Technologies (AAT) deployments prior to the use of the AAT in a production environment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no later than the notice period required by applicable labor law or collective agreement",
+      "org_defined_parameters": ""
+    }
+  ]
+}

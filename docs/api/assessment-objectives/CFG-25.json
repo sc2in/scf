@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CFG-25",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-25",
+      "ao_id": "CFG-25_A01",
+      "objective": "the individuals or roles responsible for operating each control evidenced by Control Assurance Automation (CAA) are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-25",
+      "ao_id": "CFG-25_A02",
+      "objective": "the individuals or roles authorized to modify Control Assurance Automation (CAA) collection, transformation or scoring logic are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-25",
+      "ao_id": "CFG-25_A03",
+      "objective": "access controls prevent an individual responsible for operating a control from modifying the Control Assurance Automation (CAA) collection, transformation or scoring logic used to evidence that control without independent approval (e.g., enforced peer review, protected branches or a separate deployment role).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-25",
+      "ao_id": "CFG-25_A04",
+      "objective": "separation of duties between control operation and Control Assurance Automation (CAA) logic modification is reviewed at a defined frequency and when personnel or role assignments change.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually, and upon significant change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-25",
+      "ao_id": "CFG-25_A05",
+      "objective": "where separation of duties cannot be achieved, compensating controls (e.g., independent review of all Control Assurance Automation (CAA) logic changes) are documented and approved.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

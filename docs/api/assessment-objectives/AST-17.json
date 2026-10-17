@@ -1,14 +1,84 @@
 {
   "scf_control_id": "AST-17",
-  "total": 1,
+  "total": 8,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-17",
       "ao_id": "AST-17_A01",
-      "objective": "Supply Chain Risk Management (SCRM) practices require the removal and prohibition of certain technology services and/or equipment that are designated as supply chain threats by a statutory or regulatory body.",
+      "objective": "sensitive / regulated data flows are identified and documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-17",
+      "ao_id": "AST-17_A02",
+      "objective": "a Data Flow Diagram (DFD) exists for each type of sensitive / regulated data that is stored, processed and/or transmitted.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-17",
+      "ao_id": "AST-17_A03",
+      "objective": "a process exists to review DFDs for accuracy per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-17",
+      "ao_id": "AST-17_A04",
+      "objective": "a process exists to update DFDs upon technology or business practice changes that affect where sensitive / regulated data is stored, processed and/or transmitted.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-17",
+      "ao_id": "AST-17_A05",
+      "objective": "one or more high-level network diagrams exist as a schematic to identify the logical placement of systems, applications and services at a conceptual level.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-17",
+      "ao_id": "AST-17_A06",
+      "objective": "one or more low-level network diagrams exist as a schematic to identify the detailed logical and physical placement of systems, applications and services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-17",
+      "ao_id": "AST-17_A07",
+      "objective": "a process exists to review network diagrams for accuracy per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-17",
+      "ao_id": "AST-17_A08",
+      "objective": "a process exists to update network diagrams upon changes to technologies.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

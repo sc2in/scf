@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-OT-1",
+  "grouping": "Operational Technology (OT)",
+  "name": "OT Safety / Process Availability Failure",
+  "description": "Failure or compromise of Operational Technology (OT) or Industrial Control System (ICS) functions causes:\n(1) Loss or degradation of safety functions;\n(2) Physical-process availability; and/or\n(3)  Equipment integrity / unsafe operating conditions.",
+  "nist_csf_function": "Protect"
+}

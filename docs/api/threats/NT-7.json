@@ -2,5 +2,5 @@
   "threat_id": "NT-7",
   "grouping": "Natural Threat",
   "name": "Pandemic (Disease) Outbreaks",
-  "description": "Due to the wide variety of possible scenarios, consideration should be given both to the magnitude of what can reasonably happen during a pandemic outbreak (e.g., COVID-19, Influenza, SARS, Ebola, etc.) and what actions the business can be taken to help lessen the impact of a pandemic on operations."
+  "description": "A widespread infectious disease event that can reduce workforce availability, disrupt suppliers and essential services, restrict facility access and degrade the organization's ability to operate, monitor or recover controls."
 }

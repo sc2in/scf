@@ -4,7 +4,8 @@
   "artifact_name": "Table Top Exercises",
   "artifact_description": "Documented evidence of \"table top\" exercises that test incident response practices.",
   "scf_controls": [
-    "IRO-05"
+    "IRO-09",
+    "IRO-10.1"
   ],
   "cmmc_mapping": ""
 }

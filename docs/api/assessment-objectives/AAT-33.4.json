@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-33.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-33.4",
+      "ao_id": "AAT-33.4_A01",
+      "objective": "pertinent information from Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related incidents and/or errors is communicated to relevant stakeholders, including affected communities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "within the period required by the applicable statutory, regulatory or contractual notification obligation, and no later than the shortest applicable deadline",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,12 +1,10 @@
 {
   "erl_id": "E-GOV-15",
-  "area": "Cybersecurity & Data Protection Management",
-  "artifact_name": "Material Risks",
-  "artifact_description": "Documented evidence of specific risks that are categorized as material risks.",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Materiality Threshold Definition",
+  "artifact_description": "Documented evidence of criteria to define the organization's materiality threshold.",
   "scf_controls": [
-    "GOV-16.1",
-    "RSK-13",
-    "RSK-13.2"
+    "GOV-07"
   ],
   "cmmc_mapping": ""
 }

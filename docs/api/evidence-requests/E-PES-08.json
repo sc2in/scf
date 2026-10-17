@@ -4,7 +4,7 @@
   "artifact_name": "Physical Access Control Device Inventories",
   "artifact_description": "Documented evidence of inventory records of physical access control devices.",
   "scf_controls": [
-    "PES-03"
+    "PES-08.1"
   ],
   "cmmc_mapping": ""
 }

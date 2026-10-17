@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-12.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-12.2",
+      "ao_id": "TDA-12.2_A01",
+      "objective": "personnel and/or role(s) authorized to receive security-relevant error messages are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-12.2",
+      "ao_id": "TDA-12.2_A02",
+      "objective": "access to error messages are restricted to authorized personnel and/or role(s).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

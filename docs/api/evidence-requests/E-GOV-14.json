@@ -1,10 +1,12 @@
 {
   "erl_id": "E-GOV-14",
-  "area": "Cybersecurity & Data Protection Management",
-  "artifact_name": "Materiality Threshold Definition",
-  "artifact_description": "Documented evidence of criteria to define the organization's materiality threshold.",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Measures of Performance (Metrics)",
+  "artifact_description": "Documented evidence of formal measure of performance that are used to track the health of the cybersecurity & data protection program (e.g., metrics, KPIs, KRIs).",
   "scf_controls": [
-    "GOV-16"
+    "GOV-12",
+    "GOV-12.1",
+    "GOV-12.2"
   ],
   "cmmc_mapping": ""
 }

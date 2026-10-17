@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-OR-1",
+  "grouping": "Operational Resilience",
+  "name": "Recovery Failure / Unacceptable Recovery Delay",
+  "description": "The organization cannot restore critical services, data, facilities or capabilities within required recovery objectives after a disruption.",
+  "nist_csf_function": "Recover"
+}

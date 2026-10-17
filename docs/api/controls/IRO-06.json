@@ -1,330 +1,923 @@
 {
   "control_id": "IRO-06",
-  "title": "Incident Response Testing",
+  "title": "Incident Handling",
   "family": "IRO",
-  "description": "Mechanisms exist to formally test incident response capabilities through realistic exercises to determine the operational effectiveness of those capabilities.",
-  "scf_question": "Does the organization formally test incident response capabilities through realistic exercises to determine the operational effectiveness of those capabilities?",
-  "relative_weight": 9,
+  "description": "Mechanisms exist to cover:\n(1) Preparation;\n(2) Automated event detection or manual incident report intake;\n(3) Analysis;\n(4) Containment;\n(5) Eradication; and\n(6) Recovery.",
+  "scf_question": "Does the organization cover:\n (1) Preparation;\n (2) Automated event detection or manual incident report intake;\n (3) Analysis;\n (4) Containment;\n (5) Eradication; and\n (6) Recovery?",
+  "relative_weight": 10,
   "conformity_cadence": "Annual",
   "evidence_requests": [
-    "E-IRO-04"
+    "E-IRO-01"
   ],
   "pptdf": "Process",
   "nist_csf_function": "Respond",
   "scrm_focus": {
-    "strategic": false,
+    "strategic": true,
     "operational": true,
-    "tactical": true
+    "tactical": false
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
-    "2": "Incident Response (IRO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Incident response-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Incident response management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ Incident responders are proficient on their specific IRP role(s) and responsibilities through recurring training events (e.g., annual rock drill).\n▪ On at least an annual basis, IT and/or cybersecurity personnel conduct tabletop exercises to validate disaster recovery and contingency plans, in conjunction with stakeholders and any required vendors.",
-    "3": "Incident Response (IRO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ An incident response team, or similar function, is appropriately staffed and supported to implement and maintain IRO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of incident response operations (e.g., incident management software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to formally test incident response capabilities through realistic exercises to determine the operational effectiveness of those capabilities.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Incident Response (IRO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Incident response-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Incident response management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ IT and/or cybersecurity personnel facilitate prompt response to suspected or confirmed security incidents, including timely notification to affected stakeholders.\n▪ IT and/or cybersecurity personnel operate facilitate basic forensic investigations in the event of a suspected or confirmed security incident.\n▪ The IRP contains eDiscovery processes to support Federal Rules of Civil Procedure (FRCP) requirements for eDiscovery practices.\n▪ IT personnel support incident response operations by provisioning and deprovisioning incident responders with temporary emergency accounts.",
+    "3": "Incident Response (IRO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ An incident response team, or similar function, is appropriately staffed and supported to implement and maintain IRO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of incident response operations (e.g., incident management software).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to cover:\n(1) Preparation;\n(2) Automated event detection or manual incident report intake;\n(3) Analysis;\n(4) Containment;\n(5) Eradication; and\n(6) Recovery.",
     "4": "Incident Response (IRO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
   "profiles": [
     "SCRMS",
+    "CORE ESP Level 1 Foundational",
     "CORE ESP Level 2 Critical Infrastructure",
-    "CORE ESP Level 3 Advanced Threats"
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)",
+    "CORE MSO Level 1 Initial Public Draft",
+    "CORE MSO Level 2 Initial Public Draft",
+    "CORE MSO Level 3 Initial Public Draft"
   ],
   "possible_solutions": {
-    "micro_small": "∙ \"Table Top\" incident response exercises (rock drills)",
-    "small": "∙ \"Table Top\" incident response exercises (rock drills)",
-    "medium": "∙ \"Table Top\" incident response exercises (rock drills)\n∙ \"Red team vs blue team\" exercises\n∙ EICAR test file antimalware detection and response exercises",
-    "large": "∙ \"Table Top\" incident response exercises (rock drills)\n∙ \"Red team vs blue team\" exercises\n∙ EICAR test file antimalware detection and response exercises",
-    "enterprise": "∙ \"Table Top\" incident response exercises (rock drills)\n∙ \"Red team vs blue team\" exercises\n∙ EICAR test file antimalware detection and response exercises"
+    "micro_small": "∙ Incident Response Plan (IRP)",
+    "small": "∙ Incident Response Plan (IRP)",
+    "medium": "∙ Integrated Incident Response Program (IIRP)\n∙ ITIL 4 (https://axelos.com) ∙ Incident and problem management",
+    "large": "∙ Integrated Incident Response Program (IIRP)\n∙ ITIL 4 (https://axelos.com) ∙ Incident and problem management",
+    "enterprise": "∙ Integrated Incident Response Program (IIRP)\n∙ ITIL 4 (https://axelos.com) ∙ Incident and problem management"
   },
   "risks": [
-    "R-AC-1",
-    "R-AC-2",
-    "R-AC-3",
-    "R-AC-4",
-    "R-AM-1",
-    "R-AM-2",
     "R-BC-1",
     "R-BC-2",
     "R-BC-3",
     "R-BC-4",
     "R-BC-5",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
     "R-EX-4",
     "R-EX-5",
     "R-EX-6",
     "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-3",
     "R-GV-4",
-    "R-GV-5",
-    "R-GV-6",
-    "R-GV-7",
+    "R-GV-9",
     "R-IR-1",
     "R-IR-2",
     "R-IR-3",
     "R-IR-4",
+    "R-OR-1",
     "R-SA-1",
     "R-SA-2",
-    "R-SC-1",
-    "R-SC-2",
-    "R-SC-3",
-    "R-SC-4",
-    "R-SC-5",
-    "R-SC-6"
+    "R-OT-1",
+    "R-IP-2",
+    "R-IP-3",
+    "R-IP-4"
   ],
   "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
     "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
     "MT-1",
     "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
     "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
     "MT-11",
     "MT-12",
-    "MT-13",
     "MT-14",
     "MT-15",
-    "MT-24",
+    "MT-16",
+    "MT-18",
     "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-27"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Unlikely",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Unlikely",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Possible",
+    "R-BC-2": "Possible",
+    "R-BC-3": "Possible",
+    "R-BC-4": "Possible",
+    "R-BC-5": "Possible",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Possible",
+    "R-EX-5": "Possible",
+    "R-EX-6": "Possible",
+    "R-EX-7": "Possible",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Possible",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Possible",
+    "R-GV-10": "Unlikely",
+    "R-IR-1": "Possible",
+    "R-IR-2": "Likely",
+    "R-IR-3": "Likely",
+    "R-IR-4": "Possible",
+    "R-OR-1": "Possible",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Likely",
+    "R-SA-2": "Possible",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Possible",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Possible",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Possible",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Possible",
+    "MT-2": "Likely",
+    "MT-3": "Possible",
+    "MT-4": "Possible",
+    "MT-5": "Possible",
+    "MT-6": "Possible",
+    "MT-7": "Possible",
+    "MT-8": "Likely",
+    "MT-9": "Likely",
+    "MT-10": "Possible",
+    "MT-11": "Possible",
+    "MT-12": "Possible",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Possible",
+    "MT-16": "Possible",
+    "MT-17": "Unlikely",
+    "MT-18": "Possible",
+    "MT-19": "Unlikely",
+    "MT-20": "Unlikely",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Unlikely",
+    "MT-24": "Unlikely",
+    "MT-25": "Likely",
+    "MT-26": "Unlikely",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- renumbered",
   "family_name": "Incident Response",
   "crosswalks": {
     "general-aicpa-pmf-2020": [
-      "S7.5-POF2"
+      "M1.3-POF3"
+    ],
+    "general-aicpa-tsc-2017": [
+      "A1.2-POF5",
+      "CC2.2-POF3",
+      "CC2.2-POF6",
+      "CC2.2-POF10",
+      "CC2.3-POF8",
+      "CC7.3",
+      "CC7.3-POF1",
+      "CC7.3-POF3",
+      "CC7.3-POF4",
+      "CC7.3-POF5",
+      "CC7.3-POF6",
+      "CC7.3-POF7",
+      "CC7.4",
+      "CC7.4-POF1",
+      "CC7.4-POF2",
+      "CC7.4-POF3",
+      "CC7.4-POF4",
+      "CC7.4-POF5",
+      "CC7.4-POF6",
+      "CC7.4-POF7",
+      "CC7.4-POF8",
+      "CC7.4-POF9",
+      "CC7.4-POF10",
+      "CC7.4-POF11",
+      "CC7.4-POF12",
+      "CC7.4-POF13"
     ],
     "general-cis-csc-8-1": [
-      "17.7"
+      "2.3",
+      "17",
+      "17.1",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "17.9"
+    ],
+    "general-cis-csc-8-1-ig1": [
+      "2.3",
+      "17.1",
+      "17.3"
     ],
     "general-cis-csc-8-1-ig2": [
-      "17.7"
+      "2.3",
+      "17.1",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6"
     ],
     "general-cis-csc-8-1-ig3": [
-      "17.7"
+      "2.3",
+      "17.1",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "17.9"
+    ],
+    "general-cobit-2019": [
+      "DSS02.01",
+      "DSS02.02",
+      "DSS02.03",
+      "DSS02.04",
+      "DSS02.05",
+      "DSS02.06",
+      "DSS03.02"
     ],
     "general-csa-cmm-4-1-0": [
-      "SEF-04"
+      "SEF-03",
+      "SEF-06",
+      "SEF-07"
     ],
-    "general-cr-cmm-2026": [
-      "CR6.2.6"
+    "general-csa-iot-2": [
+      "IAM-08",
+      "IAM-09",
+      "IMT-01",
+      "MON-02"
     ],
     "general-govramp": [
-      "IR-03"
+      "IR-04"
     ],
     "general-govramp-core": [
-      "IR-03"
+      "IR-04"
     ],
     "general-govramp-low": [
-      "IR-03"
+      "IR-04"
     ],
     "general-govramp-low-plus": [
-      "IR-03"
+      "IR-04"
     ],
     "general-govramp-mod": [
-      "IR-03"
+      "IR-04"
     ],
     "general-govramp-high": [
-      "IR-03"
+      "IR-04"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "EVENT 1.8"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.5.4"
     ],
     "general-iso-27002-2022": [
-      "5.30"
+      "5.24",
+      "5.25",
+      "5.26",
+      "6.8"
+    ],
+    "general-iso-27017-2015": [
+      "16.1.3",
+      "16.1.4",
+      "16.1.5"
     ],
     "general-iso-27018-2025": [
-      "5.30"
+      "5.24",
+      "5.25",
+      "5.26",
+      "6.8"
     ],
-    "general-nist-600-1-gen-ai-profile": [
-      "GV-6.2-003"
+    "general-iso-42001-2023": [
+      "A.3.3"
     ],
-    "general-nist-privacy-framework-1-0": [
-      "PR.PO-P8"
+    "general-mpa-csbp-5-3-1": [
+      "OR-4.0",
+      "TS-1.4"
+    ],
+    "general-naic-insurance-data-security-model-law-668-2017": [
+      "5.A",
+      "5.B(1)",
+      "5.B(2)",
+      "5.B(3)",
+      "5.B(4)",
+      "5.C",
+      "5.D",
+      "6.D(1)",
+      "6.D(2)"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "GOVERN 6.2",
+      "MANAGE 2.3",
+      "MANAGE 2.4"
     ],
     "general-nist-800-53-r4": [
-      "IR-3",
-      "SI-4(9)"
+      "IR-4"
     ],
     "general-nist-800-53-r5-2": [
-      "IR-03",
-      "SI-04(09)"
+      "IR-04"
     ],
-    "general-nist-800-53-r5-2-privacy": [
-      "IR-03"
+    "general-nist-800-53-r5-2-low": [
+      "IR-04"
     ],
     "general-nist-800-53-r5-2-mod": [
-      "IR-03"
+      "IR-04"
+    ],
+    "general-nist-800-53-r5-2-high": [
+      "IR-04"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "IR-04"
+    ],
+    "general-nist-800-66-r2": [
+      "164.308(a)(6)"
     ],
     "general-nist-800-82-r3": [
-      "IR-03",
-      "SI-04(09)"
+      "IR-04"
+    ],
+    "general-nist-800-82-r3-low": [
+      "IR-04"
     ],
     "general-nist-800-82-r3-mod": [
-      "IR-03"
+      "IR-04"
     ],
     "general-nist-800-82-r3-high": [
-      "IR-03"
+      "IR-04"
     ],
     "general-nist-800-161-r1": [
-      "IR-3"
-    ],
-    "general-nist-800-161-r1-level-2": [
-      "IR-3"
-    ],
-    "general-nist-800-161-r1-level-3": [
-      "IR-3"
+      "IR-4"
     ],
     "general-nist-800-171-r2": [
-      "3.6.3"
+      "3.6.1",
+      "3.6.2"
     ],
     "general-nist-800-171-r3": [
-      "03.06.03"
+      "03.03.04.b",
+      "03.06.01",
+      "03.06.02.a",
+      "03.06.02.b",
+      "03.06.02.c",
+      "03.06.02.d",
+      "03.06.05.b"
     ],
     "general-nist-800-171a": [
-      "3.6.3"
+      "3.6.1[a]",
+      "3.6.1[b]",
+      "3.6.1[c]",
+      "3.6.1[d]",
+      "3.6.1[e]",
+      "3.6.1[f]",
+      "3.6.1[g]",
+      "3.6.2[a]",
+      "3.6.2[b]",
+      "3.6.2[c]",
+      "3.6.2[d]",
+      "3.6.2[e]",
+      "3.6.2[f]"
     ],
     "general-nist-800-171a-r3": [
-      "A.03.06.03.ODP[01]",
-      "A.03.06.03"
+      "A.03.03.04.b",
+      "A.03.06.01[02]",
+      "A.03.06.01[03]",
+      "A.03.06.01[04]",
+      "A.03.06.01[05]",
+      "A.03.06.01[06]",
+      "A.03.06.02.a[01]",
+      "A.03.06.02.a[02]",
+      "A.03.06.02.b",
+      "A.03.06.02.c",
+      "A.03.06.02.d",
+      "A.03.06.05.b[01]"
+    ],
+    "general-nist-800-172-r3": [
+      "03.17.03E"
+    ],
+    "general-nist-800-172a-r3": [
+      "A.03.17.03E.ODP[02]"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.SC-08",
+      "DE.AE",
+      "DE.AE-02",
+      "DE.AE-03",
+      "DE.AE-04",
+      "DE.AE-06",
+      "DE.AE-08",
+      "RS",
+      "RS.MA",
+      "RS.MA-01",
+      "RS.MA-02",
+      "RS.MA-04",
+      "RS.AN",
+      "RS.AN-06",
+      "RS.CO",
+      "RS.CO-02",
+      "RS.CO-03",
+      "RS.MI",
+      "RS.MI-01",
+      "RS.MI-02",
+      "RC.RP-06"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.MT-P5"
     ],
     "general-pci-dss-4-0-1": [
-      "12.10.2"
+      "12.10",
+      "12.10.5",
+      "A3.3.1.2"
     ],
     "general-pci-dss-4-0-1-saq-d-merchant": [
-      "12.10.2"
+      "12.10.5"
     ],
     "general-pci-dss-4-0-1-saq-d-service-provider": [
-      "12.10.2"
+      "12.10.5"
+    ],
+    "general-scf-dpmp-2026": [
+      "8.0",
+      "8.1"
     ],
     "general-swift-cscf-2025": [
+      "6.1",
+      "6.2",
+      "6.3",
       "7.1"
     ],
-    "usa-federal-dhs-cisa-tic-3-0": [
-      "3.UNL.STEXE"
-    ],
-    "usa-federal-dhs-cisa-cpg-2-0": [
-      "2.S"
-    ],
-    "usa-federal-fbi-cjis-6-0": [
-      "IR-3"
-    ],
-    "usa-federal-doe-c2m2-2-1": [
-      "RESPONSE-3g"
-    ],
-    "usa-federal-dow-cmmc-2-level-2": [
-      "IRL2.-3.6.3"
-    ],
-    "usa-federal-gsa-fedramp-5-mod": [
-      "IR-03"
-    ],
-    "usa-federal-gsa-fedramp-5-high": [
-      "IR-03"
-    ],
-    "usa-federal-law-33-cfr-part-101-subpart-f": [
-      "101.635(a)(1)",
-      "101.635(b)(1)",
-      "101.635(b)(2)",
-      "101.635(b)(3)",
-      "101.635(c)(1)",
-      "101.635(c)(2)",
-      "101.635(c)(2)(i)",
-      "101.635(c)(2)(ii)",
-      "101.635(c)(2)(iii)",
-      "101.635(c)(2)(iv)",
-      "101.635(c)(3)",
-      "101.635(c)(4)",
-      "101.635(c)(5)"
-    ],
-    "usa-federal-irs-1075-2021": [
-      "IR-3"
+    "general-tisax-6-0-3": [
+      "1.6.1",
+      "1.6.2",
+      "1.6.3",
+      "9.6.2"
     ],
     "usa-federal-cms-marse-2-0": [
-      "IR-3",
-      "IR-3.a",
-      "IR-3.b",
-      "IR-3.c",
-      "IR-3(2)"
+      "IR-4",
+      "IR-4.a",
+      "IR-4.b",
+      "IR-4.c",
+      "IR-4.d",
+      "IR-4.e",
+      "IR-4.f",
+      "IR-4.g",
+      "IR-4.h",
+      "IR-4-IS",
+      "SE-2",
+      "SE-2.a",
+      "SE-2.b",
+      "SE-2.c"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "2.S",
+      "5.A"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNI.IRPIH"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "RESPONSE-1a",
+      "RESPONSE-1b",
+      "RESPONSE-1f",
+      "RESPONSE-2a",
+      "RESPONSE-2b",
+      "RESPONSE-3b",
+      "RESPONSE-3c",
+      "RESPONSE-3e",
+      "RESPONSE-3l"
+    ],
+    "usa-federal-dow-brilliant-basics-ot": [
+      "4"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "IMC:SG2.SP4",
+      "IMC:SG3",
+      "IMC:SG3.SP1",
+      "IMC:SG3.SP2",
+      "IMC:SG4",
+      "IMC:SG4.SP1",
+      "IMC:SG4.SP2",
+      "IMC:SG4.SP3",
+      "IMC:SG4.SP4"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "IRL2.-3.6.1",
+      "IRL2.-3.6.2"
+    ],
+    "usa-federal-dow-dfars-252-204-7012": [
+      "252.204-7012(c)(1)(i)"
+    ],
+    "usa-federal-dow-zt-roadmap-1-1": [
+      "6.7.2"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "IR-4"
+    ],
+    "usa-federal-ffiec-iteh-2016": [
+      "III.C"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "IR-04"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "IR-04"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "IR-04"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "IR-04"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "IR-4"
+    ],
+    "usa-federal-law-33-cfr-part-101-subpart-f": [
+      "101.625(d)(4)"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(h)",
+      "314.4(h)(1)",
+      "314.4(h)(2)",
+      "314.4(h)(3)",
+      "314.4(h)(4)",
+      "314.4(h)(5)",
+      "314.4(h)(6)",
+      "314.4(h)(7)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "§ 164.308(a)(6)(ii)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "§ 164.308(a)(6)(ii)",
+      "§ 164.412",
+      "§ 164.412(a)",
+      "§ 164.412(b)",
+      "§ 164.530(f)"
     ],
     "usa-federal-nerc-cip-2024": [
-      "CIP-008-6 2.1",
-      "CIP-008-6 3.1"
+      "CIP-008-6 1.1",
+      "CIP-008-6 1.2.1",
+      "CIP-008-6 1.4"
+    ],
+    "usa-federal-nrc-10-cfr-73-54-2015": [
+      "73.54(c)(3)",
+      "73.54(e)(2)(i)",
+      "73.54(e)(2)(ii)"
+    ],
+    "usa-federal-sec-cybersecurity-rule-2023": [
+      "Form 8-K Item 1.05(a)"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(c)(3)",
+      "609.930(c)(3)(i)",
+      "609.930(c)(3)(ii)",
+      "609.930(c)(3)(iii)"
+    ],
+    "usa-federal-sro-finra-2007": [
+      "248.30(a)(3)",
+      "248.30(a)(3)(i)",
+      "248.30(a)(3)(ii)"
+    ],
+    "usa-federal-tsa-sd-pipeline-2021-02f": [
+      "III.D.2.d",
+      "III.F.1.a",
+      "III.F.1.b"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.D.2.d"
     ],
     "usa-state-ca-ccpa-cpra-2026": [
-      "7123(c)(17)(B)(ii)"
+      "7027(m)(2)",
+      "7123(c)(17)(B)(i)"
+    ],
+    "usa-state-ca-sb1386-2002": [
+      "1798.29(a)"
     ],
     "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
-      "500.16(d)(1)"
+      "500.16(a)"
     ],
     "usa-state-tx-dir-security-control-standards-catalog-2-2": [
-      "IR-03"
+      "IR-04"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "IR-04"
     ],
     "usa-state-tx-txramp-2-0-level-2": [
-      "IR-03"
+      "IR-04"
     ],
-    "emea-eu-nis2-annex-2024": [
-      "3.5.5"
+    "emea-che-finma-circ-23-1": [
+      "IV.B.d-58",
+      "IV.B.d-59",
+      "IV.C.d-66",
+      "IV.C.e-67"
     ],
-    "emea-sau-otcc-1-2022": [
-      "2-12-1-7"
+    "emea-deu-bsrit-2017": [
+      "4.7"
+    ],
+    "emea-deu-c5-2026": [
+      "OPS-07.02B",
+      "OPS-13.03AC",
+      "OPS-18.01B.6",
+      "OPS-19.01B.2",
+      "OPS-20.01B",
+      "OPS-21.01B",
+      "OPS-30.01B.4",
+      "IAM-01.02B.16",
+      "SIM-02.01B",
+      "SIM-03.03AC"
     ],
     "emea-esp-ccn-stic-825-2026": [
-      "op.cont.3"
+      "op.exp.7",
+      "op.exp.9"
+    ],
+    "emea-esp-decree-311-2022": [
+      "Article 25(2)",
+      "Article 34(1)(a)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 9.4(b)",
+      "Article 14.1",
+      "Article 14.2",
+      "Article 14.3",
+      "Article 18.1",
+      "Article 18.1(a)",
+      "Article 18.1(b)",
+      "Article 18.1(c)",
+      "Article 18.1(d)",
+      "Article 18.1(e)",
+      "Article 18.1(f)",
+      "Article 18.2"
+    ],
+    "emea-eu-dora-rts-2024": [
+      "Article 22.1(c)",
+      "Article 23.5",
+      "Article 31.4"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.5.1.59",
+      "3.5.1.60",
+      "3.5.1.60(a)",
+      "3.5.1.60(b)",
+      "3.5.1.60(c)",
+      "3.5.1.60(d)",
+      "3.5.1.60(d)(i)",
+      "3.5.1.60(d)(ii)",
+      "3.5.1.60(e)",
+      "3.5.1.60(f)",
+      "3.5.1.60(f)(i)",
+      "3.5.1.60(f)(ii)"
+    ],
+    "emea-eu-nis2-2022": [
+      "Article 21.2(b)",
+      "Article 23.1"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "3.1.2(b)",
+      "3.4.1",
+      "3.4.2(e)",
+      "3.5.2(a)",
+      "3.5.2(b)",
+      "3.5.2(c)",
+      "3.5.3(b)"
     ],
     "emea-gbr-caf-4-0": [
-      "D1.c"
+      "D1.b"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "D1"
     ],
     "emea-gbr-def-stan-05-138-2024": [
-      "4103",
-      "4105"
+      "3105",
+      "4104"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "4104"
     ],
     "emea-gbr-def-stan-05-138-l2-2024": [
-      "4103",
-      "4105"
+      "3105",
+      "4104"
     ],
     "emea-gbr-def-stan-05-138-l3-2024": [
-      "4103",
-      "4105"
+      "3105",
+      "4104"
     ],
-    "apac-aus-ism-2026-march": [
-      "ISM-2006"
+    "emea-isr-cmo-2-0": [
+      "Appendix A, 12.1"
     ],
-    "apac-aus-ps-cps-230-2023": [
-      "27(c)"
+    "emea-lux-cssf-20-750": [
+      "3.5.1-60.e"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-12-2"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-12-1-3",
+      "2-12-1-4"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "VII.B.TPC-89"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.15.3",
+      "3.3.15.4",
+      "3.3.15.4.a",
+      "3.3.15.4.b",
+      "3.3.15.4.c",
+      "3.3.15.4.d",
+      "3.3.15.4.e",
+      "3.3.15.4.f",
+      "3.3.15.4.g",
+      "3.3.15.4.h",
+      "3.3.15.4.i",
+      "3.3.15.4.j"
+    ],
+    "emea-uae-niaf-2023": [
+      "3.3.1",
+      "3.3.2"
+    ],
+    "apac-aus-cloud-controls-matrix-2026": [
+      "RES-03"
+    ],
+    "apac-aus-essential-8-2024": [
+      "ISM-0123",
+      "ISM-1819"
+    ],
+    "apac-aus-ism-2026-june": [
+      "ISM-0123",
+      "ISM-0141",
+      "ISM-0917",
+      "ISM-1618",
+      "ISM-1803",
+      "ISM-1819"
     ],
     "apac-aus-ps-cps-234-2019": [
-      "26",
-      "27",
-      "27(a)",
-      "27(b)",
-      "27(c)",
-      "27(d)",
-      "27(e)"
+      "23.0"
+    ],
+    "apac-chn-data-security-law-2021": [
+      "Article 29"
+    ],
+    "apac-chn-pipl-2021": [
+      "Article 57"
+    ],
+    "apac-ind-rbi-dpsc-2021": [
+      "72.0"
+    ],
+    "apac-ind-rbi-ppi-2021": [
+      "15.7",
+      "17.4.f"
     ],
     "apac-ind-sebi-2024": [
-      "DE.DP.S2",
-      "GV.RM.S3"
+      "RS.MA.S2"
+    ],
+    "apac-jpn-ismap": [
+      "16.1.1",
+      "16.1.1.1",
+      "16.1.1.3",
+      "16.1.2",
+      "16.1.2.1",
+      "16.1.2.2",
+      "16.1.2.3",
+      "16.1.2.4",
+      "16.1.2.5",
+      "16.1.2.6",
+      "16.1.2.7",
+      "16.1.2.8",
+      "16.1.2.9",
+      "16.1.2.10",
+      "16.1.2.11.P",
+      "16.1.2.12.P",
+      "16.1.2.13.P",
+      "16.1.3",
+      "16.1.3.1",
+      "16.1.3.2",
+      "16.1.5.9"
     ],
     "apac-mys-bnm-rmit-2025": [
-      "11.16"
+      "9.2(k)",
+      "10.35",
+      "11.3(f)",
+      "11.11",
+      "11.13(b)",
+      "11.13(c)",
+      "11.13(d)",
+      "12.3(d)",
+      "12.9",
+      "A5-C2(b)"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP07",
+      "HML07"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP07"
+    ],
+    "apac-nzl-ism-3-9": [
+      "5.7.4.C.01",
+      "7.2.18.C.01",
+      "7.2.18.C.02",
+      "7.2.19.C.01",
+      "7.3.9.C.01",
+      "7.3.10.C.01",
+      "20.1.25.C.02"
+    ],
+    "apac-sgp-ccp-cii-2026": [
+      "6.3.3",
+      "7.1.1(c)",
+      "7.1.1(g)",
+      "A.6.3"
     ],
     "apac-sgp-mas-trm-2021": [
-      "13.3.1",
-      "13.3.2",
-      "13.5.2"
+      "7.7.2",
+      "7.7.3",
+      "7.7.3(a)",
+      "7.7.3(b)",
+      "7.7.3(c)"
+    ],
+    "apac-sgp-pdpa-2012": [
+      "6A.26C(2)"
+    ],
+    "americas-arg-ppd-2018": [
+      "E.1.2-10",
+      "E.1.2-11",
+      "G.1.1-1"
     ],
     "americas-bmu-mba-coc-2020": [
       "6.4"
     ],
-    "americas-can-osfi-b13-2022": [
-      "2.7.2"
-    ],
-    "americas-can-osfi-self-assessment-2": [
-      "2.7.2"
-    ],
     "americas-can-itsp-10-171-2025": [
-      "03.06.03"
+      "03.03.04.B",
+      "03.06.01",
+      "03.06.02.A",
+      "03.06.02.B",
+      "03.06.02.C",
+      "03.06.02.D",
+      "03.06.05.B"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "2.7",
+      "2.7.1",
+      "2.7.2",
+      "3.3",
+      "3.3.3",
+      "3.4.1",
+      "3.4.3",
+      "3.4.4"
+    ],
+    "americas-can-osfi-self-assessment": [
+      "2.7.1",
+      "2.7.2",
+      "2.7.3",
+      "3.0",
+      "3.4.1"
     ]
   }
 }

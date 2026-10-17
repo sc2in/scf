@@ -4,7 +4,7 @@
   "artifact_name": "Third-Party Inventories",
   "artifact_description": "Documented evidence of an inventory of External Service Providers (ESP), contractors, vendors, etc. that directly or indirectly impact the organization's Technology Assets, Applications, Services and/or Data (TAASD).",
   "scf_controls": [
-    "TPM-01.1"
+    "TPM-08"
   ],
   "cmmc_mapping": ""
 }

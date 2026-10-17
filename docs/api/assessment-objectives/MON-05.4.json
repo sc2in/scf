@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-05.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-05.4",
+      "ao_id": "MON-05.4_A01",
+      "objective": "a Security Incident Event Manager (SIEM), or similar automated tool, is employed to support near real-time analysis of event logs and security-relevant telemetry.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-05.4",
+      "ao_id": "MON-05.4_A02",
+      "objective": "the Security Incident Event Manager (SIEM), or similar automated tool, supports incident escalation based on the results of near real-time analysis.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

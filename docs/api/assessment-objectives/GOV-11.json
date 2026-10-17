@@ -1,13 +1,13 @@
 {
   "scf_control_id": "GOV-11",
-  "total": 2,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "GOV-11",
       "ao_id": "GOV-11_A01",
-      "objective": "systems or system components supporting mission-essential services or functions are defined.",
+      "objective": "roles and responsibilities exist to compel data and/or process owners to operationalize security, compliance and resilience practices for the Technology Assets, Applications, Services and/or Data (TAASD) under their control.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-32_ODP",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,12 +15,32 @@
     {
       "scf_control_id": "GOV-11",
       "ao_id": "GOV-11_A02",
-      "objective": "systems or system components supporting mission-essential services or functions are analyzed to ensure that the information resources are being used in a manner that is consistent with their intended purpose.",
+      "objective": "Individual Contributor (IC) performance reviews cover how data and/or process owners operationalized security, compliance and resilience practices for the Technology Assets, Applications, Services and/or Data (TAASD) under their control.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-32",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-11",
+      "ao_id": "GOV-11_A03",
+      "objective": "organization-defined systems security engineering principles are applied to the development or modification of the system and system components.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at a minimum, the systems security engineering principles described in NIST SP 800-160",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-11",
+      "ao_id": "GOV-11_A04",
+      "objective": "<A.03.16.01.ODP[01]: systems security engineering principles> are applied to the development or modification of the system and system components.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.01",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: At a minimum, documentation that provides user and administrator guidance for the implementation and operation of controls. The level of detail required in such documentation should be based on the degree to which organizations depend on the capabilities, functions, or mechanisms to meet risk response expectations. Requirements can include mandated configuration settings that specify allowed functions, ports, protocols, and services. Acceptance criteria for systems, system components, and system services are defined in the same manner as the criteria for any organizational acquisition or procurement.",
+      "org_defined_parameters": "US DoD ODP Value: Guidance: At a minimum, documentation that provides user and administrator guidance for the implementation and operation of controls. The level of detail required in such documentation should be based on the degree to which organizations depend on the capabilities, functions, or mechanisms to meet risk response expectations. Requirements can include mandated configuration settings that specify allowed functions, ports, protocols, and services. Acceptance criteria for systems, system components, and system services are defined in the same manner as the criteria for any organizational acquisition or procurement."
     }
   ]
 }

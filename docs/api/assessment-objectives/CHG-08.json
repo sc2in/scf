@@ -1,34 +1,54 @@
 {
   "scf_control_id": "CHG-08",
-  "total": 3,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "CHG-08",
       "ao_id": "CHG-08_A01",
-      "objective": "Business processes that require dual approval for any changes that might result in a serious, but adverse impact are identified.",
+      "objective": "as part of change management processes, stakeholders are notified of the potential impact(s) of proposed changes.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "prior to implementation of the proposed change",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CHG-08",
       "ao_id": "CHG-08_A02",
-      "objective": "Technology Assets, Applications, Services and/or Data (TAASD) that require dual approval for any changes that might result in a serious, but adverse impact are identified.",
+      "objective": "changes to the system or system component location where sensitive / regulated data is processed are documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
-      "assessment_rigor": "1",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "CHG-08",
       "ao_id": "CHG-08_A03",
-      "objective": "Processes and/or technologies are implemented for instances that require dual approval for any changes that might result in a serious incident that could adversely impact operations.",
+      "objective": "changes to the system or system component location where sensitive / regulated data is stored are documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
-      "assessment_rigor": "1",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-08",
+      "ao_id": "CHG-08_A04",
+      "objective": "changes to the system or system component location where CUI is processed are documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.11.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-08",
+      "ao_id": "CHG-08_A05",
+      "objective": "changes to the system or system component location where CUI is stored are documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.11.b[02]",
+      "assessment_rigor": "NIST 800-171",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

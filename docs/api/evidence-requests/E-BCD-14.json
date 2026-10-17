@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCD-14",
+  "area": "Business Continuity",
+  "artifact_name": "Recovery Operations Criteria",
+  "artifact_description": "Documented evidence of specific criteria to activate Business Continuity / Disaster Recovery (BC/DR) plans.",
+  "scf_controls": [
+    "BCD-05"
+  ],
+  "cmmc_mapping": ""
+}

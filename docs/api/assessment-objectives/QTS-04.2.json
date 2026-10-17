@@ -1,55 +1,15 @@
 {
   "scf_control_id": "QTS-04.2",
-  "total": 5,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-04.2",
       "ao_id": "QTS-04.2_A01",
-      "objective": "a Cryptographic Bill of Materials (CBOM) is maintained to analyze the organization's cryptographic architecture.",
+      "objective": "short-term compensating measures are implemented for Technology Assets, Applications and Services (TAAS) that cannot be migrated to Post-Quantum Cryptography (PQC) on the planned schedule (e.g., network segmentation, additional pre-shared-key layers, reduced key lifetimes, out-of-band key transport and data minimization).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.2",
-      "ao_id": "QTS-04.2_A02",
-      "objective": "the CBOM includes hardware.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.2",
-      "ao_id": "QTS-04.2_A03",
-      "objective": "the CBOM includes firmware.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.2",
-      "ao_id": "QTS-04.2_A04",
-      "objective": "the CBOM includes software modules.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-04.2",
-      "ao_id": "QTS-04.2_A05",
-      "objective": "the CBOM includes communication protocols.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "no more than 12 months before re-evaluation of the compensating measure",
       "org_defined_parameters": ""
     }
   ]

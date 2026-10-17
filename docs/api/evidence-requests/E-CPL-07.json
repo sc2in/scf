@@ -4,10 +4,12 @@
   "artifact_name": "Control Assessments",
   "artifact_description": "Documented evidence of internal or third-party control assessments to provide governance oversight of cybersecurity & data privacy controls.",
   "scf_controls": [
-    "CPL-02",
-    "CPL-02.1",
-    "CPL-03",
-    "CPL-03.1"
+    "CPL-04.1",
+    "CPL-05",
+    "CPL-07",
+    "CPL-07.1",
+    "CPL-08",
+    "IAO-07"
   ],
   "cmmc_mapping": ""
 }

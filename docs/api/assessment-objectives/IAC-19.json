@@ -5,11 +5,11 @@
     {
       "scf_control_id": "IAC-19",
       "ao_id": "IAC-19_A01",
-      "objective": "the sharing of generic IDs, passwords or other generic authentication methods is prevented.",
-      "pptdf": "Process",
+      "objective": "organization-defined token quality requirements are satisfied for hardware token-based authentication.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "no lower than the hardware authenticator requirements of the NIST digital identity guidelines for the applicable Authenticator Assurance Level (AAL)",
       "org_defined_parameters": ""
     }
   ]

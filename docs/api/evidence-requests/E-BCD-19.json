@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-BCD-19",
+  "area": "Business Continuity",
+  "artifact_name": "Isolated Recovery Environment & Reserve Hardware",
+  "artifact_description": "Documented evidence of an isolated recovery environment, reserve hardware, redundant secondary systems and/or failover capability.",
+  "scf_controls": [
+    "BCD-19",
+    "BCD-20",
+    "BCD-21",
+    "BCD-22"
+  ],
+  "cmmc_mapping": ""
+}

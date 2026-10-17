@@ -1,54 +1,24 @@
 {
   "scf_control_id": "SEA-03",
-  "total": 5,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "SEA-03",
       "ao_id": "SEA-03_A01",
-      "objective": "security functions are implemented as a layered structure, minimizing interactions between layers of the design and avoiding any dependence by lower layers on the functionality or correctness of higher layers.",
+      "objective": "security architecture principles are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SC-03(05)",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "drawn from The Open Group Architecture Framework (TOGAF), Sherwood Applied Business Security Architecture (SABSA) and/or an organization-defined reference architecture",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "SEA-03",
       "ao_id": "SEA-03_A02",
-      "objective": "the cybersecurity / data privacy architecture for the system is designed using a defense-in-depth approach that allocates controls to locations and architectural layers.",
+      "objective": "security, compliance and resilience capabilities are designed and maintained in alignment with security architecture principles.",
       "pptdf": "Process",
-      "origin": "53A_R5_PL-08(01)(a)[01]\n53A_R5_PL-08(01)(a)[02]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "SEA-03",
-      "ao_id": "SEA-03_A03",
-      "objective": "the cybersecurity / data privacy architecture for the system is designed using a defense-in-depth approach that ensures the allocated controls operate in a coordinated and mutually reinforcing manner.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PL-08(01)(b)[01]\n53A_R5_PL-08(01)(b)[02]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "SEA-03",
-      "ao_id": "SEA-03_A04",
-      "objective": "controls to be allocated are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PL-08(01)_ODP[01]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "SEA-03",
-      "ao_id": "SEA-03_A05",
-      "objective": "locations and architectural layers are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_PL-08(01)_ODP[02]",
-      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

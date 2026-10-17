@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-GOV-21",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "High Value Asset (HVA) List",
+  "artifact_description": "Documented evidence of the organization's designated High Value Assets (HVAs).",
+  "scf_controls": [
+    "GOV-08"
+  ],
+  "cmmc_mapping": ""
+}

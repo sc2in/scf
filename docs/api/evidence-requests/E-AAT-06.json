@@ -4,8 +4,13 @@
   "artifact_name": "Impact Assessments for Artificial Intelligence and Autonomous Technologies (AAT)",
   "artifact_description": "Documented evidence of impact assessments of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on individuals, groups, communities, organizations and society.",
   "scf_controls": [
-    "AAT-07.1",
-    "AAT-07.2"
+    "AAT-09",
+    "AAT-10",
+    "AAT-11.1",
+    "AAT-12",
+    "AAT-13",
+    "AAT-19",
+    "AAT-22"
   ],
   "cmmc_mapping": ""
 }

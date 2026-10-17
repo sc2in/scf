@@ -5,8 +5,8 @@
     {
       "scf_control_id": "CLD-13",
       "ao_id": "CLD-13_A01",
-      "objective": "applicable cybersecurity & data protection controls are specified that must be implemented on external systems, consistent with the contractual obligations established with the External Service Providers (ESP) owning, operating and/or maintaining external systems, applications and/or services.",
-      "pptdf": "Process",
+      "objective": "access to, or usage of, hosted Technology Assets, Applications and/or Services (TAAS) is prohibited until applicable security, compliance and/or resilience control implementation is verified.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

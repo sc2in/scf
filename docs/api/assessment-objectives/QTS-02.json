@@ -1,11 +1,11 @@
 {
   "scf_control_id": "QTS-02",
-  "total": 4,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-02",
       "ao_id": "QTS-02_A01",
-      "objective": "a Cryptographic Agility Risk Assessment (CARA) methodology is defined.",
+      "objective": "an executive-sponsored quantum risk governance structure is established that institutionalizes quantum risk in the same manner as other enterprise risks.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "QTS-02",
       "ao_id": "QTS-02_A02",
-      "objective": "a CARA is performed to map Technology Assets, Applications, Services and Data (TAASD).",
+      "objective": "a named migration lead with defined authority is assigned.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,21 +25,11 @@
     {
       "scf_control_id": "QTS-02",
       "ao_id": "QTS-02_A03",
-      "objective": "the CARA identifies TAASD most vulnerable to quantum-enabled cryptanalytic threats.",
+      "objective": "quantum risk is treated as a standing agenda item in Board of Directors and/or executive leadership meetings.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-02",
-      "ao_id": "QTS-02_A04",
-      "objective": "the CARA prioritizes TAASD based on potential business impact.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     }
   ]

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-TDA-22",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Anti-Counterfeit & Product Tampering Controls",
+  "artifact_description": "Documented evidence of anti-counterfeit and product tampering controls, including anti-counterfeit training.",
+  "scf_controls": [
+    "SAT-06.4",
+    "TDA-09"
+  ],
+  "cmmc_mapping": ""
+}

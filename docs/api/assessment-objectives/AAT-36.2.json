@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-36.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-36.2",
+      "ao_id": "AAT-36.2_A01",
+      "objective": "the effectiveness of existing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related security, compliance and resilience controls is assessed per an organization-defined frequency, including reports of errors and potential impacts on affected communities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-36.2",
+      "ao_id": "AAT-36.2_A02",
+      "objective": "the frequency at which to assess the effectiveness of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related security, compliance and resilience controls is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

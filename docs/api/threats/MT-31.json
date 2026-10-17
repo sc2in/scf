@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-31",
+  "grouping": "Man-Made Threat",
+  "name": "Cryptographic Compromise / Cryptanalytic Capability Advancement",
+  "description": "Advances in computing, cryptanalysis or attack techniques reduce the effective security of deployed cryptographic algorithms or key sizes, causing cryptographic controls to provide less protection than intended."
+}

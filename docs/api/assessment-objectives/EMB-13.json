@@ -5,11 +5,11 @@
     {
       "scf_control_id": "EMB-13",
       "ao_id": "EMB-13_A01",
-      "objective": "configurations for embedded technologies restrict communications to authorized peers and service endpoints.",
-      "pptdf": "Technology",
+      "objective": "deployed embedded technologies are evaluated per an organization-defined interval to identify and implement necessary updates that mitigate the risks associated with legacy embedded technologies.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     }
   ]

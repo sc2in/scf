@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "BCD-32",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-32",
+      "ao_id": "BCD-32_A01",
+      "objective": "the frequency at which to test data backups for media reliability is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-32",
+      "ao_id": "BCD-32_A02",
+      "objective": "the frequency at which to test data backups for information integrity is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-32",
+      "ao_id": "BCD-32_A03",
+      "objective": "data backups are tested at the organization-defined frequency to verify media reliability.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(01)[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-32",
+      "ao_id": "BCD-32_A04",
+      "objective": "data backups are tested at the organization-defined frequency to verify information integrity.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(01)[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-32",
+      "ao_id": "BCD-32_A05",
+      "objective": "data backups are tested at the organization-defined frequency to verify the availability of the data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

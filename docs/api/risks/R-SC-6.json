@@ -1,7 +1,7 @@
 {
   "risk_id": "R-SC-6",
   "grouping": "Supply Chain",
-  "name": "Reliance on the third-party",
-  "description": "The inability to continue business operations, due to the reliance on the third-party product and/or service.",
+  "name": "Third-Party Dependency Failure",
+  "description": "A critical third-party product, service or capability becomes unavailable, degraded, discontinued or otherwise unable to support required operations, causing business operations disruption.",
   "nist_csf_function": "Protect"
 }

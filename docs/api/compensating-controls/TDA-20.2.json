@@ -1,16 +1,16 @@
 {
   "control_id": "TDA-20.2",
-  "risk_if_not_implemented": "Without Archiving Software Releases, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "risk_if_not_implemented": "Without Developer-Provided Training, personnel are more likely to make unsafe decisions, fall victim to social engineering, mishandle data or violate requirements. Based on the risk and threat mapping for this control, this deficiency most likely exposes the organization to Harm from Unauthorized / Unintended Product or Service Use (R-SC-5), and most likely increases susceptibility to Human Error (MT-9), Supplier Financial Distress / Insolvency (MT-24).",
   "compensating_control_1": {
-    "control_id": "IAC-21",
-    "name": "Least Privilege",
-    "description": "Mechanisms exist to utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions.",
-    "justification": "Least Privilege (IAC-21) provides access control enforcement that compensates for the absence of Archiving Software Releases (TDA-20.2) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+    "control_id": "SAT-05",
+    "name": "Role-Based Security, Compliance & Resilience Training",
+    "description": "Mechanisms exist to provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter.",
+    "justification": "Role-Based Security, Compliance & Resilience Training (SAT-05) provides personnel training and awareness that compensates for the absence of Developer-Provided Training (TDA-20.2) by reducing human-factor risk by equipping personnel to recognize and respond to relevant threats. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
   },
   "compensating_control_2": {
-    "control_id": "TDA-20",
-    "name": "Access to Program Source Code",
-    "description": "Mechanisms exist to limit privileges to change software resident within software libraries.",
-    "justification": "Access to Program Source Code (TDA-20) provides policy-level governance that compensates for the absence of Archiving Software Releases (TDA-20.2) by establishing documented expectations, accountability structures, and organizational guardrails. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+    "control_id": "TDA-05",
+    "name": "Secure Software Development Practices (SSDP)",
+    "description": "Mechanisms exist to develop applications based on Secure Software Development Practices (SSDP).",
+    "justification": "Secure Software Development Practices (SSDP) (TDA-05) provides overlapping security capability that compensates for the absence of Developer-Provided Training (TDA-20.2) by addressing related risk objectives through an alternative control mechanism aligned with Process applicability. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
   }
 }

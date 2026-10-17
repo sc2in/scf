@@ -5,7 +5,7 @@
     {
       "scf_control_id": "EMB-16",
       "ao_id": "EMB-16_A01",
-      "objective": "certificate-based authentication is enforced for embedded technologies (e.g., IoT, OT, etc.) and their supporting services.",
+      "objective": "configurations require embedded technologies to initiate all communications and to drop new, incoming communications.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

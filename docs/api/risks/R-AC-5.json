@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-AC-5",
+  "grouping": "Access Control",
+  "name": "Identity Compromise / Impersonation",
+  "description": "A user, service or machine identity is compromised, spoofed or hijacked, allowing an unauthorized actor to authenticate or operate as a trusted identity.",
+  "nist_csf_function": "Protect"
+}

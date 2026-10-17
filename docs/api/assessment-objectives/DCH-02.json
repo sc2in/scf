@@ -1,11 +1,51 @@
 {
   "scf_control_id": "DCH-02",
-  "total": 2,
+  "total": 8,
   "assessment_objectives": [
     {
       "scf_control_id": "DCH-02",
       "ao_id": "DCH-02_A01",
-      "objective": "a data classification scheme is defined that covers reasonable data types to address the organization's operational needs.",
+      "objective": "paper media containing sensitive / regulated data is physically controlled.",
+      "pptdf": "Data",
+      "origin": "171A_3.8.1[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-02",
+      "ao_id": "DCH-02_A02",
+      "objective": "digital media containing sensitive / regulated data is physically controlled.",
+      "pptdf": "Data",
+      "origin": "171A_3.8.1[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-02",
+      "ao_id": "DCH-02_A03",
+      "objective": "paper media containing sensitive / regulated data is securely stored.",
+      "pptdf": "Data",
+      "origin": "171A_3.8.1[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-02",
+      "ao_id": "DCH-02_A04",
+      "objective": "digital media containing sensitive / regulated data is securely stored.",
+      "pptdf": "Data",
+      "origin": "171A_3.8.1[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-02",
+      "ao_id": "DCH-02_A05",
+      "objective": "data classification & handling management operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -14,11 +54,31 @@
     },
     {
       "scf_control_id": "DCH-02",
-      "ao_id": "DCH-02_A02",
-      "objective": "data and assets are categorized in accordance with the data classification scheme that addresses applicable statutory, regulatory and contractual requirements.",
+      "ao_id": "DCH-02_A06",
+      "objective": "resources (personnel, processes, technologies, data and/or facilities) are allocated to support data classification & handling management operations.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-02",
+      "ao_id": "DCH-02_A07",
+      "objective": "responsibility and authority for the performance of data classification & handling management-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-02",
+      "ao_id": "DCH-02_A08",
+      "objective": "personnel performing data classification & handling management-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

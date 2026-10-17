@@ -1,23 +1,53 @@
 {
   "scf_control_id": "TPM-12.2",
-  "total": 2,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "TPM-12.2",
       "ao_id": "TPM-12.2_A01",
-      "objective": "contracts with third-parties contractually impose safeguards (e.g., additional controls, access modification, contract termination, etc.) from Foreign Ownership, Control or Influence (FOCI) concerns to ensure that unauthorized access to sensitive and/or regulated data is prevented.",
+      "objective": "locations where information processing and data storage is/are to be restricted are defined.",
       "pptdf": "Process",
-      "origin": "SCF Created",
+      "origin": "53A_R5_SA-09(05)_ODP[01]\n53A_R5_SA-09(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "information processing, information or data, AND system services",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-12.2",
+      "ao_id": "TPM-12.2_A02",
+      "objective": "requirements or conditions for restricting the location of information processing, information storage or information services are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(05)_ODP[03]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "TPM-12.2",
-      "ao_id": "TPM-12.2_A02",
-      "objective": "contracts with third-parties contractually impose safeguards (e.g., additional controls, access modification, contract termination, etc.) from FOCI concerns to ensure that performance of contracts is not adversely affected.",
+      "ao_id": "TPM-12.2_A03",
+      "objective": "based on requirements, information processing, information storage or information services is/are restricted to locations.",
       "pptdf": "Process",
-      "origin": "SCF Created",
+      "origin": "53A_R5_SA-09(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-12.2",
+      "ao_id": "TPM-12.2_A04",
+      "objective": "the location or site of the facility where the system resides is planned considering physical and environmental hazards.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-23a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-12.2",
+      "ao_id": "TPM-12.2_A05",
+      "objective": "for existing facilities, physical and environmental hazards are considered in the organizational risk management strategy.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-23b.",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

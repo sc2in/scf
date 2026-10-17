@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.19",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Maintenance Policy",
+  "artifact_description": "Documented evidence of a maintenance policy.",
+  "scf_controls": [
+    "GOV-04",
+    "MNT-01"
+  ],
+  "cmmc_mapping": ""
+}

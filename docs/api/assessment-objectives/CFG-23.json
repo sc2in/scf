@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CFG-23",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-23",
+      "ao_id": "CFG-23_A01",
+      "objective": "Control Assurance Automation (CAA) collection code, queries and transformation logic are maintained under version control.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-23",
+      "ao_id": "CFG-23_A02",
+      "objective": "changes to Control Assurance Automation (CAA) collection code, queries and transformation logic are peer reviewed by an individual other than the author prior to deployment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-23",
+      "ao_id": "CFG-23_A03",
+      "objective": "changes to Control Assurance Automation (CAA) collection code, queries and transformation logic are tested prior to deployment to confirm they produce the intended results.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-23",
+      "ao_id": "CFG-23_A04",
+      "objective": "changes to Control Assurance Automation (CAA) collection code, queries and transformation logic are authorized through change management, with approval recorded prior to deployment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-23",
+      "ao_id": "CFG-23_A05",
+      "objective": "the level of review, testing and change management rigor applied to Control Assurance Automation (CAA) logic is defined commensurate with the sensitivity of the Technology Assets, Applications, Services and/or Data (TAASD) accessed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

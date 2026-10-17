@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CFG-04.12",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-04.12",
+      "ao_id": "CFG-04.12_A01",
+      "objective": "Multi-Function Devices (MFD) are securely configured according to industry-recognized secure practices for the type of device.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, a vendor-published hardening guide or an established configuration benchmark such as the Center for Internet Security (CIS) Benchmarks",
+      "org_defined_parameters": ""
+    }
+  ]
+}

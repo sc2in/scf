@@ -4,7 +4,10 @@
   "artifact_name": "Software Licenses",
   "artifact_description": "Documented evidence of software license inventories.",
   "scf_controls": [
-    "AST-02"
+    "AST-04",
+    "AST-13",
+    "CFG-11",
+    "CFG-13"
   ],
   "cmmc_mapping": ""
 }

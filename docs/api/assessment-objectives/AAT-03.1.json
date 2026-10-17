@@ -5,7 +5,7 @@
     {
       "scf_control_id": "AAT-03.1",
       "ao_id": "AAT-03.1_A01",
-      "objective": "the mission for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is clearly documented.",
+      "objective": "the organization analyzes its business practices to identify opportunities to sustain the value of deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,11 +15,11 @@
     {
       "scf_control_id": "AAT-03.1",
       "ao_id": "AAT-03.1_A02",
-      "objective": "the relevant goals for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are clearly documented.",
+      "objective": "the organization implements documented improvements to its business practices, per an organization-defined frequency, to sustain the value of deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     }
   ]

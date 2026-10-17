@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CPL-15",
+  "area": "Compliance",
+  "artifact_name": "Due Diligence & Due Care Work Products",
+  "artifact_description": "Documented evidence of retained work products that demonstrate due diligence and due care (e.g., continuous control monitoring outputs, assessment work papers).",
+  "scf_controls": [
+    "CPL-18",
+    "CPL-26",
+    "CPL-26.1",
+    "CPL-26.2"
+  ],
+  "cmmc_mapping": ""
+}

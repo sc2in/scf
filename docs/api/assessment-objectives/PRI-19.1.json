@@ -1,22 +1,12 @@
 {
   "scf_control_id": "PRI-19.1",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "PRI-19.1",
       "ao_id": "PRI-19.1_A01",
-      "objective": "processes using Automated Decision-Making Technology (ADMT) are identified.",
+      "objective": "data subjects are provided with a Notice of Financial Incentive that explains the material terms of a financial incentive, price or service difference so the data subject can make an informed decision about whether to participate.",
       "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "PRI-19.1",
-      "ao_id": "PRI-19.1_A02",
-      "objective": "data subjects are notified of their rights through a pre-use notice when their Personal Data (PD) will be processed by an Automated Decision-Making Technology (ADMT).",
-      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

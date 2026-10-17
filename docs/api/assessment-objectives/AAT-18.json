@@ -1,11 +1,31 @@
 {
   "scf_control_id": "AAT-18",
-  "total": 1,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-18",
       "ao_id": "AAT-18_A01",
-      "objective": "an executive steering committee, or advisory board, tracks Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks are difficult to assess using currently available measurement techniques or where metrics are not yet available.",
+      "objective": "an executive steering committee, or advisory board, evaluates business processes that use, or are proposed to use, Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-18",
+      "ao_id": "AAT-18_A02",
+      "objective": "measures exist for the executive steering committee, or advisory board, to proactively identify and evaluate third-party Intellectual Property (IP) infringement risks from Artificial Intelligence (AI) and Autonomous Technologies (AAT) usage.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-18",
+      "ao_id": "AAT-18_A03",
+      "objective": "actions are taken to prevent and/or block Artificial Intelligence (AI) and Autonomous Technologies (AAT) capabilities that infringe upon another party's Intellectual Property (IP).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "MON-13",
-  "total": 2,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "MON-13",
       "ao_id": "MON-13_A01",
-      "objective": "an alternate event logging functionality in the event of a failure in primary event logging capability is defined.",
+      "objective": "a time period to retain audit records that is consistent with the records retention policy is defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_AU-05(05)_ODP",
+      "origin": "171A_3.3.1[e]\n53A_R5_AU-11_ODP",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,11 +15,21 @@
     {
       "scf_control_id": "MON-13",
       "ao_id": "MON-13_A02",
-      "objective": "an alternate event logging capability is provided in the event of a failure in primary event logging capability that implements organization-defined alternate event logging functionality.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_AU-05(05)",
+      "objective": "audit records are retained for a time period consistent with the records retention policy.",
+      "pptdf": "Data",
+      "origin": "171A_3.3.1[f]\n171A_R3_A.03.03.03.b\n53A_R5_AU-11",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-13",
+      "ao_id": "MON-13_A03",
+      "objective": "security-relevant telemetry is retained for a time period consistent with records retention requirements and applicable statutory, regulatory and contractual retention requirements.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least twelve (12) months, with at least the most recent three (3) months immediately available for analysis",
       "org_defined_parameters": ""
     }
   ]

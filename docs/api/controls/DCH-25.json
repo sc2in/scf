@@ -1,141 +1,264 @@
 {
   "control_id": "DCH-25",
-  "title": "Transfer of Sensitive and/or Regulated Data",
+  "title": "Ad-Hoc Transfers",
   "family": "DCH",
-  "description": "Mechanisms exist to restrict and govern the transfer of sensitive and/or regulated data to third-countries or international organizations.",
-  "scf_question": "Does the organization restrict and govern the transfer of sensitive and/or regulated data to third-countries or international organizations?",
-  "relative_weight": 10,
+  "description": "Mechanisms exist to secure ad-hoc exchanges of large digital files with internal or external parties.",
+  "scf_question": "Does the organization secure ad-hoc exchanges of large digital files with internal or external parties?",
+  "relative_weight": 8,
   "conformity_cadence": "Annual",
-  "evidence_requests": [],
+  "evidence_requests": [
+    "E-DCH-19"
+  ],
   "pptdf": "Data",
   "nist_csf_function": "Protect",
   "scrm_focus": {
     "strategic": false,
     "operational": true,
-    "tactical": false
+    "tactical": true
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
-    "2": "Data Classification & Handling (DCH) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data classification and handling-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Data classification and handling management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ A formalized data classification scheme exists to identify categories of data, based on protection requirements from applicable laws, regulations and/or contractual obligations.",
-    "3": "Data Classification & Handling (DCH) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are well-documented and kept current by process owners.\n▪ A Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain DCH domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data classification and handling operations (e.g., GRC platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to restrict and govern the transfer of sensitive and/or regulated data to third-countries or international organizations.",
+    "1": "Data Classification & Handling (DCH) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with DCH domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Data management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Restrictions for ad-hoc data transfers are primarily administrative in nature (e.g., policies & standards).",
+    "2": "Data Classification & Handling (DCH) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data classification and handling-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Data classification and handling management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ A formalized data classification scheme exists to identify categories of data, based on protection requirements from applicable laws, regulations and/or contractual obligations.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to document where sensitive/regulated data is stored, transmitted and/or processed.",
+    "3": "Data Classification & Handling (DCH) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are well-documented and kept current by process owners.\n▪ A Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain DCH domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data classification and handling operations (e.g., GRC platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to secure ad-hoc exchanges of large digital files with internal or external parties.",
     "4": "Data Classification & Handling (DCH) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
     "5": "Data Classification & Handling (DCH) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
   "profiles": [
     "SCRMS",
-    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)",
+    "CORE MSO Level 1 Initial Public Draft",
+    "CORE MSO Level 2 Initial Public Draft",
+    "CORE MSO Level 3 Initial Public Draft"
   ],
   "possible_solutions": {
-    "micro_small": "∙ Model contracts\n∙ Binding Corporate Rules (BCR)",
-    "small": "∙ Model contracts\n∙ Binding Corporate Rules (BCR)",
-    "medium": "∙ Model contracts\n∙ Binding Corporate Rules (BCR)",
-    "large": "∙ Model contracts\n∙ Binding Corporate Rules (BCR)",
-    "enterprise": "∙ Model contracts\n∙ Binding Corporate Rules (BCR)"
+    "micro_small": "∙ Data classification program\n∙ Secure Baseline Configurations (SBC)\n∙ Content / DNS filtering",
+    "small": "∙ Data classification program\n∙ Secure Baseline Configurations (SBC)\n∙ Content / DNS filtering",
+    "medium": "∙ Data classification program\n∙ Secure Baseline Configurations (SBC)\n∙ Content / DNS filtering",
+    "large": "∙ Data classification program\n∙ Secure Baseline Configurations (SBC)\n∙ Content / DNS filtering∙ Data governance program",
+    "enterprise": "∙ Data classification program\n∙ Secure Baseline Configurations (SBC)\n∙ Content / DNS filtering∙ Data governance program"
   },
   "risks": [
-    "R-AC-1",
-    "R-AC-3",
     "R-AC-4",
-    "R-AM-1",
-    "R-AM-2",
     "R-AM-3",
-    "R-BC-1",
-    "R-BC-2",
-    "R-BC-3",
     "R-BC-4",
     "R-BC-5",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
     "R-EX-4",
     "R-EX-5",
-    "R-EX-6",
-    "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
+    "R-EX-9",
     "R-GV-4",
     "R-GV-5",
-    "R-GV-6",
-    "R-GV-7",
-    "R-IR-1",
-    "R-IR-4",
-    "R-SA-1",
-    "R-SC-1",
-    "R-SC-2",
-    "R-SC-3",
-    "R-SC-4",
-    "R-SC-5",
-    "R-SC-6"
+    "R-IP-1",
+    "R-IP-2",
+    "R-IP-3",
+    "R-IP-5",
+    "R-IP-6"
   ],
   "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
     "NT-7",
-    "MT-1",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
     "MT-2",
-    "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
-    "MT-11",
-    "MT-12",
-    "MT-13",
     "MT-14",
     "MT-15",
-    "MT-24",
-    "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-28",
+    "MT-31"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Possible",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Unlikely",
+    "R-AM-3": "Possible",
+    "R-BC-1": "Unlikely",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Possible",
+    "R-BC-5": "Possible",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Possible",
+    "R-EX-5": "Possible",
+    "R-EX-6": "Unlikely",
+    "R-EX-7": "Unlikely",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Possible",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Possible",
+    "R-GV-5": "Possible",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Unlikely",
+    "R-GV-10": "Unlikely",
+    "R-IR-1": "Unlikely",
+    "R-IR-2": "Unlikely",
+    "R-IR-3": "Unlikely",
+    "R-IR-4": "Unlikely",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Unlikely",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Possible",
+    "R-IP-2": "Likely",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Unlikely",
+    "R-IP-5": "Possible",
+    "R-IP-6": "Possible",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Likely",
+    "MT-3": "Unlikely",
+    "MT-4": "Unlikely",
+    "MT-5": "Unlikely",
+    "MT-6": "Unlikely",
+    "MT-7": "Unlikely",
+    "MT-8": "Possible",
+    "MT-9": "Likely",
+    "MT-10": "Possible",
+    "MT-11": "Unlikely",
+    "MT-12": "Unlikely",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Possible",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Unlikely",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Unlikely",
+    "MT-24": "Unlikely",
+    "MT-25": "Unlikely",
+    "MT-26": "Unlikely",
+    "MT-27": "Unlikely",
+    "MT-28": "Possible",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Possible"
+  },
+  "errata": "- renumbered",
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-aicpa-pmf-2020": [
-      "D6.1",
       "S7.3"
     ],
+    "general-aicpa-tsc-2017": [
+      "CC6.7",
+      "CC6.7-POF1"
+    ],
     "general-csa-cmm-4-1-0": [
-      "DCS-03"
+      "DSP-10"
     ],
-    "general-csa-iot-2": [
-      "LGL-08"
+    "general-iso-27002-2022": [
+      "5.14"
     ],
-    "general-nist-800-207": [
-      "NIST Tenet 4"
+    "general-iso-27017-2015": [
+      "13.2.1"
     ],
-    "general-swift-cscf-2025": [
-      "2.4",
-      "2.5A",
-      "2.9"
+    "general-iso-27018-2025": [
+      "5.14"
     ],
-    "emea-eu-gdpr-2016": [
-      "Article 44",
-      "Article 45.1",
-      "Article 46.1",
-      "Article 46.2",
-      "Article 46.2(a)",
-      "Article 49.1",
-      "Article 49.1(a)",
-      "Article 49.1(b)",
-      "Article 49.1(c)",
-      "Article 49.1(d)",
-      "Article 49.1(e)",
-      "Article 49.1(f)",
-      "Article 49.1(g)",
-      "Article 49.2",
-      "Article 49.3",
-      "Article 49.4",
-      "Article 49.6"
+    "general-mpa-csbp-5-3-1": [
+      "TS-1.16"
     ],
-    "emea-ken-pda-2019": [
-      "IV.25(h)"
+    "general-nist-800-171-r2": [
+      "3.1.20"
     ],
-    "emea-nga-dpr-2019": [
-      "2.11"
+    "general-nist-800-171-r3": [
+      "03.01.20.a"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.20.a"
+    ],
+    "usa-federal-dow-cmmc-2-level-1": [
+      "AC.L1-B.1.III"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "ACL2.-3.1.20"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)(iii)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "2.E.2"
+    ],
+    "emea-esp-ccn-stic-825-2026": [
+      "mp.s.1"
     ],
     "emea-sau-cscc-1-2019": [
       "2-6-1-5"
     ],
-    "emea-sau-pdpl-2023": [
-      "Article 29.1"
+    "emea-sau-otcc-1-2022": [
+      "2-6-1-4"
+    ],
+    "apac-aus-ism-2026-june": [
+      "ISM-0347",
+      "ISM-0947",
+      "ISM-1778",
+      "ISM-1779"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.20.A"
     ]
   }
 }

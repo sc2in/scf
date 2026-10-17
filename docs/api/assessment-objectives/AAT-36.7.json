@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-36.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-36.7",
+      "ao_id": "AAT-36.7_A01",
+      "objective": "the information source(s) and quality of pre-trained models used in Artificial Intelligence (AI) and Autonomous Technologies (AAT) training, maintenance and improvement-related activities are validated.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

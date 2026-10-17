@@ -2,9 +2,9 @@
   "framework_id": "emea-esp-decree-311-2022",
   "display_name": "Spain - Royal Decree 311/2022",
   "scf_to_framework": {
-    "total_mappings": 72,
+    "total_mappings": 76,
     "mappings": {
-      "GOV-01": [
+      "GOV-02": [
         "Article 8(1)",
         "Article 8(2)",
         "Article 8(5)",
@@ -17,67 +17,62 @@
         "Article 10(3)",
         "Article 12(6)(a)"
       ],
-      "GOV-01.1": [
-        "Article 12(1)(d)"
-      ],
-      "GOV-01.2": [
-        "Article 31(6)"
-      ],
-      "GOV-01.3": [
-        "Article 12(6)(ñ)",
-        "Article 27"
-      ],
-      "GOV-01.4": [
+      "GOV-03.1": [
         "Article 12(1)(b)"
       ],
-      "GOV-02": [
+      "GOV-04": [
         "Article 11(3)",
         "Article 12(1)",
         "Article 12(6)"
       ],
-      "GOV-04": [
+      "GOV-05": [
         "Article 13(3)"
       ],
-      "GOV-04.1": [
+      "GOV-05.1": [
         "Article 11(2)",
         "Article 13(3)"
       ],
-      "GOV-08": [
+      "GOV-06": [
         "Article 12(1)(a)"
       ],
-      "GOV-15": [
+      "GOV-09": [
+        "Article 12(1)(d)"
+      ],
+      "GOV-09.1": [
+        "Article 31(6)"
+      ],
+      "GOV-11": [
         "Article 13(2)(d)",
         "Article 15(1)"
       ],
-      "GOV-15.1": [
+      "GOV-11.1": [
         "Article 28(2)"
       ],
-      "GOV-19.3": [
-        "Article 14(1)",
-        "Article 16(2)"
-      ],
-      "AST-01.2": [
+      "AST-07": [
         "Article 11(1)",
         "Article 11(2)"
       ],
-      "AST-04.1": [
+      "AST-16": [
         "Article 40(1)",
         "Article 40(2)"
       ],
       "BCD-01": [
+        "Article 12(6)(n)"
+      ],
+      "BCD-02": [
         "Article 12(6)(n)",
         "Article 22(2)"
       ],
-      "BCD-11": [
+      "BCD-24": [
         "Article 26"
       ],
-      "CPL-01": [
+      "CPL-02": [
         "Article 37"
       ],
-      "CPL-01.3": [
+      "CPL-04": [
         "Article 38(1)"
       ],
-      "CPL-01.4": [
+      "CPL-04.1": [
         "Article 31(1)",
         "Article 31(2)",
         "Article 31(3)",
@@ -85,129 +80,135 @@
         "Article 31(5)",
         "Article 31(7)"
       ],
-      "CPL-01.5": [
+      "CPL-04.4": [
         "Article 38(2)"
       ],
-      "CPL-02": [
-        "Article 16(1)"
-      ],
-      "CPL-03": [
+      "CPL-05": [
         "Article 15(1)"
       ],
-      "CFG-02": [
+      "CPL-07": [
+        "Article 16(1)"
+      ],
+      "CFG-03": [
+        "Article 20(c)"
+      ],
+      "CFG-04": [
         "Article 12(7)",
         "Article 20(a)",
         "Article 20(c)",
         "Article 20(d)",
         "Single Transitional Provision(3)"
       ],
-      "CFG-02.2": [
+      "CFG-07.1": [
         "Article 21(2)"
       ],
-      "CFG-03": [
-        "Article 20(c)"
-      ],
-      "MON-01": [
+      "MON-02": [
         "Article 8(3)",
         "Article 12(6)(l)",
         "Article 24(1)",
         "Article 24(2)"
       ],
-      "MON-03": [
+      "MON-09": [
         "Article 20(b)"
       ],
-      "CRY-01": [
+      "CRY-02": [
         "Article 12(6)(j)"
       ],
-      "DCH-01": [
-        "Article 22(3)"
+      "CRY-05": [
+        "Article 12(6)(j)"
       ],
-      "DCH-01.2": [
-        "Article 22(3)"
+      "CRY-06": [
+        "Article 12(6)(j)"
       ],
       "DCH-02": [
+        "Article 22(3)"
+      ],
+      "DCH-04": [
         "Article 40(1)"
       ],
-      "DCH-13": [
+      "DCH-07": [
+        "Article 22(3)"
+      ],
+      "DCH-20": [
         "Article 22(1)"
       ],
-      "DCH-13.2": [
+      "DCH-22": [
         "Article 22(1)"
       ],
-      "END-02": [
+      "END-03": [
         "Article 23"
       ],
-      "HRS-01": [
+      "HRS-02": [
         "Article 12(6)(c)"
       ],
-      "HRS-02": [
-        "Article 16(3)"
-      ],
       "HRS-03": [
-        "Article 12(1)(c)",
-        "Article 13(2)"
+        "Article 16(3)"
       ],
       "HRS-03.2": [
         "Article 16(2)"
       ],
-      "HRS-05": [
+      "HRS-04": [
+        "Article 12(1)(c)",
+        "Article 13(2)"
+      ],
+      "HRS-06": [
         "Article 12(6)(d)",
         "Article 13(1)"
       ],
-      "HRS-05.1": [
+      "HRS-06.1": [
         "Article 15(2)"
       ],
-      "HRS-05.7": [
+      "HRS-08.2": [
         "Article 13(2)"
       ],
-      "IAC-01": [
+      "IAC-02": [
         "Article 12(6)(e)",
         "Article 24(3)"
       ],
-      "IAC-08": [
+      "IAC-06": [
         "Article 17"
       ],
-      "IAC-21": [
+      "IAC-30": [
         "Article 12(6)(h)",
         "Article 20"
       ],
-      "IRO-01": [
+      "IRO-02": [
         "Article 8(4)",
         "Article 12(6)(m)",
         "Article 25(1)"
       ],
-      "IRO-02": [
+      "IRO-06": [
         "Article 25(2)",
         "Article 34(1)(a)"
       ],
-      "IRO-10.5": [
+      "IRO-16.3": [
         "Article 33(7)"
       ],
-      "IAO-01": [
+      "IAO-02": [
         "Article 13(2)(c)",
         "Article 21(1)"
       ],
-      "IAO-03": [
+      "IAO-09": [
         "Article 12(1)(e)",
         "Article 15(2)"
       ],
-      "IAO-07": [
+      "IAO-14": [
         "Article 21(1)"
       ],
-      "MDM-01": [
+      "MDM-02": [
         "Article 22(1)"
       ],
-      "NET-01": [
+      "NET-02": [
         "Article 12(6)(k)",
         "Article 18"
       ],
       "NET-05": [
         "Article 23"
       ],
-      "PES-01": [
+      "PES-02": [
         "Article 12(6)(f)"
       ],
-      "PRI-01.6": [
+      "PRI-10": [
         "Article 5(a)",
         "Article 5(b)",
         "Article 5(c)",
@@ -216,64 +217,75 @@
         "Article 5(f)",
         "Article 5(g)"
       ],
-      "PRM-04": [
+      "PRM-05.1": [
+        "Article 12(6)(ñ)",
+        "Article 27"
+      ],
+      "PRM-08": [
         "Article 16(1)"
       ],
-      "PRM-05": [
+      "PRM-09": [
         "Article 13(2)(a)",
         "Article 13(2)(b)"
       ],
-      "PRM-06": [
+      "PRM-10": [
         "Article 13(2)(a)",
         "Article 13(2)(b)"
       ],
       "RSK-01": [
+        "Article 12(6)(b)"
+      ],
+      "RSK-02": [
         "Article 7(2)",
         "Article 12(6)(b)"
       ],
-      "RSK-01.1": [
+      "RSK-05": [
         "Article 14(2)"
       ],
-      "RSK-04": [
+      "RSK-13": [
         "Article 14(2)"
       ],
-      "RSK-06": [
+      "RSK-17": [
         "Article 3(3)"
       ],
-      "RSK-06.2": [
-        "Article 28(3)"
-      ],
-      "RSK-06.4": [
+      "RSK-17.1": [
         "Article 14(3)"
       ],
-      "RSK-10": [
+      "RSK-18": [
+        "Article 28(3)"
+      ],
+      "RSK-19": [
         "Article 3(2)",
         "Article 12(1)(f)"
       ],
-      "RSK-11": [
+      "RSK-22": [
         "Article 14(1)"
       ],
-      "SEA-02.2": [
-        "Article 14(1)"
-      ],
-      "SAT-03": [
+      "SAT-05": [
         "Article 6(2)",
         "Article 15(1)",
         "Article 16(3)"
       ],
-      "TDA-01": [
+      "TDA-02": [
         "Article 12(6)(g)",
         "Article 19(1)"
       ],
-      "TPM-05.4": [
+      "TPM-05": [
+        "Article 14(1)",
+        "Article 16(2)"
+      ],
+      "TPM-05.1": [
+        "Article 14(1)"
+      ],
+      "TPM-11": [
         "Article 11(2)",
         "Article 13(3)",
         "Article 13(5)"
       ],
-      "TPM-06": [
+      "TPM-13": [
         "Article 13(5)"
       ],
-      "VPM-01": [
+      "VPM-02": [
         "Article 12(6)(i)"
       ]
     }
@@ -282,340 +294,344 @@
     "total_mappings": 104,
     "mappings": {
       "Article 8(1)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 8(2)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 8(5)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 9(1)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 9(1)(a)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 9(1)(b)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 9(2)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 10(1)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 10(2)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 10(3)": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 12(6)(a)": [
-        "GOV-01"
-      ],
-      "Article 12(1)(d)": [
-        "GOV-01.1"
-      ],
-      "Article 31(6)": [
-        "GOV-01.2"
-      ],
-      "Article 12(6)(ñ)": [
-        "GOV-01.3"
-      ],
-      "Article 27": [
-        "GOV-01.3"
+        "GOV-02"
       ],
       "Article 12(1)(b)": [
-        "GOV-01.4"
+        "GOV-03.1"
       ],
       "Article 11(3)": [
-        "GOV-02"
+        "GOV-04"
       ],
       "Article 12(1)": [
-        "GOV-02"
+        "GOV-04"
       ],
       "Article 12(6)": [
-        "GOV-02"
+        "GOV-04"
       ],
       "Article 13(3)": [
-        "GOV-04",
-        "GOV-04.1",
-        "TPM-05.4"
+        "GOV-05",
+        "GOV-05.1",
+        "TPM-11"
       ],
       "Article 11(2)": [
-        "GOV-04.1",
-        "AST-01.2",
-        "TPM-05.4"
+        "GOV-05.1",
+        "AST-07",
+        "TPM-11"
       ],
       "Article 12(1)(a)": [
-        "GOV-08"
+        "GOV-06"
+      ],
+      "Article 12(1)(d)": [
+        "GOV-09"
+      ],
+      "Article 31(6)": [
+        "GOV-09.1"
       ],
       "Article 13(2)(d)": [
-        "GOV-15"
+        "GOV-11"
       ],
       "Article 15(1)": [
-        "GOV-15",
-        "CPL-03",
-        "SAT-03"
+        "GOV-11",
+        "CPL-05",
+        "SAT-05"
       ],
       "Article 28(2)": [
-        "GOV-15.1"
-      ],
-      "Article 14(1)": [
-        "GOV-19.3",
-        "RSK-11",
-        "SEA-02.2"
-      ],
-      "Article 16(2)": [
-        "GOV-19.3",
-        "HRS-03.2"
+        "GOV-11.1"
       ],
       "Article 11(1)": [
-        "AST-01.2"
+        "AST-07"
       ],
       "Article 40(1)": [
-        "AST-04.1",
-        "DCH-02"
+        "AST-16",
+        "DCH-04"
       ],
       "Article 40(2)": [
-        "AST-04.1"
+        "AST-16"
       ],
       "Article 12(6)(n)": [
-        "BCD-01"
+        "BCD-01",
+        "BCD-02"
       ],
       "Article 22(2)": [
-        "BCD-01"
+        "BCD-02"
       ],
       "Article 26": [
-        "BCD-11"
+        "BCD-24"
       ],
       "Article 37": [
-        "CPL-01"
+        "CPL-02"
       ],
       "Article 38(1)": [
-        "CPL-01.3"
+        "CPL-04"
       ],
       "Article 31(1)": [
-        "CPL-01.4"
+        "CPL-04.1"
       ],
       "Article 31(2)": [
-        "CPL-01.4"
+        "CPL-04.1"
       ],
       "Article 31(3)": [
-        "CPL-01.4"
+        "CPL-04.1"
       ],
       "Article 31(4)": [
-        "CPL-01.4"
+        "CPL-04.1"
       ],
       "Article 31(5)": [
-        "CPL-01.4"
+        "CPL-04.1"
       ],
       "Article 31(7)": [
-        "CPL-01.4"
+        "CPL-04.1"
       ],
       "Article 38(2)": [
-        "CPL-01.5"
+        "CPL-04.4"
       ],
       "Article 16(1)": [
-        "CPL-02",
-        "PRM-04"
-      ],
-      "Article 12(7)": [
-        "CFG-02"
-      ],
-      "Article 20(a)": [
-        "CFG-02"
+        "CPL-07",
+        "PRM-08"
       ],
       "Article 20(c)": [
-        "CFG-02",
-        "CFG-03"
+        "CFG-03",
+        "CFG-04"
+      ],
+      "Article 12(7)": [
+        "CFG-04"
+      ],
+      "Article 20(a)": [
+        "CFG-04"
       ],
       "Article 20(d)": [
-        "CFG-02"
+        "CFG-04"
       ],
       "Single Transitional Provision(3)": [
-        "CFG-02"
+        "CFG-04"
       ],
       "Article 21(2)": [
-        "CFG-02.2"
+        "CFG-07.1"
       ],
       "Article 8(3)": [
-        "MON-01"
+        "MON-02"
       ],
       "Article 12(6)(l)": [
-        "MON-01"
+        "MON-02"
       ],
       "Article 24(1)": [
-        "MON-01"
+        "MON-02"
       ],
       "Article 24(2)": [
-        "MON-01"
+        "MON-02"
       ],
       "Article 20(b)": [
-        "MON-03"
+        "MON-09"
       ],
       "Article 12(6)(j)": [
-        "CRY-01"
+        "CRY-02",
+        "CRY-05",
+        "CRY-06"
       ],
       "Article 22(3)": [
-        "DCH-01",
-        "DCH-01.2"
+        "DCH-02",
+        "DCH-07"
       ],
       "Article 22(1)": [
-        "DCH-13",
-        "DCH-13.2",
-        "MDM-01"
+        "DCH-20",
+        "DCH-22",
+        "MDM-02"
       ],
       "Article 23": [
-        "END-02",
+        "END-03",
         "NET-05"
       ],
       "Article 12(6)(c)": [
-        "HRS-01"
+        "HRS-02"
       ],
       "Article 16(3)": [
-        "HRS-02",
-        "SAT-03"
+        "HRS-03",
+        "SAT-05"
+      ],
+      "Article 16(2)": [
+        "HRS-03.2",
+        "TPM-05"
       ],
       "Article 12(1)(c)": [
-        "HRS-03"
+        "HRS-04"
       ],
       "Article 13(2)": [
-        "HRS-03",
-        "HRS-05.7"
+        "HRS-04",
+        "HRS-08.2"
       ],
       "Article 12(6)(d)": [
-        "HRS-05"
+        "HRS-06"
       ],
       "Article 13(1)": [
-        "HRS-05"
+        "HRS-06"
       ],
       "Article 15(2)": [
-        "HRS-05.1",
-        "IAO-03"
+        "HRS-06.1",
+        "IAO-09"
       ],
       "Article 12(6)(e)": [
-        "IAC-01"
+        "IAC-02"
       ],
       "Article 24(3)": [
-        "IAC-01"
+        "IAC-02"
       ],
       "Article 17": [
-        "IAC-08"
+        "IAC-06"
       ],
       "Article 12(6)(h)": [
-        "IAC-21"
+        "IAC-30"
       ],
       "Article 20": [
-        "IAC-21"
+        "IAC-30"
       ],
       "Article 8(4)": [
-        "IRO-01"
+        "IRO-02"
       ],
       "Article 12(6)(m)": [
-        "IRO-01"
+        "IRO-02"
       ],
       "Article 25(1)": [
-        "IRO-01"
+        "IRO-02"
       ],
       "Article 25(2)": [
-        "IRO-02"
+        "IRO-06"
       ],
       "Article 34(1)(a)": [
-        "IRO-02"
+        "IRO-06"
       ],
       "Article 33(7)": [
-        "IRO-10.5"
+        "IRO-16.3"
       ],
       "Article 13(2)(c)": [
-        "IAO-01"
+        "IAO-02"
       ],
       "Article 21(1)": [
-        "IAO-01",
-        "IAO-07"
+        "IAO-02",
+        "IAO-14"
       ],
       "Article 12(1)(e)": [
-        "IAO-03"
+        "IAO-09"
       ],
       "Article 12(6)(k)": [
-        "NET-01"
+        "NET-02"
       ],
       "Article 18": [
-        "NET-01"
+        "NET-02"
       ],
       "Article 12(6)(f)": [
-        "PES-01"
+        "PES-02"
       ],
       "Article 5(a)": [
-        "PRI-01.6"
+        "PRI-10"
       ],
       "Article 5(b)": [
-        "PRI-01.6"
+        "PRI-10"
       ],
       "Article 5(c)": [
-        "PRI-01.6"
+        "PRI-10"
       ],
       "Article 5(d)": [
-        "PRI-01.6"
+        "PRI-10"
       ],
       "Article 5(e)": [
-        "PRI-01.6"
+        "PRI-10"
       ],
       "Article 5(f)": [
-        "PRI-01.6"
+        "PRI-10"
       ],
       "Article 5(g)": [
-        "PRI-01.6"
+        "PRI-10"
+      ],
+      "Article 12(6)(ñ)": [
+        "PRM-05.1"
+      ],
+      "Article 27": [
+        "PRM-05.1"
       ],
       "Article 13(2)(a)": [
-        "PRM-05",
-        "PRM-06"
+        "PRM-09",
+        "PRM-10"
       ],
       "Article 13(2)(b)": [
-        "PRM-05",
-        "PRM-06"
-      ],
-      "Article 7(2)": [
-        "RSK-01"
+        "PRM-09",
+        "PRM-10"
       ],
       "Article 12(6)(b)": [
-        "RSK-01"
+        "RSK-01",
+        "RSK-02"
+      ],
+      "Article 7(2)": [
+        "RSK-02"
       ],
       "Article 14(2)": [
-        "RSK-01.1",
-        "RSK-04"
+        "RSK-05",
+        "RSK-13"
       ],
       "Article 3(3)": [
-        "RSK-06"
-      ],
-      "Article 28(3)": [
-        "RSK-06.2"
+        "RSK-17"
       ],
       "Article 14(3)": [
-        "RSK-06.4"
+        "RSK-17.1"
+      ],
+      "Article 28(3)": [
+        "RSK-18"
       ],
       "Article 3(2)": [
-        "RSK-10"
+        "RSK-19"
       ],
       "Article 12(1)(f)": [
-        "RSK-10"
+        "RSK-19"
+      ],
+      "Article 14(1)": [
+        "RSK-22",
+        "TPM-05",
+        "TPM-05.1"
       ],
       "Article 6(2)": [
-        "SAT-03"
+        "SAT-05"
       ],
       "Article 12(6)(g)": [
-        "TDA-01"
+        "TDA-02"
       ],
       "Article 19(1)": [
-        "TDA-01"
+        "TDA-02"
       ],
       "Article 13(5)": [
-        "TPM-05.4",
-        "TPM-06"
+        "TPM-11",
+        "TPM-13"
       ],
       "Article 12(6)(i)": [
-        "VPM-01"
+        "VPM-02"
       ]
     }
   }

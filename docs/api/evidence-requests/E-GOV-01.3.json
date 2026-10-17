@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.3",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Asset Management Policy",
+  "artifact_description": "Documented evidence of a asset management policy.",
+  "scf_controls": [
+    "AST-01",
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

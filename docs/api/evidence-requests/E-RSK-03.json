@@ -4,15 +4,14 @@
   "artifact_name": "Plan of Actions & Milestones (POA&M) / Risk Register",
   "artifact_description": "Documented evidence of a POA&M, or risk register, that tracks control deficiencies from identification through remediation.",
   "scf_controls": [
-    "AST-02.4",
-    "CPL-02",
-    "IAO-05",
-    "RSK-04.1",
-    "RSK-06",
-    "RSK-06.1",
-    "RSK-06.2",
-    "VPM-02",
-    "VPM-03"
+    "CPL-06.1",
+    "IAO-12",
+    "RSK-11",
+    "RSK-14",
+    "RSK-16",
+    "RSK-17",
+    "RSK-22",
+    "VPM-06"
   ],
   "cmmc_mapping": ""
 }

@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-TDA-19",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Hardware / Indentured Bill of Materials (HBOM / IBOM)",
+  "artifact_description": "Documented evidence of Hardware Bills of Materials (HBOM) and/or Indentured Bills of Materials (IBOM).",
+  "scf_controls": [
+    "TDA-21",
+    "TDA-21.2",
+    "TDA-21.3"
+  ],
+  "cmmc_mapping": ""
+}

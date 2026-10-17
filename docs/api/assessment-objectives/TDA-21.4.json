@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-21.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-21.4",
+      "ao_id": "TDA-21.4_A01",
+      "objective": "a Software Bill of Materials (SBOM) for systems, applications and services lists software packages in use, including versions and applicable licenses.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

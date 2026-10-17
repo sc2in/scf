@@ -1,13 +1,13 @@
 {
   "scf_control_id": "TDA-06.6",
-  "total": 3,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "TDA-06.6",
       "ao_id": "TDA-06.6_A01",
-      "objective": "software design processes include conducting Root Cause Analysis (RCA) to identify the underlying causes of issues or failures.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
+      "objective": "as required per statutory, regulatory or contractual obligations, only information technology products on the FIPS 201-approved products list for the Personal Identity Verification (PIV) capability implemented within organizational systems are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-04(10)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,17 +15,7 @@
     {
       "scf_control_id": "TDA-06.6",
       "ao_id": "TDA-06.6_A02",
-      "objective": "software design processes include developing actions to address the root cause of the issue or failure.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "TDA-06.6",
-      "ao_id": "TDA-06.6_A03",
-      "objective": "software design processes include implementing the actions and monitor the implementation for effectiveness.",
+      "objective": "the use of commercially-provided Information Assurance (IA) and IA-enabled IT products is limited to products that have been successfully evaluated against a National Information Assurance Partnership (NIAP)-approved Protection Profile or whose cryptographic module is FIPS-validated or NSA-approved.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

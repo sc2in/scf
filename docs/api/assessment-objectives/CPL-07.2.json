@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-07.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-07.2",
+      "ao_id": "CPL-07.2_A01",
+      "objective": "the organization conducts formal audits of cybersecurity & data protection controls, per an organization-defined frequency, for conformity with the organization's policies, standards and procedures.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-07.2",
+      "ao_id": "CPL-07.2_A02",
+      "objective": "responsibility for conducting conformity assessments is assigned to designated personnel or roles.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

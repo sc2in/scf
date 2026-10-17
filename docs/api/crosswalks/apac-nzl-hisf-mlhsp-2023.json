@@ -2,11 +2,1097 @@
   "framework_id": "apac-nzl-hisf-mlhsp-2023",
   "display_name": "New Zealand - HISF MLHSP (2023)",
   "scf_to_framework": {
-    "total_mappings": 0,
-    "mappings": {}
+    "total_mappings": 108,
+    "mappings": {
+      "GOV-04": [
+        "HML01",
+        "HHSP01"
+      ],
+      "GOV-04.1": [
+        "HHSP67",
+        "HML66"
+      ],
+      "GOV-05": [
+        "HHSP21",
+        "HHSP27",
+        "HML21",
+        "HML27"
+      ],
+      "GOV-05.1": [
+        "HHSP21",
+        "HHSP27",
+        "HML21",
+        "HML27"
+      ],
+      "GOV-05.2": [
+        "HHSP21"
+      ],
+      "GOV-09": [
+        "HHSP12",
+        "HML12",
+        "HML21"
+      ],
+      "GOV-09.1": [
+        "HHSP46",
+        "HHSP75",
+        "HML12",
+        "HML46",
+        "HML75"
+      ],
+      "GOV-11": [
+        "HHSP11",
+        "HHSP16",
+        "HHSP28",
+        "HML11",
+        "HML16",
+        "HML28"
+      ],
+      "GOV-12": [
+        "HHSP46",
+        "HML46"
+      ],
+      "AST-02": [
+        "HHSP05",
+        "HHSP54",
+        "HML05",
+        "HML54"
+      ],
+      "AST-22": [
+        "HHSP06",
+        "HHSP45",
+        "HML06",
+        "HML45"
+      ],
+      "AST-37.1": [
+        "HHSP44",
+        "HML44"
+      ],
+      "AST-39": [
+        "HHSP43",
+        "HML43"
+      ],
+      "BCD-01": [
+        "HHSP08"
+      ],
+      "BCD-02": [
+        "HHSP08",
+        "HHSP24",
+        "HHSP56",
+        "HHSP61",
+        "HML08",
+        "HML24",
+        "HML61"
+      ],
+      "BCD-04": [
+        "HML08"
+      ],
+      "BCD-04.1": [
+        "HHSP24",
+        "HML24"
+      ],
+      "BCD-08": [
+        "HHSP35",
+        "HML35"
+      ],
+      "BCD-08.1": [
+        "HHSP35",
+        "HML35"
+      ],
+      "BCD-11": [
+        "HHSP64",
+        "HML63"
+      ],
+      "BCD-18": [
+        "HHSP17",
+        "HML17"
+      ],
+      "BCD-24": [
+        "HHSP17",
+        "HHSP56",
+        "HHSP69",
+        "HML17",
+        "HML56",
+        "HML68"
+      ],
+      "BCD-32": [
+        "HHSP57",
+        "HHSP69",
+        "HML57",
+        "HML68"
+      ],
+      "BCD-33": [
+        "HHSP56",
+        "HML56"
+      ],
+      "CAP-02": [
+        "HHSP61",
+        "HML61"
+      ],
+      "CAP-08": [
+        "HHSP61"
+      ],
+      "CHG-02": [
+        "HHSP18",
+        "HML18"
+      ],
+      "CHG-03": [
+        "HHSP18",
+        "HML18"
+      ],
+      "CHG-06": [
+        "HHSP33",
+        "HML33"
+      ],
+      "CLD-01": [
+        "HHSP15",
+        "HML15"
+      ],
+      "CLD-05": [
+        "HHSP51",
+        "HML51"
+      ],
+      "CLD-07": [
+        "HHSP53",
+        "HML53"
+      ],
+      "CPL-02": [
+        "HHSP29",
+        "HML29"
+      ],
+      "CPL-07": [
+        "HHSP67",
+        "HML66"
+      ],
+      "CPL-07.1": [
+        "HHSP67",
+        "HML66"
+      ],
+      "CFG-04": [
+        "HHSP54",
+        "HHSP60",
+        "HHSP65",
+        "HML16",
+        "HML54",
+        "HML60",
+        "HML64"
+      ],
+      "MON-02": [
+        "HHSP70",
+        "HML70"
+      ],
+      "MON-04": [
+        "HHSP69",
+        "HML68"
+      ],
+      "MON-05.5": [
+        "HHSP69",
+        "HML68"
+      ],
+      "MON-09": [
+        "HHSP70",
+        "HML70"
+      ],
+      "MON-09.1": [
+        "HHSP70",
+        "HML70"
+      ],
+      "MON-11.1": [
+        "HHSP71",
+        "HML71"
+      ],
+      "MON-19": [
+        "HHSP63",
+        "HML69"
+      ],
+      "MON-19.1": [
+        "HHSP73",
+        "HML73"
+      ],
+      "CRY-02": [
+        "HHSP37",
+        "HML37"
+      ],
+      "DCH-02": [
+        "HHSP14",
+        "HHSP34",
+        "HHSP74",
+        "HML14",
+        "HML74"
+      ],
+      "DCH-04": [
+        "HML34"
+      ],
+      "DCH-07": [
+        "HHSP14",
+        "HHSP74",
+        "HML14",
+        "HML74"
+      ],
+      "DCH-21": [
+        "HHSP14",
+        "HML14"
+      ],
+      "DCH-40": [
+        "HHSP63",
+        "HML69"
+      ],
+      "END-02": [
+        "HHSP34"
+      ],
+      "END-04": [
+        "HHSP62",
+        "HML62"
+      ],
+      "HRS-02": [
+        "HML02"
+      ],
+      "HRS-04": [
+        "HHSP02",
+        "HHSP23",
+        "HML02",
+        "HML23"
+      ],
+      "HRS-05": [
+        "HHSP20",
+        "HML20"
+      ],
+      "HRS-10": [
+        "HHSP03",
+        "HHSP72",
+        "HHSP73",
+        "HML03",
+        "HML72",
+        "HML73"
+      ],
+      "HRS-10.1": [
+        "HHSP03",
+        "HHSP73",
+        "HML03",
+        "HML73"
+      ],
+      "IAC-03": [
+        "HHSP39",
+        "HML39"
+      ],
+      "IAC-04": [
+        "HHSP04",
+        "HML04"
+      ],
+      "IAC-04.1": [
+        "HHSP04",
+        "HML04"
+      ],
+      "IAC-04.2": [
+        "HHSP04",
+        "HML04"
+      ],
+      "IAC-06": [
+        "HHSP40",
+        "HHSP42",
+        "HML40",
+        "HML42"
+      ],
+      "IAC-08": [
+        "HHSP38",
+        "HML38"
+      ],
+      "IAC-10": [
+        "HHSP41",
+        "HML41"
+      ],
+      "IAC-25": [
+        "HHSP10",
+        "HHSP40",
+        "HML10",
+        "HML40"
+      ],
+      "IAC-36": [
+        "HHSP49",
+        "HML49"
+      ],
+      "IRO-06": [
+        "HHSP07",
+        "HML07"
+      ],
+      "IRO-08": [
+        "HHSP07",
+        "HML07"
+      ],
+      "IRO-13": [
+        "HHSP74",
+        "HML74"
+      ],
+      "IRO-16": [
+        "HHSP75",
+        "HML75"
+      ],
+      "IAO-02": [
+        "HHSP68",
+        "HML67"
+      ],
+      "IAO-04": [
+        "HHSP68",
+        "HML67"
+      ],
+      "MNT-02": [
+        "HHSP15",
+        "HML15"
+      ],
+      "NET-02": [
+        "HHSP49",
+        "HHSP54",
+        "HML49",
+        "HML54"
+      ],
+      "NET-06": [
+        "HHSP55",
+        "HML55"
+      ],
+      "NET-35": [
+        "HHSP52",
+        "HML52"
+      ],
+      "NET-42.1": [
+        "HHSP43",
+        "HHSP55",
+        "HML43",
+        "HML55"
+      ],
+      "PES-01": [
+        "HHSP13",
+        "HML13"
+      ],
+      "PES-02": [
+        "HHSP47",
+        "HML47"
+      ],
+      "PES-03": [
+        "HHSP13",
+        "HML13"
+      ],
+      "PES-06": [
+        "HHSP04",
+        "HML04"
+      ],
+      "PES-08": [
+        "HHSP48",
+        "HML48"
+      ],
+      "PES-10": [
+        "HHSP48",
+        "HML48"
+      ],
+      "PES-12": [
+        "HHSP10",
+        "HML10"
+      ],
+      "PES-13": [
+        "HHSP66",
+        "HML65"
+      ],
+      "PRM-08": [
+        "HHSP11",
+        "HHSP28",
+        "HHSP31",
+        "HML11",
+        "HML28",
+        "HML31"
+      ],
+      "PRM-09": [
+        "HHSP11",
+        "HHSP28",
+        "HHSP31",
+        "HML31"
+      ],
+      "RSK-02": [
+        "HHSP30",
+        "HML30"
+      ],
+      "RSK-13": [
+        "HHSP32",
+        "HML32"
+      ],
+      "RSK-14": [
+        "HHSP65",
+        "HML64"
+      ],
+      "RSK-18": [
+        "HHSP26",
+        "HHSP43",
+        "HHSP65",
+        "HML26",
+        "HML43",
+        "HML64"
+      ],
+      "SEA-05": [
+        "HHSP16",
+        "HML16"
+      ],
+      "SAT-02": [
+        "HHSP22",
+        "HML22"
+      ],
+      "TDA-02": [
+        "HHSP50",
+        "HML50"
+      ],
+      "TDA-05": [
+        "HHSP50",
+        "HML50"
+      ],
+      "TDA-06": [
+        "HHSP50",
+        "HML50"
+      ],
+      "TDA-11.1": [
+        "HHSP31",
+        "HML31"
+      ],
+      "TDA-15.1": [
+        "HHSP58",
+        "HML58"
+      ],
+      "TDA-16.1": [
+        "HHSP42",
+        "HML42"
+      ],
+      "TPM-02": [
+        "HHSP25",
+        "HML25"
+      ],
+      "TPM-10": [
+        "HHSP25",
+        "HML25"
+      ],
+      "TPM-14": [
+        "HHSP09",
+        "HHSP36",
+        "HHSP72",
+        "HML09",
+        "HML36",
+        "HML72"
+      ],
+      "TPM-15": [
+        "HHSP25",
+        "HHSP73",
+        "HML25",
+        "HML73"
+      ],
+      "VPM-01": [
+        "HHSP19",
+        "HML19"
+      ],
+      "VPM-02": [
+        "HHSP19",
+        "HHSP26",
+        "HML19",
+        "HML26"
+      ],
+      "VPM-06": [
+        "HHSP19",
+        "HHSP59",
+        "HML19",
+        "HML59"
+      ],
+      "VPM-08": [
+        "HHSP19",
+        "HML19"
+      ],
+      "VPM-12": [
+        "HHSP26",
+        "HHSP59",
+        "HML26",
+        "HML59"
+      ]
+    }
   },
   "framework_to_scf": {
-    "total_mappings": 0,
-    "mappings": {}
+    "total_mappings": 150,
+    "mappings": {
+      "HML01": [
+        "GOV-04"
+      ],
+      "HHSP01": [
+        "GOV-04"
+      ],
+      "HHSP67": [
+        "GOV-04.1",
+        "CPL-07",
+        "CPL-07.1"
+      ],
+      "HML66": [
+        "GOV-04.1",
+        "CPL-07",
+        "CPL-07.1"
+      ],
+      "HHSP21": [
+        "GOV-05",
+        "GOV-05.1",
+        "GOV-05.2"
+      ],
+      "HHSP27": [
+        "GOV-05",
+        "GOV-05.1"
+      ],
+      "HML21": [
+        "GOV-05",
+        "GOV-05.1",
+        "GOV-09"
+      ],
+      "HML27": [
+        "GOV-05",
+        "GOV-05.1"
+      ],
+      "HHSP12": [
+        "GOV-09"
+      ],
+      "HML12": [
+        "GOV-09",
+        "GOV-09.1"
+      ],
+      "HHSP46": [
+        "GOV-09.1",
+        "GOV-12"
+      ],
+      "HHSP75": [
+        "GOV-09.1",
+        "IRO-16"
+      ],
+      "HML46": [
+        "GOV-09.1",
+        "GOV-12"
+      ],
+      "HML75": [
+        "GOV-09.1",
+        "IRO-16"
+      ],
+      "HHSP11": [
+        "GOV-11",
+        "PRM-08",
+        "PRM-09"
+      ],
+      "HHSP16": [
+        "GOV-11",
+        "SEA-05"
+      ],
+      "HHSP28": [
+        "GOV-11",
+        "PRM-08",
+        "PRM-09"
+      ],
+      "HML11": [
+        "GOV-11",
+        "PRM-08"
+      ],
+      "HML16": [
+        "GOV-11",
+        "CFG-04",
+        "SEA-05"
+      ],
+      "HML28": [
+        "GOV-11",
+        "PRM-08"
+      ],
+      "HHSP05": [
+        "AST-02"
+      ],
+      "HHSP54": [
+        "AST-02",
+        "CFG-04",
+        "NET-02"
+      ],
+      "HML05": [
+        "AST-02"
+      ],
+      "HML54": [
+        "AST-02",
+        "CFG-04",
+        "NET-02"
+      ],
+      "HHSP06": [
+        "AST-22"
+      ],
+      "HHSP45": [
+        "AST-22"
+      ],
+      "HML06": [
+        "AST-22"
+      ],
+      "HML45": [
+        "AST-22"
+      ],
+      "HHSP44": [
+        "AST-37.1"
+      ],
+      "HML44": [
+        "AST-37.1"
+      ],
+      "HHSP43": [
+        "AST-39",
+        "NET-42.1",
+        "RSK-18"
+      ],
+      "HML43": [
+        "AST-39",
+        "NET-42.1",
+        "RSK-18"
+      ],
+      "HHSP08": [
+        "BCD-01",
+        "BCD-02"
+      ],
+      "HHSP24": [
+        "BCD-02",
+        "BCD-04.1"
+      ],
+      "HHSP56": [
+        "BCD-02",
+        "BCD-24",
+        "BCD-33"
+      ],
+      "HHSP61": [
+        "BCD-02",
+        "CAP-02",
+        "CAP-08"
+      ],
+      "HML08": [
+        "BCD-02",
+        "BCD-04"
+      ],
+      "HML24": [
+        "BCD-02",
+        "BCD-04.1"
+      ],
+      "HML61": [
+        "BCD-02",
+        "CAP-02"
+      ],
+      "HHSP35": [
+        "BCD-08",
+        "BCD-08.1"
+      ],
+      "HML35": [
+        "BCD-08",
+        "BCD-08.1"
+      ],
+      "HHSP64": [
+        "BCD-11"
+      ],
+      "HML63": [
+        "BCD-11"
+      ],
+      "HHSP17": [
+        "BCD-18",
+        "BCD-24"
+      ],
+      "HML17": [
+        "BCD-18",
+        "BCD-24"
+      ],
+      "HHSP69": [
+        "BCD-24",
+        "BCD-32",
+        "MON-04",
+        "MON-05.5"
+      ],
+      "HML56": [
+        "BCD-24",
+        "BCD-33"
+      ],
+      "HML68": [
+        "BCD-24",
+        "BCD-32",
+        "MON-04",
+        "MON-05.5"
+      ],
+      "HHSP57": [
+        "BCD-32"
+      ],
+      "HML57": [
+        "BCD-32"
+      ],
+      "HHSP18": [
+        "CHG-02",
+        "CHG-03"
+      ],
+      "HML18": [
+        "CHG-02",
+        "CHG-03"
+      ],
+      "HHSP33": [
+        "CHG-06"
+      ],
+      "HML33": [
+        "CHG-06"
+      ],
+      "HHSP15": [
+        "CLD-01",
+        "MNT-02"
+      ],
+      "HML15": [
+        "CLD-01",
+        "MNT-02"
+      ],
+      "HHSP51": [
+        "CLD-05"
+      ],
+      "HML51": [
+        "CLD-05"
+      ],
+      "HHSP53": [
+        "CLD-07"
+      ],
+      "HML53": [
+        "CLD-07"
+      ],
+      "HHSP29": [
+        "CPL-02"
+      ],
+      "HML29": [
+        "CPL-02"
+      ],
+      "HHSP60": [
+        "CFG-04"
+      ],
+      "HHSP65": [
+        "CFG-04",
+        "RSK-14",
+        "RSK-18"
+      ],
+      "HML60": [
+        "CFG-04"
+      ],
+      "HML64": [
+        "CFG-04",
+        "RSK-14",
+        "RSK-18"
+      ],
+      "HHSP70": [
+        "MON-02",
+        "MON-09",
+        "MON-09.1"
+      ],
+      "HML70": [
+        "MON-02",
+        "MON-09",
+        "MON-09.1"
+      ],
+      "HHSP71": [
+        "MON-11.1"
+      ],
+      "HML71": [
+        "MON-11.1"
+      ],
+      "HHSP63": [
+        "MON-19",
+        "DCH-40"
+      ],
+      "HML69": [
+        "MON-19",
+        "DCH-40"
+      ],
+      "HHSP73": [
+        "MON-19.1",
+        "HRS-10",
+        "HRS-10.1",
+        "TPM-15"
+      ],
+      "HML73": [
+        "MON-19.1",
+        "HRS-10",
+        "HRS-10.1",
+        "TPM-15"
+      ],
+      "HHSP37": [
+        "CRY-02"
+      ],
+      "HML37": [
+        "CRY-02"
+      ],
+      "HHSP14": [
+        "DCH-02",
+        "DCH-07",
+        "DCH-21"
+      ],
+      "HHSP34": [
+        "DCH-02",
+        "END-02"
+      ],
+      "HHSP74": [
+        "DCH-02",
+        "DCH-07",
+        "IRO-13"
+      ],
+      "HML14": [
+        "DCH-02",
+        "DCH-07",
+        "DCH-21"
+      ],
+      "HML74": [
+        "DCH-02",
+        "DCH-07",
+        "IRO-13"
+      ],
+      "HML34": [
+        "DCH-04"
+      ],
+      "HHSP62": [
+        "END-04"
+      ],
+      "HML62": [
+        "END-04"
+      ],
+      "HML02": [
+        "HRS-02",
+        "HRS-04"
+      ],
+      "HHSP02": [
+        "HRS-04"
+      ],
+      "HHSP23": [
+        "HRS-04"
+      ],
+      "HML23": [
+        "HRS-04"
+      ],
+      "HHSP20": [
+        "HRS-05"
+      ],
+      "HML20": [
+        "HRS-05"
+      ],
+      "HHSP03": [
+        "HRS-10",
+        "HRS-10.1"
+      ],
+      "HHSP72": [
+        "HRS-10",
+        "TPM-14"
+      ],
+      "HML03": [
+        "HRS-10",
+        "HRS-10.1"
+      ],
+      "HML72": [
+        "HRS-10",
+        "TPM-14"
+      ],
+      "HHSP39": [
+        "IAC-03"
+      ],
+      "HML39": [
+        "IAC-03"
+      ],
+      "HHSP04": [
+        "IAC-04",
+        "IAC-04.1",
+        "IAC-04.2",
+        "PES-06"
+      ],
+      "HML04": [
+        "IAC-04",
+        "IAC-04.1",
+        "IAC-04.2",
+        "PES-06"
+      ],
+      "HHSP40": [
+        "IAC-06",
+        "IAC-25"
+      ],
+      "HHSP42": [
+        "IAC-06",
+        "TDA-16.1"
+      ],
+      "HML40": [
+        "IAC-06",
+        "IAC-25"
+      ],
+      "HML42": [
+        "IAC-06",
+        "TDA-16.1"
+      ],
+      "HHSP38": [
+        "IAC-08"
+      ],
+      "HML38": [
+        "IAC-08"
+      ],
+      "HHSP41": [
+        "IAC-10"
+      ],
+      "HML41": [
+        "IAC-10"
+      ],
+      "HHSP10": [
+        "IAC-25",
+        "PES-12"
+      ],
+      "HML10": [
+        "IAC-25",
+        "PES-12"
+      ],
+      "HHSP49": [
+        "IAC-36",
+        "NET-02"
+      ],
+      "HML49": [
+        "IAC-36",
+        "NET-02"
+      ],
+      "HHSP07": [
+        "IRO-06",
+        "IRO-08"
+      ],
+      "HML07": [
+        "IRO-06",
+        "IRO-08"
+      ],
+      "HHSP68": [
+        "IAO-02",
+        "IAO-04"
+      ],
+      "HML67": [
+        "IAO-02",
+        "IAO-04"
+      ],
+      "HHSP55": [
+        "NET-06",
+        "NET-42.1"
+      ],
+      "HML55": [
+        "NET-06",
+        "NET-42.1"
+      ],
+      "HHSP52": [
+        "NET-35"
+      ],
+      "HML52": [
+        "NET-35"
+      ],
+      "HHSP13": [
+        "PES-01",
+        "PES-03"
+      ],
+      "HML13": [
+        "PES-01",
+        "PES-03"
+      ],
+      "HHSP47": [
+        "PES-02"
+      ],
+      "HML47": [
+        "PES-02"
+      ],
+      "HHSP48": [
+        "PES-08",
+        "PES-10"
+      ],
+      "HML48": [
+        "PES-08",
+        "PES-10"
+      ],
+      "HHSP66": [
+        "PES-13"
+      ],
+      "HML65": [
+        "PES-13"
+      ],
+      "HHSP31": [
+        "PRM-08",
+        "PRM-09",
+        "TDA-11.1"
+      ],
+      "HML31": [
+        "PRM-08",
+        "PRM-09",
+        "TDA-11.1"
+      ],
+      "HHSP30": [
+        "RSK-02"
+      ],
+      "HML30": [
+        "RSK-02"
+      ],
+      "HHSP32": [
+        "RSK-13"
+      ],
+      "HML32": [
+        "RSK-13"
+      ],
+      "HHSP26": [
+        "RSK-18",
+        "VPM-02",
+        "VPM-12"
+      ],
+      "HML26": [
+        "RSK-18",
+        "VPM-02",
+        "VPM-12"
+      ],
+      "HHSP22": [
+        "SAT-02"
+      ],
+      "HML22": [
+        "SAT-02"
+      ],
+      "HHSP50": [
+        "TDA-02",
+        "TDA-05",
+        "TDA-06"
+      ],
+      "HML50": [
+        "TDA-02",
+        "TDA-05",
+        "TDA-06"
+      ],
+      "HHSP58": [
+        "TDA-15.1"
+      ],
+      "HML58": [
+        "TDA-15.1"
+      ],
+      "HHSP25": [
+        "TPM-02",
+        "TPM-10",
+        "TPM-15"
+      ],
+      "HML25": [
+        "TPM-02",
+        "TPM-10",
+        "TPM-15"
+      ],
+      "HHSP09": [
+        "TPM-14"
+      ],
+      "HHSP36": [
+        "TPM-14"
+      ],
+      "HML09": [
+        "TPM-14"
+      ],
+      "HML36": [
+        "TPM-14"
+      ],
+      "HHSP19": [
+        "VPM-01",
+        "VPM-02",
+        "VPM-06",
+        "VPM-08"
+      ],
+      "HML19": [
+        "VPM-01",
+        "VPM-02",
+        "VPM-06",
+        "VPM-08"
+      ],
+      "HHSP59": [
+        "VPM-06",
+        "VPM-12"
+      ],
+      "HML59": [
+        "VPM-06",
+        "VPM-12"
+      ]
+    }
   }
 }

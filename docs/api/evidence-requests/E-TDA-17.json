@@ -4,8 +4,8 @@
   "artifact_name": "System Design Documentation",
   "artifact_description": "Documented evidence of system design documentation.",
   "scf_controls": [
-    "TDA-01",
-    "TDA-01.1"
+    "TDA-04",
+    "TDA-08"
   ],
   "cmmc_mapping": ""
 }

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "MON-01",
-  "total": 15,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "MON-01",
       "ao_id": "MON-01_A01",
-      "objective": "the continuous monitoring program is organization-wide.",
+      "objective": "a formal, documented continuous monitoring policy is approved by executive management, or a formally delegated authority, and conveys executive management's intent for continuous monitoring.",
       "pptdf": "Process",
-      "origin": "53A_R5_AU-01_ODP[03]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "MON-01",
       "ao_id": "MON-01_A02",
-      "objective": "monitoring objectives to detect attacks and indicators of potential attacks on the system are defined.",
+      "objective": "the continuous monitoring policy provides organizational direction and states the behaviors expected of personnel and other applicable parties with respect to continuous monitoring.",
       "pptdf": "Process",
-      "origin": "53A_R5_SI-04_ODP[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "MON-01",
       "ao_id": "MON-01_A03",
-      "objective": "techniques and methods used to identify unauthorized use of the system are defined.",
+      "objective": "the current version of the continuous monitoring policy is communicated to, and accessible by, the personnel and other applicable parties who are expected to comply with it.",
       "pptdf": "Process",
-      "origin": "53A_R5_SI-04_ODP[02]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,120 +35,20 @@
     {
       "scf_control_id": "MON-01",
       "ao_id": "MON-01_A04",
-      "objective": "system monitoring information to be provided to personnel or roles is defined.",
+      "objective": "the continuous monitoring policy is reviewed at least annually.",
       "pptdf": "Process",
-      "origin": "53A_R5_SI-04_ODP[03]\n53A_R5_SI-04g.",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "MON-01",
       "ao_id": "MON-01_A05",
-      "objective": "personnel or roles to whom system monitoring information is to be provided is/are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SI-04_ODP[04]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A06",
-      "objective": "a frequency for providing system monitoring to personnel or roles is defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SI-04_ODP[05]\n53A_R5_SI-04_ODP[06]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A07",
-      "objective": "the level of system monitoring activity is adjusted when there is a change in risk to organizational operations and assets, individuals, other organizations or the Nation.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SI-04e.",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A08",
-      "objective": "a legal opinion regarding system monitoring activities is obtained.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SI-04f.",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A09",
-      "objective": "the system is monitored to detect attacks.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.14.06.a.01[01]",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A10",
-      "objective": "the system is monitored to detect indicators of potential attacks.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.14.06.a.01[02]",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A11",
-      "objective": "the system is monitored to detect unauthorized connections.",
-      "pptdf": "Technology",
-      "origin": "171A_R3_A.03.14.06.a.02",
-      "assessment_rigor": "2",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A12",
-      "objective": "event monitoring operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "objective": "the continuous monitoring policy is updated, as necessary, in response to changes in risks, threats, business practices and/or statutory, regulatory and contractual obligations that affect the organization.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A13",
-      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support event monitoring operations.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A14",
-      "objective": "responsibility and authority for the performance of event monitoring-related activities are assigned to designated personnel.",
-      "pptdf": "People",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "MON-01",
-      "ao_id": "MON-01_A15",
-      "objective": "personnel performing event monitoring-related activities have the skills and knowledge needed to perform their assigned duties.",
-      "pptdf": "People",
-      "origin": "SCF Created",
-      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

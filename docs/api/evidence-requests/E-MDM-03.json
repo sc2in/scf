@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-MDM-03",
+  "area": "Endpoint Security",
+  "artifact_name": "Mobile Device Remote Purge & Tamper Response Records",
+  "artifact_description": "Documented evidence of remote purge capability and actions taken for lost, stolen or tampered mobile devices.",
+  "scf_controls": [
+    "MDM-09",
+    "MDM-10"
+  ],
+  "cmmc_mapping": ""
+}

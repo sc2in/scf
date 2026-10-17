@@ -4,7 +4,7 @@
   "artifact_name": "Provenance",
   "artifact_description": "Documented evidence that tracks the origin, development, ownership, location and changes to Technology Assets, Applications, Services and/or Data (TAASD).",
   "scf_controls": [
-    "AST-03.2"
+    "AST-14"
   ],
   "cmmc_mapping": ""
 }

@@ -1,11 +1,11 @@
 {
   "scf_control_id": "AAT-24",
-  "total": 2,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "AAT-24",
       "ao_id": "AAT-24_A01",
-      "objective": "consent is obtained from the subjects of testing Artificial Intelligence (AI) and Autonomous Technologies (AAT) prior to their participation in such testing.",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designed and developed to achieve organization-defined levels of accuracy, resilience and cybersecurity.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,17 @@
     {
       "scf_control_id": "AAT-24",
       "ao_id": "AAT-24_A02",
-      "objective": "consent is obtained from the subjects of testing Artificial Intelligence (AI) and Autonomous Technologies (AAT) after their having been provided with clear and concise information regarding the testing.",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designed and developed to perform consistently with respect to accuracy, resilience and cybersecurity throughout the AAT system's lifecycle.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-24",
+      "ao_id": "AAT-24_A03",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designed and developed to include capabilities that enable oversight by competent individuals.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

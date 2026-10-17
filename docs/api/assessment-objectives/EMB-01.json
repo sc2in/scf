@@ -1,12 +1,12 @@
 {
   "scf_control_id": "EMB-01",
-  "total": 8,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "EMB-01",
       "ao_id": "EMB-01_A01",
-      "objective": "embedded technology controls are implemented to protect the confidentiality of Operational Technology (OT) and/or Internet of Things (IoT) technologies.",
-      "pptdf": "Technology",
+      "objective": "a formal, documented embedded technology policy is approved by executive management, or a formally delegated authority, and conveys executive management's intent for embedded technology.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -15,8 +15,8 @@
     {
       "scf_control_id": "EMB-01",
       "ao_id": "EMB-01_A02",
-      "objective": "embedded technology controls are implemented to protect the integrity of Operational Technology (OT) and/or Internet of Things (IoT) technologies.",
-      "pptdf": "Technology",
+      "objective": "the embedded technology policy provides organizational direction and states the behaviors expected of personnel and other applicable parties with respect to embedded technology.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -25,8 +25,8 @@
     {
       "scf_control_id": "EMB-01",
       "ao_id": "EMB-01_A03",
-      "objective": "embedded technology controls are implemented to protect the availability of Operational Technology (OT) and/or Internet of Things (IoT) technologies.",
-      "pptdf": "Technology",
+      "objective": "the current version of the embedded technology policy is communicated to, and accessible by, the personnel and other applicable parties who are expected to comply with it.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -35,50 +35,20 @@
     {
       "scf_control_id": "EMB-01",
       "ao_id": "EMB-01_A04",
-      "objective": "embedded technology controls are implemented to protect the safety of Operational Technology (OT) and/or Internet of Things (IoT) technologies.",
-      "pptdf": "Technology",
+      "objective": "the embedded technology policy is reviewed at least annually.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "EMB-01",
       "ao_id": "EMB-01_A05",
-      "objective": "embedded technology management operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "objective": "the embedded technology policy is updated, as necessary, in response to changes in risks, threats, business practices and/or statutory, regulatory and contractual obligations that affect the organization.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "EMB-01",
-      "ao_id": "EMB-01_A06",
-      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support embedded technology management operations.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "EMB-01",
-      "ao_id": "EMB-01_A07",
-      "objective": "responsibility and authority for the performance of embedded technology management-related activities are assigned to designated personnel.",
-      "pptdf": "People",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "EMB-01",
-      "ao_id": "EMB-01_A08",
-      "objective": "personnel performing embedded technology management-related activities have the skills and knowledge needed to perform their assigned duties.",
-      "pptdf": "People",
-      "origin": "SCF Created",
-      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

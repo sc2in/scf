@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-AAT-14",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "AI Production Monitoring & Serious Incident Reporting",
+  "artifact_description": "Documented evidence of production monitoring of Artificial Intelligence and Autonomous Technologies (AAT), including event logging and serious incident reporting / root cause analysis.",
+  "scf_controls": [
+    "AAT-36",
+    "AAT-36.8",
+    "AAT-36.9",
+    "AAT-36.10",
+    "IRO-23"
+  ],
+  "cmmc_mapping": ""
+}

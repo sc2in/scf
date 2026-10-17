@@ -1,11 +1,51 @@
 {
   "scf_control_id": "AST-05.1",
-  "total": 1,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-05.1",
       "ao_id": "AST-05.1_A01",
-      "objective": "written management approval is obtained prior to the transfer of any sensitive / regulated media outside of the organization's facilities.",
+      "objective": "the criteria used to assign Business Continuity & Disaster Recovery (BC/DR)-relevant criticality ratings to Technology Assets, Applications, Services and/or Data (TAASD) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.1",
+      "ao_id": "AST-05.1_A02",
+      "objective": "Technology Assets, Applications, Services and/or Data (TAASD) are assigned a Business Continuity & Disaster Recovery (BC/DR)-relevant criticality rating in accordance with the defined criteria.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.1",
+      "ao_id": "AST-05.1_A03",
+      "objective": "assigned criticality ratings are recorded against Technology Assets, Applications, Services and/or Data (TAASD) entries in the asset inventory or an equivalent register.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.1",
+      "ao_id": "AST-05.1_A04",
+      "objective": "the frequency at which to review assigned criticality ratings is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually, and upon significant change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-05.1",
+      "ao_id": "AST-05.1_A05",
+      "objective": "assigned criticality ratings are reviewed and updated at the defined frequency and when business functions or Technology Assets, Applications, Services and/or Data (TAASD) change.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

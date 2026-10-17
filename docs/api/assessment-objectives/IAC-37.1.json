@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "IAC-37.1",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-37.1",
+      "ao_id": "IAC-37.1_A01",
+      "objective": "the accounts, Technology Assets, Applications and/or Services (TAAS) and access scenarios for which replay-resistant Multi-Factor Authentication (MFA) is required are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, all privileged accounts and all network access to Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive / regulated data",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.1",
+      "ao_id": "IAC-37.1_A02",
+      "objective": "automated mechanisms enforce replay-resistant Multi-Factor Authentication (MFA) such that authenticator outputs cannot be reused to authenticate a subsequent session.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.1",
+      "ao_id": "IAC-37.1_A03",
+      "objective": "where nonces are used, the verifier generates a unique nonce for each authentication attempt and rejects authenticator outputs that reuse a prior nonce.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.1",
+      "ao_id": "IAC-37.1_A04",
+      "objective": "where one-time challenges are used, the verifier issues a unique challenge for each authentication attempt and rejects responses to previously issued challenges.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.1",
+      "ao_id": "IAC-37.1_A05",
+      "objective": "where time-synchronous values are used, the verifier accepts each One-Time Password (OTP) value only within its validity window and rejects reuse of a previously accepted value.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.1",
+      "ao_id": "IAC-37.1_A06",
+      "objective": "where channel binding is used, the authenticator output is cryptographically bound to the authenticated protected channel so that it cannot be replayed over a different channel.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-37.1",
+      "ao_id": "IAC-37.1_A07",
+      "objective": "configurations of in-scope authentication mechanisms are reviewed to confirm replay-resistant Multi-Factor Authentication (MFA) remains enforced.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least quarterly, and upon significant change to the authentication infrastructure",
+      "org_defined_parameters": ""
+    }
+  ]
+}

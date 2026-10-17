@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CFG-18.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-18.2",
+      "ao_id": "CFG-18.2_A01",
+      "objective": "measures to notify individuals of embedded sensor data collection are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(04)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-18.2",
+      "ao_id": "CFG-18.2_A02",
+      "objective": "embedded sensors for which individuals are to be notified of data collection are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(04)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-18.2",
+      "ao_id": "CFG-18.2_A03",
+      "objective": "individuals are notified of embedded sensor data collection through organization-defined measures.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

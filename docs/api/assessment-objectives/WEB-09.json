@@ -5,11 +5,11 @@
     {
       "scf_control_id": "WEB-09",
       "ao_id": "WEB-09_A01",
-      "objective": "all input handled by a web application is validated and/or sanitized.",
+      "objective": "all web application content is delivered using cryptographic mechanisms (e.g., TLS).",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "using Transport Layer Security (TLS) version 1.2 or higher",
       "org_defined_parameters": ""
     }
   ]

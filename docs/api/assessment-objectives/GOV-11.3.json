@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "GOV-11.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-11.3",
+      "ao_id": "GOV-11.3_A01",
+      "objective": "roles and responsibilities exist to compel data and/or process owners to assess if required security, compliance and resilience controls for the Technology Assets, Applications, Services and/or Data (TAASD) under their control are designed to meet control objectives, implemented correctly and operating as intended.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-11.3",
+      "ao_id": "GOV-11.3_A02",
+      "objective": "Individual Contributor (IC) performance reviews cover how data and/or process owners assess if required security, compliance and resilience controls for the Technology Assets, Applications, Services and/or Data (TAASD) under their control are designed to meet control objectives, implemented correctly and operating as intended.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-11.3",
+      "ao_id": "GOV-11.3_A03",
+      "objective": "data and/or process owners assess whether required security, compliance and resilience controls for the Technology Assets, Applications, Services and/or Data (TAASD) under their control are designed to meet control objectives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-11.3",
+      "ao_id": "GOV-11.3_A04",
+      "objective": "data and/or process owners assess whether required security, compliance and resilience controls for the Technology Assets, Applications, Services and/or Data (TAASD) under their control are implemented correctly.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-11.3",
+      "ao_id": "GOV-11.3_A05",
+      "objective": "data and/or process owners assess whether required security, compliance and resilience controls for the Technology Assets, Applications, Services and/or Data (TAASD) under their control are operating as intended.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

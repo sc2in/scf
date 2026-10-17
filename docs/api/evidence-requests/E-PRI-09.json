@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-PRI-09",
+  "area": "Privacy",
+  "artifact_name": "Record of Processing Activities (RoPA)",
+  "artifact_description": "Documented evidence of Personal Data (PD) processing activities (e.g., Record of Processing Activities (RoPA)) including data lineage.",
+  "scf_controls": [
+    "PRI-05",
+    "PRI-05.1"
+  ],
+  "cmmc_mapping": ""
+}

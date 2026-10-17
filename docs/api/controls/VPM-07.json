@@ -1,75 +1,46 @@
 {
   "control_id": "VPM-07",
-  "title": "Penetration Testing",
+  "title": "Time To Remediate / Benchmarks For Corrective Action",
   "family": "VPM",
-  "description": "Mechanisms exist to conduct penetration testing on Technology Assets, Applications and/or Services (TAAS).",
-  "scf_question": "Does the organization conduct penetration testing on Technology Assets, Applications and/or Services (TAAS)?",
-  "relative_weight": 9,
-  "conformity_cadence": "Annual",
+  "description": "Mechanisms exist to track the effectiveness of remediation operations through metrics reporting.",
+  "scf_question": "Does the organization track the effectiveness of remediation operations through metrics reporting?",
+  "relative_weight": 6,
+  "conformity_cadence": "Semi-Annual",
   "evidence_requests": [
-    "E-VPM-02",
-    "E-VPM-03"
+    "E-VPM-09"
   ],
-  "pptdf": "Technology",
-  "nist_csf_function": "Detect",
+  "pptdf": "Process",
+  "nist_csf_function": "Protect",
   "scrm_focus": {
     "strategic": false,
     "operational": true,
-    "tactical": false
+    "tactical": true
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "Vulnerability & Patch Management (VPM) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with VPM domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Attack Surface Management (ASM)-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
-    "2": "Vulnerability & Patch Management (VPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Vulnerability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Vulnerability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel, or contracted professionals, conduct annual penetration testing on network segments hosting High Value Assets (HVAs).",
-    "3": "Vulnerability & Patch Management (VPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are well-documented and kept current by process owners.\n▪ A vulnerability management team, or similar function, is appropriately staffed and supported to implement and maintain VPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of vulnerability management operations (e.g., patch management solution, vulnerability scanning solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to conduct penetration testing on Technology Assets, Applications and/or Services (TAAS).",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Vulnerability & Patch Management (VPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Vulnerability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Vulnerability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Vulnerability & Patch Management (VPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are well-documented and kept current by process owners.\n▪ A vulnerability management team, or similar function, is appropriately staffed and supported to implement and maintain VPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of vulnerability management operations (e.g., patch management solution and vulnerability scanning solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to track the effectiveness of remediation operations through metrics reporting.",
     "4": "Vulnerability & Patch Management (VPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
-    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+    "5": "Vulnerability & Patch Management (VPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions via Artificial Intelligence (AI) or Machine Learning (ML) technologies."
   },
   "profiles": [
-    "CORE ESP Level 2 Critical Infrastructure",
-    "CORE ESP Level 3 Advanced Threats",
     "CORE Mergers, Acquisitions & Divestitures (MA&D)"
   ],
   "possible_solutions": {
-    "small": "∙ Annual penetration test by qualified tester",
-    "medium": "∙ Annual penetration test by qualified third-party tester",
-    "large": "∙ Enterprise penetration testing program\n∙ Annual external and internal pen tests",
-    "enterprise": "∙ Enterprise penetration testing program\n∙ Annual and event-driven pen tests\n∙ Red team exercises\n∙ Purple teaming"
+    "micro_small": "∙ Define and track time-to-remediate goals by severity",
+    "small": "∙ Vulnerability remediation SLAs by severity level",
+    "medium": "∙ Formal remediation SLA policy with benchmark tracking",
+    "large": "∙ Enterprise remediation SLA management and benchmarking program",
+    "enterprise": "∙ Enterprise vulnerability management platform with SLA tracking and reporting (e.g., Tenable.io, Qualys)"
   },
   "risks": [
-    "R-AC-2",
-    "R-AC-3",
-    "R-AC-4",
-    "R-AM-3",
-    "R-BC-1",
-    "R-BC-2",
-    "R-BC-3",
-    "R-BC-4",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
-    "R-EX-4",
-    "R-EX-5",
     "R-EX-6",
-    "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-3",
-    "R-GV-4",
-    "R-GV-5",
     "R-GV-6",
-    "R-GV-7",
-    "R-IR-1",
-    "R-IR-2",
+    "R-GV-9",
+    "R-GV-10",
     "R-IR-3",
-    "R-IR-4",
-    "R-SA-1",
-    "R-SC-1",
-    "R-SC-2",
-    "R-SC-3",
-    "R-SC-4",
-    "R-SC-5",
-    "R-SC-6"
+    "R-SA-1"
   ],
   "threats": [
     "NT-1",
@@ -86,264 +57,180 @@
     "NT-12",
     "NT-13",
     "NT-14",
-    "MT-1",
     "MT-2",
-    "MT-3",
-    "MT-4",
-    "MT-5",
-    "MT-6",
-    "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
-    "MT-11",
     "MT-12",
-    "MT-13",
-    "MT-14",
     "MT-15",
-    "MT-24",
-    "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-25"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Unlikely",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Unlikely",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Unlikely",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Unlikely",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Possible",
+    "R-EX-7": "Unlikely",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Unlikely",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Likely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Likely",
+    "R-GV-10": "Likely",
+    "R-IR-1": "Unlikely",
+    "R-IR-2": "Unlikely",
+    "R-IR-3": "Possible",
+    "R-IR-4": "Unlikely",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Possible",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Unlikely",
+    "R-IP-3": "Unlikely",
+    "R-IP-4": "Unlikely",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Possible",
+    "MT-3": "Unlikely",
+    "MT-4": "Unlikely",
+    "MT-5": "Unlikely",
+    "MT-6": "Unlikely",
+    "MT-7": "Unlikely",
+    "MT-8": "Likely",
+    "MT-9": "Likely",
+    "MT-10": "Possible",
+    "MT-11": "Unlikely",
+    "MT-12": "Likely",
+    "MT-13": "Unlikely",
+    "MT-14": "Unlikely",
+    "MT-15": "Possible",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Unlikely",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Unlikely",
+    "MT-24": "Unlikely",
+    "MT-25": "Possible",
+    "MT-26": "Unlikely",
+    "MT-27": "Unlikely",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- renumbered",
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
-    "general-cis-csc-8-1": [
-      "18",
-      "18.1",
-      "18.2",
-      "18.5"
-    ],
-    "general-cis-csc-8-1-ig2": [
-      "18.1",
-      "18.2"
-    ],
-    "general-cis-csc-8-1-ig3": [
-      "18.1",
-      "18.2",
-      "18.5"
-    ],
-    "general-csa-cmm-4-1-0": [
-      "TVM-07"
-    ],
-    "general-csa-iot-2": [
-      "SET-02",
-      "SET-04"
-    ],
-    "general-cr-cmm-2026": [
-      "CR9.1.1"
-    ],
     "general-govramp": [
-      "CA-08"
-    ],
-    "general-govramp-low-plus": [
-      "CA-08"
+      "SI-02(03)"
     ],
     "general-govramp-mod": [
-      "CA-08"
+      "SI-02(03)"
     ],
     "general-govramp-high": [
-      "CA-08"
+      "SI-02(03)"
     ],
-    "general-mpa-csbp-5-3-1": [
-      "TS-4.1"
+    "general-nist-600-1-gen-ai-profile": [
+      "MS-2.7-006"
     ],
     "general-nist-800-53-r4": [
-      "CA-8"
+      "SI-2(3)"
     ],
     "general-nist-800-53-r5-2": [
-      "CA-08",
-      "SA-11(05)"
-    ],
-    "general-nist-800-53-r5-2-privacy": [
-      "SA-11(05)"
-    ],
-    "general-nist-800-53-r5-2-high": [
-      "CA-08"
+      "SI-02(03)"
     ],
     "general-nist-800-82-r3": [
-      "CA-08",
-      "SA-11(05)"
+      "SI-02(03)"
     ],
-    "general-nist-800-82-r3-high": [
-      "CA-08"
-    ],
-    "general-nist-800-160-vol-2-r1": [
-      "CA-08",
-      "SA-11(05)"
-    ],
-    "general-nist-800-172-r3": [
-      "03.12.01E"
-    ],
-    "general-nist-800-172a-r3": [
-      "DS-A.03.12.01E"
-    ],
-    "general-pci-dss-4-0-1": [
-      "11.4",
-      "11.4.1",
-      "11.4.2",
-      "11.4.3",
-      "11.4.4",
-      "11.4.5",
-      "11.4.6",
-      "11.4.7",
-      "A3.2.4"
-    ],
-    "general-pci-dss-4-0-1-saq-a-ep": [
-      "11.4.1",
-      "11.4.3",
-      "11.4.4",
-      "11.4.5"
-    ],
-    "general-pci-dss-4-0-1-saq-b-ip": [
-      "11.4.5"
-    ],
-    "general-pci-dss-4-0-1-saq-c": [
-      "11.4.5"
-    ],
-    "general-pci-dss-4-0-1-saq-d-merchant": [
-      "11.4.1",
-      "11.4.2",
-      "11.4.3",
-      "11.4.4",
-      "11.4.5"
-    ],
-    "general-pci-dss-4-0-1-saq-d-service-provider": [
-      "11.4.1",
-      "11.4.2",
-      "11.4.3",
-      "11.4.4",
-      "11.4.5",
-      "11.4.6",
-      "11.4.7"
-    ],
-    "general-sparta": [
-      "CM0008"
-    ],
-    "general-swift-cscf-2025": [
-      "7.3A"
-    ],
-    "general-ul-2900-2-2-2016": [
-      "16.1"
-    ],
-    "usa-federal-dhs-cisa-tic-3-0": [
-      "3.UNL.STEXE"
-    ],
-    "usa-federal-dhs-cisa-cpg-2-0": [
-      "1.F"
-    ],
-    "usa-federal-dow-cmmc-2-level-3": [
-      "CA.L3-3.12.1E"
-    ],
-    "usa-federal-gsa-fedramp-5-low": [
-      "CA-08",
-      "SA-11(05)"
+    "usa-federal-doe-c2m2-2-1": [
+      "THREAT-1i",
+      "RISK-2l"
     ],
     "usa-federal-gsa-fedramp-5-mod": [
-      "CA-08",
-      "SA-11(05)"
+      "SI-02(03)"
     ],
     "usa-federal-gsa-fedramp-5-high": [
-      "CA-08",
-      "SA-11(05)"
-    ],
-    "usa-federal-gsa-fedramp-5-li-saas": [
-      "CA-08",
-      "SA-11(05)"
-    ],
-    "usa-federal-law-33-cfr-part-101-subpart-f": [
-      "101.650(e)(2)"
-    ],
-    "usa-federal-law-glba-cfr-314-2023": [
-      "314.4(d)(2)",
-      "314.4(d)(2)(i)"
+      "SI-02(03)"
     ],
     "usa-federal-irs-1075-2021": [
-      "CA-8",
-      "SA-11(CE-5)"
+      "SI-2(CE-3).a",
+      "SI-2(CE-3).b"
     ],
-    "usa-state-ca-ccpa-cpra-2026": [
-      "7123(c)(6)"
+    "usa-federal-tsa-sd-pipeline-2021-02f": [
+      "III.E.2.a"
     ],
-    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
-      "500.5(a)(1)"
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.E.2.a"
     ],
-    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
-      "CA-08",
-      "CA-08-SID"
-    ],
-    "usa-state-tx-txramp-2-0-level-2": [
-      "CA-08"
-    ],
-    "emea-eu-dora-2023": [
-      "Article 26.1",
-      "Article 26.2",
-      "Article 26.3",
-      "Article 26.4",
-      "Article 26.5",
-      "Article 26.6",
-      "Article 26.7",
-      "Article 26.8",
-      "Article 26.8(a)",
-      "Article 26.8(b)",
-      "Article 26.8(c)"
-    ],
-    "emea-deu-c5-2020": [
-      "RB-18",
-      "RB-18-DOAR"
-    ],
-    "emea-sau-cscc-1-2019": [
-      "2-10-1",
-      "2-10-1-1",
-      "2-10-1-2",
-      "2-10-2"
-    ],
-    "emea-sau-cgiot-2024": [
-      "2-10-1"
-    ],
-    "emea-sau-ecc-1-2018": [
-      "2-11-1",
-      "2-11-2",
-      "2-11-3-1",
-      "2-11-3-2"
-    ],
-    "emea-sau-otcc-1-2022": [
-      "2-10-1-2",
-      "2-10-1-3"
-    ],
-    "emea-sau-sacs-002-2022": [
-      "VII.B.TPC-27",
-      "VII.B.TPC-28",
-      "VII.B.TPC-29"
-    ],
-    "emea-gbr-def-stan-05-138-2024": [
-      "2403"
-    ],
-    "emea-gbr-def-stan-05-138-l1-2024": [
-      "2403"
-    ],
-    "emea-gbr-def-stan-05-138-l2-2024": [
-      "2403"
-    ],
-    "emea-gbr-def-stan-05-138-l3-2024": [
-      "2403"
-    ],
-    "apac-aus-ism-2026-march": [
-      "ISM-1163"
+    "emea-eu-dora-rts-2024": [
+      "Article 10.4(d)"
     ],
     "apac-mys-bnm-rmit-2025": [
-      "11.9"
+      "10.18(b)"
     ],
-    "apac-sgp-mas-trm-2021": [
-      "13.2.1",
-      "13.2.3",
-      "13.2.4"
-    ],
-    "americas-bmu-mba-coc-2020": [
-      "6.15-BP1"
-    ],
-    "americas-can-osfi-b13-2022": [
-      "3.1.2"
+    "apac-sgp-ccp-cii-2026": [
+      "5.10.1(e)"
     ]
   }
 }

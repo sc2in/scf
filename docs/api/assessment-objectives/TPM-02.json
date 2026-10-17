@@ -1,13 +1,13 @@
 {
   "scf_control_id": "TPM-02",
-  "total": 6,
+  "total": 16,
   "assessment_objectives": [
     {
       "scf_control_id": "TPM-02",
       "ao_id": "TPM-02_A01",
-      "objective": "systems, system components or system services to be analyzed for criticality are defined.",
+      "objective": "security requirements to protect against supply chain risks to the system, system components, or system services and to limit the harm or consequences from supply chain-related events are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_RA-09_ODP[01]",
+      "origin": "171A_R3_A.03.17.03.ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "TPM-02",
       "ao_id": "TPM-02_A02",
-      "objective": "decision points in the system development life cycle when a criticality analysis is to be performed are defined.",
+      "objective": "cybersecurity / data privacy functional requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
       "pptdf": "Process",
-      "origin": "53A_R5_RA-09_ODP[02]",
+      "origin": "53A_R5_SA-04a.[01]\n53A_R5_SA-04a.[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,9 +25,9 @@
     {
       "scf_control_id": "TPM-02",
       "ao_id": "TPM-02_A03",
-      "objective": "critical system components and functions are identified by performing a criticality analysis for systems, system components or system services at decision points in the system development life cycle.",
+      "objective": "requirements for protecting cybersecurity / data privacy documentation, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
       "pptdf": "Process",
-      "origin": "53A_R5_RA-09",
+      "origin": "53A_R5_SA-04f.[01]\n53A_R5_SA-04f.[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,9 +35,9 @@
     {
       "scf_control_id": "TPM-02",
       "ao_id": "TPM-02_A04",
-      "objective": "suppliers of critical or mission-essential technologies, products and services are identified.",
+      "objective": "strength of mechanism requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-30(01)[01]",
+      "origin": "53A_R5_SA-04b.",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -45,9 +45,9 @@
     {
       "scf_control_id": "TPM-02",
       "ao_id": "TPM-02_A05",
-      "objective": "suppliers of critical or mission-essential technologies, products and services are prioritized.",
+      "objective": "cybersecurity / data privacy assurance requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-30(01)[02]",
+      "origin": "53A_R5_SA-04c.[01]\n53A_R5_SA-04c.[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -55,10 +55,110 @@
     {
       "scf_control_id": "TPM-02",
       "ao_id": "TPM-02_A06",
-      "objective": "suppliers of critical or mission-essential technologies, products and services are assessed.",
+      "objective": "controls needed to satisfy the cybersecurity / data privacy requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
       "pptdf": "Process",
-      "origin": "53A_R5_PM-30(01)[03]",
+      "origin": "53A_R5_SA-04d.[01]\n53A_R5_SA-04d.[02]",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A07",
+      "objective": "cybersecurity / data privacy documentation requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04e.[01]\n53A_R5_SA-04e.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A08",
+      "objective": "the description of the system development environment and environment in which the system is intended to operate, requirements and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04g.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A09",
+      "objective": "the allocation of responsibility or identification of parties responsible for cybersecurity / data privacy requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04h.[01]\n53A_R5_SA-04h.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A10",
+      "objective": "the allocation of responsibility or identification of parties responsible for supply chain risk management requirements, descriptions and criteria are included explicitly or by reference using organization-defined criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04h.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A11",
+      "objective": "acceptance criteria requirements and descriptions are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04i.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A12",
+      "objective": "contract language is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04_ODP[01]\n53A_R5_SA-04_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A13",
+      "objective": "third-party management operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A14",
+      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support third-party management operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A15",
+      "objective": "responsibility and authority for the performance of third-party management-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-02",
+      "ao_id": "TPM-02_A16",
+      "objective": "personnel performing third-party management-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

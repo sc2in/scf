@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "GOV-04.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-04.3",
+      "ao_id": "GOV-04.3_A01",
+      "objective": "the frequency at which to review approved exceptions is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-04.3",
+      "ao_id": "GOV-04.3_A02",
+      "objective": "approved exceptions are reviewed at the defined frequency against current risks and threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-04.3",
+      "ao_id": "GOV-04.3_A03",
+      "objective": "the determination of whether a reviewed exception is allowed to continue is documented, including the rationale and the approving individual or role.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-04.3",
+      "ao_id": "GOV-04.3_A04",
+      "objective": "exceptions determined not to continue are closed and the underlying non-conformity is remediated or re-submitted for approval.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-04.3",
+      "ao_id": "GOV-04.3_A05",
+      "objective": "records of exception reviews are retained that evidence the review date, the risks and threats considered and the continuation decision.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

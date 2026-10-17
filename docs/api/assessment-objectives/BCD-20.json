@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "BCD-20",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-20",
+      "ao_id": "BCD-20_A01",
+      "objective": "systems and system components that are or may be hard to replace in a supply chain disruption are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-20",
+      "ao_id": "BCD-20_A02",
+      "objective": "resources are allocated to obtain identified hard-to-replace systems and system components that support critical business functions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-20",
+      "ao_id": "BCD-20_A03",
+      "objective": "a pool of identified hard-to-replace systems and system components that support critical business functions is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

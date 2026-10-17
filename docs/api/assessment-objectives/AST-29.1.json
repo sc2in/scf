@@ -5,7 +5,7 @@
     {
       "scf_control_id": "AST-29.1",
       "ao_id": "AST-29.1_A01",
-      "objective": "secure baseline configurations exist for contactless access control systems to protect the confidentiality and integrity of data being stored, processed and/or transmitted.",
+      "objective": "mobile devices are inspected for evidence of tampering upon return from geographic regions of concern or other known hostile environments that could lead to device compromise.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,8 +15,8 @@
     {
       "scf_control_id": "AST-29.1",
       "ao_id": "AST-29.1_A02",
-      "objective": "contactless access control systems that are secured according to defined secure baseline configurations.",
-      "pptdf": "Technology",
+      "objective": "mobile devices that show signs of tampering are confiscated for forensic examination.",
+      "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

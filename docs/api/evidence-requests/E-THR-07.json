@@ -4,7 +4,7 @@
   "artifact_name": "Threat Analysis",
   "artifact_description": "Documented evidence of a completed threat analysis.",
   "scf_controls": [
-    "THR-10"
+    "THR-08"
   ],
   "cmmc_mapping": ""
 }

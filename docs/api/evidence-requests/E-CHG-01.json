@@ -4,8 +4,7 @@
   "artifact_name": "Business Impact Analysis (BIA)",
   "artifact_description": "Documented evidence of a Business Impact Analysis (BIA) for proposed changes.",
   "scf_controls": [
-    "RSK-08",
-    "TDA-06.1"
+    "RSK-08"
   ],
   "cmmc_mapping": ""
 }

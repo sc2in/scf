@@ -5,7 +5,7 @@
     {
       "scf_control_id": "GOV-06",
       "ao_id": "GOV-06_A01",
-      "objective": "relevant law enforcement and/or regulatory bodies are identified that necessitate communications.",
+      "objective": "the organization's mission is defined and documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "GOV-06",
       "ao_id": "GOV-06_A02",
-      "objective": "contacts with relevant law enforcement and/or regulatory bodies are established and documented.",
+      "objective": "the organization's business model is documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

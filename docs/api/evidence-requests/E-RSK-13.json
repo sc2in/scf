@@ -4,7 +4,7 @@
   "artifact_name": "Risk Treatment Options",
   "artifact_description": "Documented evidence of organization-approved risk treatment options.",
   "scf_controls": [
-    "RSK-06.3"
+    "RSK-16.1"
   ],
   "cmmc_mapping": ""
 }

@@ -1,16 +1,16 @@
 {
   "control_id": "MNT-02",
-  "title": "Controlled Maintenance",
+  "title": "Maintenance Operations",
   "family": "MNT",
-  "description": "Mechanisms exist to conduct controlled maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).",
-  "scf_question": "Does the organization conduct controlled maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS)?",
-  "relative_weight": 10,
+  "description": "Mechanisms exist to develop, disseminate, review & update procedures to facilitate the implementation of maintenance controls across the enterprise.",
+  "scf_question": "Does the organization develop, disseminate, review & update procedures to facilitate the implementation of maintenance controls across the enterprise?",
+  "relative_weight": 9,
   "conformity_cadence": "Annual",
   "evidence_requests": [
-    "E-MNT-04"
+    "E-MNT-02"
   ],
   "pptdf": "Process",
-  "nist_csf_function": "Protect",
+  "nist_csf_function": "Govern",
   "scrm_focus": {
     "strategic": true,
     "operational": true,
@@ -18,9 +18,9 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
-    "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.\n▪ Asset custodians track maintenance activities and component failure rates.",
-    "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to conduct controlled maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).",
+    "1": "Maintenance (MNT) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with MNT domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Maintenance-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Maintenance controls are primarily administrative in nature (e.g., policies & standards) to manage change control processes associated with maintenance operations.\n▪ IT and/or cybersecurity personnel use an informal process to implement secure and timely technology asset-specific maintenance operations, including preventative and reactive maintenance operations.",
+    "2": "Maintenance (MNT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Maintenance-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel, in conjunction with asset custodians, develop and maintain facilitate localized/regionalized procedures to conduct controlled and timely maintenance activities throughout the lifecycle of the Technology Asset, Application and/or Service (TAAS).\n▪ Maintenance operations may be centralized for certain locations (e.g., datacenters) and decentralized for other locations, both in terms of change management and execution.",
+    "3": "Maintenance (MNT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MNT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with MNT domain capabilities (e.g., maintenance pans) are documented and maintained by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain MNT domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities to ensure successful, efficient and secure maintenance operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MNT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to develop, disseminate, review & update procedures to facilitate the implementation of maintenance controls across the enterprise.",
     "4": "Maintenance (MNT) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
@@ -29,53 +29,40 @@
     "CORE ESP Level 1 Foundational",
     "CORE ESP Level 2 Critical Infrastructure",
     "CORE ESP Level 3 Advanced Threats",
-    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)",
+    "CORE MSO Level 1 Initial Public Draft",
+    "CORE MSO Level 2 Initial Public Draft",
+    "CORE MSO Level 3 Initial Public Draft"
   ],
   "possible_solutions": {
     "micro_small": "∙ IT maintenance program",
     "small": "∙ IT maintenance program",
-    "medium": "∙ IT maintenance program\n∙ VisibleOps security management",
-    "large": "∙ IT maintenance program\n∙ VisibleOps security management",
-    "enterprise": "∙ IT maintenance program\n∙ VisibleOps security management"
+    "medium": "∙ IT maintenance program",
+    "large": "∙ IT maintenance program",
+    "enterprise": "∙ IT maintenance program"
   },
   "risks": [
-    "R-AC-1",
-    "R-AC-2",
-    "R-AC-3",
-    "R-AC-4",
     "R-AM-1",
     "R-AM-2",
-    "R-AM-3",
     "R-BC-1",
     "R-BC-2",
     "R-BC-3",
-    "R-BC-4",
     "R-BC-5",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
-    "R-EX-4",
     "R-EX-5",
     "R-EX-6",
-    "R-EX-7",
-    "R-GV-1",
     "R-GV-2",
     "R-GV-3",
     "R-GV-4",
-    "R-GV-5",
     "R-GV-6",
-    "R-GV-7",
-    "R-IR-1",
-    "R-IR-2",
-    "R-IR-3",
-    "R-IR-4",
-    "R-SA-1",
-    "R-SC-1",
-    "R-SC-2",
-    "R-SC-3",
-    "R-SC-4",
-    "R-SC-5",
-    "R-SC-6"
+    "R-GV-9",
+    "R-GV-10",
+    "R-OR-1",
+    "R-SA-2",
+    "R-OT-1",
+    "R-IP-3",
+    "R-IP-4",
+    "R-SF-1",
+    "R-SF-2"
   ],
   "threats": [
     "NT-1",
@@ -92,45 +79,146 @@
     "NT-12",
     "NT-13",
     "NT-14",
-    "MT-1",
-    "MT-2",
-    "MT-3",
-    "MT-4",
-    "MT-5",
-    "MT-6",
-    "MT-7",
     "MT-8",
     "MT-9",
-    "MT-10",
     "MT-11",
-    "MT-12",
-    "MT-13",
-    "MT-14",
     "MT-15",
-    "MT-24",
-    "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-25"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Unlikely",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Unlikely",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Possible",
+    "R-AM-2": "Possible",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Possible",
+    "R-BC-2": "Possible",
+    "R-BC-3": "Possible",
+    "R-BC-4": "Unlikely",
+    "R-BC-5": "Possible",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Possible",
+    "R-EX-6": "Possible",
+    "R-EX-7": "Unlikely",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Possible",
+    "R-GV-3": "Likely",
+    "R-GV-4": "Possible",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Possible",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Likely",
+    "R-GV-10": "Possible",
+    "R-IR-1": "Unlikely",
+    "R-IR-2": "Unlikely",
+    "R-IR-3": "Unlikely",
+    "R-IR-4": "Unlikely",
+    "R-OR-1": "Possible",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Unlikely",
+    "R-SA-2": "Possible",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Possible",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Unlikely",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Possible",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Possible",
+    "R-SF-2": "Possible",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Unlikely",
+    "MT-3": "Unlikely",
+    "MT-4": "Unlikely",
+    "MT-5": "Unlikely",
+    "MT-6": "Unlikely",
+    "MT-7": "Unlikely",
+    "MT-8": "Likely",
+    "MT-9": "Likely",
+    "MT-10": "Unlikely",
+    "MT-11": "Possible",
+    "MT-12": "Unlikely",
+    "MT-13": "Unlikely",
+    "MT-14": "Unlikely",
+    "MT-15": "Possible",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Unlikely",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Unlikely",
+    "MT-24": "Unlikely",
+    "MT-25": "Possible",
+    "MT-26": "Unlikely",
+    "MT-27": "Unlikely",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- renumbered",
   "family_name": "Maintenance",
   "crosswalks": {
     "general-csa-iot-2": [
       "OPA-01"
     ],
     "general-govramp": [
-      "MA-02"
+      "MA-01"
     ],
     "general-govramp-low": [
-      "MA-02"
+      "MA-01"
     ],
     "general-govramp-low-plus": [
-      "MA-02"
+      "MA-01"
     ],
     "general-govramp-mod": [
-      "MA-02"
+      "MA-01"
     ],
     "general-govramp-high": [
-      "MA-02"
+      "MA-01"
     ],
     "general-iso-27002-2022": [
       "7.13"
@@ -142,129 +230,156 @@
       "7.13"
     ],
     "general-nist-800-53-r4": [
-      "MA-2"
+      "MA-1"
     ],
     "general-nist-800-53-r5-2": [
-      "MA-02"
+      "MA-01"
     ],
     "general-nist-800-53-r5-2-low": [
-      "MA-02"
+      "MA-01"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "MA-01"
+    ],
+    "general-nist-800-53-r5-2-high": [
+      "MA-01"
     ],
     "general-nist-800-66-r2": [
-      "164.310(a)"
+      "164.310(a)",
+      "164.310(d)"
     ],
     "general-nist-800-82-r3": [
-      "MA-02"
+      "MA-01"
     ],
     "general-nist-800-82-r3-low": [
-      "MA-02"
+      "MA-01"
     ],
     "general-nist-800-82-r3-mod": [
-      "MA-02"
+      "MA-01"
     ],
     "general-nist-800-82-r3-high": [
-      "MA-02"
+      "MA-01"
     ],
     "general-nist-800-161-r1": [
-      "MA-2"
+      "MA-1"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "MA-1"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "MA-1"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "MA-1"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "MA-1"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "MA-1"
     ],
     "general-nist-800-171-r2": [
-      "3.7.1"
+      "NFO - MA-1"
     ],
     "general-nist-800-171-r3": [
       "03.04.03.c",
       "03.07.04.a",
-      "03.07.05.a"
-    ],
-    "general-nist-800-171a": [
-      "3.7.1"
+      "03.07.06.a"
     ],
     "general-nist-800-171a-r3": [
       "A.03.04.03.c[01]",
+      "A.03.07.04.a[01]",
       "A.03.07.04.a[02]",
-      "A.03.07.05.a[01]"
+      "A.03.07.06.a"
     ],
     "general-nist-csf-2-0": [
       "PR.PS",
       "PR.PS-02",
       "PR.PS-03"
     ],
-    "usa-federal-fbi-cjis-6-0": [
-      "MA-2"
-    ],
-    "usa-federal-dow-cmmc-2-level-2": [
-      "MAL2.-3.7.1"
-    ],
-    "usa-federal-gsa-fedramp-5-low": [
-      "MA-02"
-    ],
-    "usa-federal-gsa-fedramp-5-mod": [
-      "MA-02"
-    ],
-    "usa-federal-gsa-fedramp-5-high": [
-      "MA-02"
-    ],
-    "usa-federal-gsa-fedramp-5-li-saas": [
-      "MA-02"
-    ],
-    "usa-federal-law-hipaa-simplification-2013": [
-      "§ 164.310(a)(2)(iv)"
-    ],
-    "usa-federal-law-hipaa-security-rule-2013": [
-      "§ 164.310(a)(2)(iv)"
-    ],
-    "usa-federal-irs-1075-2021": [
-      "MA-2"
+    "general-nist-privacy-framework-1-0": [
+      "PR.MA-P",
+      "PR.MA-P1"
     ],
     "usa-federal-cms-marse-2-0": [
-      "MA-2",
-      "MA-2.a",
-      "MA-2.b",
-      "MA-2.c",
-      "MA-2.d",
-      "MA-2.e",
-      "MA-2.f",
-      "MA-2-IS.1"
+      "MA-1"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNI.SADMI"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "ARCHITECTURE-3i"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "MA-1"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "MA-01"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "MA-01"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "MA-01"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "MA-01"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "MA-1"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "§ 164.310(a)(2)(iv)",
+      "§ 164.310(d)(1)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "§ 164.310(a)(2)(iv)",
+      "§ 164.310(d)(1)"
     ],
     "usa-state-tx-dir-security-control-standards-catalog-2-2": [
-      "MA-02"
+      "MA-01"
     ],
     "usa-state-tx-txramp-2-0-level-1": [
-      "MA-02"
+      "MA-01"
     ],
     "usa-state-tx-txramp-2-0-level-2": [
-      "MA-02"
+      "MA-01"
     ],
     "emea-esp-ccn-stic-825-2026": [
       "op.exp.4"
     ],
-    "emea-gbr-def-stan-05-138-2024": [
-      "2511"
+    "emea-eu-dora-rts-2024": [
+      "Article 8.2(a)(i)"
     ],
-    "emea-gbr-def-stan-05-138-l1-2024": [
-      "2511"
+    "emea-eu-nis2-2022": [
+      "Article 21.2(e)"
     ],
-    "emea-gbr-def-stan-05-138-l2-2024": [
-      "2511"
+    "emea-eu-nis2-annex-2024": [
+      "4.3.2(c)"
     ],
-    "emea-gbr-def-stan-05-138-l3-2024": [
-      "2511"
-    ],
-    "apac-aus-ism-2026-march": [
-      "ISM-1079"
-    ],
-    "apac-ind-sebi-2024": [
-      "PR.MA.S1"
+    "apac-aus-ism-2026-june": [
+      "ISM-0305"
     ],
     "apac-jpn-ismap": [
-      "11.2.4.4"
+      "11.2.4",
+      "11.2.4.1",
+      "11.2.4.3",
+      "11.2.4.5"
     ],
     "apac-mys-bnm-rmit-2025": [
       "10.26"
     ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP15",
+      "HML15"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP13"
+    ],
     "apac-nzl-ism-3-9": [
-      "11.8.10.C.01",
-      "11.8.10.C.04",
       "12.5.3.C.01",
       "12.5.3.C.02",
       "12.5.6.C.01",
@@ -273,7 +388,7 @@
     "americas-can-itsp-10-171-2025": [
       "03.04.03.C",
       "03.07.04.A",
-      "03.07.05.A"
+      "03.07.06.A"
     ]
   }
 }

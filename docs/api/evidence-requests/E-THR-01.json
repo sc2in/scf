@@ -4,7 +4,7 @@
   "artifact_name": "Indicators of Exposure (IOE)",
   "artifact_description": "Documented evidence of defined Indicators of Exposure (IOE).",
   "scf_controls": [
-    "THR-02"
+    "THR-11"
   ],
   "cmmc_mapping": ""
 }

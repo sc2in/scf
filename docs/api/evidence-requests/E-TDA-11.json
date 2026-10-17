@@ -4,8 +4,7 @@
   "artifact_name": "Software Assurance Maturity Model (SAMM)",
   "artifact_description": "Documented evidence of a Software Assurance Maturity Model (SAMM).",
   "scf_controls": [
-    "TDA-06",
-    "TDA-06.3"
+    "TDA-03.1"
   ],
   "cmmc_mapping": ""
 }

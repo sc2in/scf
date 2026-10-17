@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-37.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-37.1",
+      "ao_id": "PRI-37.1_A01",
+      "objective": "a process exists to contact data subjects.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-37.1",
+      "ao_id": "PRI-37.1_A02",
+      "objective": "a process exists to notify affected data subjects of processing changes affecting their Personal Data (PD), including:\n (1) Erasure of PD;\n (2) Remediation of incorrect PD; and/or\n (3) Processing restrictions affecting their PD.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "the period required by applicable data protection law, regulation or contract, and no longer than the shortest applicable deadline",
+      "org_defined_parameters": ""
+    }
+  ]
+}

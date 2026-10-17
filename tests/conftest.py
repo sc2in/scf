@@ -18,6 +18,12 @@ Upstream rename defects (the SCF 2026.2 shape, which broke autopilot):
 - renamed-cc-header   compensating "SCF Control #" header shortened to "SCF #"
 - drifted-tab         same tab, NBSP + doubled space + zero-width space
 - unknown-tab         a tab name no built-in pattern knows (operator-alias path)
+
+Not a defect but a whole layout, the SCF 2026.3 shape (the default stays 2026.2):
+
+- layout-2026-3       compensating controls inline on the controls tab (no separate
+                      tab), a Risk/Threat likelihood matrix instead of the two summary
+                      columns, "ERL Artifact", "Notes" instead of ODP, "Old Risk #"
 """
 
 from __future__ import annotations
@@ -42,13 +48,59 @@ DEFECTS = frozenset(
         "renamed-cc-header",  # "SCF Control #" -> "SCF #"
         "drifted-tab",  # same tab, NBSP + doubled space + zero-width space
         "unknown-tab",  # a name no built-in pattern knows (operator-alias path)
+        "layout-2026-3",  # the 2026.3 workbook shape (see module docstring)
     }
 )
+
+
+RISK_IDS = ("R-AC-1", "R-GV-1")
+THREAT_IDS = ("NT-1", "NT-2", "MT-1")
+
+# The 2026.3 control tab carries compensating controls inline.
+CC_HEADER = (
+    "Risk if Primary Control\nNot Implemented",
+    "Possible Compensating Control #1",
+    "Compensating Control #1 Name",
+    "Compensating Control # 1 Description",
+    "Compensating Control #1 Justification",
+    "Possible Compensating Control #2",
+    "Compensating Control #2 Name",
+    "Compensating Control # 2 Description",
+    "Compensating Control #2 Justification",
+)
+CC_BLANK = ("N/A",) * len(CC_HEADER)
+CC_INLINE = {
+    "GOV-01.1": (
+        "Risky without it.",
+        "GOV-02",
+        "Publish Things",
+        "Mechanisms exist to publish things.",
+        "Covers it.",
+        "MON-01",
+        "Monitor Things",
+        "Mechanisms exist to monitor things.",
+        "Watches it.",
+    ),
+}
+MATRIX_HEADER = (
+    *(f"Risk {rid}" for rid in RISK_IDS),
+    *(f"Threat {tid}" for tid in THREAT_IDS),
+)
+
+
+def _matrix_cells(ids: tuple[str, ...], listed: str | None) -> list[str]:
+    """Likelihood cells for one control: listed ids rate Likely, then Possible."""
+    wanted = listed.split("\n") if listed else []
+    return [
+        "Unlikely" if i not in wanted else ("Likely" if wanted.index(i) == 0 else "Possible")
+        for i in ids
+    ]
 
 
 def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
     unknown = defects - DEFECTS
     assert not unknown, f"unknown defects: {unknown}"
+    new = "layout-2026-3" in defects
     wb = Workbook()
     wb.remove(wb.active)
 
@@ -189,6 +241,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
         "SCRM Focus\n\nTIER 1\nSTRATEGIC",
         "SCRM Focus\n\nTIER 2\nOPERATIONAL",
         "SCRM Focus\n\nTIER 3\nTACTICAL",
+        *(CC_HEADER if new else ()),
         "SCR-CMM Level 0\nNot Performed",
         "SCR-CMM Level 1\nPerformed Informally",
         "SCR-CMM Level 2\nPlanned & Tracked",
@@ -203,8 +256,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
         "CIS\nCSC 8.1\n(2024)",
         "Dup\nFW\nOne",
         "Dup\nFW\nTwo",
-        "Risk Threat Summary",
-        "Control Threat Summary",
+        *(MATRIX_HEADER if new else ("Risk Threat Summary", "Control Threat Summary")),
         "Errata\n2099.1",
     ]
     ws.append(header)
@@ -222,6 +274,10 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
         errata: str | None = None,
     ) -> list:
         marks = marks or {}
+        if new:
+            tail = [*_matrix_cells(RISK_IDS, risks), *_matrix_cells(THREAT_IDS, threats)]
+        else:
+            tail = [risks, threats]
         return [
             domain,
             title,
@@ -241,6 +297,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
             marks.get("t1"),
             marks.get("t2"),
             marks.get("t3"),
+            *(CC_INLINE.get(cid, CC_BLANK) if new else ()),
             "Not performed.",
             "Informal.",
             "Planned.",
@@ -250,8 +307,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
             marks.get("community"),
             marks.get("core"),
             *xwalk,
-            risks,
-            threats,
+            *tail,
             errata,
         ]
 
@@ -310,7 +366,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
     if "dup-control-id" in defects:
         ws.append(control_row("Testing", "Test Things Twice", "TST-01", None, 1))
 
-    # --- Compensating Controls ---
+    # --- Compensating Controls (a separate tab until 2026.3 folded it in) ---
     ws = wb.create_sheet("Compensating Controls 2099.1")
     ws.append(
         [
@@ -364,6 +420,9 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
         ]
     )
 
+    if new:
+        wb.remove(ws)  # 2026.3 folded this tab into the controls tab
+
     # --- Evidence Request List ---
     ws = wb.create_sheet("Evidence Request List 2099.1")
     ws.append(
@@ -371,7 +430,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
             "#",
             "ERL #",
             "Area of Focus",
-            "Documentation Artifact",
+            "ERL Artifact" if new else "Documentation Artifact",
             "Artifact Description",
             "SCF Control Mappings",
             "Relevant\nCMMC 2.0 L2 Control",
@@ -400,7 +459,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
             "appropriately scoped evidence exists to support the claim that:",
             "PPTDF\nApplicability",
             "SCF Assessment Objective (AO) Origin(s)",
-            "Notes / Errata",
+            "Notes" if new else "Notes / Errata",
             "Assessment\nRigor (AR)",
             "SCF Defined Parameters (SDP)",
             "Organization Defined Parameters (ODP)",
@@ -459,6 +518,9 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
                 None,
             ]
         )
+
+    if new:  # 2026.3 has no Organization Defined Parameters column
+        ws.delete_cols(9)
 
     # --- Data Privacy Mgmt Principles ---
     ws = wb.create_sheet("Data Privacy Mgmt Principles")
@@ -522,14 +584,27 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
         [
             "Risk Grouping",
             "Risk #",
+            *(["Old Risk #"] if new else []),
             "Risk*\nNote - Some of these risks indicate a deficiency",
             "Description of Possible Risk Due To Control Deficiency",
             "NIST CSF \nFunction",
         ]
     )
     ws.append([None, None, None, "IF THE CONTROL FAILS...", None])
-    ws.append(["Access Control", "R-AC-1", "No accountability", "Cannot attribute.", "Protect"])
-    ws.append(["Governance", "R-GV-1", "No governance", "Nobody steers.", "Govern"])
+    old = lambda rid: [rid] if new else []  # noqa: E731
+    ws.append(
+        [
+            "Access Control",
+            "R-AC-1",
+            *old("R-AC-1"),
+            "No accountability",
+            "Cannot attribute.",
+            "Protect",
+        ]
+    )
+    ws.append(
+        ["Governance", "R-GV-1", *old("R-GV-1"), "No governance", "Nobody steers.", "Govern"]
+    )
     ws.append([None, None, None, None, None])
     ws.append(["Note: These are POSSIBLE risks.", None, None, None, None])
 

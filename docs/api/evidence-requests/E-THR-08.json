@@ -4,7 +4,7 @@
   "artifact_name": "Behavioral Baselining",
   "artifact_description": "Documented evidence of behavioral baselining to determine normal vs abnormal activities.",
   "scf_controls": [
-    "THR-11"
+    "THR-09"
   ],
   "cmmc_mapping": ""
 }

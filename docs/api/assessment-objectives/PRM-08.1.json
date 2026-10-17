@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "PRM-08.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRM-08.1",
+      "ao_id": "PRM-08.1_A01",
+      "objective": "formal checkpoints between project management stages (e.g., initiation, planning, design, build, test, deployment) are defined in the project management methodology.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-08.1",
+      "ao_id": "PRM-08.1_A02",
+      "objective": "the security, compliance and resilience criteria that must be satisfied at each checkpoint are defined, including the earliest stage at which security, compliance and resilience requirements are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-08.1",
+      "ao_id": "PRM-08.1_A03",
+      "objective": "in-scope projects are evaluated against the defined security, compliance and resilience criteria at each checkpoint before proceeding to the next stage.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-08.1",
+      "ao_id": "PRM-08.1_A04",
+      "objective": "checkpoint decisions, including the approver, date and any conditions or accepted risks, are recorded for each in-scope project.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-08.1",
+      "ao_id": "PRM-08.1_A05",
+      "objective": "projects that do not satisfy a checkpoint's security, compliance and resilience criteria do not proceed to the next stage without a documented and approved exception.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

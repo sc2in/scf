@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-24",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-24",
+      "ao_id": "EMB-24_A01",
+      "objective": "physical proximity to robotic or autonomous platforms is monitored to reduce applied force or stop the operation when sensors indicate a potentially dangerous scenario.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

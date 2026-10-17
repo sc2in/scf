@@ -4,7 +4,7 @@
   "artifact_name": "Role Assignment - COO",
   "artifact_description": "Documented evidence of a formal role assignment to the Chief Operations Officer (COO) position.",
   "scf_controls": [
-    "GOV-04"
+    "GOV-05"
   ],
   "cmmc_mapping": ""
 }

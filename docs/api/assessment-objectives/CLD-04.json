@@ -1,24 +1,14 @@
 {
   "scf_control_id": "CLD-04",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "CLD-04",
       "ao_id": "CLD-04_A01",
-      "objective": "information/data exchange supports secure data portability.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "CLD-04",
-      "ao_id": "CLD-04_A02",
-      "objective": "information processing interoperability is supported.",
+      "objective": "the decommission process for cloud services is formally governed so that data is securely transitioned to new systems or archived in accordance with applicable organizational standards, as well as statutory, regulatory and contractual obligations.",
       "pptdf": "Process",
       "origin": "SCF Created",
-      "assessment_rigor": "3",
+      "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

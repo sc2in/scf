@@ -1,65 +1,25 @@
 {
   "scf_control_id": "BCD-04",
-  "total": 6,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "BCD-04",
       "ao_id": "BCD-04_A01",
-      "objective": "the frequency of testing the contingency plan for the system is defined.",
+      "objective": "documented roles and responsibilities exist that direct process owners to establish and maintain formal Business Continuity & Disaster Recovery (BC/DR) plans.",
       "pptdf": "Process",
-      "origin": "53A_R5_CP-04_ODP[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "at least annually",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "BCD-04",
       "ao_id": "BCD-04_A02",
-      "objective": "tests for determining the effectiveness of the contingency plan are defined.",
+      "objective": "process owners establish and maintain formal Business Continuity & Disaster Recovery (BC/DR) plans that are accurate, representative of current operations and detailed enough to sustain and/or restore operations under adverse conditions.",
       "pptdf": "Process",
-      "origin": "53A_R5_CP-04_ODP[02]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "BCD-04",
-      "ao_id": "BCD-04_A03",
-      "objective": "tests for determining readiness to execute the contingency plan are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_CP-04_ODP[03]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "BCD-04",
-      "ao_id": "BCD-04_A04",
-      "objective": "the contingency plan for the system is tested frequently.",
-      "pptdf": "Process",
-      "origin": "53A_R5_CP-04a.[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "at least annually",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "BCD-04",
-      "ao_id": "BCD-04_A05",
-      "objective": "tests are used to determine the effectiveness of the plan.",
-      "pptdf": "Process",
-      "origin": "53A_R5_CP-04a.[02]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "functional exercises",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "BCD-04",
-      "ao_id": "BCD-04_A06",
-      "objective": "tests are used to determine the readiness to execute the plan.",
-      "pptdf": "Process",
-      "origin": "53A_R5_CP-04a.[03]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "functional exercises",
       "org_defined_parameters": ""
     }
   ]

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "AST-09",
-  "total": 7,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "AST-09",
       "ao_id": "AST-09_A01",
-      "objective": "data, documentation, tools or system components to be disposed of are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SR-12_ODP[01]\n53A_R5_MP-06_ODP[01]\n53A_R5_MP-06_ODP[02]\n53A_R5_MP-06_ODP[03]",
+      "objective": "automated asset discovery tools are deployed to identify Technology Assets, Applications and/or Services (TAAS) connected to organizational networks.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,19 +15,19 @@
     {
       "scf_control_id": "AST-09",
       "ao_id": "AST-09_A02",
-      "objective": "techniques and methods for disposing of data, documentation, tools or system components are defined.",
+      "objective": "the frequency at which automated asset discovery is performed is defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_SR-12_ODP[02]\n53A_R5_MP-06_ODP[04]\n53A_R5_MP-06_ODP[05]\n53A_R5_MP-06_ODP[06]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least weekly",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "AST-09",
       "ao_id": "AST-09_A03",
-      "objective": "data, documentation, tools or system components are disposed of using techniques and methods.",
+      "objective": "the network scope covered by automated asset discovery is defined and includes all organizational network segments (e.g., wired, wireless, cloud and remote access).",
       "pptdf": "Process",
-      "origin": "53A_R5_SR-12",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -35,41 +35,21 @@
     {
       "scf_control_id": "AST-09",
       "ao_id": "AST-09_A04",
-      "objective": "system media is sanitized using sanitization techniques and procedures prior to disposal.",
+      "objective": "discovered Technology Assets, Applications and/or Services (TAAS) are compared against existing inventories to identify assets not present in the inventory.",
       "pptdf": "Process",
-      "origin": "53A_R5_MP-06a.[01]",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "techniques and procedures IAW NIST SP 800-088 Section 4: Reuse and Disposal of Storage Media and Hardware",
+      "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "AST-09",
       "ao_id": "AST-09_A05",
-      "objective": "system media is sanitized using sanitization techniques and procedures prior to release from organizational control.",
+      "objective": "assets identified by discovery that are not present in existing inventories are investigated and either added to the inventory or removed from the network within a defined time period.",
       "pptdf": "Process",
-      "origin": "53A_R5_MP-06a.[02]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "techniques and procedures IAW NIST SP 800-088 Section 4: Reuse and Disposal of Storage Media and Hardware",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AST-09",
-      "ao_id": "AST-09_A06",
-      "objective": "system media is sanitized using sanitization techniques and procedures prior to release for reuse.",
-      "pptdf": "Process",
-      "origin": "53A_R5_MP-06a.[03]",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "techniques and procedures IAW NIST SP 800-088 Section 4: Reuse and Disposal of Storage Media and Hardware",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "AST-09",
-      "ao_id": "AST-09_A07",
-      "objective": "sanitization mechanisms with strength and integrity commensurate with the security category or classification of the information are employed.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_MP-06b.",
-      "assessment_rigor": "3",
-      "scf_defined_parameters": "",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "within one (1) week of discovery",
       "org_defined_parameters": ""
     }
   ]

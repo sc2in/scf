@@ -1,13 +1,13 @@
 {
   "scf_control_id": "DCH-14",
-  "total": 3,
+  "total": 5,
   "assessment_objectives": [
     {
       "scf_control_id": "DCH-14",
       "ao_id": "DCH-14_A01",
-      "objective": "information-sharing circumstances where user discretion is required to determine whether access authorizations assigned to a sharing partner match the information’s access and use restrictions are defined.",
+      "objective": "types of digital media to be physically controlled are defined.",
       "pptdf": "Process",
-      "origin": "53A_R5_AC-21_ODP[01]",
+      "origin": "53A_R5_MP-04_ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "DCH-14",
       "ao_id": "DCH-14_A02",
-      "objective": "authorized users are enabled to determine whether access authorizations assigned to a sharing partner match the information’s access and use restrictions for organization-defined information-sharing circumstances.",
-      "pptdf": "Technology",
-      "origin": "53A_R5_AC-21a.",
+      "objective": "types of non-digital media to be physically controlled are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-04_ODP[02]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,10 +25,30 @@
     {
       "scf_control_id": "DCH-14",
       "ao_id": "DCH-14_A03",
-      "objective": "automated mechanisms or manual processes that assist users in making information-sharing and collaboration decisions are defined.",
+      "objective": "types of digital media containing sensitive and/or regulated data are physically controlled.",
       "pptdf": "Process",
-      "origin": "53A_R5_AC-21_ODP[02]\n53A_R5_AC-21b.",
-      "assessment_rigor": "3",
+      "origin": "53A_R5_MP-04a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "all types of digital and non-digital media containing sensitive and/or regulated data",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-14",
+      "ao_id": "DCH-14_A04",
+      "objective": "types of non-digital media containing sensitive and/or regulated data are physically controlled.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-04a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "all types of digital and non-digital media containing sensitive and/or regulated data",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-14",
+      "ao_id": "DCH-14_A05",
+      "objective": "media containing sensitive and/or regulated data is protected until the media are destroyed or sanitized using approved equipment, techniques and procedures.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-04b.",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

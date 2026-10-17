@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-PRI-11",
+  "area": "Privacy",
+  "artifact_name": "Automated Decision-Making Technology (ADMT) Documentation",
+  "artifact_description": "Documented evidence of Automated Decision-Making Technology (ADMT) use, notifications, opt-out and transparency documentation.",
+  "scf_controls": [
+    "PRI-36",
+    "PRI-36.1",
+    "PRI-36.2",
+    "PRI-36.3",
+    "PRI-36.4"
+  ],
+  "cmmc_mapping": ""
+}

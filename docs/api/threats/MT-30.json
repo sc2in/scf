@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-30",
+  "grouping": "Man-Made Threat",
+  "name": "Operational Technology (OT) / Industrial Control System (ICS) Attack",
+  "description": "Deliberate cyberattack against Operational Technology (OT) or Industrial Control System (ICS) environments that manipulates, disrupts or disables industrial processes, safety functions, equipment or control-supporting operations."
+}

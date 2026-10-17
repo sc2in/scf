@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "RSK-22",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-22",
+      "ao_id": "RSK-22_A01",
+      "objective": "risk monitoring is an integral part of the continuous monitoring strategy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-22",
+      "ao_id": "RSK-22_A02",
+      "objective": "the effectiveness of security, compliance and resilience controls is monitored as part of risk monitoring.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(04)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-22",
+      "ao_id": "RSK-22_A03",
+      "objective": "compliance monitoring is included in risk monitoring.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(04)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-22",
+      "ao_id": "RSK-22_A04",
+      "objective": "changes to Technology Assets, Applications and/or Services (TAAS) that affect risk are monitored as part of risk monitoring.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(04)(c)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-22",
+      "ao_id": "RSK-22_A05",
+      "objective": "changes to the organization's risk profile are monitored as part of risk monitoring.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

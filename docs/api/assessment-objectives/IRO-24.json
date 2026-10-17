@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "IRO-24",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-24",
+      "ao_id": "IRO-24_A01",
+      "objective": "capability exists to respond to the compromise or disallowance of a Post-Quantum Cryptography (PQC) or classical algorithm on a compressed timeline.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-24",
+      "ao_id": "IRO-24_A02",
+      "objective": "pre-identified algorithm alternates are established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-24",
+      "ao_id": "IRO-24_A03",
+      "objective": "tested rollback and roll-forward procedures are established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-24",
+      "ao_id": "IRO-24_A04",
+      "objective": "customer and/or counterparty communication templates are established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-24",
+      "ao_id": "IRO-24_A05",
+      "objective": "incident response rehearsals against defined scenarios are conducted.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

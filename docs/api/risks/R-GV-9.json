@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-GV-9",
+  "grouping": "Governance",
+  "name": "Inability to Demonstrate Due Diligence / Due Care",
+  "description": "The organization cannot produce defensible evidence that applicable risks, controls and obligations were reasonably identified, implemented, monitored and/or governed.",
+  "nist_csf_function": "Protect"
+}

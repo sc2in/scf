@@ -1,23 +1,13 @@
 {
   "scf_control_id": "BCD-14",
-  "total": 2,
+  "total": 1,
   "assessment_objectives": [
     {
       "scf_control_id": "BCD-14",
       "ao_id": "BCD-14_A01",
-      "objective": "the organization utilizes an isolated, non-production environment to perform data backups via offline, cloud or off-site capabilities.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "BCD-14",
-      "ao_id": "BCD-14_A02",
-      "objective": "the organization utilizes an isolated, non-production environment to perform recovery operations through offline, cloud or off-site capabilities.",
-      "pptdf": "Technology",
-      "origin": "SCF Created",
+      "objective": "alternate processing site agreements that contain priority-of-service provisions in accordance with availability requirements (including recovery time objectives) are developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-07(03)",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

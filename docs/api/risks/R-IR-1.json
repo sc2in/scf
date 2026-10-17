@@ -1,7 +1,7 @@
 {
   "risk_id": "R-IR-1",
   "grouping": "Incident Response",
-  "name": "Inability to investigate / prosecute incidents",
-  "description": "Insufficient incident response practices that prevent the organization from investigating and/or prosecuting incidents (e.g., chain of custody corruption, available sources of evidence, etc.).",
+  "name": "Loss of Investigative / Evidentiary Capability",
+  "description": "Required evidence, logs, records or chain-of-custody integrity are unavailable or unreliable that prevents the organization from reliably:\n(1) Reconstructing;\n(2) Investigating;\n(3) Attributing / taking legal action for; and/or\n(4) Learning from an incident.",
   "nist_csf_function": "Respond"
 }

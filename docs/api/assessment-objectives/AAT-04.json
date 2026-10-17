@@ -5,7 +5,7 @@
     {
       "scf_control_id": "AAT-04",
       "ao_id": "AAT-04_A01",
-      "objective": "capabilities for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are benchmarked.",
+      "objective": "the context for the intended purpose(s) for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "AAT-04",
       "ao_id": "AAT-04_A02",
-      "objective": "targeted usage for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is benchmarked.",
+      "objective": "the context for the potentially beneficial use(s) for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,7 +25,7 @@
     {
       "scf_control_id": "AAT-04",
       "ao_id": "AAT-04_A03",
-      "objective": "goals for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are benchmarked.",
+      "objective": "the context for legal and regulatory compliance for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -35,7 +35,7 @@
     {
       "scf_control_id": "AAT-04",
       "ao_id": "AAT-04_A04",
-      "objective": "expected benefits for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are benchmarked.",
+      "objective": "the context for the norms and expectations for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -45,7 +45,7 @@
     {
       "scf_control_id": "AAT-04",
       "ao_id": "AAT-04_A05",
-      "objective": "expected costs for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are benchmarked.",
+      "objective": "the context for the proposed deployment setting(s) for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

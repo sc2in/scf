@@ -1,11 +1,11 @@
 {
   "scf_control_id": "QTS-06.1",
-  "total": 5,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "QTS-06.1",
       "ao_id": "QTS-06.1_A01",
-      "objective": "validated entropy sources and random bit generators comply with NIST SP 800-90B.",
+      "objective": "sufficient resources are allocated to transition legacy Technology Assets, Applications and/or Services (TAAS) to Post-Quantum Cryptography (PQC) algorithms.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,41 +15,11 @@
     {
       "scf_control_id": "QTS-06.1",
       "ao_id": "QTS-06.1_A02",
-      "objective": "the entropy sources support Post-Quantum Cryptography (PQC) key generation.",
+      "objective": "hybrid cryptography is supported during a defined transition period, if applicable.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-06.1",
-      "ao_id": "QTS-06.1_A03",
-      "objective": "the entropy sources support nonce generation.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-06.1",
-      "ao_id": "QTS-06.1_A04",
-      "objective": "the entropy sources support probabilistic algorithm inputs.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "QTS-06.1",
-      "ao_id": "QTS-06.1_A05",
-      "objective": "the entropy sources support key validation.",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "the transition period defined in the Post-Quantum Cryptography Agility Plan (PQCAP), reassessed at least annually",
       "org_defined_parameters": ""
     }
   ]

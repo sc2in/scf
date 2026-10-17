@@ -4,7 +4,9 @@
   "artifact_name": "Wireless Rogue Detection",
   "artifact_description": "Documented evidence of automated or manual means to detect rogue wireless devices.",
   "scf_controls": [
-    "NET-15.5"
+    "MON-26",
+    "NET-25",
+    "NET-32"
   ],
   "cmmc_mapping": ""
 }

@@ -4,7 +4,9 @@
   "artifact_name": "Rogue Devices",
   "artifact_description": "Documented evidence of rogue device identification is included as part of the centralized event log collection and review/analysis process.",
   "scf_controls": [
-    "AST-02.6"
+    "AST-09",
+    "AST-09.1",
+    "AST-11"
   ],
   "cmmc_mapping": ""
 }

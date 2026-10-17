@@ -4,8 +4,8 @@
   "artifact_name": "Risk Tolerance",
   "artifact_description": "Documented evidence the organization has a defined risk tolerance.",
   "scf_controls": [
-    "RSK-01.1",
-    "RSK-01.4"
+    "RSK-05",
+    "RSK-05.1"
   ],
   "cmmc_mapping": ""
 }

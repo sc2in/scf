@@ -1,277 +1,459 @@
 {
-  "total": 39,
+  "total": 65,
   "risks": [
     {
       "risk_id": "R-AC-1",
       "grouping": "Access Control",
-      "name": "Inability to maintain individual accountability",
-      "description": "The inability to maintain accountability (e.g., asset ownership, non-repudiation of actions or inactions, etc.).",
+      "name": "Loss of Accountability / Attribution",
+      "description": "Actions, transactions, asset ownership or other relevant activity cannot be reliably attributed to an accountable individual, service or system, impairing traceability, non-repudiation and enforcement.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-AC-2",
       "grouping": "Access Control",
-      "name": "Improper assignment of privileged functions",
-      "description": "The inability to implement least privileges (e.g., Role-Based Access Control (RBAC), Privileged Account Management (PAM), etc.).",
+      "name": "Excessive or Unauthorized Privilege",
+      "description": "Users, services or systems obtain or retain privileges beyond those required for authorized duties, increasing the ability to access, change, disclose or disrupt protected resources.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-AC-3",
       "grouping": "Access Control",
-      "name": "Privilege escalation",
-      "description": "The inability to restrict access to privileged functions.",
+      "name": "Unauthorized Privilege Elevation",
+      "description": "An actor, account, service or process gains privileges beyond its authorized level, enabling access to restricted functions, data or administrative capabilities.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-AC-4",
       "grouping": "Access Control",
-      "name": "Unauthorized access",
-      "description": "The inability to restrict access to only authorized individuals, groups or services.",
+      "name": "Unauthorized Access",
+      "description": "Individuals, groups, services, devices or processes gain access to Technology Assets, Applications, Services, Data and/or Facilities (TAASDF) without appropriate authorization.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-AC-5",
+      "grouping": "Access Control",
+      "name": "Identity Compromise / Impersonation",
+      "description": "A user, service or machine identity is compromised, spoofed or hijacked, allowing an unauthorized actor to authenticate or operate as a trusted identity.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-AM-1",
       "grouping": "Asset Management",
-      "name": "Lost, damaged or stolen asset(s)",
-      "description": "Lost, damaged or stolen assets.",
+      "name": "Loss, Theft or Damage of Assets",
+      "description": "Technology, data, equipment or other organizational assets are lost, stolen, destroyed, damaged or otherwise rendered unavailable for authorized use.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-AM-2",
       "grouping": "Asset Management",
-      "name": "Loss of integrity through unauthorized changes",
-      "description": "Unauthorized changes that corrupt the integrity of the system / application / service.",
+      "name": "Unauthorized Modification / Loss of System Integrity",
+      "description": "Unauthorized or unintended changes alter the configuration, code, data or state of a Technology Asset, Application and/or Service (TAAS) causing it to operate in an untrusted or unreliable manner.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-AM-3",
       "grouping": "Asset Management",
-      "name": "Emergent properties and/or unintended consequences",
-      "description": "Emergent properties and/or unintended consequences from Artificial Intelligence & Autonomous Technologies (AAT).",
+      "name": "Unauthorized Retention / Inability to Dispose of Data",
+      "description": "Sensitive and/or regulated data is retained beyond authorized or necessary periods, cannot be reliably located or disposed of, or remains recoverable after intended destruction, creating security, data privacy, legal or discovery exposure.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-BC-1",
       "grouping": "Business Continuity",
-      "name": "Business interruption",
-      "description": "Increased latency, or a service outage, that negatively impact business operations.",
+      "name": "Business / Service Interruption",
+      "description": "Critical business processes, mission functions and Technology Assets, Applications and/or Services (TAAS) become unavailable, materially degraded or unable to meet required service levels.",
       "nist_csf_function": "Recover"
     },
     {
       "risk_id": "R-BC-2",
       "grouping": "Business Continuity",
-      "name": "Data loss / corruption",
-      "description": "The inability to maintain the confidentiality of the data (compromise) or prevent data corruption (loss).",
+      "name": "Data Loss / Integrity Compromise",
+      "description": "Data is destroyed, unavailable, corrupted, altered or otherwise loses required integrity or recoverability, impairing business, legal or operational use.",
       "nist_csf_function": "Recover"
     },
     {
       "risk_id": "R-BC-3",
       "grouping": "Business Continuity",
-      "name": "Reduction in productivity",
-      "description": "Diminished user productivity.",
+      "name": "Reduced Operational Productivity",
+      "description": "Personnel, systems and/or business processes operate below required efficiency or throughput because necessary Technology Assets, Applications, Services and/or Data (TAASD) are unavailable or degraded.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-BC-4",
       "grouping": "Business Continuity",
-      "name": "Information loss / corruption or system compromise due to technical attack",
-      "description": "A technical attack that compromises data, systems, applications or services (e.g., malware, phishing, hacking, etc.).",
+      "name": "System / Data Compromise (Technical Vector)",
+      "description": "Technology Assets, Applications and/or Services (TAAS) experience a technical attack vector compromise that results in unauthorized access, disclosure, modification, destruction or disruption (e.g., malware, phishing, hacking, etc.).",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-BC-5",
       "grouping": "Business Continuity",
-      "name": "Information loss / corruption or system compromise due to non‐technical attack",
-      "description": "A non-technical attack that compromises data, systems, applications or services (e.g., social engineering, sabotage, etc.).",
+      "name": "System / Data Compromise (Non-Technical Vector)",
+      "description": "Technology Assets, Applications, Services and/or Data (TAASD) experience a non-technical attack vector compromise that results in unauthorized access, disclosure, modification, destruction or disruption (e.g., social engineering, sabotage, etc.).",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-EX-1",
       "grouping": "Exposure",
-      "name": "Loss of revenue",
-      "description": "A negative impact on the ability to generate revenue (e.g., a loss of clients or an inability to generate future revenue).",
+      "name": "Revenue Loss",
+      "description": "The organization experiences reduced current or future revenue because a control deficiency disrupts operations:\n(1) Causes customer loss;\n(2) Prevents sales; and/or\n(3) Otherwise impairs revenue-generating activity.",
       "nist_csf_function": "Recover"
     },
     {
       "risk_id": "R-EX-2",
       "grouping": "Exposure",
-      "name": "Cancelled contract",
-      "description": "A cancelled contract with a client or other entity for cause (e.g., failure to fulfill obligations for secure practices).",
+      "name": "Contractual Default / Termination",
+      "description": "The organization breaches, defaults on, loses, terminates or fails to renew a contract because it cannot meet required security, data privacy, compliance, resilience and/or performance obligations.",
       "nist_csf_function": "Recover"
     },
     {
       "risk_id": "R-EX-3",
       "grouping": "Exposure",
-      "name": "Diminished competitive advantage",
-      "description": "Diminished competitive advantage (e.g., lose market share, internal dysfunction, etc.).",
+      "name": "Loss of Competitive Advantage",
+      "description": "The organization loses market position, strategic differentiation, intellectual advantage or customer preference because a control deficiency\n(1) Exposes data;\n(2) Disrupts performance; and/or\n(3) Weakens stakeholder confidence.",
       "nist_csf_function": "Recover"
     },
     {
       "risk_id": "R-EX-4",
       "grouping": "Exposure",
-      "name": "Diminished reputation",
-      "description": "Diminished brand value (e.g., tarnished reputation).",
+      "name": "Reputational Harm / Loss of Stakeholder Trust",
+      "description": "Customers, partners, regulators, investors, employees or the public lose confidence in the organization, resulting in:\n(1) Reputational damage; and/or\n(2) Diminished brand value.",
       "nist_csf_function": "Recover"
     },
     {
       "risk_id": "R-EX-5",
       "grouping": "Exposure",
-      "name": "Fines and judgements",
-      "description": "Financial damages due to fines and/or judgements from statutory / regulatory / contractual non-compliance.",
+      "name": "Regulatory / Legal / Contractual Financial Liability",
+      "description": "The organization incurs fines, penalties, judgments, remediation, settlements, damages, indemnification costs or other financial liability due to legal, regulatory or contractual noncompliance.",
       "nist_csf_function": "Recover"
     },
     {
       "risk_id": "R-EX-6",
       "grouping": "Exposure",
-      "name": "Unmitigated vulnerabilities",
-      "description": "Unmitigated technical vulnerabilities that lack compensating controls or other mitigation actions.",
+      "name": "Exposure from Unaddressed Vulnerabilities",
+      "description": "Known Exploited Vulnerabilities (KEV) remain exploitable because they are not remediated, mitigated or otherwise addressed, increasing exposure to compromise.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-EX-7",
       "grouping": "Exposure",
-      "name": "System compromise",
-      "description": "A compromise of a system, application or service that affects confidentiality, integrity, availability and/or safety.",
+      "name": "System / Service Compromise",
+      "description": "Technology Assets, Applications and/or Services (TAAS) are compromised, resulting in loss of confidentiality, integrity, availability, authenticity and/or safety.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-EX-8",
+      "grouping": "Exposure",
+      "name": "Failure to Achieve Strategic / Mission Objectives",
+      "description": "A control deficiency materially prevents, delays or degrades the organization's ability to achieve strategic, mission or program objectives.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-EX-9",
+      "grouping": "Exposure",
+      "name": "Intellectual Property / Trade Secret Loss",
+      "description": "The strategic or competitive value of proprietary data, trade secrets, research, designs, source code or other Intellectual Property (IP) is reduced when it is:\n(1) Improperly disclosed;\n(2) Stolen;\n(3) Copied; and/or\n(4) Rendered non-exclusive,",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-EX-10",
+      "grouping": "Exposure",
+      "name": "Fraud / Theft / Direct Financial Loss",
+      "description": "The organization or its stakeholders suffer direct monetary loss through:\n(1) Fraud;\n(2) Theft;\n(3) Unauthorized transactions;\n(4) Diversion of funds; or\n(5) Other financially harmful activity.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-EX-11",
+      "grouping": "Exposure",
+      "name": "Loss of Authorization / Certification / License",
+      "description": "The organization loses or is unable to obtain or maintain an authorization, certification, accreditation, license or other permission required to operate, sell, contract or access a market.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-GV-1",
       "grouping": "Governance",
-      "name": "Inability to support business processes",
-      "description": "Insufficient cybersecurity and/or privacy practices that cannot securely support the organization's technologies & processes.",
+      "name": "Failure to Support Business / Mission Objectives",
+      "description": "Security, data privacy, compliance or resilience deficiencies prevent Technology Assets, Applications, Services and/or Data (TAASD) from reliably supporting required business operations, mission functions or strategic objectives.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-GV-2",
       "grouping": "Governance",
-      "name": "Incorrect controls scoping",
-      "description": "Missing or incorrect cybersecurity and/or privacy controls due to incorrect or inadequate control scoping practices.",
+      "name": "Unaddressed Security / Compliance Exposure",
+      "description": "Incorrect or incomplete control scoping leaves applicable People, Processes, Technologies, Data and/or Facilities (PPTDF)  without required safeguards, creating unmanaged security, data privacy, compliance and/or resilience exposure.",
       "nist_csf_function": "Identify"
     },
     {
       "risk_id": "R-GV-3",
       "grouping": "Governance",
-      "name": "Lack of roles & responsibilities",
-      "description": "Insufficient cybersecurity and/or privacy roles & responsibilities that cannot securely support the organization's technologies & processes.",
+      "name": "Unperformed / Unowned Control Responsibilities",
+      "description": "Required security, data privacy, compliance and/or resilience activities are not performed, coordinated or escalated because responsibility or accountability is unclear or unassigned.",
       "nist_csf_function": "Identify"
     },
     {
       "risk_id": "R-GV-4",
       "grouping": "Governance",
-      "name": "Inadequate internal practices",
-      "description": "Insufficient cybersecurity and/or privacy practices that can securely support the organization's technologies & processes.",
+      "name": "Uncontrolled Internal Security / Privacy Exposure",
+      "description": "Internal practices are insufficient to prevent, detect, respond to or recover from security, data privacy, compliance and/or resilience events, leaving organizational operations and assets exposed.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-GV-5",
       "grouping": "Governance",
-      "name": "Inadequate third-party practices",
-      "description": "Insufficient Cybersecurity Supply Chain Risk Management (C-SCRM) practices that cannot securely support the organization's technologies & processes.",
+      "name": "Uncontrolled Third-Party Security / Privacy Exposure",
+      "description": "Weak third-party governance or Cybersecurity Supply Chain Risk Management (C-SCRM) practices leave the organization exposed to security, data privacy, compliance, resilience or dependency risks originating from suppliers and External Service Providers (ESP).",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-GV-6",
       "grouping": "Governance",
       "name": "Lack of oversight of internal controls",
-      "description": "The inability to demonstrate appropriate evidence of due diligence and due care in overseeing the organization's internal cybersecurity and/or privacy controls.",
+      "description": "Internal control deficiencies, failures or changes remain unidentified or unresolved, allowing risk exposure to persist and reducing the organization's ability to demonstrate due diligence and due care.",
       "nist_csf_function": "Identify"
     },
     {
       "risk_id": "R-GV-7",
       "grouping": "Governance",
       "name": "Lack of oversight of third-party controls",
-      "description": "The inability to demonstrate appropriate evidence of due diligence and due care in overseeing third-party cybersecurity and/or privacy controls.",
+      "description": "Third-party control deficiencies, failures or changes remain unidentified or unresolved, allowing supplier-originated exposure to persist and reducing the organization's ability to demonstrate appropriate Third-Party Risk Management (TPRM) oversight.",
       "nist_csf_function": "Identify"
     },
     {
       "risk_id": "R-GV-8",
       "grouping": "Governance",
-      "name": "Illegal content or abusive action",
-      "description": "Disruptive content or actions that negatively affect business operations (e.g., abusive content, harmful speech, threats of violence, illegal content, etc.).",
+      "name": "Harm from Illegal, Abusive or Unsafe Content / Conduct",
+      "description": "Illegal, abusive, threatening or otherwise harmful content or conduct causes:\n(1) Operational disruption;\n(2) Legal exposure;\n(3) Personnel harm;\n(4) Loss of trust; and/or\n(5) Other adverse organizational consequences.",
       "nist_csf_function": "Identify"
+    },
+    {
+      "risk_id": "R-GV-9",
+      "grouping": "Governance",
+      "name": "Inability to Demonstrate Due Diligence / Due Care",
+      "description": "The organization cannot produce defensible evidence that applicable risks, controls and obligations were reasonably identified, implemented, monitored and/or governed.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-GV-10",
+      "grouping": "Governance",
+      "name": "Unreliable Assurance / Decision Information",
+      "description": "Executive management, the Board of Directors (BoD), assessors or other stakeholders rely on inaccurate, incomplete or untimely control, risk or compliance information, leading to:\n(1) Unsound decisions; and/or\n(2) False assurance.",
+      "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-IR-1",
       "grouping": "Incident Response",
-      "name": "Inability to investigate / prosecute incidents",
-      "description": "Insufficient incident response practices that prevent the organization from investigating and/or prosecuting incidents (e.g., chain of custody corruption, available sources of evidence, etc.).",
+      "name": "Loss of Investigative / Evidentiary Capability",
+      "description": "Required evidence, logs, records or chain-of-custody integrity are unavailable or unreliable that prevents the organization from reliably:\n(1) Reconstructing;\n(2) Investigating;\n(3) Attributing / taking legal action for; and/or\n(4) Learning from an incident.",
       "nist_csf_function": "Respond"
     },
     {
       "risk_id": "R-IR-2",
       "grouping": "Incident Response",
-      "name": "Improper response to incidents",
-      "description": "The inability to appropriately respond to incidents in a timely manner.",
+      "name": "Delayed Containment / Increased Incident Impact",
+      "description": "An incident is not contained, eradicated, communicated or escalated in a timely and appropriate manner, allowing the scope, duration, cost and/or harm of the incident to increase.",
       "nist_csf_function": "Respond"
     },
     {
       "risk_id": "R-IR-3",
       "grouping": "Incident Response",
-      "name": "Ineffective remediation actions",
-      "description": "The inability to ensure incident response actions were correct and/or effective.",
+      "name": "Incident Persistence / Recurrence",
+      "description": "Root causes, persistence mechanisms or affected conditions are not effectively remediated, allowing the incident, vulnerability or compromise to continue or recur.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-IR-4",
       "grouping": "Incident Response",
-      "name": "Expense associated with managing a loss event",
-      "description": "Financial repercussions from responding to an incident or loss.",
+      "name": "Incident Response / Recovery Cost",
+      "description": "The organization incurs unplanned investigation, containment, recovery, notification, legal, forensic, restoration and/or other costs associated with managing an incident or loss event.",
       "nist_csf_function": "Respond"
+    },
+    {
+      "risk_id": "R-OR-1",
+      "grouping": "Operational Resilience",
+      "name": "Recovery Failure / Unacceptable Recovery Delay",
+      "description": "The organization cannot restore critical services, data, facilities or capabilities within required recovery objectives after a disruption.",
+      "nist_csf_function": "Recover"
+    },
+    {
+      "risk_id": "R-OR-2",
+      "grouping": "Operational Resilience",
+      "name": "Concentration / Single-Point Dependency Failure",
+      "description": "Failure of a highly concentrated supplier, technology, facility, region or other dependency causes disproportionate disruption because adequate alternatives or redundancy are unavailable.",
+      "nist_csf_function": "Recover"
     },
     {
       "risk_id": "R-SA-1",
       "grouping": "Situational Awareness",
-      "name": "Inability to maintain situational awareness",
-      "description": "The inability to detect cybersecurity and/or privacy incidents (e.g., a lack of situational awareness).",
+      "name": "Undetected / Delayed Detection of Adverse Activity",
+      "description": "Malicious, abnormal, unauthorized or otherwise material activity is not detected or recognized in time to prevent or limit harm.",
       "nist_csf_function": "Detect"
     },
     {
       "risk_id": "R-SA-2",
       "grouping": "Situational Awareness",
       "name": "Lack of a security-minded workforce",
-      "description": "The inability to appropriately educate and train personnel to foster a security-minded workforce.",
+      "description": "Personnel are more likely to:\n(1) Make unsafe decisions;\n(2) Fall victim to social engineering;\n(3) Mishandle data;\n(4) Violate requirements; and/or\n(5) Fail to recognize and report security or privacy concerns.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-SC-1",
       "grouping": "Supply Chain",
-      "name": "Third-party cybersecurity exposure",
-      "description": "Loss of Confidentiality, Integrity, Availability and/or Safety (CIAS) from third-party cybersecurity practices, vulnerabilities and/or incidents that affects the supply chain through impacted products and/or services.",
+      "name": "Third-Party Cybersecurity Compromise / Exposure",
+      "description": "A supplier or External Service Provider (ESP) experiencing a cybersecurity weakness, incident or compromise causes loss of Confidentiality, Integrity, Availability and/or Safety (CIAS) in organizational products, services, data or operations.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-SC-2",
       "grouping": "Supply Chain",
-      "name": "Third-party physical security exposure",
-      "description": "Loss of Confidentiality, Integrity, Availability and/or Safety (CIAS) from physical security exposure of third-party structures, facilities and/or other physical assets that affects the supply chain through impacted products and/or services.",
+      "name": "Third-Party Physical Security Disruption / Exposure",
+      "description": "A physical security event affecting a supplier's or External Service Provider's (ESP)  facilities, personnel, equipment or other assets disrupts or compromises products, services, data or operations relied upon by the organization.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-SC-3",
       "grouping": "Supply Chain",
-      "name": "Third-party supply chain relationships, visibility and controls",
-      "description": "Loss of Confidentiality, Integrity, Availability and/or Safety (CIAS) from \"downstream\" third-party relationships, visibility and controls that affect the supply chain through impacted products and/or services.",
+      "name": "Sub-Tier / Fourth-Party Supply Chain Exposure",
+      "description": "Risks originating from a supplier's or External Service Provider's (ESP)  own suppliers, subcontractors or dependencies propagate through the supply chain and affect organizational Confidentiality, Integrity, Availability and/or Safety (CIAS), compliance and/or operations.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-SC-4",
       "grouping": "Supply Chain",
-      "name": "Third-party compliance / legal exposure",
-      "description": "The inability to maintain compliance due to third-party non-compliance, criminal acts, or other relevant legal action(s).",
+      "name": "Third-Party Legal / Compliance Exposure",
+      "description": "Third-party noncompliance, unlawful conduct, sanctions, litigation or other legal conditions cause the organization to:\n(1) Violate obligations;\n(2) Lose contracts;\n(3) Incur legal and/or financial liability; and/or\n(4) Experience operational restrictions.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-SC-5",
       "grouping": "Supply Chain",
-      "name": "Use of product / service",
-      "description": "The misuse of the product / service in a manner that it was not designed or how it was approved for use.",
+      "name": "Harm from Unauthorized / Unintended Product or Service Use",
+      "description": "A product or service is used outside its authorized, intended or approved purpose, creating security, data privacy, safety, legal, operational or financial harm.",
       "nist_csf_function": "Protect"
     },
     {
       "risk_id": "R-SC-6",
       "grouping": "Supply Chain",
-      "name": "Reliance on the third-party",
-      "description": "The inability to continue business operations, due to the reliance on the third-party product and/or service.",
+      "name": "Third-Party Dependency Failure",
+      "description": "A critical third-party product, service or capability becomes unavailable, degraded, discontinued or otherwise unable to support required operations, causing business operations disruption.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-SC-7",
+      "grouping": "Supply Chain",
+      "name": "Counterfeit / Non-Conforming Component Impact",
+      "description": "Counterfeit, substituted, defective or non-conforming products or components cause reliability, security, safety, warranty or operational failures in organizational Technology Assets, Applications and/or Services (TAAS).",
+      "nist_csf_function": "Identify"
+    },
+    {
+      "risk_id": "R-AI-1",
+      "grouping": "Artificial Intelligence & Autonomous Technologies",
+      "name": "AI Output / Decision Integrity Failure",
+      "description": "An Artificial Intelligence (AI) model produces inaccurate, manipulated, biased, unsafe or otherwise unreliable outputs or decisions that cause dependent controls, users or processes to act incorrectly.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-AI-2",
+      "grouping": "Artificial Intelligence & Autonomous Technologies",
+      "name": "AI Data Confidentiality / Integrity / Provenance Loss",
+      "description": "Training, fine-tuning, embedding, retrieval or inference data is disclosed, altered, contaminated, misattributed or stripped of required provenance, undermining data privacy, security or Artificial Intelligence (AI) reliability.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-AI-3",
+      "grouping": "Artificial Intelligence & Autonomous Technologies",
+      "name": "Unauthorized / Harmful Autonomous Action",
+      "description": "An Artificial Intelligence (AI) agent or autonomous system takes an action outside authorized scope or intended objectives, causing security, data privacy, safety, legal, financial and/or operational harm.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-AI-4",
+      "grouping": "Artificial Intelligence & Autonomous Technologies",
+      "name": "Sensitive Data / Compliance Exposure from Unsanctioned AI Use",
+      "description": "Unapproved or ungoverned Artificial Intelligence (AI) use:\n(1) Exposes sensitive and/or regulated data;\n(2) Creates unauthorized processing;\n(3) Introduces Intellectual Property (IP) or licensing issues; and/or\n(4) Causes statutory, regulatory and/or contractual noncompliance.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-AI-5",
+      "grouping": "Artificial Intelligence & Autonomous Technologies",
+      "name": "Unintended or Unsafe Technology Behavior",
+      "description": "Artificial Intelligence (AI) exhibits emergent, unanticipated or unintended behavior that produces incorrect, unsafe or harmful outcomes or causes dependent controls and processes to operate outside intended boundaries.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-AI-6",
+      "grouping": "Artificial Intelligence & Autonomous Technologies",
+      "name": "AI Bias / Discriminatory Outcome",
+      "description": "Artificial Intelligence (AI)-supported decisions or outputs produce unjustified, systematically biased or discriminatory outcomes that create legal, ethical, reputational or individual harm.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-OT-1",
+      "grouping": "Operational Technology (OT)",
+      "name": "OT Safety / Process Availability Failure",
+      "description": "Failure or compromise of Operational Technology (OT) or Industrial Control System (ICS) functions causes:\n(1) Loss or degradation of safety functions;\n(2) Physical-process availability; and/or\n(3)  Equipment integrity / unsafe operating conditions.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-IP-1",
+      "grouping": "Information Protection",
+      "name": "Long-Term Confidentiality Loss from Cryptographic Obsolescence",
+      "description": "Sensitive and/or regulated data requiring long confidentiality lifetimes becomes susceptible to Harvest Now, Decrypt Later (HNDL) collection and future decryption.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-IP-2",
+      "grouping": "Information Protection",
+      "name": "Loss of Confidentiality",
+      "description": "Sensitive and/or regulated data is disclosed or made accessible to unauthorized:\n(1) Individuals;\n(2) Entities; and/or\n(3) Technology Assets, Applications and/or Services (TAAS).",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-IP-3",
+      "grouping": "Information Protection",
+      "name": "Loss of Data Integrity",
+      "description": "Data is altered, corrupted, fabricated, deleted or otherwise changed without authorization or reliable detection, causing it to become untrustworthy for its intended use.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-IP-4",
+      "grouping": "Information Protection",
+      "name": "Loss of Data / Service Availability",
+      "description": "Technology Assets, Applications, Services and/or Data (TAASD) are unavailable or inaccessible when required to support authorized business or mission needs.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-IP-5",
+      "grouping": "Information Protection",
+      "name": "Loss of Authenticity / Provenance",
+      "description": "The organization cannot reliably establish the origin, authenticity, lineage or trustworthiness of:\n(1) Data;\n(2) Software;\n(3) System components;\n(4) Communications; and/ or\n(5) Transactions.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-IP-6",
+      "grouping": "Information Protection",
+      "name": "Privacy Harm / Unauthorized Processing",
+      "description": "Individuals are harmed and/or the organization is exposed to statutory and/or regulatory actions when  Personal Data (PD) is collected, received, processed, stored, transmitted, shared, updated and/or disposed of without appropriate:\n(1) Authority;\n(2) Transparency;\n(3) Limitation; and/or\n(4) Protection,",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-SF-1",
+      "grouping": "Safety",
+      "name": "Injury / Loss of Life",
+      "description": "A control deficiency contributes to unsafe conditions that cause or materially increase the likelihood of:\n(1) Human injury;\n(2) Illness; and/or\n(3) Loss of life.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-SF-2",
+      "grouping": "Safety",
+      "name": "Physical / Environmental Damage",
+      "description": "A control deficiency contributes to damage or destruction of:\n(1) Physical assets;\n(2) Facilities;\n(3) Equipment; and/or\n(4) The environment.",
+      "nist_csf_function": "Protect"
+    },
+    {
+      "risk_id": "R-PE-1",
+      "grouping": "Personnel",
+      "name": "Loss of Critical Knowledge / Capability",
+      "description": "The organization loses essential knowledge, skills, authority or operational capability because critical personnel are unavailable, depart or cannot perform required duties.",
       "nist_csf_function": "Protect"
     }
   ]

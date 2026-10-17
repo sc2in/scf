@@ -1,14 +1,44 @@
 {
   "scf_control_id": "EMB-04",
-  "total": 1,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "EMB-04",
       "ao_id": "EMB-04_A01",
-      "objective": "embedded devices are protected against unauthorized use of the physical factory diagnostic and test interface(s).",
+      "objective": "passive network monitoring is used to identify Operational Technology (OT) and Internet of Things (IoT) devices and the results are used to update the IT Asset Management (ITAM) inventory.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-04",
+      "ao_id": "EMB-04_A02",
+      "objective": "the frequency at which physical inspections of Operational Technology (OT) and Internet of Things (IoT) device locations are performed is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-04",
+      "ao_id": "EMB-04_A03",
+      "objective": "physical inspections of Operational Technology (OT) and Internet of Things (IoT) device locations are performed at the defined frequency and the results are reconciled against the IT Asset Management (ITAM) inventory.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-04",
+      "ao_id": "EMB-04_A04",
+      "objective": "discrepancies between the IT Asset Management (ITAM) inventory and the results of passive network monitoring or physical inspection are investigated and the inventory is corrected.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

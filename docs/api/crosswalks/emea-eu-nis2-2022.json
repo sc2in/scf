@@ -2,9 +2,9 @@
   "framework_id": "emea-eu-nis2-2022",
   "display_name": "EU - European Union Agency for Cybersecurity NIS2 Directive (EU) 2022/2555)",
   "scf_to_framework": {
-    "total_mappings": 68,
+    "total_mappings": 70,
     "mappings": {
-      "GOV-01": [
+      "GOV-02": [
         "Article 21.1",
         "Article 21.2",
         "Article 21.2(a)",
@@ -18,10 +18,23 @@
         "Article 21.2(i)",
         "Article 21.2(j)"
       ],
-      "GOV-01.1": [
+      "GOV-04": [
+        "Article 21.1",
+        "Article 21.2(a)",
+        "Article 21.2(b)",
+        "Article 21.2(c)",
+        "Article 21.2(d)",
+        "Article 21.2(e)",
+        "Article 21.2(f)",
+        "Article 21.2(g)",
+        "Article 21.2(h)",
+        "Article 21.2(i)",
+        "Article 21.2(j)"
+      ],
+      "GOV-09": [
         "Article 21.2(f)"
       ],
-      "GOV-02": [
+      "GOV-11": [
         "Article 21.1",
         "Article 21.2(a)",
         "Article 21.2(b)",
@@ -34,47 +47,34 @@
         "Article 21.2(i)",
         "Article 21.2(j)"
       ],
-      "GOV-05": [
+      "GOV-11.1": [
+        "Article 21.1",
+        "Article 21.2(a)",
+        "Article 21.2(b)",
+        "Article 21.2(c)",
+        "Article 21.2(d)",
+        "Article 21.2(e)",
+        "Article 21.2(f)",
+        "Article 21.2(g)",
+        "Article 21.2(h)",
+        "Article 21.2(i)",
+        "Article 21.2(j)"
+      ],
+      "GOV-11.2": [
+        "Article 21.1",
+        "Article 21.2(a)",
+        "Article 21.2(b)",
+        "Article 21.2(c)",
+        "Article 21.2(d)",
+        "Article 21.2(e)",
+        "Article 21.2(f)",
+        "Article 21.2(g)",
+        "Article 21.2(h)",
+        "Article 21.2(i)",
+        "Article 21.2(j)"
+      ],
+      "GOV-12": [
         "Article 21.2(f)"
-      ],
-      "GOV-15": [
-        "Article 21.1",
-        "Article 21.2(a)",
-        "Article 21.2(b)",
-        "Article 21.2(c)",
-        "Article 21.2(d)",
-        "Article 21.2(e)",
-        "Article 21.2(f)",
-        "Article 21.2(g)",
-        "Article 21.2(h)",
-        "Article 21.2(i)",
-        "Article 21.2(j)"
-      ],
-      "GOV-15.1": [
-        "Article 21.1",
-        "Article 21.2(a)",
-        "Article 21.2(b)",
-        "Article 21.2(c)",
-        "Article 21.2(d)",
-        "Article 21.2(e)",
-        "Article 21.2(f)",
-        "Article 21.2(g)",
-        "Article 21.2(h)",
-        "Article 21.2(i)",
-        "Article 21.2(j)"
-      ],
-      "GOV-15.2": [
-        "Article 21.1",
-        "Article 21.2(a)",
-        "Article 21.2(b)",
-        "Article 21.2(c)",
-        "Article 21.2(d)",
-        "Article 21.2(e)",
-        "Article 21.2(f)",
-        "Article 21.2(g)",
-        "Article 21.2(h)",
-        "Article 21.2(i)",
-        "Article 21.2(j)"
       ],
       "AST-01": [
         "Article 21.2(i)"
@@ -82,57 +82,69 @@
       "AST-02": [
         "Article 21.2(i)"
       ],
-      "BCD-01": [
+      "AST-04": [
+        "Article 21.2(i)"
+      ],
+      "BCD-02": [
         "Article 21.2(c)"
       ],
-      "BCD-11": [
+      "BCD-18": [
         "Article 21.2(c)"
       ],
-      "BCD-12": [
+      "BCD-24": [
         "Article 21.2(c)"
       ],
-      "CPL-01": [
+      "CPL-02": [
         "Article 21.1"
       ],
-      "CPL-01.1": [
+      "CPL-05": [
+        "Article 21.1"
+      ],
+      "CPL-05.1": [
+        "Article 21.1"
+      ],
+      "CPL-06": [
         "Article 21.4"
       ],
-      "CPL-03": [
-        "Article 21.1"
-      ],
-      "CPL-03.2": [
-        "Article 21.1"
-      ],
-      "CFG-02": [
+      "CFG-04": [
         "Article 21.5"
       ],
-      "CRY-01": [
+      "CRY-02": [
         "Article 21.2(h)"
       ],
       "HRS-01": [
         "Article 21.2(i)"
       ],
-      "IAC-01": [
+      "HRS-02": [
+        "Article 21.2(i)"
+      ],
+      "IAC-02": [
         "Article 21.2(i)",
         "Article 21.2(j)"
       ],
-      "IAC-06": [
+      "IAC-37": [
         "Article 21.2(j)"
-      ],
-      "IRO-01": [
-        "Article 21.2(b)",
-        "Article 23.1"
       ],
       "IRO-02": [
         "Article 21.2(b)",
         "Article 23.1"
       ],
-      "IRO-02.4": [
+      "IRO-04": [
         "Article 23.3",
         "Article 23.3(a)",
         "Article 23.3(b)"
       ],
-      "IRO-10": [
+      "IRO-06": [
+        "Article 21.2(b)",
+        "Article 23.1"
+      ],
+      "IRO-12": [
+        "Article 23.2"
+      ],
+      "IRO-14": [
+        "Article 23.4(d)(ii)"
+      ],
+      "IRO-16": [
         "Article 23.1",
         "Article 23.2",
         "Article 23.4",
@@ -146,144 +158,138 @@
         "Article 23.4(d)(iv)",
         "Article 23.4(e)"
       ],
-      "IRO-10.4": [
+      "IRO-19": [
         "Article 23.2"
       ],
-      "IRO-13": [
-        "Article 23.4(d)(ii)"
-      ],
-      "IRO-16": [
-        "Article 23.2"
-      ],
-      "IAO-04": [
+      "IAO-10": [
         "Article 21.4"
       ],
-      "IAO-05": [
+      "IAO-12": [
         "Article 21.4"
       ],
-      "MNT-01": [
+      "MNT-02": [
         "Article 21.2(e)"
       ],
-      "NET-01": [
+      "NET-02": [
         "Article 21.2(e)",
         "Article 21.5"
-      ],
-      "PRM-04": [
-        "Article 21.3"
-      ],
-      "PRM-05": [
-        "Article 21.3"
       ],
       "PRM-07": [
         "Article 21.3"
       ],
-      "RSK-01": [
+      "PRM-08": [
+        "Article 21.3"
+      ],
+      "PRM-09": [
+        "Article 21.3"
+      ],
+      "RSK-02": [
         "Article 21.1",
         "Article 21.2(a)",
         "Article 21.2(d)",
         "Article 21.2(f)"
       ],
-      "RSK-04": [
+      "RSK-13": [
         "Article 21.1"
       ],
-      "RSK-06": [
+      "RSK-17": [
         "Article 21.4"
       ],
-      "RSK-09": [
+      "RSK-20": [
         "Article 21.2(d)",
         "Article 21.3"
       ],
-      "SEA-01": [
+      "SEA-05": [
         "Article 21.1",
         "Article 21.5"
       ],
-      "SAT-01": [
+      "SAT-02": [
         "Article 21.2(g)"
       ],
-      "TDA-01": [
+      "TDA-02": [
         "Article 21.2(e)",
         "Article 21.3"
       ],
-      "TDA-06": [
+      "TDA-05": [
         "Article 21.3"
       ],
-      "TDA-15": [
+      "TDA-20.1": [
         "Article 21.4"
       ],
-      "TPM-01": [
+      "TPM-02": [
         "Article 21.2(d)",
         "Article 21.2(e)",
-        "Article 21.3"
-      ],
-      "TPM-01.1": [
-        "Article 21.3"
-      ],
-      "TPM-02": [
         "Article 21.3"
       ],
       "TPM-03": [
-        "Article 21.2(d)",
-        "Article 21.3"
-      ],
-      "TPM-03.1": [
-        "Article 21.3"
-      ],
-      "TPM-03.2": [
-        "Article 21.3"
-      ],
-      "TPM-03.3": [
         "Article 21.3"
       ],
       "TPM-04": [
+        "Article 21.2(d)",
         "Article 21.3"
       ],
       "TPM-04.1": [
         "Article 21.3"
       ],
-      "TPM-04.4": [
-        "Article 21.3"
-      ],
-      "TPM-05": [
-        "Article 21.3"
-      ],
-      "TPM-05.2": [
-        "Article 21.3"
-      ],
-      "TPM-05.4": [
-        "Article 21.3"
-      ],
-      "TPM-05.5": [
-        "Article 21.3"
-      ],
-      "TPM-05.6": [
-        "Article 21.3"
-      ],
-      "TPM-05.7": [
-        "Article 21.3"
-      ],
-      "TPM-06": [
+      "TPM-04.2": [
         "Article 21.3"
       ],
       "TPM-08": [
         "Article 21.3"
       ],
       "TPM-09": [
-        "Article 21.3",
-        "Article 21.4"
+        "Article 21.3"
       ],
       "TPM-10": [
         "Article 21.3"
       ],
-      "VPM-01": [
-        "Article 21.2(e)"
+      "TPM-11": [
+        "Article 21.3"
+      ],
+      "TPM-12": [
+        "Article 21.3"
+      ],
+      "TPM-12.2": [
+        "Article 21.3"
+      ],
+      "TPM-13": [
+        "Article 21.3"
+      ],
+      "TPM-14": [
+        "Article 21.3"
+      ],
+      "TPM-14.1": [
+        "Article 21.3"
+      ],
+      "TPM-15": [
+        "Article 21.3"
+      ],
+      "TPM-16": [
+        "Article 21.3"
+      ],
+      "TPM-17": [
+        "Article 21.3"
+      ],
+      "TPM-18": [
+        "Article 21.3",
+        "Article 21.4"
+      ],
+      "TPM-19": [
+        "Article 21.3"
+      ],
+      "TPM-22": [
+        "Article 21.3"
       ],
       "VPM-02": [
+        "Article 21.2(e)"
+      ],
+      "VPM-06": [
         "Article 21.4"
       ],
-      "VPM-04": [
+      "VPM-06.1": [
         "Article 21.4"
       ],
-      "VPM-05.1": [
+      "VPM-06.2": [
         "Article 21.4"
       ]
     }
@@ -292,210 +298,212 @@
     "total_mappings": 30,
     "mappings": {
       "Article 21.1": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "CPL-01",
-        "CPL-03",
-        "CPL-03.2",
-        "RSK-01",
-        "RSK-04",
-        "SEA-01"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "CPL-02",
+        "CPL-05",
+        "CPL-05.1",
+        "RSK-02",
+        "RSK-13",
+        "SEA-05"
       ],
       "Article 21.2": [
-        "GOV-01"
+        "GOV-02"
       ],
       "Article 21.2(a)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "RSK-01"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "RSK-02"
       ],
       "Article 21.2(b)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "IRO-01",
-        "IRO-02"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "IRO-02",
+        "IRO-06"
       ],
       "Article 21.2(c)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "BCD-01",
-        "BCD-11",
-        "BCD-12"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "BCD-02",
+        "BCD-18",
+        "BCD-24"
       ],
       "Article 21.2(d)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "RSK-01",
-        "RSK-09",
-        "TPM-01",
-        "TPM-03"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "RSK-02",
+        "RSK-20",
+        "TPM-02",
+        "TPM-04"
       ],
       "Article 21.2(e)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "MNT-01",
-        "NET-01",
-        "TDA-01",
-        "TPM-01",
-        "VPM-01"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "MNT-02",
+        "NET-02",
+        "TDA-02",
+        "TPM-02",
+        "VPM-02"
       ],
       "Article 21.2(f)": [
-        "GOV-01",
-        "GOV-01.1",
         "GOV-02",
-        "GOV-05",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "RSK-01"
+        "GOV-04",
+        "GOV-09",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "GOV-12",
+        "RSK-02"
       ],
       "Article 21.2(g)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "SAT-01"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "SAT-02"
       ],
       "Article 21.2(h)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "CRY-01"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "CRY-02"
       ],
       "Article 21.2(i)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
         "AST-01",
         "AST-02",
+        "AST-04",
         "HRS-01",
-        "IAC-01"
+        "HRS-02",
+        "IAC-02"
       ],
       "Article 21.2(j)": [
-        "GOV-01",
         "GOV-02",
-        "GOV-15",
-        "GOV-15.1",
-        "GOV-15.2",
-        "IAC-01",
-        "IAC-06"
+        "GOV-04",
+        "GOV-11",
+        "GOV-11.1",
+        "GOV-11.2",
+        "IAC-02",
+        "IAC-37"
       ],
       "Article 21.4": [
-        "CPL-01.1",
-        "IAO-04",
-        "IAO-05",
-        "RSK-06",
-        "TDA-15",
-        "TPM-09",
-        "VPM-02",
-        "VPM-04",
-        "VPM-05.1"
+        "CPL-06",
+        "IAO-10",
+        "IAO-12",
+        "RSK-17",
+        "TDA-20.1",
+        "TPM-18",
+        "VPM-06",
+        "VPM-06.1",
+        "VPM-06.2"
       ],
       "Article 21.5": [
-        "CFG-02",
-        "NET-01",
-        "SEA-01"
+        "CFG-04",
+        "NET-02",
+        "SEA-05"
       ],
       "Article 23.1": [
-        "IRO-01",
         "IRO-02",
-        "IRO-10"
+        "IRO-06",
+        "IRO-16"
       ],
       "Article 23.3": [
-        "IRO-02.4"
+        "IRO-04"
       ],
       "Article 23.3(a)": [
-        "IRO-02.4"
+        "IRO-04"
       ],
       "Article 23.3(b)": [
-        "IRO-02.4"
+        "IRO-04"
       ],
       "Article 23.2": [
-        "IRO-10",
-        "IRO-10.4",
+        "IRO-12",
+        "IRO-16",
+        "IRO-19"
+      ],
+      "Article 23.4(d)(ii)": [
+        "IRO-14",
         "IRO-16"
       ],
       "Article 23.4": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Article 23.4(a)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Article 23.4(b)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Article 23.4(c)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Article 23.4(d)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Article 23.4(d)(i)": [
-        "IRO-10"
-      ],
-      "Article 23.4(d)(ii)": [
-        "IRO-10",
-        "IRO-13"
+        "IRO-16"
       ],
       "Article 23.4(d)(iii)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Article 23.4(d)(iv)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Article 23.4(e)": [
-        "IRO-10"
+        "IRO-16"
       ],
       "Article 21.3": [
-        "PRM-04",
-        "PRM-05",
         "PRM-07",
-        "RSK-09",
-        "TDA-01",
-        "TDA-06",
-        "TPM-01",
-        "TPM-01.1",
+        "PRM-08",
+        "PRM-09",
+        "RSK-20",
+        "TDA-02",
+        "TDA-05",
         "TPM-02",
         "TPM-03",
-        "TPM-03.1",
-        "TPM-03.2",
-        "TPM-03.3",
         "TPM-04",
         "TPM-04.1",
-        "TPM-04.4",
-        "TPM-05",
-        "TPM-05.2",
-        "TPM-05.4",
-        "TPM-05.5",
-        "TPM-05.6",
-        "TPM-05.7",
-        "TPM-06",
+        "TPM-04.2",
         "TPM-08",
         "TPM-09",
-        "TPM-10"
+        "TPM-10",
+        "TPM-11",
+        "TPM-12",
+        "TPM-12.2",
+        "TPM-13",
+        "TPM-14",
+        "TPM-14.1",
+        "TPM-15",
+        "TPM-16",
+        "TPM-17",
+        "TPM-18",
+        "TPM-19",
+        "TPM-22"
       ]
     }
   }

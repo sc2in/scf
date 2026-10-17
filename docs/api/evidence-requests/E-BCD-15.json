@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-BCD-15",
+  "area": "Business Continuity",
+  "artifact_name": "Restoration Events",
+  "artifact_description": "Documented evidence of system, application and/or data recovery events. This can include random testing of data backups to ensure recovery methods are viable.",
+  "scf_controls": [
+    "BCD-18",
+    "BCD-18.1",
+    "BCD-32.1"
+  ],
+  "cmmc_mapping": ""
+}

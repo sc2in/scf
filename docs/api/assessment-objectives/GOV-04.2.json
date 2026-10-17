@@ -1,11 +1,11 @@
 {
   "scf_control_id": "GOV-04.2",
-  "total": 2,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "GOV-04.2",
       "ao_id": "GOV-04.2_A01",
-      "objective": "a formal organization structure is published.",
+      "objective": "exception requests to standards are formally submitted for review, along with a business justification for the deviation and proposed compensating controls.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,11 +15,31 @@
     {
       "scf_control_id": "GOV-04.2",
       "ao_id": "GOV-04.2_A02",
-      "objective": "an individual's chain of command is clearly delineated.",
+      "objective": "the exception request undergoes a risk assessment to evaluate the business justification and proposed compensating controls.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-04.2",
+      "ao_id": "GOV-04.2_A03",
+      "objective": "a documented determination is made to approve or deny the exception request.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-04.2",
+      "ao_id": "GOV-04.2_A04",
+      "objective": "the requestor of the exception is provided a documented response on the determination, within an organization-defined period, that states any actions required of the requestor.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no more than 10 business days after the determination is made",
       "org_defined_parameters": ""
     }
   ]

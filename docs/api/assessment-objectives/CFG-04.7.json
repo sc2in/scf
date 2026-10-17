@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CFG-04.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-04.7",
+      "ao_id": "CFG-04.7_A01",
+      "objective": "cryptographic mechanisms are utilized to protect the confidentiality and integrity of non-console administrative access.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

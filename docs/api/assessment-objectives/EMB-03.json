@@ -1,15 +1,45 @@
 {
   "scf_control_id": "EMB-03",
-  "total": 1,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "EMB-03",
       "ao_id": "EMB-03_A01",
-      "objective": "cybersecurity / data privacy risks associated with Operational Technology (OT) are proactively managed.",
+      "objective": "embedded technologies (e.g., Operational Technology (OT) and Internet of Things (IoT) devices) are identified and their network connectivity is documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-03",
+      "ao_id": "EMB-03_A02",
+      "objective": "embedded technologies are logically (e.g., segmented zones and conduits, firewalls, Virtual Local Area Networks (VLANs)) or physically separated from organizational Information Technology (IT) networks.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-03",
+      "ao_id": "EMB-03_A03",
+      "objective": "network traffic permitted between embedded technology environments and organizational Information Technology (IT) networks is restricted to documented, authorized flows.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-03",
+      "ao_id": "EMB-03_A04",
+      "objective": "the separation of embedded technologies from organizational Information Technology (IT) networks is verified at a defined frequency through network architecture review, configuration review and/or testing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually, and upon significant change",
       "org_defined_parameters": ""
     }
   ]

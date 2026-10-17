@@ -4,7 +4,8 @@
   "artifact_name": "Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV)",
   "artifact_description": "Documented evidence of Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) practices to enable AI-related testing, identification of incidents and information sharing.",
   "scf_controls": [
-    "AAT-10"
+    "AAT-28",
+    "AAT-33.4"
   ],
   "cmmc_mapping": ""
 }

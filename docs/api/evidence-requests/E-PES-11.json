@@ -4,7 +4,10 @@
   "artifact_name": "Physical Security Zones",
   "artifact_description": "Documented evidence of security safeguards controlling access to designated physical security zones within facilities.",
   "scf_controls": [
-    "PES-01.2"
+    "PES-04",
+    "PES-10",
+    "PES-11",
+    "PES-12"
   ],
   "cmmc_mapping": ""
 }

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.27",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Secure Engineering & Architecture Policy",
+  "artifact_description": "Documented evidence of a secure engineering and architecture policy.",
+  "scf_controls": [
+    "GOV-04",
+    "SEA-01"
+  ],
+  "cmmc_mapping": ""
+}

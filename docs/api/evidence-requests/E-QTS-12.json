@@ -4,7 +4,7 @@
   "artifact_name": "Cryptographic Incident Playbooks",
   "artifact_description": "Documented evidence of incident playbooks and exercise records for cryptographic scenarios.",
   "scf_controls": [
-    "QTS-07"
+    "IRO-24"
   ],
   "cmmc_mapping": ""
 }

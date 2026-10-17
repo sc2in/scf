@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "IRO-25",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-25",
+      "ao_id": "IRO-25_A01",
+      "objective": "embedded technologies (e.g., firmware, microcontrollers, Operational Technology (OT), Internet of Things (IoT) and other purpose-built components) within organizational Technology Assets, Applications and/or Services (TAAS) are identified and included in the scope of incident response planning.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-25",
+      "ao_id": "IRO-25_A02",
+      "objective": "procedures exist for detecting, reporting and responding to failures and/or incidents involving embedded technologies, including cases where the embedded technology cannot be patched, isolated or forensically imaged by conventional means.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-25",
+      "ao_id": "IRO-25_A03",
+      "objective": "failures and/or incidents involving embedded technologies are reported to the organizational incident response capability within a defined time period.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "no more than 24 hours after discovery",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-25",
+      "ao_id": "IRO-25_A04",
+      "objective": "failures and/or incidents involving embedded technologies are contained and recovered from, including coordination with the manufacturer or supplier where firmware or component replacement is required.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-25",
+      "ao_id": "IRO-25_A05",
+      "objective": "root causes of failures and/or incidents involving embedded technologies are analyzed and lessons learned are incorporated into incident response procedures.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

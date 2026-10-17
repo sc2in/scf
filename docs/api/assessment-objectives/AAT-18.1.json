@@ -5,11 +5,11 @@
     {
       "scf_control_id": "AAT-18.1",
       "ao_id": "AAT-18.1_A01",
-      "objective": "responsible party(ies) prioritize, respond to and remediate Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks based on assessments and other analytical output.",
+      "objective": "data sources utilized in the training and/or operation of Artificial Intelligence and Autonomous Technologies (AAT) are documented.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
-      "scf_defined_parameters": "",
+      "scf_defined_parameters": "at least annually",
       "org_defined_parameters": ""
     }
   ]

@@ -1,62 +1,62 @@
 {
   "control_id": "NET-08.2",
-  "title": "Wireless Intrusion Detection / Prevention Systems (WIDS / WIPS) Deployment",
+  "title": "Segregation From Enterprise Services",
   "family": "NET",
-  "description": "Mechanisms exist to utilize Wireless Intrusion Detection / Protection Systems (WIDS / WIPS) on wireless network segments.",
-  "scf_question": "Does the organization utilize Wireless Intrusion Detection / Protection Systems (WIDS / WIPS) on wireless network segments?",
-  "relative_weight": 8,
+  "description": "Mechanisms exist to isolate sensitive and/or regulated data enclaves (secure zones) from corporate-provided IT resources by providing enclave-specific IT services (e.g., directory services, DNS, NTP, ITAM, antimalware and patch management) to those isolated network segments.",
+  "scf_question": "Does the organization isolate sensitive and/or regulated data enclaves (secure zones) from corporate-provided IT resources by providing enclave-specific IT services (e.g., directory services, DNS, NTP, ITAM, antimalware and patch management) to those isolated network segments?",
+  "relative_weight": 4,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
   "pptdf": "Technology",
   "nist_csf_function": "Protect",
   "scrm_focus": {
     "strategic": false,
-    "operational": true,
+    "operational": false,
     "tactical": true
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
-    "2": "Network Security (NET) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Network security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Network security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel define secure networking practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ IT and/or cybersecurity personnel receive feeds from Wireless Intrusion Detection / Protection Systems (WIDS / WIPS) to identify rogue wireless devices and to detect attack attempts via wireless networks.",
-    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution, log aggregator, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to utilize Wireless Intrusion Detection / Protection Systems (WIDS / WIPS) on wireless network segments.",
-    "4": "Network Security (NET) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution and log aggregator).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to isolate sensitive/regulated data enclaves (secure zones) from corporate-provided IT resources by providing enclave-specific IT services (e.g., directory services, DNS, NTP, ITAM, antimalware and patch management) to those isolated network segments.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
   "profiles": [
-    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+    "CORE ESP Level 3 Advanced Threats"
   ],
   "possible_solutions": {
-    "micro_small": "∙ Wireless Intrusion Detection System (WIDS)\n∙ Wireless Intrusion Prevention Systems (WIPS)",
-    "small": "∙ Wireless Intrusion Detection System (WIDS)\n∙ Wireless Intrusion Prevention Systems (WIPS)",
-    "medium": "∙ Wireless Intrusion Detection System (WIDS)\n∙ Wireless Intrusion Prevention Systems (WIPS)",
-    "large": "∙ Wireless Intrusion Detection System (WIDS)\n∙ Wireless Intrusion Prevention Systems (WIPS)",
-    "enterprise": "∙ Wireless Intrusion Detection System (WIDS)\n∙ Wireless Intrusion Prevention Systems (WIPS)"
+    "micro_small": "∙ Note: Typically not required at this size; sensitive systems on separate VLAN from guest/IoT networks",
+    "small": "∙ Sensitive data VLAN isolated from general corporate services with controlled access points",
+    "medium": "∙ Segregate sensitive systems from general enterprise network services",
+    "large": "∙ Network isolation for sensitive systems from enterprise services\n∙ Controlled access points",
+    "enterprise": "∙ Enterprise network segmentation with isolated sensitive-system zones\n∙ Zero-trust access to sensitive zones"
   },
   "risks": [
-    "R-AC-3",
+    "R-AC-2",
     "R-AC-4",
     "R-AM-2",
-    "R-AM-3",
     "R-BC-1",
-    "R-BC-2",
     "R-BC-3",
     "R-BC-4",
-    "R-EX-1",
-    "R-EX-2",
-    "R-EX-3",
     "R-EX-4",
     "R-EX-5",
+    "R-EX-6",
     "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-4",
-    "R-GV-5",
-    "R-IR-1",
+    "R-EX-9",
     "R-IR-2",
+    "R-IR-3",
     "R-IR-4",
-    "R-SA-1"
+    "R-OR-2",
+    "R-SC-1",
+    "R-OT-1",
+    "R-IP-2",
+    "R-IP-3",
+    "R-IP-4",
+    "R-IP-6"
   ],
   "threats": [
+    "NT-1",
     "NT-2",
     "NT-3",
     "NT-4",
@@ -80,52 +80,157 @@
     "MT-8",
     "MT-9",
     "MT-10",
-    "MT-11",
-    "MT-12",
-    "MT-13",
     "MT-14",
     "MT-15",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
     "MT-24",
     "MT-25",
     "MT-27",
-    "MT-28"
+    "MT-30"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Possible",
+    "R-AC-3": "Unlikely",
+    "R-AC-4": "Likely",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Possible",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Possible",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Possible",
+    "R-BC-4": "Likely",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Possible",
+    "R-EX-5": "Possible",
+    "R-EX-6": "Possible",
+    "R-EX-7": "Likely",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Possible",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Unlikely",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Unlikely",
+    "R-GV-10": "Unlikely",
+    "R-IR-1": "Unlikely",
+    "R-IR-2": "Likely",
+    "R-IR-3": "Possible",
+    "R-IR-4": "Possible",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Possible",
+    "R-SA-1": "Unlikely",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Possible",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Possible",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Possible",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Possible",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Possible",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Possible",
+    "MT-2": "Likely",
+    "MT-3": "Possible",
+    "MT-4": "Possible",
+    "MT-5": "Possible",
+    "MT-6": "Possible",
+    "MT-7": "Possible",
+    "MT-8": "Possible",
+    "MT-9": "Likely",
+    "MT-10": "Likely",
+    "MT-11": "Unlikely",
+    "MT-12": "Unlikely",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Possible",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Possible",
+    "MT-21": "Possible",
+    "MT-22": "Possible",
+    "MT-23": "Possible",
+    "MT-24": "Possible",
+    "MT-25": "Possible",
+    "MT-26": "Unlikely",
+    "MT-27": "Possible",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Possible",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- wordsmithed\n- renumbered",
   "family_name": "Network Security",
   "crosswalks": {
-    "general-aicpa-tsc-2017": [
-      "CC7.2"
-    ],
     "general-csa-iot-2": [
-      "MON-08"
+      "CCM-06",
+      "SAP-01"
     ],
-    "general-nist-800-53-r4": [
-      "SI-4(14)",
-      "SI-4(15)"
+    "general-mpa-csbp-5-3-1": [
+      "TS-1.0"
     ],
-    "general-nist-800-53-r5-2": [
-      "SI-04(15)"
+    "general-swift-cscf-2025": [
+      "1.1"
     ],
-    "general-nist-800-82-r3": [
-      "SI-04(15)"
+    "usa-federal-doe-c2m2-2-1": [
+      "ARCHITECTURE-2i",
+      "ARCHITECTURE-2j"
     ],
-    "general-pci-dss-4-0-1": [
-      "1.4.3",
-      "11.2"
+    "usa-federal-dow-cmmc-2-level-3": [
+      "SI.L3-3.14.3E"
     ],
-    "general-pci-dss-4-0-1-saq-a-ep": [
-      "1.4.3"
+    "emea-deu-c5-2026": [
+      "IAM-07.01B.1",
+      "COS-05.01B"
     ],
-    "general-pci-dss-4-0-1-saq-b-ip": [
-      "1.4.3"
-    ],
-    "general-pci-dss-4-0-1-saq-d-merchant": [
-      "1.4.3"
-    ],
-    "general-pci-dss-4-0-1-saq-d-service-provider": [
-      "1.4.3"
-    ],
-    "general-shared-assessments-sig-2025": [
-      "N.7"
+    "apac-aus-ism-2026-june": [
+      "ISM-1385"
     ]
   }
 }

@@ -5,9 +5,9 @@
     {
       "scf_control_id": "PRI-16",
       "ao_id": "PRI-16_A01",
-      "objective": "executive leadership, along with legal counsel, formally identifies risks associated with non-compliance (e.g., fines, operational impacts, etc.).",
+      "objective": "information-sharing circumstances where user discretion is required to determine whether access authorizations assigned to a sharing partner match the information’s access and use restrictions are defined.",
       "pptdf": "Process",
-      "origin": "SCF Created",
+      "origin": "53A_R5_AC-21_ODP[01]",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,9 +15,9 @@
     {
       "scf_control_id": "PRI-16",
       "ao_id": "PRI-16_A02",
-      "objective": "executive leadership, along with legal counsel, formally identifies primary risks associated with compliance (e.g., loss of confidentiality and/or integrity considerations with data governance).",
-      "pptdf": "Process",
-      "origin": "SCF Created",
+      "objective": "authorized users are enabled to determine whether access authorizations assigned to a sharing partner match the information’s access and use restrictions for information-sharing circumstances.",
+      "pptdf": "People",
+      "origin": "53A_R5_AC-21a.",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -25,20 +25,20 @@
     {
       "scf_control_id": "PRI-16",
       "ao_id": "PRI-16_A03",
-      "objective": "executive leadership, along with legal counsel, formally identifies secondary risks associated with compliance (e.g., non-compliance with other laws, regulations and contractual agreements).",
+      "objective": "automated mechanisms or manual processes that assist users in making information-sharing and collaboration decisions are defined.",
       "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
+      "origin": "53A_R5_AC-21_ODP[02]",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     },
     {
       "scf_control_id": "PRI-16",
       "ao_id": "PRI-16_A04",
-      "objective": "executive leadership, along with legal counsel, formally identifies tertiary risks associated with compliance (e.g., human rights abuses, theft of intellectual property, espionage, etc.).",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
+      "objective": "automated mechanisms are employed to assist users in making information-sharing and collaboration decisions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-21b.",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

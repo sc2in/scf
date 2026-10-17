@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PES-14.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-14.6",
+      "ao_id": "PES-14.6_A01",
+      "objective": "visitor badges, or other issued identification, are surrendered before visitors leave the facility or are deactivated at a pre-determined time/date of expiration.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no later than the end of the authorized visit period",
+      "org_defined_parameters": ""
+    }
+  ]
+}

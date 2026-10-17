@@ -1,12 +1,22 @@
 {
   "scf_control_id": "GOV-08",
-  "total": 2,
+  "total": 7,
   "assessment_objectives": [
     {
       "scf_control_id": "GOV-08",
       "ao_id": "GOV-08_A01",
-      "objective": "the organization's mission is clearly defined and documented.",
-      "pptdf": "Process",
+      "objective": "a High Value Assets (HVAs) catalog is created.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-08",
+      "ao_id": "GOV-08_A02",
+      "objective": "criteria are defined for high-value Intellectual Property (IP) to be categorized as a High Value Asset (HVA).",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
@@ -14,9 +24,49 @@
     },
     {
       "scf_control_id": "GOV-08",
-      "ao_id": "GOV-08_A02",
-      "objective": "the organization's executive leadership defines and documents a formal business strategy that is used to provide operational guidance to key business leaders across the organization.",
-      "pptdf": "Process",
+      "ao_id": "GOV-08_A03",
+      "objective": "criteria are defined for Technology Assets, Applications and Services (TAAS) to be categorized as a High Value Asset (HVA), based on business process criticality or dependency relationships.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-08",
+      "ao_id": "GOV-08_A04",
+      "objective": "the physical and/or logical location of HVAs is documented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-08",
+      "ao_id": "GOV-08_A05",
+      "objective": "assigned owners are defined for HVAs.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-08",
+      "ao_id": "GOV-08_A06",
+      "objective": "minimum protection mechanisms for HVAs are defined.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-08",
+      "ao_id": "GOV-08_A07",
+      "objective": "assurance requirements for HVAs are defined.",
+      "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

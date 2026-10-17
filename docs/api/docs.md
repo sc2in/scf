@@ -1,13 +1,13 @@
 # SCF API Reference
 
-Static JSON API for the [Secure Controls Framework](https://securecontrolsframework.com) (SCF) v2026.2,
+Static JSON API for the [Secure Controls Framework](https://securecontrolsframework.com) (SCF) v2026.3,
 maintained by SC2 (sc2in/scf).
 
-- **1534** controls across **34** families
-- **252** framework crosswalks
-- **42** threats, **39** risks
-- **5956** assessment objectives, **316** evidence requests
-- **1371** compensating controls, **258** privacy principles
+- **1591** controls across **34** families
+- **270** framework crosswalks
+- **45** threats, **65** risks
+- **6446** assessment objectives, **422** evidence requests
+- **1397** compensating controls, **263** privacy principles
 - All static JSON, no auth, CC BY-ND.
 
 ## Endpoints
@@ -67,39 +67,39 @@ maintained by SC2 (sc2in/scf).
 
 | code | family | controls |
 |---|---|---|
-| AAT | Artificial Intelligence & Autonomous Technologies | 161 |
+| AAT | Artificial Intelligence & Autonomous Technologies | 160 |
 | AST | Asset Management | 64 |
-| BCD | Business Continuity & Disaster Recovery | 59 |
-| CAP | Capacity & Performance Planning | 6 |
-| CFG | Configuration Management | 32 |
+| BCD | Business Continuity & Disaster Recovery | 61 |
+| CAP | Capacity & Performance Planning | 8 |
+| CFG | Configuration Management | 58 |
 | CHG | Change Management | 20 |
-| CLD | Cloud Security | 24 |
-| CPL | Compliance | 41 |
-| CRY | Cryptographic Protections | 29 |
-| DCH | Data Classification & Handling | 85 |
-| EMB | Embedded Technology | 19 |
-| END | Endpoint Security | 47 |
-| GOV | Security, Compliance & Resilience Governance | 42 |
-| HRS | Human Resources Security | 46 |
-| IAC | Identification & Authentication | 116 |
-| IAO | Information Assurance | 15 |
-| IRO | Incident Response | 44 |
-| MDM | Mobile Device Management | 11 |
-| MNT | Maintenance | 28 |
-| MON | Continuous Monitoring | 71 |
-| NET | Network Security | 100 |
-| OPS | Security Operations | 8 |
+| CLD | Cloud Security | 19 |
+| CPL | Compliance | 48 |
+| CRY | Cryptographic Protections | 27 |
+| DCH | Data Classification & Handling | 94 |
+| EMB | Embedded Technology | 27 |
+| END | Endpoint Security | 31 |
+| GOV | Security, Compliance & Resilience Governance | 37 |
+| HRS | Human Resources Security | 45 |
+| IAC | Identification & Authentication | 123 |
+| IAO | Information Assurance | 17 |
+| IRO | Incident Response | 48 |
+| MDM | Mobile Device Management | 10 |
+| MNT | Maintenance | 29 |
+| MON | Continuous Monitoring | 76 |
+| NET | Network Security | 103 |
+| OPS | Security Operations | 11 |
 | PES | Physical & Environmental Security | 51 |
-| PRI | Data Privacy | 103 |
-| PRM | Project & Resource Management | 11 |
-| QTS | Quantum Security | 34 |
-| RSK | Risk Management | 33 |
-| SAT | Security Awareness & Training | 18 |
-| SEA | Secure Engineering & Architecture | 47 |
+| PRI | Data Privacy | 102 |
+| PRM | Project & Resource Management | 15 |
+| QTS | Quantum Security | 31 |
+| RSK | Risk Management | 35 |
+| SAT | Security Awareness & Training | 22 |
+| SEA | Secure Engineering & Architecture | 40 |
 | TDA | Technology Development & Acquisition | 74 |
-| THR | Threat Management | 15 |
-| TPM | Third-Party Management | 31 |
-| VPM | Vulnerability & Patch Management | 34 |
-| WEB | Web Security | 15 |
+| THR | Threat Management | 17 |
+| TPM | Third-Party Management | 43 |
+| VPM | Vulnerability & Patch Management | 32 |
+| WEB | Web Security | 13 |
 
 Data: Control identifiers, titles, and crosswalk references from the Secure Controls Framework (SCF), https://securecontrolsframework.com, licensed CC BY-ND 4.0.

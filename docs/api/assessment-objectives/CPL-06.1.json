@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-06.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-06.1",
+      "ao_id": "CPL-06.1_A01",
+      "objective": "corrective action is implemented to remediate instances of non-conformity with applicable statutory, regulatory, and/or contractual compliance obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "within the remediation period required by the applicable statutory, regulatory or contractual obligation; otherwise per an organization-defined risk-based timeline",
+      "org_defined_parameters": ""
+    }
+  ]
+}

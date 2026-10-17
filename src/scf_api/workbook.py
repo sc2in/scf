@@ -54,6 +54,7 @@ SHEET_PATTERNS: dict[str, tuple[tuple[str, ...], tuple[str, ...]]] = {
             "catalog",
         ),
     ),
+    # Dropped in 2026.3 (folded into the controls tab); still present before.
     "compensating": (("compensating",), ()),
     "evidence": (("evidence request",), ()),
     "aos": (("assessment objectives",), ("evidence",)),
@@ -242,6 +243,15 @@ class SCFWorkbook:
         raise SheetResolveError(
             f"no sheet matching {tried} (exclude={excludes!r}) in {self.sheet_names}"
         )
+
+    def has_sheet(self, kind: str) -> bool:
+        """True when a built-in pattern resolves `kind` (no aliases, never raises).
+
+        Used for sheets upstream has dropped: 2026.3 folded the compensating
+        controls tab into the controls tab, so its absence is a layout, not an error.
+        """
+        patterns, excludes = SHEET_PATTERNS[kind]
+        return any(self._scan_sheets(p, excludes) is not None for p in patterns)
 
     def _scan_sheets(self, pattern: str, excludes: tuple[str, ...]) -> str | None:
         want = norm_key(pattern)

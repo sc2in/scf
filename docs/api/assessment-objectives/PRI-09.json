@@ -1,11 +1,11 @@
 {
   "scf_control_id": "PRI-09",
-  "total": 4,
+  "total": 3,
   "assessment_objectives": [
     {
       "scf_control_id": "PRI-09",
       "ao_id": "PRI-09_A01",
-      "objective": "records of data disclosures and sharing are maintained.",
+      "objective": "reasonable consumer expectations are defined for what is necessary and proportionate for collecting, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD).",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -15,7 +15,7 @@
     {
       "scf_control_id": "PRI-09",
       "ao_id": "PRI-09_A02",
-      "objective": "records of data disclosures and sharing can be accessed for review or transmission/disclosure.",
+      "objective": "organization-specific practices are defined to limit the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD) according to reasonable consumer expectations for what is necessary and proportionate.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
@@ -25,17 +25,7 @@
     {
       "scf_control_id": "PRI-09",
       "ao_id": "PRI-09_A03",
-      "objective": "records of data provenance and lineage are maintained",
-      "pptdf": "Process",
-      "origin": "SCF Created",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "PRI-09",
-      "ao_id": "PRI-09_A04",
-      "objective": "records of data provenance and lineage can be accessed for review or transmission/disclosure.",
+      "objective": "the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD) is limited to reasonable consumer expectations for what is necessary and proportionate.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",

@@ -1,14 +1,64 @@
 {
   "scf_control_id": "TDA-20.4",
-  "total": 1,
+  "total": 6,
   "assessment_objectives": [
     {
       "scf_control_id": "TDA-20.4",
       "ao_id": "TDA-20.4_A01",
-      "objective": "approval of binaries and code for production use is governed through organizational change control processes.",
+      "objective": "the developer of the system, system component or system service is required to enable integrity verification of hardware components.",
       "pptdf": "Process",
       "origin": "SCF Created",
       "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-20.4",
+      "ao_id": "TDA-20.4_A02",
+      "objective": "the integrity of hardware components is verified.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-20.4",
+      "ao_id": "TDA-20.4_A03",
+      "objective": "independence criteria to be satisfied by an independent agent are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-20.4",
+      "ao_id": "TDA-20.4_A04",
+      "objective": "an independent agent is required to satisfy organization-defined independence criteria to verify the correct implementation of the developer security assessment plan and the evidence produced during testing and evaluation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(03)(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-20.4",
+      "ao_id": "TDA-20.4_A05",
+      "objective": "an independent agent is required to satisfy organization-defined independence criteria to verify the correct implementation of the developer privacy assessment plan and the evidence produced during testing and evaluation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(03)(a)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-20.4",
+      "ao_id": "TDA-20.4_A06",
+      "objective": "the independent agent is provided with sufficient information to complete the verification process or granted the authority to obtain such information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(03)(b)",
+      "assessment_rigor": "3",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
     }

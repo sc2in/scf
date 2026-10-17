@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IRO-16.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-16.3",
+      "ao_id": "IRO-16.3_A01",
+      "objective": "serious incidents involving the organization's Technology Assets, Applications, Services and/or Data (TAASD) are reported to relevant authorities in the locality where the incident occurred, in accordance with mandatory reporting requirements and timelines.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "the shortest mandatory reporting deadline applicable in each locality where the incident occurred",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CFG-04.14",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-04.14",
+      "ao_id": "CFG-04.14_A01",
+      "objective": "secure baseline configurations exist for contactless access control systems to protect the confidentiality and integrity of data being stored, processed and/or transmitted.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, the manufacturer's published hardening guidance for the device type",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-04.14",
+      "ao_id": "CFG-04.14_A02",
+      "objective": "contactless access control systems are secured according to defined secure baseline configurations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

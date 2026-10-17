@@ -4,8 +4,13 @@
   "artifact_name": "Incident Reporting Capability",
   "artifact_description": "Documented evidence of a capability to provide situational awareness of incidents to internal stakeholders and generated necessary reporting to affected clients, applicable third-parties and regulatory authorities.",
   "scf_controls": [
-    "IRO-10",
-    "IRO-10.2"
+    "IRO-12",
+    "IRO-15",
+    "IRO-16",
+    "IRO-16.2",
+    "IRO-16.3",
+    "IRO-18",
+    "IRO-19"
   ],
   "cmmc_mapping": ""
 }

@@ -4,7 +4,7 @@
   "artifact_name": "Risk Treatment Plan",
   "artifact_description": "Documented Risk Treatment Plan (RTP) for applicable stakeholders to utilize in remediating identified risks according to a defined timeline.",
   "scf_controls": [
-    "RSK-06.4"
+    "RSK-17.1"
   ],
   "cmmc_mapping": ""
 }

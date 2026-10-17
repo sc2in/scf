@@ -1,0 +1,17 @@
+{
+  "erl_id": "E-BCD-01",
+  "area": "Business Continuity",
+  "artifact_name": "Continuity of Operations Plan (COOP)",
+  "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards. This involves internal and external stakeholders for incident response, disaster recovery and business continuity support requirements.",
+  "scf_controls": [
+    "BCD-02",
+    "BCD-02.1",
+    "BCD-03",
+    "BCD-04",
+    "BCD-06",
+    "BCD-07.3",
+    "BCD-07.4",
+    "BCD-08"
+  ],
+  "cmmc_mapping": "IR.L2-3.6.1"
+}

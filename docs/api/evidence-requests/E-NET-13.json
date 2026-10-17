@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-NET-13",
+  "area": "Network Security",
+  "artifact_name": "Demilitarized Zone (DMZ) & Web Application Firewall (WAF) Configuration",
+  "artifact_description": "Documented evidence of DMZ architecture and Web Application Firewall (WAF) configuration for externally facing services.",
+  "scf_controls": [
+    "MON-25",
+    "NET-33",
+    "NET-34"
+  ],
+  "cmmc_mapping": ""
+}

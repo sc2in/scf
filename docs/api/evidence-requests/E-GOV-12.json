@@ -1,12 +1,11 @@
 {
   "erl_id": "E-GOV-12",
-  "area": "Cybersecurity & Data Protection Management",
-  "artifact_name": "Cybersecurity & Data Protection Policies & Standards Reviews",
-  "artifact_description": "Documented evidence of a periodic review process for the organization's cybersecurity & data protection policies and standards to identify necessary updates.",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Charter - Risk Committee",
+  "artifact_description": "Documented evidence of an executive steering committee, or advisory board, that is formed to perform oversight of risk management decisions and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
   "scf_controls": [
-    "GOV-03",
-    "SEA-01.1",
-    "SEA-01.2"
+    "GOV-09",
+    "GOV-09.1"
   ],
   "cmmc_mapping": ""
 }

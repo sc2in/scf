@@ -1,12 +1,12 @@
 {
-  "scf_version": "2026.2",
-  "total_controls": 1534,
+  "scf_version": "2026.3",
+  "total_controls": 1591,
   "total_families": 34,
   "families": [
     {
       "family_code": "AAT",
       "family_name": "Artificial Intelligence & Autonomous Technologies",
-      "control_count": 161
+      "control_count": 160
     },
     {
       "family_code": "AST",
@@ -16,17 +16,17 @@
     {
       "family_code": "BCD",
       "family_name": "Business Continuity & Disaster Recovery",
-      "control_count": 59
+      "control_count": 61
     },
     {
       "family_code": "CAP",
       "family_name": "Capacity & Performance Planning",
-      "control_count": 6
+      "control_count": 8
     },
     {
       "family_code": "CFG",
       "family_name": "Configuration Management",
-      "control_count": 32
+      "control_count": 58
     },
     {
       "family_code": "CHG",
@@ -36,82 +36,82 @@
     {
       "family_code": "CLD",
       "family_name": "Cloud Security",
-      "control_count": 24
+      "control_count": 19
     },
     {
       "family_code": "CPL",
       "family_name": "Compliance",
-      "control_count": 41
+      "control_count": 48
     },
     {
       "family_code": "CRY",
       "family_name": "Cryptographic Protections",
-      "control_count": 29
+      "control_count": 27
     },
     {
       "family_code": "DCH",
       "family_name": "Data Classification & Handling",
-      "control_count": 85
+      "control_count": 94
     },
     {
       "family_code": "EMB",
       "family_name": "Embedded Technology",
-      "control_count": 19
+      "control_count": 27
     },
     {
       "family_code": "END",
       "family_name": "Endpoint Security",
-      "control_count": 47
+      "control_count": 31
     },
     {
       "family_code": "GOV",
       "family_name": "Security, Compliance & Resilience Governance",
-      "control_count": 42
+      "control_count": 37
     },
     {
       "family_code": "HRS",
       "family_name": "Human Resources Security",
-      "control_count": 46
+      "control_count": 45
     },
     {
       "family_code": "IAC",
       "family_name": "Identification & Authentication",
-      "control_count": 116
+      "control_count": 123
     },
     {
       "family_code": "IAO",
       "family_name": "Information Assurance",
-      "control_count": 15
+      "control_count": 17
     },
     {
       "family_code": "IRO",
       "family_name": "Incident Response",
-      "control_count": 44
+      "control_count": 48
     },
     {
       "family_code": "MDM",
       "family_name": "Mobile Device Management",
-      "control_count": 11
+      "control_count": 10
     },
     {
       "family_code": "MNT",
       "family_name": "Maintenance",
-      "control_count": 28
+      "control_count": 29
     },
     {
       "family_code": "MON",
       "family_name": "Continuous Monitoring",
-      "control_count": 71
+      "control_count": 76
     },
     {
       "family_code": "NET",
       "family_name": "Network Security",
-      "control_count": 100
+      "control_count": 103
     },
     {
       "family_code": "OPS",
       "family_name": "Security Operations",
-      "control_count": 8
+      "control_count": 11
     },
     {
       "family_code": "PES",
@@ -121,32 +121,32 @@
     {
       "family_code": "PRI",
       "family_name": "Data Privacy",
-      "control_count": 103
+      "control_count": 102
     },
     {
       "family_code": "PRM",
       "family_name": "Project & Resource Management",
-      "control_count": 11
+      "control_count": 15
     },
     {
       "family_code": "QTS",
       "family_name": "Quantum Security",
-      "control_count": 34
+      "control_count": 31
     },
     {
       "family_code": "RSK",
       "family_name": "Risk Management",
-      "control_count": 33
+      "control_count": 35
     },
     {
       "family_code": "SAT",
       "family_name": "Security Awareness & Training",
-      "control_count": 18
+      "control_count": 22
     },
     {
       "family_code": "SEA",
       "family_name": "Secure Engineering & Architecture",
-      "control_count": 47
+      "control_count": 40
     },
     {
       "family_code": "TDA",
@@ -156,22 +156,22 @@
     {
       "family_code": "THR",
       "family_name": "Threat Management",
-      "control_count": 15
+      "control_count": 17
     },
     {
       "family_code": "TPM",
       "family_name": "Third-Party Management",
-      "control_count": 31
+      "control_count": 43
     },
     {
       "family_code": "VPM",
       "family_name": "Vulnerability & Patch Management",
-      "control_count": 34
+      "control_count": 32
     },
     {
       "family_code": "WEB",
       "family_name": "Web Security",
-      "control_count": 15
+      "control_count": 13
     }
   ],
   "crosswalk_frameworks": [
@@ -184,26 +184,26 @@
     {
       "framework_id": "americas-bhs-dpa-2003",
       "display_name": "Bahamas - Data Protection Act (DPA) (2003)",
-      "scf_controls_mapped": 40,
-      "framework_controls_mapped": 370
+      "scf_controls_mapped": 42,
+      "framework_controls_mapped": 372
     },
     {
       "framework_id": "americas-bmu-mba-coc-2020",
       "display_name": "Bermuda - Bermuda Monetary Authority (BMA) Insurance Sector Operational Cyber Risk Management Code of Conduct (2020)",
-      "scf_controls_mapped": 97,
+      "scf_controls_mapped": 98,
       "framework_controls_mapped": 84
     },
     {
       "framework_id": "americas-bra-lgpd-2018",
       "display_name": "Brazil - General Data Protection Law (LGPD) (2018)",
-      "scf_controls_mapped": 29,
-      "framework_controls_mapped": 161
+      "scf_controls_mapped": 30,
+      "framework_controls_mapped": 162
     },
     {
       "framework_id": "americas-can-itsp-10-171-2025",
       "display_name": "Canada - Protecting controlled information in non - Government of Canada systems and organizations (ITSP.10.171) (2025)",
       "scf_controls_mapped": 415,
-      "framework_controls_mapped": 279
+      "framework_controls_mapped": 280
     },
     {
       "framework_id": "americas-can-osfi-b13-2022",
@@ -214,13 +214,7 @@
     {
       "framework_id": "americas-can-osfi-self-assessment",
       "display_name": "Canada - Office of the Superintendent of Financial Institutions Canada (OSFI) - Cyber Security Self - Assessment Guidance",
-      "scf_controls_mapped": 0,
-      "framework_controls_mapped": 0
-    },
-    {
-      "framework_id": "americas-can-osfi-self-assessment-2",
-      "display_name": "Canada - OSFI Cyber Security Self - Assessment Guidance",
-      "scf_controls_mapped": 125,
+      "scf_controls_mapped": 126,
       "framework_controls_mapped": 57
     },
     {
@@ -248,6 +242,12 @@
       "framework_controls_mapped": 70
     },
     {
+      "framework_id": "apac-aus-cloud-controls-matrix-2026",
+      "display_name": "Australia - Cloud Controls Matrix (June 2026)",
+      "scf_controls_mapped": 89,
+      "framework_controls_mapped": 49
+    },
+    {
       "framework_id": "apac-aus-cop-sitc-2020",
       "display_name": "Australia - Code of Practice - Securing the Internet of Things for Consumers (2020)",
       "scf_controls_mapped": 35,
@@ -256,32 +256,38 @@
     {
       "framework_id": "apac-aus-essential-8-2024",
       "display_name": "Australia - Essential Eight maturity model and ISM mapping (2024)",
-      "scf_controls_mapped": 37,
-      "framework_controls_mapped": 24
+      "scf_controls_mapped": 60,
+      "framework_controls_mapped": 126
     },
     {
-      "framework_id": "apac-aus-ism-2026-march",
-      "display_name": "Australia - Information Security Manual (ISM) (March 2026)",
-      "scf_controls_mapped": 389,
-      "framework_controls_mapped": 1054
+      "framework_id": "apac-aus-ism-2026-june",
+      "display_name": "Australia - Information Security Manual (ISM) (June 2026)",
+      "scf_controls_mapped": 412,
+      "framework_controls_mapped": 1076
     },
     {
       "framework_id": "apac-aus-privacy-principles-2026",
       "display_name": "Australia - Privacy Principles (2026)",
-      "scf_controls_mapped": 24,
+      "scf_controls_mapped": 25,
       "framework_controls_mapped": 205
     },
     {
       "framework_id": "apac-aus-ps-cps-230-2023",
       "display_name": "Australia - Prudential Standard CPS 230 - Operational Risk Management (2023)",
       "scf_controls_mapped": 69,
-      "framework_controls_mapped": 97
+      "framework_controls_mapped": 98
     },
     {
       "framework_id": "apac-aus-ps-cps-234-2019",
       "display_name": "Australia - Prudential Standard CPS 234 Information Security (2019)",
       "scf_controls_mapped": 23,
       "framework_controls_mapped": 37
+    },
+    {
+      "framework_id": "apac-aus-soci-2018",
+      "display_name": "Australia - Security of Critical Infrastructure Act 2018 (Compilation No. 9, 4 June 2026)",
+      "scf_controls_mapped": 17,
+      "framework_controls_mapped": 22
     },
     {
       "framework_id": "apac-chn-csnip-2012",
@@ -326,9 +332,33 @@
       "framework_controls_mapped": 31
     },
     {
+      "framework_id": "apac-ind-rbi-data-localization-2018",
+      "display_name": "Reserve Bank of India (RBI) - Storage of Payment System Data - Data Localization, 2018",
+      "scf_controls_mapped": 10,
+      "framework_controls_mapped": 4
+    },
+    {
+      "framework_id": "apac-ind-rbi-dpsc-2021",
+      "display_name": "Reserve Bank of India (RBI) - Master Direction on Digital Payment Security Controls, 2021",
+      "scf_controls_mapped": 166,
+      "framework_controls_mapped": 128
+    },
+    {
+      "framework_id": "apac-ind-rbi-pa-2025",
+      "display_name": "Reserve Bank of India (RBI) - Master Direction on Regulation of Payment Aggregators (PA) (2025)",
+      "scf_controls_mapped": 69,
+      "framework_controls_mapped": 69
+    },
+    {
+      "framework_id": "apac-ind-rbi-ppi-2021",
+      "display_name": "Reserve Bank of India (RBI) - Master Direction on Prepaid Payment Instruments (PPI), 2021",
+      "scf_controls_mapped": 57,
+      "framework_controls_mapped": 84
+    },
+    {
       "framework_id": "apac-ind-sebi-2024",
       "display_name": "India - SEBI Cybersecurity and Cyber Resilience Framework (2024)",
-      "scf_controls_mapped": 170,
+      "scf_controls_mapped": 174,
       "framework_controls_mapped": 129
     },
     {
@@ -340,50 +370,50 @@
     {
       "framework_id": "apac-jpn-ismap",
       "display_name": "Japan - Information System Security Management and Assessment Program (ISMAP)",
-      "scf_controls_mapped": 249,
+      "scf_controls_mapped": 252,
       "framework_controls_mapped": 1313
     },
     {
       "framework_id": "apac-kor-pipa-2011",
       "display_name": "South Korea - Personal Information Protection Act (PIPA) (2011)",
-      "scf_controls_mapped": 24,
-      "framework_controls_mapped": 150
+      "scf_controls_mapped": 25,
+      "framework_controls_mapped": 151
     },
     {
       "framework_id": "apac-mys-bnm-rmit-2025",
       "display_name": "Malaysia - Risk Management in Technology (RMiT) (2025)",
-      "scf_controls_mapped": 197,
-      "framework_controls_mapped": 107
+      "scf_controls_mapped": 374,
+      "framework_controls_mapped": 765
     },
     {
       "framework_id": "apac-mys-pdpa-2010",
       "display_name": "Malaysia - Personal Data Protection Act (PDPA) (2010)",
-      "scf_controls_mapped": 19,
+      "scf_controls_mapped": 20,
       "framework_controls_mapped": 213
     },
     {
       "framework_id": "apac-nzl-hisf-microsmall-2023",
       "display_name": "New Zealand - HISF MicroSmall (2023)",
-      "scf_controls_mapped": 102,
-      "framework_controls_mapped": 150
+      "scf_controls_mapped": 33,
+      "framework_controls_mapped": 21
     },
     {
       "framework_id": "apac-nzl-hisf-mlhsp-2023",
       "display_name": "New Zealand - HISF MLHSP (2023)",
-      "scf_controls_mapped": 0,
-      "framework_controls_mapped": 0
+      "scf_controls_mapped": 108,
+      "framework_controls_mapped": 150
     },
     {
       "framework_id": "apac-nzl-hisf-suppliers-2023",
       "display_name": "New Zealand - HISO 10029:2024 NZ Health Information Security Framework Guidance for Suppliers",
-      "scf_controls_mapped": 101,
+      "scf_controls_mapped": 107,
       "framework_controls_mapped": 68
     },
     {
       "framework_id": "apac-nzl-ism-3-9",
       "display_name": "New Zealand - Information Security Manual (ISM) v3.9",
-      "scf_controls_mapped": 289,
-      "framework_controls_mapped": 1383
+      "scf_controls_mapped": 306,
+      "framework_controls_mapped": 1382
     },
     {
       "framework_id": "apac-nzl-privacy-act-2020",
@@ -398,15 +428,21 @@
       "framework_controls_mapped": 61
     },
     {
+      "framework_id": "apac-sgp-ccp-cii-2026",
+      "display_name": "Singapore - Cybersecurity Code of Practice for Critical Information Infrastructure (CCP CII) (2026)",
+      "scf_controls_mapped": 258,
+      "framework_controls_mapped": 424
+    },
+    {
       "framework_id": "apac-sgp-cyber-hygiene-practice-2019",
       "display_name": "Singapore - Cyber Hygiene Practice (2019)",
-      "scf_controls_mapped": 17,
+      "scf_controls_mapped": 18,
       "framework_controls_mapped": 11
     },
     {
       "framework_id": "apac-sgp-mas-trm-2021",
       "display_name": "Singapore - Monitory Authority of Singapore (MAS) Technology Risk Management (TRM) Guidelines (2021)",
-      "scf_controls_mapped": 219,
+      "scf_controls_mapped": 229,
       "framework_controls_mapped": 279
     },
     {
@@ -436,44 +472,50 @@
     {
       "framework_id": "emea-che-fadp-2025",
       "display_name": "Switzerland - Federal Act on Data Protection (FADP) (2025)",
-      "scf_controls_mapped": 25,
-      "framework_controls_mapped": 104
+      "scf_controls_mapped": 26,
+      "framework_controls_mapped": 105
+    },
+    {
+      "framework_id": "emea-che-finma-circ-23-1",
+      "display_name": "CHE - FINMA Circular 2023/1 - Operational Risks and Resilience - Banks",
+      "scf_controls_mapped": 95,
+      "framework_controls_mapped": 89
     },
     {
       "framework_id": "emea-deu-bsrit-2017",
       "display_name": "Germany - Banking Supervisory Requirements for IT (2017)",
-      "scf_controls_mapped": 91,
+      "scf_controls_mapped": 92,
       "framework_controls_mapped": 88
     },
     {
-      "framework_id": "emea-deu-c5-2020",
-      "display_name": "Germany - Cloud Computing Compliance Controls Catalogue (C5) (2020)",
-      "scf_controls_mapped": 207,
-      "framework_controls_mapped": 282
+      "framework_id": "emea-deu-c5-2026",
+      "display_name": "Germany - Cloud Computing Compliance Controls Catalogue (C5) (2026)",
+      "scf_controls_mapped": 424,
+      "framework_controls_mapped": 1154
     },
     {
       "framework_id": "emea-deu-fdpa-2017",
       "display_name": "Germany - Federal Data Protection Act (2017)",
-      "scf_controls_mapped": 46,
+      "scf_controls_mapped": 47,
       "framework_controls_mapped": 255
     },
     {
       "framework_id": "emea-esp-ccn-stic-825-2026",
       "display_name": "Spain - ICT Security Guide CCN - STIC 825 (2026)",
-      "scf_controls_mapped": 234,
+      "scf_controls_mapped": 233,
       "framework_controls_mapped": 70
     },
     {
       "framework_id": "emea-esp-decree-311-2022",
       "display_name": "Spain - Royal Decree 311/2022",
-      "scf_controls_mapped": 72,
+      "scf_controls_mapped": 76,
       "framework_controls_mapped": 104
     },
     {
       "framework_id": "emea-eu-ai-act-2024",
       "display_name": "EU - European Union Artificial Intelligence Act (Regulation (EU) 2024/1689)",
-      "scf_controls_mapped": 119,
-      "framework_controls_mapped": 279
+      "scf_controls_mapped": 121,
+      "framework_controls_mapped": 281
     },
     {
       "framework_id": "emea-eu-cyber-resilience-act-2024",
@@ -484,37 +526,43 @@
     {
       "framework_id": "emea-eu-cyber-resilience-act-annex-i-2024",
       "display_name": "EU - European Union Cyber Resilience Act - Annex I (2024)",
-      "scf_controls_mapped": 16,
+      "scf_controls_mapped": 18,
       "framework_controls_mapped": 24
     },
     {
       "framework_id": "emea-eu-dora-2023",
       "display_name": "EU - Digital Operational Resilience Act (2023)",
-      "scf_controls_mapped": 102,
+      "scf_controls_mapped": 106,
       "framework_controls_mapped": 241
+    },
+    {
+      "framework_id": "emea-eu-dora-rts-2024",
+      "display_name": "EU - DORA Draft RTS on ICT Risk Management Framework and on Simplified ICT Risk Management Framework (JC 2023 86)",
+      "scf_controls_mapped": 297,
+      "framework_controls_mapped": 428
     },
     {
       "framework_id": "emea-eu-eba-ict-srm-2025",
       "display_name": "EU - European Banking Authority Guidelines on ICT and Security Risk Management (2025)",
-      "scf_controls_mapped": 153,
+      "scf_controls_mapped": 160,
       "framework_controls_mapped": 156
     },
     {
       "framework_id": "emea-eu-gdpr-2016",
       "display_name": "EU - European Union General Data Protection Regulation (2016)",
-      "scf_controls_mapped": 42,
-      "framework_controls_mapped": 227
+      "scf_controls_mapped": 43,
+      "framework_controls_mapped": 228
     },
     {
       "framework_id": "emea-eu-nis2-2022",
       "display_name": "EU - European Union Agency for Cybersecurity NIS2 Directive (EU) 2022/2555)",
-      "scf_controls_mapped": 68,
+      "scf_controls_mapped": 70,
       "framework_controls_mapped": 30
     },
     {
       "framework_id": "emea-eu-nis2-annex-2024",
       "display_name": "EU - European Union Agency for Cybersecurity NIS2 Annex (2024)",
-      "scf_controls_mapped": 223,
+      "scf_controls_mapped": 235,
       "framework_controls_mapped": 351
     },
     {
@@ -526,7 +574,7 @@
     {
       "framework_id": "emea-gbr-caf-4-0",
       "display_name": "UK - Cyber Assessment Framework (CAF) v4.0",
-      "scf_controls_mapped": 66,
+      "scf_controls_mapped": 68,
       "framework_controls_mapped": 66
     },
     {
@@ -544,7 +592,7 @@
     {
       "framework_id": "emea-gbr-def-stan-05-138-2024",
       "display_name": "UK - Ministry of Defence Standard (DEFSTAN) 05 - 138 (2024)",
-      "scf_controls_mapped": 213,
+      "scf_controls_mapped": 218,
       "framework_controls_mapped": 147
     },
     {
@@ -556,26 +604,26 @@
     {
       "framework_id": "emea-gbr-def-stan-05-138-l1-2024",
       "display_name": "UK - Ministry of Defence Standard (DEFSTAN) 05 - 138 (2024) - L1",
-      "scf_controls_mapped": 159,
+      "scf_controls_mapped": 162,
       "framework_controls_mapped": 100
     },
     {
       "framework_id": "emea-gbr-def-stan-05-138-l2-2024",
       "display_name": "UK - Ministry of Defence Standard (DEFSTAN) 05 - 138 (2024) - L2",
-      "scf_controls_mapped": 206,
+      "scf_controls_mapped": 211,
       "framework_controls_mapped": 138
     },
     {
       "framework_id": "emea-gbr-def-stan-05-138-l3-2024",
       "display_name": "UK - Ministry of Defence Standard (DEFSTAN) 05 - 138 (2024) - L3",
-      "scf_controls_mapped": 212,
+      "scf_controls_mapped": 217,
       "framework_controls_mapped": 143
     },
     {
       "framework_id": "emea-gbr-dpa-2018",
       "display_name": "UK - Data Protection Act (DPA) (2018)",
-      "scf_controls_mapped": 25,
-      "framework_controls_mapped": 348
+      "scf_controls_mapped": 27,
+      "framework_controls_mapped": 367
     },
     {
       "framework_id": "emea-grc-pirppd-1997",
@@ -598,8 +646,8 @@
     {
       "framework_id": "emea-isr-cmo-2-0",
       "display_name": "Ireland - Cybersecurity Methodology for an Organization (CMO) v2.0",
-      "scf_controls_mapped": 67,
-      "framework_controls_mapped": 48
+      "scf_controls_mapped": 68,
+      "framework_controls_mapped": 49
     },
     {
       "framework_id": "emea-isr-ppl-5741-2025",
@@ -618,6 +666,18 @@
       "display_name": "Kenya - Data Protection Act (DPA) (2019)",
       "scf_controls_mapped": 42,
       "framework_controls_mapped": 196
+    },
+    {
+      "framework_id": "emea-lux-cssf-20-750",
+      "display_name": "Commission de Surveillance du Secteur Financier (CSSF) Circular 20/750 - ICT Risk Management (2020)",
+      "scf_controls_mapped": 187,
+      "framework_controls_mapped": 133
+    },
+    {
+      "framework_id": "emea-lux-cssf-22-806",
+      "display_name": "Commission de Surveillance du Secteur Financier (CSSF) Circular 22/806 (as amended by Circulars CSSF 25/883 and 26/915) - Outsourcing Arrangements (2022)",
+      "scf_controls_mapped": 105,
+      "framework_controls_mapped": 369
     },
     {
       "framework_id": "emea-nga-dpr-2019",
@@ -646,61 +706,61 @@
     {
       "framework_id": "emea-rus-152-fz-2025",
       "display_name": "Russia - Federal Law No. 152 - FZ (2025)",
-      "scf_controls_mapped": 17,
+      "scf_controls_mapped": 16,
       "framework_controls_mapped": 21
     },
     {
       "framework_id": "emea-sau-cgiot-2024",
       "display_name": "Saudi Arabia - Cybersecurity Guidelines for Internet of Things (CGIoT - 1:2024)",
-      "scf_controls_mapped": 118,
-      "framework_controls_mapped": 81
+      "scf_controls_mapped": 126,
+      "framework_controls_mapped": 85
     },
     {
       "framework_id": "emea-sau-cscc-1-2019",
-      "display_name": "Saudi Arabia - Critical Systems Cybersecurity Controls (CSCC – 1: 2019)",
-      "scf_controls_mapped": 172,
-      "framework_controls_mapped": 104
+      "display_name": "Saudi Arabia - Critical Systems Cybersecurity Controls (CSCC - 1: 2019)",
+      "scf_controls_mapped": 176,
+      "framework_controls_mapped": 109
     },
     {
       "framework_id": "emea-sau-ecc-1-2018",
-      "display_name": "Saudi Arabia - Essential Cybersecurity Controls (ECC – 1 : 2018)",
-      "scf_controls_mapped": 169,
-      "framework_controls_mapped": 199
+      "display_name": "Saudi Arabia - Essential Cybersecurity Controls (ECC - 1 : 2018)",
+      "scf_controls_mapped": 183,
+      "framework_controls_mapped": 208
     },
     {
       "framework_id": "emea-sau-otcc-1-2022",
       "display_name": "Saudi Arabia - Operational Technology Cybersecurity Controls (OTCC - 1: 2022)",
-      "scf_controls_mapped": 160,
-      "framework_controls_mapped": 168
+      "scf_controls_mapped": 171,
+      "framework_controls_mapped": 175
     },
     {
       "framework_id": "emea-sau-pdpl-2023",
       "display_name": "Saudi Arabia - Personal Data Protection Law (PDPL) (2023)",
-      "scf_controls_mapped": 36,
+      "scf_controls_mapped": 35,
       "framework_controls_mapped": 70
     },
     {
       "framework_id": "emea-sau-sacs-002-2022",
       "display_name": "Saudi Arabia - SACS - 002 Third Party Cybersecurity Standard (2022)",
-      "scf_controls_mapped": 101,
+      "scf_controls_mapped": 106,
       "framework_controls_mapped": 124
     },
     {
       "framework_id": "emea-sau-sama-csf-1-2017",
       "display_name": "Saudi Arabia - Saudi Arabian Monetary Authority (SAMA) Cyber Security Framework Version 1.0 (2017)",
-      "scf_controls_mapped": 91,
-      "framework_controls_mapped": 482
+      "scf_controls_mapped": 115,
+      "framework_controls_mapped": 486
     },
     {
       "framework_id": "emea-srb-act-9-2018",
       "display_name": "Serbia - Act of 9 November 2018 on Personal Data Protection (Official Gazette No. 87/18)",
-      "scf_controls_mapped": 31,
+      "scf_controls_mapped": 32,
       "framework_controls_mapped": 330
     },
     {
       "framework_id": "emea-tur-lppd-2016",
       "display_name": "Turkey - Law on the Protection of Personal Data (LPPD) (2016)",
-      "scf_controls_mapped": 7,
+      "scf_controls_mapped": 8,
       "framework_controls_mapped": 103
     },
     {
@@ -712,19 +772,19 @@
     {
       "framework_id": "emea-zaf-popia-2013",
       "display_name": "South Africa - Protection of Personal Information Act (POPIA) (2013)",
-      "scf_controls_mapped": 23,
-      "framework_controls_mapped": 242
+      "scf_controls_mapped": 26,
+      "framework_controls_mapped": 245
     },
     {
       "framework_id": "general-aicpa-pmf-2020",
       "display_name": "American Institute of Certified Public Accountants (AICPA) Privacy Management Framework (PMF) (2020)",
-      "scf_controls_mapped": 109,
+      "scf_controls_mapped": 111,
       "framework_controls_mapped": 123
     },
     {
       "framework_id": "general-aicpa-tsc-2017",
       "display_name": "American Institute of Certified Public Accountants (AICPA) Trust Services Criteria (2017)",
-      "scf_controls_mapped": 412,
+      "scf_controls_mapped": 407,
       "framework_controls_mapped": 399
     },
     {
@@ -742,31 +802,31 @@
     {
       "framework_id": "general-cis-csc-8-1",
       "display_name": "Center for Internet Security (CIS) Critical Security Controls (CSC) version 8.1",
-      "scf_controls_mapped": 234,
-      "framework_controls_mapped": 171
+      "scf_controls_mapped": 242,
+      "framework_controls_mapped": 172
     },
     {
       "framework_id": "general-cis-csc-8-1-ig1",
       "display_name": "Center for Internet Security (CIS) Critical Security Controls (CSC) version 8.1 - IG1",
-      "scf_controls_mapped": 104,
+      "scf_controls_mapped": 107,
       "framework_controls_mapped": 56
     },
     {
       "framework_id": "general-cis-csc-8-1-ig2",
       "display_name": "Center for Internet Security (CIS) Critical Security Controls (CSC) version 8.1 - IG2",
-      "scf_controls_mapped": 208,
+      "scf_controls_mapped": 214,
       "framework_controls_mapped": 130
     },
     {
       "framework_id": "general-cis-csc-8-1-ig3",
       "display_name": "Center for Internet Security (CIS) Critical Security Controls (CSC) version 8.1 - IG3",
-      "scf_controls_mapped": 230,
+      "scf_controls_mapped": 237,
       "framework_controls_mapped": 153
     },
     {
       "framework_id": "general-cobit-2019",
       "display_name": "Control Objectives for Information and Related Technologies (COBIT) (2019)",
-      "scf_controls_mapped": 190,
+      "scf_controls_mapped": 196,
       "framework_controls_mapped": 230
     },
     {
@@ -778,25 +838,25 @@
     {
       "framework_id": "general-cr-cmm-2026",
       "display_name": "Cyber Resilience Capability Maturity Model (CR - CMM) (2026)",
-      "scf_controls_mapped": 46,
+      "scf_controls_mapped": 50,
       "framework_controls_mapped": 40
     },
     {
       "framework_id": "general-csa-cmm-4-1-0",
       "display_name": "Cloud Security Alliance (CSA) Cloud Controls Matrix (CCM) v4.1.0",
-      "scf_controls_mapped": 291,
+      "scf_controls_mapped": 313,
       "framework_controls_mapped": 207
     },
     {
       "framework_id": "general-csa-iot-2",
       "display_name": "Cloud Security Alliance (CSA) Internet of Things Security Controls Framework v2",
-      "scf_controls_mapped": 253,
+      "scf_controls_mapped": 256,
       "framework_controls_mapped": 155
     },
     {
       "framework_id": "general-govramp",
       "display_name": "Government Risk and Authorization Management Program (GovRAMP)",
-      "scf_controls_mapped": 441,
+      "scf_controls_mapped": 447,
       "framework_controls_mapped": 383
     },
     {
@@ -808,25 +868,25 @@
     {
       "framework_id": "general-govramp-high",
       "display_name": "Government Risk and Authorization Management Program (GovRAMP) - High",
-      "scf_controls_mapped": 441,
+      "scf_controls_mapped": 447,
       "framework_controls_mapped": 383
     },
     {
       "framework_id": "general-govramp-low",
       "display_name": "Government Risk and Authorization Management Program (GovRAMP) - Low",
-      "scf_controls_mapped": 166,
+      "scf_controls_mapped": 171,
       "framework_controls_mapped": 114
     },
     {
       "framework_id": "general-govramp-low-plus",
       "display_name": "Government Risk and Authorization Management Program (GovRAMP) - Low+",
-      "scf_controls_mapped": 230,
+      "scf_controls_mapped": 235,
       "framework_controls_mapped": 173
     },
     {
       "framework_id": "general-govramp-mod",
       "display_name": "Government Risk and Authorization Management Program (GovRAMP) - Moderate",
-      "scf_controls_mapped": 347,
+      "scf_controls_mapped": 350,
       "framework_controls_mapped": 290
     },
     {
@@ -862,12 +922,12 @@
     {
       "framework_id": "general-imo-maritime-cyber-risk-management-2025",
       "display_name": "International Maritime Organization (IMO) Guidelines on Maritime Cyber Risk Management (2025)",
-      "scf_controls_mapped": 75,
+      "scf_controls_mapped": 76,
       "framework_controls_mapped": 35
     },
     {
       "framework_id": "general-iso-21434-2021",
-      "display_name": "ISO/SAE 21434:2021 - Road vehicles — Cybersecurity engineering",
+      "display_name": "ISO/SAE 21434:2021 - Road vehicles - Cybersecurity engineering",
       "scf_controls_mapped": 51,
       "framework_controls_mapped": 232
     },
@@ -886,7 +946,7 @@
     {
       "framework_id": "general-iso-27002-2022",
       "display_name": "ISO/IEC 27002:2022 - Information security, cybersecurity and privacy protection - Information security controls",
-      "scf_controls_mapped": 316,
+      "scf_controls_mapped": 314,
       "framework_controls_mapped": 96
     },
     {
@@ -898,7 +958,7 @@
     {
       "framework_id": "general-iso-27018-2025",
       "display_name": "ISO/IEC 27018:2025 - Information security, cybersecurity and privacy protection - Guidelines for protection of personally identifiable information (PII) in public clouds acting as PII processors",
-      "scf_controls_mapped": 322,
+      "scf_controls_mapped": 320,
       "framework_controls_mapped": 108
     },
     {
@@ -934,13 +994,13 @@
     {
       "framework_id": "general-mitre-att_ck-16-1",
       "display_name": "MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) - NIST 800 - 53 mappings",
-      "scf_controls_mapped": 108,
+      "scf_controls_mapped": 113,
       "framework_controls_mapped": 511
     },
     {
       "framework_id": "general-mpa-csbp-5-3-1",
       "display_name": "Motion Picture Association (MPA) Content Security Best Practices Common Guidelines v5.3.1",
-      "scf_controls_mapped": 232,
+      "scf_controls_mapped": 234,
       "framework_controls_mapped": 81
     },
     {
@@ -958,181 +1018,181 @@
     {
       "framework_id": "general-nist-600-1-gen-ai-profile",
       "display_name": "NIST AI 600 - 1 - Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
-      "scf_controls_mapped": 139,
+      "scf_controls_mapped": 140,
       "framework_controls_mapped": 250
     },
     {
       "framework_id": "general-nist-800-160-vol-2-r1",
       "display_name": "NIST SP 800 - 160 Volume 2, Revision 1 - Developing Cyber - Resilient Systems: A Systems Security Engineering Approach",
-      "scf_controls_mapped": 204,
-      "framework_controls_mapped": 196
+      "scf_controls_mapped": 207,
+      "framework_controls_mapped": 201
     },
     {
       "framework_id": "general-nist-800-161-r1",
       "display_name": "NIST SP 800 - 161 R1 UDP1 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations",
-      "scf_controls_mapped": 341,
+      "scf_controls_mapped": 350,
       "framework_controls_mapped": 308
     },
     {
       "framework_id": "general-nist-800-161-r1-cscrm",
       "display_name": "NIST SP 800 - 161 R1 UDP1 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations - C - SCRM Baseline",
-      "scf_controls_mapped": 132,
+      "scf_controls_mapped": 137,
       "framework_controls_mapped": 95
     },
     {
       "framework_id": "general-nist-800-161-r1-flowdown",
       "display_name": "NIST SP 800 - 161 R1 UDP1 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations - Flow Down Baseline",
-      "scf_controls_mapped": 107,
+      "scf_controls_mapped": 110,
       "framework_controls_mapped": 69
     },
     {
       "framework_id": "general-nist-800-161-r1-level-1",
       "display_name": "NIST SP 800 - 161 R1 UDP1 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations - Level 1 Baseline",
-      "scf_controls_mapped": 95,
+      "scf_controls_mapped": 102,
       "framework_controls_mapped": 76
     },
     {
       "framework_id": "general-nist-800-161-r1-level-2",
       "display_name": "NIST SP 800 - 161 R1 UDP1 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations - Level 2 Baseline",
-      "scf_controls_mapped": 273,
+      "scf_controls_mapped": 282,
       "framework_controls_mapped": 236
     },
     {
       "framework_id": "general-nist-800-161-r1-level-3",
       "display_name": "NIST SP 800 - 161 R1 UDP1 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations - Level 3 Baseline",
-      "scf_controls_mapped": 284,
+      "scf_controls_mapped": 289,
       "framework_controls_mapped": 251
     },
     {
       "framework_id": "general-nist-800-171-r2",
       "display_name": "NIST SP 800 - 171 R2 - Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
-      "scf_controls_mapped": 251,
+      "scf_controls_mapped": 261,
       "framework_controls_mapped": 172
     },
     {
       "framework_id": "general-nist-800-171-r3",
       "display_name": "NIST SP 800 - 171 R3 - Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
       "scf_controls_mapped": 414,
-      "framework_controls_mapped": 275
+      "framework_controls_mapped": 276
     },
     {
       "framework_id": "general-nist-800-171a",
       "display_name": "NIST SP 800 - 171A - Assessing Security Requirements for Controlled Unclassified Information",
-      "scf_controls_mapped": 134,
+      "scf_controls_mapped": 137,
       "framework_controls_mapped": 320
     },
     {
       "framework_id": "general-nist-800-171a-r3",
       "display_name": "NIST SP 800 - 171A R3 - Assessing Security Requirements for Controlled Unclassified Information",
-      "scf_controls_mapped": 414,
+      "scf_controls_mapped": 413,
       "framework_controls_mapped": 509
     },
     {
       "framework_id": "general-nist-800-172-r3",
       "display_name": "NIST SP 800 - 172 R3 - Enhanced Security Requirements for Protecting Controlled Unclassified Information",
-      "scf_controls_mapped": 162,
+      "scf_controls_mapped": 161,
       "framework_controls_mapped": 103
     },
     {
       "framework_id": "general-nist-800-172a-r3",
       "display_name": "NIST SP 800 - 172A R3 - Assessing Enhanced Security Requirements for Controlled Unclassified Information",
-      "scf_controls_mapped": 163,
+      "scf_controls_mapped": 167,
       "framework_controls_mapped": 364
     },
     {
       "framework_id": "general-nist-800-207",
       "display_name": "NIST SP 800 - 207 - Zero Trust Architecture",
-      "scf_controls_mapped": 93,
+      "scf_controls_mapped": 92,
       "framework_controls_mapped": 7
     },
     {
       "framework_id": "general-nist-800-218",
       "display_name": "NIST SP 800 - 218 - Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities",
-      "scf_controls_mapped": 59,
+      "scf_controls_mapped": 60,
       "framework_controls_mapped": 60
     },
     {
       "framework_id": "general-nist-800-37-r2",
       "display_name": "NIST SP 800 - 37 R2 - Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy",
-      "scf_controls_mapped": 45,
+      "scf_controls_mapped": 47,
       "framework_controls_mapped": 47
     },
     {
       "framework_id": "general-nist-800-39",
       "display_name": "NIST SP 800 - 39 - Managing Information Security Risk: Organization, Mission, and Information System View",
-      "scf_controls_mapped": 17,
+      "scf_controls_mapped": 18,
       "framework_controls_mapped": 16
     },
     {
       "framework_id": "general-nist-800-53-r4",
       "display_name": "NIST SP 800 - 53 R4 - Security and Privacy Controls for Federal Information Systems and Organizations",
-      "scf_controls_mapped": 653,
+      "scf_controls_mapped": 640,
       "framework_controls_mapped": 682
     },
     {
       "framework_id": "general-nist-800-53-r5-2",
       "display_name": "NIST SP 800 - 53 R5 - Security and Privacy Controls for Information Systems and Organizations",
-      "scf_controls_mapped": 777,
-      "framework_controls_mapped": 810
+      "scf_controls_mapped": 776,
+      "framework_controls_mapped": 831
     },
     {
       "framework_id": "general-nist-800-53-r5-2-high",
       "display_name": "NIST SP 800 - 53 R5 - Security and Privacy Controls for Information Systems and Organizations - High Baseline",
-      "scf_controls_mapped": 89,
-      "framework_controls_mapped": 83
+      "scf_controls_mapped": 427,
+      "framework_controls_mapped": 369
     },
     {
       "framework_id": "general-nist-800-53-r5-2-low",
       "display_name": "NIST SP 800 - 53 R5 - Security and Privacy Controls for Information Systems and Organizations - Low Baseline",
-      "scf_controls_mapped": 202,
+      "scf_controls_mapped": 207,
       "framework_controls_mapped": 149
     },
     {
       "framework_id": "general-nist-800-53-r5-2-mod",
       "display_name": "NIST SP 800 - 53 R5 - Security and Privacy Controls for Information Systems and Organizations - Moderate Baseline",
-      "scf_controls_mapped": 157,
-      "framework_controls_mapped": 138
+      "scf_controls_mapped": 349,
+      "framework_controls_mapped": 287
     },
     {
       "framework_id": "general-nist-800-53-r5-2-privacy",
       "display_name": "NIST SP 800 - 53 R5 - Security and Privacy Controls for Information Systems and Organizations - Privacy Baseline",
-      "scf_controls_mapped": 346,
-      "framework_controls_mapped": 236
+      "scf_controls_mapped": 128,
+      "framework_controls_mapped": 96
     },
     {
       "framework_id": "general-nist-800-66-r2",
       "display_name": "NIST SP 800 - 66 R2 - Implementing the Health Insurance Portability and Accountability Act (HIPAA) Security Rule: A Cybersecurity Resource Guide",
-      "scf_controls_mapped": 112,
+      "scf_controls_mapped": 113,
       "framework_controls_mapped": 22
     },
     {
       "framework_id": "general-nist-800-82-r3",
       "display_name": "NIST SP 800 - 82 R3 - Guide to Operational Technology (OT) Security - Low OT Overlay",
-      "scf_controls_mapped": 777,
-      "framework_controls_mapped": 810
+      "scf_controls_mapped": 776,
+      "framework_controls_mapped": 831
     },
     {
       "framework_id": "general-nist-800-82-r3-high",
       "display_name": "NIST SP 800 - 82 R3 - Guide to Operational Technology (OT) Security - High OT Overlay",
-      "scf_controls_mapped": 467,
-      "framework_controls_mapped": 418
+      "scf_controls_mapped": 484,
+      "framework_controls_mapped": 419
     },
     {
       "framework_id": "general-nist-800-82-r3-low",
       "display_name": "NIST SP 800 - 82 R3 - Guide to Operational Technology (OT) Security - Low OT Overlay",
-      "scf_controls_mapped": 251,
+      "scf_controls_mapped": 262,
       "framework_controls_mapped": 194
     },
     {
       "framework_id": "general-nist-800-82-r3-mod",
       "display_name": "NIST SP 800 - 82 R3 - Guide to Operational Technology (OT) Security - Moderate OT Overlay",
-      "scf_controls_mapped": 390,
-      "framework_controls_mapped": 337
+      "scf_controls_mapped": 404,
+      "framework_controls_mapped": 338
     },
     {
       "framework_id": "general-nist-csf-2-0",
       "display_name": "NIST Cybersecurity Framework v2.0",
-      "scf_controls_mapped": 250,
+      "scf_controls_mapped": 251,
       "framework_controls_mapped": 134
     },
     {
@@ -1144,7 +1204,7 @@
     {
       "framework_id": "general-nist-privacy-framework-1-0",
       "display_name": "NIST Privacy Framework v1.0",
-      "scf_controls_mapped": 153,
+      "scf_controls_mapped": 154,
       "framework_controls_mapped": 123
     },
     {
@@ -1156,19 +1216,19 @@
     {
       "framework_id": "general-owasp-top-10-2025",
       "display_name": "Open Worldwide Application Security Project (OWASP) Top 10 (2025)",
-      "scf_controls_mapped": 139,
+      "scf_controls_mapped": 137,
       "framework_controls_mapped": 10
     },
     {
       "framework_id": "general-pci-dss-4-0-1",
       "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.01",
-      "scf_controls_mapped": 371,
+      "scf_controls_mapped": 369,
       "framework_controls_mapped": 351
     },
     {
       "framework_id": "general-pci-dss-4-0-1-saq-a",
       "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 - Self - Assessment Questionnaire (SAQ) A",
-      "scf_controls_mapped": 71,
+      "scf_controls_mapped": 70,
       "framework_controls_mapped": 29
     },
     {
@@ -1186,31 +1246,31 @@
     {
       "framework_id": "general-pci-dss-4-0-1-saq-b-ip",
       "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 - Self - Assessment Questionnaire (SAQ) B - IP",
-      "scf_controls_mapped": 121,
+      "scf_controls_mapped": 120,
       "framework_controls_mapped": 50
     },
     {
       "framework_id": "general-pci-dss-4-0-1-saq-c",
       "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 - Self - Assessment Questionnaire (SAQ) C",
-      "scf_controls_mapped": 227,
+      "scf_controls_mapped": 229,
       "framework_controls_mapped": 124
     },
     {
       "framework_id": "general-pci-dss-4-0-1-saq-c-vt",
       "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 - Self - Assessment Questionnaire (SAQ) C - VT",
-      "scf_controls_mapped": 115,
+      "scf_controls_mapped": 112,
       "framework_controls_mapped": 54
     },
     {
       "framework_id": "general-pci-dss-4-0-1-saq-d-merchant",
       "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 - Self - Assessment Questionnaire (SAQ) D Merchant",
-      "scf_controls_mapped": 322,
+      "scf_controls_mapped": 320,
       "framework_controls_mapped": 233
     },
     {
       "framework_id": "general-pci-dss-4-0-1-saq-d-service-provider",
       "display_name": "Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 - Self - Assessment Questionnaire (SAQ) D Service Provider",
-      "scf_controls_mapped": 339,
+      "scf_controls_mapped": 337,
       "framework_controls_mapped": 257
     },
     {
@@ -1220,20 +1280,20 @@
       "framework_controls_mapped": 21
     },
     {
-      "framework_id": "general-scf-dpmp-2025",
-      "display_name": "Secure Controls Framework (SCF) Data Privacy Management Principles (2025)",
-      "scf_controls_mapped": 0,
-      "framework_controls_mapped": 0
+      "framework_id": "general-scf-dpmp-2026",
+      "display_name": "Secure Controls Framework (SCF) Data Privacy Management Principles (2026)",
+      "scf_controls_mapped": 223,
+      "framework_controls_mapped": 86
     },
     {
       "framework_id": "general-shared-assessments-sig-2025",
       "display_name": "Shared Assessments Standard Information Gathering (SIG) Questionnaire 2025",
-      "scf_controls_mapped": 128,
+      "scf_controls_mapped": 127,
       "framework_controls_mapped": 65
     },
     {
-      "framework_id": "general-sparta",
-      "display_name": "Space Attack Research & Tactic Analysis (SPARTA) Countermeasures",
+      "framework_id": "general-sparta-4-0",
+      "display_name": "SPARTA Countermeasure (4.0)",
       "scf_controls_mapped": 79,
       "framework_controls_mapped": 53
     },
@@ -1246,8 +1306,8 @@
     {
       "framework_id": "general-tisax-6-0-3",
       "display_name": "Trusted Information Security Assessment Exchange (TISAX) 6.0.3",
-      "scf_controls_mapped": 154,
-      "framework_controls_mapped": 73
+      "scf_controls_mapped": 155,
+      "framework_controls_mapped": 74
     },
     {
       "framework_id": "general-ul-2900-1-2017",
@@ -1275,436 +1335,483 @@
     },
     {
       "framework_id": "usa-federal-cms-marse-2-0",
-      "display_name": "US - Centers for Medicare & Medicaid Services MARS - E Document Suite, Version 2.0",
-      "scf_controls_mapped": 392,
-      "framework_controls_mapped": 1287
+      "display_name": "USA - Centers for Medicare & Medicaid Services MARS - E Document Suite, Version 2.0",
+      "scf_controls_mapped": 402,
+      "framework_controls_mapped": 1282
     },
     {
       "framework_id": "usa-federal-dhs-cisa-cpg-2-0",
-      "display_name": "US - Cybersecurity & Infrastructure Security Agency (CISA) Cross - Sector Cybersecurity Performance Goals 2.0",
+      "display_name": "USA - Cybersecurity & Infrastructure Security Agency (CISA) Cross - Sector Cybersecurity Performance Goals 2.0",
       "scf_controls_mapped": 126,
       "framework_controls_mapped": 38
     },
     {
       "framework_id": "usa-federal-dhs-cisa-ssdaf-2024",
-      "display_name": "US - Cybersecurity & Infrastructure Security Agency (CISA) Secure Software Development Attestation Form (SSDAF) (2024)",
+      "display_name": "USA - Cybersecurity & Infrastructure Security Agency (CISA) Secure Software Development Attestation Form (SSDAF) (2024)",
       "scf_controls_mapped": 41,
       "framework_controls_mapped": 15
     },
     {
       "framework_id": "usa-federal-dhs-cisa-tic-3-0",
-      "display_name": "US - Cybersecurity & Infrastructure Security Agency (CISA) Trusted Internet Connections 3.0 Security Capabilities Catalog",
-      "scf_controls_mapped": 148,
+      "display_name": "USA - Cybersecurity & Infrastructure Security Agency (CISA) Trusted Internet Connections 3.0 Security Capabilities Catalog",
+      "scf_controls_mapped": 153,
       "framework_controls_mapped": 117
     },
     {
       "framework_id": "usa-federal-doc-data-privacy-framework-2023",
-      "display_name": "US - Data Privacy Framework (2023)",
-      "scf_controls_mapped": 31,
-      "framework_controls_mapped": 74
+      "display_name": "USA - Data Privacy Framework (2023)",
+      "scf_controls_mapped": 32,
+      "framework_controls_mapped": 75
     },
     {
       "framework_id": "usa-federal-doe-c2m2-2-1",
-      "display_name": "US - Department of Energy (DOE) - Cybersecurity Capability Maturity Model version 2.1",
-      "scf_controls_mapped": 224,
+      "display_name": "USA - Department of Energy (DOE) - Cybersecurity Capability Maturity Model version 2.1",
+      "scf_controls_mapped": 231,
       "framework_controls_mapped": 356
     },
     {
+      "framework_id": "usa-federal-dow-brilliant-basics-it",
+      "display_name": "USA - DoW Brilliant at the Basics: Top 10 IT Cybersecurity Best Practices for DIB Partners",
+      "scf_controls_mapped": 38,
+      "framework_controls_mapped": 10
+    },
+    {
+      "framework_id": "usa-federal-dow-brilliant-basics-ot",
+      "display_name": "USA - DoW Brilliant at the Basics: Top 10 OT Cybersecurity Best Practices for DIB Partners",
+      "scf_controls_mapped": 58,
+      "framework_controls_mapped": 10
+    },
+    {
       "framework_id": "usa-federal-dow-cert-rmm-1-2",
-      "display_name": "US - Department of War (DoW) - Computer Emergency Response Team (CERT) Resilience Management Model (RMM) Version 1.2",
-      "scf_controls_mapped": 85,
+      "display_name": "USA - Department of War (DoW) - Computer Emergency Response Team (CERT) Resilience Management Model (RMM) Version 1.2",
+      "scf_controls_mapped": 96,
       "framework_controls_mapped": 753
     },
     {
       "framework_id": "usa-federal-dow-cmmc-2-level-1",
-      "display_name": "US - Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 1",
+      "display_name": "USA - Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 1",
       "scf_controls_mapped": 52,
       "framework_controls_mapped": 15
     },
     {
       "framework_id": "usa-federal-dow-cmmc-2-level-1-aos",
-      "display_name": "US - Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 1 Assessment Objectives",
+      "display_name": "USA - Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 1 Assessment Objectives",
       "scf_controls_mapped": 16,
       "framework_controls_mapped": 59
     },
     {
       "framework_id": "usa-federal-dow-cmmc-2-level-2",
-      "display_name": "US Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 2",
-      "scf_controls_mapped": 198,
+      "display_name": "USA - Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 2",
+      "scf_controls_mapped": 200,
       "framework_controls_mapped": 110
     },
     {
       "framework_id": "usa-federal-dow-cmmc-2-level-3",
-      "display_name": "US Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 3",
+      "display_name": "USA - Department of War (DoW) - Cybersecurity Maturity Model Certification (CMMC) v2.0 - Level 3",
       "scf_controls_mapped": 55,
       "framework_controls_mapped": 24
     },
     {
       "framework_id": "usa-federal-dow-dfars-252-204-7012",
-      "display_name": "US - Defense Federal Acquisition Regulation Supplement (DFARS) 252.204 - 7012",
+      "display_name": "USA - Defense Federal Acquisition Regulation Supplement (DFARS) 252.204 - 7012",
       "scf_controls_mapped": 19,
       "framework_controls_mapped": 20
     },
     {
       "framework_id": "usa-federal-dow-safeguarding-nnpi-2010",
-      "display_name": "US - Safeguarding of Naval Nuclear Propulsion Information (NNPI) (2010)",
+      "display_name": "USA - Safeguarding of Naval Nuclear Propulsion Information (NNPI) (2010)",
       "scf_controls_mapped": 32,
       "framework_controls_mapped": 68
     },
     {
       "framework_id": "usa-federal-dow-zt-roadmap-1-1",
-      "display_name": "US - Department of War (DoW) - Zero Trust Execution Roadmap v1.1",
-      "scf_controls_mapped": 117,
-      "framework_controls_mapped": 191
+      "display_name": "USA - Department of War (DoW) - Zero Trust Execution Roadmap v1.1",
+      "scf_controls_mapped": 119,
+      "framework_controls_mapped": 192
     },
     {
       "framework_id": "usa-federal-dow-zta-reference-architecture-2-0",
-      "display_name": "US - Department of War (DoW) - Zero Trust Reference Architecture v2",
-      "scf_controls_mapped": 39,
+      "display_name": "USA - Department of War (DoW) - Zero Trust Reference Architecture v2",
+      "scf_controls_mapped": 40,
       "framework_controls_mapped": 28
     },
     {
       "framework_id": "usa-federal-eo-14028",
-      "display_name": "US - Executive Order (EO) 14028 - Improving the Nation's Cybersecurity",
+      "display_name": "USA - Executive Order (EO) 14028 - Improving the Nation's Cybersecurity",
       "scf_controls_mapped": 43,
       "framework_controls_mapped": 16
     },
     {
       "framework_id": "usa-federal-far-52-204-21",
-      "display_name": "US - Federal Acquisition Regulation (FAR) 52.204 - 21 - Basic Safeguarding of Covered Contractor Information Systems",
+      "display_name": "USA - Federal Acquisition Regulation (FAR) 52.204 - 21 - Basic Safeguarding of Covered Contractor Information Systems",
       "scf_controls_mapped": 59,
       "framework_controls_mapped": 17
     },
     {
       "framework_id": "usa-federal-far-52-204-25",
-      "display_name": "US - Federal Acquisition Regulation (FAR) 52.204 - 25 (NDAA Section 889) - Prohibition on Contracting With Entities Using Certain Telecommunications and Video Surveillance Services or Equipment",
+      "display_name": "USA - Federal Acquisition Regulation (FAR) 52.204 - 25 (NDAA Section 889) - Prohibition on Contracting With Entities Using Certain Telecommunications and Video Surveillance Services or Equipment",
       "scf_controls_mapped": 2,
       "framework_controls_mapped": 5
     },
     {
       "framework_id": "usa-federal-far-52-204-27",
-      "display_name": "US - Federal Acquisition Regulation (FAR) 52.204 - 27 - Prohibition on a ByteDance Covered Application",
+      "display_name": "USA - Federal Acquisition Regulation (FAR) 52.204 - 27 - Prohibition on a ByteDance Covered Application",
       "scf_controls_mapped": 3,
       "framework_controls_mapped": 2
     },
     {
       "framework_id": "usa-federal-fbi-cjis-6-0",
       "display_name": "US - Department of Justice - Criminal Justice Information Services (CJIS) Security Policy v6.0",
-      "scf_controls_mapped": 365,
+      "scf_controls_mapped": 366,
       "framework_controls_mapped": 319
     },
     {
       "framework_id": "usa-federal-fda-21-cfr-part-11-2025",
-      "display_name": "US - Food & Drug Administration (FDA) 21 CFR Part 11 (2025)",
+      "display_name": "USA - Food & Drug Administration (FDA) 21 CFR Part 11 (2025)",
       "scf_controls_mapped": 62,
       "framework_controls_mapped": 28
     },
     {
+      "framework_id": "usa-federal-ffiec-iteh-2016",
+      "display_name": "USA - FFIEC IT Examination Handbook - Information Security (September 2016)",
+      "scf_controls_mapped": 184,
+      "framework_controls_mapped": 57
+    },
+    {
       "framework_id": "usa-federal-gsa-fedramp-5-high",
-      "display_name": "US - Federal Risk and Authorization Management Program (FedRAMP) R5 - High Baseline",
-      "scf_controls_mapped": 561,
-      "framework_controls_mapped": 490
-    },
-    {
-      "framework_id": "usa-federal-gsa-fedramp-5-li-saas",
-      "display_name": "US - Federal Risk and Authorization Management Program (FedRAMP) R5 - Li - SAAS Baseline",
-      "scf_controls_mapped": 383,
-      "framework_controls_mapped": 269
-    },
-    {
-      "framework_id": "usa-federal-gsa-fedramp-5-low",
-      "display_name": "US - Federal Risk and Authorization Management Program (FedRAMP) R5 - Low Baseline",
-      "scf_controls_mapped": 383,
-      "framework_controls_mapped": 269
-    },
-    {
-      "framework_id": "usa-federal-gsa-fedramp-5-mod",
-      "display_name": "US - Federal Risk and Authorization Management Program (FedRAMP) R5 - Moderate Baseline",
-      "scf_controls_mapped": 491,
+      "display_name": "USA - Federal Risk and Authorization Management Program (FedRAMP) R5 - High Baseline",
+      "scf_controls_mapped": 469,
       "framework_controls_mapped": 410
     },
     {
+      "framework_id": "usa-federal-gsa-fedramp-5-li-saas",
+      "display_name": "USA - Federal Risk and Authorization Management Program (FedRAMP) R5 - LI-SaaS Baseline",
+      "scf_controls_mapped": 195,
+      "framework_controls_mapped": 138
+    },
+    {
+      "framework_id": "usa-federal-gsa-fedramp-5-low",
+      "display_name": "USA - Federal Risk and Authorization Management Program (FedRAMP) R5 - Low Baseline",
+      "scf_controls_mapped": 216,
+      "framework_controls_mapped": 156
+    },
+    {
+      "framework_id": "usa-federal-gsa-fedramp-5-mod",
+      "display_name": "USA - Federal Risk and Authorization Management Program (FedRAMP) R5 - Moderate Baseline",
+      "scf_controls_mapped": 384,
+      "framework_controls_mapped": 323
+    },
+    {
       "framework_id": "usa-federal-hhs-45-cfr-155-260-2016",
-      "display_name": "US - Health and Human Services (HHS) § 155.260 - Privacy and Security of Personally Identifiable Information (2016)",
+      "display_name": "USA - Health and Human Services (HHS) § 155.260 - Privacy and Security of Personally Identifiable Information (2016)",
       "scf_controls_mapped": 36,
       "framework_controls_mapped": 44
     },
     {
       "framework_id": "usa-federal-irs-1075-2021",
-      "display_name": "US - Internal Revenue Service (IRS) 1075 (2021)",
-      "scf_controls_mapped": 443,
-      "framework_controls_mapped": 744
+      "display_name": "USA - Internal Revenue Service (IRS) 1075 (2021)",
+      "scf_controls_mapped": 454,
+      "framework_controls_mapped": 730
     },
     {
       "framework_id": "usa-federal-law-33-cfr-part-101-subpart-f",
-      "display_name": "US - 33 CFR Part 101 Subpart F (up to date as of 4 - 17 - 2026)",
-      "scf_controls_mapped": 104,
+      "display_name": "USA - 33 CFR Part 101 Subpart F (up to date as of 4 - 17 - 2026)",
+      "scf_controls_mapped": 105,
       "framework_controls_mapped": 148
     },
     {
       "framework_id": "usa-federal-law-coppa-2024",
-      "display_name": "US - Children's Online Privacy Protection Act (COPPA) (2024)",
+      "display_name": "USA - Children's Online Privacy Protection Act (COPPA) (2024)",
       "scf_controls_mapped": 10,
       "framework_controls_mapped": 8
     },
     {
       "framework_id": "usa-federal-law-facta-fcra-2023",
-      "display_name": "US - Fair & Accurate Credit Transactions Act (FACTA) & Fair Credit Reporting Act (FCRA) (2023)",
+      "display_name": "USA - Fair & Accurate Credit Transactions Act (FACTA) & Fair Credit Reporting Act (FCRA) (2023)",
       "scf_controls_mapped": 3,
       "framework_controls_mapped": 6
     },
     {
       "framework_id": "usa-federal-law-ferpa-2010",
-      "display_name": "US - Family Educational Rights and Privacy Act (FERPA) (2010)",
+      "display_name": "USA - Family Educational Rights and Privacy Act (FERPA) (2010)",
       "scf_controls_mapped": 5,
       "framework_controls_mapped": 27
     },
     {
-      "framework_id": "usa-federal-law-ftc-act",
-      "display_name": "US - Federal Trade Commission (FTC) Act",
+      "framework_id": "usa-federal-law-ftc-act-1938",
+      "display_name": "USA - Federal Trade Commission (FTC) Act",
       "scf_controls_mapped": 16,
       "framework_controls_mapped": 1
     },
     {
       "framework_id": "usa-federal-law-glba-cfr-314-2023",
-      "display_name": "US - Gramm Leach Bliley Act (GLBA) - CFR 314 (Dec 2023)",
-      "scf_controls_mapped": 70,
-      "framework_controls_mapped": 52
+      "display_name": "USA - Gramm Leach Bliley Act (GLBA) - CFR 314 (Dec 2023)",
+      "scf_controls_mapped": 69,
+      "framework_controls_mapped": 53
     },
     {
       "framework_id": "usa-federal-law-hipaa-security-rule-2013",
-      "display_name": "US - Health Insurance Portability and Accountability Act (HIPAA) Security Rule (2013)",
-      "scf_controls_mapped": 136,
+      "display_name": "USA - Health Insurance Portability and Accountability Act (HIPAA) Security Rule (2013)",
+      "scf_controls_mapped": 137,
       "framework_controls_mapped": 87
     },
     {
       "framework_id": "usa-federal-law-hipaa-simplification-2013",
-      "display_name": "US - Health Insurance Portability and Accountability Act (HIPAA) Administrative Simplification (2013)",
-      "scf_controls_mapped": 170,
-      "framework_controls_mapped": 576
+      "display_name": "USA - Health Insurance Portability and Accountability Act (HIPAA) Administrative Simplification (2013)",
+      "scf_controls_mapped": 171,
+      "framework_controls_mapped": 575
     },
     {
       "framework_id": "usa-federal-law-sox-2002",
-      "display_name": "US - Sarbanes Oxley Act (SOX) (2002)",
+      "display_name": "USA - Sarbanes Oxley Act (SOX) (2002)",
       "scf_controls_mapped": 4,
       "framework_controls_mapped": 17
     },
     {
       "framework_id": "usa-federal-nerc-cip-2024",
-      "display_name": "US - North American Electric Reliability Corporation (NERC) Critical Infrastructure Protection (CIP) (2024)",
-      "scf_controls_mapped": 122,
+      "display_name": "USA - North American Electric Reliability Corporation (NERC) Critical Infrastructure Protection (CIP) (2024)",
+      "scf_controls_mapped": 124,
       "framework_controls_mapped": 204
     },
     {
       "framework_id": "usa-federal-nispom-2020",
-      "display_name": "US - National Industrial Security Program Operating Manual (NISPOM) (2020)",
-      "scf_controls_mapped": 35,
-      "framework_controls_mapped": 226
+      "display_name": "USA - National Industrial Security Program Operating Manual (NISPOM) (2020)",
+      "scf_controls_mapped": 40,
+      "framework_controls_mapped": 230
+    },
+    {
+      "framework_id": "usa-federal-nrc-10-cfr-73-54-2015",
+      "display_name": "USA - NRC 10 CFR 73.54",
+      "scf_controls_mapped": 34,
+      "framework_controls_mapped": 33
+    },
+    {
+      "framework_id": "usa-federal-nsf-rig-2025-information-assurance",
+      "display_name": "USA - NSF Research Infrastructure Guide (January 2025) - Sections 5.2-5.3 (Cyberinfrastructure & Information Assurance)",
+      "scf_controls_mapped": 42,
+      "framework_controls_mapped": 34
     },
     {
       "framework_id": "usa-federal-omb-fipps-1973",
-      "display_name": "US - Fair Information Practice Principles (FIPPs) (1973)",
+      "display_name": "USA - Fair Information Practice Principles (FIPPs) (1973)",
       "scf_controls_mapped": 30,
       "framework_controls_mapped": 8
     },
     {
       "framework_id": "usa-federal-sec-cybersecurity-rule-2023",
-      "display_name": "US - Securities and Exchange Commission (SEC) Cybersecurity Rule (2023)",
-      "scf_controls_mapped": 40,
-      "framework_controls_mapped": 15
+      "display_name": "USA - Securities and Exchange Commission (SEC) Cybersecurity Rule (2023)",
+      "scf_controls_mapped": 41,
+      "framework_controls_mapped": 16
     },
     {
       "framework_id": "usa-federal-sro-fca-crm-2023",
-      "display_name": "US - Farm Credit Administration (FCA) Cyber Risk Management (2023)",
+      "display_name": "USA - Farm Credit Administration (FCA) Cyber Risk Management (2023)",
       "scf_controls_mapped": 81,
       "framework_controls_mapped": 34
     },
     {
-      "framework_id": "usa-federal-sro-finra",
-      "display_name": "US - Financial Industry Regulatory Authority (FINRA) Cybersecurity Rules",
-      "scf_controls_mapped": 17,
-      "framework_controls_mapped": 39
+      "framework_id": "usa-federal-sro-finra-2007",
+      "display_name": "USA - Financial Industry Regulatory Authority (FINRA) Cybersecurity Rules",
+      "scf_controls_mapped": 18,
+      "framework_controls_mapped": 41
+    },
+    {
+      "framework_id": "usa-federal-tsa-sd-pipeline-2021-02f",
+      "display_name": "USA - TSA Security Directive Pipeline-2021-02F",
+      "scf_controls_mapped": 72,
+      "framework_controls_mapped": 67
     },
     {
       "framework_id": "usa-federal-tsa-security-directive-1580-82-2022-01",
-      "display_name": "US - Transportation Security Administration (TSA) Security Directive 1580/82 - 2022 - 01 - Rail Cybersecurity Mitigation Actions and Testing",
-      "scf_controls_mapped": 60,
+      "display_name": "USA - Transportation Security Administration (TSA) Security Directive 1580/82 - 2022 - 01 - Rail Cybersecurity Mitigation Actions and Testing",
+      "scf_controls_mapped": 61,
       "framework_controls_mapped": 68
     },
     {
       "framework_id": "usa-state-ak-pipa-2009",
-      "display_name": "US - Alaska Personal Information Protection Act (PIPA) (2009)",
+      "display_name": "USA - Alaska Personal Information Protection Act (PIPA) (2009)",
       "scf_controls_mapped": 5,
       "framework_controls_mapped": 25
     },
     {
       "framework_id": "usa-state-ca-ccpa-cpra-2026",
-      "display_name": "US - California Consumer Privacy Act (CCPA) (January 2026) - amended California Privacy Rights Act (CPRA)",
-      "scf_controls_mapped": 258,
+      "display_name": "USA - California Consumer Privacy Act (CCPA) (January 2026) - amended California Privacy Rights Act (CPRA)",
+      "scf_controls_mapped": 259,
       "framework_controls_mapped": 623
     },
     {
       "framework_id": "usa-state-ca-sb1386-2002",
-      "display_name": "US - California SB1386 (2002)",
+      "display_name": "USA - California SB1386 (2002)",
       "scf_controls_mapped": 4,
       "framework_controls_mapped": 6
     },
     {
       "framework_id": "usa-state-ca-sb327-2018",
-      "display_name": "US - California SB327 (2018)",
+      "display_name": "USA - California SB327 (2018)",
       "scf_controls_mapped": 3,
       "framework_controls_mapped": 7
     },
     {
       "framework_id": "usa-state-co-privacy-act-2021",
-      "display_name": "US - Colorado Privacy Act (2021)",
+      "display_name": "USA - Colorado Privacy Act (2021)",
       "scf_controls_mapped": 23,
       "framework_controls_mapped": 52
     },
     {
       "framework_id": "usa-state-il-bipa-2008",
-      "display_name": "US - Illinois Biometric Information Privacy Act (BIPA) (2008)",
+      "display_name": "USA - Illinois Biometric Information Privacy Act (BIPA) (2008)",
       "scf_controls_mapped": 6,
       "framework_controls_mapped": 12
     },
     {
       "framework_id": "usa-state-il-ipa-2009",
-      "display_name": "US - Illinois Identity Protection Act (IPA) (2009)",
+      "display_name": "USA - Illinois Identity Protection Act (IPA) (2009)",
       "scf_controls_mapped": 12,
       "framework_controls_mapped": 33
     },
     {
       "framework_id": "usa-state-il-pipa-2006",
-      "display_name": "US - Illinois Personal Information Protection Act (PIPA) (2006)",
-      "scf_controls_mapped": 10,
+      "display_name": "USA - Illinois Personal Information Protection Act (PIPA) (2006)",
+      "scf_controls_mapped": 9,
       "framework_controls_mapped": 53
     },
     {
       "framework_id": "usa-state-ma-201-cmr-17-2008",
-      "display_name": "US - Massachusetts 201 CMR 17.00 (2008)",
+      "display_name": "USA - Massachusetts 201 CMR 17.00 (2008)",
       "scf_controls_mapped": 53,
       "framework_controls_mapped": 37
     },
     {
+      "framework_id": "usa-state-mt-cdpa-2025",
+      "display_name": "USA - Montana Consumer Data Privacy Act (CDPA) (2025)",
+      "scf_controls_mapped": 70,
+      "framework_controls_mapped": 98
+    },
+    {
       "framework_id": "usa-state-nv-privacy-law-2023",
-      "display_name": "US - Nevada Privacy Law (2023) - CHAPTER 603A - SECURITY AND PRIVACY OF PERSONAL INFORMATION",
-      "scf_controls_mapped": 29,
+      "display_name": "USA - Nevada Privacy Law (2023) - CHAPTER 603A - SECURITY AND PRIVACY OF PERSONAL INFORMATION",
+      "scf_controls_mapped": 28,
       "framework_controls_mapped": 121
     },
     {
       "framework_id": "usa-state-nv-regulation-5-2024",
-      "display_name": "US - Nevada Operation of Gaming Establishments - Regulation 5.260 (Cybersecurity)",
+      "display_name": "USA - Nevada Operation of Gaming Establishments - Regulation 5.260 (Cybersecurity)",
       "scf_controls_mapped": 20,
       "framework_controls_mapped": 11
     },
     {
       "framework_id": "usa-state-nv-sb220-2019",
-      "display_name": "US - Nevada SB220 (2019)",
+      "display_name": "USA - Nevada SB220 (2019)",
       "scf_controls_mapped": 3,
       "framework_controls_mapped": 4
     },
     {
       "framework_id": "usa-state-ny-dfs-23-nycrr500-2023-amd2",
-      "display_name": "US - New York Department of Financial Services (NY DFS) 23NYCRR Part 500 (2023 Amendment 2)",
-      "scf_controls_mapped": 156,
+      "display_name": "USA - New York Department of Financial Services (NY DFS) 23NYCRR Part 500 (2023 Amendment 2)",
+      "scf_controls_mapped": 158,
       "framework_controls_mapped": 145
     },
     {
       "framework_id": "usa-state-ny-shield-act-2019",
-      "display_name": "US - New York SHIELD Act (SB S5575B) (2019)",
-      "scf_controls_mapped": 28,
+      "display_name": "USA - New York SHIELD Act (SB S5575B) (2019)",
+      "scf_controls_mapped": 27,
       "framework_controls_mapped": 45
     },
     {
       "framework_id": "usa-state-or-cpa-2023",
-      "display_name": "US - Oregon Consumer Privacy Act (SB 619) (2023)",
+      "display_name": "USA - Oregon Consumer Privacy Act (SB 619) (2023)",
       "scf_controls_mapped": 34,
       "framework_controls_mapped": 75
     },
     {
       "framework_id": "usa-state-or-ors-646a-2025",
-      "display_name": "US - Oregon Consumer Information Protection Act (ORS 646A) (2025)",
+      "display_name": "USA - Oregon Consumer Information Protection Act (ORS 646A) (2025)",
       "scf_controls_mapped": 24,
       "framework_controls_mapped": 97
     },
     {
       "framework_id": "usa-state-tn-tipa-2025",
-      "display_name": "US - Tennessee Information Protection Act (TIPA) (2025)",
+      "display_name": "USA - Tennessee Information Protection Act (TIPA) (2025)",
       "scf_controls_mapped": 29,
       "framework_controls_mapped": 76
     },
     {
       "framework_id": "usa-state-tx-bc521-2009",
-      "display_name": "US - Texas Identity Theft Enforcement and Protection Act (BC521) (2009)",
-      "scf_controls_mapped": 5,
+      "display_name": "USA - Texas Identity Theft Enforcement and Protection Act (BC521) (2009)",
+      "scf_controls_mapped": 6,
       "framework_controls_mapped": 27
     },
     {
       "framework_id": "usa-state-tx-cdpa-2025",
-      "display_name": "US - Texas Consumer Data Protection Act (2025)",
+      "display_name": "USA - Texas Consumer Data Protection Act (2025)",
       "scf_controls_mapped": 28,
       "framework_controls_mapped": 89
     },
     {
       "framework_id": "usa-state-tx-dir-security-control-standards-catalog-2-2",
-      "display_name": "US - Texas DIR Security Control Standards Catalog v2.2",
-      "scf_controls_mapped": 238,
-      "framework_controls_mapped": 228
+      "display_name": "USA - Texas DIR Security Control Standards Catalog v2.2",
+      "scf_controls_mapped": 246,
+      "framework_controls_mapped": 229
     },
     {
       "framework_id": "usa-state-tx-sb2610-2025",
-      "display_name": "US - Texas Safe Harbor Law (SB2610) (2025)",
+      "display_name": "USA - Texas Safe Harbor Law (SB2610) (2025)",
       "scf_controls_mapped": 6,
       "framework_controls_mapped": 33
     },
     {
       "framework_id": "usa-state-tx-sb820-2019",
-      "display_name": "US - Texas SB820 (2019)",
+      "display_name": "USA - Texas SB820 (2019)",
       "scf_controls_mapped": 4,
       "framework_controls_mapped": 7
     },
     {
+      "framework_id": "usa-state-tx-traiga-2025",
+      "display_name": "USA - Texas Responsible Artificial Intelligence Governance Act (TRAIGA) - H.B. 149",
+      "scf_controls_mapped": 33,
+      "framework_controls_mapped": 44
+    },
+    {
       "framework_id": "usa-state-tx-txramp-2-0-level-1",
-      "display_name": "US - Texas Risk & Authorization Management Program 2.0 - Level 1",
-      "scf_controls_mapped": 173,
+      "display_name": "USA - Texas Risk & Authorization Management Program 2.0 - Level 1",
+      "scf_controls_mapped": 177,
       "framework_controls_mapped": 117
     },
     {
       "framework_id": "usa-state-tx-txramp-2-0-level-2",
-      "display_name": "US - Texas Risk & Authorization Management Program 2.0 - Level 2",
-      "scf_controls_mapped": 285,
+      "display_name": "USA - Texas Risk & Authorization Management Program 2.0 - Level 2",
+      "scf_controls_mapped": 289,
       "framework_controls_mapped": 223
     },
     {
       "framework_id": "usa-state-va-cdpa-2023",
-      "display_name": "US - Virginia Consumer Data Protection Act (2023)",
-      "scf_controls_mapped": 44,
+      "display_name": "USA - Virginia Consumer Data Protection Act (2023)",
+      "scf_controls_mapped": 43,
       "framework_controls_mapped": 64
     },
     {
       "framework_id": "usa-state-vt-act-171-2018",
-      "display_name": "US - Vermont Data Broker Registration Act (Act 171 of 2018)",
-      "scf_controls_mapped": 35,
+      "display_name": "USA - Vermont Data Broker Registration Act (Act 171 of 2018)",
+      "scf_controls_mapped": 36,
       "framework_controls_mapped": 61
     }
   ],
-  "total_threats": 42,
-  "total_risks": 39,
-  "total_assessment_objectives": 5956,
-  "total_evidence_requests": 316,
-  "total_compensating_controls": 1371,
-  "total_privacy_principles": 258,
+  "total_threats": 45,
+  "total_risks": 65,
+  "total_assessment_objectives": 6446,
+  "total_evidence_requests": 422,
+  "total_compensating_controls": 1397,
+  "total_privacy_principles": 263,
   "weight_distribution": {
-    "0": 1,
     "1": 42,
     "2": 43,
     "3": 67,
     "4": 41,
-    "5": 311,
-    "6": 80,
-    "7": 192,
-    "8": 269,
-    "9": 325,
-    "10": 163
+    "5": 310,
+    "6": 87,
+    "7": 204,
+    "8": 274,
+    "9": 329,
+    "10": 194
   }
 }

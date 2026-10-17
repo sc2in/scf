@@ -4,10 +4,11 @@
   "artifact_name": "Asset Disposal Evidence",
   "artifact_description": "Documented evidence of asset disposal/destruction (e.g., asset tracking by serial # for shredding, degaussing, etc.).",
   "scf_controls": [
-    "AST-09",
-    "DCH-08",
-    "DCH-09",
-    "DCH-09.1"
+    "AST-22",
+    "AST-36",
+    "DCH-17",
+    "DCH-18",
+    "DCH-18.2"
   ],
   "cmmc_mapping": ""
 }

@@ -4,7 +4,9 @@
   "artifact_name": "Business Case for Artificial Intelligence and Autonomous Technologies (AAT)",
   "artifact_description": "Documented evidence of a business case for Artificial Intelligence and Autonomous Technologies (AAT).",
   "scf_controls": [
-    "AAT-04"
+    "AAT-03",
+    "AAT-04",
+    "AAT-14"
   ],
   "cmmc_mapping": ""
 }

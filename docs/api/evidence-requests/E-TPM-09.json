@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-TPM-09",
+  "area": "Third-Party Management",
+  "artifact_name": "Third-Party Access Revocation Records",
+  "artifact_description": "Documented evidence that third-party physical and logical access was revoked upon cessation of services.",
+  "scf_controls": [
+    "TPM-24.4"
+  ],
+  "cmmc_mapping": ""
+}

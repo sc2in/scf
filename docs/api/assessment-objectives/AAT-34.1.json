@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-34.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-34.1",
+      "ao_id": "AAT-34.1_A01",
+      "objective": "roles and responsibilities exist to compel data and/or process owners to meet documented Artificial Intelligence (AI) and Autonomous Technologies (AAT) operator and practitioner proficiency requirements.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-34.1",
+      "ao_id": "AAT-34.1_A02",
+      "objective": "the organization assesses Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related operator and practitioner proficiency requirements per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-34.1",
+      "ao_id": "AAT-34.1_A03",
+      "objective": "roles and responsibilities are updated as Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related operator and practitioner proficiency requirements evolve.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "scf_control_id": "END-12",
-  "total": 3,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "END-12",
       "ao_id": "END-12_A01",
-      "objective": "connection ports or input/output devices to be disabled or removed are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SC-41_ODP[01]\n53A_R5_SC-41_ODP[02]",
+      "objective": "Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS), or similar technologies, are deployed on business-critical systems.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""
@@ -15,19 +15,9 @@
     {
       "scf_control_id": "END-12",
       "ao_id": "END-12_A02",
-      "objective": "systems or system components with connection ports or input/output devices to be disabled or removed are defined.",
-      "pptdf": "Process",
-      "origin": "53A_R5_SC-41_ODP[03]",
-      "assessment_rigor": "1",
-      "scf_defined_parameters": "",
-      "org_defined_parameters": ""
-    },
-    {
-      "scf_control_id": "END-12",
-      "ao_id": "END-12_A03",
-      "objective": "connection ports or input/output devices that are prohibited are disabled or removed on systems or system components.",
+      "objective": "Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS), or similar technologies, are deployed on systems that store, process and/or transmit sensitive / regulated data.",
       "pptdf": "Technology",
-      "origin": "53A_R5_SC-41",
+      "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",
       "org_defined_parameters": ""

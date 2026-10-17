@@ -1,12 +1,42 @@
 {
   "scf_control_id": "BCD-06.1",
-  "total": 1,
+  "total": 4,
   "assessment_objectives": [
     {
       "scf_control_id": "BCD-06.1",
       "ao_id": "BCD-06.1_A01",
-      "objective": "the organization identifies components that, if changed, potentially impact the organization's ability to execute contingency plans.",
+      "objective": "alternate communication paths for system operations and operational command and control are defined.",
       "pptdf": "Process",
+      "origin": "53A_R5_SC-47_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06.1",
+      "ao_id": "BCD-06.1_A02",
+      "objective": "alternate communication paths are established for system operations and operational command and control.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-47",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06.1",
+      "ao_id": "BCD-06.1_A03",
+      "objective": "the conditions that constitute a designated crisis situation are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06.1",
+      "ao_id": "BCD-06.1_A04",
+      "objective": "alternative decision makers are designated to assume command and control if primary decision makers are unavailable during a designated crisis situation.",
+      "pptdf": "People",
       "origin": "SCF Created",
       "assessment_rigor": "1",
       "scf_defined_parameters": "",

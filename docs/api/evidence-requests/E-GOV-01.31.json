@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-01.31",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Third-Party Management Policy",
+  "artifact_description": "Documented evidence of a third-party management policy.",
+  "scf_controls": [
+    "GOV-04",
+    "TPM-01"
+  ],
+  "cmmc_mapping": ""
+}

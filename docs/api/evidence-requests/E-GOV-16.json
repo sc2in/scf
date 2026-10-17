@@ -1,10 +1,12 @@
 {
   "erl_id": "E-GOV-16",
-  "area": "Cybersecurity & Data Protection Management",
-  "artifact_name": "Material Threats",
-  "artifact_description": "Documented evidence of specific threats that are categorized as material threats.",
+  "area": "Security, Compliance & Resilience Governance",
+  "artifact_name": "Material Risks",
+  "artifact_description": "Documented evidence of specific risks that are categorized as material risks.",
   "scf_controls": [
-    "GOV-16.2"
+    "RSK-06",
+    "RSK-06.1",
+    "RSK-06.2"
   ],
   "cmmc_mapping": ""
 }

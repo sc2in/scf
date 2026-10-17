@@ -1,11 +1,21 @@
 {
   "scf_control_id": "EMB-12",
-  "total": 1,
+  "total": 2,
   "assessment_objectives": [
     {
       "scf_control_id": "EMB-12",
       "ao_id": "EMB-12_A01",
-      "objective": "configurations for embedded technologies require the initiation of all communications and drop new, incoming communications.",
+      "objective": "automated mechanisms monitor the power levels of embedded technologies for decreased or excessive power usage, including battery drainage.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-12",
+      "ao_id": "EMB-12_A02",
+      "objective": "detected instances of decreased or excessive power usage, including battery drainage, are investigated for device tampering.",
       "pptdf": "Technology",
       "origin": "SCF Created",
       "assessment_rigor": "1",

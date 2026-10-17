@@ -4,20 +4,14 @@
   "artifact_name": "Third-Party Contracts",
   "artifact_description": "Documented evidence of third-party contractual obligations for cybersecurity & data privacy protections.",
   "scf_controls": [
-    "PRI-07",
-    "PRI-07.1",
-    "PRI-07.2",
-    "TPM-01",
-    "TPM-03.2",
-    "TPM-03.3",
-    "TPM-04.1",
-    "TPM-05",
-    "TPM-04.3",
-    "TPM-05.3",
-    "TPM-05.6",
-    "TPM-06",
-    "TPM-10",
-    "TPM-11"
+    "PRI-14",
+    "TPM-12.1",
+    "TPM-12.3",
+    "TPM-13",
+    "TPM-14",
+    "TPM-14.1",
+    "TPM-21.1",
+    "TPM-24.6"
   ],
   "cmmc_mapping": "AC.L1-3.1.20"
 }

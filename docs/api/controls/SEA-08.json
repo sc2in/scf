@@ -1,10 +1,10 @@
 {
   "control_id": "SEA-08",
-  "title": "Non-Persistence",
+  "title": "Application Partitioning",
   "family": "SEA",
-  "description": "Mechanisms exist to implement non-persistent system components and services that are initiated in a known state and terminated upon the end of the session of use or periodically at an organization-defined frequency.",
-  "scf_question": "Does the organization implement non-persistent system components and services that are initiated in a known state and terminated upon the end of the session of use or periodically at an organization-defined frequency?",
-  "relative_weight": 9,
+  "description": "Mechanisms exist to separate user functionality from system management functionality.",
+  "scf_question": "Does the organization separate user functionality from system management functionality?",
+  "relative_weight": 8,
   "conformity_cadence": "Annual",
   "evidence_requests": [],
   "pptdf": "Technology",
@@ -16,15 +16,13 @@
   },
   "maturity": {
     "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
-    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. ",
-    "2": "Secure Engineering & Architecture (SEA) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Secure engineering and architecture-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Secure engineering and architecture management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel define entity-specific secure engineering practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the entity's TAASD.\n▪ IT and/or cybersecurity personnel align secure engineering practices with the entity's broader IT architecture practices.\n▪ IT and/or cybersecurity personnel use secure engineering practices to influence Secure Baseline Configurations (SBC).",
-    "3": "Secure Engineering & Architecture (SEA) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are well-documented and kept current by process owners.\n▪ A cybersecurity engineering / architecture team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of secure engineering management operations (e.g., project management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the secure engineering principles on all applicable Technology Assets, Applications and/or Services (TAAS).\n▪ An implemented and operational capability exists to implement non-persistent system components and services that are initiated in a known state and terminated upon the end of the session of use or periodically at an organization-defined frequency. ",
+    "1": "Secure Engineering & Architecture (SEA) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with SEA domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Security engineering-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel use an informal process to design, build and maintain secure, compliant and resilient solutions.",
+    "2": "Secure Engineering & Architecture (SEA) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Secure engineering and architecture-related controls are primarily administrative and preventative in nature (e.g., policies, standards and procedures & guidelines).\n▪ Secure engineering and architecture management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel define entity-specific secure engineering practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the entity's TAASD.\n▪ IT and/or cybersecurity personnel align secure engineering practices with the entity's broader IT architecture practices.\n▪ IT and/or cybersecurity personnel use secure engineering practices to influence Secure Baseline Configurations (SBC).",
+    "3": "Secure Engineering & Architecture (SEA) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are well-documented and kept current by process owners.\n▪ A cybersecurity engineering / architecture team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of secure engineering management operations (e.g., project management solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the secure engineering principles on all applicable Technology Assets, Applications and/or Services (TAAS).\n▪ An implemented and operational capability exists to separate user functionality from system management functionality.",
     "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
     "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
   },
-  "profiles": [
-    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
-  ],
+  "profiles": [],
   "possible_solutions": {
     "micro_small": "∙ Secure Baseline Configurations (SBC)",
     "small": "∙ Secure Baseline Configurations (SBC)",
@@ -33,85 +31,244 @@
     "enterprise": "∙ Secure Baseline Configurations (SBC)"
   },
   "risks": [
-    "R-AC-1",
     "R-AC-2",
     "R-AC-3",
     "R-AC-4",
-    "R-AM-1",
     "R-AM-2",
-    "R-AM-3",
-    "R-BC-1",
-    "R-BC-2",
     "R-BC-4",
-    "R-BC-5",
     "R-EX-7",
-    "R-GV-1",
-    "R-GV-2",
-    "R-GV-4",
-    "R-GV-5",
-    "R-IR-1",
-    "R-IR-4"
+    "R-IP-2",
+    "R-IP-3"
   ],
   "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
     "NT-7",
-    "MT-1",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
     "MT-2",
-    "MT-7",
     "MT-8",
     "MT-9",
     "MT-10",
-    "MT-11",
-    "MT-12",
-    "MT-13",
     "MT-14",
-    "MT-15",
-    "MT-24",
-    "MT-25",
-    "MT-27",
-    "MT-28"
+    "MT-20",
+    "MT-23"
   ],
+  "risk_likelihood": {
+    "R-AC-1": "Unlikely",
+    "R-AC-2": "Likely",
+    "R-AC-3": "Likely",
+    "R-AC-4": "Likely",
+    "R-AC-5": "Unlikely",
+    "R-AM-1": "Unlikely",
+    "R-AM-2": "Possible",
+    "R-AM-3": "Unlikely",
+    "R-BC-1": "Unlikely",
+    "R-BC-2": "Unlikely",
+    "R-BC-3": "Unlikely",
+    "R-BC-4": "Possible",
+    "R-BC-5": "Unlikely",
+    "R-EX-1": "Unlikely",
+    "R-EX-2": "Unlikely",
+    "R-EX-3": "Unlikely",
+    "R-EX-4": "Unlikely",
+    "R-EX-5": "Unlikely",
+    "R-EX-6": "Unlikely",
+    "R-EX-7": "Possible",
+    "R-EX-8": "Unlikely",
+    "R-EX-9": "Unlikely",
+    "R-EX-10": "Unlikely",
+    "R-EX-11": "Unlikely",
+    "R-GV-1": "Unlikely",
+    "R-GV-2": "Unlikely",
+    "R-GV-3": "Unlikely",
+    "R-GV-4": "Unlikely",
+    "R-GV-5": "Unlikely",
+    "R-GV-6": "Unlikely",
+    "R-GV-7": "Unlikely",
+    "R-GV-8": "Unlikely",
+    "R-GV-9": "Unlikely",
+    "R-GV-10": "Unlikely",
+    "R-IR-1": "Unlikely",
+    "R-IR-2": "Unlikely",
+    "R-IR-3": "Unlikely",
+    "R-IR-4": "Unlikely",
+    "R-OR-1": "Unlikely",
+    "R-OR-2": "Unlikely",
+    "R-SA-1": "Unlikely",
+    "R-SA-2": "Unlikely",
+    "R-SC-1": "Unlikely",
+    "R-SC-2": "Unlikely",
+    "R-SC-3": "Unlikely",
+    "R-SC-4": "Unlikely",
+    "R-SC-5": "Unlikely",
+    "R-SC-6": "Unlikely",
+    "R-SC-7": "Unlikely",
+    "R-AI-1": "Unlikely",
+    "R-AI-2": "Unlikely",
+    "R-AI-3": "Unlikely",
+    "R-AI-4": "Unlikely",
+    "R-AI-5": "Unlikely",
+    "R-AI-6": "Unlikely",
+    "R-OT-1": "Unlikely",
+    "R-IP-1": "Unlikely",
+    "R-IP-2": "Possible",
+    "R-IP-3": "Possible",
+    "R-IP-4": "Unlikely",
+    "R-IP-5": "Unlikely",
+    "R-IP-6": "Unlikely",
+    "R-SF-1": "Unlikely",
+    "R-SF-2": "Unlikely",
+    "R-PE-1": "Unlikely"
+  },
+  "threat_likelihood": {
+    "NT-1": "Possible",
+    "NT-2": "Possible",
+    "NT-3": "Possible",
+    "NT-4": "Possible",
+    "NT-5": "Possible",
+    "NT-6": "Possible",
+    "NT-7": "Possible",
+    "NT-8": "Possible",
+    "NT-9": "Possible",
+    "NT-10": "Possible",
+    "NT-11": "Possible",
+    "NT-12": "Possible",
+    "NT-13": "Possible",
+    "NT-14": "Possible",
+    "MT-1": "Unlikely",
+    "MT-2": "Likely",
+    "MT-3": "Unlikely",
+    "MT-4": "Unlikely",
+    "MT-5": "Unlikely",
+    "MT-6": "Unlikely",
+    "MT-7": "Unlikely",
+    "MT-8": "Possible",
+    "MT-9": "Possible",
+    "MT-10": "Likely",
+    "MT-11": "Unlikely",
+    "MT-12": "Unlikely",
+    "MT-13": "Unlikely",
+    "MT-14": "Possible",
+    "MT-15": "Unlikely",
+    "MT-16": "Unlikely",
+    "MT-17": "Unlikely",
+    "MT-18": "Unlikely",
+    "MT-19": "Unlikely",
+    "MT-20": "Possible",
+    "MT-21": "Unlikely",
+    "MT-22": "Unlikely",
+    "MT-23": "Possible",
+    "MT-24": "Unlikely",
+    "MT-25": "Unlikely",
+    "MT-26": "Unlikely",
+    "MT-27": "Unlikely",
+    "MT-28": "Unlikely",
+    "MT-29": "Unlikely",
+    "MT-30": "Unlikely",
+    "MT-31": "Unlikely"
+  },
+  "errata": "- renumbered",
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
-    "general-iec-62443-3-3-2013": [
-      "SR 4.2",
-      "SR 4.2 RE 1"
+    "general-govramp": [
+      "SC-02"
     ],
-    "general-iec-62443-4-2-2019": [
-      "CR 4.2"
+    "general-govramp-core": [
+      "SC-02"
+    ],
+    "general-govramp-low-plus": [
+      "SC-02"
+    ],
+    "general-govramp-mod": [
+      "SC-02"
+    ],
+    "general-govramp-high": [
+      "SC-02"
+    ],
+    "general-iec-62443-3-3-2013": [
+      "SR 5.4"
     ],
     "general-mitre-att_ck-16-1": [
-      "T1505",
-      "T1505.001",
-      "T1505.002",
-      "T1505.004",
-      "T1546.003",
-      "T1547.004",
-      "T1547.006"
+      "T1068",
+      "T1189",
+      "T1190",
+      "T1203",
+      "T1210",
+      "T1211",
+      "T1212",
+      "T1611"
     ],
     "general-nist-800-53-r4": [
-      "SI-14"
+      "SC-2",
+      "SC-2(1)"
     ],
     "general-nist-800-53-r5-2": [
-      "SI-14"
+      "SC-02",
+      "SC-02(01)"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "SC-02"
+    ],
+    "general-nist-800-53-r5-2-high": [
+      "SC-02"
     ],
     "general-nist-800-82-r3": [
-      "SI-14"
+      "SC-02",
+      "SC-02(01)"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SC-02"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SC-02"
     ],
     "general-nist-800-160-vol-2-r1": [
-      "SI-14"
+      "SC-02",
+      "SC-02(01)"
     ],
-    "general-nist-800-172-r3": [
-      "03.14.15E"
+    "general-nist-800-171-r2": [
+      "3.13.3"
     ],
-    "general-nist-800-172a-r3": [
-      "DS-A.03.14.15E.a",
-      "DS-A.03.14.15E.b",
-      "DS-A.03.14.15E.c",
-      "A.03.14.15E.ODP[02]"
+    "general-nist-800-171a": [
+      "3.13.3[a]",
+      "3.13.3[b]",
+      "3.13.3[c]"
     ],
     "general-owasp-top-10-2025": [
       "A01:2025",
       "A05:2025"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SC-2"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "SCL2.-3.13.3"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SC-2"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SC-02"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SC-02"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SC-2",
+      "SC-2(CE-1)"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SC-02"
     ]
   }
 }

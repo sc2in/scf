@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IAC-53",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-53",
+      "ao_id": "IAC-53_A01",
+      "objective": "credentials for Control Assurance Automation (CAA) automated identities are stored centrally in a password management tool (e.g., secrets manager or vault).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-53",
+      "ao_id": "IAC-53_A02",
+      "objective": "access to the password management tool holding Control Assurance Automation (CAA) automated identity credentials is restricted to authorized identities and is logged.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-53",
+      "ao_id": "IAC-53_A03",
+      "objective": "Control Assurance Automation (CAA) automated identity credentials are not hardcoded in source code, scripts, pipeline definitions, container images or configuration files.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-53",
+      "ao_id": "IAC-53_A04",
+      "objective": "automated scanning detects hardcoded credentials in Control Assurance Automation (CAA) code repositories, pipeline definitions and configuration files, and detected instances are remediated.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

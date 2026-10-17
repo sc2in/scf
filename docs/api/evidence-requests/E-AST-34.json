@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-AST-34",
+  "area": "Asset Management",
+  "artifact_name": "Asset Discovery Results",
+  "artifact_description": "Documented evidence of automated asset discovery results reconciled against the asset inventory (e.g., unknown / unauthorized assets identified).",
+  "scf_controls": [
+    "AST-09",
+    "AST-09.2",
+    "AST-11"
+  ],
+  "cmmc_mapping": ""
+}

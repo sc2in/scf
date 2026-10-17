@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-33.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-33.1",
+      "ao_id": "AAT-33.1_A01",
+      "objective": "roles and responsibilities exist to compel data and/or process owners to collect, consider, prioritize and integrate risk-related feedback, per an organization-defined frequency, from those external to the team that developed or deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-33.1",
+      "ao_id": "AAT-33.1_A02",
+      "objective": "Individual Contributor (IC) performance reviews cover how data and/or process owners collected, considered, prioritized and integrated risk-related feedback on Artificial Intelligence (AI) and Autonomous Technologies (AAT) per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

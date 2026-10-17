@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-13.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-13.2",
+      "ao_id": "AAT-13.2_A01",
+      "objective": "actions to fine-tune Artificial Intelligence (AI) and Autonomous Technologies (AAT) that do not compromise existing security, compliance and resilience controls are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-13.2",
+      "ao_id": "AAT-13.2_A02",
+      "objective": "actions to fine-tune Artificial Intelligence (AI) and Autonomous Technologies (AAT) do not compromise existing security, compliance and resilience controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}
