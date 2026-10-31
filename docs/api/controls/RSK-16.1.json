@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "RSK-06.3"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "general-iso-21434-2021": [

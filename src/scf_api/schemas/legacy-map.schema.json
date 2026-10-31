@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SCF legacy id map (scf-legacy-map.json): previous-release control id -> current id",
+  "type": "object",
+  "required": ["from_version", "to_version", "map"],
+  "additionalProperties": false,
+  "properties": {
+    "from_version": {"type": ["string", "null"], "pattern": "^[0-9]+(\\.[0-9]+)+$"},
+    "to_version": {"type": "string", "pattern": "^[0-9]+(\\.[0-9]+)+$"},
+    "map": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["new", "merged", "deprecated"],
+        "additionalProperties": false,
+        "properties": {
+          "new": {"type": "string", "minLength": 1},
+          "merged": {"type": "boolean"},
+          "deprecated": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

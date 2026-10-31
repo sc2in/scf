@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "CPL-01.1"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

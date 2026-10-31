@@ -188,6 +188,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "RSK-01.5"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

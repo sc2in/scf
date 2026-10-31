@@ -175,6 +175,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "VPM-06.9"
+  ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
     "general-govramp": [

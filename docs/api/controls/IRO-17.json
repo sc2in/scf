@@ -182,6 +182,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "IRO-09.3"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "usa-federal-doe-c2m2-2-1": [

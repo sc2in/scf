@@ -191,6 +191,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

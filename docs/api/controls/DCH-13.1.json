@@ -197,6 +197,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "BCD-02.4"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

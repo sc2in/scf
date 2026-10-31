@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SEA-01.4"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "general-cobit-2019": [

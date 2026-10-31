@@ -30,13 +30,28 @@ GROUND_TRUTH = {
 }
 
 
+# version -> (previous release, legacy old ids, merged old ids, deprecated old
+#             ids, controls with Legacy SCF # = NONE). None: no Legacy SCF # column.
+LEGACY_GROUND_TRUTH = {
+    "2026.1.1": None,
+    "2026.2": None,
+    # 1,534 old ids = exactly the 2026.2 control set; 22 merge cells (21 two-id,
+    # 1 three-id); the 23 READ THIS deprecations all sit inside merge cells.
+    "2026.3": ("2026.2", 1534, 45, 23, 80),
+}
+
+
 @pytest.fixture(scope="module")
 def real_result():
     from scf_api.cli import infer_version
-    from scf_api.parse import parse_workbook
+    from scf_api.parse import PreviousRelease, parse_workbook
 
     version = os.environ.get("SCF_VERSION") or infer_version(os.path.basename(WORKBOOK))
-    return parse_workbook(WORKBOOK, version)
+    truth = LEGACY_GROUND_TRUTH.get(version)
+    # Only the previous version is known here, not its control set: the gate
+    # then checks the old-id count against RELEASE_CONTROL_COUNTS.
+    previous = PreviousRelease(truth[0]) if truth else None
+    return parse_workbook(WORKBOOK, version, previous=previous)
 
 
 def test_counts(real_result):
@@ -89,3 +104,28 @@ def test_known_workbook_typo_is_caught(real_result):
     assert any(
         f.check == "control-erl" and f.owner == "MON-03.3" and f.value == "MON-03.2" for f in fails
     )
+
+
+def test_legacy_map(real_result):
+    from scf_api.parse import LEGACY_MAP_FILE
+    from scf_api.validate import validate_result
+
+    if real_result.version not in LEGACY_GROUND_TRUTH:
+        pytest.skip(f"no recorded legacy ground truth for SCF {real_result.version}")
+    truth = LEGACY_GROUND_TRUTH[real_result.version]
+    controls = real_result.catalog["controls"]
+    if truth is None:
+        assert LEGACY_MAP_FILE not in real_result.files
+        assert all("legacy_ids" not in c for c in controls)
+        return
+    from_version, olds, merged, deprecated, none = truth
+    legacy = real_result.files[LEGACY_MAP_FILE]
+    assert (legacy["from_version"], legacy["to_version"]) == (from_version, real_result.version)
+    mapping = legacy["map"]
+    assert len(mapping) == olds
+    assert sum(e["merged"] for e in mapping.values()) == merged
+    assert sum(e["deprecated"] for e in mapping.values()) == deprecated
+    assert all(e["merged"] for e in mapping.values() if e["deprecated"])
+    assert sum(1 for c in controls if c["legacy_ids"] == []) == none
+    outcome = validate_result(real_result, [])
+    assert not [f for f in outcome.findings if f.check.startswith("legacy")]

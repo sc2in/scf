@@ -204,6 +204,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "END-04.7"
+  ],
   "family_name": "Endpoint Security",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

@@ -183,6 +183,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "WEB-07"
+  ],
   "family_name": "Web Security",
   "crosswalks": {
     "general-cis-csc-8-1": [

@@ -199,6 +199,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-10"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

@@ -189,6 +189,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Capacity & Performance Planning",
   "crosswalks": {
     "emea-deu-c5-2026": [

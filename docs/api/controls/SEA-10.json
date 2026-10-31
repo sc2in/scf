@@ -179,6 +179,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SEA-04.1"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "general-govramp": [

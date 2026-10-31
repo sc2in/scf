@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "TDA-11.1"
+  ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "general-nist-800-53-r4": [

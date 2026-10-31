@@ -213,6 +213,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-01"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

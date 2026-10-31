@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "DCH-25.1"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-nist-800-207": [

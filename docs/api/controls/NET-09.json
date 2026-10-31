@@ -201,6 +201,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-06.8"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "emea-deu-c5-2026": [

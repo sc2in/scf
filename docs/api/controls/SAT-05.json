@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SAT-03"
+  ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

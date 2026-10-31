@@ -206,6 +206,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "DCH-03"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

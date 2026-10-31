@@ -190,6 +190,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -429,6 +430,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "VPM-01"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1147,6 +1151,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-01.1"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1509,6 +1516,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-03.1"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1737,6 +1747,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-03"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2079,6 +2092,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-02"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2647,6 +2663,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-05.1"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -2986,6 +3005,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-04"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3338,6 +3360,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-02.1"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "usa-federal-dow-brilliant-basics-it": [
@@ -3533,6 +3558,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-05.3"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-govramp": [
@@ -3786,6 +3814,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-05"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4506,6 +4537,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-05.4"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -4758,6 +4792,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-05.8"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-iec-62443-2-1-2024": [
@@ -4972,6 +5009,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-05.2"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -5231,6 +5271,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "VPM-04.3"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-iec-62443-2-1-2024": [
@@ -5448,6 +5491,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-05.6"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -5676,6 +5722,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-05.7"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "emea-eu-dora-rts-2024": [
@@ -5890,6 +5939,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-06"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6600,6 +6652,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "VPM-06.1"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -6955,6 +7010,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "VPM-06.2"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -7225,6 +7283,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "VPM-06.3"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -7485,6 +7546,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-09"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {}
     },
@@ -7673,6 +7737,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "VPM-06.4"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-govramp": [
@@ -7898,6 +7965,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-06.5"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-govramp": [
@@ -8117,6 +8187,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "VPM-06.6"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -8359,6 +8432,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "VPM-06.7"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -8580,6 +8656,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-06.8"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-govramp": [
@@ -8815,6 +8894,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-06.9"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-govramp": [
@@ -9027,6 +9109,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-07"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -9494,6 +9579,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-07.1"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -9784,6 +9872,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-08"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -9989,6 +10080,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "VPM-10"
+      ],
       "family_name": "Vulnerability & Patch Management",
       "crosswalks": {
         "general-cr-cmm-2026": [

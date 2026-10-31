@@ -208,6 +208,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PES-07.3"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

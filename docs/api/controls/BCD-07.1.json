@@ -197,6 +197,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "BCD-06.1"
+  ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
     "general-cobit-2019": [

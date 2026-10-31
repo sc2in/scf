@@ -199,6 +199,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old DCH-21",
+  "legacy_ids": [
+    "DCH-08",
+    "DCH-21"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

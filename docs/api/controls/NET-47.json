@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "CLD-12"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-csa-iot-2": [

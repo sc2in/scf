@@ -188,6 +188,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "THR-11"
+  ],
   "family_name": "Threat Management",
   "crosswalks": {
     "general-coso-2013": [

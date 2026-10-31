@@ -193,6 +193,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-10.2"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-govramp": [

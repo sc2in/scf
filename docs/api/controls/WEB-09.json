@@ -188,6 +188,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "WEB-10"
+  ],
   "family_name": "Web Security",
   "crosswalks": {
     "general-pci-dss-4-0-1": [

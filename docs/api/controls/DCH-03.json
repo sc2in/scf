@@ -197,6 +197,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "GOV-10"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

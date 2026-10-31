@@ -199,6 +199,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old BCD-07",
+  "legacy_ids": [
+    "BCD-07",
+    "RSK-06.2"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

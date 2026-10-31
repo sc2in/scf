@@ -173,6 +173,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-05.2"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "general-govramp": [

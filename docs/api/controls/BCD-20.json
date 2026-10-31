@@ -206,6 +206,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "BCD-15"
+  ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
     "usa-federal-doe-c2m2-2-1": [

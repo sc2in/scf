@@ -209,6 +209,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -434,6 +435,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-01"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -713,6 +717,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-03.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -918,6 +925,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-01.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -1146,6 +1156,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-03"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -1383,6 +1396,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-01.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -1612,6 +1628,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-08"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -1847,6 +1866,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-01.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -2056,6 +2078,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-07.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -2285,6 +2310,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-02"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -2519,6 +2547,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-01.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -2730,6 +2761,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-01.5"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -2943,6 +2977,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-02.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -3173,6 +3210,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-02.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -3385,6 +3425,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-07.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -3623,6 +3666,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-09"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -3860,6 +3906,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-02.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -4083,6 +4132,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-07"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -4324,6 +4376,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-07.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -4558,6 +4613,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-09.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -4788,6 +4846,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-02.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -4991,6 +5052,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-17.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -5209,6 +5273,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-18.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -5437,6 +5504,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-18"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -5649,6 +5719,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-17.5"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -5862,6 +5935,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-15.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -6080,6 +6156,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-04"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -6294,6 +6373,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-04.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -6497,6 +6579,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-04.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -6705,6 +6790,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-04.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -6913,6 +7001,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-04.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -7122,6 +7213,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-03.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "usa-state-tx-traiga-2025": [
@@ -7323,6 +7417,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-23"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -7534,6 +7631,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-33"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -7729,6 +7829,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-27"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -7933,6 +8036,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-27.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -8134,6 +8240,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-12"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -8359,6 +8468,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-12.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -8601,6 +8713,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-12.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -8811,6 +8926,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-12.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -9014,6 +9132,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-12.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -9211,6 +9332,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-12.5"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -9411,6 +9535,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-12.6"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -9625,6 +9752,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-17"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -9841,6 +9971,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-17.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -10040,6 +10173,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-17.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -10257,6 +10393,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-17.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -10489,6 +10628,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-19"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -10692,6 +10834,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-19.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "usa-state-tx-traiga-2025": [
@@ -10896,6 +11041,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-19.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -11097,6 +11245,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-19.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "usa-state-tx-traiga-2025": [
@@ -11301,6 +11452,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-19.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "usa-state-tx-traiga-2025": [
@@ -11507,6 +11661,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-19.5"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -11709,6 +11866,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-19.6"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "usa-state-tx-traiga-2025": [
@@ -11912,6 +12072,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-19.7"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -12113,6 +12276,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-19.8"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -12327,6 +12493,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-14"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -12543,6 +12712,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-06"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -12759,6 +12931,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-14.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -12985,6 +13160,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-20"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -13195,6 +13373,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-20.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -13411,6 +13592,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-20.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -13635,6 +13819,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-20.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -13833,6 +14020,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-14.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -14037,6 +14227,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-24"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -14250,6 +14443,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-26"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -14467,6 +14663,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-26.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -14670,6 +14869,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-26.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -14874,6 +15076,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-26.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -15074,6 +15279,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-26.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -15296,6 +15504,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -15572,6 +15783,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -15791,6 +16005,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -16002,6 +16219,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -16213,6 +16433,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-10.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -16434,6 +16657,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.5"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -16648,6 +16874,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.6"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -16860,6 +17089,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.7"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -17068,6 +17300,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.8"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -17292,6 +17527,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.9"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -17503,6 +17741,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-10.12"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -17716,6 +17957,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.16"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -17926,6 +18170,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.17"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -18126,6 +18373,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.18"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -18353,6 +18603,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.19"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -18549,6 +18802,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.10"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -18749,6 +19005,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.11"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -18951,6 +19210,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.15"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -19155,6 +19417,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-15.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -19366,6 +19631,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-15"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -19585,6 +19853,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-10.13"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -19810,6 +20081,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-10.14"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -20017,6 +20291,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-11"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -20261,6 +20538,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-11.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -20474,6 +20754,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-11.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -20690,6 +20973,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-11.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -20917,6 +21203,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-11.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -21123,6 +21412,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-13"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -21327,6 +21619,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-13.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -21549,6 +21844,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-22"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -21757,6 +22055,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-22.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -21961,6 +22262,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-22.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -22160,6 +22464,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-22.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -22359,6 +22666,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-22.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -22555,6 +22865,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-22.5"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -22761,6 +23074,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-22.6"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -22950,6 +23266,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-22.7"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -23150,6 +23469,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-22.8"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -23388,6 +23710,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -23613,6 +23938,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -23814,6 +24142,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-16.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -24020,6 +24351,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-16.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -24221,6 +24555,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -24422,6 +24759,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.5"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -24630,6 +24970,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.6"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -24850,6 +25193,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.7"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -25063,6 +25409,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.8"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -25278,6 +25627,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.9"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -25496,6 +25848,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.10"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -25708,6 +26063,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.11"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -25925,6 +26283,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.12"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -26136,6 +26497,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.13"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -26338,6 +26702,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-16.14"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -26535,6 +26902,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-25"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -26737,6 +27107,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-25.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -26946,6 +27319,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-28"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -27143,6 +27519,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-28.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -27343,6 +27722,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-28.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -27537,6 +27919,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-28.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -27745,6 +28130,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-29"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -27944,6 +28332,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-29.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -28149,6 +28540,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-29.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -28362,6 +28756,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.3"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -28562,6 +28959,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.4"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -28767,6 +29167,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.5"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -28968,6 +29371,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.6"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -29169,6 +29575,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.7"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -29366,6 +29775,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.8"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -29563,6 +29975,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-29.9"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -29761,6 +30176,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-29.10"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -29963,6 +30381,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-29.11"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -30161,6 +30582,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.12"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -30369,6 +30793,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.13"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -30570,6 +30997,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.14"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [
@@ -30771,6 +31201,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.15"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -30965,6 +31398,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-29.16"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -31161,6 +31597,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.17"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -31357,6 +31796,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.18"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -31561,6 +32003,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-29.19"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -31759,6 +32204,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.20"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -31953,6 +32401,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.21"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -32147,6 +32598,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.22"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -32345,6 +32799,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.23"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -32531,6 +32988,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-29.24"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -32735,6 +33195,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-30"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -32936,6 +33399,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-30.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -33125,6 +33591,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AAT-30.2"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "emea-sau-otcc-1-2022": [
@@ -33323,6 +33792,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-31"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {}
     },
@@ -33511,6 +33983,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-32"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -33702,6 +34177,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AAT-32.1"
+      ],
       "family_name": "Artificial Intelligence & Autonomous Technologies",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [

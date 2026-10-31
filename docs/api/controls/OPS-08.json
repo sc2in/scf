@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "OPS-06"
+  ],
   "family_name": "Security Operations",
   "crosswalks": {
     "usa-federal-dhs-cisa-tic-3-0": [

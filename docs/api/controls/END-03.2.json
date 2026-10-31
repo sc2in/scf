@@ -186,6 +186,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old END-08.2",
+  "legacy_ids": [
+    "END-04.1",
+    "END-08.2"
+  ],
   "family_name": "Endpoint Security",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

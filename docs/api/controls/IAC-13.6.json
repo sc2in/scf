@@ -182,6 +182,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-09.5"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

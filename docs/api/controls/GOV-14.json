@@ -203,6 +203,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "GOV-13"
+  ],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "apac-chn-cybersecurity-law-2017": [

@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "EMB-15"
+  ],
   "family_name": "Embedded Technology",
   "crosswalks": {
     "general-csa-iot-2": [

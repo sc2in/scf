@@ -192,6 +192,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-02.1"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "general-csa-iot-2": [

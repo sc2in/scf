@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-14.1"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-nist-800-53-r4": [

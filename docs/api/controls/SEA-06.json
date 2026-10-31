@@ -194,6 +194,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old NET-02",
+  "legacy_ids": [
+    "NET-02",
+    "SEA-03"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

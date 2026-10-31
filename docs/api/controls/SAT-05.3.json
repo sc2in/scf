@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "AAT-05"
+  ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "general-iso-42001-2023": [

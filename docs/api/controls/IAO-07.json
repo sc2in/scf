@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAO-02.3"
+  ],
   "family_name": "Information Assurance",
   "crosswalks": {
     "general-govramp": [

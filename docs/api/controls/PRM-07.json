@@ -197,6 +197,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "PRM-07"
+  ],
   "family_name": "Project & Resource Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

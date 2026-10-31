@@ -179,6 +179,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-09.2"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "emea-eu-dora-rts-2024": [

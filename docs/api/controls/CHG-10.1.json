@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CHG-07.1"
+  ],
   "family_name": "Change Management",
   "crosswalks": {
     "emea-eu-dora-rts-2024": [

@@ -192,6 +192,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "GOV-15.3"
+  ],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

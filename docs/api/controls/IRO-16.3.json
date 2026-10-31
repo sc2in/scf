@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-10.5"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "usa-federal-law-33-cfr-part-101-subpart-f": [

@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PRI-03.3"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-scf-dpmp-2026": [

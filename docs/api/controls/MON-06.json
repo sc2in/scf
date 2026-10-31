@@ -204,6 +204,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "MON-06"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

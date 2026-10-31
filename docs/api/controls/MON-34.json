@@ -190,6 +190,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-09"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-govramp": [

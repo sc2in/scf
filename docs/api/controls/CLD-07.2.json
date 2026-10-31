@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CLD-06.3"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "general-pci-dss-4-0-1": [

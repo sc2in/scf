@@ -193,6 +193,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-10.11"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

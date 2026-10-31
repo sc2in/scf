@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-15"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "general-cis-csc-8-1": [

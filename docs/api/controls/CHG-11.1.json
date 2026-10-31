@@ -183,6 +183,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "CHG-02.4"
+  ],
   "family_name": "Change Management",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

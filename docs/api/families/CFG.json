@@ -193,6 +193,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -484,6 +485,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-01"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1010,6 +1014,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed",
+      "legacy_ids": [
+        "CFG-03"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1771,6 +1778,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CFG-02.9"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -2098,6 +2108,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CFG-02.4"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -2370,6 +2383,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CFG-02"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4157,6 +4173,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "IAC-22"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -4556,6 +4575,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "IAC-23"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -4799,6 +4821,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "IAC-24"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -5144,6 +5169,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "IAC-24.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -5396,6 +5424,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "IAC-25"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -5733,6 +5764,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "IAC-25.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -5942,6 +5976,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "CRY-06"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -6180,6 +6217,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "CRY-07"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -6560,6 +6600,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-14.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -6758,6 +6801,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-14.2"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-shared-assessments-sig-2025": [
@@ -6950,6 +6996,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-22"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-shared-assessments-sig-2025": [
@@ -7142,6 +7191,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-23"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "usa-federal-irs-1075-2021": [
@@ -7354,6 +7406,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-29"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "apac-nzl-ism-3-9": [
@@ -7569,6 +7624,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-29.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "apac-nzl-ism-3-9": [
@@ -7769,6 +7827,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-11"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -7970,6 +8031,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-20"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-shared-assessments-sig-2025": [
@@ -8178,6 +8242,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-21"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "usa-federal-cms-marse-2-0": [
@@ -8412,6 +8479,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "NET-15.2"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -8684,6 +8754,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CFG-02.5"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -9178,6 +9251,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-12"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -9429,6 +9505,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old AST-02.4",
+      "legacy_ids": [
+        "AST-02.4",
+        "CFG-02.7"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9792,6 +9872,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "CFG-02.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10229,6 +10312,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "CFG-02.2"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10621,6 +10707,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "CFG-03.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -10991,6 +11080,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CFG-02.8"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -11274,6 +11366,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old CFG-06",
+      "legacy_ids": [
+        "CFG-06",
+        "CFG-06.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -11567,6 +11663,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CFG-02.3"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -11830,6 +11929,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-02.6"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -12040,6 +12142,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-04"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -12339,6 +12444,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old CFG-05",
+      "legacy_ids": [
+        "CFG-05",
+        "CFG-05.2"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12726,6 +12835,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "CFG-01.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -12964,6 +13076,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-04.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -13214,6 +13329,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old SEA-06",
+      "legacy_ids": [
+        "CFG-03.2",
+        "SEA-06"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -13532,6 +13651,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-03.3"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -13949,6 +14071,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-04.2"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14160,6 +14285,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-07"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -14366,6 +14494,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-09"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -14568,6 +14699,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-09.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "emea-eu-dora-rts-2024": [
@@ -14769,6 +14903,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-09.2"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -14977,6 +15114,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CFG-09.3"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "emea-sau-ecc-1-2018": [
@@ -15171,6 +15311,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-13"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -15364,6 +15507,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-13.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -15557,6 +15703,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-13.2"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -15754,6 +15903,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-13.3"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-iec-tr-60601-4-5-2021": [
@@ -15981,6 +16133,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-13.4"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -16186,6 +16341,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "SEA-08.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -16405,6 +16563,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-15"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "apac-mys-bnm-rmit-2025": [
@@ -16601,6 +16762,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-16"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -16861,6 +17025,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "END-16.1"
+      ],
       "family_name": "Configuration Management",
       "crosswalks": {
         "general-govramp": [
@@ -17113,6 +17280,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Configuration Management",
       "crosswalks": {}
     },
@@ -17310,6 +17478,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Configuration Management",
       "crosswalks": {}
     },
@@ -17507,6 +17676,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Configuration Management",
       "crosswalks": {}
     }

@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-29.2"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "usa-federal-dow-zt-roadmap-1-1": [

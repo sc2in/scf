@@ -195,6 +195,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -534,6 +535,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-01"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1145,6 +1149,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-01.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-tisax-6-0-3": [
@@ -1382,6 +1389,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-01.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-tisax-6-0-3": [
@@ -1600,6 +1610,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-11"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1910,6 +1923,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-02"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2436,6 +2452,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-02.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2813,6 +2832,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PES-02.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "usa-federal-doe-c2m2-2-1": [
@@ -3035,6 +3057,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-03"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3610,6 +3635,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PES-19"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "emea-gbr-def-stan-05-138-2024": [
@@ -3853,6 +3881,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-03.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-cobit-2019": [
@@ -4155,6 +4186,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-03.3"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4557,6 +4591,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "PES-04.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -4789,6 +4826,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-04"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -5193,6 +5233,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-04.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -5514,6 +5557,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-18"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-tisax-6-0-3": [
@@ -5754,6 +5800,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-03.4"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -6097,6 +6146,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-03.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -6371,6 +6423,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-05"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6829,6 +6884,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-05.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -7197,6 +7255,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-05.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -7511,6 +7572,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-06"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -7866,6 +7930,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-06.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-nist-800-171-r2": [
@@ -8132,6 +8199,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-06.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -8401,6 +8471,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-06.3"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -8681,6 +8754,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-06.4"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-govramp": [
@@ -8900,6 +8976,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-06.5"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -9157,6 +9236,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-06.6"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9400,6 +9482,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-10"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9737,6 +9822,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PES-04.3"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {}
     },
@@ -9950,6 +10038,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-12"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10352,6 +10443,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-12.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -10829,6 +10923,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-12.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11128,6 +11225,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-16"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -11360,6 +11460,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-14"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -11597,6 +11700,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-07"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -11934,6 +12040,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-07.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -12187,6 +12296,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-07.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -12479,6 +12591,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-07.3"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -12794,6 +12909,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-07.4"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -13096,6 +13214,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-07.5"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -13401,6 +13522,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-07.6"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-cobit-2019": [
@@ -13627,6 +13751,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-07.7"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -13859,6 +13986,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-08"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14180,6 +14310,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-08.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14445,6 +14578,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-08.2"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14702,6 +14838,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-08.3"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-cobit-2019": [
@@ -14951,6 +15090,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "PES-09"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -15273,6 +15415,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "PES-09.1"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -15515,6 +15660,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-13"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -15743,6 +15891,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PES-15"
+      ],
       "family_name": "Physical & Environmental Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [

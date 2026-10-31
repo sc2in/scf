@@ -179,6 +179,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old END-09",
+  "legacy_ids": [
+    "END-09",
+    "SEA-17"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "general-iso-27002-2022": [

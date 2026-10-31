@@ -189,6 +189,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old SEA-09.1",
+  "legacy_ids": [
+    "PRI-01.7",
+    "SEA-09.1"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

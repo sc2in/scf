@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-05.9"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

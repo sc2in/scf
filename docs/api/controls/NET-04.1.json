@@ -208,6 +208,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed",
+  "legacy_ids": [
+    "NET-04.1"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

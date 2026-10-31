@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "BCD-12.3"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "usa-federal-dhs-cisa-tic-3-0": [

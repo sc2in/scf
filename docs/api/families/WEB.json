@@ -193,6 +193,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Web Security",
       "crosswalks": {
         "emea-sau-ecc-1-2018": [
@@ -404,6 +405,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-01"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -670,6 +674,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-07"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -892,6 +899,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-08"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -1102,6 +1112,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "WEB-01.1"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -1318,6 +1331,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-04"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-nist-800-171-r2": [
@@ -1565,6 +1581,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-06"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -1822,6 +1841,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "WEB-09"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -2024,6 +2046,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-10"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -2243,6 +2268,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "WEB-11"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -2432,6 +2460,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-12"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -2633,6 +2664,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-13"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -2844,6 +2878,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "WEB-14"
+      ],
       "family_name": "Web Security",
       "crosswalks": {
         "general-nist-800-171-r3": [

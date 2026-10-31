@@ -192,6 +192,10 @@
     "MT-31": "Possible"
   },
   "errata": "- merged old PRI-05.3",
+  "legacy_ids": [
+    "DCH-23",
+    "PRI-05.3"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

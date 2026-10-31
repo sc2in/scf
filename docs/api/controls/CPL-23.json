@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "CPL-08"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "emea-che-fadp-2025": [

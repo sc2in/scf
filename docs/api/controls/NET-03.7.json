@@ -190,6 +190,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-18.5"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "usa-federal-dhs-cisa-tic-3-0": [

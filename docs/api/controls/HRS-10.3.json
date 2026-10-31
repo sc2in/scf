@@ -188,6 +188,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-07.3"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "usa-federal-dow-cmmc-2-level-3": [

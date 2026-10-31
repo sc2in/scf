@@ -177,6 +177,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "AST-20"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-shared-assessments-sig-2025": [

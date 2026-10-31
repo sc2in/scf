@@ -183,6 +183,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "IAC-25"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-govramp": [

@@ -186,6 +186,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "END-14.3"
+  ],
   "family_name": "Endpoint Security",
   "crosswalks": {
     "usa-federal-dhs-cisa-tic-3-0": [

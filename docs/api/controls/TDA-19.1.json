@@ -177,6 +177,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-13.1"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "apac-aus-ism-2026-june": [

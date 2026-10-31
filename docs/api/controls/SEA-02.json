@@ -192,6 +192,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "SEA-01.5"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "general-nist-800-37-r2": [

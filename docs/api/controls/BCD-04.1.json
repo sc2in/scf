@@ -210,6 +210,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "BCD-01.4"
+  ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

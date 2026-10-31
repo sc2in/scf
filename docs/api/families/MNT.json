@@ -201,6 +201,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -494,6 +495,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-01"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -901,6 +905,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-02"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -1293,6 +1300,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-03"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -1609,6 +1619,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-03.1"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -1845,6 +1858,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-03.2"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -2068,6 +2084,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-10"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -2286,6 +2305,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-11"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-161-r1": [
@@ -2499,6 +2521,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-04.3"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -2796,6 +2821,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-02.1"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -3025,6 +3053,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-03.3"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -3248,6 +3279,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-04"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -3557,6 +3591,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-04.1"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -3828,6 +3865,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-04.2"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -4109,6 +4149,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-04.4"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -4345,6 +4388,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-05"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -4719,6 +4765,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-05.2"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -5046,6 +5095,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-05.5"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -5277,6 +5329,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-05.4"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -5528,6 +5583,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-05.3"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -5790,6 +5848,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-05.1"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -6141,6 +6202,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-05.6"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -6370,6 +6434,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-05.7"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -6588,6 +6655,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-06"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -6917,6 +6987,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-06.1"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-govramp": [
@@ -7210,6 +7283,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-06.2"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -7441,6 +7517,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-07"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -7693,6 +7772,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-08"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -7931,6 +8013,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MNT-09"
+      ],
       "family_name": "Maintenance",
       "crosswalks": {
         "general-nist-800-171-r3": [

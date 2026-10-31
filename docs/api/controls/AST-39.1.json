@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "TDA-17.1"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-cr-cmm-2026": [

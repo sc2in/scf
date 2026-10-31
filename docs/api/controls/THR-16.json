@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "THR-05"
+  ],
   "family_name": "Threat Management",
   "crosswalks": {
     "general-govramp": [

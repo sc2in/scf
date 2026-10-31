@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "RSK-10"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

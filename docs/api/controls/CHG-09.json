@@ -197,6 +197,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CHG-06"
+  ],
   "family_name": "Change Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

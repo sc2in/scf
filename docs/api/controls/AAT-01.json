@@ -204,6 +204,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Artificial Intelligence & Autonomous Technologies",
   "crosswalks": {
     "apac-aus-ism-2026-june": [

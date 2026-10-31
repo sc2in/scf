@@ -191,6 +191,9 @@
     "MT-31": "Likely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "CRY-03"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

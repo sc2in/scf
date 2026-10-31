@@ -198,6 +198,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "BCD-09.3"
+  ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

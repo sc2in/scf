@@ -182,6 +182,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "QTS-05"
+  ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {}
 }

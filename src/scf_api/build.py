@@ -43,6 +43,9 @@ def build_docs(data_dir: Path, out_dir: Path) -> dict:
     privacy = jsonio.read(data_dir / "scf-privacy-principles.json")
     risks = jsonio.read(data_dir / "scf-risks.json")
     threats = jsonio.read(data_dir / "scf-threats.json")
+    # Only releases whose workbook has a Legacy SCF # column (2026.3+).
+    legacy_path = data_dir / "scf-legacy-map.json"
+    legacy = jsonio.read(legacy_path) if legacy_path.exists() else None
 
     if out_dir.exists():
         shutil.rmtree(out_dir)
@@ -163,6 +166,10 @@ def build_docs(data_dir: Path, out_dir: Path) -> dict:
     for t in threats["threats"]:
         jsonio.write(api / "threats" / f"{t['threat_id']}.json", t)
 
+    # legacy id map (mirrors the data file byte-for-byte)
+    if legacy is not None:
+        jsonio.write(api / "legacy-map.json", legacy)
+
     # summary
     weight_distribution: dict[str, int] = {}
     for c in controls:
@@ -186,7 +193,7 @@ def build_docs(data_dir: Path, out_dir: Path) -> dict:
     }
     jsonio.write(api / "summary.json", summary)
 
-    _write_static_pages(out_dir, summary)
+    _write_static_pages(out_dir, summary, legacy)
     return summary
 
 
@@ -195,7 +202,7 @@ def build_docs(data_dir: Path, out_dir: Path) -> dict:
 # ---------------------------------------------------------------------------
 
 
-def _write_static_pages(out_dir: Path, s: dict) -> None:
+def _write_static_pages(out_dir: Path, s: dict, legacy: dict | None = None) -> None:
     version = s["scf_version"]
     stats = (
         f"{s['total_controls']} controls, {s['total_families']} families, "
@@ -217,6 +224,14 @@ def _write_static_pages(out_dir: Path, s: dict) -> None:
         ("compensating-controls", "compensating-controls.json", "Compensating control guidance."),
         ("privacy-principles", "privacy-principles.json", "Data privacy management principles."),
     ]
+    if legacy is not None:
+        endpoints.append(
+            (
+                "legacy-map",
+                "legacy-map.json",
+                f"Old→new control ids, SCF {legacy['from_version']} → {legacy['to_version']}.",
+            )
+        )
     details = [
         ("api/controls/{ID}.json", "single control (e.g., GOV-01)"),
         ("api/families/{CODE}.json", "family detail (e.g., GOV)"),

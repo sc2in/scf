@@ -189,6 +189,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-cobit-2019": [
@@ -411,6 +412,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-01.1"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-bsi-200-1-1-0": [
@@ -762,6 +766,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-01.2"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -992,6 +999,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-01"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1482,6 +1492,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-11"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-cobit-2019": [
@@ -1713,6 +1726,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PRM-02"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2103,6 +2119,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-01.3"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2381,6 +2400,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-02.1"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-cobit-2019": [
@@ -2636,6 +2658,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-03"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3087,6 +3112,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "PRM-07"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3626,6 +3654,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-04"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4144,6 +4175,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "emea-eu-dora-rts-2024": [
@@ -4367,6 +4399,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-05"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4888,6 +4923,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-06"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5340,6 +5378,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRM-08"
+      ],
       "family_name": "Project & Resource Management",
       "crosswalks": {
         "general-cobit-2019": [

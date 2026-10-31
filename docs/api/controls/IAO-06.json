@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAO-02.1"
+  ],
   "family_name": "Information Assurance",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

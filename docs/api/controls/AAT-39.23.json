@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "AAT-29.23"
+  ],
   "family_name": "Artificial Intelligence & Autonomous Technologies",
   "crosswalks": {}
 }

@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-28"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-mitre-att_ck-16-1": [

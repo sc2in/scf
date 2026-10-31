@@ -184,6 +184,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "QTS-02.1"
+  ],
   "family_name": "Quantum Security",
   "crosswalks": {}
 }

@@ -204,6 +204,9 @@
     "MT-31": "Possible"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "BCD-11.3"
+  ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AST-02.3"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

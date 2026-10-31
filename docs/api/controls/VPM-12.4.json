@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "VPM-09"
+  ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {}
 }

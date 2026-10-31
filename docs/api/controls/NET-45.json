@@ -184,6 +184,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "CRY-01.4"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-nist-800-53-r4": [

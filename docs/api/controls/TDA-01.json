@@ -197,6 +197,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-govramp": [

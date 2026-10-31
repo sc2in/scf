@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "AST-14"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-mitre-att_ck-16-1": [

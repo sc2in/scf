@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "CRY-08.1"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "general-govramp": [

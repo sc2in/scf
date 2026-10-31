@@ -198,6 +198,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "AST-02.5"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-cis-csc-8-1": [

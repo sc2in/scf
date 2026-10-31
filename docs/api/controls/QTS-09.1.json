@@ -178,6 +178,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "QTS-06.1"
+  ],
   "family_name": "Quantum Security",
   "crosswalks": {
     "emea-deu-c5-2026": [

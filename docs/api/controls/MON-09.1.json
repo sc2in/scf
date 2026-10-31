@@ -206,6 +206,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-03.2"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-naic-insurance-data-security-model-law-668-2017": [

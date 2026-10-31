@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-09.4"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-iso-27002-2022": [

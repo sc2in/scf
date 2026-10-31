@@ -182,6 +182,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CRY-05.3"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "usa-federal-ffiec-iteh-2016": [

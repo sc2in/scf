@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-01.10"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-owasp-top-10-2025": [

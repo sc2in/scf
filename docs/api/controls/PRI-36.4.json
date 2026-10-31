@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PRI-19.3"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "usa-state-ca-ccpa-cpra-2026": [

@@ -204,6 +204,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
     "apac-mys-bnm-rmit-2025": [

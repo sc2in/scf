@@ -192,6 +192,9 @@
     "MT-31": "Likely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "CRY-05"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

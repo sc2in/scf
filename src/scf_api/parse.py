@@ -13,7 +13,7 @@ from pathlib import Path
 
 from openpyxl.utils import get_column_letter
 
-from .normalize import split_multivalue
+from .normalize import norm_key, split_multivalue
 from .sources import (
     MAPPING_LEFT_MARKER,
     MAPPING_RIGHT_MARKER,
@@ -40,6 +40,11 @@ LICENSE_TEXT = "CC BY-ND (Attribution, No Derivatives)"
 LIKELIHOODS = ("Unlikely", "Possible", "Likely")
 APPLICABLE_LIKELIHOODS = frozenset({"Possible", "Likely"})
 
+# 2026.3 added a `Legacy SCF #` column (previous-release ids of each control).
+# `NONE` marks a new control; several ids (one per line) mark a merge.
+LEGACY_MAP_FILE = "scf-legacy-map.json"
+LEGACY_NONE = "none"
+
 
 @dataclass
 class Ref:
@@ -59,6 +64,18 @@ class IdOccurrence:
     cell: str
 
 
+@dataclass(frozen=True)
+class PreviousRelease:
+    """The release a workbook's `Legacy SCF #` ids refer to.
+
+    `control_ids` is that release's full control-id set when known; the
+    validation gate then requires the legacy map's old ids to equal it exactly.
+    """
+
+    version: str
+    control_ids: frozenset[str] | None = None
+
+
 @dataclass
 class ParseResult:
     version: str
@@ -68,6 +85,7 @@ class ParseResult:
     manifest: dict = field(default_factory=dict)  # sources reconciliation manifest
     workbook_sha256: str = ""
     findings: list[dict] = field(default_factory=list)  # sheet/col-resolve failures
+    previous: PreviousRelease | None = None  # what legacy ids refer to
 
     @property
     def dashed(self) -> str:
@@ -95,9 +113,10 @@ def parse_workbook(
     path: str | Path,
     version: str,
     aliases: ResolutionAliases | None = None,
+    previous: PreviousRelease | None = None,
 ) -> ParseResult:
     path = Path(path)
-    result = ParseResult(version=version, files={})
+    result = ParseResult(version=version, files={}, previous=previous)
     result.workbook_sha256 = hashlib.sha256(path.read_bytes()).hexdigest()
 
     with SCFWorkbook(str(path), aliases=aliases) as wb:
@@ -113,6 +132,9 @@ def parse_workbook(
             "controls": controls,
         }
         result.files["scf-crosswalks.json"] = xwalk
+        if any("legacy_ids" in c for c in controls):
+            deprecated = _parse_deprecated(wb, result)
+            result.files[LEGACY_MAP_FILE] = _legacy_map(controls, deprecated, result)
         result.files["scf-assessment-objectives.json"] = _parse_aos(wb, result)
         result.files["scf-compensating-controls.json"] = _parse_compensating(wb, result)
         result.files["scf-evidence-requests.json"] = _parse_evidence(wb, result)
@@ -212,6 +234,8 @@ def _parse_controls(wb: SCFWorkbook, result: ParseResult) -> tuple[list[dict], d
         risks_col = sheet.col(MAPPING_RIGHT_MARKER)
         threats_col = sheet.col("control threat summary")
     errata_col = sheet.find_col("errata")
+    # 2026.3+: previous-release ids. Absent before, so optional.
+    legacy_col = sheet.find_col("legacy scf #")
 
     # Crosswalk landmark slice: first AICPA column .. first risk column.
     left = next(
@@ -306,10 +330,137 @@ def _parse_controls(wb: SCFWorkbook, result: ParseResult) -> tuple[list[dict], d
             control["threat_likelihood"] = threat_likelihood
         if errata_col is not None and cell_text(row[errata_col]):
             control["errata"] = _text(row[errata_col])
+        if legacy_col is not None:
+            control["legacy_ids"] = legacy_ids(row[legacy_col])
         controls.append(control)
 
     xwalk = _parse_crosswalks(wb, result, sheet, rows, id_col, xwalk_cols)
     return controls, xwalk
+
+
+def legacy_ids(cell: object) -> list[str]:
+    """Parse one `Legacy SCF #` cell: `NONE` -> [], else the newline-split ids."""
+    return [v for v in split_multivalue(cell) if v.casefold() != LEGACY_NONE]
+
+
+def _parse_deprecated(wb: SCFWorkbook, result: ParseResult) -> dict[str, str]:
+    """READ THIS tab: deprecated old id -> the new id it merged into.
+
+    The tab carries two side-by-side tables that both have a `Legacy SCF #`
+    header; the deprecated one is the `Legacy SCF #` right of the
+    `Deprecated SCF Control Name` header.
+    """
+    if not wb.has_sheet("readme"):
+        result.findings.append(
+            {
+                "check": "legacy-deprecated",
+                "severity": "warn",
+                "message": "no READ THIS tab: no control is flagged deprecated in the legacy map",
+                "owner": "",
+                "value": "",
+            }
+        )
+        return {}
+    sheet = wb.catalog_sheet("readme", "deprecated scf control")
+    name_col = sheet.col("deprecated scf control")
+    old_col = next(
+        (
+            i
+            for i, h in enumerate(sheet.header)
+            if i > name_col and h and "legacy scf #" in norm_key(h)
+        ),
+        None,
+    )
+    if old_col is None:
+        raise ColumnResolveError(
+            f"no 'legacy scf #' column right of {sheet.header[name_col]!r} in {sheet.title!r}",
+            sheet_title=sheet.title,
+            patterns=("legacy scf #",),
+            header=sheet.header,
+        )
+    new_col = sheet.col("merged into")
+
+    deprecated: dict[str, str] = {}
+    for i, row in enumerate(sheet.rows):
+        old = cell_text(row[old_col]) if old_col < len(row) else None
+        if not old or not old.strip():
+            continue
+        new = _text(row[new_col]).strip() if new_col < len(row) else ""
+        old = old.strip()
+        if old in deprecated and deprecated[old] != new:
+            result.findings.append(
+                {
+                    "check": "legacy-deprecated",
+                    "severity": "fail",
+                    "message": (
+                        f"deprecated {old!r} listed as merged into both "
+                        f"{deprecated[old]!r} and {new!r}"
+                    ),
+                    "owner": old,
+                    "value": new,
+                    "sheet": sheet.title,
+                    "cell": _cell(sheet, i, new_col),
+                }
+            )
+            continue
+        deprecated[old] = new
+    return deprecated
+
+
+def _legacy_map(controls: list[dict], deprecated: dict[str, str], result: ParseResult) -> dict:
+    """Old (previous-release) id -> where it lives now.
+
+    Built from `controls[].legacy_ids`; the validation gate proves it is a
+    function onto real controls covering the previous release exactly.
+    `merged`: the new control absorbed more than one old id. `deprecated`: the
+    READ THIS tab lists the old id as a removed duplicate.
+    """
+    mapping: dict[str, dict] = {}
+    for c in controls:
+        olds = c.get("legacy_ids", [])
+        for old in olds:
+            if old in mapping:
+                continue  # a split; the gate reports it (legacy-map-split)
+            mapping[old] = {
+                "new": c["control_id"],
+                "merged": len(olds) > 1,
+                "deprecated": old in deprecated,
+            }
+    for old, new in deprecated.items():
+        entry = mapping.get(old)
+        if entry is None or entry["new"] != new:
+            where = "no control" if entry is None else repr(entry["new"])
+            result.findings.append(
+                {
+                    "check": "legacy-deprecated",
+                    "severity": "fail",
+                    "message": (
+                        f"READ THIS says deprecated {old!r} merged into {new!r}, "
+                        f"but the Legacy SCF # column puts it on {where}"
+                    ),
+                    "owner": old,
+                    "value": new,
+                }
+            )
+    if result.previous is None:
+        result.findings.append(
+            {
+                "check": "legacy-from-version",
+                "severity": "warn",
+                "message": (
+                    "previous release unknown: the legacy map's from_version is null and "
+                    "its old-id coverage is unchecked (parse into a data/ dir holding the "
+                    "previous catalog, or pass --previous-catalog)"
+                ),
+                "owner": "",
+                "value": "",
+            }
+        )
+    return {
+        "from_version": result.previous.version if result.previous else None,
+        "to_version": result.version,
+        "map": mapping,
+    }
 
 
 def _read_matrix(

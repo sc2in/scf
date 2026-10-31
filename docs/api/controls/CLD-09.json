@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CLD-08"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "emea-deu-c5-2026": [

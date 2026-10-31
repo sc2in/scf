@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "PRI-01.9"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "apac-ind-dpdpa-2023": [

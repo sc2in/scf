@@ -198,6 +198,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -527,6 +528,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-01"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1230,6 +1234,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-04.3"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-cobit-2019": [
@@ -1474,6 +1481,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-02.4"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1816,6 +1826,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-03"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-cobit-2019": [
@@ -2146,6 +2159,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-02"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3055,6 +3071,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-02.5"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -3295,6 +3314,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-02.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -3552,6 +3574,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-10.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -3798,6 +3823,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-09.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -4032,6 +4060,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-02.3"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -4254,6 +4285,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-02.6"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -4473,6 +4507,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-04"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -5233,6 +5270,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IRO-04.2"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5633,6 +5673,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IRO-06"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -6112,6 +6155,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IRO-06.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -6397,6 +6443,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-05"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -6745,6 +6794,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-05.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -6957,6 +7009,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-05.2"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -7178,6 +7233,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-07"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7575,6 +7633,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-16"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -7814,6 +7875,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-08"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -8147,6 +8211,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-08.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {}
     },
@@ -8343,6 +8410,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-13"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8878,6 +8948,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-14"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9201,6 +9274,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-10"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -10193,6 +10269,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-09"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10625,6 +10704,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-10.2"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -11053,6 +11135,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-10.5"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "usa-federal-law-33-cfr-part-101-subpart-f": [
@@ -11298,6 +11383,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-10.3"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -11516,6 +11604,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "IRO-09.3"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "usa-federal-doe-c2m2-2-1": [
@@ -11717,6 +11808,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-09.4"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "usa-federal-doe-c2m2-2-1": [
@@ -11918,6 +12012,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-09.2"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "emea-eu-dora-rts-2024": [
@@ -12120,6 +12217,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-11"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -12432,6 +12532,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-11.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -12673,6 +12776,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-10.4"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12971,6 +13077,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-11.2"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13239,6 +13348,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-12"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13537,6 +13649,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-12.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -13772,6 +13887,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-12.2"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -13993,6 +14111,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-12.3"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -14229,6 +14350,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-12.4"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-govramp": [
@@ -14451,6 +14575,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-15"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -14735,6 +14862,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IRO-04.1"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -15047,6 +15177,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "BCD-16"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -15246,6 +15379,9 @@
         "MT-31": "Likely"
       },
       "errata": "- wordsmithed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "QTS-07"
+      ],
       "family_name": "Incident Response",
       "crosswalks": {
         "apac-mys-bnm-rmit-2025": [
@@ -15441,6 +15577,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Incident Response",
       "crosswalks": {
         "usa-federal-dow-brilliant-basics-ot": [
@@ -15649,6 +15786,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Incident Response",
       "crosswalks": {
         "usa-federal-dow-brilliant-basics-ot": [

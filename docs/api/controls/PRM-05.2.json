@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PRM-02.1"
+  ],
   "family_name": "Project & Resource Management",
   "crosswalks": {
     "general-cobit-2019": [

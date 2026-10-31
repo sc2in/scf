@@ -178,6 +178,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-20.1"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-mpa-csbp-5-3-1": [

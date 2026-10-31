@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "GOV-10.1"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "usa-federal-dow-zt-roadmap-1-1": [

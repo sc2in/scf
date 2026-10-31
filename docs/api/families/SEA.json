@@ -197,6 +197,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -401,6 +402,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "SEA-01.5"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-nist-800-37-r2": [
@@ -658,6 +662,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "SEA-01.2"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -917,6 +924,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "usa-federal-dow-brilliant-basics-it": [
@@ -1115,6 +1123,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-01.4"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-cobit-2019": [
@@ -1343,6 +1354,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-02"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1833,6 +1847,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-01"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2593,6 +2610,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old NET-02",
+      "legacy_ids": [
+        "NET-02",
+        "SEA-03"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3009,6 +3030,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-03.1"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -3232,6 +3256,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-03.2"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-govramp": [
@@ -3505,6 +3532,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-04"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-govramp": [
@@ -3805,6 +3835,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-04.1"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-govramp": [
@@ -4068,6 +4101,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-04.2"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -4265,6 +4301,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-04.3"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -4465,6 +4504,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-04.4"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-iec-tr-60601-4-5-2021": [
@@ -4653,6 +4695,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-05"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-govramp": [
@@ -4977,6 +5022,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-07.2"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-govramp": [
@@ -5219,6 +5267,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-07.3"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-iec-62443-2-1-2024": [
@@ -5436,6 +5487,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-08"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-iec-62443-3-3-2013": [
@@ -5658,6 +5712,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-08.2"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-nist-800-172-r3": [
@@ -5856,6 +5913,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-09"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -6097,6 +6157,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-10"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-govramp": [
@@ -6408,6 +6471,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-11"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -6623,6 +6689,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-12"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -6834,6 +6903,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-13"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -7061,6 +7133,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-13.1"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -7309,6 +7384,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "CLD-05"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "emea-deu-c5-2026": [
@@ -7507,6 +7585,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-14"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -7740,6 +7821,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-14.1"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -7947,6 +8031,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-14.2"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8167,6 +8254,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-15"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -8395,6 +8485,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-16"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -8615,6 +8708,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old END-09",
+      "legacy_ids": [
+        "END-09",
+        "SEA-17"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -8839,6 +8936,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-18"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-govramp": [
@@ -9150,6 +9250,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-18.1"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-iec-62443-3-3-2013": [
@@ -9363,6 +9466,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "SEA-18.2"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-iec-62443-3-3-2013": [
@@ -9574,6 +9680,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-19"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-iec-62443-2-1-2024": [
@@ -9788,6 +9897,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-20"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -10145,6 +10257,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-21"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [
@@ -10345,6 +10460,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SEA-22"
+      ],
       "family_name": "Secure Engineering & Architecture",
       "crosswalks": {
         "apac-aus-essential-8-2024": [

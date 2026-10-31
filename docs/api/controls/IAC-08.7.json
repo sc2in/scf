@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-15.10"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "usa-federal-law-33-cfr-part-101-subpart-f": [

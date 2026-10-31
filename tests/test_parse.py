@@ -232,7 +232,10 @@ def test_2026_3_matrix_becomes_lists_and_likelihood_maps(workbook_factory):
 
 
 def test_2026_3_matches_legacy_layout_everywhere_but_the_likelihood_maps(workbook_factory):
-    """One parser, two layouts: the same synthetic content yields the same data."""
+    """One parser, two layouts: the same synthetic content yields the same data.
+
+    The 2026.3-only additions (likelihood maps, legacy ids + map) are additive.
+    """
     old = parse_workbook(workbook_factory(), VERSION)
     new = parse_workbook(workbook_factory("layout-2026-3"), VERSION)
 
@@ -242,7 +245,8 @@ def test_2026_3_matches_legacy_layout_everywhere_but_the_likelihood_maps(workboo
         assert new.files[name] == old.files[name], name
 
     for o, n in zip(old.catalog["controls"], new.catalog["controls"], strict=True):
-        n = {k: v for k, v in n.items() if k not in ("risk_likelihood", "threat_likelihood")}
+        additive = ("risk_likelihood", "threat_likelihood", "legacy_ids")
+        n = {k: v for k, v in n.items() if k not in additive}
         assert n == o
 
 

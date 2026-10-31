@@ -182,6 +182,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-02.13"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "usa-state-ca-ccpa-cpra-2026": [

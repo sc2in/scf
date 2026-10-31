@@ -202,6 +202,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-27"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "usa-federal-dow-zta-reference-architecture-2-0": [

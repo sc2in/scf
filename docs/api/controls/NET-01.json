@@ -194,6 +194,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Network Security",
   "crosswalks": {
     "emea-eu-nis2-annex-2024": [

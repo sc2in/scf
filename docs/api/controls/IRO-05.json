@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-03"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "general-cobit-2019": [

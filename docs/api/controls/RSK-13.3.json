@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "RSK-04.4"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "general-scf-dpmp-2026": [

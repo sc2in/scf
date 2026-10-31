@@ -180,6 +180,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MDM-09"
+  ],
   "family_name": "Mobile Device Management",
   "crosswalks": {
     "general-csa-iot-2": [

@@ -192,6 +192,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "RSK-11"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "general-nist-800-39": [

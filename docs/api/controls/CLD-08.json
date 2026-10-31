@@ -186,6 +186,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CLD-07"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

@@ -177,6 +177,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "END-11"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-nist-800-53-r4": [

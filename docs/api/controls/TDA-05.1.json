@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-06.1"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

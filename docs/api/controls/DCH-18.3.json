@@ -199,6 +199,9 @@
     "MT-31": "Possible"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "DCH-09.2"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-govramp": [

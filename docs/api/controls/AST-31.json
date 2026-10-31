@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "AST-19"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "usa-federal-cms-marse-2-0": [

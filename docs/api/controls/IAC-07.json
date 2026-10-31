@@ -196,6 +196,10 @@
     "MT-31": "Possible"
   },
   "errata": "- merged old IAC-15.8",
+  "legacy_ids": [
+    "IAC-15.8",
+    "IAC-29"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-csa-iot-2": [

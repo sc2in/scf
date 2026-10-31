@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-09.7"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-nist-800-53-r4": [

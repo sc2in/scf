@@ -204,6 +204,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PES-18"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "general-tisax-6-0-3": [

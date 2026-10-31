@@ -192,6 +192,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old CFG-06",
+  "legacy_ids": [
+    "CFG-06",
+    "CFG-06.1"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

@@ -193,6 +193,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Asset Management",
       "crosswalks": {
         "usa-federal-dow-cert-rmm-1-2": [
@@ -414,6 +415,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-01"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -967,6 +971,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-01.3"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -1180,6 +1187,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2013,6 +2023,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-govramp": [
@@ -2313,6 +2326,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02.3"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -2612,6 +2628,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "BCD-02"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3037,6 +3056,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -3262,6 +3282,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-01.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3613,6 +3636,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-01.2"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cobit-2019": [
@@ -3949,6 +3975,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "AST-03"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cobit-2019": [
@@ -4289,6 +4318,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AST-03.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cobit-2019": [
@@ -4576,6 +4608,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -4860,6 +4893,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02.9"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -5234,6 +5270,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02.11"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -5453,6 +5492,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -5695,6 +5735,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AST-02.6"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -5911,6 +5954,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-32"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -6113,6 +6159,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02.10"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6332,6 +6381,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-01.4"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -6569,6 +6621,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-01.5"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "usa-federal-law-33-cfr-part-101-subpart-f": [
@@ -6777,6 +6832,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02.2"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7106,6 +7164,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "AST-17"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -7324,6 +7385,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02.7"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -7594,6 +7658,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-03.2"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -7887,6 +7954,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-31"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -8116,6 +8186,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "AST-31.2"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -8325,6 +8398,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "AST-31.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -8519,6 +8595,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-31.3"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -8726,6 +8805,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-04.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9130,6 +9212,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AST-04.3"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -9367,6 +9452,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-04"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9918,6 +10006,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-04.2"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10172,6 +10263,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-02.8"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10481,6 +10575,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-05"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10747,6 +10844,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-05.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -10991,6 +11091,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-05.2"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -11182,6 +11285,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "AST-06.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {}
     },
@@ -11383,6 +11489,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-06"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-iso-21434-2021": [
@@ -11651,6 +11760,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AST-07"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -11930,6 +12042,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old TDA-11.2",
+      "legacy_ids": [
+        "AST-09",
+        "TDA-11.2"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12468,6 +12584,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-10"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12709,6 +12828,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-11"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -12952,6 +13074,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-12"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -13195,6 +13320,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AST-13"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -13419,6 +13547,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-16"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -13741,6 +13872,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AST-14"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -13981,6 +14115,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-15.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -14281,6 +14418,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-08"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -14562,6 +14702,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-15"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -14863,6 +15006,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-18"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -15078,6 +15224,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AST-19"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "usa-federal-cms-marse-2-0": [
@@ -15312,6 +15461,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-24"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -15535,6 +15687,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-25"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -15751,6 +15906,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-27"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -15980,6 +16138,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "AST-28.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-swift-cscf-2025": [
@@ -16203,6 +16364,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "AST-30"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -16455,6 +16619,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "SEA-07.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cobit-2019": [
@@ -16860,6 +17027,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "VPM-04.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -17101,6 +17271,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "VPM-05.5"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -17315,6 +17488,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "SEA-02.3"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -17548,6 +17724,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "TDA-17"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -17954,6 +18133,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "TDA-17.1"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -18241,6 +18423,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "SEA-07"
+      ],
       "family_name": "Asset Management",
       "crosswalks": {
         "general-nist-800-53-r4": [

@@ -186,6 +186,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-23.4"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-iso-27002-2022": [

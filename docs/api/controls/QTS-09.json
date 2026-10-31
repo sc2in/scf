@@ -182,6 +182,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "QTS-06"
+  ],
   "family_name": "Quantum Security",
   "crosswalks": {
     "general-nist-cswp-39": [

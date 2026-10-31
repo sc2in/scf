@@ -182,6 +182,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "END-15"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "apac-mys-bnm-rmit-2025": [

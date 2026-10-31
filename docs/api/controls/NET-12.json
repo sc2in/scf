@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-06.7"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "usa-federal-dow-zt-roadmap-1-1": [

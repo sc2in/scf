@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-01.17"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-18.3"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

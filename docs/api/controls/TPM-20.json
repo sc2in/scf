@@ -198,6 +198,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TPM-12"
+  ],
   "family_name": "Third-Party Management",
   "crosswalks": {}
 }

@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "AAT-20.3"
+  ],
   "family_name": "Artificial Intelligence & Autonomous Technologies",
   "crosswalks": {
     "general-nist-600-1-gen-ai-profile": [

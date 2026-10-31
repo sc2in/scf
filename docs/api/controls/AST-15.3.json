@@ -182,6 +182,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AST-31.3"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "usa-federal-dow-zt-roadmap-1-1": [

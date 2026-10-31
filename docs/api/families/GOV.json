@@ -196,6 +196,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -442,6 +443,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-01"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1243,6 +1247,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "SEA-01.1"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1532,6 +1539,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-01.4"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "usa-federal-ffiec-iteh-2016": [
@@ -1775,6 +1785,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "SEA-02.1"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2084,6 +2097,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "GOV-09"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2393,6 +2409,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-19.2"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "usa-federal-dow-cert-rmm-1-2": [
@@ -2662,6 +2681,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-02"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -4390,6 +4412,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-03"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -5564,6 +5589,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-02.1"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-cobit-2019": [
@@ -5831,6 +5859,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -6060,6 +6089,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-04"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -6815,6 +6847,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-04.1"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -7262,6 +7297,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-04.2"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -7574,6 +7612,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-08"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7892,6 +7933,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-16"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8127,6 +8171,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-21"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "emea-che-finma-circ-23-1": [
@@ -8340,6 +8387,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-01.1"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9044,6 +9094,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-01.2"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9522,6 +9575,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-14"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9806,6 +9862,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-15"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10334,6 +10393,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-15.1"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10733,6 +10795,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-15.2"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11103,6 +11168,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-15.3"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11420,6 +11488,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-15.4"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-iso-22301-2019": [
@@ -11723,6 +11794,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-15.5"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-iso-27001-2022": [
@@ -12019,6 +12093,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-05"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12481,6 +12558,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-05.1"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12733,6 +12813,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-05.2"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12975,6 +13058,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-12"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "apac-chn-cybersecurity-law-2017": [
@@ -13190,6 +13276,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-13"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "apac-chn-cybersecurity-law-2017": [
@@ -13392,6 +13481,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-06"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13717,6 +13809,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-07"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14017,6 +14112,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-18"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "general-cobit-2019": [
@@ -14231,6 +14329,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "GOV-19"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "emea-gbr-caf-4-0": [
@@ -14440,6 +14541,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-20"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {
         "apac-ind-rbi-pa-2025": [
@@ -14656,6 +14760,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "GOV-20.1"
+      ],
       "family_name": "Security, Compliance & Resilience Governance",
       "crosswalks": {}
     }

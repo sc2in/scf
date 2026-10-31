@@ -23,7 +23,7 @@ from . import jsonio
 from .build import build_docs, find_catalog
 from .changelog import generate_changelog
 from .overrides import load_overrides, load_resolution_aliases
-from .parse import parse_workbook
+from .parse import LEGACY_MAP_FILE, PreviousRelease, parse_workbook
 from .report import build_report, human_summary, write_report
 from .schemas import CATALOG_RE, validate_overrides_file, validate_schemas
 from .validate import validate_data_dir, validate_result
@@ -64,11 +64,13 @@ def _run_parse(
     out_dir: Path | None,
     overrides_path: Path | None,
     report_path: Path | None,
+    previous_catalog: Path | None = None,
 ) -> int:
     overrides = load_overrides(overrides_path)
     aliases = load_resolution_aliases(overrides_path, version)
+    previous = previous_release(version, out_dir, previous_catalog)
     try:
-        result = parse_workbook(workbook, version, aliases=aliases)
+        result = parse_workbook(workbook, version, aliases=aliases, previous=previous)
     except (SheetResolveError, ColumnResolveError) as exc:
         # Both subclass KeyError, whose str() is the *repr* of the message —
         # args[0] keeps the issue body readable.
@@ -101,10 +103,51 @@ def _run_parse(
         for name, obj in result.files.items():
             jsonio.write(out_dir / name, obj)
         stale = _prune_stale_catalogs(out_dir, result.catalog_name)
+        legacy = out_dir / LEGACY_MAP_FILE
+        if LEGACY_MAP_FILE not in result.files and legacy.exists():
+            # A release without a Legacy SCF # column must not keep publishing
+            # the previous release's old->new map.
+            legacy.unlink()
+            stale.append(LEGACY_MAP_FILE)
         for name in stale:
-            print(f"removed stale catalog {name}", file=sys.stderr)
+            print(f"removed stale {name}", file=sys.stderr)
         print(f"wrote {len(result.files)} data files to {out_dir}", file=sys.stderr)
     return 0
+
+
+def previous_release(
+    version: str, data_dir: Path | None, catalog: Path | None = None
+) -> PreviousRelease | None:
+    """The release this workbook's `Legacy SCF #` ids refer to.
+
+    In order: an explicit previous catalog; the catalog of another version
+    still in data_dir (the autopilot parses over the previous release's
+    data/); or, when re-parsing the same release, the committed legacy map's
+    from_version and old ids (already proven against that catalog once).
+    """
+    if catalog is not None:
+        obj = jsonio.read(catalog)
+        return PreviousRelease(
+            obj["framework"]["version"],
+            frozenset(c["control_id"] for c in obj["controls"]),
+        )
+    if data_dir is None or not data_dir.is_dir():
+        return None
+    for path in sorted(data_dir.glob("scf-*.json")):
+        if not CATALOG_RE.match(path.name):
+            continue
+        obj = jsonio.read(path)
+        if obj["framework"]["version"] != version:
+            return PreviousRelease(
+                obj["framework"]["version"],
+                frozenset(c["control_id"] for c in obj["controls"]),
+            )
+    legacy = data_dir / LEGACY_MAP_FILE
+    if legacy.exists():
+        obj = jsonio.read(legacy)
+        if obj.get("to_version") == version and obj.get("from_version"):
+            return PreviousRelease(obj["from_version"], frozenset(obj["map"]))
+    return None
 
 
 def _prune_stale_catalogs(data_dir: Path, keep: str) -> list[str]:
@@ -157,6 +200,7 @@ def _cmd_parse(args: argparse.Namespace) -> int:
         Path(args.out),
         Path(args.overrides) if args.overrides else None,
         Path(args.report) if args.report else None,
+        Path(args.previous_catalog) if args.previous_catalog else None,
     )
 
 
@@ -255,6 +299,7 @@ def _cmd_all(args: argparse.Namespace) -> int:
         data_dir,
         Path(args.overrides) if args.overrides else None,
         Path(args.report) if args.report else None,
+        Path(args.previous_catalog) if args.previous_catalog else None,
     )
     if rc != 0:
         return rc
@@ -279,6 +324,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--out", default="data")
     p.add_argument("--overrides", default="overrides/overrides.json")
     p.add_argument("--report", default="validation/validation-report.json")
+    p.add_argument(
+        "--previous-catalog",
+        default=None,
+        help="previous release's scf-<version>.json (legacy-id map source of truth; "
+        "default: found in the output data dir)",
+    )
     p.set_defaults(func=_cmd_parse)
 
     p = sub.add_parser("validate", help="re-check a committed data/ dir (JSON-input mode)")
@@ -332,6 +383,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--overrides", default="overrides/overrides.json")
     p.add_argument("--report", default="validation/validation-report.json")
     p.add_argument("--version-file", default=".scf-version")
+    p.add_argument(
+        "--previous-catalog",
+        default=None,
+        help="previous release's scf-<version>.json (legacy-id map source of truth; "
+        "default: found in the output data dir)",
+    )
     p.set_defaults(func=_cmd_all)
 
     args = parser.parse_args(argv)

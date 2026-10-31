@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MDM-11"
+  ],
   "family_name": "Mobile Device Management",
   "crosswalks": {
     "general-iec-62443-3-3-2013": [

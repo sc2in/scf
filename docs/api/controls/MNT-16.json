@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MNT-07"
+  ],
   "family_name": "Maintenance",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

@@ -188,6 +188,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-02.4"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-nist-800-53-r4": [

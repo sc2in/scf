@@ -209,6 +209,9 @@
     "MT-31": "Possible"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "CLD-02"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "general-csa-iot-2": [

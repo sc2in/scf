@@ -194,6 +194,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AAT-30"
+  ],
   "family_name": "Artificial Intelligence & Autonomous Technologies",
   "crosswalks": {}
 }

@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "GOV-18"
+  ],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "general-cobit-2019": [

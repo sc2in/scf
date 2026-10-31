@@ -180,6 +180,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-05.1"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "general-cr-cmm-2026": [

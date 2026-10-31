@@ -195,6 +195,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CRY-09.4"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

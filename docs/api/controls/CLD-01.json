@@ -189,6 +189,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Cloud Security",
   "crosswalks": {
     "emea-sau-sama-csf-1-2017": [

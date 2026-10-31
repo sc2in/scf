@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "VPM-05.7"
+  ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
     "emea-eu-dora-rts-2024": [

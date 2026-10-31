@@ -187,6 +187,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Identification & Authentication",
   "crosswalks": {}
 }

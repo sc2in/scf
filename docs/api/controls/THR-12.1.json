@@ -182,6 +182,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "THR-06.1"
+  ],
   "family_name": "Threat Management",
   "crosswalks": {
     "usa-federal-dhs-cisa-cpg-2-0": [

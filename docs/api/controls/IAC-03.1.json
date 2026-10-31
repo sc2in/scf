@@ -195,6 +195,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-02.2"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-govramp": [

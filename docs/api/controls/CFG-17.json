@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CFG-09"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "apac-aus-ism-2026-june": [

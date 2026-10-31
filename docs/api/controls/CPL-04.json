@@ -210,6 +210,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CPL-01.3"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "general-bsi-200-1-1-0": [

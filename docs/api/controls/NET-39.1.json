@@ -188,6 +188,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-20.4"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-cis-csc-8-1": [

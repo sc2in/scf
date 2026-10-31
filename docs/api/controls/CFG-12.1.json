@@ -178,6 +178,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "CFG-01.1"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-iso-27002-2022": [

@@ -187,6 +187,9 @@
     "MT-31": "Likely"
   },
   "errata": "- wordsmithed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "QTS-07"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "apac-mys-bnm-rmit-2025": [

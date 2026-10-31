@@ -198,6 +198,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CAP-05"
+  ],
   "family_name": "Capacity & Performance Planning",
   "crosswalks": {
     "general-nist-csf-2-0": [

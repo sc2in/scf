@@ -183,6 +183,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "END-14.2"
+  ],
   "family_name": "Endpoint Security",
   "crosswalks": {
     "general-nist-800-53-r4": [

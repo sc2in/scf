@@ -52,6 +52,10 @@ maintained by SC2 (sc2in/scf).
 
 `GET api/privacy-principles.json` — Data privacy management principles.
 
+### legacy-map
+
+`GET api/legacy-map.json` — Old→new control ids, SCF 2026.2 → 2026.3.
+
 ## Detail endpoints
 
 - `GET api/controls/{ID}.json` — single control (e.g., GOV-01)

@@ -23,7 +23,14 @@ Not a defect but a whole layout, the SCF 2026.3 shape (the default stays 2026.2)
 
 - layout-2026-3       compensating controls inline on the controls tab (no separate
                       tab), a Risk/Threat likelihood matrix instead of the two summary
-                      columns, "ERL Artifact", "Notes" instead of ODP, "Old Risk #"
+                      columns, "ERL Artifact", "Notes" instead of ODP, "Old Risk #",
+                      a "Legacy SCF #" column (single id, NONE, a two-id merge) and a
+                      READ THIS tab listing the deprecated id of that merge
+
+Legacy-map defects (only meaningful with layout-2026-3):
+
+- legacy-split        one old id on two controls (old->new is no longer a function)
+- legacy-deprecated-mismatch  READ THIS names a different destination than the column
 """
 
 from __future__ import annotations
@@ -49,6 +56,8 @@ DEFECTS = frozenset(
         "drifted-tab",  # same tab, NBSP + doubled space + zero-width space
         "unknown-tab",  # a name no built-in pattern knows (operator-alias path)
         "layout-2026-3",  # the 2026.3 workbook shape (see module docstring)
+        "legacy-split",
+        "legacy-deprecated-mismatch",
     }
 )
 
@@ -82,6 +91,17 @@ CC_INLINE = {
         "Watches it.",
     ),
 }
+# 2026.3 "Legacy SCF #": the previous fixture release had GOV-01, GOV-02,
+# GOV-03, MON-01, MON-05 and TST-01. GOV-03 was deprecated into GOV-02.
+PREVIOUS_IDS = frozenset({"GOV-01", "GOV-02", "GOV-03", "MON-01", "MON-05", "TST-01"})
+LEGACY = {
+    "GOV-01": "NONE",
+    "GOV-01.1": "GOV-01",
+    "GOV-02": "GOV-02\nGOV-03",
+    "MON-01": "MON-01",
+    "MON-02": "MON-05",
+    "TST-01": "TST-01",
+}
 MATRIX_HEADER = (
     *(f"Risk {rid}" for rid in RISK_IDS),
     *(f"Threat {tid}" for tid in THREAT_IDS),
@@ -103,6 +123,36 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
     new = "layout-2026-3" in defects
     wb = Workbook()
     wb.remove(wb.active)
+
+    # --- READ THIS (2026.3 release notes + deprecated-controls table) ---
+    if new:
+        ws = wb.create_sheet("READ THIS")
+        ws.append(["This version renumbered controls and removed 1 control."])
+        ws.append([])
+        ws.append(
+            [
+                "SCF Control",
+                "New SCF #",
+                "Legacy SCF #",
+                None,
+                "Deprecated SCF Control Name",
+                "Legacy SCF #",
+                "Merged Into\nNew SCF #",
+            ]
+        )
+        merged_into = "MON-01" if "legacy-deprecated-mismatch" in defects else "GOV-02"
+        ws.append(
+            [
+                "Govern Things",
+                "GOV-01",
+                "N/A - New Control",
+                None,
+                "Old Things",
+                "GOV-03",
+                merged_into,
+            ]
+        )
+        ws.append(["Steer Things", "GOV-01.1", "GOV-01"])
 
     # --- Domains ---
     ws = wb.create_sheet("SCF Domains & Principles")
@@ -227,6 +277,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
         "SCF Control",
         "SCF #",
         "Secure Controls Framework (SCF)\nControl Description",
+        *(("Legacy\nSCF #",) if new else ()),
         "Conformity Validation\nCadence",
         "Evidence Request List (ERL) #",
         "Possible Solutions & Considerations\nMicro-Small Business (<10 staff)\nBLS Firm Size Classes 1-2",
@@ -261,6 +312,11 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
     ]
     ws.append(header)
 
+    def legacy_cell(cid: str) -> str | None:
+        if cid == "MON-02" and "legacy-split" in defects:
+            return "MON-01"  # already on MON-01's row
+        return LEGACY.get(cid)
+
     def control_row(
         domain: str,
         title: str,
@@ -283,6 +339,7 @@ def build_workbook(path: Path, defects: frozenset[str] = frozenset()) -> Path:
             title,
             cid,
             f"Mechanisms exist to {title.lower()}.",
+            *((legacy_cell(cid),) if new else ()),
             "Annual",
             erl,
             "solo tip",

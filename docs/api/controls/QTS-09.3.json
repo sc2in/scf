@@ -178,6 +178,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "QTS-06.3"
+  ],
   "family_name": "Quantum Security",
   "crosswalks": {
     "apac-aus-ism-2026-june": [

@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "RSK-06.4"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "general-cobit-2019": [

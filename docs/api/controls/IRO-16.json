@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-10"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

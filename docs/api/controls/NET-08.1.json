@@ -207,6 +207,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-06.3"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-iec-62443-2-1-2024": [

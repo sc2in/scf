@@ -211,6 +211,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PES-06.3"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "general-nist-800-53-r4": [

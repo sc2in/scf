@@ -193,6 +193,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cobit-2019": [
@@ -472,6 +473,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-01"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1434,6 +1438,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -1704,6 +1709,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "SEA-01.3"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -1969,6 +1977,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-01.7"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -2322,6 +2333,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-01.4"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -2710,6 +2724,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-01.5"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -2979,6 +2996,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-01.6"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3217,6 +3237,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-10.4"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -3475,6 +3498,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-06"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3824,6 +3850,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-06.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cobit-2019": [
@@ -4036,6 +4065,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-06.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -4247,6 +4279,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-01.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -4564,6 +4599,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-01.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -4880,6 +4918,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-02.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5172,6 +5213,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-02.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5484,6 +5528,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-02.3"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5752,6 +5799,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-03"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cobit-2019": [
@@ -6058,6 +6108,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-03.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6300,6 +6353,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-03.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -6526,6 +6582,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-04"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -7033,6 +7092,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-04.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -7295,6 +7357,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "BCD-04.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-govramp": [
@@ -7532,6 +7597,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-05"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7909,6 +7977,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-08"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8222,6 +8293,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-08.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8481,6 +8555,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-08.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8742,6 +8819,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-09"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9093,6 +9173,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-09.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9351,6 +9434,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-09.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9615,6 +9701,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-09.3"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9877,6 +9966,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-09.4"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-govramp": [
@@ -10108,6 +10200,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-09.5"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -10323,6 +10418,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "BCD-01.3"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -10550,6 +10648,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-10"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10857,6 +10958,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-10.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11109,6 +11213,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-10.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-govramp": [
@@ -11386,6 +11493,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-12"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11809,6 +11919,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-12.4"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -12049,6 +12162,9 @@
         "MT-31": "Possible"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-11.3"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12294,6 +12410,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-14"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -12533,6 +12652,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-15"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "usa-federal-doe-c2m2-2-1": [
@@ -12745,6 +12867,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-11.7"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -13008,6 +13133,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-12.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13273,6 +13401,7 @@
         "MT-31": "Possible"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-sparta-4-0": [
@@ -13537,6 +13666,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-11"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14225,6 +14357,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-11.6"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14480,6 +14615,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-11.2"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14824,6 +14962,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-11.4"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -15191,6 +15332,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -15418,6 +15560,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "BCD-12.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -15687,6 +15832,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "apac-mys-bnm-rmit-2025": [
@@ -15903,6 +16049,7 @@
         "MT-31": "Possible"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cobit-2019": [
@@ -16130,6 +16277,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {}
     },
@@ -16333,6 +16481,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "BCD-11.9"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -16587,6 +16738,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "BCD-13"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -16842,6 +16996,9 @@
         "MT-31": "Possible"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-13.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -17073,6 +17230,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-11.1"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -17501,6 +17661,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "BCD-11.5"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -17795,6 +17958,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "BCD-11.10"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-nist-800-172a-r3": [
@@ -18035,6 +18201,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "BCD-11.8"
+      ],
       "family_name": "Business Continuity & Disaster Recovery",
       "crosswalks": {
         "general-cr-cmm-2026": [

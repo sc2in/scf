@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "HRS-03.1"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

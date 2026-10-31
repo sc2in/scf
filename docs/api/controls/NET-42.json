@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "NET-04.11"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-nist-800-53-r4": [

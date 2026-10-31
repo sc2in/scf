@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "SEA-08.1"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-csa-iot-2": [

@@ -200,6 +200,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Data Privacy",
       "crosswalks": {
         "emea-nga-dpr-2019": [
@@ -420,6 +421,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-01"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -895,6 +899,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1140,6 +1145,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PRI-01.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1441,6 +1449,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PRI-01.4"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-iso-29100-2024": [
@@ -1850,6 +1861,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "PRI-01.9"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "apac-ind-dpdpa-2023": [
@@ -2054,6 +2068,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PRI-01.8"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-privacy-framework-1-0": [
@@ -2270,6 +2287,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-01.12"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-privacy-framework-1-0": [
@@ -2481,6 +2501,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-14"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2981,6 +3004,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-09"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -3211,6 +3237,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-05.7"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3512,6 +3541,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-05.5"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3772,6 +3804,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-05.6"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -3993,6 +4028,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-12"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4214,6 +4252,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "DCH-22.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4472,6 +4513,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "VPM-04.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-scf-dpmp-2026": [
@@ -4676,6 +4720,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-01.11"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -5640,6 +5687,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-01.6"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -6296,6 +6346,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-08"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6562,6 +6615,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-04.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -6953,6 +7009,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.5"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -7214,6 +7273,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-07.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -7813,6 +7875,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-01.5"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-tisax-6-0-3": [
@@ -8379,6 +8444,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-07"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -8778,6 +8846,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old SEA-09.1",
+      "legacy_ids": [
+        "PRI-01.7",
+        "SEA-09.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -9028,6 +9100,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-14.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -9350,6 +9425,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "PRI-14.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9564,6 +9642,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-07.4"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9853,6 +9934,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-07.5"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -10127,6 +10211,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-01.10"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -10342,6 +10429,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-17.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-scf-dpmp-2026": [
@@ -10542,6 +10632,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-01.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -10820,6 +10913,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-01.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11030,6 +11126,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.6"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -11228,6 +11327,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.4"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -11434,6 +11536,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.5"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -11632,6 +11737,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -11858,6 +11966,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -12951,6 +13062,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.9"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -13147,6 +13261,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-17.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-scf-dpmp-2026": [
@@ -13343,6 +13460,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.14"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -13539,6 +13659,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.13"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -13737,6 +13860,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.7"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -13934,6 +14060,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -14262,6 +14391,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.8"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-federal-omb-fipps-1973": [
@@ -14459,6 +14591,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.11"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -14653,6 +14788,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.10"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -14843,6 +14981,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-02.12"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -15043,6 +15184,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -15659,6 +15803,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "PRI-03.7"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-iso-29100-2024": [
@@ -15902,6 +16049,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -16132,6 +16282,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.4"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -16442,6 +16595,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -16702,6 +16858,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-scf-dpmp-2026": [
@@ -16974,6 +17133,9 @@
         "MT-31": "Possible"
       },
       "errata": "- wordsmithed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "WEB-05"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -17163,6 +17325,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "PRI-21"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -17392,6 +17557,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-21.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -17592,6 +17760,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PRI-21.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -17793,6 +17964,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.8"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-scf-dpmp-2026": [
@@ -18025,6 +18199,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PRI-03.12"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -18242,6 +18419,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.13"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-federal-law-coppa-2024": [
@@ -18497,6 +18677,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "PRI-03.6"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-scf-dpmp-2026": [
@@ -18782,6 +18965,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-05.4"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -19814,6 +20000,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.9"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-apec-privacy-framework-2015": [
@@ -20063,6 +20252,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.10"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -20281,6 +20473,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-05.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -20624,6 +20819,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-05"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -21207,6 +21405,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-05.8"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "emea-eu-gdpr-2016": [
@@ -21400,6 +21601,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "DCH-18.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "apac-ind-rbi-dpsc-2021": [
@@ -21591,6 +21795,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-04.7"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -21802,6 +22009,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-04"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -22157,6 +22367,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old DCH-22.3",
+      "legacy_ids": [
+        "DCH-22.3",
+        "PRI-04.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -22391,6 +22605,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-04.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {}
     },
@@ -22577,6 +22794,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-04.4"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "emea-sau-pdpl-2023": [
@@ -22774,6 +22994,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-20"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -22973,6 +23196,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-05.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -23322,6 +23548,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-04.5"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -23524,6 +23753,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-04.6"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -23726,6 +23958,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "PRI-02.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -23970,6 +24205,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-19"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "emea-aut-dpa-2018": [
@@ -24247,6 +24485,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-19.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -24467,6 +24708,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-19.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -24700,6 +24944,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-19.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -24917,6 +25164,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-17"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -25227,6 +25477,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-03.11"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "emea-deu-fdpa-2017": [
@@ -25431,6 +25684,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-17.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -25648,6 +25904,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-17.4"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -25845,6 +26104,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-17.5"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -26046,6 +26308,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-06.8"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -26327,6 +26592,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "PRI-06.4"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -27058,6 +27326,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-06"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -27839,6 +28110,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-12.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -28044,6 +28318,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-06.1"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -28429,6 +28706,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-06.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -28737,6 +29017,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-06.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -29015,6 +29298,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-06.5"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -29326,6 +29612,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-06.6"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -29586,6 +29875,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-06.7"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -29861,6 +30153,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-07.3"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -30106,6 +30401,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-07.2"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -30360,6 +30658,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-18"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -30582,6 +30883,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "PRI-15"
+      ],
       "family_name": "Data Privacy",
       "crosswalks": {
         "general-scf-dpmp-2026": [

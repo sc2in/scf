@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "HRS-06.1"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-aicpa-tsc-2017": [
