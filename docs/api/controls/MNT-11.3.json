@@ -197,6 +197,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MNT-04.4"
+  ],
   "family_name": "Maintenance",
   "crosswalks": {
     "general-cis-csc-8-1": [

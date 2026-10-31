@@ -207,6 +207,9 @@
     "MT-30": "Possible",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "NET-06"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

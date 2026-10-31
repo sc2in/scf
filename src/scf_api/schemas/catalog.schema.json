@@ -62,7 +62,8 @@
             "type": "object",
             "additionalProperties": {"enum": ["Unlikely", "Possible", "Likely"]}
           },
-          "errata": {"type": "string"}
+          "errata": {"type": "string"},
+          "legacy_ids": {"type": "array", "items": {"type": "string", "minLength": 1}}
         }
       }
     }

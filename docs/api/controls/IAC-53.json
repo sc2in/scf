@@ -195,6 +195,7 @@
     "MT-31": "Possible"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Identification & Authentication",
   "crosswalks": {}
 }

@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-11"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-iso-27002-2022": [

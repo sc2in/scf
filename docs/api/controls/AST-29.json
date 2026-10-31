@@ -203,6 +203,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AST-15.1"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-nist-800-53-r4": [

@@ -191,6 +191,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -402,6 +403,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-01"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -861,6 +865,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-01.1"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-nist-800-172-r3": [
@@ -1074,6 +1081,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-03"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1636,6 +1646,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-03.1"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-bsi-200-1-1-0": [
@@ -1909,6 +1922,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-09"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2205,6 +2221,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-16.2"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -2420,6 +2439,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-10"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2757,6 +2779,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-11"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-coso-2013": [
@@ -2981,6 +3006,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-01.2"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-nist-800-172-r3": [
@@ -3188,6 +3216,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-02"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3418,6 +3449,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-06"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -3753,6 +3787,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-06.1"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "usa-federal-dhs-cisa-cpg-2-0": [
@@ -3955,6 +3992,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-07"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -4228,6 +4268,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-08"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -4452,6 +4495,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old IRO-02.2",
+      "legacy_ids": [
+        "IRO-02.2",
+        "THR-04"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4747,6 +4794,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "THR-05"
+      ],
       "family_name": "Threat Management",
       "crosswalks": {
         "general-govramp": [

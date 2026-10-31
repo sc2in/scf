@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-15"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-nist-600-1-gen-ai-profile": [

@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-14"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "emea-gbr-def-stan-05-138-2024": [

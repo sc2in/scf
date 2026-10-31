@@ -203,6 +203,9 @@
     "MT-31": "Possible"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "BCD-13.1"
+  ],
   "family_name": "Business Continuity & Disaster Recovery",
   "crosswalks": {
     "general-cr-cmm-2026": [

@@ -222,6 +222,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PES-03.1"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "general-cobit-2019": [

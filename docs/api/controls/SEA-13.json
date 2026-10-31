@@ -178,6 +178,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SEA-04.4"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "general-iec-tr-60601-4-5-2021": [

@@ -192,6 +192,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Mobile Device Management",
   "crosswalks": {
     "general-iso-27017-2015": [

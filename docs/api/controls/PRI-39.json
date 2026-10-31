@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "PRI-06.4"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

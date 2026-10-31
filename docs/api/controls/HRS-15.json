@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-12"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-cobit-2019": [

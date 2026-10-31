@@ -183,6 +183,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IRO-14"
+  ],
   "family_name": "Incident Response",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

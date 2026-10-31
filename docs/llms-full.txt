@@ -25,6 +25,7 @@ All data is static JSON. Append paths to the base URL.
 - [evidence-requests](api/evidence-requests.json): Evidence request list.
 - [compensating-controls](api/compensating-controls.json): Compensating control guidance.
 - [privacy-principles](api/privacy-principles.json): Data privacy management principles.
+- [legacy-map](api/legacy-map.json): Old→new control ids, SCF 2026.2 → 2026.3.
 
 ## Documentation
 
@@ -88,6 +89,10 @@ maintained by SC2 (sc2in/scf).
 ### privacy-principles
 
 `GET api/privacy-principles.json` — Data privacy management principles.
+
+### legacy-map
+
+`GET api/legacy-map.json` — Old→new control ids, SCF 2026.2 → 2026.3.
 
 ## Detail endpoints
 

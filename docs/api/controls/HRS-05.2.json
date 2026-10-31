@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "HRS-04.3"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

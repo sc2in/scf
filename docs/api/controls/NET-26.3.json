@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "NET-14.7"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-cis-csc-8-1": [

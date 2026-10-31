@@ -203,6 +203,9 @@
     "MT-31": "Likely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "MON-08.3"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-csa-iot-2": [

@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PRI-19"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "emea-aut-dpa-2018": [

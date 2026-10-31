@@ -199,6 +199,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "QTS-04.2"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-nist-800-218": [

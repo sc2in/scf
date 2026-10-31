@@ -202,6 +202,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -436,6 +437,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-01"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1210,6 +1214,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-03.1"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1613,6 +1620,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-03"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2128,6 +2138,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "TPM-03.3"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2454,6 +2467,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-03.2"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2756,6 +2772,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-19.3"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "emea-esp-decree-311-2022": [
@@ -2977,6 +2996,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "SEA-02.2"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -3196,6 +3218,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "TDA-03.1"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -3451,6 +3476,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-03.4"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -3669,6 +3697,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-01.1"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4111,6 +4142,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-02"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4590,6 +4624,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-04.1"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -5157,6 +5194,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-05.4"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5632,6 +5672,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-04"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6165,6 +6208,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-04.3"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6439,6 +6485,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-04.4"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6804,6 +6853,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-05.3"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-nist-csf-2-0": [
@@ -7014,6 +7066,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-04.2"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -7306,6 +7361,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-06"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7606,6 +7664,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-05"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -8656,6 +8717,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "TPM-05.2"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -9092,6 +9156,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "BCD-10.3"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9359,6 +9426,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-08"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9968,6 +10038,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-05.5"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10289,6 +10362,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-10"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10681,6 +10757,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-09"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -10988,6 +11067,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-05.7"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -11315,6 +11397,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-12"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -11519,6 +11604,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-12.1"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -11720,6 +11808,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "TPM-12.2"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -11936,6 +12027,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-11"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12256,6 +12350,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-05.1"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12611,6 +12708,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-05.6"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12889,6 +12989,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "TPM-05.8"
+      ],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "general-iso-21434-2021": [
@@ -13189,6 +13292,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {
         "emea-lux-cssf-22-806": [
@@ -13402,6 +13506,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -13618,6 +13723,7 @@
         "MT-31": "Possible"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -13833,6 +13939,7 @@
         "MT-31": "Possible"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -14043,6 +14150,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -14252,6 +14360,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -14464,6 +14573,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     },
@@ -14682,6 +14792,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Third-Party Management",
       "crosswalks": {}
     }

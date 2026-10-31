@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CFG-09.3"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "emea-sau-ecc-1-2018": [

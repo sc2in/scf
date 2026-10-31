@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TPM-05.8"
+  ],
   "family_name": "Third-Party Management",
   "crosswalks": {
     "general-iso-21434-2021": [

@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-01.4"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "usa-federal-dow-zt-roadmap-1-1": [

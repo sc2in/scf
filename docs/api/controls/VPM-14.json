@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "VPM-06.6"
+  ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

@@ -198,6 +198,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-01.1"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-bsi-200-1-1-0": [

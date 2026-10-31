@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "CPL-01.7"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "usa-federal-law-sox-2002": [

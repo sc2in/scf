@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-05.1"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-iec-62443-4-2-2019": [

@@ -197,6 +197,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Third-Party Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

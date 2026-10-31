@@ -199,6 +199,7 @@
     "MT-31": "Likely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-mitre-att_ck-16-1": [

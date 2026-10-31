@@ -188,6 +188,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CRY-11"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "general-nist-800-53-r4": [

@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "GOV-15.5"
+  ],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "general-iso-27001-2022": [

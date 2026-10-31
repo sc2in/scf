@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "WEB-02"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-iso-27002-2022": [

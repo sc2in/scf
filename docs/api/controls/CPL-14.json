@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CPL-09"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "usa-state-mt-cdpa-2025": [

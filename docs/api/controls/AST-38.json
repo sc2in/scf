@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "SEA-02.3"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-nist-100-1-ai-rmf": [

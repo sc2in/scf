@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SAT-05"
+  ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "usa-federal-dhs-cisa-cpg-2-0": [

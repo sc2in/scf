@@ -203,6 +203,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-01.15"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-cis-csc-8-1": [

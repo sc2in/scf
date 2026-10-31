@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "CLD-13.1"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {}
 }

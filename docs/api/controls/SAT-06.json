@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "SAT-03.6"
+  ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

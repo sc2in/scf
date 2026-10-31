@@ -209,6 +209,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AST-05"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

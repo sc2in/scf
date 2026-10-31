@@ -176,6 +176,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "CPL-04"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

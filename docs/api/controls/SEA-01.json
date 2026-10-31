@@ -192,6 +192,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "general-iso-27002-2022": [

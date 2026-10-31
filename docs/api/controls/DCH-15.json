@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-06.5"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-pci-dss-4-0-1": [

@@ -189,6 +189,9 @@
     "MT-31": "Likely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "TDA-02.2"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-govramp": [

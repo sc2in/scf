@@ -191,6 +191,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "MDM-06"
+  ],
   "family_name": "Mobile Device Management",
   "crosswalks": {
     "general-csa-iot-2": [

@@ -204,6 +204,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-12.2"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

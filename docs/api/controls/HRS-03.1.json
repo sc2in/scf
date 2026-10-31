@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-02.1"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-coso-2013": [

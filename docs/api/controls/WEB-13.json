@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "WEB-14"
+  ],
   "family_name": "Web Security",
   "crosswalks": {
     "general-nist-800-171-r3": [

@@ -194,6 +194,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Capacity & Performance Planning",
       "crosswalks": {
         "emea-deu-c5-2026": [
@@ -418,6 +419,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CAP-01"
+      ],
       "family_name": "Capacity & Performance Planning",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -839,6 +843,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "CAP-03"
+      ],
       "family_name": "Capacity & Performance Planning",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1201,6 +1208,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CAP-02"
+      ],
       "family_name": "Capacity & Performance Planning",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1535,6 +1545,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CAP-04"
+      ],
       "family_name": "Capacity & Performance Planning",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1785,6 +1798,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CAP-05"
+      ],
       "family_name": "Capacity & Performance Planning",
       "crosswalks": {
         "general-nist-csf-2-0": [
@@ -1997,6 +2013,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CAP-06"
+      ],
       "family_name": "Capacity & Performance Planning",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -2204,6 +2223,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Capacity & Performance Planning",
       "crosswalks": {
         "general-govramp": [

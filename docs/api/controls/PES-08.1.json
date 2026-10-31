@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "PES-19"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "emea-gbr-def-stan-05-138-2024": [

@@ -204,6 +204,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Compliance",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -418,6 +419,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-01"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1416,6 +1420,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-01.2"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1792,6 +1799,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-01.3"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-bsi-200-1-1-0": [
@@ -2128,6 +2138,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-01.4"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-bsi-200-1-1-0": [
@@ -2464,6 +2477,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-01.7"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "usa-federal-law-sox-2002": [
@@ -2675,6 +2691,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-01.8"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "usa-federal-law-sox-2002": [
@@ -2891,6 +2910,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-01.5"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-cobit-2019": [
@@ -3163,6 +3185,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "CPL-03"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3783,6 +3808,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-03.2"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -4303,6 +4331,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "CPL-01.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -4686,6 +4717,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "CPL-02.3"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-iso-29100-2024": [
@@ -4935,6 +4969,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "CPL-02"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -5809,6 +5846,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-02.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6198,6 +6238,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-02.2"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-cobit-2019": [
@@ -6471,6 +6514,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "CPL-04"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6718,6 +6764,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-03.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-cobit-2019": [
@@ -7081,6 +7130,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-01.6"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "usa-federal-ffiec-iteh-2016": [
@@ -7311,6 +7363,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-03.3"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "usa-federal-tsa-sd-pipeline-2021-02f": [
@@ -7529,6 +7584,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-03.4"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "emea-lux-cssf-22-806": [
@@ -7719,6 +7777,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-03.5"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "usa-federal-ffiec-iteh-2016": [
@@ -7908,6 +7969,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-19.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -8103,6 +8167,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-09"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "usa-state-mt-cdpa-2025": [
@@ -8305,6 +8372,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-10"
+      ],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -8498,6 +8568,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-03.6"
+      ],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -8691,6 +8764,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-03.7"
+      ],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -8898,6 +8974,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-03.8"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "apac-mys-bnm-rmit-2025": [
@@ -9100,6 +9179,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-05"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9323,6 +9405,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-05.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9526,6 +9611,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-05.2"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9766,6 +9854,9 @@
         "MT-31": "Possible"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-06"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "emea-deu-c5-2026": [
@@ -9985,6 +10076,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "PRI-16"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-shared-assessments-sig-2025": [
@@ -10194,6 +10288,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-07"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "emea-eu-cyber-resilience-act-2024": [
@@ -10429,6 +10526,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-07.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "apac-ind-dpdpa-2023": [
@@ -10648,6 +10748,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-08"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "emea-che-fadp-2025": [
@@ -10877,6 +10980,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-08.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -11091,6 +11197,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-11"
+      ],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -11289,6 +11398,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-11.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -11499,6 +11611,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-11.2"
+      ],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -11705,6 +11820,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-11.3"
+      ],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -11897,6 +12015,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-12"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-iso-27701-2025": [
@@ -12096,6 +12217,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CPL-13"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-iso-21434-2021": [
@@ -12359,6 +12483,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-13.1"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "emea-lux-cssf-22-806": [
@@ -12560,6 +12687,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CPL-13.2"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "emea-lux-cssf-22-806": [
@@ -12760,6 +12890,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-17"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13182,6 +13315,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AAT-21"
+      ],
       "family_name": "Compliance",
       "crosswalks": {
         "emea-eu-ai-act-2024": [
@@ -13391,6 +13527,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Compliance",
       "crosswalks": {}
     },
@@ -13590,6 +13727,7 @@
         "MT-31": "Possible"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Compliance",
       "crosswalks": {
         "general-csa-iot-2": [

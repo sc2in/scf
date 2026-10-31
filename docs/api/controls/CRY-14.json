@@ -181,6 +181,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CRY-13"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "usa-federal-dow-cmmc-2-level-3": [

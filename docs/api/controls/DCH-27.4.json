@@ -179,6 +179,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "MDM-08"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "apac-ind-rbi-dpsc-2021": [

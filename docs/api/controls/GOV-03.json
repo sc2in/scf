@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "SEA-01.1"
+  ],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

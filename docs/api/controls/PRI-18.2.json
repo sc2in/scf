@@ -183,6 +183,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PRI-07.5"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

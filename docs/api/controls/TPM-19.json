@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TPM-05.7"
+  ],
   "family_name": "Third-Party Management",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

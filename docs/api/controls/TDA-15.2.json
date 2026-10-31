@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-08.1"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-cobit-2019": [

@@ -192,6 +192,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -399,6 +400,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-01"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -941,6 +945,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-01.1"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1251,6 +1258,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAO-02"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1843,6 +1853,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "IAO-03.1"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2145,6 +2158,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "IAO-02.2"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2504,6 +2520,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-02.1"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2787,6 +2806,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-02.3"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-govramp": [
@@ -3035,6 +3057,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-03.2"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -3324,6 +3349,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-03"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3945,6 +3973,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-04"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4325,6 +4356,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "IAO-06"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4703,6 +4737,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-05"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5251,6 +5288,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-05.1"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -5460,6 +5500,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-02.4"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-cobit-2019": [
@@ -5722,6 +5765,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAO-07"
+      ],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6135,6 +6181,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Information Assurance",
       "crosswalks": {
         "general-nist-800-53-r5-2": [

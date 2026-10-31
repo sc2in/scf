@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CPL-07"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "emea-eu-cyber-resilience-act-2024": [

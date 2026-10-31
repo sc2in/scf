@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-04"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-govramp": [

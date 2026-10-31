@@ -193,6 +193,11 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old END-03 & NET 15.3",
+  "legacy_ids": [
+    "END-03",
+    "CHG-04.4",
+    "NET-15.3"
+  ],
   "family_name": "Change Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

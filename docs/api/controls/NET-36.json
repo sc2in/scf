@@ -205,6 +205,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "CLD-04.1"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "usa-federal-dow-zt-roadmap-1-1": [

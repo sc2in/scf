@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MDM-05"
+  ],
   "family_name": "Mobile Device Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

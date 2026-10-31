@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-16.5"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-iec-62443-3-3-2013": [

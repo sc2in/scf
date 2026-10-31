@@ -190,6 +190,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "VPM-05.8"
+  ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
     "general-iec-62443-2-1-2024": [

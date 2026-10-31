@@ -204,6 +204,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "GOV-20.1"
+  ],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {}
 }

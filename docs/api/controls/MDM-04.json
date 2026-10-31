@@ -194,6 +194,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MDM-03"
+  ],
   "family_name": "Mobile Device Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

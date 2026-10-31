@@ -195,6 +195,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -444,6 +445,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-01"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1203,6 +1207,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-10"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1471,6 +1478,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-10.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -1686,6 +1696,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-02"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2202,6 +2215,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-02.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -2427,6 +2443,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-11"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2663,6 +2682,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-06.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2954,6 +2976,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-06.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -3183,6 +3208,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-01.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3501,6 +3529,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "DCH-01.4"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3856,6 +3887,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-01.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -4386,6 +4420,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-03"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4742,6 +4779,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-10.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -4965,6 +5005,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-14"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5308,6 +5351,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-03.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -5810,6 +5856,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-03.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -6032,6 +6081,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-23.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -6236,6 +6288,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-14.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -6483,6 +6538,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-01.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -6703,6 +6761,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-04"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-govramp": [
@@ -7106,6 +7167,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-04.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -7359,6 +7423,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-03.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -7605,6 +7672,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-06.4"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -7840,6 +7910,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-06"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-govramp": [
@@ -8220,6 +8293,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "BCD-02.4"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8445,6 +8521,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-06.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -8703,6 +8782,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-06.5"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -8972,6 +9054,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-07"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9386,6 +9471,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-07.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9697,6 +9785,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-07.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -10014,6 +10105,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old DCH-21",
+      "legacy_ids": [
+        "DCH-08",
+        "DCH-21"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10534,6 +10629,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-09.5"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -10752,6 +10850,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-09"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11270,6 +11371,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-09.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11589,6 +11693,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-09.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-govramp": [
@@ -11905,6 +12012,9 @@
         "MT-31": "Possible"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-09.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-govramp": [
@@ -12147,6 +12257,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-09.4"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-govramp": [
@@ -12376,6 +12489,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-10"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12726,6 +12842,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-13.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13037,6 +13156,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-10.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-govramp": [
@@ -13321,6 +13443,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-12"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -13640,6 +13765,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-13"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14072,6 +14200,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-13.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -14406,6 +14537,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-13.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -14653,6 +14787,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-13.4"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -14889,6 +15026,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-14.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -15104,6 +15244,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "BCD-12.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [
@@ -15308,6 +15451,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-15"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-govramp": [
@@ -15641,6 +15787,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-16"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -15906,6 +16055,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-17"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -16162,6 +16314,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-14.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -16429,6 +16584,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-18"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -17037,6 +17195,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-18.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-iec-tr-60601-4-5-2021": [
@@ -17283,6 +17444,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-20"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -17470,6 +17634,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-23.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -17661,6 +17828,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "MDM-08"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "apac-ind-rbi-dpsc-2021": [
@@ -17858,6 +18028,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-18.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -18118,6 +18291,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-24"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -18378,6 +18554,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-24.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -18628,6 +18807,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-19"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -18924,6 +19106,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "CLD-09"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -19238,6 +19423,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-26"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "emea-lux-cssf-22-806": [
@@ -19472,6 +19660,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-25"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -19737,6 +19928,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-22"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -20013,6 +20207,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "PRI-13"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -20245,6 +20442,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "PRI-10"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -20508,6 +20708,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "PRI-10.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -20702,6 +20905,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "PRI-11"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -20911,6 +21117,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "DCH-22.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -21118,6 +21327,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "PRI-10.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-scf-dpmp-2026": [
@@ -21319,6 +21531,10 @@
         "MT-31": "Possible"
       },
       "errata": "- merged old PRI-05.3",
+      "legacy_ids": [
+        "DCH-23",
+        "PRI-05.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -21663,6 +21879,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-23.7"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -21853,6 +22072,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "DCH-23.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -22051,6 +22273,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-23.4"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -22255,6 +22480,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-23.5"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -22449,6 +22677,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-23.8"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -22645,6 +22876,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "DCH-23.6"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -22843,6 +23077,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -23111,6 +23348,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.1"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -23312,6 +23552,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.2"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -23508,6 +23751,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.3"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -23706,6 +23952,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.4"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -23910,6 +24159,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.5"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -24116,6 +24368,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.6"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -24324,6 +24579,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.7"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -24529,6 +24787,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.8"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -24732,6 +24993,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.9"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -24939,6 +25203,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.10"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -25146,6 +25413,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-05.11"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {}
     },
@@ -25326,6 +25596,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-23.9"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -25537,6 +25810,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "DCH-27"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "usa-federal-dow-zta-reference-architecture-2-0": [
@@ -25770,6 +26046,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "NET-17"
+      ],
       "family_name": "Data Classification & Handling",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -26133,6 +26412,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Data Classification & Handling",
       "crosswalks": {}
     }

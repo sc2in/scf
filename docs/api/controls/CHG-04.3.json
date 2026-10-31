@@ -189,6 +189,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old HRS-12.1",
+  "legacy_ids": [
+    "CHG-04.3",
+    "HRS-12.1"
+  ],
   "family_name": "Change Management",
   "crosswalks": {
     "general-govramp": [

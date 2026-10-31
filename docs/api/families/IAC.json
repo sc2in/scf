@@ -195,6 +195,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -522,6 +523,9 @@
         "MT-31": "Possible"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "IAC-01"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1373,6 +1377,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-01.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1910,6 +1917,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-02.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -2234,6 +2244,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-01.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -2471,6 +2484,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-01.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-172-r3": [
@@ -2687,6 +2703,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-07"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3135,6 +3154,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-07.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3471,6 +3493,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-07.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -3871,6 +3896,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-28"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -4202,6 +4230,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "IAC-10.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -4430,6 +4461,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-28.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -4673,6 +4707,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-28.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -4922,6 +4959,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-28.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -5141,6 +5181,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-28.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -5381,6 +5424,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-08"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6020,6 +6066,10 @@
         "MT-31": "Possible"
       },
       "errata": "- merged old IAC-15.8",
+      "legacy_ids": [
+        "IAC-15.8",
+        "IAC-29"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -6308,6 +6358,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-29.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -6509,6 +6562,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-29.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -6724,6 +6780,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7553,6 +7612,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -7961,6 +8023,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-20.7"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -8180,6 +8245,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-01.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -8421,6 +8489,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8772,6 +8843,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.6"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -9037,6 +9111,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -9292,6 +9369,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.10"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-federal-law-33-cfr-part-101-subpart-f": [
@@ -9486,6 +9566,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.9"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -9708,6 +9791,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-28.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10006,6 +10092,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-21.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -10330,6 +10419,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-16"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10802,6 +10894,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-16.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -11080,6 +11175,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-16.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-federal-law-33-cfr-part-101-subpart-f": [
@@ -11281,6 +11379,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-16.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "emea-eu-dora-rts-2024": [
@@ -11486,6 +11587,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-16.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -11685,6 +11789,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-16.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iec-62443-3-3-2013": [
@@ -11889,6 +11996,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.9"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12114,6 +12224,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -12390,6 +12503,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-17"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12851,6 +12967,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.7"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13100,6 +13219,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-09.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13397,6 +13519,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-09"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13828,6 +13953,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-09.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -14076,6 +14204,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "HRS-04.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "apac-aus-ism-2026-june": [
@@ -14268,6 +14399,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-09.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -14477,6 +14611,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-09.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -14695,6 +14832,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-09.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -14913,6 +15053,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-09.6"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -15134,6 +15277,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -15807,6 +15953,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.13"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iec-62443-2-1-2024": [
@@ -16021,6 +16170,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -16391,6 +16543,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.6"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -16673,6 +16828,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.8"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -17116,6 +17274,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "IAC-10.10"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -17347,6 +17508,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -17903,6 +18067,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -18225,6 +18392,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.11"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -18504,6 +18674,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.14"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-state-ca-ccpa-cpra-2026": [
@@ -18707,6 +18880,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.12"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -18922,6 +19098,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -19242,6 +19421,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-10.7"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -19541,6 +19723,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-11"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -19866,6 +20051,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-15.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -20180,6 +20368,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-02.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -20439,6 +20630,9 @@
         "MT-31": "Possible"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "IAC-18"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -20720,6 +20914,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-19"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -20969,6 +21166,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-27"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -21177,6 +21377,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-20"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -21980,6 +22183,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-20.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -22286,6 +22492,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-20.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iso-27002-2022": [
@@ -22511,6 +22720,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-20.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -22763,6 +22975,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-20.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -22995,6 +23210,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-20.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iec-62443-2-1-2024": [
@@ -23217,6 +23435,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-20.6"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -23473,6 +23694,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-21"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -24389,6 +24613,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-21.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -24679,6 +24906,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-21.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -24945,6 +25175,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-21.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -25259,6 +25492,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-21.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -25541,6 +25777,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-21.6"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -25754,6 +25993,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-21.7"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -25968,6 +26210,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-26"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -26257,6 +26502,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-02"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -26944,6 +27192,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-02.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -27152,6 +27403,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-02.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -27428,6 +27682,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-03"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -27820,6 +28077,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-03.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -28078,6 +28338,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-03.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -28266,6 +28529,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-03.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -28466,6 +28732,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-03.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -28700,6 +28969,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-03.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -28954,6 +29226,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-04"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -29367,6 +29642,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-04.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -29572,6 +29850,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-04.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iec-tr-60601-4-5-2021": [
@@ -29777,6 +30058,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "MDM-02"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -30162,6 +30446,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-05"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -30476,6 +30763,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-05.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -30691,6 +30981,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-05.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -30931,6 +31224,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-06"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -31549,6 +31845,7 @@
         "MT-31": "Possible"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -31778,6 +32075,7 @@
         "MT-31": "Likely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -32024,6 +32322,9 @@
         "MT-31": "Possible"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-06.4"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -32362,6 +32663,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-06.5"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -32575,6 +32879,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-06.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -32978,6 +33285,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-06.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -33329,6 +33639,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "IAC-06.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -33684,6 +33997,10 @@
         "MT-31": "Likely"
       },
       "errata": "- merged old CRY-02",
+      "legacy_ids": [
+        "CRY-02",
+        "IAC-12"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -33978,6 +34295,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-12.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iec-62443-3-3-2013": [
@@ -34204,6 +34524,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-13.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -34420,6 +34743,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-13"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -34649,6 +34975,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-13.3"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [
@@ -34853,6 +35182,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-14"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -35141,6 +35473,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-30"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iec-62443-2-1-2024": [
@@ -35341,6 +35676,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "IAC-13.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -35557,6 +35895,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "NET-09.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-govramp": [
@@ -35762,6 +36103,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "NET-09.2"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-iec-62443-3-3-2013": [
@@ -35972,6 +36316,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "CLD-15"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "usa-federal-dow-zt-roadmap-1-1": [
@@ -36177,6 +36524,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "CFG-08"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -36413,6 +36763,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "CFG-08.1"
+      ],
       "family_name": "Identification & Authentication",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -36625,6 +36978,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Identification & Authentication",
       "crosswalks": {}
     },
@@ -36817,6 +37171,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Identification & Authentication",
       "crosswalks": {}
     },
@@ -37012,6 +37367,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Identification & Authentication",
       "crosswalks": {}
     },
@@ -37212,6 +37568,7 @@
         "MT-31": "Possible"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Identification & Authentication",
       "crosswalks": {}
     }

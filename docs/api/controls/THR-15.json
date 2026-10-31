@@ -191,6 +191,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old IRO-02.2",
+  "legacy_ids": [
+    "IRO-02.2",
+    "THR-04"
+  ],
   "family_name": "Threat Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

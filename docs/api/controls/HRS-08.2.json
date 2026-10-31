@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-05.7"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-iso-27001-2022": [

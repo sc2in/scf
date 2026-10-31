@@ -180,6 +180,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SEA-11"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "general-mitre-att_ck-16-1": [

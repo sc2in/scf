@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "PRI-03.7"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-iso-29100-2024": [

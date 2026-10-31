@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PRI-01.5"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-tisax-6-0-3": [

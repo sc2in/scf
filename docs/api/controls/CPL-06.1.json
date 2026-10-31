@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "CPL-02.3"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "general-iso-29100-2024": [

@@ -199,6 +199,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-26"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "emea-lux-cssf-22-806": [

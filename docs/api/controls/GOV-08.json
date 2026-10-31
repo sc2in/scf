@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "GOV-21"
+  ],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "emea-che-finma-circ-23-1": [

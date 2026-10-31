@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AST-28.1"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-swift-cscf-2025": [

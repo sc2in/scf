@@ -180,6 +180,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PRI-03.13"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "usa-federal-law-coppa-2024": [

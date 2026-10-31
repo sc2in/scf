@@ -202,6 +202,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CPL-03.8"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "apac-mys-bnm-rmit-2025": [

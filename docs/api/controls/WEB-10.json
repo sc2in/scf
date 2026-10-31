@@ -180,6 +180,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "WEB-11"
+  ],
   "family_name": "Web Security",
   "crosswalks": {
     "apac-aus-ism-2026-june": [

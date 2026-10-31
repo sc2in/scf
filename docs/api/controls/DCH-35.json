@@ -180,6 +180,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "PRI-10.2"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-scf-dpmp-2026": [

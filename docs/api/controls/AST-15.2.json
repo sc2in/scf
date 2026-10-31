@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "AST-31.1"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-nist-100-1-ai-rmf": [

@@ -177,6 +177,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SEA-22"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "apac-aus-essential-8-2024": [

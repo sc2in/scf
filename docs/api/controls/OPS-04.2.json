@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "AST-28"
+  ],
   "family_name": "Security Operations",
   "crosswalks": {
     "general-swift-cscf-2025": [

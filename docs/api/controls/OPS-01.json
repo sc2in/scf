@@ -188,6 +188,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Security Operations",
   "crosswalks": {
     "emea-eu-eba-ict-srm-2025": [

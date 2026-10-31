@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-06.3"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-cis-csc-8-1": [

@@ -190,6 +190,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "CLD-10"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

@@ -182,6 +182,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-30"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-iec-62443-2-1-2024": [

@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CFG-09.1"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "emea-eu-dora-rts-2024": [

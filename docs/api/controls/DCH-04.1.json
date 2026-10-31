@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-02.1"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-cis-csc-8-1": [

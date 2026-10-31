@@ -197,6 +197,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AST-02"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

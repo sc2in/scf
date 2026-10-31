@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-15"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-mitre-att_ck-16-1": [

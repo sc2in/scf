@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CPL-07.1"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "apac-ind-dpdpa-2023": [

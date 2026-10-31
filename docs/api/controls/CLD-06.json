@@ -188,6 +188,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CLD-03"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

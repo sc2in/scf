@@ -22,7 +22,7 @@ from pathlib import Path
 from . import jsonio
 from .normalize import norm_key, split_multivalue
 from .overrides import Override
-from .parse import IdOccurrence, ParseResult, Ref
+from .parse import LEGACY_MAP_FILE, IdOccurrence, ParseResult, Ref
 
 FAIL = "fail"
 WARN = "warn"
@@ -40,6 +40,14 @@ _REF_TARGET = {
 }
 
 CATALOG_RE = re.compile(r"scf-\d{4}-\d+(?:-\d+)*\.json$")
+
+# Control counts of past releases (tests/test_integration_real.py GROUND_TRUTH).
+# When the previous catalog itself is not at hand (JSON-input mode), a legacy
+# map's old-id set must at least be exactly this large.
+RELEASE_CONTROL_COUNTS = {
+    "2026.1.1": 1468,
+    "2026.2": 1534,
+}
 
 
 @dataclass
@@ -93,6 +101,7 @@ def validate_result(
     _check_dup_ids(result.ids, outcome)
     _check_refs(result, id_spaces, overrides, outcome)
     _check_manifest(result.manifest, outcome)
+    _check_legacy(result, outcome)
 
     used = set(outcome.overrides_used)
     for ov in overrides:
@@ -253,6 +262,119 @@ def _check_manifest(manifest: dict, outcome: ValidationOutcome) -> None:
                 message=f"crosswalk column {col!r} matched no Authoritative Sources row",
                 owner="",
                 value=col,
+            )
+        )
+
+
+def _check_legacy(result: ParseResult, outcome: ValidationOutcome) -> None:
+    """The legacy (old -> new id) map must be a function onto real controls
+    that covers the previous release exactly, and agree with controls[].legacy_ids."""
+    catalog = result.files.get(result.catalog_name, {})
+    controls = catalog.get("controls", [])
+    legacy = result.files.get(LEGACY_MAP_FILE)
+    carriers = [c for c in controls if "legacy_ids" in c]
+
+    def fail(check: str, message: str, owner: str = "", value: str = "") -> None:
+        outcome.findings.append(
+            Finding(check=check, severity=FAIL, message=message, owner=owner, value=value)
+        )
+
+    if not carriers:
+        if legacy is not None:
+            fail("legacy-map-drift", f"{LEGACY_MAP_FILE} present but no control has legacy_ids")
+        return
+    if legacy is None:
+        fail("legacy-map-drift", f"controls carry legacy_ids but {LEGACY_MAP_FILE} is missing")
+        return
+
+    # Old id -> every control claiming it. More than one = not a function.
+    owners: dict[str, list[str]] = {}
+    for c in carriers:
+        for old in c["legacy_ids"]:
+            owners.setdefault(old, []).append(c["control_id"])
+    for old, news in owners.items():
+        if len(news) > 1:
+            fail(
+                "legacy-map-split",
+                f"old id {old!r} maps to several new controls: {news}",
+                owner=old,
+                value=", ".join(news),
+            )
+
+    mapping: dict[str, dict] = legacy.get("map", {})
+    control_ids = {c["control_id"] for c in controls}
+    for old, entry in mapping.items():
+        if entry["new"] not in control_ids:
+            fail(
+                "legacy-map-target",
+                f"old id {old!r} maps to {entry['new']!r}, which is not a "
+                f"{result.version} control",
+                owner=old,
+                value=entry["new"],
+            )
+
+    # The map must be exactly what controls[].legacy_ids say.
+    by_new = {c["control_id"]: c["legacy_ids"] for c in carriers}
+    if set(mapping) != set(owners):
+        diff = sorted(set(mapping) ^ set(owners))
+        fail("legacy-map-drift", f"map keys differ from controls[].legacy_ids: {diff[:10]}")
+    for old, entry in mapping.items():
+        news = owners.get(old)
+        if not news:
+            continue
+        olds = by_new.get(entry["new"], [])
+        if entry["new"] != news[0] or entry["merged"] != (len(olds) > 1):
+            fail(
+                "legacy-map-drift",
+                f"map entry {old!r} -> {entry} disagrees with controls[].legacy_ids",
+                owner=old,
+                value=entry["new"],
+            )
+
+    if legacy.get("to_version") != result.version:
+        fail(
+            "legacy-map-drift",
+            f"legacy map to_version {legacy.get('to_version')!r} != {result.version!r}",
+        )
+
+    # Coverage: the old ids are exactly the previous release's control ids.
+    from_version = legacy.get("from_version")
+    previous = result.previous
+    olds = set(mapping)
+    if previous is not None and previous.control_ids is not None:
+        missing = sorted(previous.control_ids - olds)
+        extra = sorted(olds - previous.control_ids)
+        if missing:
+            fail(
+                "legacy-map-coverage",
+                f"{len(missing)} {previous.version} control(s) have no new id: {missing[:10]}",
+                value=", ".join(missing[:10]),
+            )
+        if extra:
+            fail(
+                "legacy-map-coverage",
+                f"{len(extra)} legacy id(s) are not {previous.version} controls: {extra[:10]}",
+                value=", ".join(extra[:10]),
+            )
+    elif from_version in RELEASE_CONTROL_COUNTS:
+        want = RELEASE_CONTROL_COUNTS[from_version]
+        if len(olds) != want:
+            fail(
+                "legacy-map-coverage",
+                f"legacy map covers {len(olds)} old ids; SCF {from_version} had {want} controls",
+                value=str(len(olds)),
+            )
+    elif from_version is not None:
+        outcome.findings.append(
+            Finding(
+                check="legacy-map-coverage",
+                severity=WARN,
+                message=(
+                    f"no {from_version} catalog or recorded control count: old-id coverage "
+                    f"of the legacy map is unchecked"
+                ),
+                owner="",
+                value=str(from_version),
             )
         )
 

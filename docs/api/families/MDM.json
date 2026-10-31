@@ -197,6 +197,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-iso-27017-2015": [
@@ -429,6 +430,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MDM-01"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -792,6 +796,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MDM-11"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-iec-62443-3-3-2013": [
@@ -1012,6 +1019,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MDM-03"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1309,6 +1319,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MDM-10"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -1512,6 +1525,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "MDM-06"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -1752,6 +1768,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "MDM-07"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -1975,6 +1994,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MDM-09"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -2176,6 +2198,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MDM-05"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -2452,6 +2477,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "MDM-04"
+      ],
       "family_name": "Mobile Device Management",
       "crosswalks": {
         "general-nist-800-53-r4": [

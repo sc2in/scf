@@ -202,6 +202,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "EMB-02"
+  ],
   "family_name": "Embedded Technology",
   "crosswalks": {
     "emea-sau-cgiot-2024": [

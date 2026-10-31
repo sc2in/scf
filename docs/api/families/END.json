@@ -195,6 +195,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -404,6 +405,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-01"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -860,6 +864,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "END-02"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -1300,6 +1307,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old END-08.1",
+      "legacy_ids": [
+        "END-04.3",
+        "END-08.1"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -1565,6 +1576,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old END-08.2",
+      "legacy_ids": [
+        "END-04.1",
+        "END-08.2"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2024,6 +2039,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "END-04.6"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -2240,6 +2258,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-06.7"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -2473,6 +2494,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed",
+      "legacy_ids": [
+        "END-04"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3342,6 +3366,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "END-04.7"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3669,6 +3696,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "END-04.4"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -3982,6 +4012,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "END-04.5"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-iec-62443-2-1-2024": [
@@ -4177,6 +4210,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "END-04.2"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -4392,6 +4428,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-05"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -4639,6 +4678,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-01.1"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -4866,6 +4908,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "END-06.2"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5191,6 +5236,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-06.8"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-nist-800-172-r3": [
@@ -5416,6 +5464,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-06"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5981,6 +6032,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "END-06.1"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6280,6 +6334,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-06.3"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-govramp": [
@@ -6501,6 +6558,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-06.4"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-govramp": [
@@ -6725,6 +6785,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-06.5"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-iec-62443-4-2-2019": [
@@ -6944,6 +7007,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-06.6"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-iec-62443-4-2-2019": [
@@ -7189,6 +7255,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-07"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7449,6 +7518,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "END-10"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-govramp": [
@@ -7846,6 +7918,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "END-14"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-govramp": [
@@ -8128,6 +8203,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed",
+      "legacy_ids": [
+        "END-14.1"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -8337,6 +8415,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "END-14.2"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -8544,6 +8625,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "END-14.3"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [
@@ -8738,6 +8822,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "END-14.4"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [
@@ -8939,6 +9026,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "END-14.5"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [
@@ -9135,6 +9225,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "END-14.6"
+      ],
       "family_name": "Endpoint Security",
       "crosswalks": {
         "general-nist-800-171-r3": [

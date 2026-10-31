@@ -182,6 +182,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "NET-03.3"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-iso-27002-2022": [

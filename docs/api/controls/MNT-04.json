@@ -211,6 +211,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MNT-03"
+  ],
   "family_name": "Maintenance",
   "crosswalks": {
     "general-csa-iot-2": [

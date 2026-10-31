@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "DCH-18.3"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "apac-ind-rbi-dpsc-2021": [

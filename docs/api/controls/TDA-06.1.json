@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-21"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-nist-600-1-gen-ai-profile": [

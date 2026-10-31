@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "BCD-10.3"
+  ],
   "family_name": "Third-Party Management",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

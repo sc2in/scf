@@ -198,6 +198,7 @@
         "MT-31": "Possible"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "emea-deu-c5-2026": [
@@ -416,6 +417,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-01"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -1243,6 +1247,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "CHG-02.5"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-govramp": [
@@ -1463,6 +1470,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-01.1"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1736,6 +1746,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-01.3"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -1949,6 +1962,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-01.5"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-nist-800-171-r3": [
@@ -2191,6 +2207,9 @@
         "MT-31": "Likely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "CRY-03"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2843,6 +2862,9 @@
         "MT-31": "Likely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "CRY-04"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3287,6 +3309,9 @@
         "MT-31": "Likely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "CRY-05"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3909,6 +3934,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "CRY-05.1"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4149,6 +4177,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "CRY-05.2"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -4346,6 +4377,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-05.3"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "usa-federal-ffiec-iteh-2016": [
@@ -4570,6 +4604,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-08"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4944,6 +4981,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "CRY-08.1"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-govramp": [
@@ -5188,6 +5228,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-09"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -5685,6 +5728,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-09.1"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5912,6 +5958,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-09.2"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6125,6 +6174,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-09.3"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6439,6 +6491,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-09.4"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6693,6 +6748,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "CRY-09.5"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "apac-mys-bnm-rmit-2025": [
@@ -6882,6 +6940,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-09.6"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-pci-dss-4-0-1": [
@@ -7090,6 +7151,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-09.7"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -7301,6 +7365,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-10"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-mitre-att_ck-16-1": [
@@ -7520,6 +7587,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-11"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -7733,6 +7803,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-12"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [
@@ -7933,6 +8006,9 @@
         "MT-31": "Likely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-13"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "usa-federal-dow-cmmc-2-level-3": [
@@ -8129,6 +8205,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "CRY-01.2"
+      ],
       "family_name": "Cryptographic Protections",
       "crosswalks": {
         "general-govramp": [

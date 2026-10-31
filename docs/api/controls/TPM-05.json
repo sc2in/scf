@@ -201,6 +201,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "GOV-19.3"
+  ],
   "family_name": "Third-Party Management",
   "crosswalks": {
     "emea-esp-decree-311-2022": [

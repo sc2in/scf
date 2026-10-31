@@ -188,6 +188,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-09.1"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

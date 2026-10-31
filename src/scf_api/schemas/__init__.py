@@ -16,6 +16,7 @@ _FILE_SCHEMAS = {
     "scf-compensating-controls.json": "compensating-controls.schema.json",
     "scf-crosswalks.json": "crosswalks.schema.json",
     "scf-evidence-requests.json": "evidence-requests.schema.json",
+    "scf-legacy-map.json": "legacy-map.schema.json",
     "scf-privacy-principles.json": "privacy-principles.schema.json",
     "scf-risks.json": "risks.schema.json",
     "scf-threats.json": "threats.schema.json",

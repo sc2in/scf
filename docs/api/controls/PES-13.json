@@ -224,6 +224,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PES-05"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

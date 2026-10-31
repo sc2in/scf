@@ -176,6 +176,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "END-13.3"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-iec-tr-60601-4-5-2021": [

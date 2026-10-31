@@ -190,6 +190,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Endpoint Security",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SEA-21"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "usa-federal-dhs-cisa-tic-3-0": [

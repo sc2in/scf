@@ -192,6 +192,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CPL-10"
+  ],
   "family_name": "Compliance",
   "crosswalks": {}
 }

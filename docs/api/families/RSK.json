@@ -193,6 +193,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -421,6 +422,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-01"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1271,6 +1275,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-01.2"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-iso-31000-2018": [
@@ -1491,6 +1498,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-12"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -1712,6 +1722,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-01.1"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2163,6 +2176,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-01.3"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2462,6 +2478,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-01.4"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2713,6 +2732,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-01.5"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3004,6 +3026,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "GOV-16.1"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -3231,6 +3256,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-13"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "emea-che-finma-circ-23-1": [
@@ -3438,6 +3466,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-13.2"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "emea-eu-dora-rts-2024": [
@@ -3643,6 +3674,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-02"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4047,6 +4081,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-02.1"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4335,6 +4372,9 @@
         "MT-30": "Unlikely",
         "MT-31": "Unlikely"
       },
+      "legacy_ids": [
+        "RSK-08"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4686,6 +4726,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-03"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5162,6 +5205,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-03.1"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5462,6 +5508,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-03.2"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "emea-deu-bsrit-2017": [
@@ -5687,6 +5736,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-04.2"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-iso-27701-2025": [
@@ -6007,6 +6059,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-04"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6802,6 +6857,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-04.3"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-mpa-csbp-5-3-1": [
@@ -7061,6 +7119,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-07"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-coso-2013": [
@@ -7344,6 +7405,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-04.4"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-scf-dpmp-2026": [
@@ -7570,6 +7634,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-04.1"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7957,6 +8024,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-05"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8253,6 +8323,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-06.1"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -8692,6 +8765,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "RSK-06.3"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-iso-21434-2021": [
@@ -9000,6 +9076,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-06"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9500,6 +9579,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-06.4"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-cobit-2019": [
@@ -9803,6 +9885,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-13.1"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "apac-mys-bnm-rmit-2025": [
@@ -10011,6 +10096,10 @@
         "MT-31": "Unlikely"
       },
       "errata": "- merged old BCD-07",
+      "legacy_ids": [
+        "BCD-07",
+        "RSK-06.2"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10480,6 +10569,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-10"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -11083,6 +11175,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-09"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11626,6 +11721,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "RSK-09.2"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-nist-100-1-ai-rmf": [
@@ -11844,6 +11942,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "RSK-09.1"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12275,6 +12376,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "RSK-11"
+      ],
       "family_name": "Risk Management",
       "crosswalks": {
         "general-nist-800-39": [

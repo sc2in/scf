@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "END-04.5"
+  ],
   "family_name": "Endpoint Security",
   "crosswalks": {
     "general-iec-62443-2-1-2024": [

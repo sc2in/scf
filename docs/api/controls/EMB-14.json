@@ -190,6 +190,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "EMB-11"
+  ],
   "family_name": "Embedded Technology",
   "crosswalks": {
     "general-csa-iot-2": [

@@ -198,6 +198,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "GOV-03"
+  ],
   "family_name": "Security, Compliance & Resilience Governance",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

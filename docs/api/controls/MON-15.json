@@ -177,6 +177,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-02.9"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "emea-eu-nis2-annex-2024": [

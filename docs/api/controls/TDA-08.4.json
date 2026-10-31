@@ -186,6 +186,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old TDA-02.1",
+  "legacy_ids": [
+    "TDA-02.1",
+    "TDA-02.5"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

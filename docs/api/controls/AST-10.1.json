@@ -188,6 +188,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AST-01.5"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "usa-federal-law-33-cfr-part-101-subpart-f": [

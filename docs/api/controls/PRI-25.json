@@ -186,6 +186,9 @@
     "MT-31": "Possible"
   },
   "errata": "- wordsmithed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "WEB-05"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-mitre-att_ck-16-1": [

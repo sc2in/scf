@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CFG-04"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-govramp": [

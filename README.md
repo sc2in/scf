@@ -31,6 +31,7 @@ Static JSON, no auth. Base URL: the GitHub Pages deployment of `docs/`.
 | `api/assessment-objectives[.json\|/{SCF_ID}.json]` | assessment objectives |
 | `api/evidence-requests[.json\|/{ERL_ID}.json]` | evidence request list |
 | `api/risks/…`, `api/threats/…`, `api/compensating-controls/…`, `api/privacy-principles.json` | catalogs |
+| `api/legacy-map.json` | previous-release → current control ids (2026.3+) |
 
 Or consume `data/*.json` directly (praxis-style) via a flake input / submodule.
 
@@ -42,8 +43,16 @@ reference to a 2026.2 (or older) control id — policies, mappings, assessments,
 policypress / grc imports — must be migrated before it is trusted against 2026.3 data.
 
 - The workbook's `Legacy SCF #` column (and its `READ THIS` tab, which lists deprecated
-  controls and where they merged) is the authoritative old→new map. **This API does not
-  emit it yet**, so migrate from the workbook, or ask for a `legacy_ids` field.
+  controls and where they merged) is the authoritative old→new map, and this API emits it:
+  - `controls[].legacy_ids` — the 2026.2 ids each 2026.3 control replaces: one id
+    (renumbered or unchanged), several (a merge), or `[]` (a new control). Only present
+    for releases whose workbook has the column (2026.3+).
+  - `data/scf-legacy-map.json` (also `api/legacy-map.json`) — the same data keyed by old
+    id: `{"from_version": "2026.2", "to_version": "2026.3", "map": {"<old id>":
+    {"new": "<new id>", "merged": bool, "deprecated": bool}}}`. `merged`: the new control
+    absorbed several old ids; `deprecated`: the old control was a duplicate removed by the
+    merge (`READ THIS`). The validation gate proves every 2026.2 id (all 1,534) maps to
+    exactly one real 2026.3 control; 45 old ids sit in 22 merges, 23 of them deprecated.
 - `controls[].errata` says what changed for each control (`- renumbered`, `- renamed`,
   `- wordsmithed`, `- new control`).
 - `CHANGELOG.md` lists the exact added, removed and changed ids per release.

@@ -196,6 +196,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "NET-08.1"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

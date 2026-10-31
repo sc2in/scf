@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "VPM-04.1"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

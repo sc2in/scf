@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "END-12"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-mitre-att_ck-16-1": [

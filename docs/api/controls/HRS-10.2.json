@@ -177,6 +177,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-07.2"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "emea-eu-nis2-annex-2024": [

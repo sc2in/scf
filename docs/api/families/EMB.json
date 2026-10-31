@@ -193,6 +193,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Embedded Technology",
       "crosswalks": {}
     },
@@ -394,6 +395,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-01"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -654,6 +658,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "usa-federal-dow-brilliant-basics-ot": [
@@ -874,6 +879,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -1105,6 +1111,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-02"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "emea-sau-cgiot-2024": [
@@ -1319,6 +1328,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-03"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "usa-federal-dow-brilliant-basics-ot": [
@@ -1544,6 +1556,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-04"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -1766,6 +1781,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-05"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -2003,6 +2021,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-06"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -2245,6 +2266,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-07"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "emea-sau-cgiot-2024": [
@@ -2454,6 +2478,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-08"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -2665,6 +2692,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-09"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -2890,6 +2920,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-10"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -3096,6 +3129,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-11"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -3303,6 +3339,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "usa-federal-dow-brilliant-basics-ot": [
@@ -3506,6 +3543,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-12"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -3710,6 +3750,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-13"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -3918,6 +3961,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-14"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -4120,6 +4166,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-15"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -4343,6 +4392,9 @@
         "MT-31": "Likely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "EMB-16"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -4547,6 +4599,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-17"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -4743,6 +4798,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-18"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -4947,6 +5005,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "EMB-19"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "general-csa-iot-2": [
@@ -5150,6 +5211,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "PES-17"
+      ],
       "family_name": "Embedded Technology",
       "crosswalks": {}
     },
@@ -5343,6 +5407,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "emea-sau-otcc-1-2022": [
@@ -5547,6 +5612,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Embedded Technology",
       "crosswalks": {
         "apac-sgp-ccp-cii-2026": [
@@ -5739,6 +5805,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Embedded Technology",
       "crosswalks": {}
     }

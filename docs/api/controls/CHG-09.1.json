@@ -181,6 +181,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CHG-06.1"
+  ],
   "family_name": "Change Management",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

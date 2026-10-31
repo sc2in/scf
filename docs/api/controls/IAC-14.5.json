@@ -182,6 +182,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "IAC-10.10"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-govramp": [

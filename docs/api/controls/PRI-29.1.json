@@ -181,6 +181,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PRI-03.9"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-apec-privacy-framework-2015": [

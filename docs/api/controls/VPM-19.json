@@ -179,6 +179,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "VPM-07.1"
+  ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
     "general-csa-iot-2": [

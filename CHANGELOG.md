@@ -1,5 +1,20 @@
 # Changelog
 
+## Unreleased
+
+- **Legacy control ids.** The 2026.3 workbook's `Legacy SCF #` column is now emitted:
+  each control carries `legacy_ids` (the 2026.2 ids it replaces; `[]` for a new
+  control, several for a merge), and the new `data/scf-legacy-map.json` (published as
+  `api/legacy-map.json`) maps every 2026.2 id to its 2026.3 id with `merged` /
+  `deprecated` flags (deprecations from the `READ THIS` tab). 1,534 old ids, 45 of them
+  in 22 merges, 23 deprecated. Additive only; releases without the column (2026.1.1,
+  2026.2) emit neither.
+- New gate checks: `legacy-map-split` (an old id on two controls), `legacy-map-target`
+  (a new id that is not a current control), `legacy-map-coverage` (old ids must equal
+  the previous release's control set — read from the previous catalog in `data/`, or
+  `--previous-catalog`), `legacy-map-drift`, and `legacy-deprecated` (READ THIS and the
+  column disagree).
+
 ## SCF 2026.3
 
 Upstream restructured the workbook again, which broke the autopilot validation

@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "END-16"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-govramp": [

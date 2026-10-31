@@ -193,6 +193,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered\n- moved domains",
+  "legacy_ids": [
+    "MDM-02"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-govramp": [

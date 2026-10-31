@@ -202,6 +202,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "AST-12"
+  ],
   "family_name": "Asset Management",
   "crosswalks": {
     "general-iso-27002-2022": [

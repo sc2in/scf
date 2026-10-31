@@ -190,6 +190,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CLD-06.1"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "general-iso-27001-2022": [

@@ -181,6 +181,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "SAT-03.9"
+  ],
   "family_name": "Security Awareness & Training",
   "crosswalks": {
     "general-nist-800-161-r1": [

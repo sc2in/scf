@@ -199,6 +199,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MNT-04.2"
+  ],
   "family_name": "Maintenance",
   "crosswalks": {
     "general-govramp": [

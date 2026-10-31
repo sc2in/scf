@@ -192,6 +192,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "TDA-01.3"
+  ],
   "family_name": "Technology Development & Acquisition",
   "crosswalks": {
     "general-ul-2900-1-2017": [

@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "CHG-08"
+  ],
   "family_name": "Change Management",
   "crosswalks": {
     "general-iec-62443-4-2-2019": [

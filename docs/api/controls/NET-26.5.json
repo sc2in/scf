@@ -194,6 +194,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "NET-14.2"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-cis-csc-8-1": [

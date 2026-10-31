@@ -182,6 +182,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old CFG-05.1",
+  "legacy_ids": [
+    "CFG-05.1",
+    "END-03.1"
+  ],
   "family_name": "Change Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

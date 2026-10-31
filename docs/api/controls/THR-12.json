@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "THR-06"
+  ],
   "family_name": "Threat Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

@@ -185,6 +185,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "HRS-09.4"
+  ],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "general-govramp": [

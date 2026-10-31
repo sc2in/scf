@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-02.3"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-mitre-att_ck-16-1": [

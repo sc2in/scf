@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-15.5"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-csa-iot-2": [

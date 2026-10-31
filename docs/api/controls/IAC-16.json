@@ -188,6 +188,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAC-10.14"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "usa-state-ca-ccpa-cpra-2026": [

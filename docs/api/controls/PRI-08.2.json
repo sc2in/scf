@@ -194,6 +194,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "VPM-04.2"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-scf-dpmp-2026": [

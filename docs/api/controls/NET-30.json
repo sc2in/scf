@@ -207,6 +207,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-14.6"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-pci-dss-4-0-1": [

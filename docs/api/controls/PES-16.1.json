@@ -209,6 +209,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PES-12.1"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

@@ -183,6 +183,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "CRY-09.5"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "apac-mys-bnm-rmit-2025": [

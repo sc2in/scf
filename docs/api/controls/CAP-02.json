@@ -212,6 +212,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CAP-01"
+  ],
   "family_name": "Capacity & Performance Planning",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

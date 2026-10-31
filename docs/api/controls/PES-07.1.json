@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "PES-02.2"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "usa-federal-doe-c2m2-2-1": [

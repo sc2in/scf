@@ -187,6 +187,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "DCH-23.7"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-nist-800-53-r5-2": [

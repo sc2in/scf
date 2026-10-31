@@ -183,6 +183,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "AST-29.1"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "apac-nzl-ism-3-9": [

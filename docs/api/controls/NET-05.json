@@ -197,6 +197,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "NET-05"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "general-govramp": [

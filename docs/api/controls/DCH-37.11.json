@@ -195,6 +195,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "DCH-05.11"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {}
 }

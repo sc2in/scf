@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "VPM-04.3"
+  ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
     "general-iec-62443-2-1-2024": [

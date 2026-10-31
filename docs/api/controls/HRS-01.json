@@ -190,6 +190,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Human Resources Security",
   "crosswalks": {
     "emea-eu-dora-rts-2024": [

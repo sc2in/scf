@@ -192,6 +192,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -496,6 +497,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-01"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1119,6 +1123,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-01.1"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-bsi-200-1-1-0": [
@@ -1408,6 +1415,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-02"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2112,6 +2122,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-02.1"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-cr-cmm-2026": [
@@ -2366,6 +2379,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-03"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3156,6 +3172,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-03.3"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3579,6 +3598,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed\n- renumbered",
+      "legacy_ids": [
+        "SAT-03.5"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3840,6 +3862,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AAT-05"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -4033,6 +4058,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "SAT-03.4"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "usa-federal-dhs-cisa-cpg-2-0": [
@@ -4236,6 +4264,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "SAT-03.6"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -4650,6 +4681,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-02.2"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -4955,6 +4989,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-03.2"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5274,6 +5311,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-03.9"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-nist-800-161-r1": [
@@ -5470,6 +5510,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "TDA-11.1"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -5718,6 +5761,9 @@
         "MT-31": "Possible"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "QTS-05"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {}
     },
@@ -5908,6 +5954,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-03.7"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6128,6 +6177,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-03.8"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -6354,6 +6406,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-03.1"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -6600,6 +6655,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-04"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-govramp": [
@@ -6950,6 +7008,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-04.1"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "general-nist-800-172-r3": [
@@ -7154,6 +7215,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "SAT-05"
+      ],
       "family_name": "Security Awareness & Training",
       "crosswalks": {
         "usa-federal-dhs-cisa-cpg-2-0": [

@@ -192,6 +192,10 @@
     "MT-31": "Likely"
   },
   "errata": "- merged old CRY-02",
+  "legacy_ids": [
+    "CRY-02",
+    "IAC-12"
+  ],
   "family_name": "Identification & Authentication",
   "crosswalks": {
     "general-csa-iot-2": [

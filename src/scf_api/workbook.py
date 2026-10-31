@@ -78,6 +78,8 @@ SHEET_PATTERNS: dict[str, tuple[tuple[str, ...], tuple[str, ...]]] = {
     "privacy": (("privacy",), ("evidence",)),
     "risks": (("risk catalog",), ()),
     "threats": (("threat catalog",), ()),
+    # 2026.3+: release notes; its deprecated-controls table feeds the legacy map.
+    "readme": (("read this",), ()),
 }
 
 

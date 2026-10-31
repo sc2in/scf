@@ -186,6 +186,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "VPM-02.1"
+  ],
   "family_name": "Vulnerability & Patch Management",
   "crosswalks": {
     "usa-federal-dow-brilliant-basics-it": [

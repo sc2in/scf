@@ -192,6 +192,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "PRI-01.8"
+  ],
   "family_name": "Data Privacy",
   "crosswalks": {
     "general-nist-privacy-framework-1-0": [

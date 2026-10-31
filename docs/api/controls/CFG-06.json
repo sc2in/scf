@@ -201,6 +201,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old AST-02.4",
+  "legacy_ids": [
+    "AST-02.4",
+    "CFG-02.7"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

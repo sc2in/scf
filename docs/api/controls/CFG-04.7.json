@@ -182,6 +182,9 @@
     "MT-31": "Likely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "CRY-06"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-cis-csc-8-1": [

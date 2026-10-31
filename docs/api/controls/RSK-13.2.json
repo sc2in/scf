@@ -203,6 +203,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "RSK-07"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "general-coso-2013": [

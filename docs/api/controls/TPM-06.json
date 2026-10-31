@@ -192,6 +192,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "TDA-03.1"
+  ],
   "family_name": "Third-Party Management",
   "crosswalks": {
     "general-nist-800-53-r4": [

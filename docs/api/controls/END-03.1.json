@@ -190,6 +190,10 @@
     "MT-31": "Unlikely"
   },
   "errata": "- merged old END-08.1",
+  "legacy_ids": [
+    "END-04.3",
+    "END-08.1"
+  ],
   "family_name": "Endpoint Security",
   "crosswalks": {
     "general-cis-csc-8-1": [

@@ -204,6 +204,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "OPS-03"
+  ],
   "family_name": "Security Operations",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

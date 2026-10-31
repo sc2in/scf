@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "CFG-02.9"
+  ],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-csa-cmm-4-1-0": [

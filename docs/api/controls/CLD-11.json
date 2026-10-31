@@ -193,6 +193,9 @@
     "MT-30": "Unlikely",
     "MT-31": "Unlikely"
   },
+  "legacy_ids": [
+    "CLD-11"
+  ],
   "family_name": "Cloud Security",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

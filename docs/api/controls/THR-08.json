@@ -187,6 +187,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "THR-10"
+  ],
   "family_name": "Threat Management",
   "crosswalks": {
     "general-aicpa-tsc-2017": [

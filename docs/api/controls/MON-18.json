@@ -198,6 +198,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "MON-01.14"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "general-govramp": [

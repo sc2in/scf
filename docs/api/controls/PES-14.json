@@ -219,6 +219,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "PES-06"
+  ],
   "family_name": "Physical & Environmental Security",
   "crosswalks": {
     "general-iso-27002-2022": [

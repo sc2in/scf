@@ -193,6 +193,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Security Operations",
       "crosswalks": {
         "emea-eu-eba-ict-srm-2025": [
@@ -402,6 +403,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "OPS-01"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -807,6 +811,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "OPS-02"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1060,6 +1067,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "OPS-01.1"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1766,6 +1776,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-26"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "apac-aus-cloud-controls-matrix-2026": [
@@ -1992,6 +2005,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered\n- moved domains",
+      "legacy_ids": [
+        "AST-28"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "general-swift-cscf-2025": [
@@ -2238,6 +2254,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "OPS-03"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -2601,6 +2620,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "OPS-05"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "general-iso-42001-2023": [
@@ -2823,6 +2845,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "OPS-04"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -3079,6 +3104,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "OPS-06"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [
@@ -3312,6 +3340,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "OPS-07"
+      ],
       "family_name": "Security Operations",
       "crosswalks": {
         "usa-federal-dhs-cisa-tic-3-0": [

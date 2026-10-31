@@ -188,6 +188,7 @@
     "MT-31": "Unlikely"
   },
   "errata": "- new control",
+  "legacy_ids": [],
   "family_name": "Configuration Management",
   "crosswalks": {
     "general-govramp": [

@@ -195,6 +195,7 @@
         "MT-31": "Unlikely"
       },
       "errata": "- new control",
+      "legacy_ids": [],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "emea-eu-dora-rts-2024": [
@@ -416,6 +417,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-01"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1043,6 +1047,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-02"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -1474,6 +1481,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-02.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-coso-2013": [
@@ -1727,6 +1737,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renamed",
+      "legacy_ids": [
+        "HRS-03.2"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -2198,6 +2211,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-03"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3061,6 +3077,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renamed\n- renumbered",
+      "legacy_ids": [
+        "HRS-03.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -3454,6 +3473,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-04"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -3948,6 +3970,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-04.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-cobit-2019": [
@@ -4293,6 +4318,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "HRS-04.3"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-nist-800-53-r5-2": [
@@ -4526,6 +4554,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-05"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5031,6 +5062,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-05.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -5551,6 +5585,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-05.2"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -5917,6 +5954,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-05.3"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-csa-cmm-4-1-0": [
@@ -6373,6 +6413,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-05.4"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-cis-csc-8-1": [
@@ -6619,6 +6662,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-05.5"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-iso-27001-2022": [
@@ -6924,6 +6970,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "HRS-05.6"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {}
     },
@@ -7123,6 +7172,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-06"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7493,6 +7545,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- wordsmithed\n- renumbered",
+      "legacy_ids": [
+        "HRS-06.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -7934,6 +7989,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-01.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-bsi-200-1-1-0": [
@@ -8228,6 +8286,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-04.2"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-pmf-2020": [
@@ -8546,6 +8607,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-05.7"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-iso-27001-2022": [
@@ -8827,6 +8891,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-06.2"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-nist-800-53-r4": [
@@ -9045,6 +9112,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-09.3"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9257,6 +9327,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-02.2"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9462,6 +9535,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-07"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -9850,6 +9926,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-07.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10086,6 +10165,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-07.2"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "emea-eu-nis2-annex-2024": [
@@ -10283,6 +10365,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-07.3"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "usa-federal-dow-cmmc-2-level-3": [
@@ -10482,6 +10567,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-08"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -10842,6 +10930,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-09"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11234,6 +11325,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-09.4"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-govramp": [
@@ -11474,6 +11568,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-09.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11697,6 +11794,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-09.2"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -11986,6 +12086,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-10"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12312,6 +12415,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-11"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -12915,6 +13021,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-12"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-cobit-2019": [
@@ -13146,6 +13255,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-13"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -13366,6 +13478,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-13.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-cobit-2019": [
@@ -13563,6 +13678,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-13.2"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-cobit-2019": [
@@ -13759,6 +13877,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-13.3"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-cobit-2019": [
@@ -13955,6 +14076,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-13.4"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-aicpa-tsc-2017": [
@@ -14157,6 +14281,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-14"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "emea-gbr-def-stan-05-138-2024": [
@@ -14357,6 +14484,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-14.1"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "emea-gbr-def-stan-05-138-2024": [
@@ -14561,6 +14691,9 @@
         "MT-31": "Unlikely"
       },
       "errata": "- renumbered",
+      "legacy_ids": [
+        "HRS-15"
+      ],
       "family_name": "Human Resources Security",
       "crosswalks": {
         "general-nist-600-1-gen-ai-profile": [

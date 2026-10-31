@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "CPL-02.2"
+  ],
   "family_name": "Compliance",
   "crosswalks": {
     "general-cobit-2019": [

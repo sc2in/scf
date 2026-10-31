@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renamed\n- renumbered",
+  "legacy_ids": [
+    "MON-17.1"
+  ],
   "family_name": "Continuous Monitoring",
   "crosswalks": {
     "emea-gbr-def-stan-05-138-2024": [

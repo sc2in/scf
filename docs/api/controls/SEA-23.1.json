@@ -184,6 +184,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "CLD-05"
+  ],
   "family_name": "Secure Engineering & Architecture",
   "crosswalks": {
     "emea-deu-c5-2026": [

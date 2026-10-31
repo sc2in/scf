@@ -182,6 +182,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "IAO-05.1"
+  ],
   "family_name": "Information Assurance",
   "crosswalks": {
     "general-nist-800-53-r4": [

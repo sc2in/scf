@@ -181,6 +181,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renamed\n- renumbered",
+  "legacy_ids": [
+    "DCH-18.1"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-iec-tr-60601-4-5-2021": [

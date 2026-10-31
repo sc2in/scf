@@ -196,6 +196,9 @@
     "MT-31": "Possible"
   },
   "errata": "- renumbered\n- moved domains",
+  "legacy_ids": [
+    "CHG-02.5"
+  ],
   "family_name": "Cryptographic Protections",
   "crosswalks": {
     "general-govramp": [

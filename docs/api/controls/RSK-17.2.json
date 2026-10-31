@@ -189,6 +189,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "RSK-13.1"
+  ],
   "family_name": "Risk Management",
   "crosswalks": {
     "apac-mys-bnm-rmit-2025": [

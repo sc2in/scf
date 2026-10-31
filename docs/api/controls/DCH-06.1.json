@@ -200,6 +200,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- wordsmithed\n- renumbered",
+  "legacy_ids": [
+    "DCH-01.4"
+  ],
   "family_name": "Data Classification & Handling",
   "crosswalks": {
     "general-aicpa-pmf-2020": [

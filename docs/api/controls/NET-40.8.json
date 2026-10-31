@@ -191,6 +191,9 @@
     "MT-31": "Unlikely"
   },
   "errata": "- renumbered",
+  "legacy_ids": [
+    "NET-20.9"
+  ],
   "family_name": "Network Security",
   "crosswalks": {
     "usa-federal-dhs-cisa-tic-3-0": [
